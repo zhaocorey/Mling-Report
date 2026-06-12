@@ -64,6 +64,28 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 3. 删除 `pipeline/bee_sources_incremental.json`
 4. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
 
+### Step 4: 码工程师👨‍💻 推送报告到远程仓库
+
+Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`），任务指令：
+
+```
+推送增量报告到 GitHub 远程仓库：
+1. 确认本地报告文件存在：sources_reports/YYYY-MM-DD.md
+2. 克隆远程仓库（如不存在）：
+   - 仓库地址：git@github.com:zhaocorey/CaiWeiReport.git
+   - 目标目录：sources_reports/
+3. 拷贝报告文件到远程仓库的 sources_reports/ 目录
+4. Git add → commit → push origin main
+   - Commit message: feat: 新增 YYYY-MM-DD 增量寻源报告 (N个新数据集)
+5. 确认 push 成功，输出 GitHub 链接
+```
+
+**远程仓库信息**：
+- URL: `git@github.com:zhaocorey/CaiWeiReport.git`
+- 分支: `main`
+- 报告目录: `sources_reports/`
+- 文件命名: `YYYY-MM-DD.md`（以执行日期命名）
+
 ## 时效性评分规则
 
 | 评分 | 条件 | 报告标注 |
