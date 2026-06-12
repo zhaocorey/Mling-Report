@@ -45,12 +45,18 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`），任
 Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mode: "run"`），任务指令：
 
 ```
-增量报告生成任务（时效聚焦）：
+增量报告生成任务（时效聚焦 + 去重）：
 1. 读取 pipeline/bee_sources_incremental.json（本次增量）
 2. 对比 bee_sources.json（全量基线）
-3. 生成增量报告 sources_reports/YYYY-MM-DD.md，格式见 references/report-template.md
-4. 如新增数据集值得加入 Top 10，标注并说明替换建议
-5. 超 6 个月未更新的数据集标注「陈旧」并降级推荐
+3. ⚠️ 去重规则（严格执行）：
+   - 扫描 sources_reports/ 目录下所有历史报告
+   - 提取所有已报告过的数据集名称和 URL
+   - 本次报告中只写入**从未在任何历史报告中出现过**的数据集
+   - 如果某数据集之前报告过但本次有版本更新，仅在「🔄 更新数据集」章节简述变更
+   - 严禁在「🆕 新增数据集」章节重复介绍已有数据集
+4. 生成增量报告 sources_reports/YYYY-MM-DD.md，格式见 references/report-template.md
+5. 如新增数据集值得加入 Top 10，标注并说明替换建议
+6. 超 6 个月未更新的数据集标注「陈旧」并降级推荐
 ```
 
 报告模板见 `references/report-template.md`。
