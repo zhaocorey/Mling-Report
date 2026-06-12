@@ -1,6 +1,6 @@
 {
   "search_date": "2026-06-12",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。",
+  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复）",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -645,6 +645,41 @@
       "timeliness_score": "高",
       "search_keywords": "multilingual refusal safety alignment",
       "source": "HuggingFace API扫描发现"
+    },
+    {
+      "name": "UltraData-SFT-2605",
+      "url": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "ru",
+        "ar",
+        "hi",
+        "vi",
+        "th",
+        "id",
+        "pt",
+        "nl",
+        "it",
+        "tr",
+        "pl",
+        "sv"
+      ],
+      "size": "15M+ 样本，覆盖 Math/Code/Knowledge/IF/Multi-lang-Math/Multi-lang-Knowledge 6 大核心域",
+      "license": "Apache-2.0",
+      "category": "微调",
+      "description": "OpenBMB 发布的高质量 SFT 数据集，采用 L0-L4 分层数据管理框架，包含 Deep Thinking + Non-thinking 双模式数据。经过 benchmark decontamination、training-based validation、query construction + filtering、answer quality filtering、self-evolving data augmentation 等 6 步 pipeline 处理。配套 MiniCPM5 模型。",
+      "discovered_date": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "UltraData-SFT-2605 openbmb MiniCPM5",
+      "source": "初始收录（从 README 分析）"
     }
   ]
 }

@@ -24,6 +24,7 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`），任
 ```
 增量寻源任务（时效优先）：
 1. 读取 bee_sources.json 获取已知数据集清单（共 N 个）
+   ⚠️ 注意：bee_sources.json 是唯一数据源，TOOLS.md 中不维护追踪列表
 2. 读取 pipeline/last_run.json 获取上次运行时间
 3. 用 web_search 搜索最近 24h~7d 内新发布或更新的多语言数据集
    - 搜索词附加时间限定（如 after:YYYY-MM）
@@ -66,9 +67,10 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 由调度方（zong）执行：
 
 1. 将 `bee_sources_incremental.json` 增量合并到 `bee_sources.json`
-2. 更新 `pipeline/last_run.json`（时间、报告路径、统计数）
-3. 删除 `pipeline/bee_sources_incremental.json`
-4. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
+2. **基线完整性校验**：检查 TOOLS.md 搜索关键词中提到的具体数据集名称是否全部存在于 `bee_sources.json` 中。如有遗漏，补录并标注来源为"关键词关联补录"
+3. 更新 `pipeline/last_run.json`（时间、报告路径、统计数）
+4. 删除 `pipeline/bee_sources_incremental.json`
+5. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
 
 ### Step 4: 码工程师👨‍💻 推送报告到远程仓库 + 飞书
 
