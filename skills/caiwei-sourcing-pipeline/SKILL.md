@@ -70,12 +70,14 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 3. 删除 `pipeline/bee_sources_incremental.json`
 4. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
 
-### Step 4: 码工程师👨‍💻 推送报告到远程仓库
+### Step 4: 码工程师👨‍💻 推送报告到远程仓库 + 飞书
 
 Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`），任务指令：
 
 ```
-推送增量报告到 GitHub 远程仓库：
+推送增量报告到 GitHub 远程仓库和飞书云文档：
+
+【GitHub 推送】
 1. 确认本地报告文件存在：sources_reports/YYYY-MM-DD.md
 2. 克隆远程仓库（如不存在）：
    - 仓库地址：git@github.com:zhaocorey/CaiWeiReport.git
@@ -84,6 +86,14 @@ Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`）�
 4. Git add → commit → push origin main
    - Commit message: feat: 新增 YYYY-MM-DD 增量寻源报告 (N个新数据集)
 5. 确认 push 成功，输出 GitHub 链接
+
+【飞书推送】
+6. 使用 feishu_create_doc 工具将报告内容创建为飞书云文档：
+   - title: "采薇寻源报告 YYYY-MM-DD"
+   - markdown: 报告正文内容（转换为 Lark-flavored Markdown）
+   - wiki_space: my_library（个人知识库）
+7. 如报告内容过长，先用 create-doc 创建核心内容，再用 feishu_update_doc（append 模式）分段追加
+8. 输出飞书文档链接
 ```
 
 **远程仓库信息**：
@@ -91,6 +101,11 @@ Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`）�
 - 分支: `main`
 - 报告目录: `sources_reports/`
 - 文件命名: `YYYY-MM-DD.md`（以执行日期命名）
+
+**飞书推送配置**：
+- 目标: 个人知识库（`wiki_space: my_library`）
+- 文档标题: `采薇寻源报告 YYYY-MM-DD`
+- 格式: Lark-flavored Markdown（支持高亮块、分栏、表格等）
 
 ## 时效性评分规则
 
