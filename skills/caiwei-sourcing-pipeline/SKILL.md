@@ -77,7 +77,7 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`），任务指令：
 
 ```
-推送增量报告到 GitHub 远程仓库和飞书云文档：
+推送增量报告到 GitHub + Gitee 远程仓库和飞书云文档：
 
 【GitHub 推送】
 1. 确认本地报告文件存在：sources_reports/YYYY-MM-DD.md
@@ -89,17 +89,24 @@ Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`）�
    - Commit message: feat: 新增 YYYY-MM-DD 增量寻源报告 (N个新数据集)
 5. 确认 push 成功，输出 GitHub 链接
 
+【Gitee 推送】
+6. 使用同一克隆目录，添加 gitee remote：
+   - git remote add gitee git@gitee.com:zhaocorey/CaiWeiReport.git
+7. git push gitee main
+8. 确认 push 成功，输出 Gitee 链接
+
 【飞书推送】
-6. 使用 feishu_create_doc 工具将报告内容创建为飞书云文档：
+9. 使用 feishu_create_doc 工具将报告内容创建为飞书云文档：
    - title: "采薇寻源报告 YYYY-MM-DD"
    - markdown: 报告正文内容（转换为 Lark-flavored Markdown）
    - wiki_space: my_library（个人知识库）
-7. 如报告内容过长，先用 create-doc 创建核心内容，再用 feishu_update_doc（append 模式）分段追加
-8. 输出飞书文档链接
+10. 如报告内容过长，先用 create-doc 创建核心内容，再用 feishu_update_doc（append 模式）分段追加
+11. 输出飞书文档链接
 ```
 
 **远程仓库信息**：
-- URL: `git@github.com:zhaocorey/CaiWeiReport.git`
+- GitHub: `git@github.com:zhaocorey/CaiWeiReport.git`
+- Gitee: `git@gitee.com:zhaocorey/CaiWeiReport.git`
 - 分支: `main`
 - 报告目录: `sources_reports/`
 - 文件命名: `YYYY-MM-DD.md`（以执行日期命名）
