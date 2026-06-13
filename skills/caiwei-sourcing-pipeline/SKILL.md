@@ -26,7 +26,7 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`），任
 1. 读取 bee_sources.json 获取已知数据集清单（共 N 个）
    ⚠️ 注意：bee_sources.json 是唯一数据源，TOOLS.md 中不维护追踪列表
 2. 读取 pipeline/last_run.json 获取上次运行时间
-3. 用 web_search 搜索最近 24h~7d 内新发布或更新的多语言数据集
+3. 用 web_search 搜索最近 20 天内新发布或更新的多语言数据集
    - 搜索词附加时间限定（如 after:YYYY-MM）
    - 优先平台：HuggingFace、GitHub、arXiv
    - 检查已知数据集是否有版本更新
