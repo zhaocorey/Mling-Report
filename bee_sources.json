@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-12",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题)",
+  "search_date": "2026-06-13",
+  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -58,15 +58,17 @@
       "description": "Mozilla发布的公共领域多语言数据集，是当时最大的公共领域LLM训练数据集。特色是包含文化遗产数据（书籍和报纸），非英语比例超过40%。2024年3月发布。"
     },
     {
-      "name": "HPLT (High Performance Language Technologies)",
+      "name": "HPLT (High Performance Language Technologies) v3.0",
       "url": "https://huggingface.co/papers/2403.14009",
       "languages": [
-        "近200种语言-脚本组合"
+        "~200种语言-脚本组合（ace, aeb, afr, als, amh, apc, arb, ars, ary, arz, asm, ast, awa, ayr, azb, azj, bak, bam, ban, bel, bem, ben, bho, bjn, bod, bos, bug, bul, cat, ceb, ces, cjk, ckb, cmn, crh, cym, dan, deu, dik, dyu, dzo等）"
       ],
-      "size": "约30万亿tokens",
+      "size": "~30万亿tokens（当前最大开放获取多语言预训练语料之一）",
       "license": "开放获取",
       "category": "预训练",
-      "description": "大规模多语言数据集，包含从CommonCrawl和Internet Archive未使用网络爬取中提取的单语和双语语料。覆盖新闻、政府、论坛、维基百科、法律等多领域。v3.0版本于2025年发布。发表于LREC 2024。"
+      "description": "【版本更新】HPLT（High Performance Language Technologies）3.0正式发布。相比基线中的HPLT描述，v3.0是独立的新HF数据集条目（HPLT/HPLT3.0），包含完整的开源pipeline：文档选择、HTML文本提取、语言识别、精确/近似去重、标注（register标签、质量估计、PII检测）。附带9种欧洲语言的综合基准评估集。2026年6月11日更新（2天前）。86次下载（新发布），20个赞。",
+      "last_updated": "2026-06-11",
+      "release_version": "v3.0 (arXiv:2511.01066v3)"
     },
     {
       "name": "RedPajama-V2",
@@ -847,6 +849,133 @@
       "timeliness_score": "中",
       "search_keywords": "multilingual VLM visual reasoning Indian languages benchmark",
       "source": "DuckDuckGo site:huggingface.co搜索发现"
+    },
+    {
+      "name": "EuroBlocks-SFT-2512",
+      "url": "https://huggingface.co/datasets/utter-project/EuroBlocks-SFT-2512",
+      "languages": [
+        "24种欧盟官方语言 + 11种额外欧洲语言，共35种语言"
+      ],
+      "size": "1,094,265条指令对话样本（~4GB）",
+      "license": "开放获取（随EuroLLM-22B发布）",
+      "category": "微调",
+      "description": "EuroLLM-22B配套多语言指令微调数据集。覆盖35种欧洲语言的高质量SFT对话数据，包含conversations（多轮对话）和language标签。由utter-project（葡萄牙AI实验室）发布，用于训练EuroLLM-22B指令跟随模型。ICLR 2026收录。548次下载，18个赞。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-02-06",
+      "release_version": "v1 (arXiv:2602.05879)",
+      "timeliness_score": "高",
+      "search_keywords": "EuroBlocks EuroLLM multilingual instruction dataset",
+      "source": "HuggingFace API扫描 + SearXNG论文交叉验证"
+    },
+    {
+      "name": "EuroWeb-2512",
+      "url": "https://huggingface.co/datasets/utter-project/EuroWeb-2512",
+      "languages": [
+        "24种欧盟官方语言 + 11种额外语言（ar, bg, ca, cs, da, de, el, en, es, et, eu, fi, fr, ga, hr, hu, it, lt, lv, mt, nl, pl, pt, ro, sk, sl, sv, uk等）"
+      ],
+      "size": "1B-10B样本规模（大规模网页预训练语料），205,385次下载",
+      "license": "开放获取（随EuroLLM-22B发布）",
+      "category": "预训练",
+      "description": "EuroLLM-22B配套多语言网页预训练数据集。从多种来源收集的多语言网页数据，经EuroFilter-v1质量分类器处理，分为high/medium_high/medium/medium_low/low五个质量层级。覆盖35种欧洲语言，是当前最大规模的开放欧洲多语言预训练语料之一。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-02-09",
+      "release_version": "v1 (arXiv:2602.05879)",
+      "timeliness_score": "高",
+      "search_keywords": "EuroWeb EuroLLM multilingual pretraining web corpus",
+      "source": "HuggingFace API扫描发现"
+    },
+    {
+      "name": "F2LLM-v2",
+      "url": "https://huggingface.co/datasets/codefuse-ai/F2LLM-v2",
+      "languages": [
+        "90+语言：en, zh, ru, es, fr, de, ar, nl, vi, hi, ko, ja, it, id, pt, pl, tr, da, th, sv, fa, uk, cs, no, el, ca, ro, fi, bg, tl, gl, my, hy, km, ne, hu, eu, he, lo, sw, az, lv, si, sk, tg, et, lt, ms, hr, is, sl, sr, ur, bn, af, ta, ka, te, ml, mn, nn, kk, cy, mr, sq, nb, mk, jv, kn, eo, la, gu, uz, am, oc, be, mg, vo, pa, lb, ht, br, ga, xh, tt, bs, yo等"
+      ],
+      "size": "6000万高质量样本（10M-100M级别），Apache-2.0",
+      "license": "Apache-2.0",
+      "category": "预训练",
+      "description": "F2LLM-v2多语言嵌入模型的训练数据集。覆盖90+语言，特别强调中低资源语言。在MTEB的11个基准上达到SOTA。配套8种模型尺寸（80M-14B参数）。采用两阶段LLM嵌入训练pipeline + Matryoshka学习。2,624次下载。2026年6月9日更新（4天前）。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-06-09",
+      "release_version": "v2 (arXiv:2603.19223)",
+      "timeliness_score": "高",
+      "search_keywords": "F2LLM multilingual embedding MTEB dataset",
+      "source": "HuggingFace API扫描 + SearXNG论文发现"
+    },
+    {
+      "name": "AyaVisionBench",
+      "url": "https://huggingface.co/datasets/CohereLabs/AyaVisionBench",
+      "languages": [
+        "23种语言：en, fr, de, es, it, pt, ja, ko, zh, ar, el, fa, pl, id, cs, he, hi, nl, ro, ru, tr, uk, vi"
+      ],
+      "size": "23语言 × 9任务类别 × 15样本 = 3,105个图文对（1K-10K级别）",
+      "license": "Apache-2.0",
+      "category": "评估",
+      "description": "CohereLabs发布的多语言视觉-语言模型评估基准。覆盖23种语言（全球一半人口使用的语言），9个任务类别，每语言135个图文对。每个问题都需要视觉上下文才能回答，评估真实世界多语言多模态场景。916次下载，37个赞。2026年3月更新。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-03-06",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "AyaVisionBench CohereLabs multilingual vision benchmark",
+      "source": "HuggingFace API扫描（CohereLabs生态搜索）"
+    },
+    {
+      "name": "ReasonXL (Soofi-Think-SFT-10B-multilingual)",
+      "url": "https://huggingface.co/datasets/toroe/Soofi-Think-SFT-10B-multilingual",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it"
+      ],
+      "size": "~44B tokens，5种语言（10M-100M样本级别），Apache-2.0",
+      "license": "Apache-2.0",
+      "category": "微调",
+      "description": "大规模多语言推理语料库，覆盖5种语言（英/德/法/西/意），约440亿tokens。设计用于推理模型的SFT训练，包含跨技术领域的语言内思维链（CoT）推理轨迹。英语源数据来自10个现有推理数据集，经质量过滤后翻译生成多语言版本。1,216次下载。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-03-27",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Soofi-Think ReasonXL multilingual reasoning CoT",
+      "source": "HuggingFace API扫描"
+    },
+    {
+      "name": "PleIAs Common Corpus",
+      "url": "https://huggingface.co/datasets/PleIAs/common_corpus",
+      "languages": [
+        "13种语言：en, fr, de, zh, it, es, ja, pl, la, nl, ru, ar, ko"
+      ],
+      "size": "2.27万亿tokens（2,267,302,720,836），当前最大开放许可文本数据集",
+      "license": "开放许可（ICLR 2026 oral论文配套）",
+      "category": "预训练",
+      "description": "PleIAs（非Mozilla）发布的最大开放许可文本数据集。2.27万亿tokens，包含书籍、报纸、科学论文、政府文件、法律文档、代码等多种来源。ICLR 2026 oral论文配套。注意：与基线中的Mozilla Common Corpus（5000亿words, Public Domain）是不同数据集。128,481次下载，401个赞。2026年5月更新。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-05-06",
+      "release_version": "ICLR 2026 oral (arXiv:2410.22587)",
+      "timeliness_score": "高",
+      "search_keywords": "Common Corpus PleIAs ICRL 2026 multilingual pretraining",
+      "source": "HuggingFace API扫描 + SearXNG论文交叉验证"
+    },
+    {
+      "name": "OpenSeal CPT Data (SEA-PILE-v2)",
+      "url": "https://huggingface.co/datasets/tsangb34/openseal-cpt-data-SEA-PILE-v2-new_tokens_262K-id-ta-vi-tar",
+      "languages": [
+        "id (印尼语)",
+        "ta (泰米尔语)",
+        "vi (越南语)",
+        "th (泰语)",
+        "其他东南亚语言"
+      ],
+      "size": "34.7B tokens平行数据（首个真正开源东南亚LLM训练数据）",
+      "license": "开放获取（论文声明全开源）",
+      "category": "预训练",
+      "description": "OpenSeal项目的持续预训练数据，首个真正开源的东南亚LLM训练数据集。使用34.7B tokens平行数据在8×H200 GPU上180小时训练，构建了与同规模模型性能相当的东南亚LLM。包含多个子集：SEA-PILE-v2（多语言混合）、SEA-Parallel（平行语料）、MapCC（网络爬取）等。2026年6月初更新。",
+      "discovered_date": "2026-06-13",
+      "last_updated": "2026-06-05",
+      "release_version": "v2 (arXiv:2602.02266)",
+      "timeliness_score": "高",
+      "search_keywords": "OpenSeal Southeast Asian parallel corpus LLM",
+      "source": "HuggingFace API扫描 + SearXNG论文发现"
     }
   ]
 }
