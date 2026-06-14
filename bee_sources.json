@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-13",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新",
+  "search_date": "2026-06-14",
+  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -941,6 +941,42 @@
       "timeliness_score": "高",
       "search_keywords": "OpenSeal Southeast Asian parallel corpus LLM",
       "source": "HuggingFace API扫描 + SearXNG论文发现"
+    },
+    {
+      "name": "Ultra-FineWeb-L3",
+      "url": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb-L3",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "600B+ tokens (400B+ English + 200B+ Chinese), 1B-10B行级数据",
+      "license": "Apache-2.0",
+      "category": "预训练",
+      "description": "OpenBMB与清华联合发布的Ultra-FineWeb-L3，是UltraData L0-L4分级数据治理框架下的L3精炼数据。通过Q&A Pair生成和多风格改写，从高质量网页数据中提炼而来。是目前已知最大的开源中文预训练合成语料，已用于MiniCPM5-1B的预训练。HuggingFace下载量69,778次，289个赞。",
+      "discovered_date": "2026-06-14",
+      "last_updated": "2026-05-28",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "Ultra-FineWeb-L3 openbmb dataset 600B tokens",
+      "source": "HuggingFace API搜索 + SearXNG科学搜索 + DuckDuckGo搜索多路验证"
+    },
+    {
+      "name": "UltraData-Math",
+      "url": "https://huggingface.co/datasets/openbmb/UltraData-Math",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "290B+ tokens (L1: 170.5B web语料 + L2: 33.7B 质量筛选 + L3: 88B 多格式精炼)",
+      "license": "Apache-2.0",
+      "category": "预训练",
+      "description": "OpenBMB发布的大规模高质量数学预训练数据集，包含三个渐进层级(L1/L2/L3)，系统性增强LLM的数学推理能力。已用于MiniCPM系列的数学预训练。HuggingFace下载量32,021次，315个赞。",
+      "discovered_date": "2026-06-14",
+      "last_updated": "2026-04-15",
+      "release_version": "v1.0",
+      "timeliness_score": "中",
+      "search_keywords": "openbmb UltraData-Math",
+      "source": "HuggingFace API搜索 (openbmb UltraData关键词)"
     }
   ]
 }
