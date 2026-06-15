@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-14",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新",
+  "search_date": "2026-06-15",
+  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新 | 2026-06-15 增量寻源: +11个数据集(BENI Global 10/MixtureVitae/AfriMMT-EA/Nemotron-CC-Math/Nemotron-Safety-Guard-v3/M4-RAG/propella-annotations/Chitrakshara/SemEval-2026 Task 7/SemEval-2026 Task 9/CMHG)",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -977,6 +977,193 @@
       "timeliness_score": "中",
       "search_keywords": "openbmb UltraData-Math",
       "source": "HuggingFace API搜索 (openbmb UltraData关键词)"
+    },
+    {
+      "name": "BENI Global 10",
+      "url": "https://arxiv.org/abs/2606.10225",
+      "languages": [
+        "en, es, pt, fr, ar, hi, zh, sw, id, tr (10 languages across 7 language families)"
+      ],
+      "size": "Multilingual economic news corpus",
+      "license": "Not specified (research use)",
+      "category": "评估",
+      "description": "First multilingual economic news corpus spanning 10 languages across 7 language families for the Global South. Addresses the English-centric bias (84%) in sentiment-based economic forecasting research. Covers economic narrative indices for developing economies.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-06-12",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual economic news corpus Global South 2026",
+      "source": "SearXNG arXiv search (arXiv:2606.10225, June 2026)"
+    },
+    {
+      "name": "MixtureVitae",
+      "url": "https://mlanthology.org/tmlr/2026/nguyen2026tmlr-mixturevitae/",
+      "languages": [
+        "Multilingual (multiple languages including low-resource)"
+      ],
+      "size": "Web-scale pretraining corpus",
+      "license": "Permissive-first, risk-mitigated (CC-BY/Apache + public domain)",
+      "category": "预训练",
+      "description": "Open-access pretraining corpus built to minimize legal risk while providing strong downstream performance. Follows a permissive-first, risk-mitigated sourcing strategy combining public-domain and permissively licensed text with carefully justified low-risk additions. Published in TMLR 2026.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-06-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "MixtureVitae pretraining dataset TMLR 2026",
+      "source": "DuckDuckGo web search (TMLR publication)"
+    },
+    {
+      "name": "AfriMMT-EA",
+      "url": "https://aclanthology.org/2026.findings-eacl.179/",
+      "languages": [
+        "53 East African languages (66 translation directions, including 23 new Kenyan/Tanzanian language pairs)"
+      ],
+      "size": "Large-scale multi-domain MT benchmark",
+      "license": "Not specified (academic use)",
+      "category": "评估",
+      "description": "First highly multilingual benchmark and MT dataset for East African languages. Covers 53 languages across 66 translation directions with multi-domain parallel data. Many languages had no prior digital presence. Used to fine-tune GEMMA 3 models (Safari-270M and Safari-1B). EACL 2026 Findings.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-05-20",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "AfriMMT-EA 53 East African languages EACL 2026",
+      "source": "DuckDuckGo web search (EACL 2026 Findings)"
+    },
+    {
+      "name": "Nemotron-CC-Math",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-CC-Math-v1",
+      "languages": [
+        "Primarily English (math/code content, some multilingual)"
+      ],
+      "size": "133B tokens (Nemotron-CC-Math-3+ and 4+ subsets)",
+      "license": "NVIDIA Open",
+      "category": "预训练",
+      "description": "133 billion-token high-quality math pretraining dataset from Common Crawl. Uses novel Lynx + LLM pipeline that preserves equations and code, standardizes to LaTeX, and removes noise. 4+ subset contains 5.5× more tokens than FineMath-4+. Outperforms all prior open math datasets including MegaMath, FineMath, and OpenWebMath. ICLR 2026.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-05-01",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "Nemotron-CC-Math 133B tokens ICLR 2026",
+      "source": "DuckDuckGo web search (ICLR 2026)"
+    },
+    {
+      "name": "Nemotron-Safety-Guard-Dataset-v3",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Safety-Guard-Dataset-v3",
+      "languages": [
+        "en, ar, de, es, fr, hi, ja, th, zh, nl, it, ko (12 languages)"
+      ],
+      "size": "514,617 samples",
+      "license": "NVIDIA Open",
+      "category": "对齐",
+      "description": "Large high-quality safety dataset for training multilingual LLM safety guard models. ~514K samples across 12 languages. Formerly known as Nemotron-Content-Safety-Dataset-Multilingual-v1. Designed for content safety classification across diverse linguistic contexts.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2025-12-30",
+      "release_version": "v3",
+      "timeliness_score": "中",
+      "search_keywords": "Nemotron-Safety-Guard-Dataset-v3 multilingual safety",
+      "source": "DuckDuckGo web search (NVIDIA Nemotron ecosystem)"
+    },
+    {
+      "name": "M4-RAG",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Anugraha_M4-RAG_A_Massive-Scale_Multilingual_Multi-Cultural_Multimodal_RAG_CVPR_2026_paper.html",
+      "languages": [
+        "42 languages with 56 regional dialects and registers"
+      ],
+      "size": "Massive-scale multimodal RAG dataset",
+      "license": "Not specified (academic use)",
+      "category": "评估",
+      "description": "Massive-scale multilingual multi-cultural multimodal RAG dataset. Covers 42 languages with 56 regional dialects and registers across two cultural VQA datasets. First of its kind for multilingual multimodal RAG evaluation. CVPR 2026.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-05-01",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "M4-RAG multilingual multimodal RAG CVPR 2026",
+      "source": "SearXNG CVPR 2026 search"
+    },
+    {
+      "name": "propella-annotations",
+      "url": "https://arxiv.org/abs/2602.12414",
+      "languages": [
+        "Multilingual (covers major pretraining corpora languages)"
+      ],
+      "size": "3B+ document annotations (covering FineWeb-2, FinePDFs, HPLT 3.0)",
+      "license": "Not specified (research use)",
+      "category": "预训练",
+      "description": "Multi-Property Document Annotation dataset for LLM data curation at scale. Over 3 billion document annotations covering major pretraining corpora including FineWeb-2, FinePDFs, and HPLT 3.0. Enables quality filtering and data selection for pretraining pipelines.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-02-19",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "propella document annotation pretraining data curation",
+      "source": "SearXNG pretraining dataset search (arXiv:2602.12414)"
+    },
+    {
+      "name": "Chitrakshara",
+      "url": "https://arxiv.org/abs/2603.23521",
+      "languages": [
+        "Indian languages (multilingual multimodal interleaved)"
+      ],
+      "size": "Large-scale multimodal dataset",
+      "license": "Not specified (academic use)",
+      "category": "评估",
+      "description": "Large multilingual multimodal dataset for Indian languages. Contains interleaved image-text data. Compared against other multilingual interleaved datasets covering 163 languages. Addresses the underrepresentation of Indian languages in multimodal AI.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-03-30",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "Chitrakshara multilingual multimodal Indian languages",
+      "source": "SearXNG arXiv search (arXiv:2603.23521)"
+    },
+    {
+      "name": "SemEval-2026 Task 7 (Everyday Knowledge)",
+      "url": "https://arxiv.org/abs/2605.02601",
+      "languages": [
+        "Multiple languages and cultures"
+      ],
+      "size": "Cultural knowledge evaluation dataset",
+      "license": "Not specified (shared task)",
+      "category": "评估",
+      "description": "SemEval-2026 shared task on evaluating LLM adaptability across diverse languages and cultures. Tests everyday cultural knowledge that varies across linguistic communities. Includes newly constructed datasets for culturally grounded reasoning.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-05-03",
+      "release_version": "2026",
+      "timeliness_score": "高",
+      "search_keywords": "SemEval 2026 task 7 everyday knowledge multilingual",
+      "source": "SearXNG SemEval 2026 search (arXiv:2605.02601)"
+    },
+    {
+      "name": "SemEval-2026 Task 9 (Multilingual Polarization)",
+      "url": "https://arxiv.org/abs/2604.06817",
+      "languages": [
+        "Multilingual, multicultural, multi-event"
+      ],
+      "size": "Pilot datasets released for shared task",
+      "license": "Not specified (shared task)",
+      "category": "评估",
+      "description": "SemEval-2026 task on detecting multilingual, multicultural and multi-event online polarization. Large-scale dataset for cross-cultural polarization detection across social media platforms (X and Telegram). Pilot datasets released before the shared task.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2026-04-09",
+      "release_version": "2026",
+      "timeliness_score": "中",
+      "search_keywords": "SemEval 2026 task 9 multilingual polarization",
+      "source": "SearXNG SemEval 2026 search (arXiv:2604.06817)"
+    },
+    {
+      "name": "CMHG (Chinese Minority Headline Generation)",
+      "url": "https://arxiv.org/abs/2509.09990",
+      "languages": [
+        "Tibetan, Uyghur, Traditional Mongolian + Chinese"
+      ],
+      "size": "Headline generation benchmark",
+      "license": "Not specified (academic use)",
+      "category": "评估",
+      "description": "Dataset and benchmark for headline generation of minority languages in China. Addresses challenges from unique writing systems of Tibetan, Uyghur, and Traditional Mongolian that differ from international standards. First benchmark for Chinese minority language headline generation.",
+      "discovered_date": "2026-06-15",
+      "last_updated": "2025-09-12",
+      "release_version": "v1",
+      "timeliness_score": "低",
+      "search_keywords": "CMHG Chinese minority language headline generation Tibetan Uyghur",
+      "source": "SearXNG Chinese minority language dataset search (arXiv:2509.09990)"
     }
   ]
 }
