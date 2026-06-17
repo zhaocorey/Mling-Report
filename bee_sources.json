@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-15",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新 | 2026-06-15 增量寻源: +11个数据集(BENI Global 10/MixtureVitae/AfriMMT-EA/Nemotron-CC-Math/Nemotron-Safety-Guard-v3/M4-RAG/propella-annotations/Chitrakshara/SemEval-2026 Task 7/SemEval-2026 Task 9/CMHG)",
+  "search_date": "2026-06-17",
+  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新 | 2026-06-15 增量寻源: +11个数据集(BENI Global 10/MixtureVitae/AfriMMT-EA/Nemotron-CC-Math/Nemotron-Safety-Guard-v3/M4-RAG/propella-annotations/Chitrakshara/SemEval-2026 Task 7/SemEval-2026 Task 9/CMHG) | 2026-06-17 增量寻源: +8个数据集(GitHub Multilingual Repos/DetectRL-X/multilingual-gsm-symbolic/open-bible TTS/FineTranslations/LEMAS/WAXAL/Omnilingual ASR)",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -1164,6 +1164,192 @@
       "timeliness_score": "低",
       "search_keywords": "CMHG Chinese minority language headline generation Tibetan Uyghur",
       "source": "SearXNG Chinese minority language dataset search (arXiv:2509.09990)"
+    },
+    {
+      "name": "GitHub Multilingual Repositories Dataset",
+      "url": "https://github.com/github/multilingual-repositories",
+      "languages": [
+        "多语言（覆盖40M+公开仓库的非英语内容，README/Issue/PR语言分类）"
+      ],
+      "size": "40M+仓库元数据，80M+语言分类行",
+      "license": "CC0-1.0",
+      "category": "预训练",
+      "description": "GitHub于2026年6月15日正式发布的仓库级多语言元数据集。包含超过4000万个公开仓库的元数据，以及超过8000万行语言分类信号（来自README文件、Issue讨论和Pull Request内容）。旨在帮助研究人员和开发者发现非英语的多语言开发者内容，填补非英语代码协作语境的数据空白。CC0-1.0公共领域许可，可自由用于LLM训练和评测。Microsoft 2025年开源AI多语言数据承诺的落地项目。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-06-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "GitHub multilingual repositories dataset June 2026 CC0",
+      "source": "DuckDuckGo搜索 + GitHub官方博客 + HelpNetSecurity等多家报道验证"
+    },
+    {
+      "name": "DetectRL-X",
+      "url": "https://github.com/AIDC-AI/Marco-LLM/tree/main/DetectRL-X",
+      "languages": [
+        "8种语言（覆盖多个语系）"
+      ],
+      "size": "3.46M样本（346万），6个领域，4种商业LLM生成器，8种攻击策略，4种文本长度粒度",
+      "license": "开放获取（ACL 2026）",
+      "category": "评估",
+      "description": "ACL 2026收录的最大规模多语言LLM生成文本检测基准。覆盖8种常用商业语言、6个高风险领域（学术/新闻/小说/SEO/Wiki/WebText）、4种商业LLM生成器、8种攻击策略（含改写和扰动攻击）、3种文本精炼操作。支持并行二元/三元检测任务，包含8个评估维度并比较12种检测器。首次系统性评估检测器在多语言真实场景下的可靠性。AIDC-AI/Marco-LLM项目发布。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-05-18",
+      "release_version": "v2 (arXiv:2605.15518v2)",
+      "timeliness_score": "高",
+      "search_keywords": "DetectRL-X multilingual LLM generated text detection ACL 2026",
+      "source": "DuckDuckGo搜索 + SearXNG论文交叉验证 + GitHub代码验证"
+    },
+    {
+      "name": "multilingual-gsm-symbolic",
+      "url": "https://huggingface.co/datasets/danish-foundation-models/multilingual-gsm-symbolic",
+      "languages": [
+        "en",
+        "da",
+        "de",
+        "is",
+        "nb",
+        "ru",
+        "zh"
+      ],
+      "size": "10K-100K样本（7种语言 × 符号化数学推理）",
+      "license": "MIT",
+      "category": "评估",
+      "description": "Danish Foundation Models项目发布的多语言符号化数学推理数据集。基于GSM-Symbolic基准扩展到7种语言（英语/丹麦语/德语/冰岛语/挪威语/俄语/中文），评估LLM的数学推理和符号操作能力。MIT许可，Parquet格式。540次下载，2026年6月15日更新（2天前）。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-06-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual gsm symbolic math reasoning benchmark 7 languages",
+      "source": "HuggingFace API扫描（multilingual搜索，lastModified排序）"
+    },
+    {
+      "name": "multilingual-tts/open-bible",
+      "url": "https://huggingface.co/datasets/multilingual-tts/open-bible",
+      "languages": [
+        "arb",
+        "asm",
+        "ben",
+        "ckb",
+        "hne",
+        "nya",
+        "dwr",
+        "luo",
+        "ewe",
+        "gmv",
+        "gof",
+        "guj",
+        "hat",
+        "hau",
+        "hil",
+        "hin",
+        "ibo",
+        "kan",
+        "kik",
+        "lin",
+        "lug",
+        "mal",
+        "mar",
+        "nde",
+        "nep",
+        "orm",
+        "pan",
+        "sna",
+        "swh",
+        "tam",
+        "tel",
+        "tur",
+        "twi",
+        "urd",
+        "vie",
+        "yor"
+      ],
+      "size": "1M-10M样本（35+语言，含大量非洲及南亚低资源语言）",
+      "license": "CC-BY-SA-4.0",
+      "category": "预训练",
+      "description": "大规模多语言圣经语音合成数据集，覆盖35+种语言，以非洲和南亚低资源语言为主（含斯瓦希里/约鲁巴/伊博/豪萨/卢奥/基库尤/卢干达等）。包含Parquet格式音频+文本对，附带强制对齐(forced-alignment)标注。配套论文arXiv:2606.09553。2,143次下载（社区活跃度高），2026年6月12日更新。适用于多语言TTS/ASR训练。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-06-12",
+      "release_version": "v1 (arXiv:2606.09553)",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual TTS bible African low-resource speech dataset",
+      "source": "HuggingFace API扫描（multilingual搜索，按更新时间排序）"
+    },
+    {
+      "name": "FineTranslations",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finetranslations",
+      "languages": [
+        "500+语言（与英语平行）"
+      ],
+      "size": "1万亿+tokens平行文本",
+      "license": "ODC-By",
+      "category": "预训练",
+      "description": "【前期遗漏补录】HuggingFace FineWeb团队发布的万亿级多语言→英语平行数据集。基于FineWeb-2语料库，使用Gemma3 27B将非英语内容翻译为英语创建。覆盖500+种语言，是当前最大规模的多语言平行文本数据集之一。2026年1月发布，17,521次下载，294个赞。填补了大规模多语言翻译训练数据的空白。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-01-09",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "FineTranslations huggingface trillion token parallel 500 languages",
+      "source": "DuckDuckGo搜索 + InfoQ报道 + 网易报道（前期搜索遗漏，本次补录）"
+    },
+    {
+      "name": "LEMAS Dataset",
+      "url": "https://huggingface.co/LEMAS-Project",
+      "languages": [
+        "zh",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "ru",
+        "id",
+        "vi"
+      ],
+      "size": "150,000+小时语音数据，10种主要语言",
+      "license": "开放获取",
+      "category": "预训练",
+      "description": "【前期遗漏补录】当前最大规模的开源多语言语音语料库，带有词级时间戳标注。覆盖15万+小时、10种主要语言（中/英/德/法/西/葡/意/俄/印尼/越南语）。通过高效数据处理pipeline构建，确保高质量数据和标注。配套两个基准模型：LEMAS-TTS（流匹配）和LEMAS-Edit（自回归语音编辑）。Idea研究院发布。arXiv:2601.04233。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-01-07",
+      "release_version": "v1 (arXiv:2601.04233)",
+      "timeliness_score": "中",
+      "search_keywords": "LEMAS 150K hours multilingual speech corpus word-level timestamps",
+      "source": "DuckDuckGo中文搜索（知乎报道）+ arXiv论文（前期搜索遗漏，本次补录）"
+    },
+    {
+      "name": "WAXAL",
+      "url": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
+      "languages": [
+        "27种撒哈拉以南非洲语言（覆盖1亿+使用者，26+国家）"
+      ],
+      "size": "2,411小时语音数据（1,846小时自然语音 + 565小时录音棚录音）",
+      "license": "高度开放许可（CC-BY类）",
+      "category": "预训练",
+      "description": "【前期遗漏补录】Google Research发布的大规模开放非洲语言语音数据集。覆盖27种撒哈拉以南非洲语言，代表超过1亿使用者。包含ASR组件（转录自然语音）和TTS组件（录音棚质量单说话人录音）。与非洲大学和研究机构合作构建。arXiv:2602.02734。已有近10,000次下载，正被用于ASR和TTS模型训练。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2026-03-06",
+      "release_version": "v1 (arXiv:2602.02734)",
+      "timeliness_score": "高",
+      "search_keywords": "WAXAL Google African speech dataset 27 languages open resource",
+      "source": "DuckDuckGo搜索 + Google Research Blog + MarkTechPost报道（前期搜索遗漏，本次补录）"
+    },
+    {
+      "name": "Omnilingual ASR Corpus",
+      "url": "https://huggingface.co/datasets/facebook/omnilingual-asr-corpus",
+      "languages": [
+        "1,600+语言（含350+未被ASR技术覆盖的低资源语言）"
+      ],
+      "size": "大规模多语言语音数据集（覆盖1600+语言的训练/评估数据）",
+      "license": "CC-BY-4.0",
+      "category": "预训练",
+      "description": "【前期遗漏补录】Meta发布的超大规模多语言ASR语料库，是Omnilingual ASR系统的数据基础。覆盖1600+种语言，包括500+从未被ASR技术服务过的语言。结合公开数据集和社区合作采集的语音录制数据。7B参数自监督预训练(w2v-BERT 2.0)的数据基础。CC-BY-4.0开放许可。4,803次下载，206个赞。配套模型从300M到7B参数多种尺寸。arXiv:2511.09690。",
+      "discovered_date": "2026-06-17",
+      "last_updated": "2025-11-14",
+      "release_version": "v1 (arXiv:2511.09690)",
+      "timeliness_score": "中",
+      "search_keywords": "Omnilingual ASR corpus facebook 1600 languages speech dataset",
+      "source": "DuckDuckGo搜索 + GitHub验证 + HuggingFace API确认（前期搜索遗漏，本次补录）"
     }
   ]
 }
