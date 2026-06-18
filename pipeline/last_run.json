@@ -1,17 +1,37 @@
 {
-  "last_run_date": "2026-06-17",
-  "last_run_time": "08:12",
+  "last_run_date": "2026-06-18",
+  "last_run_time": "08:14",
   "status": "completed",
-  "report_path": "sources_reports/2026-06-17.md",
-  "incremental_datasets": 8,
+  "report_path": "sources_reports/2026-06-18.md",
+  "incremental_datasets": 7,
   "version_updates": 0,
-  "baseline_total": 80,
+  "baseline_total": 87,
   "pipeline_steps": {
     "bee_sourcing": "completed",
     "professor_yu_report": "completed",
     "merge_archive": "completed",
-    "push_github": "pending",
-    "push_gitee": "pending",
-    "push_feishu": "pending"
+    "push_github": "completed",
+    "push_gitee": "completed",
+    "push_feishu": "failed"
+  },
+  "push_details": {
+    "github": {
+      "status": "completed",
+      "repo": "git@github.com:zhaocorey/CaiWeiReport.git",
+      "commit": "78afb52",
+      "message": "feat: 新增 2026-06-18 增量寻源报告 (7个新数据集)",
+      "url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-06-18.md"
+    },
+    "gitee": {
+      "status": "completed",
+      "repo": "git@gitee.com:zhaocorey/CaiWeiReport.git",
+      "commit": "78afb52",
+      "url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-06-18.md"
+    },
+    "feishu": {
+      "status": "failed",
+      "error": "need_user_authorization",
+      "message": "飞书云文档创建需要用户授权，与 2026-06-17 相同问题"
+    }
   }
 }

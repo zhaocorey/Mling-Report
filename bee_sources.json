@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-17",
-  "search_summary": "小蜜蜂🐝多语言数据集多路寻源报告 - 5路DuckDuckGo搜索 + HuggingFace API补充搜索 | 2026-06-12增量: 小蜜蜂🐝增量寻源报告 - 24h~7d内新发布/更新的多语言数据集。搜索覆盖：14轮英文web_search + 3轮中文搜索 + 5轮已知数据集版本检查 + HuggingFace API批量扫描 + SearXNG科学搜索补充。DuckDuckGo遭遇bot-detection限流，SearXNG和HF API作为备用源完成全覆盖。 | 2026-06-12 补录: UltraData-SFT-2605（初始基线遗漏修复） | 2026-06-12 补充寻源: +5个数据集(数学推理专题) | 2026-06-13 增量寻源: +8个数据集(EuroBlocks/EuroWeb/F2LLM-v2/AyaVisionBench/ReasonXL/PleIAs Common Corpus/OpenSeal CPT Data) + HPLT v3.0更新 | 2026-06-14 增量寻源: +2个数据集(Ultra-FineWeb-L3/UltraData-Math) + Nemotron-SFT-Multilingual-v2更新 | 2026-06-15 增量寻源: +11个数据集(BENI Global 10/MixtureVitae/AfriMMT-EA/Nemotron-CC-Math/Nemotron-Safety-Guard-v3/M4-RAG/propella-annotations/Chitrakshara/SemEval-2026 Task 7/SemEval-2026 Task 9/CMHG) | 2026-06-17 增量寻源: +8个数据集(GitHub Multilingual Repos/DetectRL-X/multilingual-gsm-symbolic/open-bible TTS/FineTranslations/LEMAS/WAXAL/Omnilingual ASR)",
+  "search_date": "2026-06-18",
+  "search_summary": "基线更新至 2026-06-18，新增 7 个数据集（LingualX64, SALT-31, APARSIN, Multilingual-BFCL, SpeechJBB, BOUQuET, M3Kang），总量从 80 增至 87。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -1350,6 +1350,113 @@
       "timeliness_score": "中",
       "search_keywords": "Omnilingual ASR corpus facebook 1600 languages speech dataset",
       "source": "DuckDuckGo搜索 + GitHub验证 + HuggingFace API确认（前期搜索遗漏，本次补录）"
+    },
+    {
+      "name": "LingualX64",
+      "url": "https://www.nature.com/articles/s41598-026-49738-y",
+      "languages": [
+        "64种语言（覆盖多个语系，设计最小化与LLM训练数据重叠）"
+      ],
+      "size": "64语言 × 翻译评估样本（BLEU + COMET双指标评估）",
+      "license": "CC-BY-NC-ND-4.0 (Open Access)",
+      "category": "评估",
+      "description": "Nature Scientific Reports 2026年4月26日发表的多语言翻译对称性评估基准。覆盖64种语言，专为评估LLM翻译性能中的对称性/非对称性设计。特别关注零样本翻译条件下训练数据稀缺和语言复杂性对翻译质量的影响。发现跨语言性能差异显著，揭示了训练数据和模型架构中的潜在非对称性。郑州轻工业大学发布。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-04-26",
+      "release_version": "v1",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "SALT-31",
+      "url": "https://aclanthology.org/2026.africanlp-main.21/",
+      "languages": [
+        "31种乌干达语言"
+      ],
+      "size": "31语言机器翻译评估数据集（短文本级别评估，非句子级别）",
+      "license": "开放获取（ACL Anthology）",
+      "category": "评估",
+      "description": "AfricaNLP 2026 Workshop发布的乌干达语言机器翻译基准。覆盖31种乌干达语言，是首个针对该地区语言的大规模MT评估数据集。与sentence-level评估集不同，SALT-31采用短文本评估方式，更贴近实际应用场景。填补了东非低资源语言MT评估的空白。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-06-01",
+      "release_version": "AfricaNLP 2026",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "APARSIN",
+      "url": "https://aclanthology.org/2026.silkroadnlp-1.9/",
+      "languages": [
+        "14种伊朗语族语言、方言和口音（含多种濒危语言）"
+      ],
+      "size": "情感分析 + 机器翻译双语任务基准",
+      "license": "开放获取（ACL Anthology）",
+      "category": "评估",
+      "description": "SilkRoadNLP 2026发布的伊朗语族多品种基准。覆盖14种伊朗语族语言、方言和口音，包括多种濒危语言。同时支持情感分析和机器翻译两项任务。评估了多种指令微调LLM，发现标准波斯语与其他伊朗语言/方言之间存在显著性能差距。推动了NLP基准对语族内部方言多样性的关注。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-06-01",
+      "release_version": "SilkRoadNLP 2026",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Multilingual-BFCL",
+      "url": "https://huggingface.co/datasets/qualgo-technologies/Multilingual-BFCL",
+      "languages": [
+        "en",
+        "vi",
+        "th"
+      ],
+      "size": "BFCL风格评估数据（英语 + 越南语 + 泰语），含函数调用评估和意图拒绝评估",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "SIGIR 2026收录的多语言函数调用与工具拒绝评估基准。扩展Berkeley Function-Calling Leaderboard (BFCL) 到越南语和泰语，评估小模型在低资源语言下的函数调用能力和工具拒绝行为。包含标准BFCL AST检查 + 意图拒绝指标。Qualgo Technologies发布，18次下载。2026年6月14日更新。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-06-14",
+      "release_version": "v1 (SIGIR 2026 Short Paper, DOI:10.1145/3805712.3809979)",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "SpeechJBB",
+      "url": "https://arxiv.org/abs/2606.06037",
+      "languages": [
+        "多语言（含代码切换场景：英语 + 多种非英语语言的code-switched组合）"
+      ],
+      "size": "音频越狱攻击数据集（覆盖多种SOTA大型音频语言模型LALM）",
+      "license": "开放获取（arXiv论文）",
+      "category": "评估",
+      "description": "首个针对大型音频语言模型(LALM)在代码切换语音场景下的安全评估基准。arXiv 2026年6月发布。发现：(1) 代码切换的有害音频产生显著高的越狱成功率(JSR)；(2) 非英语单语和非英语代码切换对具有最高攻击成功率；(3) 伪词插入可进一步降低拒绝率。揭示了当前多语言LALM安全对齐的重大盲区。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-06-10",
+      "release_version": "v1 (arXiv:2606.06037)",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "BOUQuET",
+      "url": "https://arxiv.org/abs/2502.04314",
+      "languages": [
+        "8种非英语语言（代表全球最广泛使用的语言，可作为pivot语言）"
+      ],
+      "size": "多方平行语料 + 翻译质量评估基准（段落级别，多领域多注册域）",
+      "license": "开放获取（伴随Omnilingual MT项目动态扩展）",
+      "category": "评估",
+      "description": "多方、多中心、多注册域/领域的翻译数据集和基准。手工构建8种非英语语言，每种源语言代表全球最广泛使用的语言之一，具有作为pivot语言推动更准确翻译的潜力。数据集组织为段落级（超越句子级），覆盖多个领域。已作为Omnilingual MT (arXiv:2603.16309) 的核心评估集，正朝向1600+语言的全语言覆盖方向动态扩展。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-03-22",
+      "release_version": "v1 (arXiv:2502.04314, 随OMT项目持续扩展)",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "M3Kang",
+      "url": "https://huggingface.co/datasets/qualcomm/M3Kang",
+      "languages": [
+        "多语言（含英语及多种语言的数学问题翻译版本）"
+      ],
+      "size": "109K行数据（2个split：standard + 多语言翻译），含图像（几何图形等）",
+      "license": "开放获取（Qualcomm发布）",
+      "category": "评估",
+      "description": "Qualcomm发布的多语言多模态数学推理评估基准。评估VLM在多语言环境下的数学推理能力，包含图像（几何图形等）和文本问题。采用新的翻译pipeline将多模态问题翻译为多种语言。配套论文(arXiv:2601.16218)分析了问题难度与VLM性能之间的关系。109K行数据规模。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-01-23",
+      "release_version": "v1 (arXiv:2601.16218)",
+      "timeliness_score": "中"
     }
   ]
 }
