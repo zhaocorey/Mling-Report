@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-18",
-  "search_summary": "基线更新至 2026-06-18，新增 7 个数据集（LingualX64, SALT-31, APARSIN, Multilingual-BFCL, SpeechJBB, BOUQuET, M3Kang），总量从 80 增至 87。",
+  "search_date": "2026-06-19",
+  "search_summary": "2026-06-19 增量寻源完成。经过 20+ 次多平台搜索（HuggingFace API × 12、SearXNG × 4、arXiv × 1、web_fetch 验证 × 6），发现 13 个新数据集和 1 个更新数据集。重点发现：CohereLabs Global-MMLU-Lite（23语言评估基准）、CohereLabs CultureMarkers（5.6M文化对齐数据）、OpenBMB MA-ProofBench（数学证明评估）、African-Languages-Lab 非洲语言语料（72.3GB）、多语言安全数据集 2 个。总量从 87 增至 100。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -375,26 +375,19 @@
         "de",
         "fr",
         "es",
-        "hi",
-        "it",
-        "ja",
-        "ko",
-        "pl",
-        "pt",
-        "ru",
-        "uk",
-        "zh"
+        "hi"
       ],
-      "size": "约130K样本（13种语言 × ~10K/语言）",
-      "license": "Apache-2.0",
+      "size": "775 下载",
+      "license": "开放获取",
       "category": "微调",
-      "description": "多语言推理训练数据集，覆盖13种语言，包含数学、逻辑和合成推理任务。使用reasoning-gym框架生成，支持课程学习（curriculum learning）分级难度。每种语言约10,100条SFT格式样本，包含完整的思维链（CoT）推理过程。适用于强化学习和SFT训练。",
-      "discovered_date": "2026-06-12",
-      "last_updated": "2026-06-09",
-      "release_version": "v1",
+      "description": "多语言推理体操 SFT 数据集。基线记录 last_updated=2026-06-09，本次检查发现已更新至 2026-06-18（9 天后有更新）。数据集可能包含新增语言或样本更新。",
+      "discovered_date": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "release_version": "v1（更新）",
       "timeliness_score": "高",
-      "search_keywords": "multilingual reasoning math logic SFT",
-      "source": "HuggingFace API扫描发现"
+      "search_keywords": "multilingual reasoning gym SFT",
+      "source": "HuggingFace 已知数据集更新检查",
+      "update_note": "last_updated 从 2026-06-09 更新至 2026-06-18"
     },
     {
       "name": "Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)",
@@ -1457,6 +1450,284 @@
       "last_updated": "2026-01-23",
       "release_version": "v1 (arXiv:2601.16218)",
       "timeliness_score": "中"
+    },
+    {
+      "name": "CohereLabs/Global-MMLU-Lite",
+      "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+      "languages": [
+        "ar",
+        "bn",
+        "cs",
+        "cy",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "hi",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "my",
+        "or",
+        "pt",
+        "sk",
+        "sq",
+        "sw",
+        "tg",
+        "yo",
+        "zh"
+      ],
+      "size": "10K-100K 样本（23 语言 × 615 行/语言，含 test 400 + dev 215 splits）",
+      "license": "Apache-2.0",
+      "category": "评估",
+      "description": "Cohere Labs 发布的多语言多文化 MMLU 评估基准的轻量版。覆盖 23 种语言（含低资源语言缅甸语、约鲁巴语、斯瓦希里语、塔吉克语等），每个语言子集包含 43 个学科领域。数据集特别关注文化偏见和地域覆盖，包含 culture/region/country/cultural_sensitivity_label 等元数据字段。配套论文 Global MMLU (ACL 2025) 已被广泛引用，被 BYOL (Microsoft)、TinyAya、ReasonXL 等多个项目用作评估基准。8,221 下载，41 赞。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-08",
+      "release_version": "v1.0 (arXiv:2412.03304)",
+      "timeliness_score": "高",
+      "search_keywords": "CohereLabs Global-MMLU-Lite multilingual benchmark",
+      "source": "HuggingFace CohereLabs 生态搜索"
+    },
+    {
+      "name": "CohereLabs/CultureMarkers",
+      "url": "https://huggingface.co/datasets/CohereLabs/CultureMarkers",
+      "languages": [
+        "ar",
+        "en",
+        "zh",
+        "fr",
+        "de",
+        "es",
+        "多语言（覆盖多种语言和文化区域）"
+      ],
+      "size": "5.6M 样本（文化标注数据集）",
+      "license": "开放获取（参见 CohereLabs 仓库）",
+      "category": "对齐",
+      "description": "Cohere Labs 发布的文化对齐标注数据集，配套论文 'The Culture Funnel: You Can't Align What isn't in the Data'（arXiv:2606.13808，2026年6月）。数据集包含 5.6M 样本，每个样本标注了文化维度标签（CultureAsKnowledge/GeneralCulture/NoCulture）、主题类别（Medical/General/Technology）、任务类型（ExplanationLearning/InformationExtraction/PracticalGuidance）和地理区域（Egypt/Unknown 等）。研究发现 LLM 训练 pipeline 中存在文化数据漏斗现象：显式文化信号在后训练阶段急剧下降。286 下载，4 赞。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-15",
+      "release_version": "v1.0 (arXiv:2606.13808)",
+      "timeliness_score": "高",
+      "search_keywords": "CohereLabs CultureMarkers cultural alignment dataset",
+      "source": "SearXNG + arXiv 论文发现"
+    },
+    {
+      "name": "OpenBMB/MA-ProofBench",
+      "url": "https://huggingface.co/datasets/openbmb/MA-ProofBench",
+      "languages": [
+        "en（数学形式化语言，基于 Lean 4 / Mathlib）"
+      ],
+      "size": "200 道形式化定理（Level I 100 道本科级 + Level II 100 道博士级）",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "OpenBMB 发布的数学分析领域首个形式化定理证明评估基准（arXiv:2606.13782，2026年6月）。覆盖 6 个核心主题、27 个子类别，包括测度与积分理论、复分析、泛函分析。采用两级难度设计：Level I（本科级）和 Level II（博士资格级）。通过人类主导、LLM 辅助的形式化 pipeline 构建，并经独立专家审核。最优模型 GPT-5.5 在 Level I 仅达 16% Pass@8，Level II 接近 0%，揭示了形式化数学推理的巨大挑战。242 下载，6 赞。注：虽非传统多语言数据集，但作为形式推理评估基准对多语言 LLM 能力评估有重要参考价值。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-15",
+      "release_version": "v1.0 (arXiv:2606.13782)",
+      "timeliness_score": "高",
+      "search_keywords": "openbmb MA-ProofBench mathematical proof benchmark",
+      "source": "HuggingFace OpenBMB 生态搜索 + SearXNG"
+    },
+    {
+      "name": "VityaVitalich/multilingual-safety-data",
+      "url": "https://huggingface.co/datasets/VityaVitalich/multilingual-safety-data",
+      "languages": [
+        "de",
+        "es",
+        "ru",
+        "ja",
+        "zh",
+        "fr",
+        "it"
+      ],
+      "size": "272,608 行（7 语言 × ~38.9K 文档），clean 配置 272,343 行",
+      "license": "Apache-2.0（推测，基于源数据集 locuslab/safety_data_annotated）",
+      "category": "对齐",
+      "description": "7 语言机器翻译安全分类数据集，基于 Safety Pretraining（Maini et al., 2025, arXiv:2504.16980）的 0-5 安全评分标准。英文源数据来自 locuslab/safety_data_annotated，使用 google/gemma-4-31B-it 翻译为德语、西班牙语、俄语、日语、中文、法语、意大利语。提供两个配置：clean（过滤低质量翻译）和 annotated（保留所有行 + 质量过滤标记）。训练/验证/测试基于英文源 uid 分割，确保跨语言无泄漏。val/test 各 ~1,500 文档/语言。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-05",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety data classifier 7 languages",
+      "source": "HuggingFace multilingual safety 搜索"
+    },
+    {
+      "name": "iNLP-Lab/multilingual-safety",
+      "url": "https://huggingface.co/datasets/iNLP-Lab/multilingual-safety",
+      "languages": [
+        "en",
+        "zh",
+        "it",
+        "bn",
+        "ko"
+      ],
+      "size": "多语言安全数据集（具体规模待确认）",
+      "license": "开放获取",
+      "category": "对齐",
+      "description": "5 语言（英语、中文、意大利语、孟加拉语、韩语）多语言安全数据集，包含有害提示（harmful prompts）和模型响应。覆盖安全对齐场景中的拒绝行为、有害内容识别等任务。数据示例显示包含阿拉伯语等其他语言内容，实际语言覆盖可能更广。128 下载。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-05-14",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "iNLP-Lab multilingual safety dataset",
+      "source": "HuggingFace multilingual safety 搜索"
+    },
+    {
+      "name": "CohereLabs/m-ArenaHard-v2.0",
+      "url": "https://huggingface.co/datasets/CohereLabs/m-ArenaHard-v2.0",
+      "languages": [
+        "ar",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ja",
+        "ko",
+        "zh",
+        "pt",
+        "多语言"
+      ],
+      "size": "多语言困难对话评估数据集（具体样本数待确认）",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "Cohere Labs 发布的 m-ArenaHard 多语言困难对话评估基准 v2.0 版本。包含多语言（含阿拉伯语编码任务、中文、法语等）的困难提示（hard prompts），覆盖编码、推理、创意写作等多个类别。用于评估 LLM 在高难度多语言场景下的对话能力。924 下载，7 赞。v2.1 版本（866 下载）也已发布。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-05-05",
+      "release_version": "v2.0",
+      "timeliness_score": "中",
+      "search_keywords": "CohereLabs m-ArenaHard multilingual evaluation",
+      "source": "HuggingFace CohereLabs 生态搜索"
+    },
+    {
+      "name": "cs-552-2026-kth/multilingual_sft_full",
+      "url": "https://huggingface.co/datasets/cs-552-2026-kth/multilingual_sft_full",
+      "languages": [
+        "hi",
+        "ru",
+        "en",
+        "多语言（包含印地语、俄语等）"
+      ],
+      "size": "多语言 SFT 完整数据集（配套 base 版本）",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "KTH（瑞典皇家理工学院）CS-552 2026 课程项目发布的多语言指令微调数据集完整版。数据包含多语言法律推理、知识问答等场景的 SFT 样本，可见语言包括印地语、俄语、英语等。配套有 base 版本（multilingual_sft_base）。29 下载。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-06",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual SFT KTH course dataset",
+      "source": "HuggingFace multilingual SFT 搜索"
+    },
+    {
+      "name": "chaurAr/Cross-lingual-entity-dataset",
+      "url": "https://huggingface.co/datasets/chaurAr/Cross-lingual-entity-dataset",
+      "languages": [
+        "多语言（跨语言实体数据集）"
+      ],
+      "size": "2,659 下载（具体样本数待确认）",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "跨语言实体数据集，用于评估跨语言命名实体识别和实体链接任务。2,659 下载表明有一定的社区使用基础。发布于 2026 年 6 月。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-09",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual entity dataset NER",
+      "source": "HuggingFace cross-lingual 搜索"
+    },
+    {
+      "name": "nur-dev/farabi-crosslingual-tool-argnorm",
+      "url": "https://huggingface.co/datasets/nur-dev/farabi-crosslingual-tool-argnorm",
+      "languages": [
+        "kk",
+        "ru",
+        "en"
+      ],
+      "size": "跨语言论辩规范化数据集（具体规模待确认）",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "哈萨克语-俄语-英语跨语言论辩规范化（Argumentation Normalization）数据集，基于 Farabi 跨语言工具构建。用于跨语言论辩挖掘和文本规范化任务。13 下载。填补了中亚语言（哈萨克语）在论辩分析领域的空白。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-18",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "farabi crosslingual Kazakh Russian English",
+      "source": "HuggingFace cross-lingual 搜索"
+    },
+    {
+      "name": "African-Languages-Lab/all-lab-text-multi",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/all-lab-text-multi",
+      "languages": [
+        "多种非洲语言（具体语言列表需授权后查看）"
+      ],
+      "size": "72.3 GB（多语言文本语料）",
+      "license": "需授权访问（Gated Dataset）",
+      "category": "预训练",
+      "description": "African Languages Lab 发布的大规模多语言非洲语言文本语料库（多语言混合版本）。72.3 GB 规模，是当前最大的非洲语言开放语料之一（需申请访问）。配套有单语版本（all-lab-text-mono，同日发布）。51 下载。为非洲语言 LLM 预训练和微调提供重要数据基础。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-17",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "African Languages Lab multilingual text corpus",
+      "source": "HuggingFace African language 搜索"
+    },
+    {
+      "name": "African-Languages-Lab/kasagadi",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/kasagadi",
+      "languages": [
+        "tw（契维语）",
+        "ha（豪萨语）",
+        "en（英语）"
+      ],
+      "size": "文本分类 + 语音识别多模态数据集（具体规模待确认）",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "African Languages Lab 发布的 Kasagadi 数据集，覆盖契维语（Twi，加纳主要语言）、豪萨语（Hausa，西非广泛使用）和英语。同时支持文本分类和自动语音识别两个任务，是多模态多任务非洲语言数据集。31 下载，1 赞。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-11",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "kasagadi African language Twi Hausa ASR",
+      "source": "HuggingFace African language 搜索"
+    },
+    {
+      "name": "mramazan/nvidia-nemotron-model-reasoning-dataset-turkish",
+      "url": "https://huggingface.co/datasets/mramazan/nvidia-nemotron-model-reasoning-dataset-turkish",
+      "languages": [
+        "tr（土耳其语）",
+        "en（英语）"
+      ],
+      "size": "土耳其语推理数据集（具体规模待确认）",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "基于 NVIDIA Nemotron 模型构建的土耳其语-英语双语推理数据集。用于训练和评估土耳其语推理能力。33 下载。填补了土耳其语在推理 SFT 数据方面的空白。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-06-18",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron Turkish reasoning dataset",
+      "source": "HuggingFace Nemotron 生态搜索"
+    },
+    {
+      "name": "jescy525/aether-sft-v2-multilingual",
+      "url": "https://huggingface.co/datasets/jescy525/aether-sft-v2-multilingual",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "size": "多语言 SFT 数据集 v2 版本（具体规模待确认）",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "Aether SFT v2 多语言版本，覆盖英语和法语的指令微调数据。66 下载。",
+      "discovered_date": "2026-06-19",
+      "last_updated": "2026-05-25",
+      "release_version": "v2",
+      "timeliness_score": "中",
+      "search_keywords": "aether SFT multilingual v2",
+      "source": "HuggingFace multilingual SFT 搜索"
     }
   ]
 }
