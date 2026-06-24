@@ -1,15 +1,15 @@
 {
-  "last_run_date": "2026-06-19",
-  "last_run_time": "08:15",
+  "last_run_date": "2026-06-24",
+  "last_run_time": "08:37",
   "status": "completed",
-  "report_path": "sources_reports/2026-06-19.md",
-  "incremental_datasets": 13,
-  "version_updates": 1,
-  "baseline_total": 100,
+  "report_path": "sources_reports/2026-06-24.md",
+  "incremental_datasets": 8,
+  "version_updates": 0,
+  "baseline_total": 124,
   "pipeline_steps": {
     "bee_sourcing": "completed",
     "professor_yu_report": "completed",
-    "merge_archive": "in_progress",
+    "merge_archive": "completed",
     "push_github": "pending",
     "push_gitee": "pending",
     "push_feishu": "pending"
