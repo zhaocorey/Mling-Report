@@ -10,8 +10,8 @@
     "bee_sourcing": "completed",
     "professor_yu_report": "completed",
     "merge_archive": "completed",
-    "push_github": "pending",
-    "push_gitee": "pending",
-    "push_feishu": "pending"
+    "push_github": "completed",
+    "push_gitee": "completed",
+    "push_feishu": "completed"
   }
 }
