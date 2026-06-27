@@ -1,9 +1,9 @@
 ---
-name: dataset-filtering-survey
-description: 数据集筛选技术调研流水线——小蜜蜂🐝增量发现论文/工具/博客，语教授🎓深度分析并推送至远程仓库。当用户要求"执行筛选技术调研"、"更新 dataset filtering survey"、"跑一次技术调研"时触发。
+name: cailian-survey
+description: 采莲技术调研流水线——每日增量发现数据集筛选/采样/构建相关论文、工具和最佳实践。小蜜蜂🐝增量发现 → 语教授🎓深度分析 → 码工程师👨‍💻推送至远程仓库。当用户要求"执行采莲"、"跑一次技术调研"、"更新 filtering survey"时触发。
 ---
 
-# 数据集筛选技术调研流水线
+# 采莲技术调研流水线
 
 每日增量调研 + 深度分析 + 推送。小蜜蜂🐝增量发现 → 语教授🎓归纳分析 → 码工程师👨‍💻推送远程仓库。
 
@@ -165,11 +165,15 @@ Delivery: feishu → user:ou_6ea818492781de30f061e41cf02f9328
 
 ## 与采薇寻源流水线的关系
 
-| 维度 | 采薇寻源（caiwei-sourcing） | 技术调研（dataset-filtering-survey） |
-|------|---------------------------|--------------------------------------|
+| 维度 | 采薇寻源（caiwei-sourcing） | 采莲技术调研（cailian-survey） |
+|------|---------------------------|--------------------------------|
 | 调研对象 | 多语言数据集（产品） | 数据筛选技术（方法/论文/工具） |
 | 输出 | sources_reports/ | dataset_filtering_survey/ |
 | 远程仓库 | CaiWeiReport | Mling-Report |
 | 基线文件 | bee_sources.json | bee_dataset_filtering_research.json |
 | 执行时间 | 每日 08:00 | 每日 09:00 |
 | 共享 | 使用同一套 agents（bee/professor-yu/coder）| 同左 |
+
+---
+
+_采莲：取"采撷莲花"之意，从海量技术文献中精选高价值工作。与采薇（寻源数据集）形成互补——一个找产品，一个找方法。_
