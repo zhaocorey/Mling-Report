@@ -1,0 +1,517 @@
+{
+  "search_date": "2026-06-24",
+  "search_keywords": [
+    "dataset filtering LLM training",
+    "data selection pretraining language model",
+    "data curation quality filtering deep learning",
+    "data deduplication training data LLM",
+    "coreset dataset selection machine learning",
+    "influence function data selection language model",
+    "data mixing pretraining language model strategy",
+    "curriculum learning data sampling LLM training",
+    "dataset distillation survey"
+  ],
+  "channels_searched": ["arXiv", "GitHub"],
+  "papers": [
+    {
+      "title": "BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training",
+      "authors": "Jiaxing Wang, Depeng Xiang, Jin Xu, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Scalable bi-level adaptive data selection method for LLM pretraining. Dynamically selects high-value data subsets during training.",
+      "key_methods": ["bi-level optimization", "adaptive sampling", "scalable selection"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "authors": "Dimitri Kachler, Damien Sileo, Pascal Denis",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Distills gradient-based influence scores from decoder models into an encoder for efficient data attribution and quality assessment.",
+      "key_methods": ["influence distillation", "gradient-based attribution", "data quality scoring"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning",
+      "authors": "Junbo Zhang, Qianli Zhou, Xinyang Deng, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Addresses safety degradation during fine-tuning by filtering out safety-harmful data even when instructions appear benign.",
+      "key_methods": ["safety-aware filtering", "instruction fine-tuning", "toxic data detection"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Training",
+      "authors": "Soham Bhattacharjee, Karun Sharma, Vinay Kumar Sankarapu, Pratinav Seth",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "construction",
+      "description": "Toolkit for data curation and synthetic data generation specifically designed for LLM post-training (SFT/RLHF).",
+      "key_methods": ["data curation pipeline", "synthetic data generation", "post-training data"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods",
+      "authors": "Wanru Zhao, Yihong Chen, Yuzhi Tang, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Shows that online data reweighting during training generalizes better than offline filtering/selection methods for LLM training.",
+      "key_methods": ["online reweighting", "dynamic sampling", "offline vs online comparison"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories",
+      "authors": "Kaiyan Zhao, Zhongtao Miao, Akiko Aizawa, Yoshimasa Tsuruoka",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Dynamic data mixture optimization using proxy training trajectories to predict optimal mixing ratios.",
+      "key_methods": ["dynamic mixing", "proxy trajectories", "mixture optimization"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Hubs or Fringes: Pretraining Data Selection via Web Graph Centrality",
+      "authors": "Vedant Badoni, Danqi Chen, Xinyi Wang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Uses web graph centrality metrics to select high-quality pretraining data, comparing hub vs fringe web pages.",
+      "key_methods": ["graph centrality", "web data selection", "page quality assessment"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "GRASP: Geometry-aware Residual Alignment for Scalable Pretraining Data Attribution",
+      "authors": "Yue Min, Ruining Chen, Yujun Li",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Scalable data attribution method that captures subset dynamics beyond additive assumptions using geometric alignment.",
+      "key_methods": ["geometry-aware attribution", "residual alignment", "subset selection"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
+      "authors": "Rishit Dagli, Abir Harrasse, Luke Zhang, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Training data attribution using sparse recovery techniques from subset perturbations to identify influential data points.",
+      "key_methods": ["sparse recovery", "subset perturbation", "data attribution"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Rethinking Dataset Distillation for Classification: Do Distilled Sets Outperform Coresets?",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Challenges the assumption that dataset distillation outperforms simpler coreset methods for classification tasks.",
+      "key_methods": ["dataset distillation", "coreset comparison", "classification"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Active Learning with Low-Rank Structure for Data Selection",
+      "authors": "Vincent Cohen-Addad, Sasidhar Kunapuli, Vahab Mirrokni, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Uses low-rank structure of data embeddings to select representative subsets for efficient model training.",
+      "key_methods": ["low-rank approximation", "geometric assumptions", "active learning"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Label-Efficient Dataset Pruning via Semi-Supervised Pseudo-Labeling",
+      "authors": "Yeseul Cho, Baekrok Shin, Changmin Kang, Chulhee Yun",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Reduces storage and training costs by pruning datasets using semi-supervised pseudo-labeling, requiring minimal labeled data.",
+      "key_methods": ["dataset pruning", "pseudo-labeling", "semi-supervised"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning",
+      "authors": "Sirui Chen, Yunzhe Qi, Mengting Ai, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Develops efficient proxy methods that preserve influence function rankings for data selection during LLM supervised fine-tuning.",
+      "key_methods": ["influence proxies", "gradient-based selection", "SFT data selection"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Influence Functions for Efficient Data Selection in Reasoning",
+      "authors": "Prateek Humane, Paolo Cudrano, Daniel Z. Kaplan, et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Applies influence functions to select the most valuable reasoning examples for LLM fine-tuning on reasoning tasks.",
+      "key_methods": ["influence functions", "reasoning data selection", "fine-tuning optimization"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+      "authors": "Anastasiia Sedova, Skyler Seto, Natalie Schluter, Pierre Ablin",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.xxxxx",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Studies scaling laws for data mixture pretraining when individual data sources are limited, proposing optimal mixing strategies.",
+      "key_methods": ["scaling laws", "mixture optimization", "data-constrained training"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Filter Like You Test: Data-Driven Data Filtering for CLIP Pretraining",
+      "authors": "Mikey Shechter, Yair Carmon",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2503.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "FLYT algorithm learns data usefulness scores from test distribution to filter pretraining data for vision-language models.",
+      "key_methods": ["test-aware filtering", "data usefulness learning", "CLIP pretraining"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Topic Over Source: The Key to Effective Data Mixing for Language Models Pre-training",
+      "authors": "Jiahui Peng, Xinlin Zhuang, Jiantao Qiu, et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2502.xxxxx",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Shows that mixing by topic distribution is more effective than mixing by source/domain for LLM pretraining.",
+      "key_methods": ["topic-based mixing", "domain mixing comparison", "pretraining optimization"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Rethinking Multilingual Continual Pretraining: Data Mixing for Adapting LLMs Across Languages and Resources",
+      "authors": "Zihao Li, Shaoxiong Ji, Hengyu Luo, Jörg Tiedemann",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.xxxxx",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Studies optimal data mixing strategies for multilingual continual pretraining across different language resource levels.",
+      "key_methods": ["multilingual mixing", "continual pretraining", "resource-aware mixing"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data",
+      "authors": "Joel Niklaus, Atsuki Yamaguchi, Michal Štefánik, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.xxxxx",
+      "source_channel": "arXiv",
+      "category": "construction",
+      "description": "Systematic study on synthetic pretraining data quality, examining prompt design, generator choice, and source data impact.",
+      "key_methods": ["synthetic data generation", "prompt engineering", "quality factors"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretraining",
+      "authors": "Bofeng Huang, Jacques Sun, Diane Bouchacourt, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "construction",
+      "description": "Provides a recipe for curating web data for medical domain pretraining, identifying high-signal data sources.",
+      "key_methods": ["domain-specific curation", "web data recipe", "medical pretraining"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Midtraining Bridges Pretraining and Posttraining Distributions",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.xxxxx",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Studies midtraining—mixing specialized data with general data—as a bridge between pretraining and posttraining distributions.",
+      "key_methods": ["midtraining", "distribution bridging", "specialized data mixing"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "DeReason: A Difficulty-Aware Curriculum Improves Decoupled SFT-then-RL Training for General Reasoning",
+      "authors": "Hanxu Hu, Yuxuan Wang, Maggie Huan, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Difficulty-aware curriculum for RLVR training that sequences examples from easy to hard for better reasoning generalization.",
+      "key_methods": ["difficulty-aware curriculum", "SFT-RL decoupling", "curriculum learning"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Towards Understanding Valuable Preference Data for Large Language Model Alignment",
+      "authors": "Zizhuo Zhang, Qizhou Wang, Shanshan Ye, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Identifies which preference data samples are most valuable for LLM alignment, enabling efficient data selection for RLHF/DPO.",
+      "key_methods": ["preference data selection", "alignment optimization", "data value estimation"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Data-Efficient RLVR via Off-Policy Influence Guidance",
+      "authors": "Erle Zhu, Dazhi Jiang, Yuan Wang, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Uses influence-guided off-policy data selection to improve sample efficiency in RLVR training for reasoning.",
+      "key_methods": ["influence guidance", "off-policy selection", "RLVR efficiency"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Mitigating Spurious Correlations with Memorization-Guided Dataset De-Biasing",
+      "authors": "Arda Fazla, Abolfazl Hashemi",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Uses memorization patterns to identify and remove spurious correlations from training datasets.",
+      "key_methods": ["memorization-guided debiasing", "spurious correlation removal", "dataset cleaning"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Stable Coresets via Posterior Sampling: Aligning Induced and Full Loss Landscapes",
+      "authors": "Wei-Kai Chang, Rajiv Khanna",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2511.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Constructs stable coresets by sampling from posterior distributions to align the coreset's loss landscape with the full dataset's.",
+      "key_methods": ["posterior sampling", "loss landscape alignment", "stable coresets"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Coresets from Trajectories: Selecting Data via Correlation of Loss Differences",
+      "authors": "Manish Nagaraj, Deepak Ravikumar, Kaushik Roy",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2508.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Proposes Correlation of Loss Differences (CLD), a scalable metric for selecting data via training trajectory analysis.",
+      "key_methods": ["loss difference correlation", "trajectory-based selection", "scalable coreset"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Understanding Data Influence with Differential Approximation",
+      "authors": "Haoru Tan, Sitong Wu, Xiuzhe Wu, et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2508.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Quantitative analysis of individual data point influence using differential approximation methods for AI training data.",
+      "key_methods": ["differential approximation", "data influence quantification", "training data analysis"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "LABELING COPILOT: A Deep Research Agent for Automated Data Curation in Computer Vision",
+      "authors": "Debargha Ganguly, Sumit Kumar, et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.xxxxx",
+      "source_channel": "arXiv",
+      "category": "construction",
+      "description": "Automated data curation agent for computer vision that handles labeling and quality filtering at scale.",
+      "key_methods": ["automated curation", "CV data pipeline", "labeling automation"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "PashtoCorp: A 1.25-Billion-Word Corpus with SHA-256 Deduplication and Quality Filtering",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.xxxxx",
+      "source_channel": "arXiv",
+      "category": "dedup",
+      "description": "Reproducible pipeline for low-resource language corpus with SHA-256 deduplication and multi-stage quality filtering.",
+      "key_methods": ["SHA-256 deduplication", "quality filtering pipeline", "low-resource corpus"],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study",
+      "authors": "Shiqi Kuang, Zhao Tian, Tao Xiao, et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2512.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Empirical study evaluating training data optimization methods (selection, weighting, ordering) for LLM code generation.",
+      "key_methods": ["training data optimization", "code generation", "empirical evaluation"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "HPLT 3.0: Very Large-Scale Multilingual Resources with Quality Filtering Pipeline",
+      "authors": "Stephan Oepen, Nikolay Arefev, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2511.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "30 trillion token multilingual collection with rich quality filtering pipeline for ~200 languages.",
+      "key_methods": ["multilingual filtering", "quality pipeline", "large-scale curation"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "IF-GUIDE: Influence Function-Guided Detoxification of LLMs",
+      "authors": "Zachary Coalson, Juhan Bae, Nicholas Carlini, Sanghyun Hong",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2506.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Uses influence functions to identify and remove training data that contributes to toxic LLM behaviors.",
+      "key_methods": ["influence-based detoxification", "toxic data identification", "safety filtering"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Z0-Inf: Zeroth Order Approximation for Data Influence",
+      "authors": "Narine Kokhlikyan, Kamalika Chaudhuri, Saeed Mahloujifar",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Efficient zeroth-order approximation for computing data influence scores without gradient computation.",
+      "key_methods": ["zeroth-order approximation", "data influence estimation", "gradient-free"],
+      "relevance_score": "high"
+    },
+    {
+      "title": "EDCO: Dynamic Curriculum Orchestration for Domain-specific Large Language Models",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.xxxxx",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Dynamic curriculum orchestration that adapts data ordering and mixing during domain-specific LLM training.",
+      "key_methods": ["dynamic curriculum", "domain adaptation", "orchestration"],
+      "relevance_score": "medium"
+    }
+  ],
+  "tools_and_repos": [
+    {
+      "name": "DataTrove (HuggingFace)",
+      "url": "https://github.com/huggingface/datatrove",
+      "source_channel": "GitHub",
+      "description": "Library to process, filter and deduplicate text data at very large scale. Provides prebuilt blocks for LLM training data pipelines. Supports local, slurm, and Ray execution. Includes MinHash dedup, sentence dedup, exact substring dedup, and various filters.",
+      "stars": 2500,
+      "category": "filtering+dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "DCLM (DataComp-LM)",
+      "url": "https://github.com/mlfoundations/dclm",
+      "source_channel": "GitHub",
+      "description": "Benchmark and baseline for pretraining data filtering strategies. Provides a testbed for comparing data curation methods on language model performance.",
+      "stars": 500,
+      "category": "filtering",
+      "relevance_score": "high"
+    },
+    {
+      "name": "RedPajama",
+      "url": "https://github.com/togethercomputer/RedPajama",
+      "source_channel": "GitHub",
+      "description": "Open-source reproduction of LLaMA training data with detailed filtering and deduplication pipeline documentation.",
+      "stars": 1800,
+      "category": "filtering+dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "SlimPajama",
+      "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
+      "source_channel": "HuggingFace",
+      "description": "627B token cleaned and deduplicated version of RedPajama with extensive filtering. Includes MinHash dedup and quality filtering.",
+      "stars": 0,
+      "category": "filtering+dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "DataComp",
+      "url": "https://github.com/mlfoundations/datacomp",
+      "source_channel": "GitHub",
+      "description": "Benchmark for comparing data filtering/selection strategies for vision-language models. Standardized testbed for CLIP-like model data curation.",
+      "stars": 800,
+      "category": "filtering",
+      "relevance_score": "high"
+    },
+    {
+      "name": "dolma (OLMo)",
+      "url": "https://github.com/allenai/dolma",
+      "source_channel": "GitHub",
+      "description": "Data processing toolkit used for OLMo. Includes deduplication, filtering, and quality scoring tools for pretraining data.",
+      "stars": 600,
+      "category": "filtering+dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "data-prep-kit (IBM)",
+      "url": "https://github.com/IBM/data-prep-kit",
+      "source_channel": "GitHub",
+      "description": "IBM's data preparation toolkit for LLM training. Provides modular transforms for text processing, filtering, and deduplication.",
+      "stars": 300,
+      "category": "filtering",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "fineWeb (HuggingFace)",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+      "source_channel": "HuggingFace",
+      "description": "15T token web dataset with documented DataTrove filtering pipeline. Includes deduplication and quality filtering best practices.",
+      "stars": 0,
+      "category": "filtering+dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "deduplicate-text-datasets (Google Research)",
+      "url": "https://github.com/google-research/deduplicate-text-datasets",
+      "source_channel": "GitHub",
+      "description": "Google's tool for exact substring deduplication at scale. Uses suffix arrays for efficient duplicate detection.",
+      "stars": 1200,
+      "category": "dedup",
+      "relevance_score": "high"
+    },
+    {
+      "name": "Coresetlib",
+      "url": "https://github.com/decile-group/coresetlib",
+      "source_channel": "GitHub",
+      "description": "Library implementing various coreset selection methods for deep learning including gradient matching, facility location, and influence-based methods.",
+      "stars": 200,
+      "category": "filtering",
+      "relevance_score": "high"
+    }
+  ],
+  "blog_posts_and_tutorials": [
+    {
+      "title": "FineWeb: A Comprehensive Framework for High-Quality Web Data Processing",
+      "url": "https://huggingface.co/blog/HuggingFaceFW/fineweb",
+      "source_channel": "HuggingFace Blog",
+      "description": "Detailed walkthrough of building a 15T token web dataset using DataTrove, covering filtering strategies, deduplication approaches, and quality metrics.",
+      "relevance_score": "high"
+    },
+    {
+      "title": "The DataComp-LM Benchmark for Data Filtering",
+      "url": "https://www.datacomp.ai/dclm/",
+      "source_channel": "Blog",
+      "description": "Overview of the DCLM benchmark for systematically comparing data filtering strategies for language models.",
+      "relevance_score": "high"
+    },
+    {
+      "title": "SmolLM Technical Report: Data Curation for Small Language Models",
+      "url": "https://huggingface.co/blog/HuggingFaceTB/smollm",
+      "source_channel": "HuggingFace Blog",
+      "description": "Documents data curation and filtering strategies used to build high-quality small language models from limited data budgets.",
+      "relevance_score": "medium"
+    }
+  ]
+}

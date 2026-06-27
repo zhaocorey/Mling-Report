@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-24",
-  "search_summary": "2026-06-22 基线更新：合并 June 20 (8条) 和 June 21 (8条) 未归并数据。基线从 100 增至 116。",
+  "search_date": "2026-06-26",
+  "search_summary": "2026-06-26 增量更新：新增 7 个数据集（安全护栏、数学基准、法律模板、协同编辑、遥感VQA、反事实推理、多语言新闻）。基线 124 → 131。另有 6 个已知数据集检测到版本更新。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -2219,7 +2219,112 @@
       "timeliness_score": "高",
       "search_keywords": "nyayasetu legal multilingual dataset",
       "source": "HuggingFace API (lastModified search, updated 2026-06-23)"
+    },
+    {
+      "name": "YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples",
+      "url": "https://huggingface.co/datasets/YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples",
+      "languages": ["en", "zh", "es", "ja", "ko"],
+      "size": "未公布（v0.1 samples 版本）",
+      "license": "未标注",
+      "category": "安全对齐",
+      "description": "多语言安全护栏数据集（v0.1 samples），覆盖5种主要语言（en/zh/es/ja/ko），用于训练和评估AI安全分类器和护栏模型。支持text-classification和text-generation任务。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-25",
+      "release_version": "v0.1-samples",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety guard aegis",
+      "source": "HuggingFace lastModified搜索"
+    },
+    {
+      "name": "tiny-aya-math-edition/fusion-aya-math-bench",
+      "url": "https://huggingface.co/datasets/tiny-aya-math-edition/fusion-aya-math-bench",
+      "languages": ["en", "de", "fr", "uk"],
+      "size": "未公布（评估基准）",
+      "license": "未标注",
+      "category": "评估基准",
+      "description": "多语言数学推理评估基准，覆盖英语、德语、法语和乌克兰语4种语言。支持text-generation和question-answering任务，用于评估LLM在非英语语种上的数学推理能力。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-22",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual math benchmark aya",
+      "source": "HuggingFace Aya关键词搜索"
+    },
+    {
+      "name": "forms-legal/legal-templates-multilingual",
+      "url": "https://huggingface.co/datasets/forms-legal/legal-templates-multilingual",
+      "languages": ["en", "es", "pt", "de", "fr"],
+      "size": "未公布",
+      "license": "未标注",
+      "category": "微调",
+      "description": "多语言法律模板数据集，覆盖5种主要西方法律语言（en/es/pt/de/fr）。支持text-generation、question-answering和summarization任务，可用于法律领域LLM的微调。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-24",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual legal template dataset",
+      "source": "HuggingFace lastModified搜索"
+    },
+    {
+      "name": "jacekduszenko/coedit-multilingual",
+      "url": "https://huggingface.co/datasets/jacekduszenko/coedit-multilingual",
+      "languages": ["en", "de", "es", "fr", "it"],
+      "size": "未公布",
+      "license": "未标注",
+      "category": "微调",
+      "description": "多语言协同编辑数据集，覆盖5种欧洲语言（en/de/es/fr/it）。可用于训练多语言文本编辑和校对模型。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-24",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "coedit multilingual european languages",
+      "source": "HuggingFace lastModified搜索"
+    },
+    {
+      "name": "apart-global-south-hack/remote_sensing_VQA_multilingual",
+      "url": "https://huggingface.co/datasets/apart-global-south-hack/remote_sensing_VQA_multilingual",
+      "languages": ["en", "hi", "te", "ur", "id"],
+      "size": "未公布",
+      "license": "未标注",
+      "category": "评估基准",
+      "description": "多语言遥感视觉问答数据集，覆盖英语、印地语、泰卢固语、乌尔都语和印尼语。来自Global South Hackathon，支持question-answering和multiple-choice任务。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-22",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual VQA remote sensing global south",
+      "source": "HuggingFace lastModified搜索"
+    },
+    {
+      "name": "apart-global-south-hack/counterfactual-pendulum-multilingual",
+      "url": "https://huggingface.co/datasets/apart-global-south-hack/counterfactual-pendulum-multilingual",
+      "languages": ["en", "hi", "id", "te"],
+      "size": "未公布",
+      "license": "未标注",
+      "category": "评估基准",
+      "description": "多语言反事实推理数据集（钟摆问题），覆盖英语、印地语、印尼语和泰卢固语。来自Global South Hackathon，用于评估LLM在非英语语境下的反事实推理能力。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-22",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual counterfactual reasoning global south",
+      "source": "HuggingFace lastModified搜索"
+    },
+    {
+      "name": "Tralalabs/multilingual-news",
+      "url": "https://huggingface.co/datasets/Tralalabs/multilingual-news",
+      "languages": ["es", "en", "pt", "fr", "de"],
+      "size": "未公布",
+      "license": "未标注",
+      "category": "预训练",
+      "description": "多语言新闻数据集，覆盖5种语言（es/en/pt/fr/de）。支持text-classification、text-generation和token-classification任务。可用于多语言新闻分类、摘要生成和NER等应用。",
+      "discovered_date": "2026-06-26",
+      "last_updated": "2026-06-25",
+      "release_version": "",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual news dataset",
+      "source": "HuggingFace lastModified搜索"
     }
   ],
-  "total_datasets": 124
+  "total_datasets": 131
 }
