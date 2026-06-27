@@ -134,16 +134,21 @@ Spawn `coder` agent（`agentId: "coder"`，`mode: "run"`），任务指令：
 
 ## 自动调度配置
 
-通过 OpenClaw cron 设置每日自动执行：
+已配置 OpenClaw cron，每日自动执行：
 
 ```
+Job ID:   b3a14404-e52c-474a-ad75-d783eb276982
 Schedule: 0 9 * * * (Asia/Shanghai) — 每天上午 9 点
-SessionTarget: isolated
-Payload: agentTurn，超时 1800 秒
-Delivery: announce
+Agent:    zong
+Session:  isolated（超时 1800 秒）
+Delivery: feishu → user:ou_6ea818492781de30f061e41cf02f9328
 ```
 
-建议在采薇寻源流水线（08:00）之后执行，避免资源竞争。
+在采薇寻源流水线（08:00，Job 0a776069）之后执行，避免资源竞争。
+
+### 状态跟踪文件
+
+`pipeline/last_filtering_run.json` — 记录上次运行时间，小蜜蜂读取此文件确定增量窗口。
 
 ## 手动触发
 
