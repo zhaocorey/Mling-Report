@@ -1,17 +1,18 @@
 {
-  "last_run_date": "2026-06-24",
-  "last_run_time": "08:37",
+  "last_run_date": "2026-06-28",
+  "last_run_time": "08:10",
   "status": "completed",
-  "report_path": "sources_reports/2026-06-24.md",
-  "incremental_datasets": 8,
-  "version_updates": 0,
-  "baseline_total": 124,
+  "report_path": "sources_reports/2026-06-28.md",
+  "incremental_datasets": 14,
+  "version_updates": 3,
+  "baseline_total": 145,
+  "notes": "6/27: 8 new (BabyBabelLM等顶会数据集) + 6/28: 6 new (XL-SafetyBench等) + 3 version updates",
   "pipeline_steps": {
     "bee_sourcing": "completed",
-    "professor_yu_report": "completed",
+    "professor_yu_report": "in_progress",
     "merge_archive": "completed",
-    "push_github": "completed",
-    "push_gitee": "completed",
-    "push_feishu": "completed"
+    "push_github": "pending",
+    "push_gitee": "pending",
+    "push_feishu": "pending"
   }
 }
