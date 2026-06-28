@@ -1,14 +1,14 @@
 {
-  "last_run": "2026-06-24T08:00:00+08:00",
-  "status": "baseline_created",
-  "report_path": null,
+  "last_run": "2026-06-28T09:00:00+08:00",
+  "status": "completed",
+  "report_path": "dataset_filtering_survey/2026-06-28.md",
   "stats": {
-    "papers_total": 41,
+    "papers_total": 52,
     "tools_total": 10,
     "blogs_total": 6,
-    "incremental_papers": 0,
+    "incremental_papers": 17,
     "incremental_tools": 0,
-    "incremental_blogs": 0
+    "incremental_blogs": 3
   },
-  "note": "Initial baseline from bee full research on 2026-06-24. First incremental run scheduled for 2026-06-28 09:00 CST."
+  "note": "First incremental run completed. Merged 17 new papers (2 dedup) and 3 new blogs into baseline. Total: 52 papers, 10 tools, 6 blogs."
 }

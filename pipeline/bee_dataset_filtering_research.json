@@ -1,5 +1,5 @@
 {
-  "search_date": "2026-06-24",
+  "search_date": "2026-06-28",
   "search_keywords": [
     "dataset filtering LLM training",
     "data selection pretraining language model",
@@ -11,7 +11,10 @@
     "curriculum learning data sampling LLM training",
     "dataset distillation survey"
   ],
-  "channels_searched": ["arXiv", "GitHub"],
+  "channels_searched": [
+    "arXiv",
+    "GitHub"
+  ],
   "papers": [
     {
       "title": "BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training",
@@ -21,7 +24,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Scalable bi-level adaptive data selection method for LLM pretraining. Dynamically selects high-value data subsets during training.",
-      "key_methods": ["bi-level optimization", "adaptive sampling", "scalable selection"],
+      "key_methods": [
+        "bi-level optimization",
+        "adaptive sampling",
+        "scalable selection"
+      ],
       "relevance_score": "high"
     },
     {
@@ -32,7 +39,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Distills gradient-based influence scores from decoder models into an encoder for efficient data attribution and quality assessment.",
-      "key_methods": ["influence distillation", "gradient-based attribution", "data quality scoring"],
+      "key_methods": [
+        "influence distillation",
+        "gradient-based attribution",
+        "data quality scoring"
+      ],
       "relevance_score": "high"
     },
     {
@@ -43,7 +54,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Addresses safety degradation during fine-tuning by filtering out safety-harmful data even when instructions appear benign.",
-      "key_methods": ["safety-aware filtering", "instruction fine-tuning", "toxic data detection"],
+      "key_methods": [
+        "safety-aware filtering",
+        "instruction fine-tuning",
+        "toxic data detection"
+      ],
       "relevance_score": "high"
     },
     {
@@ -54,7 +69,11 @@
       "source_channel": "arXiv",
       "category": "construction",
       "description": "Toolkit for data curation and synthetic data generation specifically designed for LLM post-training (SFT/RLHF).",
-      "key_methods": ["data curation pipeline", "synthetic data generation", "post-training data"],
+      "key_methods": [
+        "data curation pipeline",
+        "synthetic data generation",
+        "post-training data"
+      ],
       "relevance_score": "high"
     },
     {
@@ -65,7 +84,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Shows that online data reweighting during training generalizes better than offline filtering/selection methods for LLM training.",
-      "key_methods": ["online reweighting", "dynamic sampling", "offline vs online comparison"],
+      "key_methods": [
+        "online reweighting",
+        "dynamic sampling",
+        "offline vs online comparison"
+      ],
       "relevance_score": "high"
     },
     {
@@ -76,7 +99,11 @@
       "source_channel": "arXiv",
       "category": "mixing",
       "description": "Dynamic data mixture optimization using proxy training trajectories to predict optimal mixing ratios.",
-      "key_methods": ["dynamic mixing", "proxy trajectories", "mixture optimization"],
+      "key_methods": [
+        "dynamic mixing",
+        "proxy trajectories",
+        "mixture optimization"
+      ],
       "relevance_score": "high"
     },
     {
@@ -87,7 +114,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Uses web graph centrality metrics to select high-quality pretraining data, comparing hub vs fringe web pages.",
-      "key_methods": ["graph centrality", "web data selection", "page quality assessment"],
+      "key_methods": [
+        "graph centrality",
+        "web data selection",
+        "page quality assessment"
+      ],
       "relevance_score": "high"
     },
     {
@@ -98,7 +129,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Scalable data attribution method that captures subset dynamics beyond additive assumptions using geometric alignment.",
-      "key_methods": ["geometry-aware attribution", "residual alignment", "subset selection"],
+      "key_methods": [
+        "geometry-aware attribution",
+        "residual alignment",
+        "subset selection"
+      ],
       "relevance_score": "high"
     },
     {
@@ -109,7 +144,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Training data attribution using sparse recovery techniques from subset perturbations to identify influential data points.",
-      "key_methods": ["sparse recovery", "subset perturbation", "data attribution"],
+      "key_methods": [
+        "sparse recovery",
+        "subset perturbation",
+        "data attribution"
+      ],
       "relevance_score": "high"
     },
     {
@@ -120,7 +159,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Challenges the assumption that dataset distillation outperforms simpler coreset methods for classification tasks.",
-      "key_methods": ["dataset distillation", "coreset comparison", "classification"],
+      "key_methods": [
+        "dataset distillation",
+        "coreset comparison",
+        "classification"
+      ],
       "relevance_score": "high"
     },
     {
@@ -131,7 +174,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Uses low-rank structure of data embeddings to select representative subsets for efficient model training.",
-      "key_methods": ["low-rank approximation", "geometric assumptions", "active learning"],
+      "key_methods": [
+        "low-rank approximation",
+        "geometric assumptions",
+        "active learning"
+      ],
       "relevance_score": "high"
     },
     {
@@ -142,7 +189,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Reduces storage and training costs by pruning datasets using semi-supervised pseudo-labeling, requiring minimal labeled data.",
-      "key_methods": ["dataset pruning", "pseudo-labeling", "semi-supervised"],
+      "key_methods": [
+        "dataset pruning",
+        "pseudo-labeling",
+        "semi-supervised"
+      ],
       "relevance_score": "high"
     },
     {
@@ -153,7 +204,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Develops efficient proxy methods that preserve influence function rankings for data selection during LLM supervised fine-tuning.",
-      "key_methods": ["influence proxies", "gradient-based selection", "SFT data selection"],
+      "key_methods": [
+        "influence proxies",
+        "gradient-based selection",
+        "SFT data selection"
+      ],
       "relevance_score": "high"
     },
     {
@@ -164,7 +219,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Applies influence functions to select the most valuable reasoning examples for LLM fine-tuning on reasoning tasks.",
-      "key_methods": ["influence functions", "reasoning data selection", "fine-tuning optimization"],
+      "key_methods": [
+        "influence functions",
+        "reasoning data selection",
+        "fine-tuning optimization"
+      ],
       "relevance_score": "high"
     },
     {
@@ -175,7 +234,11 @@
       "source_channel": "arXiv",
       "category": "mixing",
       "description": "Studies scaling laws for data mixture pretraining when individual data sources are limited, proposing optimal mixing strategies.",
-      "key_methods": ["scaling laws", "mixture optimization", "data-constrained training"],
+      "key_methods": [
+        "scaling laws",
+        "mixture optimization",
+        "data-constrained training"
+      ],
       "relevance_score": "high"
     },
     {
@@ -186,7 +249,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "FLYT algorithm learns data usefulness scores from test distribution to filter pretraining data for vision-language models.",
-      "key_methods": ["test-aware filtering", "data usefulness learning", "CLIP pretraining"],
+      "key_methods": [
+        "test-aware filtering",
+        "data usefulness learning",
+        "CLIP pretraining"
+      ],
       "relevance_score": "high"
     },
     {
@@ -197,7 +264,11 @@
       "source_channel": "arXiv",
       "category": "mixing",
       "description": "Shows that mixing by topic distribution is more effective than mixing by source/domain for LLM pretraining.",
-      "key_methods": ["topic-based mixing", "domain mixing comparison", "pretraining optimization"],
+      "key_methods": [
+        "topic-based mixing",
+        "domain mixing comparison",
+        "pretraining optimization"
+      ],
       "relevance_score": "high"
     },
     {
@@ -208,7 +279,11 @@
       "source_channel": "arXiv",
       "category": "mixing",
       "description": "Studies optimal data mixing strategies for multilingual continual pretraining across different language resource levels.",
-      "key_methods": ["multilingual mixing", "continual pretraining", "resource-aware mixing"],
+      "key_methods": [
+        "multilingual mixing",
+        "continual pretraining",
+        "resource-aware mixing"
+      ],
       "relevance_score": "high"
     },
     {
@@ -219,7 +294,11 @@
       "source_channel": "arXiv",
       "category": "construction",
       "description": "Systematic study on synthetic pretraining data quality, examining prompt design, generator choice, and source data impact.",
-      "key_methods": ["synthetic data generation", "prompt engineering", "quality factors"],
+      "key_methods": [
+        "synthetic data generation",
+        "prompt engineering",
+        "quality factors"
+      ],
       "relevance_score": "high"
     },
     {
@@ -230,7 +309,11 @@
       "source_channel": "arXiv",
       "category": "construction",
       "description": "Provides a recipe for curating web data for medical domain pretraining, identifying high-signal data sources.",
-      "key_methods": ["domain-specific curation", "web data recipe", "medical pretraining"],
+      "key_methods": [
+        "domain-specific curation",
+        "web data recipe",
+        "medical pretraining"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -241,7 +324,11 @@
       "source_channel": "arXiv",
       "category": "mixing",
       "description": "Studies midtraining—mixing specialized data with general data—as a bridge between pretraining and posttraining distributions.",
-      "key_methods": ["midtraining", "distribution bridging", "specialized data mixing"],
+      "key_methods": [
+        "midtraining",
+        "distribution bridging",
+        "specialized data mixing"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -252,7 +339,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Difficulty-aware curriculum for RLVR training that sequences examples from easy to hard for better reasoning generalization.",
-      "key_methods": ["difficulty-aware curriculum", "SFT-RL decoupling", "curriculum learning"],
+      "key_methods": [
+        "difficulty-aware curriculum",
+        "SFT-RL decoupling",
+        "curriculum learning"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -263,7 +354,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Identifies which preference data samples are most valuable for LLM alignment, enabling efficient data selection for RLHF/DPO.",
-      "key_methods": ["preference data selection", "alignment optimization", "data value estimation"],
+      "key_methods": [
+        "preference data selection",
+        "alignment optimization",
+        "data value estimation"
+      ],
       "relevance_score": "high"
     },
     {
@@ -274,7 +369,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Uses influence-guided off-policy data selection to improve sample efficiency in RLVR training for reasoning.",
-      "key_methods": ["influence guidance", "off-policy selection", "RLVR efficiency"],
+      "key_methods": [
+        "influence guidance",
+        "off-policy selection",
+        "RLVR efficiency"
+      ],
       "relevance_score": "high"
     },
     {
@@ -285,7 +384,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Uses memorization patterns to identify and remove spurious correlations from training datasets.",
-      "key_methods": ["memorization-guided debiasing", "spurious correlation removal", "dataset cleaning"],
+      "key_methods": [
+        "memorization-guided debiasing",
+        "spurious correlation removal",
+        "dataset cleaning"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -296,7 +399,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Constructs stable coresets by sampling from posterior distributions to align the coreset's loss landscape with the full dataset's.",
-      "key_methods": ["posterior sampling", "loss landscape alignment", "stable coresets"],
+      "key_methods": [
+        "posterior sampling",
+        "loss landscape alignment",
+        "stable coresets"
+      ],
       "relevance_score": "high"
     },
     {
@@ -307,7 +414,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Proposes Correlation of Loss Differences (CLD), a scalable metric for selecting data via training trajectory analysis.",
-      "key_methods": ["loss difference correlation", "trajectory-based selection", "scalable coreset"],
+      "key_methods": [
+        "loss difference correlation",
+        "trajectory-based selection",
+        "scalable coreset"
+      ],
       "relevance_score": "high"
     },
     {
@@ -318,7 +429,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Quantitative analysis of individual data point influence using differential approximation methods for AI training data.",
-      "key_methods": ["differential approximation", "data influence quantification", "training data analysis"],
+      "key_methods": [
+        "differential approximation",
+        "data influence quantification",
+        "training data analysis"
+      ],
       "relevance_score": "high"
     },
     {
@@ -329,7 +444,11 @@
       "source_channel": "arXiv",
       "category": "construction",
       "description": "Automated data curation agent for computer vision that handles labeling and quality filtering at scale.",
-      "key_methods": ["automated curation", "CV data pipeline", "labeling automation"],
+      "key_methods": [
+        "automated curation",
+        "CV data pipeline",
+        "labeling automation"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -340,7 +459,11 @@
       "source_channel": "arXiv",
       "category": "dedup",
       "description": "Reproducible pipeline for low-resource language corpus with SHA-256 deduplication and multi-stage quality filtering.",
-      "key_methods": ["SHA-256 deduplication", "quality filtering pipeline", "low-resource corpus"],
+      "key_methods": [
+        "SHA-256 deduplication",
+        "quality filtering pipeline",
+        "low-resource corpus"
+      ],
       "relevance_score": "medium"
     },
     {
@@ -351,7 +474,11 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Empirical study evaluating training data optimization methods (selection, weighting, ordering) for LLM code generation.",
-      "key_methods": ["training data optimization", "code generation", "empirical evaluation"],
+      "key_methods": [
+        "training data optimization",
+        "code generation",
+        "empirical evaluation"
+      ],
       "relevance_score": "high"
     },
     {
@@ -362,7 +489,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "30 trillion token multilingual collection with rich quality filtering pipeline for ~200 languages.",
-      "key_methods": ["multilingual filtering", "quality pipeline", "large-scale curation"],
+      "key_methods": [
+        "multilingual filtering",
+        "quality pipeline",
+        "large-scale curation"
+      ],
       "relevance_score": "high"
     },
     {
@@ -373,7 +504,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Uses influence functions to identify and remove training data that contributes to toxic LLM behaviors.",
-      "key_methods": ["influence-based detoxification", "toxic data identification", "safety filtering"],
+      "key_methods": [
+        "influence-based detoxification",
+        "toxic data identification",
+        "safety filtering"
+      ],
       "relevance_score": "high"
     },
     {
@@ -384,7 +519,11 @@
       "source_channel": "arXiv",
       "category": "filtering",
       "description": "Efficient zeroth-order approximation for computing data influence scores without gradient computation.",
-      "key_methods": ["zeroth-order approximation", "data influence estimation", "gradient-free"],
+      "key_methods": [
+        "zeroth-order approximation",
+        "data influence estimation",
+        "gradient-free"
+      ],
       "relevance_score": "high"
     },
     {
@@ -395,8 +534,318 @@
       "source_channel": "arXiv",
       "category": "sampling",
       "description": "Dynamic curriculum orchestration that adapts data ordering and mixing during domain-specific LLM training.",
-      "key_methods": ["dynamic curriculum", "domain adaptation", "orchestration"],
+      "key_methods": [
+        "dynamic curriculum",
+        "domain adaptation",
+        "orchestration"
+      ],
       "relevance_score": "medium"
+    },
+    {
+      "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "url": "https://arxiv.org/abs/2606.25996",
+      "authors": "Kulikov, Ilia; Whitehouse, Chenxi; Wu, Tianhao; Nie, Yixin; Saha, Swarnadeep; Helenowski, Eryk",
+      "year": 2026,
+      "date": "2026-06-24",
+      "abstract_summary": "Introduces a general method enabling AI agents to act as data scientists who build high-quality training and evaluation data. Proposes meta-optimization of data scientist agents and a practical implementation called Agentic Self-Instruct. Tested on CS research, legal reasoning, and mathematical reasoning tasks.",
+      "key_methods": [
+        "agentic data construction",
+        "meta-optimization of data agents",
+        "Agentic Self-Instruct",
+        "synthetic data generation"
+      ],
+      "source_channel": "HuggingFace Daily Papers",
+      "category": "synthetic_data_construction",
+      "relevance_score": 9,
+      "incremental_status": "new_paper_june24"
+    },
+    {
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "url": "https://arxiv.org/abs/2606.24855",
+      "authors": "Raoof, Negin; Zhuang, Richard; Nezhurina, Marianna; Guha, Etash; Tejaswi, Atula; Marten, Ryan",
+      "year": 2026,
+      "date": "2026-06-23",
+      "abstract_summary": "Fully open data curation pipeline for training agentic LLMs. Conducts 100+ controlled ablation experiments to investigate each stage of agentic data curation. Addresses the gap where existing open efforts target single benchmarks.",
+      "key_methods": [
+        "agentic data curation pipeline",
+        "100+ ablation experiments",
+        "open data recipes",
+        "multi-stage pipeline"
+      ],
+      "source_channel": "HuggingFace Daily Papers",
+      "category": "data_curation_pipeline",
+      "relevance_score": 9,
+      "incremental_status": "new_paper_june24"
+    },
+    {
+      "title": "HARP: Efficient Data Selection for Finetuning Large Language Models",
+      "url": "https://arxiv.org/abs/2606.07690",
+      "authors": "Wang, Ning; Zhang, Zhengxin; Tang, Maosen; Gao, Yitang; Cardie, Claire; Galhotra, Sainyam",
+      "year": 2026,
+      "date": "2026-06-05",
+      "abstract_summary": "Proposes Hierarchical Active Region Pruning (HARP), an efficient train-based data selector that preserves downstream utility without repeated fine-tuning. Bridges gap between scalable but proxy-reliant train-free selectors and accurate but costly train-based methods.",
+      "key_methods": [
+        "hierarchical active region pruning",
+        "train-based selection",
+        "fine-tuning data selection",
+        "efficiency optimization"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "data_selection_finetuning",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "How Should LLMs Consume High-Quality Data? Optimal Data Scheduling via Quality-Aware Functional Scaling Laws",
+      "url": "https://arxiv.org/abs/2605.25698",
+      "authors": "Zhu, Zhitao; Wang, Xili; Wu, Shizhe; Fu, Jiawei; Liu, Xiaoqing",
+      "year": 2026,
+      "date": "2026-05-25",
+      "abstract_summary": "Extends functional scaling laws with a data-quality dimension. Solves joint data-quality and batch-size scheduling in closed form. Reveals two regimes and a dual role of high-quality data: signal amplifier in noise-limited regime.",
+      "key_methods": [
+        "quality-aware scaling laws",
+        "functional scaling laws",
+        "data scheduling optimization",
+        "closed-form solution"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "data_scheduling_scaling",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "PRISM: Preference-Aware Influence Function Based Data Selection Method for Efficient Fine-Tuning",
+      "url": "https://arxiv.org/abs/2605.21422",
+      "authors": "Lin, Qihao; Chen, Guanxu; Liu, Dongrui; Shao, Jing",
+      "year": 2026,
+      "date": "2026-05-20",
+      "abstract_summary": "Introduces preference-aware influence functions for data selection. Unlike existing methods that treat all target examples equally, PRISM weights target examples by relevance to model optimization. Systematic experiments across model families and scales.",
+      "key_methods": [
+        "preference-aware influence functions",
+        "weighted target examples",
+        "fine-tuning efficiency",
+        "cross-scale validation"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "influence_function_selection",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale",
+      "url": "https://arxiv.org/abs/2602.12414",
+      "authors": "Idahl, Maximilian; Droste, Benedikt; Plüster, Björn; Harries, Jan Philipp",
+      "year": 2026,
+      "date": "2026-02-12",
+      "abstract_summary": "Challenges single scalar quality scores for data curation. Introduces small multilingual LLMs (0.6B-4B) that annotate documents across 18 properties in 6 categories. Supports 57 languages. 4B model achieves higher agreement than larger general-purpose models.",
+      "key_methods": [
+        "multi-property annotation",
+        "18 quality dimensions",
+        "multilingual annotation (57 languages)",
+        "small LLM annotators"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "multi_dimensional_quality_rating",
+      "relevance_score": 10,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "Towards Next-Generation LLM Training: From the Data-Centric Perspective",
+      "url": "https://arxiv.org/abs/2603.14712",
+      "authors": "Liang, Hao; Zhao, Zhengyang; Han, Zhaoyang; Qiang, Meiyi; Ma, Xiaochen; Zeng, Bohan",
+      "year": 2026,
+      "date": "2026-03-16",
+      "abstract_summary": "Comprehensive data-centric framework for next-generation LLM training. Covers data quality evaluation, dynamic data selection conditioned on training state, and unified interface between training and data selection processes.",
+      "key_methods": [
+        "data-centric framework",
+        "dynamic data selection",
+        "quality evaluation pipeline",
+        "training-data interface"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "data_centric_framework",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models",
+      "url": "https://arxiv.org/abs/2603.26164",
+      "authors": "Liang, Hao; Zhao, Zhengyang; Qiang, Meiyi; Chen, Mingrui; Ma, Lu; Yu, Rongyi",
+      "year": 2026,
+      "date": "2026-03-27",
+      "abstract_summary": "Unified framework integrating data selection, mixture optimization, and data reweighting. Addresses fragmented codebases and inconsistent interfaces in existing approaches. Enables fair comparison and practical integration.",
+      "key_methods": [
+        "unified data framework",
+        "data selection integration",
+        "mixture optimization",
+        "reweighting"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "data_centric_framework",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tuning",
+      "url": "https://arxiv.org/abs/2604.00001",
+      "authors": "Wang, Fangxin; Baghershahi, Peyman; He, Langzhou; Zou, Henry Peng; Medya, Sourav; Yu, Philip S.",
+      "year": 2026,
+      "date": "2026-03-08",
+      "abstract_summary": "Optimizer-aware framework for gradient-based online data selection and reweighting in LLM fine-tuning. Two-stage algorithm: filter geometrically useful candidates, then optimize coefficients. Views selection as shaping optimization trajectory.",
+      "key_methods": [
+        "online data selection",
+        "optimizer-aware selection",
+        "gradient-based reweighting",
+        "two-stage filter-then-weight"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "online_data_selection",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
+      "url": "https://arxiv.org/abs/2604.11810",
+      "authors": "Tang, Tianhao; Li, Haoyang; Chen, Lei",
+      "year": 2026,
+      "date": "2026-04-09",
+      "abstract_summary": "Graph-guided adaptive and dynamic coreset selection framework for LLM optimization. Addresses limitations of existing coreset methods that fail to adapt to dynamic training needs. Designed for large-scale models.",
+      "key_methods": [
+        "dynamic coreset selection",
+        "graph-guided selection",
+        "adaptive coreset",
+        "LLM optimization"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "coreset_dynamic",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning (IPROX)",
+      "url": "https://arxiv.org/abs/2602.17835",
+      "authors": "Chen, Sirui; Qi, Yunzhe; Ai, Mengting; Sun, Yifan; Qiu, Ruizhong; Zou, Jiaru",
+      "year": 2026,
+      "date": "2026-02-19",
+      "abstract_summary": "Addresses computational cost of gradient-based data selection (TracIn, Influence Functions) for multi-billion-parameter LLMs. Proposes influence-preserving proxies that maintain selection quality while reducing cost. Validated under different gradient-based influence methods.",
+      "key_methods": [
+        "influence-preserving proxies",
+        "gradient-based selection",
+        "computational efficiency",
+        "proxy model selection"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "influence_function_efficiency",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "From Insight to Action: Interpretability-Guided Data Selection in Large Language Models (IGDS)",
+      "url": "https://arxiv.org/abs/2604.25167",
+      "authors": "Shi, Ling; Wu, Xinwei; Zhao, Xiaohu; Wang, Hao; Liu, Heng; Liu, Yangyang",
+      "year": 2026,
+      "date": "2026-04-28",
+      "abstract_summary": "Bridges mechanistic interpretability and data selection. Uses Sparse Autoencoders (SAEs) to identify causal task features, then selects data based on feature activation frequency. Proposes Interpretability-Guided Data Selection (IGDS).",
+      "key_methods": [
+        "interpretability-guided selection",
+        "Sparse Autoencoders",
+        "causal task features",
+        "frequency-based selection"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "interpretability_data_selection",
+      "relevance_score": 8,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "On Representation Redundancy in Large-Scale Instruction Tuning Data Selection",
+      "url": "https://arxiv.org/abs/2602.13773",
+      "authors": "Shu, Youwei; Zheng, Shaomian; Jin, Dingnan; Qu, Wenjie; Guo, Ziyao; Cui, Qing",
+      "year": 2026,
+      "date": "2026-02-14",
+      "abstract_summary": "Studies instruction-tuning data selection through semantic representation similarity. Identifies key limitation: LLM encoders produce highly redundant semantic embeddings. Proposes method to mitigate redundancy for industrial-scale data selection.",
+      "key_methods": [
+        "representation redundancy analysis",
+        "semantic embedding deduplication",
+        "industrial-scale selection",
+        "instruction tuning"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "instruction_data_selection",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining",
+      "url": "https://arxiv.org/abs/2602.03772",
+      "authors": "Wang, Changhao; Yu, Yunfei; Yao, Xinhao; Yang, Jiaolong; Cantoro, Riccardo; Li, Chaobo",
+      "year": 2026,
+      "date": "2026-02-03",
+      "abstract_summary": "Unifies data mixing and selection as manifold approximation. Hierarchical: Macro-Exploration learns mixing weights via stability-based clustering; Micro-Mining filters high-quality instances by geometric distance. Achieves 2× data efficiency on 100B tokens.",
+      "key_methods": [
+        "unified mixing+selection",
+        "manifold approximation",
+        "hierarchical clustering",
+        "geometric distance filtering"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "unified_data_optimization",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration",
+      "url": "https://arxiv.org/abs/2602.05400",
+      "authors": "Wang, Shaobo; Ouyang, Xuan; Xu, Tianyi; Hu, Yuzheng; Liu, Jialin; Chen, Guo",
+      "year": 2026,
+      "date": "2026-02-05",
+      "abstract_summary": "Dynamic data selection framework defining utility in optimizer-induced update space. Addresses Data Wall problem where high-quality text approaches exhaustion. Optimizer-agnostic criteria based on raw gradients replaced by optimizer-projected utility.",
+      "key_methods": [
+        "optimizer-induced selection",
+        "dynamic per-iteration selection",
+        "update-space utility",
+        "Data Wall response"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "dynamic_data_selection",
+      "relevance_score": 9,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs",
+      "url": "https://arxiv.org/abs/2601.17058",
+      "authors": "Zhou, Wei; Zhou, Jun; Wang, Haoyu; Li, Zhenghao; He, Qikang; Han, Shaokun",
+      "year": 2026,
+      "date": "2026-01-22",
+      "abstract_summary": "Unified taxonomy of LLM-enhanced data preparation methods. Covers denoising, cross-dataset relationships, and valuable insight extraction. Driven by rising demands for application-ready data and increasingly powerful LLM techniques.",
+      "key_methods": [
+        "LLM-enhanced data preparation",
+        "unified taxonomy",
+        "agent-based data prep",
+        "application-ready data"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "survey_data_preparation",
+      "relevance_score": 8,
+      "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data (LLM Data Auditor)",
+      "url": "https://arxiv.org/abs/2601.17717",
+      "authors": "Zhang, Kaituo; Hu, Mingzhi; Le, Hoang Anh Duy; Torsha, Fariha Kabir; Jiang, Zhimeng; Bui, Minh Khai",
+      "year": 2026,
+      "date": "2026-01-25",
+      "abstract_summary": "Proposes LLM Data Auditor for evaluating synthetic data quality and trustworthiness. Covers quality and trustworthiness dimensions. Addresses gap where research focuses on generation methods but not evaluation.",
+      "key_methods": [
+        "synthetic data evaluation",
+        "quality metrics",
+        "trustworthiness assessment",
+        "LLM-based auditing"
+      ],
+      "source_channel": "SearXNG science",
+      "category": "survey_synthetic_data_quality",
+      "relevance_score": 8,
+      "incremental_status": "missed_in_baseline"
     }
   ],
   "tools_and_repos": [
@@ -512,6 +961,49 @@
       "source_channel": "HuggingFace Blog",
       "description": "Documents data curation and filtering strategies used to build high-quality small language models from limited data budgets.",
       "relevance_score": "medium"
+    },
+    {
+      "title": "Spend 80% of Your LLM Compute on Data, Not Training",
+      "url": "https://huggingface.co/blog/maxidl/spend-compute-on-data",
+      "author": "Max Idahl",
+      "date": "2026",
+      "summary": "Argues data investments exhibit durability that training investments lack. A curated dataset from 2024 can train models across years. Advocates shifting compute allocation from training to data curation for better long-term ROI.",
+      "practical_value": "high",
+      "source_channel": "HuggingFace blog",
+      "category": "data_investment_advocacy",
+      "relevance_score": 9,
+      "incremental_status": "new_blog"
+    },
+    {
+      "title": "Why Data Curation Became the Bottleneck Again",
+      "url": "https://blog.pebblous.ai/blog/data-curation-bottleneck-foundation-models/en/",
+      "author": "Pebblous AI",
+      "date": "2026",
+      "summary": "Analysis of why data curation is now the primary bottleneck in foundation model development. Cites FineWeb-Edu results: 38B curated tokens match 350B unfiltered (9× efficiency). Phi's 1.3B model beats GPT-3.5. Argues data curation, not model size, determines performance.",
+      "practical_value": "high",
+      "source_channel": "SearXNG general",
+      "category": "data_curation_analysis",
+      "relevance_score": 9,
+      "incremental_status": "new_blog"
+    },
+    {
+      "title": "Scaling Pedagogical Pre-training: From Optimal Mixing to 10 Billion Tokens",
+      "url": "https://huggingface.co/blog/codelion/scaling-pedagogical-pretraining-10-billion-tokens",
+      "author": "Asankhaya Sharma (codelion)",
+      "date": "2026",
+      "summary": "Documents DatologyAI's UberWeb project showing targeted per-language curation of 20T-token corpus enables 3B/8B models to match baselines at 4-10× lower compute. Discusses pedagogical pre-training strategies and optimal data mixing approaches.",
+      "practical_value": "high",
+      "source_channel": "HuggingFace blog",
+      "category": "data_mixing_case_study",
+      "relevance_score": 8,
+      "incremental_status": "new_blog"
     }
-  ]
+  ],
+  "last_incremental_update": "2026-06-28T09:00:00+08:00",
+  "metadata": {
+    "last_updated": "2026-06-28T09:00:00+08:00",
+    "total_papers": 52,
+    "total_tools_and_repos": 10,
+    "total_blog_posts_and_tutorials": 6
+  }
 }
