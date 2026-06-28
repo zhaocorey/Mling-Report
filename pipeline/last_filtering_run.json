@@ -6,9 +6,9 @@
     "papers_total": 52,
     "tools_total": 10,
     "blogs_total": 6,
-    "incremental_papers": 17,
+    "incremental_papers": 19,
     "incremental_tools": 0,
     "incremental_blogs": 3
   },
-  "note": "First incremental run completed. Merged 17 new papers (2 dedup) and 3 new blogs into baseline. Total: 52 papers, 10 tools, 6 blogs."
+  "note": "Second run. First incremental survey completed."
 }
