@@ -1,5 +1,5 @@
 {
-  "search_date": "2026-06-28",
+  "search_date": "2026-06-29",
   "search_keywords": [
     "dataset filtering LLM training",
     "data selection pretraining language model",
@@ -846,6 +846,86 @@
       "category": "survey_synthetic_data_quality",
       "relevance_score": 8,
       "incremental_status": "missed_in_baseline"
+    },
+    {
+      "title": "Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation",
+      "url": "https://arxiv.org/abs/2606.11127",
+      "year": 2026,
+      "description": "Controlled study of two under-explored practices in synthetic post-training filtering: (1) whether filtering signals should be grounded in source evidence that induced each generation, and (2) whether rejected samples can be systematically recovered rather than permanently discarded. Finds that exact source provenance improves faithfulness gating, hallucination and reward gates reject largely disjoint populations, and adaptive recovery combining failure diagnosis with targeted regeneration achieves higher yield than naive resampling.",
+      "source_channel": "SearXNG science",
+      "category": "synthetic_data_filtering_recovery",
+      "relevance_score": 9,
+      "incremental_note": "New arXiv submission, June 2026"
+    },
+    {
+      "title": "Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods (ADAPT)",
+      "url": "https://arxiv.org/abs/2605.05227",
+      "year": 2026,
+      "description": "Proposes rethinking data curation as an online reweighting problem rather than offline selection/mixing. Introduces ADAPT (Adaptive Data reweighting for Pretraining and FineTuning), a dynamic framework that reweights training samples with adaptive per-sample learning rates guided by similarity-based quality signals. Acts as implicit curriculum learner, shifting from coarse-grained to fine-grained distinctions. Outperforms offline selection/mixing and prior online methods on both instruction tuning and large-scale pretraining under equal FLOPs.",
+      "source_channel": "SearXNG science",
+      "category": "online_data_reweighting",
+      "relevance_score": 9,
+      "incremental_note": "Not in baseline; discovered in incremental search"
+    },
+    {
+      "title": "Data Value Density Enhancement for Large Language Model Training: A Comprehensive Survey",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6618802",
+      "year": 2026,
+      "description": "Comprehensive survey introducing the concept of 'Data Value Density (DVD) enhancement' for LLM training. Covers methodologies for maximizing the value extracted from training data through filtering, selection, mixing ratio optimization, and quality improvement. Provides a unified framework for understanding diverse data curation techniques.",
+      "source_channel": "SearXNG science",
+      "category": "survey_data_value_density",
+      "relevance_score": 8,
+      "incremental_note": "Not in baseline; SSRN preprint discovered in incremental search"
+    },
+    {
+      "title": "On the Step Length Confounding in LLM Reasoning Data Selection (ASLEC)",
+      "url": "https://aclanthology.org/2026.findings-acl.918/",
+      "year": 2026,
+      "description": "Identifies 'step length confounding' in naturalness-based data selection for LLM reasoning datasets: log-probability scoring systematically prefers longer reasoning steps rather than higher-quality ones. Proposes ASLEC-DROP and ASLEC-CASL mitigation methods. ACL 2026 Findings.",
+      "source_channel": "SearXNG science",
+      "category": "reasoning_data_selection",
+      "relevance_score": 8,
+      "incremental_note": "ACL 2026 Findings; not in baseline. Relevant for reasoning data quality."
+    },
+    {
+      "title": "InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for Efficient LLM Fine-Tuning",
+      "url": "https://arxiv.org/abs/2601.23006",
+      "year": 2026,
+      "description": "Uses differential entropy between base and minimally instruction-tuned models as domain-adaptive selection criterion. Reasoning tasks favor entropy increase (cognitive expansion), general tasks favor entropy decrease (cognitive compression). Achieves 17% improvement on math reasoning and 52% on general instruction-following using only 10% of data.",
+      "source_channel": "SearXNG science",
+      "category": "entropy_based_data_selection",
+      "relevance_score": 8,
+      "incremental_note": "January 2026 paper not in baseline; discovered in broader search sweep."
+    },
+    {
+      "title": "From Insight to Action: Interpretability-Guided Data Selection in LLMs (IGDS)",
+      "url": "https://aclanthology.org/2026.acl-long.283/",
+      "year": 2026,
+      "description": "Uses Sparse Autoencoders (SAEs) to identify causal task features, then selects 'Feature-Resonant Data' that maximally activates task features for fine-tuning. Validated on math reasoning, summarization, translation with Gemma-2, LLaMA-3.1, Qwen3. Surpasses full-dataset fine-tuning by 17.4% using only 50% data. ACL 2026.",
+      "source_channel": "SearXNG science",
+      "category": "interpretability_guided_selection",
+      "relevance_score": 8,
+      "incremental_note": "ACL 2026; not in baseline. Novel intersection of interpretability and data selection."
+    },
+    {
+      "title": "DataRater: Meta-learned Dataset Curation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1cfb3b066461f1c542be5242a622ce4b-Abstract-Conference.html",
+      "year": 2025,
+      "description": "Meta-learning approach that learns which data is valuable for training rather than using hand-crafted heuristics. Scalable, fine-grained curation through learned data quality metrics. NeurIPS 2025.",
+      "source_channel": "SearXNG science",
+      "category": "meta_learned_curation",
+      "relevance_score": 9,
+      "incremental_note": "NeurIPS 2025; not in baseline. Significant missed paper from original search."
+    },
+    {
+      "title": "20/20 Vision Language Models: Better VLMs through Data Curation Alone",
+      "url": "https://arxiv.org/abs/2605.11405",
+      "year": 2026,
+      "description": "Demonstrates data curation alone (holding architecture, training, compute fixed) lifts VLM performance by +11.7pp across 20 benchmarks. Curated 2B model surpasses InternVL3.5-2B by 9.9pp at 17x less compute. Shows curation delivers reliability, OOD generalization, behavioral gains, and Pareto-dominance on inference cost.",
+      "source_channel": "SearXNG science",
+      "category": "data_curation_vlm",
+      "relevance_score": 8,
+      "incremental_note": "May 2026; not in baseline. Strong evidence for data curation impact on VLMs."
     }
   ],
   "tools_and_repos": [
@@ -938,6 +1018,15 @@
       "stars": 200,
       "category": "filtering",
       "relevance_score": "high"
+    },
+    {
+      "title": "CuratorKIT - Post-Training Data Curation Library",
+      "url": "https://arxiv.org/abs/2606.21631",
+      "description": "Open-source Python library for building auditable post-training data curation pipelines. Covers full lifecycle: ingestion (6 format readers), pre-generation filtering, synthetic data generation, quality filtering, and provenance tracking. Single configurable framework replacing fragmented toolchains. Released alongside the paper.",
+      "source_channel": "SearXNG science (paper reference)",
+      "category": "data_curation_pipeline_tool",
+      "relevance_score": 10,
+      "incremental_note": "New tool, June 2026. GitHub repo not yet indexed by search engines at time of search."
     }
   ],
   "blog_posts_and_tutorials": [
@@ -999,7 +1088,7 @@
       "incremental_status": "new_blog"
     }
   ],
-  "last_incremental_update": "2026-06-28T09:00:00+08:00",
+  "last_incremental_update": "2026-06-29T09:00:00+08:00",
   "metadata": {
     "last_updated": "2026-06-28T09:00:00+08:00",
     "total_papers": 52,
