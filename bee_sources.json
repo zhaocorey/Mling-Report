@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-06-29",
-  "search_summary": "2026-06-29 增量更新：累计 152 个数据集。6/29 新增 7 个（C3PO-Mixed-Pretraining-Corpus-Translations、Swahili-Pretraining-Corpus、Cross-Lingual-Pitfalls、NyayaBench v2、compar:IA、Multilingual-Accent-Speech、MixMinMatch Collection）。无版本更新。",
+  "search_date": "2026-06-30",
+  "search_summary": "2026-06-30 增量更新：+14个高时效数据集（ACL 2026贡献8个），覆盖评估/对齐/微调/语音多模态",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -2779,6 +2779,288 @@
       "timeliness_score": "中",
       "search_keywords": "MixMinMatch multilingual pretraining cross-source deduplication",
       "source": "SearXNG 搜索 (MixMinMatch multilingual pretraining 2026) + HuggingFace Collection"
+    },
+    {
+      "name": "XQ-MEval",
+      "url": "https://aclanthology.org/2026.findings-acl.1846/",
+      "languages": [
+        "en-zh",
+        "en-ja",
+        "en-lo",
+        "en-hi",
+        "en-ar",
+        "en-fr",
+        "en-de",
+        "en-ru",
+        "en-ko"
+      ],
+      "size": "覆盖9个翻译方向的跨语言平行质量评估数据集",
+      "license": "开放获取（ACL 2026 Findings）",
+      "category": "评估",
+      "description": "ACL 2026 Findings 论文。首个提供跨语言平行质量的翻译评估指标基准数据集，覆盖9个翻译方向。通过半自动方式注入MQM定义的错误类型到黄金翻译中，由母语者过滤后生成可控质量的伪翻译。实验揭示了自动评估指标的跨语言打分偏差，并提出归一化策略提升公平性。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Findings",
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual evaluation dataset 2026",
+      "source": "DuckDuckGo + SearXNG 搜索发现"
+    },
+    {
+      "name": "SEA-NLI",
+      "url": "https://arxiv.org/abs/2606.03284",
+      "languages": [
+        "th",
+        "vi",
+        "id",
+        "ms",
+        "fil",
+        "ta",
+        "my",
+        "km",
+        "en"
+      ],
+      "size": "覆盖8个东南亚国家的文化背景NLI基准",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "2026年6月发布的原生文化背景自然语言推理基准，专为评估东南亚文化理解而设计。覆盖8个东南亚国家的英语和本地语言，由母语者验证。测试17个编码器和解码器模型，发现所有模型表现较低，尤其在语言和科技等知识密集型类别。SEA-adapted模型和文化感知提示可改善性能。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-10",
+      "release_version": "v1.0 (arXiv:2606.03284)",
+      "timeliness_score": "高",
+      "search_keywords": "Southeast Asian language dataset 2026",
+      "source": "DuckDuckGo搜索发现"
+    },
+    {
+      "name": "Minionese",
+      "url": "https://openreview.net/forum?id=MOurqe0VBb",
+      "languages": [
+        "覆盖18种语言，横跨4个资源层级"
+      ],
+      "size": "多语言越狱安全基准，含4种扰动类型",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "综合性多语言LLM安全基准，覆盖18种语言、4个资源层级（高/中/低/极低资源）和4种扰动类型（标准翻译、代码切换、音译、字符替换）。研究多语言安全对齐的脆弱性，发现在资源层级之间存在急剧的安全制度转变。发表于2026年顶会。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-15",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety alignment dataset June 2026",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "SEA-SafeguardBench",
+      "url": "https://aclanthology.org/2026.findings-acl.194/",
+      "languages": [
+        "th",
+        "vi",
+        "id",
+        "ms",
+        "fil",
+        "ta"
+      ],
+      "size": "东南亚语言文化背景安全基准",
+      "license": "开放获取（ACL 2026 Findings）",
+      "category": "评估",
+      "description": "ACL 2026 Findings。首个专为东南亚语言设计的文化背景安全基准，评估LLM在东南亚语言环境下的安全响应和拒绝率。包含对开源和API模型的护栏评估和安全评估，报告了有害提示和安全提示上的表现。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Findings",
+      "timeliness_score": "高",
+      "search_keywords": "Southeast Asian language dataset 2026 + multilingual safety alignment",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "LASA (Language-Agnostic Semantic Alignment)",
+      "url": "https://github.com/thu-coai/lasa-multilingual-safety",
+      "languages": [
+        "覆盖多种语言的安全对齐方法，含低资源语言"
+      ],
+      "size": "MultiJail基准上Llama-3.1-8B平均ASR降至1.70%",
+      "license": "开放获取（ACL 2026 Main）",
+      "category": "对齐",
+      "description": "ACL 2026 主会长文。清华CoAI提出的语言无关语义对齐方法，将安全对齐从语言特定文本空间转移到模型的语言无关语义空间。发现语义瓶颈层中表征按共享意义而非语言聚类。在MultiJail数据集上实现1.70%的平均ASR，显著提升多语言安全。含数据集和代码开源。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Main",
+      "timeliness_score": "高",
+      "search_keywords": "ACL 2026 multilingual dataset + LASA",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "PazaBench",
+      "url": "https://www.microsoft.com/en-us/research/blog/paza-introducing-automatic-speech-recognition-benchmarks-and-models-for-low-resource-languages/",
+      "languages": [
+        "覆盖39种非洲语言"
+      ],
+      "size": "52个模型的评估，首个低资源语言ASR排行榜",
+      "license": "开放获取（Microsoft Research）",
+      "category": "语音/多模态",
+      "description": "微软研究院发布的以人为中心的语音识别基准。PazaBench是首个面向低资源非洲语言的ASR排行榜，覆盖39种非洲语言和52个模型，并在真实社区环境中测试。配套Paza语音pipeline，支持低资源语言ASR模型开发和评估。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-15",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "African language dataset 2026 + low-resource language dataset",
+      "source": "DuckDuckGo + SearXNG 搜索发现"
+    },
+    {
+      "name": "Nemotron-VLM-Dataset-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-VLM-Dataset-v2",
+      "languages": [
+        "多语言，覆盖多种语言"
+      ],
+      "size": "2200万高分辨率页面",
+      "license": "NVIDIA开放许可",
+      "category": "微调",
+      "description": "NVIDIA发布的大规模多语言VLM数据集，用于高级文档解析、OCR和结构化提取。包含2200万高分辨率页面，是Nemotron-Parse-1.1和Nemotron Nano V2等模型的训练数据基础。作为Nemotron VLM生态的核心数据集公开发布。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-10",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "search_keywords": "NVIDIA Nemotron multilingual dataset 2026",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "UPDESH",
+      "url": "https://aclanthology.org/2026.acl-long.1763/",
+      "languages": [
+        "hi",
+        "bn",
+        "te",
+        "ta",
+        "mr",
+        "gu",
+        "kn",
+        "ml",
+        "pa",
+        "or",
+        "as",
+        "ur",
+        "sd"
+      ],
+      "size": "9.5M样本，覆盖13种印度语言",
+      "license": "开放获取（ACL 2026 Main）",
+      "category": "微调",
+      "description": "ACL 2026 主会论文。面向13种印度语言的文化背景指令微调数据集，采用自底向上的文化感知合成pipeline生成9.5M高质量IFT样本。评估涵盖数据生成、质量评估和模型性能，弥补了现有印度语言指令数据的不足。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Main",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual SFT dataset + ACL 2026",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "PolyRefuse",
+      "url": "https://arxiv.org/abs/2606.01196",
+      "languages": [
+        "覆盖多种语言（高/中/低资源层级）"
+      ],
+      "size": "多语言安全拒绝行为评估数据集",
+      "license": "开放获取",
+      "category": "对齐",
+      "description": "研究多语言安全拒绝方向通用性的数据集。发现安全对齐模型中存在跨语言的通用拒绝方向，通过激活干预实验验证。PolyRefuse包含来自多种语言的有害提示，用于测试模型在不同资源层级语言中的安全失败模式。2026年6月arXiv论文。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-02",
+      "release_version": "v1.0 (arXiv:2606.01196)",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual preference RLHF dataset 2026 + PolyRefuse",
+      "source": "SearXNG搜索发现"
+    },
+    {
+      "name": "vanila434/multilingual-elder-safety-msgs",
+      "url": "https://huggingface.co/datasets/vanila434/multilingual-elder-safety-msgs",
+      "languages": [
+        "zh",
+        "yue",
+        "en",
+        "vi",
+        "km"
+      ],
+      "size": "1K-10K样本",
+      "license": "CC-BY-4.0",
+      "category": "对齐",
+      "description": "面向华裔美国老年人和东南亚老年人的多语言安全消息数据集。包含欺诈检测、老年人安全相关的对比对数据，覆盖中文、粤语、英语、越南语和高棉语。专为防范针对移民老年人的健康产品诈骗和社交工程攻击而设计。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-04-19",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety + HuggingFace API搜索",
+      "source": "HuggingFace API搜索发现"
+    },
+    {
+      "name": "SorryBench-202503-Multilingual",
+      "url": "https://huggingface.co/datasets/tiny-aya-safety/sorry-bench-202503-multilingual",
+      "languages": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "zh"
+      ],
+      "size": "多语言越狱安全评估数据集",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "SorryBench的多语言扩展版本，评估LLM在面对ASCII编码、Base64编码等多语言越狱攻击时的鲁棒性。覆盖英语、阿拉伯语、孟加拉语、德语、西班牙语、法语、印地语和中文，使用多种编码绕过策略测试安全对齐的有效性。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-04-08",
+      "release_version": "202503-multilingual",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety + HuggingFace API搜索",
+      "source": "HuggingFace API搜索发现"
+    },
+    {
+      "name": "MENT (Meta-Evaluation for Non-literal Translation)",
+      "url": "https://aclanthology.org/2026.acl-long.205/",
+      "languages": [
+        "多语言翻译评估"
+      ],
+      "size": "7,530个人工标注",
+      "license": "开放获取（ACL 2026）",
+      "category": "评估",
+      "description": "ACL 2026论文。面向非字面翻译的元评估数据集，包含7530个人工标注。揭示传统指标和LLM-as-Judge在非字面场景下的不可靠性。提出RATE代理评估框架，通过反思核心代理动态调用功能子代理，将与人类判断的相关性提升3.2个点以上。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026",
+      "timeliness_score": "高",
+      "search_keywords": "ACL 2026 multilingual dataset",
+      "source": "DuckDuckGo搜索发现"
+    },
+    {
+      "name": "Multilingual Mutual Reinforcement Effect IE Dataset",
+      "url": "https://aclanthology.org/2026.findings-acl.88/",
+      "languages": [
+        "多语言"
+      ],
+      "size": "多语言信息抽取数据集",
+      "license": "开放获取（ACL 2026 Findings）",
+      "category": "微调",
+      "description": "ACL 2026 Findings论文。构建的多语言数据集用于验证信息抽取中多语言数据的相互增强效应。实证研究表明，多语言联合训练可以在不降低任何单一语言性能的情况下提升整体IE效果。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Findings",
+      "timeliness_score": "高",
+      "search_keywords": "ACL 2026 multilingual dataset",
+      "source": "DuckDuckGo搜索发现"
+    },
+    {
+      "name": "BIASEDTALES-ML",
+      "url": "https://aclanthology.org/2026.findings-acl.862/",
+      "languages": [
+        "多语言（覆盖多种语言的叙事生成分析）"
+      ],
+      "size": "多语言叙事偏见分析数据集",
+      "license": "开放获取（ACL 2026 Findings）",
+      "category": "评估",
+      "description": "ACL 2026 Findings论文。首个系统性分析LLM生成故事中叙事属性分布的多语言数据集。揭示不同语言中LLM叙事生成的社会偏见和刻板印象差异。提供交互式可视化工具Biased Tales Explorer，支持多语言叙事分析和评估。",
+      "discovered_date": "2026-06-30",
+      "last_updated": "2026-06-20",
+      "release_version": "ACL 2026 Findings (arXiv:2604.17008)",
+      "timeliness_score": "高",
+      "search_keywords": "ACL 2026 multilingual dataset",
+      "source": "DuckDuckGo搜索发现"
     }
   ],
   "total_datasets": 131
