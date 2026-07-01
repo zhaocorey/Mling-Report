@@ -1,0 +1,57 @@
+[
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Instruction Fine-Tuning datasets are critical; small, high-quality, and diverse datasets can rival larger corpora."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Multilingual models often fail in low-resource languages, making dataset construction the upper bound for their capabilities."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "The Superficial Alignment Hypothesis posits fine-tuning only aligns style, but its multilingual validity remains unverified."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Key challenges include the lack of extensible quality scoring, English-centric diversity studies, and unverified multilingual SAH."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "We propose M-DaQ, a diversity-driven retrieval method to improve multilinguality and mitigate data skewness across 18 languages."
+            }
+        ]
+    }
+]

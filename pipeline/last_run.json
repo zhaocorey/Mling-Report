@@ -1,18 +1,18 @@
 {
   "last_run_date": "2026-06-30",
-  "last_run_time": "08:08",
-  "status": "in_progress",
-  "report_path": null,
+  "last_run_time": "08:15",
+  "status": "completed",
+  "report_path": "sources_reports/2026-06-30.md",
   "incremental_datasets": 14,
   "version_updates": 0,
-  "baseline_total": 131,
-  "notes": "6/30: 14 new datasets found (all high timeliness). ACL 2026 is the major source (8 datasets). SEA safety benchmarks emerging. Next: professor-yu report generation.",
+  "baseline_total": 166,
+  "notes": "6/30: 14 new high-timeliness datasets (ACL 2026: 8). Baseline 152→166. GitHub+Gitee pushed OK. Feishu push needs user auth.",
   "pipeline_steps": {
     "bee_sourcing": "completed",
-    "professor_yu_report": "pending",
-    "merge_archive": "pending",
-    "push_github": "pending",
-    "push_gitee": "pending",
-    "push_feishu": "pending"
+    "professor_yu_report": "completed",
+    "merge_archive": "completed",
+    "push_github": "completed",
+    "push_gitee": "completed",
+    "push_feishu": "failed_need_auth"
   }
 }

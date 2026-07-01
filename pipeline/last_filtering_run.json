@@ -1,14 +1,7 @@
 {
-  "last_run": "2026-06-29T09:00:00+08:00",
+  "last_run": "2026-06-30T09:15:00+08:00",
   "status": "completed",
-  "report_path": "dataset_filtering_survey/2026-06-29.md",
-  "stats": {
-    "papers_total": 60,
-    "tools_total": 11,
-    "blogs_total": 6,
-    "incremental_papers": 8,
-    "incremental_tools": 1,
-    "incremental_blogs": 1
-  },
-  "note": "Third run. +8 papers (3 new + 5 missed), +1 tool (CuratorKIT), +1 blog. Total: 60 papers, 11 tools, 6 blogs."
+  "incremental_papers": 15,
+  "incremental_tools": 1,
+  "incremental_blogs": 1
 }

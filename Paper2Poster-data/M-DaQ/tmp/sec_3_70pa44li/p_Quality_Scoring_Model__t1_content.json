@@ -1,0 +1,57 @@
+[
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Fine-tuned model designed to estimate the quality of multilingual samples across 18 languages."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Trained on a pairwise dataset of ~2.3K expert-revised (positive) and original (negative) samples per language."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Negative responses typically suffer from content errors, machine translation artifacts, and insufficient cultural localization."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Positive responses demonstrate deeper reasoning, higher complexity, and greater comprehensiveness."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 48,
+        "runs": [
+            {
+                "text": "Optimized using a triplet loss function in the embedding space to learn relative quality evaluation."
+            }
+        ]
+    }
+]

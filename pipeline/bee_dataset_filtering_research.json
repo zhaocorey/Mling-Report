@@ -926,6 +926,146 @@
       "category": "data_curation_vlm",
       "relevance_score": 8,
       "incremental_note": "May 2026; not in baseline. Strong evidence for data curation impact on VLMs."
+    },
+    {
+      "title": "MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning",
+      "url": "https://arxiv.org/abs/2605.30857",
+      "year": 2026,
+      "description": "Uses neural activation states during LLM inference as model-intrinsic features for diversity-based coreset selection. Core set selected by 3B model transfers to fine-tune 7B/8B/13B models. On Alpaca-GPT4 (52K pairs), 15% core set achieves 2.5% average improvement over full-dataset training. Coverage-based selection using activation features.",
+      "source_channel": "SearXNG science",
+      "category": "model_aware_coreset_instruction",
+      "relevance_score": 9,
+      "incremental_note": "May 2026 arXiv. Model-intrinsic diversity selection; cross-model transferability."
+    },
+    {
+      "title": "The Long-Term Effects of Data Selection in LLM Fine-Tuning",
+      "url": "https://arxiv.org/abs/2605.30537",
+      "year": 2026,
+      "description": "Introduces long-horizon view of LLM data selection across multiple fine-tuning stages. Shows short-term optimal selectors exhibit 'rank reversal' — improving current stage while slowing subsequent learning and increasing forgetting ('myopic selection'). Proposes Long-Horizon Aware Selection (LHAS) objective with coverage, future-proxy transfer, and anti-concentration terms.",
+      "source_channel": "SearXNG science",
+      "category": "long_horizon_data_selection",
+      "relevance_score": 9,
+      "incremental_note": "May 2026 arXiv. Novel perspective on multi-stage data selection consequences."
+    },
+    {
+      "title": "DeMix: Decouple Searching from Training — Scaling Data Mixing via Model Merging for LLM Pre-training",
+      "url": "https://arxiv.org/abs/2602.00747",
+      "year": 2026,
+      "description": "ICML 2026. Uses model merging to predict optimal data mixture ratios without training proxy models for every sampled mixture. Trains component models on candidate datasets, derives mixture proxies via weighted merging. Decouples search from training cost. Releases DeMix Corpora (22T-token dataset). Code: github.com/Lucius-lsr/DeMix.",
+      "source_channel": "SearXNG science",
+      "category": "data_mixture_model_merging",
+      "relevance_score": 9,
+      "incremental_note": "Feb 2026, accepted ICML 2026. Novel paradigm for scalable data mixture optimization."
+    },
+    {
+      "title": "TBDFiltering: Sample-Efficient Tree-Based Data Filtering",
+      "url": "https://arxiv.org/abs/2601.22016",
+      "year": 2026,
+      "description": "Text-embedding-based hierarchical clustering that adaptively selects documents for LLM evaluation to estimate cluster quality. Proves query efficiency: under subtree purity assumption, correctly predicts quality with O(subtree size) queries without knowing the subtree in advance. Outperforms classifier-based filtering methods experimentally. Non-parametric approach.",
+      "source_channel": "SearXNG science",
+      "category": "tree_based_filtering",
+      "relevance_score": 8,
+      "incremental_note": "Jan 2026 arXiv. Theoretically grounded, query-efficient filtering approach."
+    },
+    {
+      "title": "MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6e54c0fb5c8be96b92055f6a3b6b2d6f-Abstract-Conference.html",
+      "year": 2025,
+      "description": "NeurIPS 2025. Scalable framework that transfers high-quality English data quality signals to multilingual pretraining data selection. Addresses the challenge of quality assessment for low-resource languages where English-trained classifiers may not apply. Builds training mix for multilingual LLMs.",
+      "source_channel": "SearXNG science",
+      "category": "multilingual_quality_rating",
+      "relevance_score": 9,
+      "incremental_note": "NeurIPS 2025. Missed by both baseline and first incremental. Critical for multilingual data curation."
+    },
+    {
+      "title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5aee125f052c90e326dcf6f380df94f6-Abstract-Datasets_and_Benchmarks_Track.html",
+      "year": 2025,
+      "description": "NeurIPS 2025 Datasets & Benchmarks. Studies how data selection classifiers and their training datasets affect multilingual pretraining quality. Covers 20 languages with model-based filtering. Releases refined multilingual pretraining dataset.",
+      "source_channel": "SearXNG science",
+      "category": "multilingual_data_selection_benchmark",
+      "relevance_score": 9,
+      "incremental_note": "NeurIPS 2025 D&B. Missed by both baseline and first incremental."
+    },
+    {
+      "title": "NAIT: Neuron-Aware Data Selection in Instruction Tuning for Large Language Models",
+      "url": "https://arxiv.org/abs/2603.13201",
+      "year": 2026,
+      "description": "Evaluates IT data impact by analyzing similarity of neuron activation patterns between IT dataset and target domain capability. Constructs reusable, transferable neuron activation features from in-domain datasets. 10% Alpaca-GPT4 subset outperforms methods using external models or uncertainty features. Reveals logical reasoning/programmatic data has strongest cross-task transferability.",
+      "source_channel": "SearXNG science",
+      "category": "neuron_aware_data_selection",
+      "relevance_score": 8,
+      "incremental_note": "March 2026 arXiv. Novel model-intrinsic selection using neuron activation patterns."
+    },
+    {
+      "title": "BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs",
+      "url": "https://www.vldb.org/pvldb/vol19/p1264-chai.pdf",
+      "year": 2026,
+      "description": "VLDB 2026. Bi-level optimization for coreset selection minimizing gradient divergence between full dataset and weighted coreset for instruction tuning. Addresses overfitting issues in LLM coreset selection. Published in PVLDB Vol 19.",
+      "source_channel": "SearXNG science",
+      "category": "bilevel_coreset_instruction",
+      "relevance_score": 8,
+      "incremental_note": "VLDB 2026. Missed by both baseline and first incremental."
+    },
+    {
+      "title": "Alignment Tuning for Large Language Models: A Data-Centric Lens on Alignment Data Pipelines",
+      "url": "https://aclanthology.org/2026.findings-acl.121/",
+      "year": 2026,
+      "description": "ACL 2026 Findings survey. Adopts a data-centric view of alignment data construction, treating it as an explicit pipeline rather than implicit assumption. Covers alignment data creation, filtering, and quality assessment methodologies.",
+      "source_channel": "SearXNG science",
+      "category": "survey_alignment_data_pipeline",
+      "relevance_score": 8,
+      "incremental_note": "ACL 2026 Findings. Survey on alignment data curation pipelines."
+    },
+    {
+      "title": "LLM Benchmark Datasets Should Be Contamination-Resistant",
+      "url": "https://arxiv.org/abs/2605.19999",
+      "year": 2026,
+      "description": "ICML 2026 Position Paper. Argues benchmarks should be 'unlearnable' but support inference, leveraging asymmetry between inference and training pipelines in Transformers. Outlines mathematical frameworks for contamination resistance and calls for community adoption. Addresses benchmark leakage into pretraining corpora.",
+      "source_channel": "SearXNG science",
+      "category": "contamination_resistant_benchmarks",
+      "relevance_score": 8,
+      "incremental_note": "ICML 2026 Position Paper. Relevant to benchmark decontamination in data curation."
+    },
+    {
+      "title": "What Matters in Data for DPO?",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3f37b8fbd43303106dd141a602838ad5-Abstract-Conference.html",
+      "year": 2025,
+      "description": "NeurIPS 2025. Systematic study of what constitutes high-impact preference data for DPO alignment. Interprets mechanisms behind widely adopted strategies and provides practical insights for constructing preference datasets.",
+      "source_channel": "SearXNG science",
+      "category": "dpo_data_quality",
+      "relevance_score": 8,
+      "incremental_note": "NeurIPS 2025. Missed by both baseline and first incremental."
+    },
+    {
+      "title": "The Impact of Coreset Selection on Spurious Correlations and Group Robustness",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ae3fd80c07b1c5fdc0ce59b55396812-Abstract-Datasets_and_Benchmarks_Track.html",
+      "year": 2025,
+      "description": "NeurIPS 2025 D&B. Studies how data selection affects bias levels in selected coresets. Evaluates 5 data selection policies across broad range of coreset sizes for their impact on spurious correlations and group robustness.",
+      "source_channel": "SearXNG science",
+      "category": "coreset_bias_robustness",
+      "relevance_score": 8,
+      "incremental_note": "NeurIPS 2025 D&B. Missed by both baseline and first incremental. Important fairness perspective on coreset selection."
+    },
+    {
+      "title": "Less is More: Improving LLM Alignment via Preference Data Selection (BeeS)",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ebf95a6f3c575322da15d4fd0fc2b3c8-Abstract-Conference.html",
+      "year": 2025,
+      "description": "NeurIPS 2025. Proposes margin-maximization principle for DPO dataset curation and Bayesian Aggregation for Preference data Selection (BeeS). Studies how data filtering influences DPO training efficiency.",
+      "source_channel": "SearXNG science",
+      "category": "preference_data_selection",
+      "relevance_score": 8,
+      "incremental_note": "NeurIPS 2025. Missed by baseline and first incremental."
+    },
+    {
+      "title": "Datasets, Documents, and Repetitions: The Practicalities of Unequal Data Quality",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2aba6ec20299931d46ddeefd5ddcb442-Abstract-Conference.html",
+      "year": 2025,
+      "description": "NeurIPS 2025. Investigates practical aspects of data filtering and deduplication across multiple pre-training datasets. Studies when data filtering is justifiable and document-level mixing strategies.",
+      "source_channel": "SearXNG science",
+      "category": "data_filtering_practicalities",
+      "relevance_score": 8,
+      "incremental_note": "NeurIPS 2025. Missed by baseline and first incremental."
     }
   ],
   "tools_and_repos": [
@@ -1027,6 +1167,15 @@
       "category": "data_curation_pipeline_tool",
       "relevance_score": 10,
       "incremental_note": "New tool, June 2026. GitHub repo not yet indexed by search engines at time of search."
+    },
+    {
+      "title": "DeMix Corpora and Code",
+      "url": "https://github.com/Lucius-lsr/DeMix",
+      "description": "Code and 22T-token dataset released with the DeMix paper (ICML 2026). Implements model-merging-based data mixture optimization. Includes component model training scripts and mixture evaluation tools.",
+      "source_channel": "SearXNG science (paper reference)",
+      "category": "data_mixture_tool",
+      "relevance_score": 8,
+      "incremental_note": "Released with DeMix paper, Feb 2026. GitHub repo for data mixture optimization."
     }
   ],
   "blog_posts_and_tutorials": [
@@ -1086,13 +1235,22 @@
       "category": "data_mixing_case_study",
       "relevance_score": 8,
       "incremental_status": "new_blog"
+    },
+    {
+      "title": "Reproducible Data Curation In The Multimodal Lakehouse",
+      "url": "https://www.lancedb.com/blog/reproducible-data-curation-in-the-multimodal-lakehouse",
+      "description": "LanceDB blog on turning raw multimodal data into reproducible, training-ready datasets. Covers search, filtering, deduplication, sampling, and versioned curation workflows. Practical tooling perspective for multimodal data pipelines.",
+      "source_channel": "SearXNG general",
+      "category": "multimodal_curation_tooling",
+      "relevance_score": 7,
+      "incremental_note": "LanceDB blog on reproducible curation workflows for multimodal data."
     }
   ],
-  "last_incremental_update": "2026-06-29T09:00:00+08:00",
+  "last_incremental_update": "2026-06-30T09:15:00+08:00",
   "metadata": {
-    "last_updated": "2026-06-29T09:00:00+08:00",
-    "total_papers": 60,
-    "total_tools_and_repos": 11,
-    "total_blog_posts_and_tutorials": 6
+    "last_updated": "2026-06-30T09:15:00+08:00",
+    "total_papers": 74,
+    "total_tools_and_repos": 12,
+    "total_blog_posts_and_tutorials": 7
   }
 }

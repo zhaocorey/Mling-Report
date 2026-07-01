@@ -1,0 +1,46 @@
+[
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 60,
+        "runs": [
+            {
+                "text": "Heuristic selection of the longest instruction-response pairs consistently outperforms complex methods by capturing rich learnable signals."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 60,
+        "runs": [
+            {
+                "text": "LLM-as-a-judge frameworks automatically filter low-quality instances, yielding superior performance with reduced training costs."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 60,
+        "runs": [
+            {
+                "text": "Existing methods often disregard linguistic specificities and suffer from cross-lingual biases when using general-purpose judges."
+            }
+        ]
+    },
+    {
+        "alignment": "left",
+        "bullet": true,
+        "level": 0,
+        "font_size": 60,
+        "runs": [
+            {
+                "text": "We propose fine-tuning a multilingual expert model and applying Maximal Marginal Relevance to balance data quality and diversity."
+            }
+        ]
+    }
+]
