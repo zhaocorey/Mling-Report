@@ -1,7 +1,10 @@
 {
-  "last_run": "2026-06-30T09:15:00+08:00",
+  "last_run": "2026-07-02T16:02:00+08:00",
   "status": "completed",
-  "incremental_papers": 15,
-  "incremental_tools": 1,
-  "incremental_blogs": 1
+  "incremental_papers": 6,
+  "incremental_tools": 0,
+  "incremental_blogs": 0,
+  "output_file": "bee_dataset_filtering_incremental.json",
+  "discovery_channels": ["arXiv API", "HuggingFace Daily Papers"],
+  "notes": "DuckDuckGo blocked; arXiv API + HF Daily Papers primary channels. 1 truly new paper (CausalMix), 5 missed by baseline."
 }

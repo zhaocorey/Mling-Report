@@ -1,41 +1,35 @@
-# Poster Brief — M-DaQ
+# Poster Brief: M-DaQ
 
-## 基本信息
+## Audience
+- SIGIR 2026 attendees (IR/NLP researchers)
+- Multilingual LLM practitioners
+- Data curation specialists
 
-| 项目 | 内容 |
-|------|------|
-| **论文标题** | M-DaQ: Retrieving Samples with Multilingual Diversity and Quality for Instruction Fine-Tuning Datasets |
-| **会议** | SIGIR 2026 Short Paper |
-| **地点/时间** | Melbourne, VIC, Australia · July 20–24, 2026 |
-| **海报规格** | A0 (84.1 × 118.9 cm)，**竖版 (Portrait)** |
-| **作者** | Chunguang Zhao, Yilun Liu, Pufan Zeng, Yuanchang Luo, Shimin Tao, Minggui He, Weibin Meng, Song Xu, Chen Liu, Hongxia Ma, Li Zhang, Boxing Chen, Daimeng Wei |
-| **机构** | Huawei Technologies Ltd. · University of Science and Technology of China |
-| **代码** | https://github.com/zhaocorey/M-DaQ |
+## Poster Goal
+Demonstrate that a small, curated multilingual IFT dataset (1K samples) outperforms 52K unfiltered samples across 18 languages.
 
-## 目标受众
+## Key Claim
+**M-DaQ selects compact, high-fidelity multilingual IFT subsets using quality scoring + diversity selection, achieving 60%+ win rates vs. full dataset.**
 
-SIGIR / IR / NLP 研究者 + 多语言 LLM 从业者。混合专业水平——需让 IR 社区感到亲切（MMR 灵感），同时让 LLM 训练者快速 get 到实用价值。
+## Content Priorities
+1. **Why**: Multilingual IFT data scarcity (3.01% in Llama-3)
+2. **What**: M-DaQ framework (QSM + DAS)
+3. **How**: Triplet loss quality scoring + MMR-inspired diversity
+4. **Results**: 60%+ avg win rate, SAH validation
+5. **Takeaway**: 1K curated > 52K unfiltered
 
-## 核心 Takeaway
+## Assumptions
+- A0 portrait format (84.1 × 118.9 cm)
+- 2-column layout for readability
+- SIGIR 2026 conference branding
+- Huawei + USTC institutional logos
 
-> **用信息检索的 MMR 思想选 IFT 数据：1K 精选样本 > 52K 全量数据，跨 18 种语言一致提升 60%+ 胜率。**
+## Figures to Feature
+1. **Hero**: 18-language win rate bar chart (fig_p1_0)
+2. **Method**: M-DaQ pipeline diagram (fig_p1_1)
+3. **SAH**: Scale validation line chart (fig_p4_1)
 
-## 优先展示内容
-
-1. **M-DaQ 框架图**（Figure 2: QSM + DAS 两阶段 pipeline）— hero figure
-2. **18 语言胜率条形图**（Figure 1b: Alpaca-Eval + MT-Bench win rates）— 核心结果
-3. **SAH 验证折线图**（Figure 4: 1K vs 10K vs 52K 性能曲线）— 关键洞察
-4. **文化本地化案例**（Figure 3: 法语 Corsica 旅行 query 的对比）— 定性亮点
-5. **人工评估表**（Table 1: 6 语言 win rates）— 人工验证
-
-## 品牌/风格
-
-- Huawei logo（左上）+ USTC logo（右上）
-- 配色建议：深蓝/白底/亮橙点缀（科技感 + 高对比度）
-- QR code 指向 GitHub repo
-
-## 假设与待确认
-
-- SIGIR 2026 海报规格沿用 2025 标准（A0 Portrait）—— 需确认官方通知
-- 需作者提供机构 logo 高清文件
-- 如需添加会议 logo，需提供 SIGIR 2026 logo 文件
+## Constraints
+- No LaTeX available → PPTX generation
+- Must avoid text/figure overlaps
+- Contact: zhaochunguang6@huawei.com

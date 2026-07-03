@@ -1,0 +1,151 @@
+{
+  "search_date": "2026-07-02",
+  "incremental_window": "2026-07-02T09:10:00+08:00 to 2026-07-02T16:02:00+08:00",
+  "search_keywords": [
+    "dataset filtering LLM",
+    "data selection language model",
+    "data curation LLM training",
+    "data deduplication pretraining",
+    "data mixing LLM",
+    "influence function data selection",
+    "active learning data selection",
+    "data quality assessment",
+    "synthetic data generation",
+    "coreset selection",
+    "data mixture optimization"
+  ],
+  "channels_searched": [
+    "arXiv API",
+    "HuggingFace Daily Papers",
+    "DuckDuckGo (web_search)",
+    "GitHub"
+  ],
+  "papers": [
+    {
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "url": "https://arxiv.org/abs/2607.01104",
+      "authors": "Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei, Dingnan Jin, Jun Zhou, Yujun Wang, Biqing Huang",
+      "year": 2026,
+      "date": "2026-07-01",
+      "abstract_summary": "Casts data mixture optimization as a causal inference problem. Formulates statistical features of the data pool as covariates and domain mixture as treatment. Fits a causal model on 512 runs of Qwen2.5-0.5B to estimate Conditional Average Treatment Effect (CATE), then extrapolates optimal mixture for an 800K data pool and applies it to train a 7B model. Successfully generalizes to long chain-of-thought data on Qwen3-4B-Base. Outperforms RegMix and other baselines across multiple downstream tasks. Includes CATE Interpreter for visual analysis of learned mixing strategies.",
+      "key_methods": [
+        "causal inference for data mixing",
+        "CATE estimation",
+        "state-dependent optimal mixture",
+        "interpretable mixing strategy"
+      ],
+      "source_channel": "HuggingFace Daily Papers (July 2)",
+      "category": "data_mixture_optimization",
+      "relevance_score": 10,
+      "incremental_note": "Published July 1, 2026. New paradigm for data mixture optimization using causal inference. Tsinghua + Ant Group."
+    },
+    {
+      "title": "GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes",
+      "url": "https://arxiv.org/abs/2606.30077",
+      "authors": "Jun Wang et al.",
+      "year": 2026,
+      "date": "2026-06-29",
+      "abstract_summary": "Proposes GAIA (Global Adaptive Instruction tuning via Gaussian processes), a framework that formulates data valuation as a global estimation process rather than batch-constrained local utility. Employs Gaussian Process regression to model continuous utility manifolds across the semantic space with adaptive strategy fusion. Casts strategy-posterior update as an instance of the classical fixed-share Hedge framework, providing dynamic-regret guarantees under non-stationary quality scores. Significantly outperforms state-of-the-art baselines on three datasets.",
+      "key_methods": [
+        "Gaussian Process data valuation",
+        "global utility estimation",
+        "adaptive strategy fusion",
+        "dynamic regret guarantee"
+      ],
+      "source_channel": "arXiv API",
+      "category": "online_data_selection",
+      "relevance_score": 9,
+      "incremental_note": "Submitted June 29, 2026 (after baseline cutoff). Novel GP-based approach for online instruction data selection with theoretical guarantees."
+    },
+    {
+      "title": "Reasoning Quality Emerges Early: Data Curation for Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.26797",
+      "authors": "Hongyi Jin et al.",
+      "year": 2026,
+      "date": "2026-06-25",
+      "abstract_summary": "Shows that diverse and challenging reasoning examples can be identified using only the initial reasoning tokens. Difficult problems can be reliably detected based on loss of the first 100 reasoning tokens evaluated at a randomly perturbed checkpoint. Examples with similar loss patterns over first 1k reasoning tokens provably induce similar gradients. Outperforms existing baselines by up to 1.7% while being 91% more token efficient. Validated on Qwen2.5-7B and Llama3.1-8B.",
+      "key_methods": [
+        "early-token quality detection",
+        "perturbed checkpoint scoring",
+        "gradient similarity via loss patterns",
+        "token-efficient curation"
+      ],
+      "source_channel": "arXiv API",
+      "category": "reasoning_data_curation",
+      "relevance_score": 10,
+      "incremental_note": "ICML 2026 Poster. Missed by baseline (published June 25). Highly practical: 91% token savings for reasoning data curation."
+    },
+    {
+      "title": "Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs via Data Curation",
+      "url": "https://arxiv.org/abs/2606.25432",
+      "authors": "DatologyAI team",
+      "year": 2026,
+      "date": "2026-06-24",
+      "abstract_summary": "Argues that pretraining data curation is a practical lever for inference efficiency: models trained on concise, correct data learn to answer in fewer tokens. Applies VLM curation pipeline to MAmmoTH-VL. Achieves 35x Cost-of-Pass advantage over verbose 4B models and +17.55pp matched-length accuracy gain. Shows generic verbosity buys no accuracy, and reasoning-structured verbosity earns fewer tokens as model scale increases.",
+      "key_methods": [
+        "conciseness-inducing data curation",
+        "Cost-of-Pass optimization",
+        "verbosity-quality tradeoff analysis",
+        "scale-dependent verbosity patterns"
+      ],
+      "source_channel": "arXiv API",
+      "category": "data_curation_efficiency",
+      "relevance_score": 8,
+      "incremental_note": "Missed by baseline (published June 24). Novel angle: data curation for inference efficiency rather than just quality. DatologyAI."
+    },
+    {
+      "title": "DataComp-VLM: Improved Open Datasets for Vision-Language Models",
+      "url": "https://arxiv.org/abs/2606.28551",
+      "authors": "Matteo Farina, Vishaal Udandarao, Thao Nguyen, et al.",
+      "year": 2026,
+      "date": "2026-06-26",
+      "abstract_summary": "Improved open datasets and benchmark for VLM data curation, extending the DataComp framework to vision-language model pretraining. Provides standardized testbed for comparing data filtering and selection strategies for VLMs.",
+      "key_methods": [
+        "VLM data curation benchmark",
+        "open dataset improvement",
+        "standardized filtering evaluation"
+      ],
+      "source_channel": "arXiv API",
+      "category": "data_curation_benchmark_vlm",
+      "relevance_score": 8,
+      "incremental_note": "Missed by baseline (published June 26). Extension of DataComp to VLMs. Important benchmark resource."
+    },
+    {
+      "title": "Defending Against Harmful Supervision Hidden in Benign Samples",
+      "url": "https://arxiv.org/abs/2606.30263",
+      "authors": "Bang An et al.",
+      "year": 2026,
+      "date": "2026-06-29",
+      "abstract_summary": "Proposes 'Embedded Attack' where harmful QA pairs are embedded within benign training samples, showing representative guardrails fail at example-level detection. Introduces Dual-Reference SFT (DR-SFT) using DPO-style contrastive objective design with token-level regularization to mitigate harmful fine-tuning beyond coarse data filtering.",
+      "key_methods": [
+        "embedded attack detection",
+        "dual-reference SFT",
+        "token-level regularization",
+        "beyond-filtering safety"
+      ],
+      "source_channel": "arXiv API",
+      "category": "safety_data_filtering",
+      "relevance_score": 7,
+      "incremental_note": "Published June 29. Relevant for safety-aware data filtering in fine-tuning. Proposes methods that go beyond simple data filtering."
+    }
+  ],
+  "tools_and_repos": [],
+  "blog_posts_and_tutorials": [],
+  "incremental_statistics": {
+    "new_papers": 6,
+    "new_tools": 0,
+    "new_blogs": 0,
+    "papers_breakdown": {
+      "truly_new_in_window": 1,
+      "missed_by_baseline": 5
+    }
+  },
+  "notes": [
+    "DuckDuckGo web_search triggered bot detection during this run, limiting search breadth",
+    "arXiv API and HuggingFace Daily Papers were the primary discovery channels",
+    "CausalMix (2607.01104) is the only paper published within the strict incremental window (July 2 09:10 - 16:02 Beijing time)",
+    "5 additional papers from late June were discovered as missed by the baseline search",
+    "No new tools or blog posts were discovered in this incremental window",
+    "The 7-hour incremental window is very narrow; most new discoveries are papers that were published before the last run but not yet indexed"
+  ]
+}
