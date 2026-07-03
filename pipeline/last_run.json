@@ -7,10 +7,15 @@
   "version_updates": 5,
   "baseline_total": 205,
   "notes": "7/3 增量搜索。7个新增数据集：DAPO-Math-Multilingual-6Lang、english-nuer-dinka平行语料、arabic-russian平行语料、english-khasi平行语料、en-fr-bam三语语料、SLAAB医疗和金融多语言指令数据。5个更新：multilingual-vlm-conflict扩展至12+子集、Multilingual-TTS、multilingual-safety-classification、csdi-multilingual、open-bible。基线从198增至205。",
+  "push_results": {
+    "github": "pushed",
+    "gitee": "pushed",
+    "feishu": "pending_check"
+  },
   "pipeline_steps": {
     "bee_sourcing": "completed",
     "report_generation": "completed",
     "merge_archive": "completed",
-    "push_remote": "pending"
+    "push_remote": "completed"
   }
 }
