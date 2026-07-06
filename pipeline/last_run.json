@@ -1,21 +1,15 @@
 {
-  "last_run_date": "2026-07-03",
-  "last_run_time": "08:08",
-  "status": "completed",
-  "report_path": "sources_reports/2026-07-03.md",
-  "incremental_datasets": 7,
-  "version_updates": 5,
-  "baseline_total": 205,
-  "notes": "7/3 增量搜索。7个新增数据集：DAPO-Math-Multilingual-6Lang、english-nuer-dinka平行语料、arabic-russian平行语料、english-khasi平行语料、en-fr-bam三语语料、SLAAB医疗和金融多语言指令数据。5个更新：multilingual-vlm-conflict扩展至12+子集、Multilingual-TTS、multilingual-safety-classification、csdi-multilingual、open-bible。基线从198增至205。",
-  "push_results": {
-    "github": "pushed",
-    "gitee": "pushed",
-    "feishu": "pending_check"
-  },
-  "pipeline_steps": {
-    "bee_sourcing": "completed",
-    "report_generation": "completed",
-    "merge_archive": "completed",
-    "push_remote": "completed"
-  }
+  "last_run_date": "2026-07-06",
+  "run_type": "incremental",
+  "window_days": 20,
+  "window_start": "2026-06-16",
+  "window_end": "2026-07-06",
+  "baseline_sources_count": 228,
+  "new_datasets_found": 24,
+  "new_datasets_merged": 23,
+  "version_updates_found": 2,
+  "version_updates_merged": 2,
+  "report_file": "sources_reports/2026-07-06.md",
+  "previous_run": "2026-07-05",
+  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge"]
 }
