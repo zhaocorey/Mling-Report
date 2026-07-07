@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-07-02T16:02:00+08:00",
+  "last_run": "2026-07-06T09:05:00+08:00",
   "status": "completed",
-  "incremental_papers": 6,
-  "incremental_tools": 0,
+  "incremental_papers": 10,
+  "incremental_tools": 3,
   "incremental_blogs": 0,
   "output_file": "bee_dataset_filtering_incremental.json",
-  "discovery_channels": ["arXiv API", "HuggingFace Daily Papers"],
-  "notes": "DuckDuckGo blocked; arXiv API + HF Daily Papers primary channels. 1 truly new paper (CausalMix), 5 missed by baseline."
+  "discovery_channels": ["arXiv API", "SearXNG science", "ACL Anthology"],
+  "notes": "DuckDuckGo blocked; arXiv API + SearXNG primary channels. 2 papers published after July 2 last run (Neuron-OPSD, HERMES). 3 papers from June 16-July 2 window (HDS, TiKMiX, Explaining Scaling Laws). 5 missed by baseline+prior incremental (LLMSurgeon, DataEvolver, DDCF, Data filtering methods, Phase transitions). 3 new GitHub tools released with papers."
 }
