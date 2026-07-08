@@ -4,13 +4,14 @@
   "window_days": 20,
   "window_start": "2026-06-18",
   "window_end": "2026-07-08",
-  "baseline_sources_count": 251,
+  "baseline_sources_count": 258,
   "new_datasets_found": 19,
-  "new_datasets_merged": 15,
+  "new_datasets_merged": 22,
   "version_updates_found": 5,
   "version_updates_merged": 0,
   "academic_papers_found": 7,
   "report_file": "sources_reports/2026-07-08.md",
   "previous_run": "2026-07-07",
-  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge"]
+  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge", "coder_push"],
+  "notes": "Report v2 by professor-yu (more thorough dedup against 19 historical reports). 16 new + 5 updates + 4 reconfirmed + 6 ACL papers."
 }
