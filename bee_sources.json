@@ -1,5 +1,5 @@
 {
-  "search_date": "2026-07-07",
+  "search_date": "2026-07-08",
   "search_summary": "增量更新 增量寻源 2026-06-17 至 2026-07-07，新增 8 个，更新 1 个",
   "sources": [
     {
@@ -4546,7 +4546,318 @@
       "timeliness_score": "高",
       "search_keywords": "UNICS multilingual code search pseudocode contrastive",
       "source": "arXiv论文发现"
+    },
+    {
+      "name": "MauroPello/multilingual-reasoning-gym-sft",
+      "url": "https://huggingface.co/datasets/MauroPello/multilingual-reasoning-gym-sft",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "hi",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "pt",
+        "ru",
+        "uk",
+        "zh"
+      ],
+      "size": "SFT reasoning data procedurally generated via Reasoning Gym",
+      "license": "Apache-2.0",
+      "category": "微调",
+      "description": "基于 Reasoning Gym 环境程序化生成的多语言推理 SFT 数据集，覆盖 13 种语言，设计用于训练推理模型",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-06-18",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Wismut/nym-pii-multilingual-data",
+      "url": "https://huggingface.co/datasets/Wismut/nym-pii-multilingual-data",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "pt",
+        "nl",
+        "pl",
+        "sv",
+        "cs",
+        "ro",
+        "tr",
+        "fi",
+        "da",
+        "el",
+        "ru",
+        "uk",
+        "ja",
+        "zh",
+        "ko",
+        "ar",
+        "hi"
+      ],
+      "size": "69,000 synthetic PII token-classification examples",
+      "license": "MIT",
+      "category": "微调",
+      "description": "23 种语言 6 种文字的 69K 合成 PII（个人身份信息）token 分类标注数据，用于训练 nym 的 PII 检测模型",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-07",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "multilingual-vlm-conflict/combined",
+      "url": "https://huggingface.co/datasets/multilingual-vlm-conflict/combined",
+      "languages": [
+        "en",
+        "ar",
+        "cs",
+        "de",
+        "el",
+        "es",
+        "fa",
+        "fr",
+        "he",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ],
+      "size": "10 VLM conflict detection datasets translated to 23 languages",
+      "license": "CC-BY-SA-4.0",
+      "category": "评估",
+      "description": "多语言视觉语言模型冲突检测套件，将 10 个英文数据集用 CohereLabs/aya-expanse-32b 翻译为 22 种语言，评估 VLM 的跨语言冲突理解能力",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-06",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Tajnaam/multilingual-english-nuer-dinka-swahili-corpus",
+      "url": "https://huggingface.co/datasets/Tajnaam/multilingual-english-nuer-dinka-swahili-corpus",
+      "languages": [
+        "en",
+        "nus",
+        "din",
+        "sw"
+      ],
+      "size": "Multilingual parallel/conversational corpus",
+      "license": "N/A",
+      "category": "预训练",
+      "description": "英语-努尔语-丁卡语-斯瓦希里语多语言语料库，扩展了此前仅有英语-努尔语-丁卡语的平行语料，新增斯瓦希里语",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-06",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "multilingual-safety-anon/lsr-anchoring-phase2-results",
+      "url": "https://huggingface.co/datasets/multilingual-safety-anon/lsr-anchoring-phase2-results",
+      "languages": [
+        "yo",
+        "ha",
+        "ig",
+        "sw",
+        "ar",
+        "en"
+      ],
+      "size": "Multilingual jailbreak vulnerability & safety steering benchmark",
+      "license": "MIT",
+      "category": "评估",
+      "description": "多语言安全基准与 steering 实验结果，覆盖约鲁巴语、豪萨语、伊博语、斯瓦希里语、阿拉伯语和英语，测试多语言越狱漏洞和安全引导效果",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-04",
+      "release_version": "Phase 2",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "eQOURSE/multilingual-speech",
+      "url": "https://huggingface.co/datasets/eQOURSE/multilingual-speech",
+      "languages": [
+        "as",
+        "bn",
+        "gu",
+        "hi",
+        "kn",
+        "ml",
+        "mr",
+        "ne",
+        "or",
+        "pa",
+        "ta",
+        "te",
+        "ur"
+      ],
+      "size": "Naturalistic two-speaker conversational speech with transcripts",
+      "license": "CC-BY-4.0",
+      "category": "预训练",
+      "description": "13 种印度语言的自然对话语音数据集，包含分段转录文本和说话人信息，用于语音识别和对话建模",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-07",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "rokayon/AgriQA_Multilingual_Dataset",
+      "url": "https://huggingface.co/datasets/rokayon/AgriQA_Multilingual_Dataset",
+      "languages": [
+        "bn",
+        "en",
+        "es",
+        "zh"
+      ],
+      "size": "72K train + 18K test agricultural QA pairs",
+      "license": "CC-BY-4.0",
+      "category": "微调",
+      "description": "基于 KisanVaani 语料的多语言农业问答数据集，覆盖孟加拉语、英语、西班牙语和中文，含 90K+ 样本",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-06-26",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Debk/Indian-Multilingual-Bias-Dataset",
+      "url": "https://huggingface.co/datasets/Debk/Indian-Multilingual-Bias-Dataset",
+      "languages": [
+        "en",
+        "bn",
+        "hi"
+      ],
+      "size": "Social bias evaluation dataset for LLMs",
+      "license": "CC-BY-4.0",
+      "category": "评估",
+      "description": "评估 LLM 社会偏见的多语言数据集，覆盖英语、孟加拉语和印地语三种印度主要语言",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-07",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Tulsiandhare/Multilingual_medical_symptom_triage",
+      "url": "https://huggingface.co/datasets/Tulsiandhare/Multilingual_medical_symptom_triage",
+      "languages": [
+        "en",
+        "hi",
+        "gu",
+        "te",
+        "mr"
+      ],
+      "size": "9,064 patient symptom descriptions",
+      "license": "N/A",
+      "category": "微调",
+      "description": "多语言医疗症状分诊数据集，9064 条患者症状描述，覆盖英语、印地语、古吉拉特语、泰卢固语和马拉地语",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-06",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "mudkip02/gsm8k-multilingual-filtered",
+      "url": "https://huggingface.co/datasets/mudkip02/gsm8k-multilingual-filtered",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Filtered GSM8K math problems in multiple languages",
+      "license": "N/A",
+      "category": "评估",
+      "description": "GSM8K 数学问题的多语言过滤版本，用于跨语言数学推理评估",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-02",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "deepmage121/adaption-multilingual-instruction-tuning",
+      "url": "https://huggingface.co/datasets/deepmage121/adaption-multilingual-instruction-tuning",
+      "languages": [
+        "bn",
+        "hi",
+        "en"
+      ],
+      "size": "Multi-turn conversational instruction tuning pairs",
+      "license": "N/A",
+      "category": "微调",
+      "description": "基于 Adaption 平台重制的多语言指令微调数据，包含孟加拉语、印地语和英语的多轮对话对",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-06",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "MsIris2026/embtb-multilingual-eval",
+      "url": "https://huggingface.co/datasets/MsIris2026/embtb-multilingual-eval",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Multilingual evaluation benchmark (661 downloads)",
+      "license": "N/A",
+      "category": "评估",
+      "description": "多语言评估基准测试数据集，661 次下载表明有社区使用",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-03",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "drohanashM/multilingual-news-classifier-data",
+      "url": "https://huggingface.co/datasets/drohanashM/multilingual-news-classifier-data",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "News classification dataset",
+      "license": "N/A",
+      "category": "微调",
+      "description": "多语言新闻分类数据集",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-07",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Kudod/retain_wiki_multilingual",
+      "url": "https://huggingface.co/datasets/Kudod/retain_wiki_multilingual",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Multilingual Wikipedia-derived dataset",
+      "license": "N/A",
+      "category": "预训练",
+      "description": "多语言维基百科衍生数据集",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-07",
+      "release_version": "N/A",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "AISE-TUDelft/multilingual-code-comments-fixed-7",
+      "url": "https://huggingface.co/datasets/AISE-TUDelft/multilingual-code-comments-fixed-7",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Code comments dataset from TU Delft",
+      "license": "N/A",
+      "category": "微调",
+      "description": "多语言代码注释数据集，由代尔夫特理工大学 AISE 团队发布",
+      "discovered_date": "2026-07-08",
+      "last_updated": "2026-07-02",
+      "release_version": "v7",
+      "timeliness_score": "高"
     }
   ],
-  "total_datasets": 131
+  "total_datasets": 251
 }
