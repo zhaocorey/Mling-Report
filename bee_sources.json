@@ -5208,7 +5208,110 @@
       "timeliness_score": "中",
       "search_keywords": "tribal parallel corpus Indian low-resource",
       "source": "HuggingFace API搜索 (关键词: parallel corpus, 按lastModified排序)"
+    },
+    {
+      "name": "PolyMath",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath",
+      "languages": [
+        "18种语言"
+      ],
+      "size": "9000 samples, 4 difficulty levels",
+      "license": "待确认",
+      "category": "评估",
+      "description": "Qwen团队发布的多语言数学推理基准(NeurIPS 2025 D&B Track)。18种语言×4个难度级别，9000道高质量题目，覆盖从易到难的推理层次。PluraMath为其低资源语言扩展版。",
+      "discovered_date": "2025-04-18",
+      "last_updated": "2025-04-18",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "PolyMath Qwen multilingual math reasoning NeurIPS",
+      "source": "手动补录"
+    },
+    {
+      "name": "PluraMath",
+      "url": "https://huggingface.co/datasets/tum-nlp/PluraMath",
+      "languages": [
+        "am",
+        "ca",
+        "cv",
+        "cs",
+        "el",
+        "he",
+        "hi",
+        "kk",
+        "or",
+        "pl",
+        "sk",
+        "sr",
+        "tr",
+        "tt",
+        "uk",
+        "uz",
+        "hsb",
+        "dsb"
+      ],
+      "size": "18 languages × 500 samples = 9000 samples",
+      "license": "Apache-2.0",
+      "category": "评估",
+      "description": "TUM NLP发布(2026-07)，将PolyMath扩展至18种低资源语言(6个语系)，包括Hindi、Turkish、Upper/Lower Sorbian(不足15K母语者)。Human-curated翻译验证，配套评估27个推理LLM。arXiv:2607.05992",
+      "discovered_date": "2026-07-07",
+      "last_updated": "2026-07-08",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "PluraMath PolyMath extension underrepresented low-resource math reasoning",
+      "source": "手动补录(漏检复盘)"
+    },
+    {
+      "name": "MMATH",
+      "url": "https://arxiv.org/abs/2505.19126",
+      "languages": [
+        "10种语言"
+      ],
+      "size": "374 high-quality math problems",
+      "license": "待确认",
+      "category": "评估",
+      "description": "多语言复杂数学推理基准，374道高质量数学题覆盖10种类型多样的语言。弥补MGSM等简单任务在评估先进推理LLM时的不足。arXiv:2505.19126",
+      "discovered_date": "2025-05-19",
+      "last_updated": "2025-05-19",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "MMATH multilingual complex reasoning benchmark",
+      "source": "手动补录"
+    },
+    {
+      "name": "MGSM-Pro",
+      "url": "https://arxiv.org/abs/2601.21225",
+      "languages": [
+        "9种语言"
+      ],
+      "size": "5 instantiations per MGSM question × 9 languages",
+      "license": "待确认",
+      "category": "评估",
+      "description": "MGSM的鲁棒性扩展版，引入GSM-Symbolic方法为每道题生成5种数字/名字/无关上下文变体。揭示低资源语言在数字变化时性能大幅下降的问题。arXiv:2601.21225",
+      "discovered_date": "2026-01-21",
+      "last_updated": "2026-01-21",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "MGSM-Pro GSM-Symbolic robustness multilingual math",
+      "source": "手动补录"
+    },
+    {
+      "name": "HRM8K",
+      "url": "https://arxiv.org/abs/2501.02448",
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "size": "8011 English-Korean parallel bilingual math problems",
+      "license": "待确认(开源)",
+      "category": "评估",
+      "description": "英韩平行双语数学推理基准(8011题)，配套UST(Understand-Solve-Translate)方法。发现多语言性能差距主要源于理解而非推理能力。arXiv:2501.02448",
+      "discovered_date": "2025-01-02",
+      "last_updated": "2025-01-02",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "HRM8K UST Korean math reasoning bilingual benchmark",
+      "source": "手动补录"
     }
   ],
-  "total_datasets": 271
+  "total_datasets": 276
 }
