@@ -12,6 +12,6 @@
   "academic_papers_found": 3,
   "report_file": "sources_reports/2026-07-10.md",
   "previous_run": "2026-07-08",
-  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge"],
-  "notes": "13 new datasets merged (baseline now 271). Key: MORE (149 lang, ICML 2026), EMMA-500 (500+ lang, ACL Findings 2026), Nemotron-CC-v2. hasankursun 60-lang safety was in 06-27 report but not in baseline, now added."
+  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge", "coder_push_partial"],
+  "notes": "13 new datasets merged (baseline now 271). Key: MORE (149 lang, ICML 2026), EMMA-500 (500+ lang, ACL Findings 2026), Nemotron-CC-v2. GitHub+Gitee push OK. Feishu push skipped (need_user_authorization). hasankursun 60-lang safety was in 06-27 report but not in baseline, now added."
 }
