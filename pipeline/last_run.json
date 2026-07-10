@@ -1,17 +1,17 @@
 {
-  "last_run_date": "2026-07-08",
+  "last_run_date": "2026-07-10",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-18",
-  "window_end": "2026-07-08",
+  "window_start": "2026-06-20",
+  "window_end": "2026-07-10",
   "baseline_sources_count": 258,
-  "new_datasets_found": 19,
-  "new_datasets_merged": 22,
-  "version_updates_found": 5,
+  "new_datasets_found": 13,
+  "new_datasets_merged": 13,
+  "version_updates_found": 0,
   "version_updates_merged": 0,
-  "academic_papers_found": 7,
-  "report_file": "sources_reports/2026-07-08.md",
-  "previous_run": "2026-07-07",
-  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge", "coder_push"],
-  "notes": "Report v2 by professor-yu (more thorough dedup against 19 historical reports). 16 new + 5 updates + 4 reconfirmed + 6 ACL papers."
+  "academic_papers_found": 3,
+  "report_file": "sources_reports/2026-07-10.md",
+  "previous_run": "2026-07-08",
+  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge"],
+  "notes": "13 new datasets merged (baseline now 271). Key: MORE (149 lang, ICML 2026), EMMA-500 (500+ lang, ACL Findings 2026), Nemotron-CC-v2. hasankursun 60-lang safety was in 06-27 report but not in baseline, now added."
 }

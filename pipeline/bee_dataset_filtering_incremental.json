@@ -1,273 +1,241 @@
 {
-  "search_date": "2026-07-06",
-  "incremental_window": "2026-06-16 to 2026-07-06",
-  "baseline_file": "bee_dataset_filtering_research.json (74 papers, 12 tools, 7 blogs)",
-  "previous_incremental": "2026-07-02 (6 papers added)",
+  "search_date": "2026-07-09",
   "search_keywords": [
-    "data curation LLM training",
-    "data filtering LLM",
-    "data selection language model",
-    "data mixing LLM pretraining",
-    "data deduplication pretraining",
-    "influence function data selection",
-    "coreset selection LLM",
-    "data quality assessment LLM",
-    "synthetic data generation LLM",
-    "data mixture optimization"
+    "dataset filtering LLM training",
+    "data selection pretraining language model",
+    "data curation quality filtering deep learning",
+    "data deduplication training data LLM",
+    "data mixing language model training",
+    "coreset dataset selection machine learning",
+    "influence function data selection language model",
+    "dataset distillation survey",
+    "curriculum learning data sampling LLM",
+    "data scheduling training LLM"
   ],
   "channels_searched": [
-    "arXiv API (export.arxiv.org)",
-    "HuggingFace Daily Papers",
-    "SearXNG science",
-    "SearXNG general",
-    "ACL Anthology",
-    "OpenReview"
+    "arXiv API (3 queries: data selection/curation/filtering/dedup/mixing, coreset/influence/distillation, data quality+filtering+LLM)",
+    "SearXNG science (2 queries: general + ACL)",
+    "SearXNG IT (blog posts)",
+    "GitHub API (3 queries: data curation, data filtering/dedup, data mixing/scheduling)",
+    "ACL Anthology (web_fetch: ACL 2026 Long, ACL 2026 Short, ACL 2026 Findings, EACL 2026)",
+    "AAAI 2026 (via SearXNG)"
   ],
-  "channels_blocked": [
-    "DuckDuckGo (web_search) - bot detection triggered on most queries"
-  ],
+  "notes": "DuckDuckGo blocked again (bot detection). Used arXiv API + SearXNG + GitHub API + ACL Anthology as primary channels. 4 papers published strictly within July 6-9 window. 2 additional recent papers (late June/July 1) missed by baseline+prior incremental. 6 ACL/EACL 2026 conference papers discovered (proceedings published July 2026). 1 GitHub research repo. No new blog posts found from major AI labs in the window.",
   "papers": [
     {
-      "title": "Neuron-OPSD: Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
-      "url": "https://arxiv.org/abs/2607.02460",
-      "authors": "Zhuowei Chen, Xiang Lorraine Li et al.",
+      "title": "Online Data Selection Is Implicit Alignment",
+      "authors": "Aoxiong Zeng, Yuxin Yang, Xiangquan Yang",
       "year": 2026,
-      "date": "2026-07-02",
-      "abstract_summary": "Proposes Neuron On-Policy Self-Distillation (Neuron-OPSD), a data-centric framework for annotation-free self-distillation that leverages internal neuron activations to guide both training-data selection and teacher context construction. Trained via on-policy distillation from the teacher distribution, requiring no ground-truth labels. Improves in-domain task performance while preserving cross-domain generalization and mitigating calibration collapse.",
-      "key_methods": [
-        "neuron activation-guided data selection",
-        "annotation-free self-distillation",
-        "on-policy distillation",
-        "calibration collapse mitigation"
-      ],
+      "url": "https://arxiv.org/abs/2607.07023",
       "source_channel": "arXiv API",
-      "category": "neuron_aware_self_distillation",
-      "relevance_score": 9,
-      "incremental_note": "Published July 2, 2026. Extends neuron-aware selection to annotation-free settings. Complements NAIT (baseline) which uses neuron activations for instruction data selection."
+      "category": "sampling",
+      "description": "Demonstrates that online data selection during SFT acts as an implicit alignment mechanism, changing model behavioral preferences (refusal rate, verbosity, sycophancy) without any preference optimization. Formalizes online selection as reweighted SFT objective and introduces Alignment Drift Auditing (ADA) and Alignment-Aware Selection (AAS).",
+      "key_methods": [
+        "online data selection as implicit alignment",
+        "Alignment Drift Auditing (ADA)",
+        "Alignment-Aware Selection (AAS)",
+        "behavioral preference analysis"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-08"
     },
     {
-      "title": "HERMES: A Multi-Granularity Labeling Substrate for Pre-training Data Mixtures",
-      "url": "https://arxiv.org/abs/2607.02266",
-      "authors": "Ziyun Qiao, Yue Min, Ruining Chen et al.",
+      "title": "CurateEvo: Data-Curation Evolving for Agentic Post-Training",
+      "authors": "Dingzirui Wang, Xuanliang Zhang, Keyan Xu, Qingfu Zhu, Wanxiang Che",
       "year": 2026,
-      "date": "2026-07-02",
-      "abstract_summary": "Proposes a hierarchical data-derived labeling substrate using Learned Semantic Transform + 3-stage residual vector quantization that annotates each document into a coarse-to-fine code (~130k cells). Argues the bottleneck in data mixing is the label system, not the mixer. At one prefix length, combined Stage-2 rule lifts 16-task capability macro-average by +0.0253. Reframes data mixture design from choosing fixed label sets to navigating a reusable granularity hierarchy.",
-      "key_methods": [
-        "hierarchical labeling substrate",
-        "residual vector quantization",
-        "multi-granularity data mixing",
-        "Learned Semantic Transform"
-      ],
+      "url": "https://arxiv.org/abs/2607.06140",
       "source_channel": "arXiv API",
-      "category": "data_mixture_labeling",
-      "relevance_score": 9,
-      "incremental_note": "Published July 2, 2026. Novel perspective: the label system (not the mixer) is the bottleneck for data mixing. Enables hierarchical granularity control."
+      "category": "curation",
+      "description": "Failure-driven dynamic evolution framework for agentic post-training data curation. Represents curation strategy as executable code and iteratively rewrites it using failed trajectories. Transforms raw corpus into SFT data, RL data, and inference-time memory bank. Outperforms prior curation methods on ACEBench-Agent, BFCL-V4, and τ²-Bench.",
+      "key_methods": [
+        "failure-driven curation evolution",
+        "executable code strategy",
+        "dynamic data filtering and refinement",
+        "cost-aware utility pruning"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-07"
     },
     {
-      "title": "Holistic Data Scheduler (HDS): Online Data Mixing via Multi-Objective Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2606.24133",
-      "authors": "Chenhao Dang, Jing Ma, Mingjie Liao et al.",
+      "title": "Fidelity-Diversity Metrics for Text",
+      "authors": "Amanda Wang, Tudor Manole, Florentina Bunea, John Thickstun",
       "year": 2026,
-      "date": "2026-06-23",
-      "abstract_summary": "Formulates data scheduling as a reinforcement learning problem using Soft Actor-Critic (SAC) algorithm. Introduces multi-objective holistic reward integrating data-driven (quality), loss-driven (inter-domain influence), and model-driven (weight norms) perspectives. Reaches final validation perplexity of next best method with 44% fewer training iterations on The Pile. Achieves 7.2% improvement on MMLU 0-shot. KDD 2026.",
-      "key_methods": [
-        "multi-objective RL for data mixing",
-        "Soft Actor-Critic (SAC)",
-        "holistic reward function",
-        "online data scheduling"
-      ],
+      "url": "https://arxiv.org/abs/2607.04563",
       "source_channel": "arXiv API",
-      "category": "online_data_mixing_rl",
-      "relevance_score": 9,
-      "incremental_note": "KDD 2026 (pp. 176-187). Novel RL formulation for online data mixing with 44% training efficiency gain. Code released on GitHub."
+      "category": "quality_assessment",
+      "description": "Develops precision/recall-inspired metrics for text dataset composition and curation. Fidelity captures how closely candidate text resembles reference data; diversity captures mode coverage. Based on optimal transport divergence functionals. Detects diversity deficits in synthetic math datasets that correlate with downstream accuracy degradation.",
+      "key_methods": [
+        "fidelity-diversity metrics",
+        "optimal transport divergence",
+        "dataset composition assessment",
+        "synthetic data quality evaluation"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-06"
     },
     {
-      "title": "TiKMiX: Efficient Semi-Dynamic Data Mixture via Data Influence for LLM Pre-training",
-      "url": "https://aclanthology.org/2026.acl-long.261/",
-      "authors": "Yifan Wang, Binbin Liu, Fengze Liu, Yuanfan Guo, Jiyao Deng, Xuecheng Wu, Weidong Zhou, Xiaohuan Zhou, Taifeng Wang",
+      "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+      "authors": "Changti Wu, Bin Yu, Zhaolong Shen, Shijie Lian, Xiaopeng Lin, Cong Huang, Zhirui Zhang, Lei Zhang, Kai Chen",
       "year": 2026,
-      "date": "2026-07 (ACL)",
-      "abstract_summary": "Proposes semi-dynamic data mixing grounded in influence ranking invariance: relative importance of data domains exhibits strong temporal stability over long training intervals. Introduces Group Influence for efficient domain impact quantification. Compared with RegMix, reduces computational overhead by 80% and achieves average 2% performance gain across nine downstream benchmarks. ACL 2026 Long Paper.",
-      "key_methods": [
-        "semi-dynamic data mixing",
-        "influence ranking invariance",
-        "Group Influence",
-        "periodic influence maximization"
-      ],
-      "source_channel": "SearXNG science (ACL Anthology)",
-      "category": "semi_dynamic_data_mixing",
-      "relevance_score": 9,
-      "incremental_note": "ACL 2026 Long Paper (pp. 5777-5793). 80% compute reduction vs RegMix. Key insight: domain influence rankings are temporally stable."
-    },
-    {
-      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
-      "url": "https://aclanthology.org/2026.acl-long.1964/",
-      "authors": "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao, Xinyi Shang, Jiacheng Liu, Xinyue Bi, Zhaoyi Li, Zhiqiang Shen",
-      "year": 2026,
-      "date": "2026-07 (ACL)",
-      "abstract_summary": "Formalizes Data Mixture Surgery (DMS): given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus. Casts DMS as inverse problem under label-shift assumption, estimates calibrated soft confusion matrix to recover latent mixture prior. Introduces LLMScan evaluation suite built from open-source LLMs with transparent pretraining mixtures. Code: github.com/Yaxin9Luo/LLMSurgeon. ACL 2026 Long Paper.",
-      "key_methods": [
-        "post-hoc data mixture diagnosis",
-        "label-shift inverse problem",
-        "soft confusion matrix",
-        "LLMScan evaluation suite"
-      ],
-      "source_channel": "SearXNG science (ACL Anthology)",
-      "category": "data_mixture_diagnosis",
-      "relevance_score": 9,
-      "incremental_note": "ACL 2026 Long Paper (pp. 42444-42459). Novel post-hoc auditing tool for data mixture provenance. Code released."
-    },
-    {
-      "title": "DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving",
-      "url": "https://arxiv.org/abs/2606.07001",
-      "authors": "Chao Deng, Shaolei Zhang, Ju Fan et al.",
-      "year": 2026,
-      "date": "2026-06-05 (updated 2026-06-10)",
-      "abstract_summary": "First self-evolving data preparation system that automatically constructs pipelines to transform raw data into high-quality data. Multi-level mechanism: operator level incrementally expands operator set; pipeline level iteratively refines orchestration via feedback loop reducing distribution gap. Achieves average 10% gain in downstream LLM performance across seven benchmarks compared to training on original data.",
-      "key_methods": [
-        "self-evolving data pipeline",
-        "automatic pipeline construction",
-        "multi-level operator expansion",
-        "distribution gap feedback loop"
-      ],
+      "url": "https://arxiv.org/abs/2607.06442",
       "source_channel": "arXiv API",
-      "category": "automated_data_preparation",
-      "relevance_score": 9,
-      "incremental_note": "June 2026. First system to auto-evolve entire data preparation pipeline. 10% average LLM performance gain from automated curation."
+      "category": "sampling",
+      "description": "Structure-aware data selection for Vision-Language-Action imitation learning. Discovers reusable visuo-motor primitives, allocates selection budgets by maximizing reuse-aware structural exposure, and selects medoid trajectories. Surpasses full-data training with only 50% demonstrations and 50% training steps.",
+      "key_methods": [
+        "structure-aware selection",
+        "visuo-motor primitive discovery",
+        "reuse-aware structural exposure",
+        "medoid trajectory selection"
+      ],
+      "relevance_score": "medium",
+      "published": "2026-07-07",
+      "note": "Focused on VLA/robotics, but structure-aware selection methodology is transferable to LLM training data"
     },
     {
-      "title": "Explaining Data Mixing Scaling Laws",
-      "url": "https://arxiv.org/abs/2606.08167",
-      "authors": "Rui Dai, Shuran Zheng",
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": "Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei, Dingnan Jin, Jun Zhou, Yujun Wang, Biqing Huang",
       "year": 2026,
-      "date": "2026-06-06",
-      "abstract_summary": "Proposes unified framework to explain mechanics of data mixing by extending Kaplan/Chinchilla scaling laws to multi-domain setting. Identifies two key factors: Capacity Competition (finite capacity couples domain losses globally) and Noise Reduction (optimal weights shift toward harder-to-learn domains). Successfully extrapolates across scales using significantly fewer parameters than empirical laws. ICML 2026. Code: github.com/meiqwq/Explaining-Data-Mixing-Scaling-Laws.",
-      "key_methods": [
-        "theoretical data mixing scaling laws",
-        "capacity competition analysis",
-        "noise reduction principle",
-        "cross-scale extrapolation"
-      ],
+      "url": "https://arxiv.org/abs/2607.01104",
       "source_channel": "arXiv API",
-      "category": "data_mixing_theory",
-      "relevance_score": 9,
-      "incremental_note": "ICML 2026. First theoretical explanation of data mixing scaling laws. Enables cross-scale mixture prediction with fewer parameters."
+      "category": "mixing",
+      "description": "Addresses data mixing under distribution shift by framing it as causal inference. Unlike proxy-model methods that assume static data distributions, CausalMix handles shifting data pools without costly retraining. Scales from small to large data pools and model sizes.",
+      "key_methods": [
+        "causal inference for data mixing",
+        "distribution-shift robust mixing",
+        "scalable mixture optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-01",
+      "note": "Published July 1, 5 days before search window. Not in baseline (compiled June 29). Significant new mixing approach."
     },
     {
-      "title": "Data filtering methods for training language models",
-      "url": "https://arxiv.org/abs/2605.29807",
-      "authors": "Egor Shevchenko, Elena Bruches et al.",
+      "title": "Online Data Selection for Instruction Tuning via Gaussian Processes",
+      "authors": "Jun Wang, Quoc Phong Nguyen, Julien Monteil, Vu Nguyen",
       "year": 2026,
-      "date": "2026-05-28",
-      "abstract_summary": "Comparative analysis of Confident Learning and Dataset Cartography for label error detection on three Russian text classification corpora. Results show effectiveness depends on dataset characteristics: large corpora with low noise see no improvement from filtering, while small noisy datasets benefit significantly from Confident Learning. AINL-2026.",
-      "key_methods": [
-        "Confident Learning",
-        "Dataset Cartography",
-        "label error detection",
-        "Russian text classification"
-      ],
+      "url": "https://arxiv.org/abs/2606.30077",
       "source_channel": "arXiv API",
-      "category": "label_error_filtering",
-      "relevance_score": 6,
-      "incremental_note": "AINL-2026. Narrow scope (Russian NLP) but provides practical guidance on when filtering helps vs. when it doesn't."
+      "category": "sampling",
+      "description": "Proposes GAIA (Global Adaptive Instruction tuning via GAussian processes), a framework that formulates data valuation as a global estimation process rather than batch-constrained local optimization. Overcomes limitations of existing online data selection methods.",
+      "key_methods": [
+        "GAIA framework",
+        "Gaussian process data valuation",
+        "global estimation for online selection",
+        "instruction tuning optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-06-29",
+      "note": "Published June 29, missed by baseline (compiled same day). Not in prior incremental."
     },
     {
-      "title": "Difficulty-Diversity Collaborative Filtering (DDCF) for Data-Efficient LLM Fine-Tuning",
-      "url": "https://openreview.net/forum?id=n9mXlqD2SJ",
-      "authors": "Unknown (OpenReview, browser verification required)",
+      "title": "Reasoning Quality Emerges Early: Data Curation for Reasoning Models",
+      "authors": "Hongyi Henry Jin, Wenhan Yang, Meysam Ghaffari, Carlos Morato, Baharan Mirzasoleiman",
       "year": 2026,
-      "date": "2026 (venue TBD)",
-      "abstract_summary": "Proposes Difficulty-Diversity Collaborative Filtering (DDCF) that automatically selects a core set for fine-tuning by balancing difficulty and diversity. Reduces both annotating and fine-tuning costs. Uses lambda=0.2 to balance core set quality without eroding pre-trained knowledge.",
+      "url": "https://arxiv.org/abs/2606.26797",
+      "source_channel": "arXiv API",
+      "category": "curation",
+      "description": "Shows that diverse and challenging reasoning examples can be identified early in the curation pipeline without relying on strong reasoning models. Proposes cost-effective curation for high-quality SFT data for reasoning.",
       "key_methods": [
-        "difficulty-diversity balancing",
-        "collaborative filtering for data selection",
-        "cost-efficient fine-tuning",
-        "coreset selection"
+        "early reasoning quality detection",
+        "cost-effective SFT curation",
+        "diversity-difficulty based selection"
       ],
-      "source_channel": "SearXNG science (OpenReview)",
-      "category": "difficulty_diversity_selection",
-      "relevance_score": 7,
-      "incremental_note": "2026. Novel difficulty-diversity trade-off framework for fine-tuning data selection."
+      "relevance_score": "high",
+      "published": "2026-06-25",
+      "note": "Published June 25, missed by baseline. Relevant for reasoning data curation."
     },
     {
-      "title": "Data mixing can induce phase transitions in knowledge acquisition",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/eee7ae5cf0c4356c2aeca400771791aa-Abstract-Conference.html",
-      "authors": "Unknown (NeurIPS 2025)",
-      "year": 2025,
-      "date": "NeurIPS 2025",
-      "abstract_summary": "Formalizes how data mixing ratio or dataset size variations can induce phase transitions in LLM knowledge acquisition. Models a sufficiently trained LLM as learning from mixture of knowledge-dense and knowledge-sparse domains, identifying critical thresholds where mixing ratio changes qualitatively alter knowledge acquisition patterns.",
+      "title": "SELECting over Tokens: Curating Pre-training Data at Scale via Token Classification",
+      "authors": "Unknown (ACL 2026 proceedings)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.acl-long.2219/",
+      "source_channel": "ACL Anthology",
+      "category": "filtering",
+      "description": "Reframes data refinement as token classification (informative vs noisy) instead of sample-level heuristic rules or costly generative approaches. Outperforms raw data by 2%+ and best heuristic baselines by 1%+ while preserving 17% more tokens. 2.5x faster than ProX-C at inference.",
       "key_methods": [
-        "phase transition theory for data mixing",
-        "knowledge acquisition modeling",
-        "critical mixing thresholds",
-        "mixture ratio analysis"
+        "token-level data classification",
+        "fine-grained noise detection",
+        "SclecT framework",
+        "scalable pre-training data optimization"
       ],
-      "source_channel": "SearXNG science (NeurIPS Proceedings)",
-      "category": "data_mixing_theory",
-      "relevance_score": 8,
-      "incremental_note": "NeurIPS 2025. Theoretical perspective on data mixing: phase transitions in knowledge acquisition. Missed by baseline and prior incrementals."
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Long Paper)"
+    },
+    {
+      "title": "Select2Reason: Efficient Instruction-Tuning Data Selection for Long-CoT Reasoning",
+      "authors": "Cehao Yang, Xueyuan Lin, Xiaojun Wu, Chengji (ACL 2026 Findings)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-acl.331/",
+      "source_channel": "ACL Anthology",
+      "category": "sampling",
+      "description": "Data selection framework for long-CoT reasoning SFT. Uses difficulty-aware reward model to estimate learning value and reasoning trace length heuristic for ranking. Fine-tuning on only 10% of selected data achieves competitive or superior performance to full-data tuning on 9 math benchmarks and 4 reasoning tasks.",
+      "key_methods": [
+        "difficulty-aware reward model",
+        "trace length heuristic",
+        "rethinking behavior emergence",
+        "long-CoT instruction selection"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Findings)"
+    },
+    {
+      "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
+      "authors": "Yuanjian Xu, Tianze Sun, Changwei Xu, XinLong Zhao, Jianing Hao, Ran Chen, Yang Liu, Ruijie Xu, Stephen Chen, Guang Zhang",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.acl-short.28/",
+      "source_channel": "ACL Anthology",
+      "category": "mixing",
+      "description": "Establishes formal connections between gradient dynamics and domain distributions for data mixing. Introduces DoGraph, a reweighting framework that formulates data scheduling as graph-constrained optimization. Investigates what constitutes a domain and whether human/model domain perceptions align.",
+      "key_methods": [
+        "DoGraph reweighting framework",
+        "graph-constrained data scheduling",
+        "gradient dynamics-domain distribution connection",
+        "domain perception analysis"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Short Paper)",
+      "note": "arXiv preprint April 2026 (2604.07963), not in baseline. ACL 2026 Short proceedings published July."
+    },
+    {
+      "title": "From Instance Selection to Fixed-Pool Data Recipe Search for Supervised Fine-Tuning",
+      "authors": "Haodong Wu, Jiahao Zhang, Lijie Hu, Yongqi Zhang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.12944",
+      "source_channel": "arXiv API",
+      "category": "curation",
+      "description": "Reformulates SFT data selection from instance ranking to fixed-pool data recipe search, where filtering, mixing, and deduplication operators jointly shape the final data distribution through ordered curation recipes.",
+      "key_methods": [
+        "data recipe search",
+        "ordered curation pipeline",
+        "filtering-mixing-deduplication operators",
+        "SFT data optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-05-13",
+      "note": "Not in baseline. Discovered via ACL 2026 proceedings cross-reference. Conceptually important for data curation pipeline design."
     }
   ],
   "tools_and_repos": [
     {
-      "name": "Holistic Data Scheduler (HDS)",
-      "url": "https://github.com/DANG-ai/LLM-Training-Holistic-Data-Schedule",
-      "description": "Code release for the HDS paper (KDD 2026). Implements multi-objective RL-based online data scheduling for LLM pre-training using Soft Actor-Critic. Includes data-driven, loss-driven, and model-driven reward components.",
-      "stars": null,
-      "source_channel": "arXiv API (paper reference)",
-      "category": "data_mixing_rl_tool",
-      "relevance_score": 8,
-      "incremental_note": "Released with HDS paper (KDD 2026). RL-based data scheduler."
+      "name": "ptbr-cpt-data-ablation",
+      "url": "https://github.com/pedrohpgadelha/ptbr-cpt-data-ablation",
+      "description": "Controlled data-curation ablation study examining deduplication and quality/repetition filtering for continued pre-training of a small Portuguese LLM. Provides empirical evidence on the impact of different curation strategies.",
+      "source_channel": "GitHub API",
+      "category": "research_code",
+      "relevance_score": "medium",
+      "stars": 0,
+      "created": "2026-07-08"
     },
     {
-      "name": "LLMSurgeon",
-      "url": "https://github.com/Yaxin9Luo/LLMSurgeon",
-      "description": "Post-hoc data mixture diagnosis tool for LLMs. Given only generated text, estimates domain-level distribution of pretraining corpus. Includes LLMScan evaluation suite. Released with ACL 2026 paper.",
-      "stars": null,
-      "source_channel": "ACL Anthology (paper reference)",
-      "category": "data_mixture_auditing_tool",
-      "relevance_score": 8,
-      "incremental_note": "Released with LLMSurgeon paper (ACL 2026). First post-hoc data mixture auditing tool."
-    },
-    {
-      "name": "Explaining Data Mixing Scaling Laws",
-      "url": "https://github.com/meiqwq/Explaining-Data-Mixing-Scaling-Laws",
-      "description": "Code for the ICML 2026 paper. Implements theoretical framework for explaining data mixing scaling laws with Capacity Competition and Noise Reduction principles. Enables cross-scale mixture prediction.",
-      "stars": null,
-      "source_channel": "arXiv API (paper reference)",
-      "category": "data_mixing_theory_tool",
-      "relevance_score": 7,
-      "incremental_note": "Released with ICML 2026 paper. Theoretical framework implementation."
+      "name": "CuratorKIT (Lexsi-Labs)",
+      "url": "https://github.com/Lexsi-Labs/CuratorKIT",
+      "description": "Open-source implementation of CuratorKIT for data curation and synthetic data generation for LLM post-training. Companion code to the CuratorKIT paper.",
+      "source_channel": "GitHub API",
+      "category": "tool",
+      "relevance_score": "medium",
+      "stars": 23,
+      "created": "2026-06-16",
+      "note": "Paper (CuratorKIT) already in baseline. GitHub repo discovered in this run. 23 stars, actively maintained (last update July 8)."
     }
   ],
-  "blog_posts_and_tutorials": [],
-  "incremental_statistics": {
-    "new_papers": 10,
-    "new_tools": 3,
-    "new_blogs": 0,
-    "papers_breakdown": {
-      "published_after_last_run_july2": 2,
-      "published_june16_to_july2": 3,
-      "missed_by_baseline_and_prior_incremental": 5
-    },
-    "papers_by_category": {
-      "data_mixture_optimization": 4,
-      "data_selection": 3,
-      "automated_data_preparation": 1,
-      "label_error_filtering": 1,
-      "data_mixture_theory": 2
-    }
-  },
-  "notes": [
-    "DuckDuckGo web_search triggered bot detection on most queries, limiting search breadth",
-    "arXiv API was the primary discovery channel with 4 targeted queries",
-    "SearXNG science search surfaced ACL 2026 and NeurIPS 2025 papers missed by prior searches",
-    "ACL 2026 (July, San Diego) produced 3 new relevant papers: TiKMiX, LLMSurgeon, DaMo",
-    "ICML 2026 produced 1 new paper: Explaining Data Mixing Scaling Laws",
-    "KDD 2026 produced 1 new paper: Holistic Data Scheduler",
-    "No new significant blog posts from major companies (HuggingFace, NVIDIA, Google, Meta) were found in this window specific to data filtering/curation",
-    "DaMo (Data Mixing Optimizer for Multimodal LLM Fine-tuning, ACL 2026 Findings) was identified but excluded as it focuses on mobile phone agents rather than general LLM data curation",
-    "The 'Data filtering methods for training language models' paper (AINL-2026) is narrow in scope (Russian NLP) but included for completeness",
-    "3 new GitHub tools were discovered, all released alongside their respective papers"
-  ]
+  "blog_posts_and_tutorials": []
 }

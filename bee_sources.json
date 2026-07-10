@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-08",
-  "search_summary": "增量更新 增量寻源 2026-06-17 至 2026-07-07，新增 8 个，更新 1 个",
+  "search_date": "2026-07-10",
+  "search_summary": "增量更新 2026-06-20 至 2026-07-10，新增 13 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -4965,7 +4965,250 @@
       "last_updated": "2026-07-08",
       "release_version": "N/A",
       "timeliness_score": "高"
+    },
+    {
+      "name": "nvidia/Nemotron-CC-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-CC-v2",
+      "languages": [
+        "en",
+        "多语言QA翻译覆盖15种语言"
+      ],
+      "size": "基于8个额外Common Crawl快照(2024-2025)，大规模预训练数据",
+      "license": "开放获取",
+      "category": "预训练",
+      "description": "NVIDIA发布的Nemotron预训练数据集v2版本，是基于Nemotron-CC的更新版英文网页爬取数据集。新增8个Common Crawl快照（2024-2025年），使用Qwen3-30B-A3B进行合成改写，经过英文过滤和全局去重。合成多样化QA数据已翻译为15种语言。用于训练Nemotron Nano 2系列模型（9B-v2和12B-v2）。19,674次下载，127个赞。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-07",
+      "release_version": "v2 (Nemotron Pre-Training Dataset v1 Release)",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron pretrain multilingual",
+      "source": "HuggingFace API搜索 (关键词: Nemotron, 按lastModified排序)"
+    },
+    {
+      "name": "hasankursun/multilingual-safety-classification-dataset",
+      "url": "https://huggingface.co/datasets/hasankursun/multilingual-safety-classification-dataset",
+      "languages": [
+        "覆盖60种语言",
+        "am",
+        "bn",
+        "bs",
+        "bg",
+        "multilingual"
+      ],
+      "size": "213K行（train split），3级安全标签(0/1/2)",
+      "license": "开放获取",
+      "category": "对齐",
+      "description": "大规模多语言安全分类数据集，覆盖60种语言（包括阿姆哈拉语、孟加拉语、波斯尼亚语、保加利亚语等低资源语言）。213K条样本，每条包含prompt和3级安全标签（0=安全, 1=边界, 2=不安全）。4,569次下载，4个赞。对多语言安全对齐研究和分类器训练有重要价值。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-06-25",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "safety multilingual classification",
+      "source": "HuggingFace API搜索 (关键词: safety multilingual, 按lastModified排序)"
+    },
+    {
+      "name": "MORE (Multilingual Document Parsing Benchmark)",
+      "url": "https://github.com/zimoqingfeng/MORE",
+      "languages": [
+        "149种语言"
+      ],
+      "size": "大规模基准，覆盖代码块/表格/目录等结构元素",
+      "license": "开源 (代码和数据集在GitHub)",
+      "category": "评估",
+      "description": "多语言文档解析评估基准，覆盖149种语言，是当前语言学多样性最高的基准。三大特色：(1) 空前规模——149种语言；(2) 结构复杂性——超越纯文本，包含代码块、表格、目录等结构元素评估；(3) 数据真实性——所有样本来自真实文档，通过模型辅助+人工精化标注流水线。已被ICML 2026接收。arXiv:2607.02956。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-03",
+      "release_version": "ICML 2026 accepted",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual document parsing benchmark ICML 2026",
+      "source": "DuckDuckGo搜索 + arXiv论文 (arXiv:2607.02956)"
+    },
+    {
+      "name": "IndicMMLU-Pro",
+      "url": "https://aclanthology.org/2026.gem-main.10/",
+      "languages": [
+        "hi",
+        "bn",
+        "gu",
+        "mr",
+        "kn",
+        "pa",
+        "ta",
+        "te",
+        "ur"
+      ],
+      "size": "基于MMLU-Pro框架，覆盖9种印度主要语言的多任务理解基准",
+      "license": "开放资源",
+      "category": "评估",
+      "description": "将MMLU-Pro框架扩展到9种印度主要语言（印地语、孟加拉语、古吉拉特语、马拉地语、卡纳达语、旁遮普语、泰米尔语、泰卢固语、乌尔都语）的综合基准。覆盖理解、推理、生成等多种任务，为印度语言AI模型开发提供标准化评估框架。发表于ACL 2026 GEM Workshop。DOI: 10.18653/v1/2026.gem-main.10",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-01",
+      "release_version": "ACL GEM 2026",
+      "timeliness_score": "高",
+      "search_keywords": "IndicMMLU-Pro Indic benchmark MMLU",
+      "source": "SearXNG搜索 (ACL Anthology 2026.gem-main.10)"
+    },
+    {
+      "name": "EMMA-500 Bilingual Translation Corpus",
+      "url": "https://aclanthology.org/2026.findings-acl.937/",
+      "languages": [
+        "500+语言，2500+语言对"
+      ],
+      "size": "双语翻译语料，配合671B tokens的持续预训练",
+      "license": "开源（语料、模型、代码均开源）",
+      "category": "预训练",
+      "description": "面向500+语言的大规模双语翻译语料库，包含2500+语言对。论文研究了双语翻译数据对大规模多语言持续预训练的影响，基于Llama 3模型族开发EMMA-500 Llama 3套件（4个模型），在671B tokens上进行持续预训练。综合评估7个任务和12个基准，证明双语数据对低资源语言的语言迁移和性能有显著增强。发表于ACL 2026 Findings。DOI: 10.18653/v1/2026.findings-acl.937",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-01",
+      "release_version": "ACL Findings 2026",
+      "timeliness_score": "高",
+      "search_keywords": "EMMA-500 bilingual translation 500 languages continual pretraining",
+      "source": "SearXNG搜索 (ACL Anthology 2026.findings-acl.937)"
+    },
+    {
+      "name": "openbmb/Ultra-FineWeb",
+      "url": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "大规模网页预训练语料（具体规模待确认）",
+      "license": "开放获取",
+      "category": "预训练",
+      "description": "OpenBMB发布的Ultra系列网页预训练数据集，是UltraData生态的组成部分。63,634次下载，396个赞，社区热度极高。与Ultra-FineWeb-L3（分层版本）和UltraData-SFT-2605配合使用，构成完整的数据管理流水线。2026年5月28日发布。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-05-28",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "openbmb Ultra-FineWeb pretrain",
+      "source": "HuggingFace API搜索 (关键词: openbmb, 按lastModified排序)"
+    },
+    {
+      "name": "bekan/english_karakalpak_parallel_corpus_v8",
+      "url": "https://huggingface.co/datasets/bekan/english_karakalpak_parallel_corpus_v8",
+      "languages": [
+        "en",
+        "kaa (卡拉卡尔帕克语)"
+      ],
+      "size": "英-卡拉卡尔帕克双语平行语料",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "英语-卡拉卡尔帕克语平行语料库v8版本。卡拉卡尔帕克语是中亚突厥语族语言，主要使用于乌兹别克斯坦卡拉卡尔帕克斯坦自治共和国，属于典型的低资源语言。语料覆盖科学常识等领域句子对。23次下载，1个赞。对中亚语言翻译和NLP研究有独特价值。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-07",
+      "release_version": "v8",
+      "timeliness_score": "高",
+      "search_keywords": "parallel corpus Karakalpak Central Asian",
+      "source": "HuggingFace API搜索 (关键词: parallel corpus, 按lastModified排序)"
+    },
+    {
+      "name": "fxmeng/UltraData-SFT-2605-32k-200k",
+      "url": "https://huggingface.co/datasets/fxmeng/UltraData-SFT-2605-32k-200k",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "200K样本，32K上下文长度",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "OpenBMB UltraData-SFT-2605的社区衍生版本，经过32K上下文长度筛选，保留200K高质量样本。适用于长上下文SFT训练场景。2026年7月9日发布，是UltraData生态的最新衍生数据集。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-09",
+      "release_version": "32k-200k variant",
+      "timeliness_score": "高",
+      "search_keywords": "UltraData SFT openbmb",
+      "source": "HuggingFace API搜索 (关键词: UltraData, 按lastModified排序)"
+    },
+    {
+      "name": "grushaaaaa/crosslingual-refusal-en-hi",
+      "url": "https://huggingface.co/datasets/grushaaaaa/crosslingual-refusal-en-hi",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "size": "跨语言拒绝分类数据集",
+      "license": "开放获取",
+      "category": "对齐",
+      "description": "英语-印地语跨语言拒绝分类数据集，用于研究LLM在多语言场景下的安全拒绝行为。探索模型是否能在一语言中学到的安全拒绝能力迁移到另一语言。2026年7月9日更新。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "crosslingual refusal safety",
+      "source": "HuggingFace API搜索 (关键词: cross-lingual, 按lastModified排序)"
+    },
+    {
+      "name": "crosslingual-em/tiny-aya-global-eval",
+      "url": "https://huggingface.co/datasets/crosslingual-em/tiny-aya-global-eval",
+      "languages": [
+        "多语言全球评估"
+      ],
+      "size": "全球多语言评估数据集（Aya模型生态）",
+      "license": "开放获取",
+      "category": "评估",
+      "description": "Cohere Aya生态的全球评估数据集（tiny版本），用于评估多语言模型在不同地理文化背景下的表现。99次下载，2026年7月4日更新。是Aya全球化评估框架的组成部分。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-04",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "crosslingual aya global eval",
+      "source": "HuggingFace API搜索 (关键词: cross-lingual, 按lastModified排序)"
+    },
+    {
+      "name": "openbmb/factnet_factsense",
+      "url": "https://huggingface.co/datasets/openbmb/factnet_factsense",
+      "languages": [
+        "多语言（可见su/sundanese, pa/punjabi, mk/macedonian等）"
+      ],
+      "size": "基于Wikidata的大规模事实知识数据集",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "OpenBMB发布的FactNet事实感知数据集，基于Wikidata结构化知识构建。包含多语言（巽他语、旁遮普语、马其顿语等）的事实三元组和相关文本描述，用于事实性知识增强训练。1,276次下载，6个赞。2026年5月7日发布。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-05-07",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "openbmb factnet knowledge",
+      "source": "HuggingFace API搜索 (关键词: openbmb, 按lastModified排序)"
+    },
+    {
+      "name": "ranbirchabungbam/meiteimayek-audio-parallel-corpus",
+      "url": "https://huggingface.co/datasets/ranbirchabungbam/meiteimayek-audio-parallel-corpus",
+      "languages": [
+        "mni (曼尼普尔语/梅泰语，使用Meitei Mayek文字)"
+      ],
+      "size": "音频-文本平行语料",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "梅泰语（曼尼普尔语）Meitei Mayek文字的音频平行语料库，用于TTS（文字转语音）任务。梅泰语是印度东北部曼尼普尔邦的官方语言，使用独特的Meitei Mayek文字系统。24次下载，2026年7月9日更新。对印度东北部低资源语言的语音技术研究有独特价值。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-09",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "Meitei Mayek audio parallel corpus Indian language",
+      "source": "HuggingFace API搜索 (关键词: parallel corpus, 按lastModified排序)"
+    },
+    {
+      "name": "adivaanihf/adivaani-tribal-parallel-corpus",
+      "url": "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-parallel-corpus",
+      "languages": [
+        "sat (桑塔利语)",
+        "gon (贡德语)",
+        "unr (蒙达里语)",
+        "bhb (比利语)",
+        "grt (加罗语)"
+      ],
+      "size": "印度部落语言平行语料",
+      "license": "开放获取",
+      "category": "微调",
+      "description": "Adivaani项目发布的印度部落语言平行语料库，覆盖5种印度原住民语言：桑塔利语、贡德语、蒙达里语、比利语、加罗语。这些语言均为极低资源语言，传统NLP研究中几乎被忽略。13次下载，2026年7月3日更新。对南亚原住民语言保护和NLP研究有重要意义。",
+      "discovered_date": "2026-07-10",
+      "last_updated": "2026-07-03",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "tribal parallel corpus Indian low-resource",
+      "source": "HuggingFace API搜索 (关键词: parallel corpus, 按lastModified排序)"
     }
   ],
-  "total_datasets": 258
+  "total_datasets": 271
 }

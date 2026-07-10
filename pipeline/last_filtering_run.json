@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-07-06T09:05:00+08:00",
+  "last_run": "2026-07-09T09:00:00+08:00",
   "status": "completed",
-  "incremental_papers": 10,
-  "incremental_tools": 3,
+  "incremental_papers": 11,
+  "incremental_tools": 2,
   "incremental_blogs": 0,
   "output_file": "bee_dataset_filtering_incremental.json",
-  "discovery_channels": ["arXiv API", "SearXNG science", "ACL Anthology"],
-  "notes": "DuckDuckGo blocked; arXiv API + SearXNG primary channels. 2 papers published after July 2 last run (Neuron-OPSD, HERMES). 3 papers from June 16-July 2 window (HDS, TiKMiX, Explaining Scaling Laws). 5 missed by baseline+prior incremental (LLMSurgeon, DataEvolver, DDCF, Data filtering methods, Phase transitions). 3 new GitHub tools released with papers."
+  "discovery_channels": ["arXiv API", "SearXNG science", "ACL Anthology", "GitHub API"],
+  "notes": "DuckDuckGo blocked again. Used arXiv API (3 queries), SearXNG (3 queries), GitHub API (3 queries), ACL Anthology (web_fetch). 4 papers published strictly within July 6-9 window (Online Data Selection Is Implicit Alignment, CurateEvo, Fidelity-Diversity Metrics, SIEVE). 1 paper from July 1 (CausalMix) missed by baseline. 2 late-June papers (GAIA, Reasoning Quality Emerges Early) missed by baseline+prior incremental. 4 ACL 2026 proceedings papers (SelecT, Select2Reason, DoGraph/ACL-short, From Instance Selection). 2 GitHub repos (ptbr-cpt-data-ablation research code, CuratorKIT implementation). No new blog posts from major AI labs in the window."
 }
