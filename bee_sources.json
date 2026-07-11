@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-10",
-  "search_summary": "增量更新 2026-06-20 至 2026-07-10，新增 13 个",
+  "search_date": "2026-07-11",
+  "search_summary": "增量更新 2026-06-21 至 2026-07-11，新增 11 个，基线达 287 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -5311,6 +5311,227 @@
       "timeliness_score": "中",
       "search_keywords": "HRM8K UST Korean math reasoning bilingual benchmark",
       "source": "手动补录"
+    },
+    {
+      "name": "mAceReason-Math",
+      "url": "https://arxiv.org/abs/2603.10767",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "ru",
+        "ar",
+        "hi",
+        "it",
+        "nl",
+        "pl"
+      ],
+      "size": "10,000+ samples per language, 14 languages",
+      "license": "research (paper)",
+      "category": "微调/评估基准",
+      "description": "High-quality multilingual math problems ready for RLVR (Reinforcement Learning with Verifiable Rewards). Translated from AceReason-Math corpus with careful cleaning. Designed for GRPO training and multilingual RLVR benchmarking. Addresses gap of English-centric RLVR datasets.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-03-14",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual math RLVR GRPO training",
+      "source": "SearXNG search → arXiv"
+    },
+    {
+      "name": "Math-PT",
+      "url": "https://arxiv.org/abs/2604.25926",
+      "languages": [
+        "pt (European Portuguese)",
+        "pt (Brazilian Portuguese)"
+      ],
+      "size": "1,729 mathematical problems",
+      "license": "research (paper)",
+      "category": "评估基准",
+      "description": "Math reasoning benchmark for European and Brazilian Portuguese. Curated from native sources including Olympiads, competitions, and exams from Portugal and Brazil. Addresses linguistic bias in math benchmarks. Includes MCQ, open-ended, and figure-based questions.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-04-25",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Portuguese math reasoning benchmark",
+      "source": "SearXNG search → arXiv"
+    },
+    {
+      "name": "RefusEU",
+      "url": "https://arxiv.org/abs/2606.07535",
+      "hf_url": "TBD",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "pt",
+        "nl",
+        "pl",
+        "ro",
+        "cs",
+        "hu",
+        "sv"
+      ],
+      "size": "refusal alignment dataset covering 12 European languages with dedicated test set",
+      "license": "research (ACL 2026 Findings)",
+      "category": "对齐/安全",
+      "description": "Novel refusal alignment dataset covering 12 European languages. Investigates multilingual safety dynamics: English-only alignment insufficient for cross-lingual safety; multilingual DPO training improves safety without degrading general performance (measured by Global MMLU). Published at ACL 2026 Findings.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-06-11",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual refusal alignment European safety",
+      "source": "SearXNG search → arXiv/ACL"
+    },
+    {
+      "name": "CultureGuard / Nemotron-Safety-Guard-Dataset-v3",
+      "url": "https://arxiv.org/abs/2508.01710",
+      "languages": [
+        "en",
+        "ar",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "ja",
+        "th",
+        "zh"
+      ],
+      "size": "386,661 samples in 9 languages",
+      "license": "research (paper)",
+      "category": "对齐/安全",
+      "description": "Culturally-aware multilingual safety dataset and guard model. Four-stage pipeline: cultural data segregation, adaptation, translation, quality filtering. Converts Nemotron-Content-Safety-Dataset-V2 into 8 non-English languages. Trains Llama-3.1-Nemotron-Safety-Guard-8B-v3 via LoRA. SOTA on multilingual safety benchmarks with cross-lingual zero-shot generalization.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-05-01",
+      "release_version": "v3",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety guard culturally-aware",
+      "source": "SearXNG search → arXiv"
+    },
+    {
+      "name": "ML-Bench&Guard",
+      "url": "https://arxiv.org/abs/2605.00689",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "policy-grounded safety benchmark",
+      "license": "research (paper)",
+      "category": "评估基准/安全",
+      "description": "Policy-grounded multilingual safety benchmark and guardrail for LLMs. Evaluates safety across multiple languages using policy-based rules. Benchmarks against Nemotron and other safety models.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-05-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety benchmark guardrail policy",
+      "source": "SearXNG search → arXiv"
+    },
+    {
+      "name": "SEADialogues",
+      "url": "https://arxiv.org/abs/2508.07069",
+      "languages": [
+        "8 languages from 6 Southeast Asian countries"
+      ],
+      "size": "multi-turn dialogue dataset with persona attributes and cultural topics",
+      "license": "research (paper)",
+      "category": "微调/对话",
+      "description": "Culturally grounded multi-turn dialogue dataset centered on Southeast Asia. Features dialogues in 8 languages from 6 countries, many low-resource. Each dialogue includes persona attributes and culturally grounded topics reflecting everyday life. Advances culturally aware LLM dialogue research.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-06-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Southeast Asian dialogue culturally grounded multilingual",
+      "source": "DuckDuckGo → arXiv"
+    },
+    {
+      "name": "Nemotron-Personas (multilingual)",
+      "url": "https://huggingface.co/collections/nvidia/nemotron-personas",
+      "languages": [
+        "multilingual (region-specific: Korea, Japan, India, Brazil, Europe, etc.)"
+      ],
+      "size": "1M+ synthetic personas per locale",
+      "license": "NVIDIA license",
+      "category": "合成数据/预训练",
+      "description": "Collection of multilingual, region-specific synthetic persona datasets supporting sovereign AI development. Each locale-specific dataset (e.g., Nemotron-Personas-Korea) aligns with official demographics (KOSIS, etc.). Used for culturally grounded data generation. Multiple locales available.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-06-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron Personas multilingual synthetic",
+      "source": "DuckDuckGo → HuggingFace NVIDIA"
+    },
+    {
+      "name": "UrduBench",
+      "url": "https://arxiv.org/abs/2601.21000",
+      "languages": [
+        "ur (Urdu)"
+      ],
+      "size": "MGSM + MATH-500 + CommonSenseQA + OpenBookQA translated to Urdu",
+      "license": "research (paper, code and data to be released)",
+      "category": "评估基准",
+      "description": "Urdu reasoning benchmark using contextually ensembled translations with human-in-the-loop validation. Translates 4 major reasoning benchmarks into Urdu. Evaluates reasoning and instruction-tuned LLMs across multiple prompting strategies. Reveals significant challenges in multi-step and symbolic reasoning for Urdu.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-01-28",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "Urdu reasoning benchmark low-resource",
+      "source": "SearXNG search → arXiv"
+    },
+    {
+      "name": "BhashaKritika",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40524",
+      "languages": [
+        "Indic languages (multiple)"
+      ],
+      "size": "synthetic pretraining data at scale",
+      "license": "research (AAAI 2026)",
+      "category": "预训练语料/合成",
+      "description": "Building synthetic pretraining data at scale for Indic languages using persona-based generation. Published at AAAI 2026. Addresses data scarcity for Indic language pretraining through culturally-grounded synthetic data generation.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-02-25",
+      "release_version": "v1 (AAAI 2026)",
+      "timeliness_score": "中",
+      "search_keywords": "Indic synthetic pretraining persona AAAI",
+      "source": "SearXNG search → AAAI"
+    },
+    {
+      "name": "GAIA-v2-LILT",
+      "url": "https://aclanthology.org/2026.mellm-1.13/",
+      "languages": [
+        "multilingual (beyond translation)"
+      ],
+      "size": "multilingual agent benchmark extension",
+      "license": "research (ACL 2026 workshop)",
+      "category": "评估基准/Agent",
+      "description": "Multilingual adaptation of the GAIA agent benchmark beyond translation. Re-audited multilingual extension addressing cultural and linguistic adaptation challenges for AI agents. Published at ACL 2026 MeLLM workshop.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-07-01",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "search_keywords": "GAIA multilingual agent benchmark",
+      "source": "SearXNG search → ACL Anthology"
+    },
+    {
+      "name": "Soohak",
+      "url": "https://arxiv.org/abs/2605.09063",
+      "languages": [
+        "en (primarily, research-level math)"
+      ],
+      "size": "439 problems by 64 mathematicians (Challenge + Refusal subsets)",
+      "license": "to be publicly released late 2026",
+      "category": "评估基准",
+      "description": "Research-level math benchmark authored from scratch by 64 mathematicians. Frontier models reach 30.4% (Gemini-3-Pro), 26.4% (GPT-5), 10.4% (Claude-Opus-4.5). Introduces refusal subset probing ill-posed problem recognition — no model exceeds 50%. Dataset to be released late 2026, evaluations available upon request.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-05-13",
+      "release_version": "v1 (pre-release)",
+      "timeliness_score": "中",
+      "search_keywords": "research-level math benchmark refusal",
+      "source": "SearXNG search → arXiv"
     }
   ],
   "total_datasets": 276

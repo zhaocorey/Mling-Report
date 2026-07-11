@@ -1066,6 +1066,197 @@
       "category": "data_filtering_practicalities",
       "relevance_score": 8,
       "incremental_note": "NeurIPS 2025. Missed by baseline and first incremental."
+    },
+    {
+      "title": "Online Data Selection Is Implicit Alignment",
+      "authors": "Aoxiong Zeng, Yuxin Yang, Xiangquan Yang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.07023",
+      "source_channel": "arXiv API",
+      "category": "sampling",
+      "description": "Demonstrates that online data selection during SFT acts as an implicit alignment mechanism, changing model behavioral preferences (refusal rate, verbosity, sycophancy) without any preference optimization. Formalizes online selection as reweighted SFT objective and introduces Alignment Drift Auditing (ADA) and Alignment-Aware Selection (AAS).",
+      "key_methods": [
+        "online data selection as implicit alignment",
+        "Alignment Drift Auditing (ADA)",
+        "Alignment-Aware Selection (AAS)",
+        "behavioral preference analysis"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-08"
+    },
+    {
+      "title": "CurateEvo: Data-Curation Evolving for Agentic Post-Training",
+      "authors": "Dingzirui Wang, Xuanliang Zhang, Keyan Xu, Qingfu Zhu, Wanxiang Che",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.06140",
+      "source_channel": "arXiv API",
+      "category": "curation",
+      "description": "Failure-driven dynamic evolution framework for agentic post-training data curation. Represents curation strategy as executable code and iteratively rewrites it using failed trajectories. Transforms raw corpus into SFT data, RL data, and inference-time memory bank. Outperforms prior curation methods on ACEBench-Agent, BFCL-V4, and τ²-Bench.",
+      "key_methods": [
+        "failure-driven curation evolution",
+        "executable code strategy",
+        "dynamic data filtering and refinement",
+        "cost-aware utility pruning"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-07"
+    },
+    {
+      "title": "Fidelity-Diversity Metrics for Text",
+      "authors": "Amanda Wang, Tudor Manole, Florentina Bunea, John Thickstun",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.04563",
+      "source_channel": "arXiv API",
+      "category": "quality_assessment",
+      "description": "Develops precision/recall-inspired metrics for text dataset composition and curation. Fidelity captures how closely candidate text resembles reference data; diversity captures mode coverage. Based on optimal transport divergence functionals. Detects diversity deficits in synthetic math datasets that correlate with downstream accuracy degradation.",
+      "key_methods": [
+        "fidelity-diversity metrics",
+        "optimal transport divergence",
+        "dataset composition assessment",
+        "synthetic data quality evaluation"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-06"
+    },
+    {
+      "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+      "authors": "Changti Wu, Bin Yu, Zhaolong Shen, Shijie Lian, Xiaopeng Lin, Cong Huang, Zhirui Zhang, Lei Zhang, Kai Chen",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.06442",
+      "source_channel": "arXiv API",
+      "category": "sampling",
+      "description": "Structure-aware data selection for Vision-Language-Action imitation learning. Discovers reusable visuo-motor primitives, allocates selection budgets by maximizing reuse-aware structural exposure, and selects medoid trajectories. Surpasses full-data training with only 50% demonstrations and 50% training steps.",
+      "key_methods": [
+        "structure-aware selection",
+        "visuo-motor primitive discovery",
+        "reuse-aware structural exposure",
+        "medoid trajectory selection"
+      ],
+      "relevance_score": "medium",
+      "published": "2026-07-07",
+      "note": "Focused on VLA/robotics, but structure-aware selection methodology is transferable to LLM training data"
+    },
+    {
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": "Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei, Dingnan Jin, Jun Zhou, Yujun Wang, Biqing Huang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.01104",
+      "source_channel": "arXiv API",
+      "category": "mixing",
+      "description": "Addresses data mixing under distribution shift by framing it as causal inference. Unlike proxy-model methods that assume static data distributions, CausalMix handles shifting data pools without costly retraining. Scales from small to large data pools and model sizes.",
+      "key_methods": [
+        "causal inference for data mixing",
+        "distribution-shift robust mixing",
+        "scalable mixture optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07-01",
+      "note": "Published July 1, 5 days before search window. Not in baseline (compiled June 29). Significant new mixing approach."
+    },
+    {
+      "title": "Online Data Selection for Instruction Tuning via Gaussian Processes",
+      "authors": "Jun Wang, Quoc Phong Nguyen, Julien Monteil, Vu Nguyen",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.30077",
+      "source_channel": "arXiv API",
+      "category": "sampling",
+      "description": "Proposes GAIA (Global Adaptive Instruction tuning via GAussian processes), a framework that formulates data valuation as a global estimation process rather than batch-constrained local optimization. Overcomes limitations of existing online data selection methods.",
+      "key_methods": [
+        "GAIA framework",
+        "Gaussian process data valuation",
+        "global estimation for online selection",
+        "instruction tuning optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-06-29",
+      "note": "Published June 29, missed by baseline (compiled same day). Not in prior incremental."
+    },
+    {
+      "title": "Reasoning Quality Emerges Early: Data Curation for Reasoning Models",
+      "authors": "Hongyi Henry Jin, Wenhan Yang, Meysam Ghaffari, Carlos Morato, Baharan Mirzasoleiman",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.26797",
+      "source_channel": "arXiv API",
+      "category": "curation",
+      "description": "Shows that diverse and challenging reasoning examples can be identified early in the curation pipeline without relying on strong reasoning models. Proposes cost-effective curation for high-quality SFT data for reasoning.",
+      "key_methods": [
+        "early reasoning quality detection",
+        "cost-effective SFT curation",
+        "diversity-difficulty based selection"
+      ],
+      "relevance_score": "high",
+      "published": "2026-06-25",
+      "note": "Published June 25, missed by baseline. Relevant for reasoning data curation."
+    },
+    {
+      "title": "SELECting over Tokens: Curating Pre-training Data at Scale via Token Classification",
+      "authors": "Unknown (ACL 2026 proceedings)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.acl-long.2219/",
+      "source_channel": "ACL Anthology",
+      "category": "filtering",
+      "description": "Reframes data refinement as token classification (informative vs noisy) instead of sample-level heuristic rules or costly generative approaches. Outperforms raw data by 2%+ and best heuristic baselines by 1%+ while preserving 17% more tokens. 2.5x faster than ProX-C at inference.",
+      "key_methods": [
+        "token-level data classification",
+        "fine-grained noise detection",
+        "SclecT framework",
+        "scalable pre-training data optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Long Paper)"
+    },
+    {
+      "title": "Select2Reason: Efficient Instruction-Tuning Data Selection for Long-CoT Reasoning",
+      "authors": "Cehao Yang, Xueyuan Lin, Xiaojun Wu, Chengji (ACL 2026 Findings)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-acl.331/",
+      "source_channel": "ACL Anthology",
+      "category": "sampling",
+      "description": "Data selection framework for long-CoT reasoning SFT. Uses difficulty-aware reward model to estimate learning value and reasoning trace length heuristic for ranking. Fine-tuning on only 10% of selected data achieves competitive or superior performance to full-data tuning on 9 math benchmarks and 4 reasoning tasks.",
+      "key_methods": [
+        "difficulty-aware reward model",
+        "trace length heuristic",
+        "rethinking behavior emergence",
+        "long-CoT instruction selection"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Findings)"
+    },
+    {
+      "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
+      "authors": "Yuanjian Xu, Tianze Sun, Changwei Xu, XinLong Zhao, Jianing Hao, Ran Chen, Yang Liu, Ruijie Xu, Stephen Chen, Guang Zhang",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.acl-short.28/",
+      "source_channel": "ACL Anthology",
+      "category": "mixing",
+      "description": "Establishes formal connections between gradient dynamics and domain distributions for data mixing. Introduces DoGraph, a reweighting framework that formulates data scheduling as graph-constrained optimization. Investigates what constitutes a domain and whether human/model domain perceptions align.",
+      "key_methods": [
+        "DoGraph reweighting framework",
+        "graph-constrained data scheduling",
+        "gradient dynamics-domain distribution connection",
+        "domain perception analysis"
+      ],
+      "relevance_score": "high",
+      "published": "2026-07 (ACL 2026 Short Paper)",
+      "note": "arXiv preprint April 2026 (2604.07963), not in baseline. ACL 2026 Short proceedings published July."
+    },
+    {
+      "title": "From Instance Selection to Fixed-Pool Data Recipe Search for Supervised Fine-Tuning",
+      "authors": "Haodong Wu, Jiahao Zhang, Lijie Hu, Yongqi Zhang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.12944",
+      "source_channel": "arXiv API",
+      "category": "curation",
+      "description": "Reformulates SFT data selection from instance ranking to fixed-pool data recipe search, where filtering, mixing, and deduplication operators jointly shape the final data distribution through ordered curation recipes.",
+      "key_methods": [
+        "data recipe search",
+        "ordered curation pipeline",
+        "filtering-mixing-deduplication operators",
+        "SFT data optimization"
+      ],
+      "relevance_score": "high",
+      "published": "2026-05-13",
+      "note": "Not in baseline. Discovered via ACL 2026 proceedings cross-reference. Conceptually important for data curation pipeline design."
     }
   ],
   "tools_and_repos": [
@@ -1176,6 +1367,27 @@
       "category": "data_mixture_tool",
       "relevance_score": 8,
       "incremental_note": "Released with DeMix paper, Feb 2026. GitHub repo for data mixture optimization."
+    },
+    {
+      "name": "ptbr-cpt-data-ablation",
+      "url": "https://github.com/pedrohpgadelha/ptbr-cpt-data-ablation",
+      "description": "Controlled data-curation ablation study examining deduplication and quality/repetition filtering for continued pre-training of a small Portuguese LLM. Provides empirical evidence on the impact of different curation strategies.",
+      "source_channel": "GitHub API",
+      "category": "research_code",
+      "relevance_score": "medium",
+      "stars": 0,
+      "created": "2026-07-08"
+    },
+    {
+      "name": "CuratorKIT (Lexsi-Labs)",
+      "url": "https://github.com/Lexsi-Labs/CuratorKIT",
+      "description": "Open-source implementation of CuratorKIT for data curation and synthetic data generation for LLM post-training. Companion code to the CuratorKIT paper.",
+      "source_channel": "GitHub API",
+      "category": "tool",
+      "relevance_score": "medium",
+      "stars": 23,
+      "created": "2026-06-16",
+      "note": "Paper (CuratorKIT) already in baseline. GitHub repo discovered in this run. 23 stars, actively maintained (last update July 8)."
     }
   ],
   "blog_posts_and_tutorials": [
@@ -1244,13 +1456,30 @@
       "category": "multimodal_curation_tooling",
       "relevance_score": 7,
       "incremental_note": "LanceDB blog on reproducible curation workflows for multimodal data."
+    },
+    {
+      "title": "Data for Agents (NVIDIA / HuggingFace Blog)",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "date": "2026-07-08",
+      "source": "HuggingFace Blog",
+      "relevance": "medium",
+      "description": "NVIDIA blog post discussing open data curation strategies for agentic AI. Covers Nemotron Post-Training v3 Prompt Atlas (interactive visual map for exploring post-training data mixture), synthetic data generation for agent training, data quality considerations for multilingual agents, and the Nemotron-Personas framework for culturally grounded synthetic data. Published July 8, slightly outside the strict July 10-11 window but relevant as context.",
+      "key_topics": [
+        "open data curation for agents",
+        "synthetic data for post-training",
+        "Nemotron Post-Training v3 Prompt Atlas",
+        "data mixing visualization",
+        "multilingual data quality"
+      ]
     }
   ],
-  "last_incremental_update": "2026-06-30T09:15:00+08:00",
+  "last_incremental_update": "2026-07-11T09:23:00+08:00",
   "metadata": {
-    "last_updated": "2026-06-30T09:15:00+08:00",
-    "total_papers": 74,
+    "last_updated": "2026-07-11T09:23:00+08:00",
+    "total_papers": 85,
     "total_tools_and_repos": 12,
-    "total_blog_posts_and_tutorials": 7
+    "total_blog_posts_and_tutorials": 8,
+    "total_tools": 14,
+    "total_blogs": 8
   }
 }

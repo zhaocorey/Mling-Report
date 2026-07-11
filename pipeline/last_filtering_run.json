@@ -1,10 +1,13 @@
 {
-  "last_run": "2026-07-09T09:00:00+08:00",
+  "last_run": "2026-07-11T09:23:00+08:00",
   "status": "completed",
-  "incremental_papers": 11,
-  "incremental_tools": 2,
-  "incremental_blogs": 0,
+  "incremental_papers": 0,
+  "incremental_tools": 0,
+  "incremental_blogs": 1,
   "output_file": "bee_dataset_filtering_incremental.json",
-  "discovery_channels": ["arXiv API", "SearXNG science", "ACL Anthology", "GitHub API"],
-  "notes": "DuckDuckGo blocked again. Used arXiv API (3 queries), SearXNG (3 queries), GitHub API (3 queries), ACL Anthology (web_fetch). 4 papers published strictly within July 6-9 window (Online Data Selection Is Implicit Alignment, CurateEvo, Fidelity-Diversity Metrics, SIEVE). 1 paper from July 1 (CausalMix) missed by baseline. 2 late-June papers (GAIA, Reasoning Quality Emerges Early) missed by baseline+prior incremental. 4 ACL 2026 proceedings papers (SelecT, Select2Reason, DoGraph/ACL-short, From Instance Selection). 2 GitHub repos (ptbr-cpt-data-ablation research code, CuratorKIT implementation). No new blog posts from major AI labs in the window."
+  "merged_to_baseline": true,
+  "incremental_file_deleted": true,
+  "github_push": "success",
+  "discovery_channels": ["arXiv API (7 queries)", "GitHub API (1 query)", "HuggingFace Blog", "DuckDuckGo (blocked)"],
+  "notes": "24h window (July 10-11) yielded zero new papers and zero new tools. 1 blog post (Data for Agents, NVIDIA/HF, July 8) merged to baseline. Report pushed to GitHub (commit 29b21c7). Natural lull in submissions."
 }

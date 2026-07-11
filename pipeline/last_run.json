@@ -1,17 +1,24 @@
 {
-  "last_run_date": "2026-07-10",
+  "last_run_date": "2026-07-11",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-20",
-  "window_end": "2026-07-10",
-  "baseline_sources_count": 258,
-  "new_datasets_found": 13,
-  "new_datasets_merged": 13,
-  "version_updates_found": 0,
+  "window_start": "2026-06-21",
+  "window_end": "2026-07-11",
+  "baseline_sources_count": 287,
+  "new_datasets_found": 18,
+  "new_datasets_merged": 11,
+  "version_updates_found": 3,
   "version_updates_merged": 0,
-  "academic_papers_found": 3,
-  "report_file": "sources_reports/2026-07-10.md",
-  "previous_run": "2026-07-08",
-  "pipeline_stages_completed": ["bee_sourcing", "professor-yu_report", "zong_merge", "coder_push_partial"],
-  "notes": "13 new datasets merged (baseline now 271). Key: MORE (149 lang, ICML 2026), EMMA-500 (500+ lang, ACL Findings 2026), Nemotron-CC-v2. GitHub+Gitee push OK. Feishu push skipped (need_user_authorization). hasankursun 60-lang safety was in 06-27 report but not in baseline, now added."
+  "academic_papers_found": 17,
+  "report_file": "sources_reports/2026-07-11.md",
+  "previous_run": "2026-07-10",
+  "pipeline_stages_completed": [
+    "bee_sourcing",
+    "professor-yu_report",
+    "zong_merge"
+  ],
+  "pending_stages": [
+    "coder_push"
+  ],
+  "notes": "18 datasets found by bee, 11 new after dedup (7 already in baseline). 9 truly new in report, 9 tracked as already reported. Baseline 271→287. Top candidates: SEADialogues, BhashaKritika."
 }
