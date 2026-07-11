@@ -1285,7 +1285,8 @@
       "release_version": "v1",
       "timeliness_score": "中",
       "search_keywords": "FineTranslations huggingface trillion token parallel 500 languages",
-      "source": "DuckDuckGo搜索 + InfoQ报道 + 网易报道（前期搜索遗漏，本次补录）"
+      "source": "DuckDuckGo搜索 + InfoQ报道 + 网易报道（前期搜索遗漏，本次补录）",
+      "paper_url": ""
     },
     {
       "name": "LEMAS Dataset",
@@ -1311,7 +1312,8 @@
       "release_version": "v1 (arXiv:2601.04233)",
       "timeliness_score": "中",
       "search_keywords": "LEMAS 150K hours multilingual speech corpus word-level timestamps",
-      "source": "DuckDuckGo中文搜索（知乎报道）+ arXiv论文（前期搜索遗漏，本次补录）"
+      "source": "DuckDuckGo中文搜索（知乎报道）+ arXiv论文（前期搜索遗漏，本次补录）",
+      "paper_url": "https://arxiv.org/abs/2601.04233"
     },
     {
       "name": "WAXAL",
@@ -1328,7 +1330,8 @@
       "release_version": "v1 (arXiv:2602.02734)",
       "timeliness_score": "高",
       "search_keywords": "WAXAL Google African speech dataset 27 languages open resource",
-      "source": "DuckDuckGo搜索 + Google Research Blog + MarkTechPost报道（前期搜索遗漏，本次补录）"
+      "source": "DuckDuckGo搜索 + Google Research Blog + MarkTechPost报道（前期搜索遗漏，本次补录）",
+      "paper_url": "https://arxiv.org/abs/2602.02734"
     },
     {
       "name": "Omnilingual ASR Corpus",
@@ -1345,7 +1348,8 @@
       "release_version": "v1 (arXiv:2511.09690)",
       "timeliness_score": "中",
       "search_keywords": "Omnilingual ASR corpus facebook 1600 languages speech dataset",
-      "source": "DuckDuckGo搜索 + GitHub验证 + HuggingFace API确认（前期搜索遗漏，本次补录）"
+      "source": "DuckDuckGo搜索 + GitHub验证 + HuggingFace API确认（前期搜索遗漏，本次补录）",
+      "paper_url": "https://arxiv.org/abs/2511.09690"
     },
     {
       "name": "LingualX64",
@@ -5224,7 +5228,8 @@
       "release_version": "v1",
       "timeliness_score": "中",
       "search_keywords": "PolyMath Qwen multilingual math reasoning NeurIPS",
-      "source": "手动补录"
+      "source": "手动补录",
+      "paper_url": "https://arxiv.org/abs/2504.18428"
     },
     {
       "name": "PluraMath",
@@ -5258,7 +5263,8 @@
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "PluraMath PolyMath extension underrepresented low-resource math reasoning",
-      "source": "手动补录(漏检复盘)"
+      "source": "手动补录(漏检复盘)",
+      "paper_url": "https://arxiv.org/abs/2607.05992"
     },
     {
       "name": "MMATH",
@@ -5275,7 +5281,8 @@
       "release_version": "v1",
       "timeliness_score": "中",
       "search_keywords": "MMATH multilingual complex reasoning benchmark",
-      "source": "手动补录"
+      "source": "手动补录",
+      "paper_url": "https://arxiv.org/abs/2505.19126"
     },
     {
       "name": "MGSM-Pro",
@@ -5292,7 +5299,8 @@
       "release_version": "v1",
       "timeliness_score": "中",
       "search_keywords": "MGSM-Pro GSM-Symbolic robustness multilingual math",
-      "source": "手动补录"
+      "source": "手动补录",
+      "paper_url": "https://arxiv.org/abs/2601.21225"
     },
     {
       "name": "HRM8K",
@@ -5310,7 +5318,8 @@
       "release_version": "v1",
       "timeliness_score": "中",
       "search_keywords": "HRM8K UST Korean math reasoning bilingual benchmark",
-      "source": "手动补录"
+      "source": "手动补录",
+      "paper_url": "https://arxiv.org/abs/2501.02448"
     },
     {
       "name": "mAceReason-Math",
