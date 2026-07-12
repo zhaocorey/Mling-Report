@@ -16,10 +16,15 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
+    "zong_merge",
+    "coder_push_github",
+    "coder_push_gitee"
   ],
   "pending_stages": [
-    "coder_push"
+    "coder_push_feishu"
   ],
-  "notes": "Pipeline 2026-07-12 complete. Bee found 15 candidates, professor-yu deduped to 9 truly new (6 already in historical reports). Baseline: 287 → 296. No version updates. Report: sources_reports/2026-07-12.md. Next: coder push to GitHub/Gitee/Feishu."
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-12.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-12.md",
+  "feishu_status": "failed - need user OAuth authorization for doc creation",
+  "notes": "Pipeline 2026-07-12 complete. Bee found 15 candidates, professor-yu deduped to 9 truly new (6 already in historical reports). Baseline: 287 → 296. GitHub+Gitee pushed. Feishu doc creation blocked by OAuth."
 }
