@@ -1,17 +1,18 @@
 {
-  "last_run_date": "2026-07-11",
+  "last_run_date": "2026-07-12",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-21",
-  "window_end": "2026-07-11",
-  "baseline_sources_count": 287,
-  "new_datasets_found": 18,
-  "new_datasets_merged": 11,
-  "version_updates_found": 3,
+  "window_start": "2026-06-22",
+  "window_end": "2026-07-12",
+  "baseline_sources_count": 296,
+  "new_datasets_found": 15,
+  "new_datasets_merged": 9,
+  "new_datasets_deduped": 6,
+  "version_updates_found": 0,
   "version_updates_merged": 0,
-  "academic_papers_found": 17,
-  "report_file": "sources_reports/2026-07-11.md",
-  "previous_run": "2026-07-10",
+  "academic_papers_found": 5,
+  "report_file": "sources_reports/2026-07-12.md",
+  "previous_run": "2026-07-11",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
@@ -20,5 +21,5 @@
   "pending_stages": [
     "coder_push"
   ],
-  "notes": "18 datasets found by bee, 11 new after dedup (7 already in baseline). 9 truly new in report, 9 tracked as already reported. Baseline 271→287. Top candidates: SEADialogues, BhashaKritika."
+  "notes": "Pipeline 2026-07-12 complete. Bee found 15 candidates, professor-yu deduped to 9 truly new (6 already in historical reports). Baseline: 287 → 296. No version updates. Report: sources_reports/2026-07-12.md. Next: coder push to GitHub/Gitee/Feishu."
 }
