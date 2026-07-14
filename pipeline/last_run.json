@@ -23,5 +23,8 @@
   "pending_stages": [
     "coder_push_feishu"
   ],
-  "notes": "Manual pipeline run 2026-07-14. Dedup rate 75% (3/4 already in baseline). Baseline 306->307."
+  "notes": "Manual pipeline run 2026-07-14. Dedup rate 75% (3/4 already in baseline). Baseline 306->307.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-14.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-14.md",
+  "feishu_status": "failed - need user OAuth authorization for doc creation"
 }
