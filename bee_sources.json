@@ -6092,10 +6092,29 @@
       "search_keywords": "Nemotron Personas India Korea multilingual",
       "source": "HuggingFace API (Nemotron search)",
       "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "African-Languages-Lab/all-lab-speech",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/all-lab-speech",
+      "paper_url": "https://arxiv.org/abs/2510.05644",
+      "languages": [
+        "multilingual (40 African languages)"
+      ],
+      "size": "10M-100M speech samples, 12,628 hours aligned speech data",
+      "license": "other (specified in repo)",
+      "category": "预训练语料/低资源语言",
+      "description": "Large-scale multilingual speech dataset for 40 African languages with word-level alignment. Part of the African Languages Lab initiative. Supports ASR, TTS, and speech recognition tasks. 12,628 hours of aligned speech data. Accompanied by text corpora (19 billion tokens). Released alongside ACL 2026 paper.",
+      "discovered_date": "2026-07-14",
+      "last_updated": "2026-07-03",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "African language speech ASR TTS All Lab",
+      "source": "HuggingFace API (African language search)",
+      "merged_from": "incremental_merge_2026-07-14"
     }
   ],
   "total_datasets": 276,
   "last_merge": "2026-07-14",
-  "total_sources": 306,
-  "last_update_note": "Merged 7/13 incremental: 10 new, 13 dupes skipped. Baseline: 306 datasets."
+  "total_sources": 307,
+  "last_update_note": "Merged 7/14 incremental: 1 new. Baseline: 307 datasets."
 }

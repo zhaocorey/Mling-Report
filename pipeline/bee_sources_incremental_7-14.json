@@ -1,0 +1,122 @@
+{
+  "incremental_date": "2026-07-14",
+  "window_start": "2026-06-24",
+  "window_end": "2026-07-14",
+  "baseline_note": "bee_sources.json still missing. Dedup based on previous incremental (pipeline/bee_sources_incremental.json from 2026-07-13, 22 datasets).",
+  "search_summary": "增量搜索 2026-06-24 至 2026-07-14。新增 4 个数据集 + 1 个版本更新。重点发现：African Languages Lab/multi-open (ACL 2026 Main, 32+非洲语言×10M-100M平行语料), African-Languages-Lab/all-lab-speech (40非洲语言×12,628小时语音), nvidia/Nemotron-SFT-Multilingual-v2 (5语言×100K-1M SFT样本, CC-BY-4.0), hasankursun/multilingual-safety-classification-dataset (60语言×100K-1M安全分类数据, CC-BY-NC-SA-4.0, 3,413下载)。搜索渠道：HuggingFace Datasets API (8+类别搜索), SearXNG (5搜索), DuckDuckGo web_search (3搜索后限流), web_fetch (详情验证)。DuckDuckGo在第4次搜索后触发bot检测限流。",
+  "search_methods_used": [
+    "DuckDuckGo web_search (3 searches before rate-limit)",
+    "SearXNG localhost:8080 (5 searches: multilingual dataset, ACL/ICML, pretraining corpus, code generation, speech/TTS)",
+    "HuggingFace Datasets API (8 category searches: multilingual, benchmark, SFT, safety, reasoning, translation, instruction, African languages)",
+    "web_fetch (dataset detail verification)"
+  ],
+  "searches_performed": 19,
+  "new_sources": [
+    {
+      "name": "African-Languages-Lab/multi-open",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/multi-open",
+      "paper_url": "https://arxiv.org/abs/2510.05644",
+      "languages": ["en", "am", "ff", "yo", "ig", "om", "sw", "ha", "tw", "sn", "rw", "ee", "bm", "wo", "lg", "ar", "so", "af", "ti", "mg", "xh", "zu", "st", "ny", "ln", "tn", "fon", "ki", "lua", "mos", "kg", "bem"],
+      "size": "10M-100M parallel translation pairs across 32+ African languages + English",
+      "license": "other (specified in repo)",
+      "category": "低资源语言/微调",
+      "description": "Large-scale parallel machine translation dataset for 32+ African languages paired with English. Part of the African Languages Lab (All Lab) initiative. Associated with ACL 2026 Main Conference paper 'The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language Technologies'. Quality-controlled data collection pipeline yielding 19 billion text tokens and 12,628 hours of aligned speech data across 40 languages. 612 downloads as of 2026-07-14.",
+      "discovered_date": "2026-07-14",
+      "last_updated": "2026-07-09",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "African language parallel corpus low-resource ACL 2026",
+      "source": "HuggingFace API (African language search)"
+    },
+    {
+      "name": "African-Languages-Lab/all-lab-speech",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/all-lab-speech",
+      "paper_url": "https://arxiv.org/abs/2510.05644",
+      "languages": ["multilingual (40 African languages)"],
+      "size": "10M-100M speech samples, 12,628 hours aligned speech data",
+      "license": "other (specified in repo)",
+      "category": "预训练语料/低资源语言",
+      "description": "Large-scale multilingual speech dataset for 40 African languages with word-level alignment. Part of the African Languages Lab initiative. Supports ASR, TTS, and speech recognition tasks. 12,628 hours of aligned speech data. Accompanied by text corpora (19 billion tokens). Released alongside ACL 2026 paper.",
+      "discovered_date": "2026-07-14",
+      "last_updated": "2026-07-03",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "African language speech ASR TTS All Lab",
+      "source": "HuggingFace API (African language search)"
+    },
+    {
+      "name": "nvidia/Nemotron-SFT-Multilingual-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Multilingual-v2",
+      "languages": ["en", "hi", "ja", "ko", "pt"],
+      "size": "100K-1M SFT samples covering code, math, science, reasoning domains",
+      "license": "CC-BY-4.0 / CC-BY-SA-4.0",
+      "category": "微调",
+      "description": "NVIDIA's official multilingual SFT dataset v2. Covers English, Hindi, Japanese, Korean, and Portuguese across code generation, mathematics, science, and reasoning domains. 100K-1M high-quality samples. Part of the Nemotron 3 Ultra training pipeline. 2,694 downloads (3,301 all-time). Released alongside Nemotron-SFT-Multilingual-v1 (2026-03-11, 3,020 downloads). CC-BY-4.0 licensed. Community derivatives include prompt-only variants and Amharic adaptations.",
+      "discovered_date": "2026-07-14",
+      "last_updated": "2026-06-05",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "search_keywords": "NVIDIA Nemotron SFT multilingual v2",
+      "source": "HuggingFace API (Nemotron multilingual search)"
+    },
+    {
+      "name": "hasankursun/multilingual-safety-classification-dataset",
+      "url": "https://huggingface.co/datasets/hasankursun/multilingual-safety-classification-dataset",
+      "languages": ["am", "bn", "bs", "bg", "ceb", "cs", "de", "en", "fr", "gu", "ha", "hi", "hr", "hu", "id", "it", "ja", "kn", "kk", "km", "rw", "ko", "lg", "ml", "mr", "mi", "my", "nl", "nso", "ny", "fa", "pl", "pt", "ro", "ru", "si", "sl", "sn", "sd", "so", "st", "es", "sr", "ta", "tt", "te", "th", "tn", "ts", "tr", "ug", "uk", "ur", "uz", "vi", "wo", "yo", "zh", "zu"],
+      "size": "100K-1M safety classification samples across 60 languages",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "微调/评估基准",
+      "description": "Comprehensive multilingual safety and content moderation classification dataset covering 60 languages including African, Asian, European, and Middle Eastern languages. Supports safety classification and content moderation tasks. 3,413 downloads (highest among new multilingual safety datasets in this window). CC-BY-NC-SA-4.0 licensed.",
+      "discovered_date": "2026-07-14",
+      "last_updated": "2026-06-25",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety classification content moderation 60 languages",
+      "source": "HuggingFace API (safety multilingual search)"
+    }
+  ],
+  "updated_sources": [
+    {
+      "name": "nvidia/Nemotron-CC-v2 (版本更新)",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-CC-v2",
+      "languages": ["multilingual"],
+      "size": "22,566 downloads (up from 21,788 in previous run), large-scale pretraining corpus",
+      "license": "not specified",
+      "category": "预训练语料",
+      "description": "NVIDIA's multilingual pretraining corpus v2. Last modified 2026-07-07 (unchanged from previous run). Downloads increased from 21,788 to 22,566 (+778 in 1 day). 127 likes. Still the largest NVIDIA multilingual pretraining dataset.",
+      "discovered_date": "2026-07-11",
+      "last_updated": "2026-07-07",
+      "release_version": "v2 (stable, no new update since 2026-07-07)",
+      "timeliness_score": "高",
+      "search_keywords": "NVIDIA Nemotron pretraining multilingual",
+      "source": "版本追踪 (已在基线中)",
+      "status": "无新版本更新（下载量增长 +778/天）"
+    }
+  ],
+  "notable_mentions": [
+    {
+      "name": "MathMist (EACL 2026 Findings)",
+      "url": "https://huggingface.co/datasets/mahbubhimel/MathMist",
+      "note": "21K multilingual math reasoning benchmark across 7+ languages (bn, en, fr, kk, fi, lt, tr, fa, ar, sw, ha, gu, am). Apache-2.0. EACL 2026 Findings paper. Dataset last modified 2025-11-13 — outside 20-day window but paper recently published. Consider for next full refresh.",
+      "reason": "数据集本身发布于2025-11，不在20天窗口内，但EACL 2026 Findings论文近期发表"
+    },
+    {
+      "name": "CEAID (ACL 2026 Findings)",
+      "url": "https://aclanthology.org/2026.findings-acl.1458/",
+      "note": "Benchmark of multilingual machine-generated text detection for Central European languages. ACL 2026 Findings. arXiv:2509.26051 (Sep 2025). Dataset availability unclear.",
+      "reason": "ACL 2026论文但数据集源于2025-09，且未发现公开下载链接"
+    },
+    {
+      "name": "gospelgit/African-Languages_Sentiments",
+      "url": "https://huggingface.co/datasets/gospelgit/African-Languages_Sentiments",
+      "note": "Sentiment analysis for Hausa, Yoruba, Swahili. 1,808 downloads, CC-BY-4.0, updated 2026-07-06. AutoScientist Challenge dataset. Good quality but narrow scope (3 languages, sentiment only).",
+      "reason": "CC-BY-4.0且下载量高，但仅3种语言情感分析，范围较窄"
+    },
+    {
+      "name": "jml2026/multilingual-accent-speech",
+      "url": "https://huggingface.co/datasets/jml2026/multilingual-accent-speech",
+      "note": "27 languages accent speech dataset, 1K-10K samples, CC-BY-NC-4.0. Covers English, German, Spanish + 24 more. Specialized for accent/emotion/ASR tasks.",
+      "reason": "CC-BY-NC-4.0，27语言口音语音数据，但规模小(1K-10K)"
+    }
+  ]
+}
