@@ -19,7 +19,7 @@ description: 采薇寻源报告生成流水线——每日增量发现多语言�
 
 ### Step 1: 小蜜蜂🐝 增量寻源
 
-Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`），任务指令：
+Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`，**`cwd` 设为 zong 的 workspace 根目录**），任务指令：
 
 ```
 增量寻源任务（时效优先）：
@@ -43,7 +43,7 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`），任
 
 ### Step 2: 语教授🎓 增量报告生成
 
-Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mode: "run"`），任务指令：
+Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mode: "run"`，**`cwd` 设为 zong 的 workspace 根目录**），任务指令：
 
 ```
 增量报告生成任务（时效聚焦 + 去重）：
@@ -74,7 +74,7 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 
 ### Step 4: 码工程师👨‍💻 推送报告到远程仓库 + 飞书
 
-Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`），任务指令：
+Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`，**`cwd` 设为 zong 的 workspace 根目录**），任务指令：
 
 ```
 推送增量报告到 GitHub + Gitee 远程仓库和飞书云文档：
