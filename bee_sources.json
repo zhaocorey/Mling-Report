@@ -5876,7 +5876,226 @@
       "last_updated": "2026-07-01",
       "release_version": null,
       "timeliness_score": "高"
+    },
+    {
+      "name": "WAXAL (Google)",
+      "url": "https://huggingface.co/datasets/google/WaxalNLP",
+      "paper_url": "https://arxiv.org/abs/2602.02734",
+      "languages": [
+        "ach",
+        "aka",
+        "amh",
+        "bau",
+        "dag",
+        "dga",
+        "ewe",
+        "fat",
+        "ful",
+        "hau",
+        "ibo",
+        "kik",
+        "kpo",
+        "lin",
+        "lug",
+        "luo",
+        "mas",
+        "mlg",
+        "nyn",
+        "orm",
+        "pcm",
+        "sid",
+        "sna",
+        "sog",
+        "swa",
+        "tir",
+        "twi",
+        "wal",
+        "yor"
+      ],
+      "size": "11,000+ hours of speech data for ASR and TTS, 27 Sub-Saharan African languages",
+      "license": "CC-BY-SA-4.0 / CC-BY-4.0",
+      "category": "预训练语料/低资源语言",
+      "description": "Google's large-scale open speech dataset for 27 Sub-Saharan African languages. Covers ASR and TTS tasks. Represents over 100 million speakers. Controlled by local institutions. Highest downloads (46,645) of any new African language dataset. 248 likes. Major milestone for African language AI.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-06-11",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "African language speech ASR TTS Google WAXAL",
+      "source": "DuckDuckGo search → HuggingFace",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "LEMAS (Idea Research Institute)",
+      "url": "https://zhuanlan.zhihu.com/p/1993459507427288201",
+      "languages": [
+        "multiple languages (multilingual speech)"
+      ],
+      "size": "150,000 hours multilingual speech data with word-level alignment",
+      "license": "not specified (open source release)",
+      "category": "预训练语料",
+      "description": "Idea研究院开源的大规模多语言语音数据集(15万小时), 配套LEMAS-TTS和LEMAS-Edit两大生成模型。解决了多语言语音生成领域长期存在的高质量数据匮乏问题。严格的构建流程和精细的词级对齐。",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "LEMAS 多语言语音数据集 Idea研究院",
+      "source": "DuckDuckGo 中文搜索",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "万卷·丝路2.0 (WanJuan Silk Road 2.0)",
+      "url": "https://opendatalab.com/",
+      "languages": [
+        "8 languages (multimodal)"
+      ],
+      "size": "11,500,000+ items covering image-text, audio-text, video-text, SFT instruction data",
+      "license": "not specified (OpenDataLab platform)",
+      "category": "预训练语料/微调",
+      "description": "全新升级的多语言多模态数据集，8个语种均提供图片-文本、音频-文本、视频-文本、特色指令微调SFT四大模态数据，覆盖多模态研究全链路。整体数据总量超过1150万条，音视频时长显著扩充。OpenDataLab平台发布。",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-06-25",
+      "release_version": "2.0",
+      "timeliness_score": "高",
+      "search_keywords": "万卷丝路 多语言多模态 SFT OpenDataLab",
+      "source": "DuckDuckGo 中文搜索",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "MUBENCH",
+      "url": "https://huggingface.co/datasets/sierra-research/mu-bench",
+      "paper_url": "https://aclanthology.org/2026.findings-acl.794/",
+      "languages": [
+        "61 languages"
+      ],
+      "size": "7,353 downloads, translated English benchmarks to 61 languages",
+      "license": "not specified (ACL publication)",
+      "category": "评估基准",
+      "description": "Assessment of multilingual capabilities of LLMs across 61 languages. Built by translating widely used English benchmarks. Reveals that models fall short of claimed multilingual coverage. ACL 2026 Findings. Proposes Multilingual alignment metrics.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-04-20",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "multilingual benchmark 61 languages ACL 2026",
+      "source": "DuckDuckGo + HuggingFace API",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "CAMEO8",
+      "url": "https://ieee-dataport.org/documents/cameo8-multilingual-cultural-dialogue-and-safety-evaluation-dataset",
+      "languages": [
+        "8 languages (multilingual cultural dialog)"
+      ],
+      "size": "80,000 dialogs with cultural tags, 21,000 code-switching examples, 16,000 sentiment/emotion annotations, 8,000 safety-critical cases",
+      "license": "CC-BY-4.0",
+      "category": "评估基准/微调",
+      "description": "Multilingual prompt-and-dialogue dataset for evaluating and training culturally aware conversational AI. Covers cultural dialog, code-switching, sentiment/emotion, and bias/safety. IEEE DataPort release with implementation scripts and validation tools.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "CAMEO8 cultural dialog safety multilingual IEEE",
+      "source": "SearXNG search → IEEE DataPort",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "RuSafety",
+      "url": "https://doi.org/10.29003/2075-7182-2026-24-345-358",
+      "languages": [
+        "ru"
+      ],
+      "size": "1,198 dangerous Russian prompts covering 14 safety scenarios",
+      "license": "not specified",
+      "category": "评估基准",
+      "description": "Curated Russian-language safety evaluation dataset derived from XSafety benchmark via multi-stage filtering and validation. Evaluates YandexGPT Lite/Pro, GPT-OSS-20B/120B. Reveals different alignment strategies despite similar safety rates. Uses Qwen3-235B as LLM-as-Judge.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Russian safety evaluation LLM dataset",
+      "source": "SearXNG search",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "GlobalHealthAtlas",
+      "url": "https://github.com/Jan8217/GlobalHealthAtlas",
+      "languages": [
+        "17 languages"
+      ],
+      "size": "280,210 instances spanning 15 public health domains",
+      "license": "not specified (GitHub repo)",
+      "category": "评估基准/微调",
+      "description": "Large-scale multilingual dataset for public health reasoning. LLM-assisted construction with retrieval, deduplication, evidence grounding checks, and label validation. Domain-aligned evaluator assessing Accuracy, Reasoning, Completeness, Consensus Alignment, Terminology Norms, and Insightfulness.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual public health reasoning dataset",
+      "source": "SearXNG search → GitHub",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "FBK-MT/RedVox",
+      "url": "https://huggingface.co/datasets/FBK-MT/RedVox",
+      "languages": [
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "size": "1K-10K samples, speech safety and fairness benchmark",
+      "license": "other",
+      "category": "评估基准",
+      "description": "Multilingual safety and fairness benchmark for speech and audio models. Built on real voices covering unsafe and biased content across 5 European languages. Only 8% of SOTA speech models document multilingual safety analysis.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-06-24",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "speech safety fairness multilingual benchmark",
+      "source": "HuggingFace API (RedVox search)",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "ghananlpcommunity/twi-llm-reasoning-dataset-1k",
+      "url": "https://huggingface.co/datasets/ghananlpcommunity/twi-llm-reasoning-dataset-1k",
+      "languages": [
+        "tw (Twi/Akan)"
+      ],
+      "size": "<1K samples, reasoning/QA dataset",
+      "license": "CC-BY-NC-4.0",
+      "category": "微调/评估基准",
+      "description": "Twi language (Ghana) LLM reasoning dataset. One of very few reasoning benchmarks for Twi/Akan, an important West African language spoken by 11M+ people. Community-driven by GhanaNLP.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-06-26",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Twi Akan reasoning low-resource African language",
+      "source": "HuggingFace API (reasoning dataset search)",
+      "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "Nemotron-Personas Regional Variants (India + Korea)",
+      "url": "https://huggingface.co/datasets/kshitijthakkar/Nemotron-Personas-India",
+      "languages": [
+        "en",
+        "hi (India)",
+        "ko (Korea)"
+      ],
+      "size": "1M-10M samples each, image+text modalities",
+      "license": "CC-BY-4.0",
+      "category": "微调",
+      "description": "Regional persona variants of NVIDIA's Nemotron-Personas dataset. India variant covers English+Hindi with Indian cultural personas. Korea variant covers Korean personas. Both 1M-10M scale with image+text modalities. Community-created derivatives.",
+      "discovered_date": "2026-07-13",
+      "last_updated": "2026-07-11",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron Personas India Korea multilingual",
+      "source": "HuggingFace API (Nemotron search)",
+      "merged_from": "incremental_merge_2026-07-14"
     }
   ],
-  "total_datasets": 276
+  "total_datasets": 276,
+  "last_merge": "2026-07-14",
+  "total_sources": 306,
+  "last_update_note": "Merged 7/13 incremental: 10 new, 13 dupes skipped. Baseline: 306 datasets."
 }
