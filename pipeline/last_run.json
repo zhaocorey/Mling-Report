@@ -17,13 +17,16 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
+    "zong_merge",
+    "coder_push_github",
+    "coder_push_gitee"
   ],
   "pending_stages": [
-    "coder_push_github",
-    "coder_push_gitee",
     "coder_push_feishu"
   ],
-  "notes": "Manual pipeline run 2026-07-15 (gateway timeout degraded mode - zong executed directly). 3 new + 2 supplementary. Baseline 307→312. CUTE was previously mentioned in 2026-06-18 report but not as full entry, now added as supplementary.",
+  "notes": "Manual pipeline run 2026-07-15 (gateway timeout degraded mode - zong executed directly). 3 new + 2 supplementary. Baseline 307→312.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-15.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-15.md",
+  "feishu_status": "skipped - OAuth authorization still needed for doc creation",
   "execution_mode": "degraded - direct execution by zong (sub-agent spawn timeout)"
 }
