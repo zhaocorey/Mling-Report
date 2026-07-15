@@ -1,13 +1,29 @@
 {
-  "last_run": "2026-07-11T09:23:00+08:00",
+  "last_run": "2026-07-15T09:00:00+08:00",
   "status": "completed",
   "incremental_papers": 0,
   "incremental_tools": 0,
-  "incremental_blogs": 1,
+  "incremental_blogs": 0,
+  "recovered_papers": 6,
+  "net_new_vs_previous_incremental": 6,
   "output_file": "bee_dataset_filtering_incremental.json",
   "merged_to_baseline": true,
-  "incremental_file_deleted": true,
-  "github_push": "success",
-  "discovery_channels": ["arXiv API (7 queries)", "GitHub API (1 query)", "HuggingFace Blog", "DuckDuckGo (blocked)"],
-  "notes": "24h window (July 10-11) yielded zero new papers and zero new tools. 1 blog post (Data for Agents, NVIDIA/HF, July 8) merged to baseline. Report pushed to GitHub (commit 29b21c7). Natural lull in submissions."
+  "github_push": "completed",
+  "discovery_channels": [
+    "arXiv API (6 queries: broad + title-specific)",
+    "HuggingFace Blog (checked, 0 new relevant posts)",
+    "GitHub API (rate limited)"
+  ],
+  "channels_not_available": [
+    "DuckDuckGo (bot detection blocked)",
+    "SearXNG (not available in isolated session)"
+  ],
+  "notes": "Jul 14-15 was a quiet period (mid-summer lull, post-ICML/ACL). 0 strictly new papers in the 1-day window. 6 papers from Jun 13-Jul 8 recovered via title-specific arXiv API queries that were missed by previous broad-query searches. Key recovered papers: HERMES (hierarchical data mixing labels), Brevity VLM curation (concision as efficiency lever), Spokes (diverse pretraining selection). These represent significant additions to the mixing and curation categories.",
+  "github_commit": "1ffbc12",
+  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-15.md",
+  "baseline_totals": {
+    "papers": 131,
+    "tools_and_repos": 14,
+    "blog_posts_and_tutorials": 8
+  }
 }
