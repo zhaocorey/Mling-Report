@@ -1,30 +1,29 @@
 {
-  "last_run_date": "2026-07-14",
+  "last_run_date": "2026-07-15",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-24",
-  "window_end": "2026-07-14",
-  "baseline_sources_count": 307,
-  "new_datasets_found": 4,
-  "new_datasets_merged": 1,
-  "new_datasets_deduped": 3,
-  "version_updates_found": 1,
+  "window_start": "2026-06-25",
+  "window_end": "2026-07-15",
+  "baseline_sources_count": 312,
+  "new_datasets_found": 3,
+  "new_datasets_merged": 3,
+  "supplementary_found": 2,
+  "new_datasets_deduped": 0,
+  "version_updates_found": 0,
   "version_updates_merged": 0,
   "academic_papers_found": 0,
-  "report_file": "sources_reports/2026-07-14.md",
-  "previous_run": "2026-07-12",
+  "report_file": "sources_reports/2026-07-15.md",
+  "previous_run": "2026-07-14",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge",
-    "coder_push_github",
-    "coder_push_gitee"
+    "zong_merge"
   ],
   "pending_stages": [
+    "coder_push_github",
+    "coder_push_gitee",
     "coder_push_feishu"
   ],
-  "notes": "Manual pipeline run 2026-07-14. Dedup rate 75% (3/4 already in baseline). Baseline 306->307.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-14.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-14.md",
-  "feishu_status": "failed - need user OAuth authorization for doc creation"
+  "notes": "Manual pipeline run 2026-07-15 (gateway timeout degraded mode - zong executed directly). 3 new + 2 supplementary. Baseline 307→312. CUTE was previously mentioned in 2026-06-18 report but not as full entry, now added as supplementary.",
+  "execution_mode": "degraded - direct execution by zong (sub-agent spawn timeout)"
 }

@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-12",
-  "search_summary": "增量更新 2026-06-22 至 2026-07-12，新增 9 个，基线达 296 个",
+  "search_date": "2026-07-15",
+  "search_summary": "增量更新 2026-06-25 至 2026-07-15，新增 5 个，基线达 312 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -6111,6 +6111,97 @@
       "search_keywords": "African language speech ASR TTS All Lab",
       "source": "HuggingFace API (African language search)",
       "merged_from": "incremental_merge_2026-07-14"
+    },
+    {
+      "name": "WMT26 General MT Test Data",
+      "url": "https://www2.statmt.org/wmt26/translation-task.html",
+      "languages": [
+        "multiple",
+        "low-resource focus",
+        "Indic",
+        "Arabic-Asian",
+        "Chinese-SEA",
+        "Creole"
+      ],
+      "size": "Test suites for WMT26 shared tasks (exact size TBD at conference)",
+      "license": "Research use",
+      "category": "评估",
+      "description": "WMT26 (Conference on Machine Translation 2026) released test data on June 19, 2026 for the General MT task. New shared tasks include Indic MT, Arabic-Asian MT, Chinese-Southeast Asian MT, Creole MT, Video Subtitle Translation, Multilingual Instruction (MIST), and Open Language Data. Submissions due July 2, results at WMT26 conference.",
+      "discovered_date": "2026-07-15",
+      "last_updated": "2026-06-19",
+      "release_version": "WMT26",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Translation Tangles",
+      "url": "https://aclanthology.org/2026.findings-acl.68/",
+      "languages": [
+        "24 bidirectional language pairs"
+      ],
+      "size": "Multi-domain evaluation dataset (exact size in paper)",
+      "license": "Research (ACL 2026)",
+      "category": "评估",
+      "description": "A unified framework and dataset for evaluating translation quality and fairness of open-source LLMs. Benchmarks 24 bidirectional language pairs across multiple domains using different metrics. Published in ACL 2026 Findings.",
+      "discovered_date": "2026-07-15",
+      "last_updated": "2026-07-01",
+      "release_version": "ACL 2026",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "LangMark",
+      "url": "https://arxiv.org/abs/2511.17153",
+      "languages": [
+        "en→pt-BR",
+        "en→fr",
+        "en→de",
+        "en→it",
+        "en→ja",
+        "en→ru",
+        "en→es"
+      ],
+      "size": "206,983 triplets (source, MT output, human post-edit)",
+      "license": "Public (Welocalize + Duke University)",
+      "category": "评估/微调",
+      "description": "Human-annotated multilingual dataset for Automatic Post-Editing (APE). Contains 206K triplets of English source, machine translation, and human post-edit across 7 language pairs. Published at ACL 2025, dataset released for research.",
+      "discovered_date": "2026-07-15",
+      "last_updated": "2025-11-01",
+      "release_version": "ACL 2025",
+      "timeliness_score": "中"
+    },
+    {
+      "name": "CUTE",
+      "url": "https://github.com/CMLI-NLP/CUTE",
+      "languages": [
+        "zh",
+        "ug",
+        "bo",
+        "en"
+      ],
+      "size": "Largest open-source Uyghur/Tibetan parallel corpus",
+      "license": "COLING 2025",
+      "category": "预训练/微调",
+      "description": "Chinese-Uyghur-Tibetan-English multilingual dataset for cross-lingual knowledge transfer. Largest open-source corpus for Uyghur and Tibetan. COLING 2025.",
+      "discovered_date": "2026-07-15",
+      "last_updated": "2025-01-15",
+      "release_version": "COLING 2025",
+      "timeliness_score": "中"
+    },
+    {
+      "name": "BeitTigreAI/tigre-data-parallel-multilingual",
+      "url": "https://huggingface.co/datasets/BeitTigreAI/tigre-data-parallel-multilingual",
+      "languages": [
+        "tig",
+        "en",
+        "am"
+      ],
+      "size": "330k rows",
+      "license": "Open",
+      "category": "预训练",
+      "description": "Parallel multilingual dataset including Tigrinya (ትግርኛ), a low-resource Ethiopian/Eritrean language. 330K rows. Updated Nov 2025.",
+      "discovered_date": "2026-07-15",
+      "last_updated": "2025-11-19",
+      "release_version": "N/A",
+      "timeliness_score": "中"
     }
   ],
   "total_datasets": 276,
