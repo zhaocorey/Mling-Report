@@ -6202,10 +6202,65 @@
       "last_updated": "2025-11-19",
       "release_version": "N/A",
       "timeliness_score": "中"
+    },
+    {
+      "name": "ScaleAI/MultiNRC",
+      "url": "https://huggingface.co/datasets/ScaleAI/MultiNRC",
+      "languages": [
+        "fr",
+        "es",
+        "zh"
+      ],
+      "description": "Multilingual Native Reasoning Challenge benchmark designed to assess LLM reasoning ability in French, Spanish, and Chinese. Unlike translated benchmarks, consists of native-authored reasoning questions crafted by native speakers capturing linguistic reasoning, wordplay & riddles, cultural/tradition reasoning, and math reasoning with cultural relevance. Provides English equivalent translations for direct comparison. Evaluation of 14 leading LLMs shows none scoring above 50%, most perform substantially better in math reasoning in English (+10%). Scale AI Labs active leaderboard. 93 downloads on HF.",
+      "source": "DuckDuckGo web_search (multilingual reasoning benchmark dataset 2026)",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2025-07-23",
+      "timeliness_score": "中",
+      "tags": []
+    },
+    {
+      "name": "MultiZebraLogic",
+      "url": "https://arxiv.org/abs/2511.03553",
+      "languages": [
+        "9 languages (manually verified by fluent speakers)"
+      ],
+      "description": "Multilingual logical reasoning benchmark consisting of zebra puzzles in 9 languages, manually checked by fluent speakers. Analyzes different ways of tuning puzzle difficulty to fit modern LLMs. Generate zebra puzzles in multiple languages, themes, and clue types. LREC 2026 Resourceful Workshop paper. Puzzle generation code adaptable to more languages and themes. 91 downloads on HF papers page.",
+      "source": "DuckDuckGo web_search (multilingual reasoning benchmark dataset 2026)",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2025-11-05",
+      "timeliness_score": "中",
+      "tags": []
+    },
+    {
+      "name": "Sakonii/Attack-Multilingual-Refusal",
+      "url": "https://huggingface.co/datasets/Sakonii/Attack-Multilingual-Refusal",
+      "languages": [
+        "ar",
+        "+ multiple languages (multilingual jailbreak attack patterns)"
+      ],
+      "description": "Multilingual jailbreak attack and refusal dataset covering multiple languages (including Arabic and others). Contains various attack types: baseline, DAN (persona), developer mode, Wikipedia-style, roleplay reframe, prefix injection, Base64 encoding, ROT13 encoding, and more. Categorizes attacks by type (mono/cross-lingual), severity (high), and attack method. Useful for evaluating and improving LLM safety refusal capabilities across languages. Updated 2026-07-14.",
+      "source": "HuggingFace Datasets API (multilingual search sorted by lastModified)",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2026-07-14",
+      "timeliness_score": "高",
+      "tags": []
+    },
+    {
+      "name": "MRL 2026 Shared Task (Global PIQA successor)",
+      "url": "https://mrlbenchmarks.github.io/",
+      "languages": [
+        "100+ language varieties (target)"
+      ],
+      "description": "MRL 2026 Shared Task: community-led benchmark for culturally specific commonsense reasoning across 100+ language varieties. Successor to Global PIQA v0.1 (Oct 2025, 350+ contributors). Contributors create text QA pairs for language- and culture-specific knowledge, then record audio. Especially encourages low-resource and non-standard language varieties. Based on ECLeKTic dataset format. Call for participation opened June 8, 2026. Information session July 10. Submission deadline August 1, 2026. All accepted authors included on benchmark paper.",
+      "source": "DuckDuckGo web_search (multilingual reasoning benchmark dataset 2026)",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2026-07-10",
+      "timeliness_score": "高",
+      "tags": []
     }
   ],
-  "total_datasets": 276,
-  "last_merge": "2026-07-14",
+  "total_datasets": 316,
+  "last_merge": "2026-07-16T20:23:50.082624",
   "total_sources": 307,
-  "last_update_note": "Merged 7/14 incremental: 1 new. Baseline: 307 datasets."
+  "last_update_note": "2026-07-16 manual merge: +4 new datasets from bee round 2 incremental"
 }

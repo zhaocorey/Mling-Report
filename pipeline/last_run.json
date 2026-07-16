@@ -1,19 +1,19 @@
 {
-  "last_run_date": "2026-07-15",
+  "last_run_date": "2026-07-16",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-25",
-  "window_end": "2026-07-15",
-  "baseline_sources_count": 312,
-  "new_datasets_found": 3,
-  "new_datasets_merged": 3,
-  "supplementary_found": 2,
-  "new_datasets_deduped": 0,
-  "version_updates_found": 0,
+  "window_start": "2026-06-26",
+  "window_end": "2026-07-16",
+  "baseline_sources_count": 316,
+  "new_datasets_found": 6,
+  "new_datasets_merged": 4,
+  "supplementary_found": 0,
+  "new_datasets_deduped": 2,
+  "version_updates_found": 3,
   "version_updates_merged": 0,
   "academic_papers_found": 0,
-  "report_file": "sources_reports/2026-07-15.md",
-  "previous_run": "2026-07-14",
+  "report_file": "sources_reports/2026-07-16.md",
+  "previous_run": "2026-07-15",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
@@ -21,12 +21,9 @@
     "coder_push_github",
     "coder_push_gitee"
   ],
-  "pending_stages": [
-    "coder_push_feishu"
-  ],
-  "notes": "Manual pipeline run 2026-07-15 (gateway timeout degraded mode - zong executed directly). 3 new + 2 supplementary. Baseline 307→312.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-15.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-15.md",
-  "feishu_status": "skipped - OAuth authorization still needed for doc creation",
-  "execution_mode": "degraded - direct execution by zong (sub-agent spawn timeout)"
+  "pending_stages": [],
+  "notes": "Manual pipeline run 2026-07-16 (补跑). Bee round 2 found 6 new; 4 merged (MathMist/Macaron already in baseline). 2 deduped. Baseline 312→316. Report generated via professor-yu.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-16.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-16.md",
+  "execution_mode": "manual - zong direct orchestration"
 }
