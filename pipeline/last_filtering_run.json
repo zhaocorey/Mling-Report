@@ -1,29 +1,30 @@
 {
-  "last_run": "2026-07-15T09:00:00+08:00",
+  "last_run": "2026-07-16T09:00:00+08:00",
   "status": "completed",
-  "incremental_papers": 0,
-  "incremental_tools": 0,
+  "incremental_papers": 20,
+  "incremental_tools": 7,
   "incremental_blogs": 0,
-  "recovered_papers": 6,
-  "net_new_vs_previous_incremental": 6,
+  "recovered_papers": 0,
+  "net_new_vs_previous_incremental": 20,
   "output_file": "bee_dataset_filtering_incremental.json",
   "merged_to_baseline": true,
   "github_push": "completed",
   "discovery_channels": [
-    "arXiv API (6 queries: broad + title-specific)",
-    "HuggingFace Blog (checked, 0 new relevant posts)",
-    "GitHub API (rate limited)"
+    "arXiv API (12 title-specific queries, broad AND semantics)",
+    "GitHub API (3 queries: created/pushed date filtered)",
+    "DuckDuckGo (blocked by bot detection)"
   ],
   "channels_not_available": [
     "DuckDuckGo (bot detection blocked)",
-    "SearXNG (not available in isolated session)"
+    "SearXNG (not available in isolated session)",
+    "HuggingFace Daily Papers API (returned errors)"
   ],
-  "notes": "Jul 14-15 was a quiet period (mid-summer lull, post-ICML/ACL). 0 strictly new papers in the 1-day window. 6 papers from Jun 13-Jul 8 recovered via title-specific arXiv API queries that were missed by previous broad-query searches. Key recovered papers: HERMES (hierarchical data mixing labels), Brevity VLM curation (concision as efficiency lever), Spokes (diverse pretraining selection). These represent significant additions to the mixing and curation categories.",
-  "github_commit": "1ffbc12",
-  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-15.md",
+  "notes": "",
+  "github_commit": "6ca7a09",
+  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-16.md",
   "baseline_totals": {
-    "papers": 131,
-    "tools_and_repos": 14,
+    "papers": 151,
+    "tools_and_repos": 21,
     "blog_posts_and_tutorials": 8
   }
 }

@@ -2063,6 +2063,368 @@
       ],
       "relevance_score": "medium",
       "note": "Recovered - missed in Jun 17-Jul 10 runs, provides new lens for data quality assessment"
+    },
+    {
+      "title": "When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training",
+      "url": "https://arxiv.org/abs/2607.13541",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-07-15",
+      "abstract": "Reveals that Real-Synthetic Mix-Training (RSMT) with T2I-generated data can substantially amplify privacy leakage of real training samples. Proposes RSMT Memorization Amplification theory proving synthetic data displaces real samples toward peripheral feature space regions, forcing more aggressive memorization. Introduces RSMixLeak membership inference attack framework and a lightweight leakage propensity indicator.",
+      "methods": [
+        "real-synthetic mix-training privacy analysis",
+        "memorization amplification theory",
+        "membership inference attacks",
+        "leakage propensity indicator"
+      ],
+      "source_channel": "arXiv API",
+      "category": "mixing_privacy",
+      "relevance": "medium",
+      "incremental_status": "new_in_window"
+    },
+    {
+      "title": "Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks",
+      "url": "https://arxiv.org/abs/2607.09739",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-07-02",
+      "abstract": "Studies LLM benchmark coreset selection: selecting a small subset of prompts whose model scores and rankings approximate the full benchmark suite. Uses submodular subset selection (DPP, submodular mutual information, facility location) operating on semantic prompt embeddings without model evaluation outcomes. On 35 heterogeneous benchmarks with 18 frontier LLMs and 61K+ prompts, facility location function preserves scores better than 12 baselines.",
+      "methods": [
+        "submodular subset selection",
+        "facility location function",
+        "determinantal point processes",
+        "benchmark compression"
+      ],
+      "source_channel": "arXiv API",
+      "category": "benchmark_coreset",
+      "relevance": "medium",
+      "incremental_status": "new_in_window"
+    },
+    {
+      "title": "Holistic Data Scheduler (HDS): Online Data Mixing via Multi-Objective Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.24133",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-06-23",
+      "abstract": "Formulates online data mixing as a reinforcement learning problem in continuous control space using Soft Actor-Critic (SAC). Introduces multi-objective holistic reward integrating data-driven quality, loss-driven inter-domain influence, and model-driven weight norm rewards. Reaches final validation perplexity of next-best method with 44% fewer training iterations on The Pile. 7.2% MMLU improvement.",
+      "methods": [
+        "RL-based online data mixing",
+        "Soft Actor-Critic for data scheduling",
+        "multi-objective holistic reward",
+        "continuous control space optimization"
+      ],
+      "source_channel": "arXiv API",
+      "category": "online_data_mixing",
+      "relevance": "high",
+      "incremental_status": "recovered_miss",
+      "recovery_note": "Published June 23, missed by all prior searches. High-value online mixing approach."
+    },
+    {
+      "title": "Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning (ADS)",
+      "url": "https://arxiv.org/abs/2606.22305",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-06-21",
+      "abstract": "Proposes Adaptive Data Scheduling (ADS), a dual-level framework replacing uniform sampling with adaptive distribution over semantic clusters and policy-boundary sample selection for RL post-training. Cluster level maintains adaptive inter-cluster distribution; sample level selects policy-boundary samples for informative advantages. Improves GRPO average accuracy by 5.2% across 3 LLMs and 7 reasoning benchmarks. Code: github.com/Richard-zrx/ADS.",
+      "methods": [
+        "dual-level adaptive data scheduling",
+        "semantic cluster-based pacing",
+        "policy-boundary sample selection",
+        "RL post-training optimization"
+      ],
+      "source_channel": "arXiv API",
+      "category": "adaptive_data_scheduling",
+      "relevance": "high",
+      "incremental_status": "recovered_miss",
+      "recovery_note": "Published June 21. Critical paper for RL post-training data scheduling."
+    },
+    {
+      "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+      "url": "https://arxiv.org/abs/2606.24828",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-06-23",
+      "abstract": "Constructs one of the largest biomedical long-document summarization datasets (1.88M PMC articles). Shows author-written abstracts vary in alignment with source articles, and quality signals can guide training data selection. High-quality subsets outperform random sampling at matched sizes and match/exceed larger random subsets on factuality metrics.",
+      "methods": [
+        "reference quality assessment",
+        "quality-aware data selection",
+        "source-grounded metrics",
+        "model-based quality scoring"
+      ],
+      "source_channel": "arXiv API",
+      "category": "quality_aware_selection",
+      "relevance": "medium",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LLMs Beyond the Base Model",
+      "url": "https://arxiv.org/abs/2606.22317",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-06-21",
+      "abstract": "Challenges the view that RLVR only reallocates sampling among existing trajectories. Proposes boundary-aware Curriculum RL: locates reasoning capacity boundary via pass@k, applies teacher guidance to boundary examples, then RL to consolidate new patterns. Improves pass@256 by 9.8pp over base models and 10.3pp over Vanilla RLVR across Qwen, Llama, DeepSeek.",
+      "methods": [
+        "boundary-aware curriculum RL",
+        "pass@k capacity boundary detection",
+        "teacher-guided boundary examples",
+        "reasoning capacity expansion"
+      ],
+      "source_channel": "arXiv API",
+      "category": "curriculum_rl_reasoning",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)",
+      "url": "https://arxiv.org/abs/2605.22389",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-21",
+      "abstract": "Proposes High-Entropy Sum (HES), a training-free metric summing only top 0.5% highest-entropy tokens per reasoning sample. Validated across SFT, RFT, and RL paradigms. In SFT, top 20% HES-ranked data matches full-dataset performance. In RL, HES-selected trajectories significantly surpass other methods. Establishes HES as a robust unified metric for reasoning data selection.",
+      "methods": [
+        "High-Entropy Sum (HES)",
+        "training-free reasoning quality metric",
+        "unified SFT/RFT/RL selection",
+        "token-level entropy analysis"
+      ],
+      "source_channel": "arXiv API",
+      "category": "reasoning_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "GRACE: Gradient-aligned Reasoning Data Curation for Efficient Post-training",
+      "url": "https://arxiv.org/abs/2605.13130",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-13",
+      "abstract": "Views each reasoning trace as a sequence of optimization events, scoring every step by alignment with answer-oriented gradient direction and consistency with preceding trajectory. Introduces representation-level gradient proxy for step-level alignment in single forward pass. GRACE reaches 108.8% of full-data performance with 20% data and retains 100.2% with only 5%.",
+      "methods": [
+        "gradient-aligned step scoring",
+        "representation-level gradient proxy",
+        "step-level curation",
+        "cross-backbone transfer"
+      ],
+      "source_channel": "arXiv API",
+      "category": "reasoning_data_curation",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection",
+      "url": "https://arxiv.org/abs/2605.28631",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-27",
+      "abstract": "Studies RLVR data selection before any RL training, without labels or reward evaluation on the full pool. Proposes SHIFT: one-shot training-free selector based on inference-time hidden-state dynamics. Computes Reasoning-Induced Representation Shift (RIRS) as start-to-end hidden-state delta. Uses quality-weighted farthest-first CoreSet in RIRS-augmented space. Code: github.com/JianghaoWu/SHIFT.",
+      "methods": [
+        "reasoning-induced representation shift",
+        "training-free RLVR selection",
+        "quality-weighted CoreSet",
+        "hidden-state dynamics"
+      ],
+      "source_channel": "arXiv API",
+      "category": "rlvr_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage",
+      "url": "https://arxiv.org/abs/2605.28247",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-27",
+      "abstract": "Selects RLVR training instances on SAE cluster basis for auditable selection. Introduces verifier-coupled coverage objective on SAE basis, solved by greedy log-determinant maximization. Achieves highest overall accuracy: +3.9/+4.0pp on Qwen models and +0.5pp on Llama-3.1-8B vs strongest baseline, at 10× lower cost than trajectory-based methods.",
+      "methods": [
+        "SAE-based interpretable selection",
+        "verifier-coupled coverage",
+        "greedy log-determinant maximization",
+        "auditable RLVR data selection"
+      ],
+      "source_channel": "arXiv API",
+      "category": "rlvr_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "D³: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training",
+      "url": "https://arxiv.org/abs/2605.31164",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-29",
+      "abstract": "Formulates data sample interactions as a dynamic influence graph where edges represent loss-based dependencies. Solves constrained optimization over the graph to derive training order respecting evolving information flow. Theoretically motivated with efficient approximation algorithm. Code: github.com/xuyj233/D3.",
+      "methods": [
+        "dynamic influence graph",
+        "graph-constrained data scheduling",
+        "loss-based dependency modeling",
+        "training order optimization"
+      ],
+      "source_channel": "arXiv API",
+      "category": "data_scheduling",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning",
+      "url": "https://arxiv.org/abs/2605.23969",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-13",
+      "abstract": "Batch-aware data selection framework evaluating learnability of entire batch compositions. Ensures distribution coverage via stratified sampling while maximizing intra-batch diversity through relative distance optimization. Uses Hessian-approximated gradient information. Outperforms SOTA across LLaMA and ChatGLM with 20-40% less data.",
+      "methods": [
+        "batch-aware selection",
+        "stratified sampling",
+        "Hessian-approximated gradients",
+        "intra-batch diversity optimization"
+      ],
+      "source_channel": "arXiv API",
+      "category": "instruction_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Learning-Zone Energy (LZE): Online Data Selection for Efficient RL Post-Training",
+      "url": "https://arxiv.org/abs/2605.17003",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-16",
+      "abstract": "Defines closed-form Learning-Zone Energy Score fusing initial-difficulty anchor, normalized outcome-uncertainty, and pass-rate momentum into single scalar provably aligned with expected group-relative policy gradient magnitude. Forward pruner with replay skips rollouts for solved prompts. Retains 40% data per step, matches/surpasses full-data baselines. +45.9% AIME25, +18.2% AMC23, 36% FLOPs reduction. Code: github.com/Stellaris167/LZE.",
+      "methods": [
+        "learning-zone energy score",
+        "online RL data selection",
+        "forward pruner with replay",
+        "compute-efficient RL post-training"
+      ],
+      "source_channel": "arXiv API",
+      "category": "rl_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Beyond What to Select: Plug-and-play Oscillatory Data-Volume Scheduling (PODS)",
+      "url": "https://arxiv.org/abs/2605.14773",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-14",
+      "abstract": "Revisits data selection from optimization perspective, showing selected-data training induces implicit regularization modulated by selection ratio. Proposes PODS: dynamically schedules how much data to select (not which samples), alternating between low-ratio regularization and high-ratio recovery phases. Reduces ImageNet-1k training cost by 50% with improved accuracy; accelerates LLM instruction tuning by 2× without degradation.",
+      "methods": [
+        "oscillatory data-volume scheduling",
+        "selection-induced regularization",
+        "ratio-level scheduling",
+        "plug-and-play framework"
+      ],
+      "source_channel": "arXiv API",
+      "category": "data_volume_scheduling",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Data Attribution in Large Language Models via Bidirectional Gradient Optimization",
+      "url": "https://arxiv.org/abs/2606.04928",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-06-03",
+      "abstract": "Expands inverse formulation of training data attribution: how would training data be affected if model had seen generated output during training? Perturbs base model via bidirectional gradient optimization (ascent and descent) on generated text, measures loss change across training samples. Supports arbitrary data granularity for factual and stylistic attribution.",
+      "methods": [
+        "bidirectional gradient optimization",
+        "training data attribution",
+        "arbitrary granularity attribution",
+        "factual and stylistic analysis"
+      ],
+      "source_channel": "arXiv API",
+      "category": "data_attribution",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "On the Difficulty of Learning a Meta-network for Training Data Selection (MTS Analysis)",
+      "url": "https://arxiv.org/abs/2606.00571",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-30",
+      "abstract": "Identifies two obstacles in Meta-learning for Training-data Selection (MTS): poor gradient signal-to-noise ratio (GSNR) causing optimization difficulties, and lack of informative features correlating with data quality. Mathematical analysis reveals normalized data weight dynamics and relation between disparate data quality and poor GSNR. Proposes increasing batch size as solution. Proposes informative features capturing distribution positions and training dynamics. Average 5.49% improvement.",
+      "methods": [
+        "meta-network training analysis",
+        "gradient SNR analysis",
+        "informative feature design",
+        "batch size scaling for MTS"
+      ],
+      "source_channel": "arXiv API",
+      "category": "meta_learning_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry",
+      "url": "https://arxiv.org/abs/2602.18584",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-02-20",
+      "abstract": "Shows axis-aligned optimizer statistics break down in PEFT methods like LoRA where optimization geometry exhibits strong cross-parameter coupling. Proposes GIST (Gradient Isometric Subspace Transformation): recovers task-specific subspace from validation gradients via SVD, projects training gradients into coupled subspace, scores by alignment with target directions. Matches SOTA with 0.29% storage and 25% compute.",
+      "methods": [
+        "gradient isometric subspace transformation",
+        "LoRA-aware data selection",
+        "SVD-based subspace recovery",
+        "coupled optimization geometry"
+      ],
+      "source_channel": "arXiv API",
+      "category": "peft_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation",
+      "url": "https://arxiv.org/abs/2511.21056",
+      "authors": "Unknown (see arXiv)",
+      "year": 2025,
+      "published": "2025-11-26",
+      "abstract": "Develops unified bilevel framework combining offline data selection with online self-refining generation. Bilevel data selection (BDS) theoretically shown to outperform direct data mixing in useful data coverage. Provides global convergence analysis for gradient-based BDS for one-layer Transformer. Introduces bilevel multi-objective optimization (BMO) for response-level weighting with closed-form importance-ratio weight.",
+      "methods": [
+        "bilevel data selection",
+        "online self-refining generation",
+        "multi-objective optimization",
+        "closed-form importance-ratio weighting"
+      ],
+      "source_channel": "arXiv API",
+      "category": "bilevel_curation",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective (wICI)",
+      "url": "https://arxiv.org/abs/2604.25132",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-04-28",
+      "abstract": "Proposes weighted in-context influence (wICI) framework measuring how effectively each candidate reduces instruction-following difficulty for semantically related peers. Addresses what constitutes effective IT data from in-context perspective, whether sample difficulty correlates with in-context influence, and how in-context influence translates to IT effectiveness. Outperforms baselines under constrained budgets.",
+      "methods": [
+        "weighted in-context influence",
+        "instruction-following difficulty reduction",
+        "sample difficulty correlation analysis",
+        "in-context data selection"
+      ],
+      "source_channel": "arXiv API",
+      "category": "instruction_data_selection",
+      "relevance": "high",
+      "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Scaling Multi-Hop Training Data via Graph-Constrained Path Selection",
+      "url": "https://arxiv.org/abs/2605.31238",
+      "authors": "Unknown (see arXiv)",
+      "year": 2026,
+      "published": "2026-05-29",
+      "abstract": "Decouples multi-hop data construction: reasoning paths enumerated offline over graph of contextual keyword centroids, teacher invoked only to verbalize pre-validated paths. Graph enforces five geometric admissibility constraints. At equal training scale, constrained/unconstrained chains yield indistinguishable performance; gain at full scale comes from 4.4× expansion of usable corpus. Fine-tuning Qwen3-32B on 80K legal contract examples improves Token F1 from 21.66% to 38.58%. Code: github.com/hkgai-official/GCSCS.",
+      "methods": [
+        "graph-constrained path selection",
+        "offline reasoning path enumeration",
+        "geometric admissibility constraints",
+        "multi-hop data scaling"
+      ],
+      "source_channel": "arXiv API",
+      "category": "multi_hop_data_construction",
+      "relevance": "medium",
+      "incremental_status": "recovered_miss"
     }
   ],
   "tools_and_repos": [
@@ -2194,6 +2556,65 @@
       "stars": 23,
       "created": "2026-06-16",
       "note": "Paper (CuratorKIT) already in baseline. GitHub repo discovered in this run. 23 stars, actively maintained (last update July 8)."
+    },
+    {
+      "name": "BLISS-Bilevel-Data-Selection",
+      "url": "https://github.com/MingruiLiu-ML-Lab/BLISS-Bilevel-Data-Selection",
+      "stars": 1,
+      "description": "ICML 2026 accepted paper: BLISS - A Lightweight Bilevel Influence Scoring Method for Data Selection in Language Model Pretraining. Code implementation for scalable bilevel influence scoring.",
+      "comparison": "New ICML 2026 code release. Complements existing influence-based methods (TracIn, IF-GUIDE) with bilevel optimization perspective.",
+      "created": "2026-05-28",
+      "updated": "2026-07-12",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "ADS (Adaptive Data Scheduling)",
+      "url": "https://github.com/Richard-zrx/ADS",
+      "stars": 0,
+      "description": "Code for 'Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning'. Dual-level data scheduling for RL post-training with semantic cluster-based pacing.",
+      "comparison": "New repo for RL post-training data scheduling. Complements LZE and GRPO-based approaches.",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "SHIFT (Training-Free RLVR Data Selection)",
+      "url": "https://github.com/JianghaoWu/SHIFT",
+      "stars": 0,
+      "description": "Code for SHIFT: one-shot training-free RLVR data selector based on inference-time hidden-state dynamics. Reasoning-Induced Representation Shift (RIRS) with quality-weighted CoreSet.",
+      "comparison": "Novel training-free approach for RLVR data selection. Complements training-based methods like LZE and IRDS.",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "D3 (Dynamic Directional Data Scheduling)",
+      "url": "https://github.com/xuyj233/D3",
+      "stars": 0,
+      "description": "Code for D³: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training. Formulates data interactions as dynamic influence graph.",
+      "comparison": "Graph-based scheduling approach distinct from linear curriculum methods. Complements HDS and PODS.",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "LZE (Learning-Zone Energy)",
+      "url": "https://github.com/Stellaris167/LZE",
+      "stars": 0,
+      "description": "Code for Learning-Zone Energy: online data selection for RL post-training. Closed-form energy score with forward pruner and replay.",
+      "comparison": "Online RL data selection with theoretical grounding. 36% FLOPs reduction with matched/exceeded performance.",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "GCSCS (Graph-Constrained Multi-Hop Data)",
+      "url": "https://github.com/hkgai-official/GCSCS",
+      "stars": 0,
+      "description": "Code for scaling multi-hop training data via graph-constrained path selection. 4.4× corpus expansion through geometric constraints.",
+      "comparison": "Novel graph-based approach for multi-hop data construction at scale.",
+      "incremental_status": "new_repo"
+    },
+    {
+      "name": "Smart-data-selection-for-language-modeling",
+      "url": "https://github.com/manemusayelyan/Smart-data-selection-for-language-modeling",
+      "stars": 1,
+      "description": "Training TinyLlama-1.1B with hierarchical clustering-based filtering inspired by Rho-1. Uses token representations from reference model for data selection.",
+      "comparison": "Small research repo exploring clustering-based filtering. Updated July 9.",
+      "updated": "2026-07-09",
+      "incremental_status": "new_repo"
     }
   ],
   "blog_posts_and_tutorials": [
