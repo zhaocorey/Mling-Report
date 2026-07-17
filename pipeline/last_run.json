@@ -1,29 +1,26 @@
 {
-  "last_run_date": "2026-07-16",
+  "last_run_date": "2026-07-18",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-26",
-  "window_end": "2026-07-16",
-  "baseline_sources_count": 316,
-  "new_datasets_found": 6,
-  "new_datasets_merged": 4,
-  "supplementary_found": 0,
-  "new_datasets_deduped": 2,
-  "version_updates_found": 3,
-  "version_updates_merged": 0,
-  "academic_papers_found": 0,
-  "report_file": "sources_reports/2026-07-16.md",
-  "previous_run": "2026-07-15",
+  "window_start": "2026-06-28",
+  "window_end": "2026-07-18",
+  "baseline_sources_count": 327,
+  "new_datasets_found": 7,
+  "new_datasets_merged": 7,
+  "version_updates_found": 4,
+  "version_updates_merged": 4,
+  "report_file": "sources_reports/2026-07-18.md",
+  "previous_run": "2026-07-16",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge",
-    "coder_push_github",
-    "coder_push_gitee"
+    "zong_merge"
   ],
-  "pending_stages": [],
-  "notes": "Manual pipeline run 2026-07-16 (补跑). Bee round 2 found 6 new; 4 merged (MathMist/Macaron already in baseline). 2 deduped. Baseline 312→316. Report generated via professor-yu.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-16.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-16.md",
-  "execution_mode": "manual - zong direct orchestration"
+  "pending_stages": [
+    "coder_push"
+  ],
+  "notes": "Round 4 pipeline. Bee: 7 new + 4 updates. Professor-yu: report with dedup (4 new in report, 3 already reported). Merge: baseline 316→327.",
+  "github_url": null,
+  "gitee_url": null,
+  "execution_mode": "auto - cron pipeline"
 }

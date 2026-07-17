@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-15",
-  "search_summary": "增量更新 2026-06-25 至 2026-07-15，新增 5 个，基线达 312 个",
+  "search_date": "2026-07-18",
+  "search_summary": "增量更新 2026-06-28 至 2026-07-18，新增 7 个，基线达 327 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -6257,6 +6257,233 @@
       "last_updated": "2026-07-10",
       "timeliness_score": "高",
       "tags": []
+    },
+    {
+      "name": "NVIDIA Nemotron Post-Training Dataset v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Post-Training-Dataset-v2",
+      "blog_url": "https://huggingface.co/blog/nvidia/multilingual-reasoning-v1",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "de",
+        "it",
+        "ja"
+      ],
+      "size": "~6M total samples: math (239,467), code (175,000), STEM (355,000), chat (627,720), multilingual_ja (975,202), multilingual_de (1,015,314), multilingual_it (1,016,503), multilingual_es (935,704), multilingual_fr (1,001,504)",
+      "license": "nvidia-open-model-license (gated access required)",
+      "category": "微调/推理",
+      "description": "NVIDIA发布的6M多语言后训练数据集，是Nemotron Post-Training Dataset v1的继承者。将英语推理数据翻译为5种目标语言（法语、西班牙语、德语、意大利语、日语），同时保留原始英语推理链以利用预训练阶段的英语知识。涵盖数学、代码、STEM、聊天和多语言五个类别。采用逐行翻译+特殊括号提取+fastText语言ID的多重质量保障机制。支持NVIDIA Nemotron Nano 9B v2模型的训练。翻译过程中丢弃了约1.1%的离目标数据。NVIDIA开放模型许可。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-17",
+      "release_version": "v2 (Nemotron Nano 9B v2 release)",
+      "timeliness_score": "高",
+      "search_keywords": "NVIDIA Nemotron multilingual reasoning dataset 6 million",
+      "source": "DuckDuckGo web_search + web_fetch verification"
+    },
+    {
+      "name": "MuBench (Multilingual Benchmark)",
+      "url": "https://aclanthology.org/2026.findings-acl.794/",
+      "languages": [
+        "61 languages"
+      ],
+      "size": "3.9M samples across 61 languages (100K<n<1M), human evaluation of 34K samples across 17 languages",
+      "license": "not specified (ACL 2026 Findings)",
+      "category": "评估基准",
+      "description": "ACL 2026 Findings发表的大规模多语言LLM能力评估基准。覆盖61种语言、3.9M样本，评估广泛的LLM能力。关键发现：(1) 声称的语言覆盖与实际能力存在显著差距，英语与低资源语言间存在持续性能差异；(2) 提出Multilingual Consistency (MLC)作为准确率的补充指标，用于分析性能瓶颈和指导模型改进；(3) 提供灵活的评估格式，包括混合语言测试；(4) 增加模型规模并不能改善处理混合语言语境的能力。招募人类专家评估34K样本跨17语言的翻译质量和文化敏感性，并结合LLM-as-Judge方法确保低资源语言的数据质量。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-01",
+      "release_version": "v1 (ACL 2026 Findings)",
+      "timeliness_score": "高",
+      "search_keywords": "MuBench multilingual 61 languages ACL 2026",
+      "source": "SearXNG search (multilingual dataset new release July 2026)"
+    },
+    {
+      "name": "jml2026/multilingual-accent-speech",
+      "url": "https://huggingface.co/datasets/jml2026/multilingual-accent-speech",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "+ 24 accent varieties including African languages (Amharic, Nigerian English, Kenyan English, South African English)"
+      ],
+      "size": "1K - 10K samples, 44 subsets covering diverse accent varieties",
+      "license": "CC-BY-NC-4.0",
+      "category": "微调/语音",
+      "description": "多语言口音语音数据集，覆盖24+种口音变体。支持ASR、音频分类和TTS三种任务。包含audio+text两种模态，采用soundfolder格式。44个子集包括：amharic_ethiopia, english_algeria, english_australia, english_belarus, english_china, english_egypt, english_french_speaking, english_haiti, english_ireland, english_jamaica, english_kenya, english_mandarin, english_nigeria, english_pakistan, english_poland, english_russia, english_south_africa等。特别关注非洲语言和少数族裔口音。CC-BY-NC-4.0许可。1个like。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-12",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual accent speech dataset african languages",
+      "source": "DuckDuckGo web_search (HuggingFace multilingual dataset)"
+    },
+    {
+      "name": "bhavyagoyal-lexsi/SLAAB (Medical + Finance Multilingual Instruction)",
+      "url_medical": "https://huggingface.co/datasets/bhavyagoyal-lexsi/slaab-medical-multilingual-instruction-splits",
+      "url_finance": "https://huggingface.co/datasets/bhavyagoyal-lexsi/slaab-finance-multilingual-instruction-splits",
+      "languages": [
+        "en",
+        "hi",
+        "mr",
+        "pa",
+        "te",
+        "ta",
+        "bn",
+        "gu",
+        "kn",
+        "ml",
+        "or"
+      ],
+      "size": "Medical: 155 downloads; Finance: 62 downloads. Multilingual instruction-tuning splits with conversation format.",
+      "license": "not specified",
+      "category": "微调/指令数据",
+      "description": "SLAAB（Structured Language-Adaptive Aligned Benchmark）多领域多语言指令微调数据集，包含医疗和金融两个专业领域。医疗版涵盖多种语言的医学问答对话，金融版覆盖印地语、马拉地语等南亚语言的金融知识对话。采用标准user/assistant对话格式，支持多语言instruction tuning。特别关注印度语言（印地语、旁遮普语、马拉地语、泰卢固语、泰米尔语、孟加拉语、古吉拉特语、卡纳达语、马拉雅拉姆语、奥里亚语）。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "SLAAB multilingual instruction medical finance Indian languages",
+      "source": "HuggingFace Datasets API (multilingual instruction search)"
+    },
+    {
+      "name": "hf-audio/open-asr-leaderboard-multilingual-datasets",
+      "url": "https://huggingface.co/datasets/hf-audio/open-asr-leaderboard-multilingual-datasets",
+      "languages": [
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "+ more European languages"
+      ],
+      "size": "Large-scale ASR evaluation dataset with audio+transcript pairs (100K<n<1M)",
+      "license": "not specified",
+      "category": "评估基准/语音",
+      "description": "HuggingFace Audio团队维护的开放ASR排行榜多语言评估数据集集合。包含多种欧洲语言的ASR测试集（保加利亚语、捷克语、丹麦语、德语、希腊语等），每条数据包含音频文件和对应文本转录。用于标准化评估ASR模型在多语言场景下的性能。2026年7月17日更新。0下载（可能为内部评估用）。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-17",
+      "release_version": "latest",
+      "timeliness_score": "高",
+      "search_keywords": "open ASR leaderboard multilingual evaluation",
+      "source": "HuggingFace Datasets API (multilingual search sorted by lastModified)"
+    },
+    {
+      "name": "Manusagents/Multilingual-Medical-Corpus",
+      "url": "https://huggingface.co/datasets/Manusagents/Multilingual-Medical-Corpus",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "size": "Medical research abstracts and papers (n<1K visible samples, likely larger)",
+      "license": "not specified",
+      "category": "预训练语料/微调",
+      "description": "多语言医疗语料集，覆盖英语、西班牙语、法语、意大利语四种语言。包含医学研究摘要和论文片段，涉及药理学、外科学、军事医学等多个子领域。用于多语言医疗NLP研究和LLM医疗领域微调。7下载。2026年7月15日更新。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual medical corpus English Spanish French Italian",
+      "source": "HuggingFace Datasets API (multilingual search sorted by lastModified)"
+    },
+    {
+      "name": "jamesdborin/Nemotron-Multilingual-prompt-only",
+      "url": "https://huggingface.co/datasets/jamesdborin/Nemotron-Multilingual-prompt-only",
+      "languages": [
+        "fr",
+        "es",
+        "de",
+        "it",
+        "ja"
+      ],
+      "size": "prompt-only subset of NVIDIA Nemotron Post-Training Dataset v2 multilingual portion",
+      "license": "derived from nvidia-open-model-license",
+      "category": "微调/指令数据",
+      "description": "从NVIDIA Nemotron Post-Training Dataset v2中提取的多语言prompt-only子集。仅包含用户提示（不含模型回复），方便研究者独立研究多语言prompt生成和指令跟随能力。覆盖法语、西班牙语、德语、意大利语、日语五种语言。2026年7月17日发布。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-17",
+      "release_version": "v1 (derived from NVIDIA Nemotron v2)",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron Multilingual prompt only",
+      "source": "HuggingFace Datasets API (Nemotron search)"
+    },
+    {
+      "name": "malaysia-ai/Multilingual-TTS (版本追踪)",
+      "url": "https://huggingface.co/datasets/malaysia-ai/Multilingual-TTS",
+      "languages": [
+        "zh",
+        "en",
+        "ms",
+        "ta",
+        "bn",
+        "150+ languages"
+      ],
+      "size": "141,718+ audio hours, 23.26B speech tokens",
+      "license": "CC-BY-NC-4.0",
+      "category": "预训练语料/微调",
+      "description": "下载量15,367（round3为15,377，微降10次，可能与数据清理有关）。22 likes。最后修改2026-07-14。持续作为最大规模多语言TTS开源资源。",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2026-07-14",
+      "release_version": "latest (stable)",
+      "timeliness_score": "高",
+      "status": "下载量微降但仍稳定，高价值多语言TTS资源"
+    },
+    {
+      "name": "hf-audio/multilingual_evals (版本追踪)",
+      "url": "https://huggingface.co/datasets/hf-audio/multilingual_evals",
+      "languages": [
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pt",
+        "+ more"
+      ],
+      "size": "ASR evaluation results across 13 language-dataset combinations",
+      "license": "not specified",
+      "category": "评估基准/语音",
+      "description": "HF Audio多语言ASR评估结果集，覆盖13种语言-数据集组合（de_covost, de_fleurs, fr_covost, fr_mls, fr_fleurs, it_covost, it_mls, it_fleurs, es_covost, es_mls, es_fleurs, pt_mls, pt_fleurs）。包含多个SOTA ASR模型性能数据：CohereLabs/cohere-transcribe-03-2026（RTFx 491.36）、facebook/omniASR系列（300M/1B/3B/7B + v2变体）、assemblyai/universal-3-pro、elevenlabs/scribe_v2等。120下载。2026-07-16更新。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-16",
+      "release_version": "latest",
+      "timeliness_score": "高",
+      "status": "重要多语言ASR评估基准，包含最新模型评估数据"
+    },
+    {
+      "name": "sebastian328/qwen3-32B-thinking-plpd-multilingual-nova-training-data (新追踪)",
+      "url": "https://huggingface.co/datasets/sebastian328/qwen3-32B-thinking-plpd-multilingual-nova-training-data",
+      "languages": [
+        "ar",
+        "en",
+        "multilingual"
+      ],
+      "size": "Multilingual thinking/reasoning training data (size unspecified)",
+      "license": "not specified",
+      "category": "微调/推理",
+      "description": "Qwen3-32B思考模式PLPD多语言训练数据，Nova变体。包含阿拉伯语和英语的思维链训练样本，使用<think>标签格式。数据来源包含allenai/WildChat-1M。涵盖数学推理、写作请求等多种任务类型。2026-07-17更新。",
+      "discovered_date": "2026-07-18",
+      "last_updated": "2026-07-17",
+      "release_version": "latest",
+      "timeliness_score": "高",
+      "status": "首次追踪，多语言推理思维链训练数据"
+    },
+    {
+      "name": "MsIris2026/embtb-multilingual-eval (持续追踪)",
+      "url": "https://huggingface.co/datasets/MsIris2026/embtb-multilingual-eval",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "n<1K samples",
+      "license": "not specified",
+      "category": "评估基准",
+      "description": "多语言评估数据集。round3追踪时下载量为1,840，持续增长中。最后修改2026-07-10。",
+      "discovered_date": "2026-07-16",
+      "last_updated": "2026-07-10",
+      "release_version": "latest",
+      "timeliness_score": "高",
+      "status": "持续追踪中"
     }
   ],
   "total_datasets": 316,
