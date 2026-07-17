@@ -14,13 +14,15 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
+    "zong_merge",
+    "coder_push_github",
+    "coder_push_gitee",
+    "coder_push_feishu"
   ],
-  "pending_stages": [
-    "coder_push"
-  ],
-  "notes": "Round 4 pipeline. Bee: 7 new + 4 updates. Professor-yu: report with dedup (4 new in report, 3 already reported). Merge: baseline 316→327.",
-  "github_url": null,
-  "gitee_url": null,
+  "pending_stages": [],
+  "notes": "Round 4 complete. Bee: 7 new + 4 updates. Professor-yu: 4 deduped new in report. Baseline 316→327. All pushes successful.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-18.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-18.md",
+  "feishu_url": "https://www.feishu.cn/wiki/ZsmdwKbFsiSdO0kFbYicbC9Hnch",
   "execution_mode": "auto - cron pipeline"
 }
