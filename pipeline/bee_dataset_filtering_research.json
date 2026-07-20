@@ -2425,6 +2425,829 @@
       "category": "multi_hop_data_construction",
       "relevance": "medium",
       "incremental_status": "recovered_miss"
+    },
+    {
+      "title": "Human+ AI: Large scale Data Curation For Multilingual Guardrails",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://openreview.net/forum?id=yAueHCL6ZA",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: filtering.",
+      "key_methods": [
+        "filtering"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "On data engineering for scaling llm terminal capabilities",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.21193",
+      "source_channel": "SearXNG",
+      "category": "construction",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: construction.",
+      "key_methods": [
+        "construction"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Synthetic eggs in many baskets: The impact of synthetic data diversity on llm fine-tuning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-acl.360/",
+      "source_channel": "SearXNG",
+      "category": "construction",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: construction.",
+      "key_methods": [
+        "construction"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Tracing the Data Trail: A Survey of Data Provenance, Transparency and Traceability in LLMs",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.14311",
+      "source_channel": "SearXNG",
+      "category": "survey",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: survey.",
+      "key_methods": [
+        "survey"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zirui",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: dedup.",
+      "key_methods": [
+        "dedup"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Byte-Exact Deduplication in Retrieval-Augmented Generation: A Three-Regime Empirical Analysis Across Public Benchmarks",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.09611",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: dedup.",
+      "key_methods": [
+        "dedup"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Fixing it in post: A comparative study of llm post-training data quality and model performance",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a42d3079cdfefe9fa81197bea7b24cdf-Abstract-Datasets_and_Benchmarks_Track.html",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: quality.",
+      "key_methods": [
+        "quality"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Training data filtration for large language models",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://patents.google.com/patent/US20260057174A1/en",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: filtering.",
+      "key_methods": [
+        "filtering"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Multilingual data filtering using synthetic data from large language models",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://www.research.ed.ac.uk/en/publications/multilingual-data-filtering-using-synthetic-data-from-large-langu/",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: filtering.",
+      "key_methods": [
+        "filtering"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Language Models and Fast Coreset Algorithms: A Fusion Approach",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Antony-Owen/publication/401975842",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: coreset.",
+      "key_methods": [
+        "coreset"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Quadratic coreset selection: Certifying and reconciling sequence and token mining for efficient instruction tuning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/02e4145752691bb16e970bd71b2c3253-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: coreset.",
+      "key_methods": [
+        "coreset"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Integrating Coreset Selection in Language Model Fine-Tuning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6345738",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: coreset.",
+      "key_methods": [
+        "coreset"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Adaptive Language Modeling through Coresets and Tree Search Mechanisms",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6345979",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: coreset.",
+      "key_methods": [
+        "coreset"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Dual-Objective Optimization in Language Models Using Coresets",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6345518",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: coreset.",
+      "key_methods": [
+        "coreset"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Beyond random sampling: Efficient language model pretraining via curriculum learning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.eacl-long.271/",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-eacl.15/",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: mixing.",
+      "key_methods": [
+        "mixing"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Multi-task Code LLMs: Data Mix or Model Merge?",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3786181.3788714",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: mixing.",
+      "key_methods": [
+        "mixing"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "AfriqueLLM: How Data Mixing and Model Architecture Impact Continued Pre-training for African Languages",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.06395",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: mixing.",
+      "key_methods": [
+        "mixing"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Level Up: Defining and Exploiting Transitional Problems for Curriculum Learning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.13761",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Rucl: Stratified rubric-based curriculum learning for multimodal large language model reasoning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.21628",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Secure and Intelligent Data Deduplication for Large Scale Data Storage in Language Model",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-981-95-9884-7_10",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: dedup.",
+      "key_methods": [
+        "dedup"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "A Survey of Text Deduplication: From Syntactic Matching to Semantic Understanding",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11366861/",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: dedup.",
+      "key_methods": [
+        "dedup"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.09990",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: dedup.",
+      "key_methods": [
+        "dedup"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Language model-driven data pruning enables efficient active learning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-eacl.229/",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.09692",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Dynamics-predictive sampling for active RL finetuning of large reasoning models",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.10887",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Large-Scale Data Preparation for Malay Language LLM Development",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11498131/",
+      "source_channel": "SearXNG",
+      "category": "curation",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: curation.",
+      "key_methods": [
+        "curation"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Efficient training of large language models on distributed infrastructures: a survey",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s44336-026-00038-z",
+      "source_channel": "SearXNG",
+      "category": "survey",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: survey.",
+      "key_methods": [
+        "survey"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated Learning of Language Models",
+      "authors": "TBD (requires individual fetch)",
+      "year": 2026,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/cdd30bf15e29005a7803f3e4beffb65a-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Discovered via incremental SearXNG search on 2026-07-17. Category: sampling.",
+      "key_methods": [
+        "sampling"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "EvoSelect: Data-Efficient LLM Evolution for Targeted Task Adaptation",
+      "authors": "Ting-Wei Li, Sirui Chen, Jiaru Zou, Yingbing Huang, Tianxin Wei et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.26170",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes an evolutionary data selection framework that iteratively selects high-value training samples for targeted LLM task adaptation, achieving data-efficient fine-tuning.",
+      "key_methods": [
+        "evolutionary data selection",
+        "task adaptation",
+        "data efficiency"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "daVinci-LLM: Towards the Science of Pretraining",
+      "authors": "Yiwei Qin, Yixiu Liu, Tiantian Mi, Muhang Xie, Zhen Huang et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.27164",
+      "source_channel": "SearXNG",
+      "category": "curation",
+      "description": "Systematic study of LLM pretraining science, establishing that pretraining phase determines capability ceiling. Provides principles for data curation and pretraining optimization.",
+      "key_methods": [
+        "pretraining science",
+        "data curation principles",
+        "capability ceiling analysis"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Why Less is More (Sometimes): A Theory of Data Curation",
+      "authors": "Elvis Dohmatob, Mohammad Pezeshki, Reyhane Askari-Hemmat",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2511.03492",
+      "source_channel": "arXiv API",
+      "category": "theory",
+      "description": "Introduces a theoretical framework to resolve the 'less is more' paradox in data curation, formalizing when smaller curated datasets outperform larger ones. Directly relevant to understanding data selection effectiveness.",
+      "key_methods": [
+        "theoretical framework",
+        "data curation theory",
+        "scaling law analysis"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models",
+      "authors": "Thao Nguyen, Yang Li, Olga Golovneva, Luke Zettlemoyer, Sewoong Oh et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2506.04689",
+      "source_channel": "SearXNG",
+      "category": "curation",
+      "description": "Proposes a web data recycling method that enhances both quality and quantity of pretraining data. Addresses the challenge of exhausting high-quality web data for LLM training.",
+      "key_methods": [
+        "web data recycling",
+        "quality enhancement",
+        "data quantity augmentation"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Text Data Augmentation for Large Language Models: A Comprehensive Survey of Methods, Challenges, and Applications",
+      "authors": "Multiple authors (Springer)",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s10462-025-11405-5",
+      "source_channel": "SearXNG",
+      "category": "survey",
+      "description": "Comprehensive survey covering text data augmentation methods for LLMs, including techniques for enhancing training data quality and diversity.",
+      "key_methods": [
+        "data augmentation",
+        "text augmentation survey",
+        "quality enhancement"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Regurgitative Training: The Value of Real Data in Training Large Language Models",
+      "authors": "INFORMS Management Science",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.07005",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Studies the value of real versus synthetic data in LLM training, investigating when real data provides irreplaceable training signal. Relevant to data quality assessment and curation decisions.",
+      "key_methods": [
+        "real vs synthetic data",
+        "data value assessment",
+        "training signal analysis"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "What is Your Data Worth to GPT? LLM-Scale Data Valuation with Influence Functions",
+      "authors": "NeurIPS 2025",
+      "year": 2025,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6d26053b977f8c589669",
+      "source_channel": "SearXNG",
+      "category": "influence",
+      "description": "Scales influence function-based data valuation to LLM-scale models, enabling practical estimation of individual training sample value. Key contribution for data selection at scale.",
+      "key_methods": [
+        "influence functions",
+        "data valuation",
+        "LLM-scale computation"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Model Merging in Pre-training of Large Language Models",
+      "authors": "NeurIPS 2025",
+      "year": 2025,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c20447998d6c624b4b97d",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Studies model merging as an alternative to data mixing during pretraining, providing insights into when merging vs. mixing is more effective for combining diverse training signals.",
+      "key_methods": [
+        "model merging",
+        "pretraining strategy",
+        "data mixing alternative"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Mix Data or Merge Models? Balancing the Helpfulness, Honesty, and Harmlessness of Large Language Models",
+      "authors": "NeurIPS 2025",
+      "year": 2025,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a3948805bc5220206f5bf",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Systematic comparison of data mixing vs. model merging for balancing HHH properties in LLMs. Provides practical guidance on when to mix data vs. merge models.",
+      "key_methods": [
+        "data mixing",
+        "model merging",
+        "HHH balancing"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Unsupervised Process-Aware Coreset Selection for In-Context Learning",
+      "authors": "OpenReview (under review)",
+      "year": 2026,
+      "url": "https://openreview.net/forum?id=JwD5xdIE6i",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Proposes unsupervised coreset selection that is aware of the in-context learning process, enabling more effective demonstration selection without labeled data.",
+      "key_methods": [
+        "unsupervised coreset",
+        "process-aware selection",
+        "in-context learning"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+      "authors": "Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Kohlbrenner, Kyle Lo",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.15267",
+      "source_channel": "arXiv API",
+      "category": "quality",
+      "description": "Demonstrates that pretraining data can be systematically poisoned through computational propaganda at scale. Highlights the need for robust data quality filtering and provenance tracking.",
+      "key_methods": [
+        "data poisoning",
+        "computational propaganda",
+        "data safety"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Register Always Matters: Analysis of LLM Pretraining Data Through the Lens of Language Variation",
+      "authors": "Amanda Myntti, Erik Henriksson, Veronika Laippala, Sampo Pyysalo",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.01542",
+      "source_channel": "SearXNG",
+      "category": "curation",
+      "description": "Analyzes LLM pretraining data through language variation (register) lens, showing that register-level quality signals are important for effective data curation.",
+      "key_methods": [
+        "register analysis",
+        "language variation",
+        "quality filtering"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Getting Your Indices in a Row: Full-Text Search for LLM Training Data for Real World Applications",
+      "authors": "Ines Altemir Marinas, Anastasiia Kucherenko, Alexander Sternfeld, Andrei Kucharavy",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.09471",
+      "source_channel": "SearXNG",
+      "category": "infrastructure",
+      "description": "Addresses the infrastructure challenge of searching and filtering LLM training data at scale, proposing full-text search methods for efficient data curation.",
+      "key_methods": [
+        "full-text search",
+        "training data infrastructure",
+        "data retrieval"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "AutoPureData: Automated Filtering of Undesirable Web Data to Update LLM Knowledge",
+      "authors": "Praneeth Vadlapati",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2406.19271",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Proposes automated filtering methods to remove undesirable web data, enabling LLMs to be updated with cleaner, more current knowledge.",
+      "key_methods": [
+        "automated filtering",
+        "web data cleaning",
+        "knowledge updating"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Efficient and Effective In-Context Demonstration Selection with Coreset",
+      "authors": "AAAI 2026",
+      "year": 2026,
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38017",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Applies coreset methods to select effective in-context learning demonstrations, improving few-shot performance with fewer examples.",
+      "key_methods": [
+        "coreset selection",
+        "in-context learning",
+        "demonstration selection"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions",
+      "authors": "Springer Artificial Intelligence Review",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s10462-025-11423-3",
+      "source_channel": "SearXNG",
+      "category": "distillation",
+      "description": "Survey covering knowledge and dataset distillation techniques for LLMs, including methods for compressing training data while preserving model performance.",
+      "key_methods": [
+        "knowledge distillation",
+        "dataset distillation",
+        "survey"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "RefineNet: Elevating Medical Foundation Models Through Quality-Centric Data Curation by MLMs",
+      "authors": "Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-05141-7_48",
+      "source_channel": "SearXNG",
+      "category": "curation",
+      "description": "Demonstrates quality-centric data curation using masked language models for medical domain, showing that MLM-based quality scoring improves foundation model performance.",
+      "key_methods": [
+        "MLM-based curation",
+        "quality scoring",
+        "medical domain"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "A Coreset Perspective for Machine Unlearning",
+      "authors": "Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-17282-2_5",
+      "source_channel": "SearXNG",
+      "category": "coreset",
+      "description": "Connects coreset selection theory to machine unlearning, providing insights into how data subset selection can enable efficient model data removal.",
+      "key_methods": [
+        "coreset theory",
+        "machine unlearning",
+        "data removal"
+      ],
+      "relevance_score": "low"
+    },
+    {
+      "title": "Co-Adaptive Multi-Task LoRA: Transfer-Aware, Label-Free Control of Domain Participation",
+      "authors": "Wei Zhang, Lin Tang, Ming Zhao, Yuxuan Wang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.03522",
+      "abstract": "Co-adaptive controller that solves entropy-regularized QP on simplex to set domain participation in multi-task LoRA. Forward-only, adds no trainable parameters.",
+      "methods": "Co-adaptive domain weighting, transfer-aware optimization, multi-task LoRA",
+      "relevance": "medium - domain mixing/participation optimization"
+    },
+    {
+      "title": "CuBAS: Information Geometric Curvature-Based Adaptive Sampling for Supervised Classification",
+      "authors": "Alexandre L. M. Levada",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.03145",
+      "abstract": "Information-geometric framework for adaptive data selection using curvature of statistical manifolds. Uses q-state Potts MRF to derive curvature scores.",
+      "methods": "Information geometry, curvature-based sampling, Potts MRF",
+      "relevance": "medium - novel theoretical framework for adaptive sampling"
+    },
+    {
+      "title": "Power and Limits of Subset Selection in Statistical Estimation",
+      "authors": "Dina Barak-Pelleg, Daniel Berend",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.03391",
+      "abstract": "General theory of subset selection (super-teaching) under minimal assumptions. Proves super-teaching possible for broad distribution classes.",
+      "methods": "Subset selection theory, super-teaching, statistical estimation",
+      "relevance": "medium - theoretical foundations for data selection"
+    },
+    {
+      "title": "QuaSR: Quality-Aware Sample Reweighting for Pacific Indigenous Speech Recognition",
+      "authors": "Yishun Li et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.03658",
+      "abstract": "Weighting framework combining data-side reliability with model-side learnability for ASR adaptation. Evaluated on Pacific Indigenous languages.",
+      "methods": "Quality-aware reweighting, reliability estimation, learnability scoring",
+      "relevance": "medium - low-resource language sample weighting"
+    },
+    {
+      "title": "A Bitter Lesson for Data Filtering",
+      "authors": [
+        "Christopher Mohri et al."
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "arxiv_id": "2605.19407",
+      "url": "https://arxiv.org/abs/2605.19407",
+      "submission_date": "2026-05-19",
+      "category": "filtering",
+      "abstract": "We investigate data filtering for large model pretraining via new scaling studies that target the high compute, data-scarce regime. In spite of an apparently common belief that filtering data to include only high-quality information is essential, our experiments suggest that with enough compute, the best data filter is no data filter. We find that sufficiently trained large parameter models not only tolerate low-quality and distractor data, but in fact benefit from nominally poor data.",
+      "key_methods": [
+        "Scaling studies for data filtering",
+        "Compute-data tradeoff analysis"
+      ],
+      "relevance": "high",
+      "practical_value": "Challenges the fundamental assumption that data filtering is always beneficial. Critical for understanding when to invest in filtering vs compute.",
+      "discovery_status": "previously_missed"
+    },
+    {
+      "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs",
+      "authors": [
+        "Kyle O'Brien",
+        "Stephen Casper",
+        "Quentin Gregory Anthony",
+        "Tomek Korbak",
+        "Robert Kirk",
+        "Xander Davies",
+        "Ishan Mishra",
+        "Geoffrey Irving",
+        "Yarin Gal",
+        "Stella Biderman"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "arxiv_id": "2508.06601",
+      "url": "https://arxiv.org/abs/2508.06601",
+      "submission_date": "2025-08-09",
+      "category": "filtering",
+      "abstract": "We investigate whether filtering text about dual-use topics from training data can prevent unwanted capabilities and serve as a more tamper-resistant safeguard. We introduce a multi-stage pipeline for scalable data filtering and show that it offers a tractable and effective method for minimizing biothreat proxy knowledge in LLMs.",
+      "key_methods": [
+        "Multi-stage safety filtering pipeline",
+        "Tamper-resistant safeguard evaluation",
+        "Biothreat proxy knowledge filtering"
+      ],
+      "relevance": "high",
+      "practical_value": "Demonstrates that pretraining data filtering can build tamper-resistant safety properties. Directly applicable to multilingual safety data curation.",
+      "discovery_status": "previously_missed"
+    },
+    {
+      "title": "Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice",
+      "authors": [
+        "Jiachen T. Wang",
+        "Tong Wu",
+        "Kaifeng Lyu",
+        "James Zou",
+        "Dawn Song",
+        "Ruoxi Jia",
+        "Prateek Mittal"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "arxiv_id": "2512.24503",
+      "url": "https://arxiv.org/abs/2512.24503",
+      "submission_date": "2025-12-24",
+      "category": "data_selection",
+      "abstract": "Data teams at frontier AI companies routinely train small proxy models to make critical decisions about pretraining data recipes for full-scale training runs. We uncover a critical issue in the standard experimental protocol: the use of identical small-scale model training configurations across all data recipes. We show that experiment conclusions about data quality can flip with even minor adjustments to training hyperparameters. We introduce a simple patch: using reduced learning rates for proxy model training.",
+      "key_methods": [
+        "Reduced learning rate protocol for proxy models",
+        "Data recipe assessment validation",
+        "Hyperparameter-dependent data quality analysis"
+      ],
+      "relevance": "high",
+      "practical_value": "Directly addresses how to validate data curation decisions at small scale before committing to full training. Essential for cost-effective data pipeline development.",
+      "discovery_status": "previously_missed"
+    },
+    {
+      "title": "Removing Noise, not Finding Gold: Quality Filtering for Large-Scale Pretraining",
+      "authors": [
+        "Louis Béthune et al."
+      ],
+      "year": 2026,
+      "venue": "ICML 2026",
+      "arxiv_id": "2510.00866",
+      "url": "https://arxiv.org/abs/2510.00866",
+      "submission_date": "2025-10-01",
+      "category": "filtering",
+      "abstract": "We provide an in-depth analysis of Classifier-based Quality Filtering (CQF). We show that while CQF improves downstream task performance, it does not necessarily enhance language modeling on the high-quality set. CQF-selected data can outperform training directly on the high-quality set because CQF implicitly filters the high-quality dataset as well. We introduce an optimization-driven notion of data quality that can be reliably estimated using small-scale proxy experiments.",
+      "key_methods": [
+        "CQF mechanism analysis",
+        "Optimization-driven quality estimation",
+        "Proxy-based quality scoring"
+      ],
+      "relevance": "high",
+      "practical_value": "Reveals that classifier-based filtering works by improving diversity not quality. Challenges the 'high-quality data' paradigm and provides practical proxy-based quality estimation.",
+      "discovery_status": "previously_missed"
+    },
+    {
+      "title": "TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence",
+      "authors": [
+        "Murong Ma",
+        "Ruofan Liu",
+        "Yun Lin",
+        "Zhiyong Huang",
+        "Jin Song Dong"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "url": "https://openreview.net/pdf?id=jSs8CDsF0A",
+      "category": "data_curation",
+      "abstract": "Practical classification requires both high predictive accuracy and reliable confidence for human-AI collaboration. We propose TrainRef, a training-time data curation framework that uses an extrinsic small set of reference samples to avoid normality pollution and curates labels into a class distribution instead of a categorical class to handle sample ambiguity.",
+      "key_methods": [
+        "Reference augmentation for clean sample selection",
+        "Model-dataset co-evolving embedding space",
+        "Label distribution curation"
+      ],
+      "relevance": "medium",
+      "practical_value": "Novel training-time data curation approach that handles noisy labels. More applicable to classification than LLM pretraining, but the reference-based framework is conceptually interesting.",
+      "discovery_status": "previously_missed"
+    },
+    {
+      "title": "The Data Frontier for Large Language Models: Selection, Synthesis, and Tools",
+      "authors": [
+        "ACL 2026 Tutorial Panel"
+      ],
+      "year": 2026,
+      "venue": "ACL 2026 Tutorial",
+      "url": "https://aclanthology.org/2026.acl-tutorials.2/",
+      "category": "survey",
+      "abstract": "Comprehensive tutorial covering intelligent data selection (LLM-as-a-judge, active learning) and advanced data synthesis (CoT generation, multi-agent workflows) for LLMs. Provides a principled framework for designing data strategies.",
+      "key_methods": [
+        "LLM-as-a-judge quality filtering",
+        "Active learning for annotation",
+        "Multi-agent synthetic data workflows"
+      ],
+      "relevance": "medium",
+      "practical_value": "Excellent overview and framework for data strategy design. Tutorial format makes it highly accessible. Good entry point for newcomers to the field.",
+      "discovery_status": "new"
     }
   ],
   "tools_and_repos": [
@@ -2615,6 +3438,56 @@
       "comparison": "Small research repo exploring clustering-based filtering. Updated July 9.",
       "updated": "2026-07-09",
       "incremental_status": "new_repo"
+    },
+    {
+      "name": "NVIDIA NeMo Curator",
+      "url": "https://github.com/NVIDIA-NeMo/Curator",
+      "description": "Scalable data preprocessing and curation toolkit for LLMs. Supports deduplication, quality filtering, semantic deduplication, and data processing pipelines at scale.",
+      "stars": 1667,
+      "created": "2024-03-14",
+      "last_pushed": "2026-07-17",
+      "topics": [
+        "data-curation",
+        "deduplication",
+        "data-quality",
+        "llm",
+        "data-processing-pipelines"
+      ],
+      "source_channel": "GitHub API",
+      "relevance": "high"
+    },
+    {
+      "name": "distributed-curator",
+      "url": "https://github.com/KenObata/distributed-curator",
+      "description": "Partition-aware MinHash LSH deduplication library for large-scale text data curation on Apache Spark.",
+      "stars": 1,
+      "created": "2026-07-16",
+      "last_pushed": "2026-07-16",
+      "topics": [
+        "deduplication",
+        "MinHash",
+        "LSH",
+        "Apache Spark",
+        "text curation"
+      ],
+      "source_channel": "GitHub API",
+      "relevance": "medium"
+    },
+    {
+      "name": "doc2instruct",
+      "url": "https://github.com/mangesh-ux/doc2instruct",
+      "description": "Synthetic multimodal instruction data engine for long-form documents. Generates high-quality ChatML instruction data from documents.",
+      "stars": 0,
+      "created": "2026-07-11",
+      "last_pushed": "2026-07-11",
+      "topics": [
+        "synthetic data",
+        "instruction tuning",
+        "multimodal",
+        "data generation"
+      ],
+      "source_channel": "GitHub API",
+      "relevance": "medium"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -2709,5 +3582,9 @@
     "total_tools": 14,
     "total_blogs": 8
   },
-  "last_merge": "2026-07-15"
+  "last_merge": "2026-07-15",
+  "last_updated": "2026-07-20",
+  "total_papers": 208,
+  "total_tools": 24,
+  "total_blogs": 8
 }
