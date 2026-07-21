@@ -1,28 +1,27 @@
 {
-  "last_run": "2026-07-20T09:00:00+08:00",
+  "last_run": "2026-07-22T06:13:00+08:00",
   "status": "completed",
-  "incremental_papers": 6,
+  "incremental_papers": 10,
   "incremental_tools": 0,
   "incremental_blogs": 0,
   "merged_to_baseline": true,
   "github_push": "completed",
   "discovery_channels": [
-    "DuckDuckGo web search",
     "arXiv web search",
-    "HuggingFace papers",
-    "ICLR 2026 proceedings",
-    "ACL 2026 proceedings"
+    "HuggingFace daily papers",
+    "GitHub repository search"
   ],
   "channels_not_available": [
-    "arXiv API (empty responses)",
-    "SearXNG (unavailable)"
+    "DuckDuckGo (bot detection)",
+    "arXiv API",
+    "SearXNG"
   ],
-  "notes": "Monday run. arXiv API unavailable (2nd consecutive run). Found 6 papers (5 previously missed from baseline + 1 genuinely new). 2 high-impact papers challenging data filtering assumptions. Subagent spawning timeout; steps executed in main session.",
+  "notes": "Wednesday run. DuckDuckGo unavailable (bot detection). Found 10 papers (2 within incremental window, 8 previously missed). Strong papers on programmatic data refinement (UltraX), on-policy data attribution (DRIFT), and budget-aware selection (PPL-Factory). Subagent spawning timeout; steps executed in main session. Local Mling-Report repo was corrupted, re-cloned from scratch.",
   "baseline_totals": {
-    "papers": 208,
+    "papers": 218,
     "tools_and_repos": 24,
     "blog_posts_and_tutorials": 8
   },
-  "github_commit": "38ead2a",
-  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-20.md"
+  "github_commit": "61cda29",
+  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-22.md"
 }

@@ -3248,6 +3248,146 @@
       "relevance": "medium",
       "practical_value": "Excellent overview and framework for data strategy design. Tutorial format makes it highly accessible. Good entry point for newcomers to the field.",
       "discovery_status": "new"
+    },
+    {
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "authors": "Not specified in search results",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.xxxxx",
+      "abstract_or_summary": "Not all training samples contribute equally to model learning. PPL-Factory proposes task-aware and budget-aware data selection methods that work across both language modeling and reasoning tasks. Uses perplexity-based signals to efficiently select high-value training samples within compute budgets.",
+      "methods": [
+        "task-aware data selection",
+        "budget-aware selection",
+        "perplexity-based filtering"
+      ],
+      "category": "data_selection",
+      "submitted_date": "2026-07-20"
+    },
+    {
+      "title": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+      "authors": "Yunze Han",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=A+Systematic+Evaluation+of+Trajectory+Data+Curation",
+      "abstract_or_summary": "Systematic empirical study of trajectory data filtering for LoRA fine-tuning of code agents (Qwen2.5-Code). Investigates how trajectory quality and quantity jointly shape model performance for SFT of open-weight LLMs on expert agent trajectories. Addresses the underexplored question of data curation trade-offs in agent fine-tuning.",
+      "methods": [
+        "trajectory data filtering",
+        "quality-quantity trade-off analysis",
+        "LoRA fine-tuning evaluation"
+      ],
+      "category": "data_curation",
+      "submitted_date": "2026-07-19"
+    },
+    {
+      "title": "Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning",
+      "authors": "Xiaonan Luo, Yue Huang, Kehan Guo, Ping He, Chuan Zou, Ting Hua, Xiangliang Zhang",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Learning+from+Synthetic+Data+without+Model+Collapse",
+      "abstract_or_summary": "Addresses model collapse in iterative instruction tuning with synthetic data. Proposes methods to ensure performance improvement rather than degradation when LLMs are trained on increasing proportions of model-generated data. Moves beyond bounding degradation to actively preventing it in iterative model evolution.",
+      "methods": [
+        "anti-collapse training",
+        "iterative instruction tuning",
+        "synthetic data quality control"
+      ],
+      "category": "synthetic_data",
+      "submitted_date": "2026-07-18"
+    },
+    {
+      "title": "DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment",
+      "authors": "Zefeng Wu, Weiwei Qi, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=DataShield+Consensus+Subspace+Alignment",
+      "abstract_or_summary": "Proposes DataShield, a data assessment framework that identifies risky fine-tuning samples and response segments through consensus subspace alignment across multiple LLMs. Previous approaches use a single direction to represent safety, limiting effectiveness and transferability. DataShield's multi-model consensus approach improves cross-model risk assessment.",
+      "methods": [
+        "consensus subspace alignment",
+        "cross-model risk assessment",
+        "safety direction analysis"
+      ],
+      "category": "data_quality",
+      "submitted_date": "2026-07-16"
+    },
+    {
+      "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+      "authors": "Xinlong Zhao, Dongsheng Liu, Hengyu Zhao, Zixuan Fu, Zheng Wang, Jie Cai, Jie Zhou, Qiang Ma, Xuanhe Zhou, Xu Han, Yudong Wang, Zhiyuan Liu",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=UltraX+pre-training+data+adaptive+programmatic",
+      "abstract_or_summary": "Proposes UltraX, a function-calling refinement framework for large-scale pre-training data processing. Addresses limitations of existing methods: rule-based approaches miss quality issues, while LLM-based approaches fail efficiency and reliability requirements at scale. Uses adaptive programmatic editing to refine corpora programmatically.",
+      "methods": [
+        "function-calling refinement",
+        "adaptive programmatic editing",
+        "scalable data refinement"
+      ],
+      "category": "data_filtering",
+      "submitted_date": "2026-07-09"
+    },
+    {
+      "title": "DRIFT: Refining Instruction Data via On-Policy Data Attribution",
+      "authors": "Zefan Wang, Lincheng Li, Tianyu Yu, Yuan Yao",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=DRIFT+Refining+Instruction+Data+On-Policy",
+      "abstract_or_summary": "Proposes DRIFT (Data Refinement via On-Policy Influence Functions for SFT). Existing influence-function methods struggle due to proximity gap from off-policy validation targets and severe bias towards gradient norm. DRIFT uses on-policy influence functions instead of external reference data to identify high-value instruction samples.",
+      "methods": [
+        "on-policy influence functions",
+        "data attribution",
+        "SFT data refinement"
+      ],
+      "category": "data_selection",
+      "submitted_date": "2026-06-16"
+    },
+    {
+      "title": "DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving",
+      "authors": "Chao Deng, Shaolei Zhang, Ju Fan, Xiaoyong Du",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=DataEvolver+Automatic+Data+Preparation",
+      "abstract_or_summary": "Proposes automated data preparation for LLMs through multi-level self-evolving. Addresses the challenge that high-quality training data is essential but manual curation is expensive. Evolves data preparation strategies automatically across multiple quality dimensions.",
+      "methods": [
+        "multi-level self-evolving",
+        "automatic data preparation",
+        "quality optimization"
+      ],
+      "category": "data_curation",
+      "submitted_date": "2026-06-10"
+    },
+    {
+      "title": "Learning Multi-Indicator Weights for Data Selection: A Joint Task-Model Adaptation Framework with Efficient Proxies",
+      "authors": "Jingze Song, Zihao Chen, Wenqing Chen, Zibin Zheng",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Learning+Multi-Indicator+Weights+Data+Selection",
+      "abstract_or_summary": "Proposes a joint task-model adaptation framework that learns optimal weights for multiple data quality indicators. Uses efficient proxies to avoid expensive validation. Key contribution is showing that data selection is improved by learning indicator weights rather than using fixed heuristics.",
+      "methods": [
+        "multi-indicator weight learning",
+        "efficient proxy evaluation",
+        "task-model adaptation"
+      ],
+      "category": "data_selection",
+      "submitted_date": "2026-05-10"
+    },
+    {
+      "title": "Tailoring the Curriculum: Student-Centered Reasoning Distillation via Dynamic Data-Model Compatibility",
+      "authors": "Jiahao Huang, Fei Cheng, Junfeng Jiang, Akiko Aizawa",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Tailoring+Curriculum+Student-Centered+Reasoning+Distillation",
+      "abstract_or_summary": "Proposes dynamic data-model compatibility for curriculum learning in reasoning distillation. Rather than fixed difficulty ordering, adapts curriculum based on the student model's evolving capabilities. Transfers complex reasoning abilities from large to small models through tailored data scheduling.",
+      "methods": [
+        "dynamic curriculum learning",
+        "data-model compatibility",
+        "reasoning distillation"
+      ],
+      "category": "curriculum_learning",
+      "submitted_date": "2026-05-27"
+    },
+    {
+      "title": "Environment-free Synthetic Data Generation for API-Calling Agents",
+      "authors": "Seanie Lee, Sanjoy Chowdhury, Chao Jiang, Cheng-Yu Hsieh, Ting-Yao Hu, Alexander T Toshev, Oncel Tuzel, Raviteja Vemulapalli",
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Environment-free+Synthetic+Data+API-Calling",
+      "abstract_or_summary": "Proposes environment-free synthetic data generation for training API-calling LLM agents. Eliminates the need for fully implemented environments with executable APIs and pre-populated databases, which creates a major scalability bottleneck. Generates high-quality trajectories without backend infrastructure.",
+      "methods": [
+        "environment-free generation",
+        "synthetic trajectory generation",
+        "API-calling agent training"
+      ],
+      "category": "synthetic_data",
+      "submitted_date": "2026-07-18"
     }
   ],
   "tools_and_repos": [
