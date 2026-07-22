@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-18",
-  "search_summary": "增量更新 2026-06-28 至 2026-07-18，新增 7 个，基线达 327 个",
+  "search_date": "2026-07-23",
+  "search_summary": "增量更新 2026-07-03 至 2026-07-23，无新增，3个版本更新，基线达 327 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -1204,18 +1204,19 @@
         "ru",
         "zh"
       ],
-      "size": "10K-100K样本（7种语言 × 符号化数学推理）",
+      "size": "多语言数学推理题目集，Parquet格式",
       "license": "MIT",
       "category": "评估",
       "description": "Danish Foundation Models项目发布的多语言符号化数学推理数据集。基于GSM-Symbolic基准扩展到7种语言（英语/丹麦语/德语/冰岛语/挪威语/俄语/中文），评估LLM的数学推理和符号操作能力。MIT许可，Parquet格式。540次下载，2026年6月15日更新（2天前）。",
       "discovered_date": "2026-06-17",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-20",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual gsm symbolic math reasoning benchmark 7 languages",
       "source": "HuggingFace API扫描（multilingual搜索，lastModified排序）",
       "update_note": "last_updated 从 2026-06-15 更新至 2026-06-24",
-      "version_note": "SHA更新 — 数据集内容更新"
+      "version_note": "SHA更新 — 数据集内容更新",
+      "latest_change": "2026-07-20更新：数据集内容刷新，下载量从540增至781"
     },
     {
       "name": "multilingual-tts/open-bible",
@@ -3170,16 +3171,17 @@
         "sn",
         "ny"
       ],
-      "size": "~30 trillion subword tokens total, ~half non-English. Monolingual + bilingual data for hundreds of languages.",
+      "size": "~50TB压缩数据，~13.5万亿tokens（非英语部分），~11.5 billion文档",
       "license": "Not specified (HPLT project license)",
       "category": "预训练",
       "description": "HPLT 3.0 是 HPLT 项目的最新版本，提供超大规模多语言单语和双语语料。相比 v2（193 种语言、8T tokens），v3 扩展到约 30 万亿子词 token，其中近半数为非英语语言。包含单语语料、平行语料、预训练模型和多语言评估基准。LREC-COLING 2026 论文。更新: 2026-06-11。",
       "discovered_date": "2026-07-01",
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-07-08",
       "release_version": "v3.0",
       "timeliness_score": "高",
       "search_keywords": "HPLT 3.0 massive multilingual pretraining 30 trillion tokens",
-      "source": "HuggingFace API (HPLT keyword) + SearXNG (LREC-COLING 2026 paper)"
+      "source": "HuggingFace API (HPLT keyword) + SearXNG (LREC-COLING 2026 paper)",
+      "latest_change": "2026-07-08更新：数据集页面刷新，规模描述更精确（50TB/13.5T tokens/11.5B docs），数据处理pipeline有改进"
     },
     {
       "name": "HPLT 2.0 Cleaned",
@@ -3225,7 +3227,7 @@
         "amh",
         "and 100+ more"
       ],
-      "size": "370 downloads, multilingual language identification model/dataset",
+      "size": "137M行训练数据",
       "license": "Not specified",
       "category": "评估",
       "description": "HPLT 项目发布的开放语言识别数据集/模型 v3，支持 100+ 种语言的自动语言检测。为多语言预训练数据的语言标注提供基础工具。更新: 2026-06-18。",
@@ -3234,7 +3236,8 @@
       "release_version": "v3",
       "timeliness_score": "高",
       "search_keywords": "HPLT OpenLID language identification multilingual",
-      "source": "HuggingFace API (HPLT keyword)"
+      "source": "HuggingFace API (HPLT keyword)",
+      "latest_change": "2026-06-18更新：训练数据扩展至137M行"
     },
     {
       "name": "Faruna01/Cross-lingual-Multi-Agent-Safety",

@@ -1,16 +1,16 @@
 {
-  "last_run_date": "2026-07-18",
+  "last_run_date": "2026-07-23",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-06-28",
-  "window_end": "2026-07-18",
+  "window_start": "2026-07-03",
+  "window_end": "2026-07-23",
   "baseline_sources_count": 327,
-  "new_datasets_found": 7,
-  "new_datasets_merged": 7,
-  "version_updates_found": 4,
-  "version_updates_merged": 4,
-  "report_file": "sources_reports/2026-07-18.md",
-  "previous_run": "2026-07-16",
+  "new_datasets_found": 0,
+  "new_datasets_merged": 0,
+  "version_updates_found": 3,
+  "version_updates_merged": 3,
+  "report_file": "sources_reports/2026-07-23.md",
+  "previous_run": "2026-07-18",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
@@ -20,9 +20,9 @@
     "coder_push_feishu"
   ],
   "pending_stages": [],
-  "notes": "Round 4 complete. Bee: 7 new + 4 updates. Professor-yu: 4 deduped new in report. Baseline 316→327. All pushes successful.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-18.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-18.md",
-  "feishu_url": "https://www.feishu.cn/wiki/ZsmdwKbFsiSdO0kFbYicbC9Hnch",
-  "execution_mode": "auto - cron pipeline"
+  "notes": "Round 5 complete. Sub-agent spawn timeout - zong executed full pipeline directly. 0 new + 3 version updates (HPLT 3.0, multilingual-gsm-symbolic, OpenLID-v3). Baseline 327 unchanged. Fixed corrupted blob in CaiWeiReport repo (2026-07-12.md). All pushes successful.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-23.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-23.md",
+  "feishu_url": "https://www.feishu.cn/wiki/Ww5Nw4wdki81pEkCJntcsudEnAg",
+  "execution_mode": "auto - cron pipeline (degraded: direct execution due to sub-agent timeout)"
 }
