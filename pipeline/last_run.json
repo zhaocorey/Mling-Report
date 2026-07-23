@@ -14,16 +14,15 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
-  ],
-  "pending_stages": [
+    "zong_merge",
     "coder_push_github",
     "coder_push_gitee",
     "coder_push_feishu"
   ],
-  "notes": "Round 6. Sub-agent spawn timeout again - zong executed full pipeline directly. 2 new datasets (EU MMLU by DG Translation, Pluralis v0.1 multicultural AI safety benchmark). Baseline grew from 327 to 329. No version updates this cycle.",
-  "github_url": "",
-  "gitee_url": "",
-  "feishu_url": "",
+  "pending_stages": [],
+  "notes": "Round 6 complete. Sub-agent spawn timeout - zong executed full pipeline directly. 2 new datasets (EU MMLU by DG Translation, Pluralis v0.1 multicultural AI safety benchmark). Baseline grew from 327 to 329. All pushes successful.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-24.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-24.md",
+  "feishu_url": "https://www.feishu.cn/wiki/C8kHwJ7vligWuWkUiaWcRFBsn0c",
   "execution_mode": "auto - cron pipeline (degraded: direct execution due to sub-agent timeout)"
 }
