@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-22T09:00:00+08:00",
+  "last_run": "2026-07-23T09:00:00+08:00",
   "status": "completed",
   "incremental_papers": 0,
   "incremental_tools": 0,
@@ -7,20 +7,21 @@
   "merged_to_baseline": true,
   "github_push": "skipped_no_new_content",
   "discovery_channels": [
-    "DuckDuckGo web search (partial)",
-    "HuggingFace daily papers (July 22 unavailable)",
-    "arXiv web fetch"
+    "arXiv cs.CL new submissions (48 papers scanned)",
+    "arXiv cs.LG cross-listings (30 papers scanned)",
+    "HuggingFace Daily Papers (25 papers checked)",
+    "HuggingFace Blog",
+    "GitHub API (new repos since July 15)"
   ],
   "channels_not_available": [
-    "arXiv API (rate-limited)",
-    "Semantic Scholar API (rate-limited)",
-    "DuckDuckGo (degraded - mostly ads/older results)"
+    "DuckDuckGo web search (bot-detection challenge)",
+    "arXiv API (not used, web fetch used instead)"
   ],
-  "notes": "09:00 scheduled run. No new content found in 3-hour incremental window (06:13~09:00). Today's report already generated at 06:13 with 10 papers (2 within window, 8 previously missed). All search channels either unavailable or returned only already-catalogued papers. GitHub push skipped - no new content to commit. Subagent spawning still timing out (gateway timeout); executed in main session.",
+  "notes": "09:00 scheduled run. No new content found in 24h incremental window (July 22 09:00 ~ July 23 09:00). All arXiv cs.CL new submissions (48) and cross-lists (30) scanned. 25 HuggingFace daily papers checked individually. 6 minor GitHub repos found but none significant. Subagent spawning timed out (gateway timeout); executed in main session.",
   "baseline_totals": {
     "papers": 218,
     "tools_and_repos": 24,
     "blog_posts_and_tutorials": 8
   },
-  "previous_report_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-22.md"
+  "report_file": "dataset_filtering_survey/2026-07-23.md"
 }

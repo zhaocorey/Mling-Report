@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-23",
-  "search_summary": "增量更新 2026-07-03 至 2026-07-23，无新增，3个版本更新，基线达 327 个",
+  "search_date": "2026-07-24",
+  "search_summary": "增量更新 2026-07-04 至 2026-07-24，2个新增，0个版本更新，基线达 329 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -6487,6 +6487,40 @@
       "release_version": "latest",
       "timeliness_score": "高",
       "status": "持续追踪中"
+    },
+    {
+      "name": "EU MMLU",
+      "url": "https://huggingface.co/datasets/Eurolingua/mmlux",
+      "languages": [
+        "16种EU官方语言：Croatian, Czech, Dutch, French, German, Greek, Hungarian, Irish, Italian, Lithuanian, Polish, Portuguese, Romanian, Slovak, Slovenian（更多语言后续添加）"
+      ],
+      "size": "1000+基准测试问题，覆盖7个与EU相关的MMLU学科领域",
+      "license": "MIT",
+      "category": "评估",
+      "description": "欧盟DG Translation于2026年7月22日发布的多语言LLM评估基准。基于MMLU，采用人工翻译（非机器翻译）方式，由来自21所欧洲大学的近250名EMT翻译硕士生参与翻译和审校。覆盖16种EU官方语言，重点测试AI在EU语言多样性和文化语境下的公平表现。区别于OpenAI的MMMLU（14语言机器翻译），EU MMLU强调人工翻译质量和EU特定文化背景。",
+      "discovered_date": "2026-07-24",
+      "last_updated": "2026-07-22",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "EU MMLU multilingual benchmark DG Translation",
+      "source": "DuckDuckGo搜索发现（EU官方新闻 2026-07-22）"
+    },
+    {
+      "name": "Pluralis v0.1",
+      "url": "https://arxiv.org/abs/2607.06196",
+      "languages": [
+        "多区域多语言，覆盖不同文化圈（具体语言列表待确认）"
+      ],
+      "size": "多模态安全评估数据集（图像+文本），规模待确认",
+      "license": "待确认（arXiv论文，数据集尚未完全公开）",
+      "category": "评估",
+      "description": "2026年7月7日发布于arXiv的多文化、多模态、多语言AI安全与可靠性评估基准。采用'文化优先'视角构建，旨在解决现有AI安全评估中西方中心主义偏见。覆盖区域特定法律、社会语言细微差别和文化禁忌。针对Vision-Language Models (VLMs)的全球部署场景。由MLCommons AI Risk and Reliability工作组关联发布。填补了多文化AI安全评估的重要空白。",
+      "discovered_date": "2026-07-24",
+      "last_updated": "2026-07-07",
+      "release_version": "v0.1",
+      "timeliness_score": "高",
+      "search_keywords": "Pluralis multicultural multimodal multilingual benchmark AI safety",
+      "source": "DuckDuckGo搜索发现（arXiv 2607.06196）"
     }
   ],
   "total_datasets": 316,
