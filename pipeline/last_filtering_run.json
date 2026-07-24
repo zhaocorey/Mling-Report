@@ -1,27 +1,26 @@
 {
-  "last_run": "2026-07-23T09:00:00+08:00",
+  "last_run": "2026-07-24T09:00:00+08:00",
   "status": "completed",
   "incremental_papers": 0,
   "incremental_tools": 0,
   "incremental_blogs": 0,
   "merged_to_baseline": true,
-  "github_push": "skipped_no_new_content",
+  "github_push": "success",
+  "github_commit": "295e632",
   "discovery_channels": [
-    "arXiv cs.CL new submissions (48 papers scanned)",
-    "arXiv cs.LG cross-listings (30 papers scanned)",
-    "HuggingFace Daily Papers (25 papers checked)",
-    "HuggingFace Blog",
-    "GitHub API (new repos since July 15)"
+    "arXiv cs.CL new submissions (46 papers scanned)",
+    "arXiv cross-listings (24 papers scanned)",
+    "HuggingFace Daily Papers (19 papers checked)"
   ],
   "channels_not_available": [
     "DuckDuckGo web search (bot-detection challenge)",
     "arXiv API (not used, web fetch used instead)"
   ],
-  "notes": "09:00 scheduled run. No new content found in 24h incremental window (July 22 09:00 ~ July 23 09:00). All arXiv cs.CL new submissions (48) and cross-lists (30) scanned. 25 HuggingFace daily papers checked individually. 6 minor GitHub repos found but none significant. Subagent spawning timed out (gateway timeout); executed in main session.",
+  "notes": "09:00 scheduled run. No new content found in 24h incremental window (July 23 09:00 ~ July 24 09:00). All arXiv cs.CL new submissions (46) and cross-lists (24) scanned. 19 HuggingFace daily papers checked individually. Second consecutive day with zero findings. Subagent spawning timed out (gateway timeout); executed in main session.",
   "baseline_totals": {
     "papers": 218,
     "tools_and_repos": 24,
     "blog_posts_and_tutorials": 8
   },
-  "report_file": "dataset_filtering_survey/2026-07-23.md"
+  "report_file": "dataset_filtering_survey/2026-07-24.md"
 }
