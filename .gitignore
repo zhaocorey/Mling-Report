@@ -1,1 +1,5 @@
 CaiWeiReport
+
+# Pipeline temp artifacts
+pipeline/bee_sources_incremental.json
+pipeline/bee_dataset_filtering_incremental.json
