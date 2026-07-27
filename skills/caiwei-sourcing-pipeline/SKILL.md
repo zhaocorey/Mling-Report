@@ -11,9 +11,13 @@ description: 采薇寻源报告生成流水线——每日增量发现多语言�
 
 执行前读取以下文件获取上下文：
 
-1. `bee_sources.json` — 已知数据集全量基线（workspace 根目录）
-2. `pipeline/last_run.json` — 上次运行时间与状态
-3. `~/.openclaw/agents/bee/workspace/TOOLS.md` — 小蜜蜂搜索关键词配置
+1. `pipeline/baseline_names.jsonl` — 已知数据集名称列表（轻量索引，每行一个名称）
+2. `pipeline/reported_names.jsonl` — 已在历史报告中介绍过的数据集名称（去重索引）
+3. `pipeline/last_run.json` — 上次运行时间与状态
+4. `~/.openclaw/agents/bee/workspace/TOOLS.md` — 小蜜蜂搜索关键词配置
+
+> ⚠️ **不要读取 `bee_sources.json`（337KB）或扫描 `sources_reports/`（656KB）**。
+> 上述轻量索引文件已包含去重所需的全部信息，总体积仅 ~20KB。
 
 ## 流水线步骤
 
@@ -23,14 +27,14 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`，**`cwd
 
 ```
 增量寻源任务（时效优先）：
-1. 读取 bee_sources.json 获取已知数据集清单（共 N 个）
-   ⚠️ 注意：bee_sources.json 是唯一数据源，TOOLS.md 中不维护追踪列表
+1. 读取 pipeline/baseline_names.jsonl 获取已知数据集名称列表（每行一个名称，共 N 个）
+   ⚠️ 不要读取 bee_sources.json（337KB），轻量索引已包含全部名称
 2. 读取 pipeline/last_run.json 获取上次运行时间
 3. 用 web_search 搜索最近 20 天内新发布或更新的多语言数据集
    - 搜索词附加时间限定（如 after:YYYY-MM）
    - 优先平台：HuggingFace、GitHub、arXiv
    - 检查已知数据集是否有版本更新
-4. 对比基线，仅输出新增或更新的数据集
+4. 对比基线名称列表，仅输出新增或更新的数据集
 5. 每条记录必须包含：
    - discovered_date（首次发现日期）
    - last_updated（数据集最后更新日期）
@@ -48,13 +52,14 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 ```
 增量报告生成任务（时效聚焦 + 去重）：
 1. 读取 pipeline/bee_sources_incremental.json（本次增量）
-2. 对比 bee_sources.json（全量基线）
+2. 读取 pipeline/baseline_names.jsonl（已知数据集名称列表）
 3. ⚠️ 去重规则（严格执行）：
-   - 扫描 sources_reports/ 目录下所有历史报告
-   - 提取所有已报告过的数据集名称和 URL
-   - 本次报告中只写入**从未在任何历史报告中出现过**的数据集
-   - 如果某数据集之前报告过但本次有版本更新，仅在「🔄 更新数据集」章节简述变更
-   - 严禁在「🆕 新增数据集」章节重复介绍已有数据集
+   - 读取 pipeline/reported_names.jsonl（已在历史报告中介绍过的数据集名称，每行一个）
+   - 本次报告中只写入**不在 reported_names.jsonl 中**的数据集
+   - 如果某数据集在 reported_names.jsonl 中但本次有版本更新，仅在「🔄 更新数据集」章节简述变更
+   - 严禁在「🆕 新增数据集」章节重复介绍已报告过的数据集
+   - 如需查数据集 URL，查阅 pipeline/dataset_urls.json
+   ⚠️ 不要扫描 sources_reports/ 目录（656KB），reported_names.jsonl 已包含全部去重信息
 4. 生成增量报告 sources_reports/YYYY-MM-DD.md，格式见 references/report-template.md
 5. 如新增数据集值得加入 Top 10，标注并说明替换建议
 6. 超 6 个月未更新的数据集标注「陈旧」并降级推荐
@@ -68,9 +73,17 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
 
 1. 将 `bee_sources_incremental.json` 增量合并到 `bee_sources.json`
 2. **基线完整性校验**：检查 TOOLS.md 搜索关键词中提到的具体数据集名称是否全部存在于 `bee_sources.json` 中。如有遗漏，补录并标注来源为"关键词关联补录"
-3. 更新 `pipeline/last_run.json`（时间、报告路径、统计数）
-4. 删除 `pipeline/bee_sources_incremental.json`
-5. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
+3. **重建去重索引**（⚠️ 必须在合并后执行）：
+   ```bash
+   python3 scripts/build_dedup_index.py --incremental
+   ```
+   这会更新以下三个轻量索引文件：
+   - `pipeline/baseline_names.jsonl` — 小蜜蜂用的基线名称列表
+   - `pipeline/reported_names.jsonl` — 语教授用的去重名称列表
+   - `pipeline/dataset_urls.json` — 数据集 URL 映射
+4. 更新 `pipeline/last_run.json`（时间、报告路径、统计数）
+5. 删除 `pipeline/bee_sources_incremental.json`
+6. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
 
 ### Step 4: 码工程师👨‍💻 推送报告到远程仓库 + 飞书
 
