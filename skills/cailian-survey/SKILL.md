@@ -29,13 +29,15 @@ Spawn `bee` agent（`agentId: "bee"`，`mode: "run"`），使用 **tech-research
 
 ```
 增量技术发现任务：
-1. 读取 pipeline/bee_dataset_filtering_research.json（已有调研基线）
+1. 读取 pipeline/cailian_baseline_names.jsonl 获取已知论文/工具/博客名称列表
+   格式：每行 "type\tname"（type = paper/tool/blog）
+   ⚠️ 不要读取 bee_dataset_filtering_research.json（189KB），轻量索引已包含全部名称
 2. 读取 pipeline/last_filtering_run.json 获取上次运行时间
 3. 使用 tech-research skill 的方法论，搜索上次运行后的新增内容：
    - 新发表的论文（arXiv、Scholar）
    - 新发布/更新的工具仓库（GitHub）
    - 新的博客文章和教程
-4. 对比基线，仅输出新增或更新的内容
+4. 对比基线名称列表，仅输出新增或更新的内容
 5. 结果写入 pipeline/bee_dataset_filtering_incremental.json
    格式与 bee_dataset_filtering_research.json 一致
 6. 输出增量统计（新增论文数/工具数/博客数）
@@ -55,8 +57,12 @@ Spawn `professor-yu` agent（`agentId: "professor-yu"`，`mode: "run"`），任�
 
 【输入】
 1. pipeline/bee_dataset_filtering_incremental.json（本次增量发现）
-2. pipeline/bee_dataset_filtering_research.json（全量调研基线）
-3. dataset_filtering_survey/ 目录下的历史报告（已推送内容）
+2. pipeline/cailian_baseline_names.jsonl（已知论文/工具/博客名称列表，轻量索引）
+3. pipeline/cailian_reported_names.jsonl（已在历史报告中介绍过的名称，去重索引）
+4. pipeline/cailian_urls.json（名称→URL 映射，供查链接用）
+
+⚠️ 不要读取 bee_dataset_filtering_research.json（189KB）或扫描 dataset_filtering_survey/ 目录（372KB），
+上述轻量索引文件已包含去重所需的全部信息，总体积仅 ~60KB。
 
 【分析要求】
 1. 对增量内容进行分类归纳：
@@ -65,9 +71,8 @@ Spawn `professor-yu` agent（`agentId: "professor-yu"`，`mode: "run"`），任�
    - 评估每项工作的实用价值（对多语言数据集构建的参考价值）
 
 2. 与历史报告对比（严格去重）：
-   - 扫描 dataset_filtering_survey/ 下所有已推送的报告
-   - 提取已报告过的论文标题、工具名称
-   - 本次报告中只包含**从未在任何历史报告中出现过**的内容
+   - 读取 pipeline/cailian_reported_names.jsonl（每行 "type\tname"）
+   - 本次报告中只包含**不在 cailian_reported_names.jsonl 中**的内容
    - 如有更新版本，仅在「🔄 更新内容」章节简述变更
 
 3. 生成增量报告 dataset_filtering_survey/YYYY-MM-DD.md，格式：
@@ -122,8 +127,19 @@ Spawn `coder` agent（`agentId: "coder"`，`mode: "run"`），任务指令：
    - 新增工具追加到 tools_and_repos[] 数组
    - 新增博客追加到 blog_posts_and_tutorials[] 数组
    - 去重：如同一论文已存在则跳过
-7. 更新 pipeline/last_filtering_run.json
-8. 删除 pipeline/bee_dataset_filtering_incremental.json
+
+【重建去重索引】（⚠️ 必须在合并后执行）
+7. 运行：
+   ```bash
+   python3 scripts/build_cailian_dedup_index.py --incremental
+   ```
+   这会更新以下三个轻量索引文件：
+   - `pipeline/cailian_baseline_names.jsonl` — 小蜜蜂用的基线名称列表
+   - `pipeline/cailian_reported_names.jsonl` — 语教授用的去重名称列表
+   - `pipeline/cailian_urls.json` — 论文/工具 URL 映射
+
+8. 更新 pipeline/last_filtering_run.json
+9. 删除 pipeline/bee_dataset_filtering_incremental.json
 ```
 
 **远程仓库信息**：

@@ -198,6 +198,7 @@ MUDIDI
 mudkip02/gsm8k-multilingual-filtered
 multi-open (African Languages)
 MultIdiom_Dataset
+MultiHal
 Multilingual English-Nuer-Dinka-Swahili Corpus
 Multilingual Instructional Dialogues
 Multilingual Mutual Reinforcement Effect IE Dataset
@@ -205,6 +206,7 @@ Multilingual Safety Classification Dataset
 Multilingual-Accent-Speech
 Multilingual-BFCL
 multilingual-gsm-symbolic
+Multilingual-Multimodal-NLP/FinanceComplexQA
 Multilingual-Reasoning-Gym-SFT
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
@@ -230,6 +232,8 @@ Nemotron-Safety-Guard-Dataset-v3
 Nemotron-SFT-Multilingual-v2
 Nemotron-VLM-Dataset-v2
 NigBench-MAMAI-Speech-QA
+NiuTrans/LMT-60-sft-data
+Nobody05/Multilingual-Medical-Corpus
 nur-dev/farabi-crosslingual-tool-argnorm
 NVIDIA Nemotron Post-Training Dataset v2
 nvidia/Nemotron-CC-v2
@@ -289,6 +293,7 @@ SpeechJBB
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
+SWE-bench/SWE-bench_Multilingual
 swebench-multilingual (junlin-modal)
 TableEval
 tackhwa/multilingual_safety
@@ -326,4 +331,5 @@ XNLI (Cross-lingual NLI)
 XQ-MEval
 xzx34/cross-lingual-pitfalls
 YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples
+Zyroxx66/somali-pretraining-corpus
 万卷·丝路2.0 (WanJuan Silk Road 2.0)

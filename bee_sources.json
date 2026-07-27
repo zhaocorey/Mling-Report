@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-24",
-  "search_summary": "增量更新 2026-07-04 至 2026-07-24，2个新增，0个版本更新，基线达 329 个",
+  "search_date": "2026-07-27",
+  "search_summary": "增量更新 2026-07-24 至 2026-07-27，6个新增，0个版本更新，基线达 335 个",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -6521,6 +6521,132 @@
       "timeliness_score": "高",
       "search_keywords": "Pluralis multicultural multimodal multilingual benchmark AI safety",
       "source": "DuckDuckGo搜索发现（arXiv 2607.06196）"
+    },
+    {
+      "name": "NiuTrans/LMT-60-sft-data",
+      "url": "https://huggingface.co/datasets/NiuTrans/LMT-60-sft-data",
+      "languages": [
+        "en",
+        "zh",
+        "ar",
+        "es",
+        "de",
+        "fr",
+        "it",
+        "ja",
+        "nl",
+        "pl",
+        "pt",
+        "ru",
+        "tr",
+        "bg",
+        "bn",
+        "cs",
+        "da",
+        "el",
+        "fa",
+        "fi",
+        "hi",
+        "hu",
+        "id",
+        "ko",
+        "nb",
+        "ro",
+        "sk",
+        "sv",
+        "th",
+        "uk",
+        "vi",
+        "am",
+        "az",
+        "bo",
+        "he",
+        "hr",
+        "hy",
+        "is",
+        "jv",
+        "ka",
+        "kk",
+        "km",
+        "ky",
+        "lo",
+        "mvf"
+      ],
+      "size": "90B tokens (mixed monolingual and bilingual), 60 languages × 234 directions",
+      "license": "not specified (open models: NiuTrans/LMT-60-{0.6B,1.7B,4B,8B})",
+      "category": "微调/机器翻译",
+      "description": "ACL 2026主会论文。NiuTrans.LMT（Large-scale Multilingual Translation）的SFT训练数据，以中英为中心覆盖60种语言234个翻译方向。包含4种模型规模（0.6B/1.7B/4B/8B）。研究发现多语言SFT在pivot语言对称使用多路平行数据时的失败模式，并提出解决方案。4B模型在同等语言覆盖的开源MMT系统中具有竞争力。arXiv:2511.07003。2025-11-11创建，2026-07-23最后更新。536下载，5 likes。",
+      "last_updated": "2026-07-23",
+      "release_version": "ACL 2026 Main Conference"
+    },
+    {
+      "name": "SWE-bench/SWE-bench_Multilingual",
+      "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multilingual",
+      "languages": [
+        "en (9 programming languages: C, C++, Go, Java, JavaScript/TypeScript, PHP, Ruby, Rust)"
+      ],
+      "size": "300 curated tasks from 42 repositories",
+      "license": "MIT",
+      "category": "评估基准/代码",
+      "description": "SWE-bench的多语言编程扩展，评估语言模型在9种编程语言（C、C++、Go、Java、JS/TS、PHP、Ruby、Rust）上的真实GitHub issue解决能力。300个精选任务来自42个仓库。遵循与SWE-bench相同的收集策略、数据格式和评估协议。54,851下载（极高社区采用），20 likes。Claude Opus 5以89.5%领先。2025-04-29创建，2026-07-22最后更新。注意：'Multilingual'指编程语言而非自然语言。",
+      "last_updated": "2026-07-22",
+      "release_version": "latest (July 2026 update)"
+    },
+    {
+      "name": "Multilingual-Multimodal-NLP/FinanceComplexQA",
+      "url": "https://huggingface.co/datasets/Multilingual-Multimodal-NLP/FinanceComplexQA",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "size": "1K<n<10K samples",
+      "license": "Apache-2.0",
+      "category": "评估基准/金融推理",
+      "description": "中英双语金融复杂问答基准数据集。评估LLM和Agent系统能否基于参考文档进行金融领域的复杂推理（而非仅依赖参数知识）。覆盖多个金融文档领域，支持数值计算、多跳推理、内容摘要和行业分析。配套论文'FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents'（arXiv 2607.19238，2026年7月）。使用Finance-LaTeX工作流合成布局丰富的金融文档和验证QA对。Apache-2.0许可。82下载，3 likes。2026-07-23创建，2026-07-24最后更新。",
+      "last_updated": "2026-07-24",
+      "release_version": "v1 (arXiv 2607.19238)"
+    },
+    {
+      "name": "MultiHal",
+      "url": "https://arxiv.org/abs/2505.14101",
+      "languages": [
+        "multilingual (KG-based, multiple languages via Wikidata)"
+      ],
+      "size": "140K KG-paths mined, curated high-quality subset",
+      "license": "not specified",
+      "category": "评估基准/幻觉检测",
+      "description": "ICML 2026论文。首个基于知识图谱的多语言多跳幻觉评估基准。从开放域KG（Wikidata等）中挖掘140K条KG路径，经过噪声过滤构建高质量评估数据。评估生成式文本的事实性，弥补了现有幻觉基准缺乏KG路径和多语言性的不足。已有HuggingFace复现空间(gogorun12/repro-multihal-multilingual-kg)。arXiv:2505.14101（论文2025年5月，ICML 2026正式发表）。",
+      "last_updated": "2026-07 (ICML 2026 presentation)",
+      "release_version": "ICML 2026"
+    },
+    {
+      "name": "Zyroxx66/somali-pretraining-corpus",
+      "url": "https://huggingface.co/datasets/Zyroxx66/somali-pretraining-corpus",
+      "languages": [
+        "so (Somali / Af-Soomaali)"
+      ],
+      "size": "10K<n<100K samples",
+      "license": "CC-BY-4.0",
+      "category": "预训练语料/低资源语言",
+      "description": "索马里语（Af-Soomaali）预训练语料数据集。索马里语为极低资源语言（Horn of Africa地区），本数据集包含合成和收集的索马里语文本用于预训练。支持text-generation和fill-mask任务。CC-BY-4.0开放许可。38下载（刚发布）。2026-07-24创建，2026-07-26最后更新。重要意义：填补索马里语预训练数据的空白。",
+      "last_updated": "2026-07-26",
+      "release_version": "v1"
+    },
+    {
+      "name": "Nobody05/Multilingual-Medical-Corpus",
+      "url": "https://huggingface.co/datasets/Nobody05/Multilingual-Medical-Corpus",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "size": "10M<n<100M samples",
+      "license": "Apache-2.0",
+      "category": "预训练语料/领域特定",
+      "description": "4语种（英语、西班牙语、法语、意大利语）大规模医学文本语料。10M-100M样本，Apache-2.0开放许可。基于arXiv:2404.07613。适用于医学领域LLM的预训练和微调。2026-07-25创建。14下载（刚发布）。",
+      "last_updated": "2026-07-25",
+      "release_version": "v1"
     }
   ],
   "total_datasets": 316,

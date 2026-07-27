@@ -84,6 +84,7 @@ EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
 Faruna01/Cross-lingual-Multi-Agent-Safety
+FinanceComplexQA
 FineTranslations
 FineWeb-2
 FinMMEval
@@ -180,6 +181,7 @@ MuBench (aialt/MuBench)
 MUDIDI — 多语言理解推理基准
 multi-open (African Languages Lab)
 MultIdiom_Dataset
+MultiHal
 Multilingual English-Nuer-Dinka-Swahili Corpus
 Multilingual Instructional Dialogues
 Multilingual Mutual Reinforcement Effect IE Dataset
@@ -189,6 +191,7 @@ Multilingual-BFCL
 multilingual-gsm-symbolic
 Multilingual-GSM-Symbolic (danish-foundation-models)
 multilingual-gsm-symbolic — 数据更新
+Multilingual-Medical-Corpus
 Multilingual-Reasoning-Gym-SFT
 Multilingual-Reasoning-Gym-SFT — 版本更新
 multilingual-reasoning-v2-9.8k
@@ -217,6 +220,7 @@ Nemotron-VLM-Dataset-v2
 Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
 Nigerian Clinical QA Benchmark (medRxiv)
+NiuTrans/LMT-60-sft-data
 nur-dev/farabi-crosslingual-tool-argnorm
 nvidia/Nemotron-CC-v2
 nvidia/Nemotron-CC-v2 🔥
@@ -264,6 +268,7 @@ SemEval-2026 Task 9 (Multilingual Polarization)
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
+somali-pretraining-corpus
 Soohak — Research-level Math Benchmark 📄
 SorryBench-202503-Multilingual
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
@@ -271,6 +276,7 @@ SpeechJBB
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
+SWE-bench/SWE-bench_Multilingual
 swebench-multilingual (junlin-modal)
 tackhwa/multilingual_safety
 Tagengo
@@ -302,3 +308,4 @@ XL-SafetyBench
 XNLI (Cross-lingual NLI)
 XQ-MEval
 已报告再确认
+版本追踪关键变化
