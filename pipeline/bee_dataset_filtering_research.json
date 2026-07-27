@@ -3388,6 +3388,41 @@
       ],
       "category": "synthetic_data",
       "submitted_date": "2026-07-18"
+    },
+    {
+      "title": "Dataset Distillation by Influence Matching",
+      "authors": "Haoru Tan, Wang Wang, Sitong Wu, Xiuzhe Wu, Yangtian Sun, Chirui Chang, Shaofeng Zhang, Xiaojuan Qi",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.16859",
+      "abstract_summary": "Revisits dataset distillation from an outcome-centric perspective. Proposes Influence Matching (Inf-Match), which learns a compact synthetic dataset whose effect on converged parameters matches the full dataset. Introduces a fully differentiable, sample-level influence estimator running in linear time without inverse-Hessian products. Achieves +4.7% over NCFM on Tiny-ImageNet (IPC=10) and scales to vision-language distillation on Flickr30K.",
+      "key_methods": [
+        "influence-based dataset distillation",
+        "differentiable sample-level influence estimator",
+        "first-order Taylor approximation",
+        "outcome alignment over process imitation"
+      ],
+      "practical_value": "Provides a principled, scalable approach to dataset compression. The linear-time influence estimator removes the computational bottleneck of prior methods. Applicable to both classification and vision-language tasks. CVPR 2026.",
+      "source_channel": "HuggingFace Daily Papers (July 24)",
+      "category": "sampling",
+      "relevance_score": "high",
+      "discovery_note": "New in window: July 18, 2026 (featured on HF Daily Papers July 24)"
+    },
+    {
+      "title": "Judging Quality Across Languages: A Multilingual Approach to Pretraining Data Filtering with Language Models",
+      "authors": "Mehdi Ali, Manuel Brack, Max Lübbering, Elias Wendt, Abbas Goher Khan, Richard Rutmann, Alex Jude, Maurice Kraus, Alexander Arno Weber, David Kaczér, Florian Mai, Lucie Flek, Rafet Sifa, Nicolas Flores-Herr, Joachim Köhler, Patrick Schramowski, Michael Fromm, Kristian Kersting",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2505.22232",
+      "abstract_summary": "Introduces JQL, a systematic approach for curating diverse, high-quality multilingual data at scale while reducing computational demands. Distills LLM-based quality judgments into efficient cross-lingual filtering models. Addresses the limitation that existing state-of-the-art datasets rely on heuristic filtering methods with restricted cross-lingual transferability.",
+      "key_methods": [
+        "LLM-distilled quality filtering",
+        "cross-lingual quality judgment transfer",
+        "multilingual data curation at scale"
+      ],
+      "practical_value": "Complementary to MuRating for multilingual quality filtering. Focuses on distilling expensive LLM judgments into efficient filters. Featured on HuggingFace Daily Papers.",
+      "source_channel": "DuckDuckGo arXiv search",
+      "category": "quality",
+      "relevance_score": "medium",
+      "discovery_note": "Gap-fill: May 2025, missed in previous runs"
     }
   ],
   "tools_and_repos": [
@@ -3628,6 +3663,53 @@
       ],
       "source_channel": "GitHub API",
       "relevance": "medium"
+    },
+    {
+      "name": "DeMix Corpora & Code",
+      "url": "https://github.com/Lucius-lsr/DeMix",
+      "stars": null,
+      "description": "Code and 22T-token dataset release for the DeMix paper (ICML 2026). Enables model-merging-based data mixture optimization. Includes component model training scripts and merging-based proxy evaluation.",
+      "comparison_with_existing": "Complements existing data mixing tools (e.g., DoReMi, dynamic mixing) by providing a practical implementation of the decoupled search-training paradigm. The 22T-token corpus is one of the largest validated pretraining corpora with known mixture ratios.",
+      "category": "data_mixing",
+      "discovery_note": "New tool from DeMix paper (ICML 2026)"
+    },
+    {
+      "name": "InfMatch (Dataset Distillation by Influence Matching)",
+      "url": "https://github.com/hrtan/infmatch",
+      "stars": 0,
+      "description": "Code release for the CVPR 2026 paper on Influence Matching for dataset distillation. Provides a fully differentiable, linear-time influence estimator for learning compact synthetic datasets.",
+      "comparison_with_existing": "Unlike existing dataset distillation methods (gradient matching, trajectory matching), InfMatch uses outcome-based influence for better accuracy. New repo, code release pending/early.",
+      "category": "dataset_distillation",
+      "discovery_note": "New tool from CVPR 2026 paper"
+    },
+    {
+      "name": "Microsoft Data-Efficacy (STR/SAW Data Organization)",
+      "url": "https://github.com/microsoft/data-efficacy",
+      "stars": null,
+      "description": "Implementation of the STR and SAW data ordering methods from the ACL 2026 paper 'Demystifying Data Organization for Enhanced LLM Training'. Provides tools for optimizing data presentation order during pre-training and SFT.",
+      "comparison_with_existing": "First dedicated tool for data organization/ordering optimization. Complements data selection tools (which choose WHAT data) by optimizing the ORDER of presentation. From Microsoft Research.",
+      "category": "data_organization",
+      "discovery_note": "New tool from ACL 2026 paper"
+    },
+    {
+      "name": "LLM-Based Synthetic Data Generation (curated resource list)",
+      "url": "https://github.com/ahmad-alismail/LLM_based_Synthetic_Data_Generation",
+      "stars": 13,
+      "description": "A curated and continuously updated collection of papers, tools, and datasets on LLM-based synthetic data generation. Last updated July 25, 2026.",
+      "comparison_with_existing": "Broader scope than existing curated lists—covers synthetic data generation specifically for LLM training. Actively maintained with recent additions.",
+      "category": "curated_resource_list",
+      "last_updated": "2026-07-25",
+      "discovery_note": "New curated resource, updated within search window"
+    },
+    {
+      "name": "Open Distillation Datasets",
+      "url": "https://github.com/lawrence3699/open-distillation-datasets",
+      "stars": 0,
+      "description": "Curated, license-aware catalog of public LLM distillation datasets. Updated July 27, 2026.",
+      "comparison_with_existing": "Niche focus on distillation datasets specifically. License-aware curation is a useful feature for practitioners needing commercially-usable data.",
+      "category": "data_catalogue",
+      "last_updated": "2026-07-27",
+      "discovery_note": "New small repo, updated within search window"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3711,9 +3793,17 @@
         "data mixing visualization",
         "multilingual data quality"
       ]
+    },
+    {
+      "title": "AI Pretraining Data Curation on GPU Cloud: NeMo Curator, Datatrove, and FineWeb-Style Pipelines (2026 Guide)",
+      "url": "https://www.spheron.network/blog/ai-pretraining-data-curation-nemo-curator-datatrove-fineweb-gpu-cloud/",
+      "author": "Spheron Network",
+      "summary": "Comprehensive practical guide for building GPU-accelerated pretraining data curation pipelines. Covers 8-stage pipeline from raw WARC to training-ready shards. Provides throughput benchmarks: exact dedup at 18TB/hr on 8xH100 vs 2TB/hr CPU, MinHash LSH at 4TB/hr GPU vs 300GB/hr CPU. Details NeMo Curator configuration, Datatrove integration, quality classifier setup, and PII removal. Reports 5-7% pass rate for full FineWeb-Edu-style pipeline on raw Common Crawl.",
+      "practical_value": "Highly practical guide with concrete throughput numbers and architecture decisions. The 8-stage pipeline breakdown is a useful reference for teams building curation infrastructure. The GPU vs CPU comparison demonstrates the necessity of GPU-accelerated curation at scale.",
+      "discovery_note": "New technical blog from 2026"
     }
   ],
-  "last_incremental_update": "2026-07-14",
+  "last_incremental_update": "2026-07-27",
   "metadata": {
     "last_updated": "2026-07-11T09:23:00+08:00",
     "total_papers": 85,
@@ -3722,9 +3812,9 @@
     "total_tools": 14,
     "total_blogs": 8
   },
-  "last_merge": "2026-07-15",
-  "last_updated": "2026-07-20",
-  "total_papers": 208,
-  "total_tools": 24,
-  "total_blogs": 8
+  "last_merge": "2026-07-27",
+  "last_updated": "2026-07-27",
+  "total_papers": 220,
+  "total_tools": 29,
+  "total_blogs": 9
 }

@@ -1,26 +1,31 @@
 {
-  "last_run": "2026-07-24T09:00:00+08:00",
+  "last_run": "2026-07-27T15:00:00+08:00",
   "status": "completed",
-  "incremental_papers": 0,
-  "incremental_tools": 0,
-  "incremental_blogs": 0,
+  "incremental_papers": 8,
+  "incremental_tools": 5,
+  "incremental_blogs": 2,
+  "after_dedup_papers": 2,
+  "after_dedup_tools": 5,
+  "after_dedup_blogs": 1,
+  "dedup_skipped": 7,
   "merged_to_baseline": true,
   "github_push": "success",
-  "github_commit": "295e632",
+  "github_commit": "21a39a9",
+  "github_url": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-07-27.md",
   "discovery_channels": [
-    "arXiv cs.CL new submissions (46 papers scanned)",
-    "arXiv cross-listings (24 papers scanned)",
-    "HuggingFace Daily Papers (19 papers checked)"
+    "arXiv (direct paper fetch)",
+    "HuggingFace Daily Papers (July 24-27)",
+    "DuckDuckGo web search",
+    "GitHub API (repository search)",
+    "Semantic Scholar",
+    "HuggingFace Blog",
+    "Spheron technical blog"
   ],
-  "channels_not_available": [
-    "DuckDuckGo web search (bot-detection challenge)",
-    "arXiv API (not used, web fetch used instead)"
-  ],
-  "notes": "09:00 scheduled run. No new content found in 24h incremental window (July 23 09:00 ~ July 24 09:00). All arXiv cs.CL new submissions (46) and cross-lists (24) scanned. 19 HuggingFace daily papers checked individually. Second consecutive day with zero findings. Subagent spawning timed out (gateway timeout); executed in main session.",
+  "notes": "Manual recovery run after API key issues (July 24-27 gap). 3-day window. 15 raw items found, 7 deduped (already in baseline), 8 merged. Baseline: 250→258. Key: InfMatch (CVPR 2026), Data-Efficacy (ACL 2026), DeMix 22T corpora. Professor-yu failed (model switch), zong generated report directly.",
   "baseline_totals": {
-    "papers": 218,
-    "tools_and_repos": 24,
-    "blog_posts_and_tutorials": 8
+    "papers": 220,
+    "tools_and_repos": 29,
+    "blog_posts_and_tutorials": 9
   },
-  "report_file": "dataset_filtering_survey/2026-07-24.md"
+  "report_file": "dataset_filtering_survey/2026-07-27.md"
 }

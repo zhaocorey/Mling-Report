@@ -1,3 +1,4 @@
+blog	AI Pretraining Data Curation on GPU Cloud: NeMo Curator, Datatrove, and FineWeb-Style Pipelines (2026 Guide)
 blog	Data for Agents (NVIDIA / HuggingFace Blog)
 blog	FineWeb: A Comprehensive Framework for High-Quality Web Data Processing
 blog	Reproducible Data Curation In The Multimodal Lakehouse
@@ -58,6 +59,7 @@ paper	Data-Efficient RLVR via Off-Policy Influence Guidance
 paper	DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving
 paper	DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models
 paper	DataRater: Meta-learned Dataset Curation
+paper	Dataset Distillation by Influence Matching
 paper	Datasets, Documents, and Repetitions: The Practicalities of Unequal Data Quality
 paper	DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning
 paper	DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment
@@ -115,6 +117,7 @@ paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for 
 paper	Instruction Data Selection via Answer Divergence (ADG)
 paper	Integrating Coreset Selection in Language Model Fine-Tuning
 paper	IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage
+paper	Judging Quality Across Languages: A Multilingual Approach to Pretraining Data Filtering with Language Models
 paper	Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions
 paper	Label-Efficient Dataset Pruning via Semi-Supervised Pseudo-Labeling
 paper	LABELING COPILOT: A Deep Research Agent for Automated Data Curation in Computer Vision
@@ -234,13 +237,18 @@ tool	DataComp
 tool	DataTrove (HuggingFace)
 tool	DCLM (DataComp-LM)
 tool	deduplicate-text-datasets (Google Research)
+tool	DeMix Corpora & Code
 tool	distributed-curator
 tool	doc2instruct
 tool	dolma (OLMo)
 tool	fineWeb (HuggingFace)
 tool	GCSCS (Graph-Constrained Multi-Hop Data)
+tool	InfMatch (Dataset Distillation by Influence Matching)
+tool	LLM-Based Synthetic Data Generation (curated resource list)
 tool	LZE (Learning-Zone Energy)
+tool	Microsoft Data-Efficacy (STR/SAW Data Organization)
 tool	NVIDIA NeMo Curator
+tool	Open Distillation Datasets
 tool	ptbr-cpt-data-ablation
 tool	RedPajama
 tool	SHIFT (Training-Free RLVR Data Selection)
