@@ -16,11 +16,13 @@
     "bee_sourcing",
     "professor-yu_report",
     "zong_merge",
-    "index_rebuild"
-  ],
-  "pending_stages": [
+    "index_rebuild",
     "coder_push"
   ],
-  "notes": "Round 8. Bee found 10 (8 new + 2 updates). After dedup: 9 new merged (CorefUD 1.4 was in reported but had update → merged as update), UPDESH already reported → update only. Baseline: 335→344. Professor-yu generated 297-line report. Top finds: Nemotron 3 Super (120B MoE), UPDESH (ACL 2026, 9.5M samples), Universal NER v2, AfriNLLB (15 African langs). Index rebuilt: 344 baseline, 320 reported.",
+  "pending_stages": [],
+  "notes": "Round 8. Bee found 10 (8 new + 2 updates). After dedup: 9 new merged, UPDESH already reported → update only. Baseline: 335→344. Professor-yu generated 297-line report. Top finds: Nemotron 3 Super (120B MoE), UPDESH (ACL 2026, 9.5M samples), Universal NER v2, AfriNLLB (15 African langs). Index rebuilt: 344 baseline, 320 reported.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-30.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-30.md",
+  "feishu_url": "https://www.feishu.cn/wiki/Ofimww4PGiM7tekVk4TcmPbMnLd",
   "execution_mode": "manual - Round 8 incremental"
 }
