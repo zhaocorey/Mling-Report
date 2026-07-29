@@ -1,10 +1,12 @@
 blog	AI Pretraining Data Curation on GPU Cloud: NeMo Curator, Datatrove, and FineWeb-Style Pipelines (2026 Guide)
 blog	Data for Agents (NVIDIA / HuggingFace Blog)
+blog	Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles
 blog	FineWeb: A Comprehensive Framework for High-Quality Web Data Processing
 blog	Reproducible Data Curation In The Multimodal Lakehouse
 blog	Scaling Pedagogical Pre-training: From Optimal Mixing to 10 Billion Tokens
 blog	SmolLM Technical Report: Data Curation for Small Language Models
 blog	Spend 80% of Your LLM Compute on Data, Not Training
+blog	Synthetic Data Generation Tools 2026
 blog	The DataComp-LM Benchmark for Data Filtering
 blog	Why Data Curation Became the Bottleneck Again
 paper	20/20 Vision Language Models: Better VLMs through Data Curation Alone
@@ -23,6 +25,7 @@ paper	An Empirical Study on Influence-Based Pretraining Data Selection for Code 
 paper	Autodata: An agentic data scientist to create high quality synthetic data
 paper	AutoPureData: Automated Filtering of Undesirable Web Data to Update LLM Knowledge
 paper	Balancing Knowledge Breadth and Task Depth for Effective Domain Adaptation Fine-Tuning
+paper	Beyond Quantity: Investigating How LLMs Perceive Data Quality in Preference Optimization
 paper	Beyond random sampling: Efficient language model pretraining via curriculum learning
 paper	Beyond What to Select: Plug-and-play Oscillatory Data-Volume Scheduling (PODS)
 paper	Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation
@@ -47,14 +50,18 @@ paper	CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Train
 paper	Curriculum Learning for LLM Pretraining: An Analysis of Learning Dynamics
 paper	Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LLMs Beyond the Base Model
 paper	Curriculum-RLAIF: Curriculum Alignment with Reinforcement Learning from AI Feedback
+paper	DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data
 paper	Data Attribution in Large Language Models via Bidirectional Gradient Optimization
+paper	Data Governance and Curation Strategies for Large Foundation Models
 paper	Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training
 paper	Data Mixing Can Induce Phase Transitions in Knowledge Acquisition
 paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook
 paper	Data Preparation for Large Language Models
+paper	Data Selection and Compression for Efficient Instruction Tuning
 paper	Data Selection for Multi-turn Dialogue Instruction Tuning (MDS)
 paper	Data Selection Through Iterative Self-Filtering for Vision-Language Settings
 paper	Data Value Density Enhancement for Large Language Model Training: A Comprehensive Survey
+paper	Data-Centric Safety Steering of LLMs
 paper	Data-Efficient RLVR via Off-Policy Influence Guidance
 paper	DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving
 paper	DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models
@@ -78,10 +85,13 @@ paper	D³: Dynamic Directional Graph-Constrained Data Scheduling for LLM Trainin
 paper	EasyRL: Easy Samples Are All You Need — Self-Evolving LLMs via Data-Efficient Reinforcement Learning
 paper	EDCO: Dynamic Curriculum Orchestration for Domain-specific Large Language Models
 paper	Efficient and Effective In-Context Demonstration Selection with Coreset
+paper	Efficient Multilingual Data Selection via Joint Optimization
+paper	Efficient Text Deduplication via Suffix-aware Embeddings
 paper	Efficient training of large language models on distributed infrastructures: a survey
 paper	Enhancing Multilingual LLM Pretraining with Model-Based Data Selection
 paper	ENTP: Enhancing Low-Quality SFT Data via Neural-Symbolic Text Purge-Mix
 paper	Environment-free Synthetic Data Generation for API-Calling Agents
+paper	EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT
 paper	EvoSelect: Data-Efficient LLM Evolution for Targeted Task Adaptation
 paper	FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated Learning of Language Models
 paper	Fidelity-Diversity Metrics for Text
@@ -91,6 +101,7 @@ paper	Fixing it in post: A comparative study of llm post-training data quality a
 paper	From Insight to Action: Interpretability-Guided Data Selection in Large Language Models (IGDS)
 paper	From Insight to Action: Interpretability-Guided Data Selection in LLMs (IGDS)
 paper	From Instance Selection to Fixed-Pool Data Recipe Search for Supervised Fine-Tuning
+paper	GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes
 paper	GALA: Geometric Data Selection with Strategic Prospecting for Large Language Model Self-training
 paper	Getting Your Indices in a Row: Full-Text Search for LLM Training Data for Real World Applications
 paper	GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry
@@ -181,6 +192,7 @@ paper	Rethinking Data Mixing from the Perspective of Large Language Models
 paper	Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
 paper	Rethinking Dataset Distillation for Classification: Do Distilled Sets Outperform Coresets?
 paper	Rethinking Multilingual Continual Pretraining: Data Mixing for Adapting LLMs Across Languages and Resources
+paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	Rucl: Stratified rubric-based curriculum learning for multimodal large language model reasoning
 paper	SAI-DPO: Dynamic Sampling that Adapts — Self-Aware Iterative Data Persistent Optimization for Mathematical Reasoning
 paper	Scaling Laws for Mixture Pretraining Under Data Constraints
@@ -193,6 +205,7 @@ paper	Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curat
 paper	SFTMix: Elevating Language Model Instruction Tuning with Mixup Recipe
 paper	SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection
 paper	SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models
+paper	Simula: Reasoning-Driven Synthetic Data Generation and Evaluation
 paper	SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning
 paper	Spokes: Optimizing for Diverse Pretraining Data Selection
 paper	Stable Coresets via Posterior Sampling: Aligning Induced and Full Loss Landscapes
@@ -204,8 +217,10 @@ paper	Text Data Augmentation for Large Language Models: A Comprehensive Survey o
 paper	The Data Frontier for Large Language Models: Selection, Synthesis, and Tools
 paper	The Impact of Coreset Selection on Spurious Correlations and Group Robustness
 paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
+paper	The Promise of Synthetic Data for NLP: Insights from Experiments on Sentence and Word Analogy Tasks
 paper	TiKMiX: Efficient Semi-Dynamic Data Mixture via Data Influence for LLM Pre-training
 paper	Topic Over Source: The Key to Effective Data Mixing for Language Models Pre-training
+paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practices for Large Language Models
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	Towards Understanding Valuable Preference Data for Large Language Model Alignment
 paper	Tracing the Data Trail: A Survey of Data Provenance, Transparency and Traceability in LLMs
@@ -218,6 +233,7 @@ paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
 paper	Unifying Data, Memory, and Compute Efficiency in LLM Training: A Survey
 paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining
 paper	Unsupervised Process-Aware Coreset Selection for In-Context Learning
+paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
 paper	What is Your Data Worth to GPT? LLM-Scale Data Valuation with Influence Functions
 paper	What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning
 paper	What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective (wICI)

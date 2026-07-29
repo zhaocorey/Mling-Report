@@ -1,27 +1,26 @@
 {
-  "last_run_date": "2026-07-27",
+  "last_run_date": "2026-07-30",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-07-07",
-  "window_end": "2026-07-27",
-  "baseline_sources_count": 335,
+  "window_start": "2026-07-10",
+  "window_end": "2026-07-30",
+  "baseline_sources_count": 344,
   "new_datasets_found": 8,
-  "new_datasets_merged": 6,
-  "dedup_skipped": 2,
-  "version_updates_found": 5,
-  "version_updates_merged": 0,
-  "report_file": "sources_reports/2026-07-27.md",
-  "previous_run": "2026-07-24",
+  "new_datasets_merged": 9,
+  "dedup_skipped": 1,
+  "version_updates_found": 2,
+  "version_updates_merged": 1,
+  "report_file": "sources_reports/2026-07-30.md",
+  "previous_run": "2026-07-27",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
     "zong_merge",
     "index_rebuild"
   ],
-  "pending_stages": [],
-  "notes": "Round 7. 8 found by bee, 2 deduped (multilingual-gsm-symbolic + Pluralis v0.1 already reported), 6 merged. Baseline: 329→335. Professor-yu failed (model switch error), zong generated report directly. Key finds: NiuTrans/LMT-60-sft-data (ACL 2026, 60-lang MT), MultiHal (ICML 2026, hallucination). Dedup index rebuilt: 335 baseline names, 311 reported names.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-27.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-27.md",
-  "feishu_url": "https://www.feishu.cn/wiki/Vmz4wH4YCiLEkHkJvWPc9Nz5nXc",
-  "execution_mode": "manual - api-key recovery run after 7/24 failure"
+  "pending_stages": [
+    "coder_push"
+  ],
+  "notes": "Round 8. Bee found 10 (8 new + 2 updates). After dedup: 9 new merged (CorefUD 1.4 was in reported but had update → merged as update), UPDESH already reported → update only. Baseline: 335→344. Professor-yu generated 297-line report. Top finds: Nemotron 3 Super (120B MoE), UPDESH (ACL 2026, 9.5M samples), Universal NER v2, AfriNLLB (15 African langs). Index rebuilt: 344 baseline, 320 reported.",
+  "execution_mode": "manual - Round 8 incremental"
 }

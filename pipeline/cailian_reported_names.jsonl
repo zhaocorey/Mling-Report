@@ -1,8 +1,10 @@
 blog	AI Pretraining Data Curation on GPU Cloud (2026 Guide)
 blog	Data for Agents
+blog	Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles
 blog	Reproducible Data Curation In The Multimodal Lakehouse
 blog	Scaling Pedagogical Pre-training: From Optimal Mixing to 10 Billion Tokens
 blog	Spend 80% of Your LLM Compute on Data, Not Training
+blog	Synthetic Data Generation Tools 2026
 blog	Why Data Curation Became the Bottleneck Again
 paper	20/20 Vision Language Models: Better VLMs through Data Curation Alone
 paper	A Bitter Lesson for Data Filtering ⭐⭐⭐⭐⭐
@@ -14,6 +16,7 @@ paper	arXiv cs.CL (July 22, 48 new + 30 cross-lists)
 paper	arXiv cs.CL (July 23, 46 new + 24 cross-lists)
 paper	ASLEC: On the Step Length Confounding in LLM Reasoning Data Selection
 paper	Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data
+paper	Beyond Quantity: Investigating How LLMs Perceive Data Quality in Preference Optimization
 paper	Beyond What to Select: Plug-and-play Oscillatory Data-Volume Scheduling (PODS)
 paper	Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation
 paper	Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs via Data Curation
@@ -29,8 +32,12 @@ paper	CuBAS: Information Geometric Curvature-Based Adaptive Sampling for Supervi
 paper	CurateEvo: Evolutionary Evaluation for Data Curation
 paper	CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Training
 paper	Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LLMs Beyond the Base Model
+paper	DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data
 paper	Data Attribution in Large Language Models via Bidirectional Gradient Optimization
+paper	Data Governance and Curation Strategies for Large Foundation Models
+paper	Data Selection and Compression for Efficient Instruction Tuning
 paper	Data Value Density Enhancement for Large Language Model Training: A Comprehensive Survey
+paper	Data-Centric Safety Steering of LLMs
 paper	DataComp-VLM: Improved Open Datasets for Vision-Language Models
 paper	DataEvolver: Automatic Data Preparation for LLMs through Multi-Level Self-Evolving ⭐⭐⭐
 paper	DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models
@@ -46,8 +53,11 @@ paper	DoGraph: Decomposing and Orchestrating LLM Reasoning Graphs (ACL 2026 Shor
 paper	DRIFT: Refining Instruction Data via On-Policy Data Attribution ⭐⭐⭐⭐
 paper	DuckDuckGo Web Search
 paper	D³: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training
+paper	Efficient Multilingual Data Selection via Joint Optimization ⭐
+paper	Efficient Text Deduplication via Suffix-aware Embeddings
 paper	Enhancing Multilingual LLM Pretraining with Model-Based Data Selection
 paper	Environment-free Synthetic Data Generation for API-Calling Agents ⭐⭐⭐
+paper	EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT
 paper	Fidelity-Diversity Metrics for Data Selection
 paper	Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tuning
 paper	From Instance Selection to Selection Size: The Gap in Dataset Selection (ACL 2026)
@@ -93,22 +103,27 @@ paper	Reasoning Quality Emerges Early in Pre-training
 paper	Reasoning Quality Emerges Early: Data Curation for Reasoning Models
 paper	Removing Noise, not Finding Gold: Quality Filtering for Large-Scale Pretraining ⭐⭐⭐⭐⭐
 paper	Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods
+paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	Scaling Multi-Hop Training Data via Graph-Constrained Path Selection
 paper	Select2Reason: Scaling LLM Reasoning via Data Selection (ACL 2026)
 paper	SelecT: Selective Training for LLMs (ACL 2026)
 paper	SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection
 paper	SIEVE: Streaming Inference for Efficient Verification and Evaluation
+paper	Simula: Reasoning-Driven Synthetic Data Generation and Evaluation
 paper	SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning
 paper	Tailoring the Curriculum: Student-Centered Reasoning Distillation via Dynamic Data-Model Compatibility ⭐⭐⭐
 paper	TBDFiltering: Sample-Efficient Tree-Based Data Filtering
 paper	The Data Frontier for Large Language Models: Selection, Synthesis, and Tools ⭐⭐⭐
 paper	The Impact of Coreset Selection on Spurious Correlations and Group Robustness
 paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning (LHAS)
+paper	The Promise of Synthetic Data for NLP: Insights from Experiments on Sentence and Word Analogy Tasks
+paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practices for Large Language Models
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
 paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining
+paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
 paper	What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective (wICI)
 paper	What Matters in Data for DPO?
 paper	When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training
@@ -151,11 +166,14 @@ paper	数据策划（Curation）
 paper	数据质量（Quality）
 paper	数据过滤（Filtering）
 paper	数据采样/课程学习（Sampling/Curriculum）
+paper	类别分布
 paper	精读优先级总表
 paper	综述（Survey）
 paper	近期高价值论文
 tool	ADS (Adaptive Data Scheduling)
+tool	awesome-llm-data
 tool	BLISS-Bilevel-Data-Selection
+tool	CodeForge-Agent
 tool	CuratorKIT
 tool	DeMix Corpora & Code
 tool	DeMix Corpora and Code
@@ -170,5 +188,6 @@ tool	Microsoft Data-Efficacy (STR/SAW)
 tool	NVIDIA NeMo Curator
 tool	Open Distillation Datasets
 tool	ptbr-cpt-data-ablation
+tool	SDG-Synthetic-Data-Factory
 tool	SHIFT (Training-Free RLVR Data Selection)
 tool	Smart-data-selection-for-language-modeling

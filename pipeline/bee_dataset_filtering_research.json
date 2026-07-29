@@ -3423,6 +3423,147 @@
       "category": "quality",
       "relevance_score": "medium",
       "discovery_note": "Gap-fill: May 2025, missed in previous runs"
+    },
+    {
+      "title": "Simula: Reasoning-Driven Synthetic Data Generation and Evaluation",
+      "authors": "Google Research (Aakanksha, A. et al.)",
+      "url": "https://arxiv.org/abs/2603.29791",
+      "year": 2026,
+      "venue": "TMLR / ICML 2026",
+      "abstract": "Introduces Simula, a reasoning-first framework for synthetic data generation that decomposes domains into taxonomies for generating diverse and controllable synthetic data. Uses generator-critic alternation and best-of-N sampling. Seedless and agentic approach that constructs datasets from first principles.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-03",
+      "relevance": "synthetic_data_generation"
+    },
+    {
+      "title": "GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes",
+      "authors": "arxiv 2606.30077",
+      "url": "https://arxiv.org/abs/2606.30077",
+      "year": 2026,
+      "abstract": "Proposes GAIA (Global Adaptive Instruction Analyzer), an online data selection method for LLM training that overcomes batch-constrained limitations of existing methods using Gaussian Processes for global utility optimization.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-06",
+      "relevance": "data_selection"
+    },
+    {
+      "title": "Data-Centric Safety Steering of LLMs",
+      "authors": "arxiv 2607.10545",
+      "url": "https://arxiv.org/abs/2607.10545",
+      "year": 2026,
+      "abstract": "Proposes data-centric approach to safety steering of LLMs, focusing on how training data composition and filtering affects model safety properties.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-18",
+      "relevance": "data_filtering_safety"
+    },
+    {
+      "title": "RL-Optimized Synthetic Data Generation for Targeted Language Model Training",
+      "authors": "arxiv 2607.09984",
+      "url": "https://arxiv.org/abs/2607.09984",
+      "year": 2026,
+      "abstract": "Uses reinforcement learning to optimize synthetic data generation for targeted LLM training, improving data quality and training efficiency.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-17",
+      "relevance": "synthetic_data"
+    },
+    {
+      "title": "Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practices for Large Language Models",
+      "authors": "arxiv 2607.09904",
+      "url": "https://arxiv.org/abs/2607.09904",
+      "year": 2026,
+      "abstract": "Provides a comprehensive taxonomy of trustworthy data practices and evaluation methods for LLMs, covering data quality, filtering, and validation frameworks.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-17",
+      "relevance": "data_quality"
+    },
+    {
+      "title": "DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data",
+      "authors": "Anthropic (Wu, A. et al.)",
+      "url": "https://arxiv.org/abs/2607.08754",
+      "year": 2026,
+      "abstract": "Proposes a dynamic benchmark for evaluating domain-adaptive pre-training under data contamination, studying how training on non-i.i.d. text distributions affects model capabilities and catastrophic forgetting.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-16",
+      "relevance": "data_quality_benchmark"
+    },
+    {
+      "title": "The Promise of Synthetic Data for NLP: Insights from Experiments on Sentence and Word Analogy Tasks",
+      "authors": "arxiv 2607.07554",
+      "url": "https://arxiv.org/abs/2607.07554",
+      "year": 2026,
+      "abstract": "Empirical investigation of synthetic data utility for NLP tasks, evaluating how synthetic data performs on sentence-level and word analogy benchmarks.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-16",
+      "relevance": "synthetic_data"
+    },
+    {
+      "title": "Data Selection and Compression for Efficient Instruction Tuning",
+      "authors": "arxiv 2607.06182",
+      "url": "https://arxiv.org/abs/2607.06182",
+      "year": 2026,
+      "abstract": "Proposes methods for selecting and compressing instruction tuning data to improve training efficiency while maintaining model performance.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-15",
+      "relevance": "data_selection"
+    },
+    {
+      "title": "Beyond Quantity: Investigating How LLMs Perceive Data Quality in Preference Optimization",
+      "authors": "arxiv 2607.05424",
+      "url": "https://arxiv.org/abs/2607.05424",
+      "year": 2026,
+      "abstract": "Investigates how LLMs perceive and utilize data quality signals during preference optimization (DPO/RLHF), showing quality matters more than quantity for alignment.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-14",
+      "relevance": "data_quality"
+    },
+    {
+      "title": "EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT",
+      "authors": "arxiv 2607.04234",
+      "url": "https://arxiv.org/abs/2607.04234",
+      "year": 2026,
+      "abstract": "Introduces EvoData, a framework for evaluating synthetic data quality in supervised fine-tuning contexts, providing grounded metrics for assessing synthesis effectiveness.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-11",
+      "relevance": "synthetic_data_evaluation"
+    },
+    {
+      "title": "Efficient Text Deduplication via Suffix-aware Embeddings",
+      "authors": "arxiv 2607.02515",
+      "url": "https://arxiv.org/abs/2607.02515",
+      "year": 2026,
+      "abstract": "Proposes a novel suffix-aware embedding approach for efficient text deduplication in large-scale pretraining corpora, improving over MinHash and SimHash methods.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-09",
+      "relevance": "deduplication"
+    },
+    {
+      "title": "Data Governance and Curation Strategies for Large Foundation Models",
+      "authors": "arxiv 2607.01685",
+      "url": "https://arxiv.org/abs/2607.01685",
+      "year": 2026,
+      "abstract": "Studies data governance and curation strategies specific to large foundation models, covering consent, filtering, and data provenance frameworks.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-07",
+      "relevance": "data_governance"
+    },
+    {
+      "title": "Efficient Multilingual Data Selection via Joint Optimization",
+      "authors": "arxiv 2607.00528",
+      "url": "https://arxiv.org/abs/2607.00528",
+      "year": 2026,
+      "abstract": "Proposes joint optimization methods for efficient multilingual data selection, addressing how to select the most effective language proportions for multilingual LLM pretraining.",
+      "date_found": "2026-07-28",
+      "date_published": "2026-07-02",
+      "relevance": "data_selection_multilingual"
+    },
+    {
+      "title": "What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets",
+      "authors": "AAAI 2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/41279",
+      "year": 2026,
+      "abstract": "Presents a benchmark study comparing data filtering strategies for harm reduction in LLM pretraining datasets, analyzing what content different filtering approaches remove and their downstream effects.",
+      "date_found": "2026-07-28",
+      "date_published": "2026",
+      "relevance": "data_filtering_safety"
     }
   ],
   "tools_and_repos": [
@@ -3710,6 +3851,46 @@
       "category": "data_catalogue",
       "last_updated": "2026-07-27",
       "discovery_note": "New small repo, updated within search window"
+    },
+    {
+      "title": "open-distillation-datasets",
+      "authors": "lawrence3699",
+      "url": "https://github.com/lawrence3699/open-distillation-datasets",
+      "year": 2026,
+      "description": "Curated, license-aware catalog of public LLM distillation datasets with bounded download tooling. Provides structured access to distillation training data.",
+      "date_found": "2026-07-28",
+      "date_created": "2026-07-27",
+      "stars": 0
+    },
+    {
+      "title": "CodeForge-Agent",
+      "authors": "NoGamble",
+      "url": "https://github.com/NoGamble/CodeForge-Agent",
+      "year": 2026,
+      "description": "An Agentic Data Curation Pipeline built with LangChain for filtering, deduplicating, and extracting high-quality Python pre-training data for LLMs.",
+      "date_found": "2026-07-28",
+      "date_created": "2026-07-26",
+      "stars": 0
+    },
+    {
+      "title": "SDG-Synthetic-Data-Factory",
+      "authors": "rajapalagummi",
+      "url": "https://github.com/rajapalagummi/SDG-Synthetic-Data-Factory",
+      "year": 2026,
+      "description": "Installable Python library for generating synthetic LLM training and evaluation data on demand — reasoning chains, code, structured records, and QA pairs.",
+      "date_found": "2026-07-28",
+      "date_created": "2026-07-23",
+      "stars": 1
+    },
+    {
+      "title": "awesome-llm-data",
+      "authors": "Intelvor",
+      "url": "https://github.com/Intelvor/awesome-llm-data",
+      "year": 2026,
+      "description": "A curated list of awesome resources for LLM data engineering, vector databases, RAG, and inference optimization.",
+      "date_found": "2026-07-28",
+      "date_created": "2026-07-25",
+      "stars": 0
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3801,6 +3982,22 @@
       "summary": "Comprehensive practical guide for building GPU-accelerated pretraining data curation pipelines. Covers 8-stage pipeline from raw WARC to training-ready shards. Provides throughput benchmarks: exact dedup at 18TB/hr on 8xH100 vs 2TB/hr CPU, MinHash LSH at 4TB/hr GPU vs 300GB/hr CPU. Details NeMo Curator configuration, Datatrove integration, quality classifier setup, and PII removal. Reports 5-7% pass rate for full FineWeb-Edu-style pipeline on raw Common Crawl.",
       "practical_value": "Highly practical guide with concrete throughput numbers and architecture decisions. The 8-stage pipeline breakdown is a useful reference for teams building curation infrastructure. The GPU vs CPU comparison demonstrates the necessity of GPU-accelerated curation at scale.",
       "discovery_note": "New technical blog from 2026"
+    },
+    {
+      "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
+      "authors": "Google Research Blog",
+      "url": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/",
+      "year": 2026,
+      "description": "Google Research blog post introducing Simula, a reasoning-first methodology for constructing synthetic datasets from first principles. Discusses generator-critic alternation and domain taxonomy decomposition.",
+      "date_found": "2026-07-28"
+    },
+    {
+      "title": "Synthetic Data Generation Tools 2026",
+      "authors": "Presenc AI",
+      "url": "https://presenc.ai/research/synthetic-data-generation-tools-2026",
+      "year": 2026,
+      "description": "Comprehensive survey of synthetic data generation tools in 2026 including Distilabel, Magpie, Augmentoolkit, NeMo Curator, Open-Instruct, and dozens of specialized tools for math, code, and reasoning data generation.",
+      "date_found": "2026-07-28"
     }
   ],
   "last_incremental_update": "2026-07-27",

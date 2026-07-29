@@ -2946,8 +2946,8 @@
       "category": "微调",
       "description": "ACL 2026 主会论文。面向13种印度语言的文化背景指令微调数据集，采用自底向上的文化感知合成pipeline生成9.5M高质量IFT样本。评估涵盖数据生成、质量评估和模型性能，弥补了现有印度语言指令数据的不足。",
       "discovered_date": "2026-06-30",
-      "last_updated": "2026-06-20",
-      "release_version": "ACL 2026 Main",
+      "last_updated": "2026-07-15",
+      "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual SFT dataset + ACL 2026",
       "source": "SearXNG搜索发现"
@@ -6647,10 +6647,187 @@
       "description": "4语种（英语、西班牙语、法语、意大利语）大规模医学文本语料。10M-100M样本，Apache-2.0开放许可。基于arXiv:2404.07613。适用于医学领域LLM的预训练和微调。2026-07-25创建。14下载（刚发布）。",
       "last_updated": "2026-07-25",
       "release_version": "v1"
+    },
+    {
+      "name": "AdaMame Multilingual Reasoning Traces",
+      "url": "https://arxiv.org/abs/2606.15080",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "es"
+      ],
+      "size": "30K naturally occurring reasoning traces across 5 languages",
+      "license": "未明确（论文配套，待确认）",
+      "category": "微调",
+      "description": "AdaMame论文配套数据集，包含5种语言的自然数学推理轨迹。SFT阶段使用，配合AdaMame-GRPO（渐进对齐GRPO变体），在12种语言的数学推理评测中实现Pareto最优性能（准确率×语言保真度×token效率）。针对多语言数学推理中的语言崩塌（language collapse）问题。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-06-19",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "AdaMame multilingual reasoning SFT GRPO math",
+      "source": "SearXNG arXiv搜索发现"
+    },
+    {
+      "name": "Universal NER v2 (UNER v2)",
+      "url": "https://arxiv.org/abs/2604.12744",
+      "languages": [
+        "multilingual",
+        "大规模多语言（具体语言数待确认，远超v1）"
+      ],
+      "size": "大规模标注NER数据集（v1的显著扩展）",
+      "license": "未明确（学术基准，通常CC-BY-SA）",
+      "category": "评估",
+      "description": "Universal NER项目第四年成果，大规模多语言命名实体识别基准数据集。使用统一标注体系和通用标签集，支持跨语言NER评估。v2相比2024年发布的v1有显著扩展，增加了更多语言和标注者，是评估多语言LLM NER能力的重要基准。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-04-17",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "search_keywords": "Universal NER v2 multilingual NER benchmark",
+      "source": "SearXNG arXiv搜索发现"
+    },
+    {
+      "name": "CorefUD 1.4 / CRAC 2026 Shared Task",
+      "url": "https://aclanthology.org/2026.codi-1.21/",
+      "languages": [
+        "19种语言（27个数据集）"
+      ],
+      "size": "27 datasets in 19 languages, 7M tokens",
+      "license": "CC-BY-SA（CorefUD标准许可）",
+      "category": "评估",
+      "description": "第五届多语言共指解析共享任务数据集。CRAC 2026版本新增5个数据集和2种语言，基于CorefUD 1.4统一多语言语料集合（27个数据集，19种语言，700万tokens）。重点关注长距离实体（跨多词多句的共指链）。10个参赛系统，含4个LLM方案。传统系统仍领先但LLM展现显著潜力。CODI-CRAC 2026 Workshop配套。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-05-30",
+      "release_version": "v1.4 (CorefUD)",
+      "timeliness_score": "高",
+      "search_keywords": "CorefUD CRAC 2026 multilingual coreference resolution",
+      "source": "SearXNG ACL Anthology搜索发现"
+    },
+    {
+      "name": "SEAHateCheck",
+      "url": "https://arxiv.org/abs/2603.16070",
+      "languages": [
+        "id",
+        "tl",
+        "th",
+        "vi"
+      ],
+      "size": "功能测试集（具体样本数待确认）",
+      "license": "未明确（学术基准）",
+      "category": "评估",
+      "description": "首个面向东南亚低资源语言的仇恨言论检测功能测试数据集。覆盖印尼语、塔加洛语（菲律宾语）、泰语、越南语。基于HateCheck功能测试框架，经本地专家验证。发现Tagalog准确率最低（语言复杂度+训练数据少），俚语类测试最难。隐式仇恨检测和反驳表达检测暴露模型弱点。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-03-20",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "SEAHateCheck Southeast Asian hate speech detection low-resource",
+      "source": "SearXNG arXiv搜索发现"
+    },
+    {
+      "name": "AfriNLLB Parallel Corpus",
+      "url": "https://arxiv.org/abs/2602.09373",
+      "languages": [
+        "sw",
+        "ha",
+        "yo",
+        "am",
+        "so",
+        "zu",
+        "ln",
+        "af",
+        "wo",
+        "ar",
+        "fr",
+        "pt",
+        "es"
+      ],
+      "size": "15 language pairs (30 translation directions) parallel corpus",
+      "license": "开源（随模型发布）",
+      "category": "预训练",
+      "description": "非洲语言高效翻译平行语料库。支持15个语言对（30个翻译方向），包括斯瓦希里语、豪萨语、约鲁巴语、阿姆哈拉语、索马里语、祖鲁语、林加拉语、南非荷兰语、沃洛夫语等非洲联盟官方语言。基于NLLB-200 600M压缩（层剪枝+量化），配合知识蒸馏。训练数据公开释放。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-02-12",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "AfriNLLB African languages parallel corpus translation NLLB",
+      "source": "SearXNG arXiv搜索发现"
+    },
+    {
+      "name": "Viet Medi Species 2026",
+      "url": "https://doi.org/10.1145/3774905.3795608",
+      "languages": [
+        "vi",
+        "en"
+      ],
+      "size": "310,647 images of 4,799 species",
+      "license": "开源（ACM Digital Library发布）",
+      "category": "评估",
+      "description": "越南药用植物大规模多语言图像数据集。通过GBIF分类系统匹配越南药用植物名录，收集多界物种（植物/真菌等）31万+图像。完全可复现的异步数据流水线。元数据包含越南文化相关信息并关联GBIF ID。提供在线Explorer工具支持越南语搜索。为低资源语言生物多样性信息学提供可复用模板。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-07-01",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Viet Medi Species 2026 multilingual biodiversity Vietnamese medicinal plants",
+      "source": "SearXNG ACM搜索发现"
+    },
+    {
+      "name": "Nemotron 3 Super Datasets",
+      "url": "https://arxiv.org/abs/2604.12374",
+      "languages": [
+        "multilingual（具体语言覆盖待确认）"
+      ],
+      "size": "大规模预训练+后训练数据集（配合120B参数MoE模型训练）",
+      "license": "开源（NVIDIA开放在HuggingFace）",
+      "category": "预训练",
+      "description": "NVIDIA Nemotron 3 Super（120B参数，活跃12B）配套数据集。包含预训练25T tokens中的新增数据集部分（自Nemotron 3 Nano以来新增），以及SFT和RL后训练数据。支持1M上下文长度。在多项基准上达到GPT-OSS-120B和Qwen3.5-122B同等水平。数据集在HuggingFace开源。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-04-17",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron 3 Super NVIDIA dataset open-source multilingual",
+      "source": "SearXNG arXiv搜索发现"
+    },
+    {
+      "name": "AI Language Proficiency Monitor",
+      "url": "https://arxiv.org/abs/2507.08538",
+      "languages": [
+        "multilingual（覆盖所有有可用基准数据的语言，重点低资源语言）"
+      ],
+      "size": "综合基准（聚合多个多语言评估数据集）",
+      "license": "未明确",
+      "category": "评估",
+      "version_update": true,
+      "description": "AI语言能力监测器——综合性多语言评估基准，聚合多个现有评估数据集，系统性追踪AI模型在所有可用基准语言上的性能。特别关注低资源语言。2026年7月发布的新版本有显著更新。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-07-11",
+      "release_version": "2026-07版本",
+      "timeliness_score": "高",
+      "search_keywords": "AI Language Proficiency Monitor multilingual benchmark low-resource",
+      "source": "SearXNG arXiv搜索发现（2507 = 2026年7月论文）"
+    },
+    {
+      "name": "VoxENES 2026",
+      "url": "https://arxiv.org/abs/2607.11706",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "size": "53,628 audio samples, 10 TTS/VC systems, 10 post-processing conditions",
+      "license": "未明确（学术基准）",
+      "category": "评估",
+      "version_update": true,
+      "description": "双语（英语/西班牙语）语音欺骗检测基准。针对LLM时代TTS和语音转换系统生成的合成语音，填补传统基准的时序泛化缺口。53,628个音频样本，覆盖10种当代语音合成方法和10种标准化后处理条件。最佳检测器EER达28.98%，多数接近随机水平。2026年7月arXiv发布。",
+      "discovered_date": "2026-07-30",
+      "last_updated": "2026-07-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "VoxENES 2026 speech spoofing bilingual benchmark TTS",
+      "source": "SearXNG arXiv搜索发现（2607 = 2026年7月论文）"
     }
   ],
-  "total_datasets": 316,
-  "last_merge": "2026-07-16T20:23:50.082624",
+  "total_datasets": 344,
+  "last_merge": "2026-07-30",
   "total_sources": 307,
   "last_update_note": "2026-07-16 manual merge: +4 new datasets from bee round 2 incremental"
 }
