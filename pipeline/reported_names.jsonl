@@ -144,6 +144,7 @@ latentvector/multilingual-speech-text-corpus
 Lavanya2206/multilingual-asr-dataset
 Legal Corpus Raw Batches
 LEMAS Dataset
+LeTG/multilingual-psyop-100k
 LeTG/multilingual-psyop-100k ⭐
 lightonai/Dolci-Think-SFT-32B-Multilingual
 lightonai/embeddings-fine-tuning-multilingual-unfiltered
@@ -339,3 +340,7 @@ XNLI (Cross-lingual NLI)
 XQ-MEval
 已报告再确认
 版本追踪关键变化
+🌍 BENI Global 10 — 全球南方经济叙事语料
+📊 DimABSA — 多语言维度情感分析
+📚 HPLT 3.0 — PB 级多语言预训练资源重大更新
+🔧 MixMinMatch — 跨源一致性过滤方法

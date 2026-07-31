@@ -1,28 +1,25 @@
 {
-  "last_run_date": "2026-07-31",
+  "last_run_date": "2026-08-01",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-07-11",
-  "window_end": "2026-07-31",
+  "window_start": "2026-07-12",
+  "window_end": "2026-08-01",
   "baseline_sources_count": 365,
-  "new_datasets_found": 20,
-  "new_datasets_merged": 21,
-  "dedup_skipped": 0,
-  "version_updates_found": 2,
+  "new_datasets_found": 4,
+  "new_datasets_merged": 0,
+  "dedup_skipped": 4,
+  "version_updates_found": 1,
   "version_updates_merged": 1,
-  "report_file": "sources_reports/2026-07-31.md",
-  "previous_run": "2026-07-30",
+  "papers_of_interest": 4,
+  "report_file": "sources_reports/2026-08-01.md",
+  "previous_run": "2026-07-31",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
     "zong_merge",
-    "index_rebuild",
-    "coder_push"
+    "index_rebuild"
   ],
   "pending_stages": [],
-  "notes": "Round 9. Bee sourcing via HuggingFace API + arXiv API + SearXNG (DuckDuckGo bot-blocked). Found 20 new + 2 updates. All 20 new passed dedup. Baseline: 344→365. Index rebuilt: 365 baseline, 341 reported.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-31.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-31.md",
-  "feishu_url": "https://www.feishu.cn/wiki/K6iIws1SoiwAESk831OcFCUrnXg",
-  "execution_mode": "manual - Round 9 incremental"
+  "notes": "Round 11. Bee found 4 candidates + 1 version update + 4 papers. All 4 candidates already in reported_names.jsonl (100% dedup rate). Net new: 0. Version update: LeTG/multilingual-psyop-100k. Baseline unchanged at 365. Consecutive zero-new rounds: 3.",
+  "execution_mode": "manual - Round 11 incremental"
 }
