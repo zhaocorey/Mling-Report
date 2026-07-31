@@ -16,11 +16,13 @@
     "bee_sourcing",
     "professor-yu_report",
     "zong_merge",
-    "index_rebuild"
-  ],
-  "pending_stages": [
+    "index_rebuild",
     "coder_push"
   ],
-  "notes": "Round 9. Bee sourcing via HuggingFace API + arXiv API + SearXNG (DuckDuckGo bot-blocked). Found 20 new + 2 updates. All 20 new passed dedup (none in reported_names). 1 version update merged (chaurAr/Cross-lingual-entity-M not in baseline). Baseline: 344→365. Index rebuilt: 365 baseline, 341 reported. Key themes: low-resource languages (Somali, Kazakh, Nepali), safety (psyop-100k), embeddings (LightOn AI), medical multimodal (NLPCC 2026 DA-MIVQA).",
+  "pending_stages": [],
+  "notes": "Round 9. Bee sourcing via HuggingFace API + arXiv API + SearXNG (DuckDuckGo bot-blocked). Found 20 new + 2 updates. All 20 new passed dedup. Baseline: 344→365. Index rebuilt: 365 baseline, 341 reported.",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-31.md",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-31.md",
+  "feishu_url": "https://www.feishu.cn/wiki/K6iIws1SoiwAESk831OcFCUrnXg",
   "execution_mode": "manual - Round 9 incremental"
 }
