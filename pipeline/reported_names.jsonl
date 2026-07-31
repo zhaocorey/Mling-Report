@@ -24,6 +24,7 @@ AyaVisionBench
 aymansharara/IdiomX
 BabyBabelLM
 BabyLM 2026 Multilingual Track 📄
+bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
 BenchMAX
@@ -41,9 +42,11 @@ CAMEO8 (Cultural Dialog and Safety Evaluation Multilingual Dataset)
 CCAligned
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
+chaurAr/Cross-lingual-entity-M
 ChiSafe-PAS (Chinese Safety Pilot Annotation Set)
 Chitrakshara
 CMHG (Chinese Minority Headline Generation)
+Code-Switching Reasoning Traces
 CohereLabs/CultureMarkers
 CohereLabs/Global-MMLU-Lite
 CohereLabs/m-ArenaHard-v2.0
@@ -66,13 +69,16 @@ DaveGabe/cwt-multilingual-pretrain-mix
 DCLM (DataComp for Language Models)
 Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
+DenseOn (Open Multilingual Long-Context Retrieval) ⭐
 DetectRL-X
 DetectRL-X - Multilingual LLM-Generated Text Detection 📄
 DialogPII
 DimABSA — Multilingual Dimensional ABSA (SemEval-2026) 📄
+djelia/multilingual-asr
 Dolci-Think-SFT-32B-Multilingual
 drohanashM/multilingual-news-classifier-data
 ECLeKTic
+EinicherAI/nemotron-multilingual-math-verified
 ellamind/grips-multilingual
 EMMA-500 Bilingual Translation Corpus 📄🔥
 en-az-opus-filtered-parallel-corpus
@@ -87,6 +93,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 FinanceComplexQA
 FineTranslations
@@ -124,6 +131,7 @@ iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 jamesdborin/Nemotron-Multilingual-prompt-only
 jamesdborin/Nemotron-SFT-Multilingual-v2-prompt-only ⭐ 首次跟踪
+jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 Kaleidoscope
 kalenjin-parallel-corpus
@@ -132,16 +140,21 @@ Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
 LangMark
 LASA (Language-Agnostic Semantic Alignment)
+latentvector/multilingual-speech-text-corpus
 Lavanya2206/multilingual-asr-dataset
 Legal Corpus Raw Batches
 LEMAS Dataset
+LeTG/multilingual-psyop-100k ⭐
 lightonai/Dolci-Think-SFT-32B-Multilingual
+lightonai/embeddings-fine-tuning-multilingual-unfiltered
+lightonai/multilingual-embeddings-pre-training-curated
 LingualX64
 LingualX64: Multilingual Translation Symmetry (Nature Scientific Reports)
 LinguaSafe (arXiv 2025, 更新至 2026)
 live-linguist-easylanguage-sft — 28 语言简易语言 SFT 数据
 LiveCLKTBench
 LocalDoc/english-azerbaijani-parallel-corpus
+LongBlocks (Multilingual Long-Context Reasoning)
 LSR Anchoring Phase2 — Multilingual Safety Benchmark & Steering
 LughaGen Multilingual African Corpus
 LuxEmo
@@ -177,6 +190,7 @@ MNG-4/anv_scripted_multilingual-shuffled
 MORE — Multilingual Document Parsing Benchmark 📄🔥
 MORE: A Multilingual Document Parsing Benchmark and Evaluation
 MORPHOGEN
+MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
 mSCORE — Multilingual Skill-Based Commonsense Reasoning
 MsIris2026/embtb-multilingual-eval
@@ -226,6 +240,7 @@ Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
 Nigerian Clinical QA Benchmark (medRxiv)
 NiuTrans/LMT-60-sft-data
+NLPCC 2026 DA-MIVQA ⭐
 nur-dev/farabi-crosslingual-tool-argnorm
 nvidia/Nemotron-CC-v2
 nvidia/Nemotron-CC-v2 🔥
@@ -279,6 +294,7 @@ Soohak — Research-level Math Benchmark 📄
 SorryBench-202503-Multilingual
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
 SpeechJBB
+sripad17/multilingual-safety-probe-test
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
@@ -293,18 +309,23 @@ The African Languages Lab: A Collaborative Approach to Advancing Low-Resource La
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
+tufaax/somali-multilingual-infopankki ⭐
 Tulsiandhare/Multilingual_medical_symptom_triage
+ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
 Ultra-FineWeb-L3
 UltraData-Math
+ulysse1/speculators-multilingual-en-fr-de-it-es
 UNICS (Unified Multilingual Code Search)
 UnityShotsBench
 Universal NER v2 (UNER v2)
 UPDESH
 UrduBench — Urdu Reasoning Benchmark 📄
+userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
 Viet Medi Species 2026
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
+vojewale/Cross-lingualIFEval ⭐
 VoxENES 2026
 WAXAL
 WebFAQ 2.0

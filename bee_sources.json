@@ -4579,7 +4579,8 @@
       "discovered_date": "2026-07-08",
       "last_updated": "2026-06-18",
       "release_version": "N/A",
-      "timeliness_score": "高"
+      "timeliness_score": "高",
+      "update_note": "Updated Jun 18 (within window edge). Baseline already tracked. Downloads: 156, 5 languages (en, de, fr, es, hi)."
     },
     {
       "name": "Wismut/nym-pii-multilingual-data",
@@ -6824,10 +6825,387 @@
       "timeliness_score": "高",
       "search_keywords": "VoxENES 2026 speech spoofing bilingual benchmark TTS",
       "source": "SearXNG arXiv搜索发现（2607 = 2026年7月论文）"
+    },
+    {
+      "name": "vojewale/Cross-lingualIFEval",
+      "url": "https://huggingface.co/datasets/vojewale/Cross-lingualIFEval",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "unknown (eval benchmark)",
+      "license": "unknown",
+      "category": "评估",
+      "description": "Cross-lingual instruction following evaluation benchmark for LLMs. Tests ability to follow instructions across languages.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-22",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual instruction following evaluation",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "EinicherAI/nemotron-multilingual-math-verified",
+      "url": "https://huggingface.co/datasets/EinicherAI/nemotron-multilingual-math-verified",
+      "languages": [
+        "en",
+        "de",
+        "ja",
+        "ko",
+        "pt"
+      ],
+      "size": "unknown (verified math dataset)",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Verified multilingual math dataset derived from Nemotron, covering 5 languages (en, de, ja, ko, pt). Quality-verified math reasoning data for SFT.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "nemotron multilingual math verified",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "sripad17/multilingual-safety-probe-test",
+      "url": "https://huggingface.co/datasets/sripad17/multilingual-safety-probe-test",
+      "languages": [
+        "en",
+        "ru",
+        "sr",
+        "te"
+      ],
+      "size": "unknown (safety probe)",
+      "license": "unknown",
+      "category": "评估",
+      "description": "Multilingual safety probe test dataset covering 4 languages (English, Russian, Serbian, Telugu). Evaluates safety capabilities of LLMs across diverse language families.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-18",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety probe test",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "LeTG/multilingual-psyop-100k",
+      "url": "https://huggingface.co/datasets/LeTG/multilingual-psyop-100k",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl"
+      ],
+      "size": "100K samples",
+      "license": "unknown",
+      "category": "微调",
+      "description": "100K multilingual psychological operations (psyop) text classification dataset covering 5 European languages. Relevant for information warfare detection and safety alignment.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual psyop text classification",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "lightonai/multilingual-embeddings-pre-training-curated",
+      "url": "https://huggingface.co/datasets/lightonai/multilingual-embeddings-pre-training-curated",
+      "languages": [
+        "ar",
+        "de",
+        "en",
+        "es",
+        "fr"
+      ],
+      "size": "curated pretraining corpus",
+      "license": "unknown",
+      "category": "预训练",
+      "description": "Curated multilingual pre-training dataset by LightOn AI for embedding model training. Covers 5 major languages (Arabic, German, English, Spanish, French). Part of LightOn's open embedding model initiative.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "lightonai multilingual embeddings pretraining",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "lightonai/embeddings-fine-tuning-multilingual-unfiltered",
+      "url": "https://huggingface.co/datasets/lightonai/embeddings-fine-tuning-multilingual-unfiltered",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "fine-tuning corpus",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Unfiltered multilingual fine-tuning dataset for embedding models by LightOn AI. Companion to the curated pre-training dataset.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "lightonai embeddings fine-tuning multilingual",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "ulysse1/speculators-multilingual-en-fr-de-it-es",
+      "url": "https://huggingface.co/datasets/ulysse1/speculators-multilingual-en-fr-de-it-es",
+      "languages": [
+        "en",
+        "fr",
+        "de",
+        "it",
+        "es"
+      ],
+      "size": "unknown (financial speculation)",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Multilingual financial speculation dataset covering 5 European languages. Relevant for financial domain LLM fine-tuning and speculation detection.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual financial speculation dataset",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "farabi-lab/Multilingual_Locale_Fidelity",
+      "url": "https://huggingface.co/datasets/farabi-lab/Multilingual_Locale_Fidelity",
+      "languages": [
+        "kk"
+      ],
+      "size": "locale fidelity benchmark",
+      "license": "unknown",
+      "category": "评估",
+      "description": "Multilingual locale fidelity evaluation dataset focusing on Kazakh language. Tests whether LLMs maintain locale-specific knowledge and cultural accuracy. From Farabi Lab (Kazakh AI research).",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual locale fidelity kazakh",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "djelia/multilingual-asr",
+      "url": "https://huggingface.co/datasets/djelia/multilingual-asr",
+      "languages": [
+        "ar",
+        "ca",
+        "cy",
+        "de",
+        "es"
+      ],
+      "size": "ASR dataset",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Multilingual ASR (automatic speech recognition) and translation dataset covering Arabic, Catalan, Welsh, German, Spanish. Includes speech-text pairs for multilingual speech processing.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-28",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual ASR speech recognition",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "tufaax/somali-multilingual-infopankki",
+      "url": "https://huggingface.co/datasets/tufaax/somali-multilingual-infopankki",
+      "languages": [
+        "so",
+        "ar",
+        "en",
+        "fi",
+        "ru"
+      ],
+      "size": "translation corpus",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Somali multilingual information bank translation dataset. Covers Somali, Arabic, English, Finnish, Russian. Addresses Somali as an extremely low-resource language.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "somali multilingual translation infopankki",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia",
+      "url": "https://huggingface.co/datasets/ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "silver-standard Wikipedia annotations",
+      "license": "unknown",
+      "category": "预训练",
+      "description": "Multilingual USAS semantic annotation of Wikipedia articles. Silver-standard quality labels for semantic categorization across multiple languages. From UCREL NLP group (Lancaster University).",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "USAS semantic annotation multilingual wikipedia",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "NLPCC 2026 DA-MIVQA (Difficulty-Aware Medical Instructional Video QA)",
+      "url": "https://arxiv.org/abs/2607.06618",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "medical instructional video QA benchmark",
+      "license": "unknown",
+      "category": "评估",
+      "description": "NLPCC 2026 shared task: Difficulty-Aware Multilingual and Multimodal Medical Instructional Video QA. Extends previous MIVQA benchmarks with difficulty annotations. Three tracks: temporal grounding, video corpus retrieval, and corpus-level grounding. Covers first aid, emergency response, rehabilitation, nursing.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-09",
+      "release_version": "NLPCC 2026",
+      "timeliness_score": "高",
+      "search_keywords": "NLPCC 2026 medical video QA multilingual multimodal",
+      "source": "arXiv/SearXNG (2607.06618)"
+    },
+    {
+      "name": "LongBlocks (Multilingual Long-Context Reasoning Dataset)",
+      "url": "https://arxiv.org/abs/2605.12227",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "synthetic multilingual dataset",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Synthetic multilingual dataset for long-context reasoning spanning multi-hop reasoning, contextual grounding, and long-form generation. Introduced alongside GRPO+OPD training recipe for long-context alignment.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-05-16",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "LongBlocks long-context reasoning multilingual",
+      "source": "arXiv/SearXNG (2605.12227)"
+    },
+    {
+      "name": "Code-Switching Reasoning Traces Dataset (Think Multilingual Not Harder)",
+      "url": "https://arxiv.org/abs/2604.15490",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "30K+ reasoning traces",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Dataset of reasoning traces from diverse models for code-switching scenarios. Analyzes multilingual reasoning traces across SFT tasks. Accompanies paper 'Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch'.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-04-21",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "search_keywords": "code-switching reasoning traces multilingual",
+      "source": "arXiv/SearXNG (2604.15490)"
+    },
+    {
+      "name": "latentvector/multilingual-speech-text-corpus",
+      "url": "https://huggingface.co/datasets/latentvector/multilingual-speech-text-corpus",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "speech-text parallel corpus",
+      "license": "unknown",
+      "category": "预训练",
+      "description": "Multilingual speech-text parallel corpus for speech-language model pretraining. Pairs speech audio with text transcriptions across multiple languages.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual speech text corpus parallel",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "bcv-commons/cross-lingual-span-profile",
+      "url": "https://huggingface.co/datasets/bcv-commons/cross-lingual-span-profile",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "span profiling benchmark",
+      "license": "unknown",
+      "category": "评估",
+      "description": "Cross-lingual span profiling dataset for evaluating how well models handle text spans across languages. Relevant for cross-lingual NLU and information extraction.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual span profile evaluation",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "jangedoo/ne-en-cross-lingual",
+      "url": "https://huggingface.co/datasets/jangedoo/ne-en-cross-lingual",
+      "languages": [
+        "ne",
+        "en"
+      ],
+      "size": "cross-lingual parallel corpus",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Nepali-English cross-lingual parallel corpus. Addresses Nepali as a low-resource South Asian language. Useful for machine translation and cross-lingual transfer.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "nepali english cross-lingual parallel",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "DenseOn (Open Multilingual Long-Context Retrieval)",
+      "url": "https://arxiv.org/abs/2607.27178",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "open retrieval model + training data",
+      "license": "open source",
+      "category": "微调",
+      "description": "DenseOn: Fully open dense and late-interaction models for multilingual, long-context, and code search. End-to-end open recipe for reproducible retrieval training. Addresses the reproducibility gap in state-of-the-art retrieval models.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "DenseOn multilingual retrieval open source",
+      "source": "arXiv (2607.27178)"
+    },
+    {
+      "name": "userhuggingface4321/multilingual-llm-evaluation",
+      "url": "https://huggingface.co/datasets/userhuggingface4321/multilingual-llm-evaluation",
+      "languages": [
+        "en",
+        "hi",
+        "es"
+      ],
+      "size": "QA evaluation dataset",
+      "license": "unknown",
+      "category": "评估",
+      "description": "Multilingual LLM evaluation dataset for question answering across English, Hindi, and Spanish. Tests cross-lingual QA capabilities.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual LLM evaluation QA",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "MR-CODESPIKE/agri-vet-multilingual-dataset",
+      "url": "https://huggingface.co/datasets/MR-CODESPIKE/agri-vet-multilingual-dataset",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "domain-specific dataset",
+      "license": "unknown",
+      "category": "微调",
+      "description": "Multilingual agriculture and veterinary domain dataset. Domain-specific data for fine-tuning LLMs on agricultural and veterinary knowledge across languages.",
+      "discovered_date": "2026-07-31",
+      "last_updated": "2026-07-30",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "agriculture veterinary multilingual dataset",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "chaurAr/Cross-lingual-entity-M",
+      "url": "https://huggingface.co/datasets/chaurAr/Cross-lingual-entity-M",
+      "last_updated": "2026-07-26",
+      "note": "Updated Jul 26. Cross-lingual entity dataset with 5,430 downloads. Baseline tracked as chaurAr/Cross-lingual-entity-dataset.",
+      "discovered_date": "2026-07-31"
     }
   ],
   "total_datasets": 344,
-  "last_merge": "2026-07-30",
-  "total_sources": 307,
-  "last_update_note": "2026-07-16 manual merge: +4 new datasets from bee round 2 incremental"
+  "last_merge": "2026-07-31",
+  "total_sources": 365,
+  "last_update_note": "Round 9: 21 new merged, 0 dedup skipped"
 }

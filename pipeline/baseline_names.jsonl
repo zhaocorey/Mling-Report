@@ -25,6 +25,7 @@ Aya Dataset (Aya Collection)
 AyaVisionBench
 BabyBabelLM
 BabyLM 2026 Multilingual Track
+bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
 BenchMAX
@@ -45,10 +46,12 @@ CCAligned
 CCFQA (Cross-lingual Cross-modal Factuality QA)
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
+chaurAr/Cross-lingual-entity-M
 ChinaHeritaQA
 ChiSafe-PAS (Chinese Safety Pilot Annotation Set)
 Chitrakshara
 CMHG (Chinese Minority Headline Generation)
+Code-Switching Reasoning Traces Dataset (Think Multilingual Not Harder)
 CohereLabs/CultureMarkers
 CohereLabs/Global-MMLU-Lite
 CohereLabs/Global-MMLU-Lite (v3.0 版本更新)
@@ -70,13 +73,16 @@ DaveGabe/cwt-multilingual-pretrain-mix
 DCLM (DataComp for Language Models)
 Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
+DenseOn (Open Multilingual Long-Context Retrieval)
 DetectRL-X
 DetectRL-X - Multilingual LLM-Generated Text Detection
 DialogPII
 DimABSA
+djelia/multilingual-asr
 Dolci-Think-SFT-32B-Multilingual
 drohanashM/multilingual-news-classifier-data
 ECLeKTic
+EinicherAI/nemotron-multilingual-math-verified
 ellamind/grips-multilingual
 EMMA-500 Bilingual Translation Corpus
 en-az-opus-filtered-parallel-corpus
@@ -91,6 +97,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 FBK-MT/RedVox
 FineTranslations
@@ -131,6 +138,7 @@ iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 jacekduszenko/coedit-multilingual
 jamesdborin/Nemotron-Multilingual-prompt-only
+jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 JiraiBench
 jml2026/multilingual-accent-speech
@@ -140,14 +148,19 @@ Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
 LangMark
 LASA (Language-Agnostic Semantic Alignment)
+latentvector/multilingual-speech-text-corpus
 Lavanya2206/multilingual-asr-dataset
 Legal Corpus Raw Batches
 LEMAS (Idea Research Institute)
 LEMAS Dataset
+LeTG/multilingual-psyop-100k
+lightonai/embeddings-fine-tuning-multilingual-unfiltered
+lightonai/multilingual-embeddings-pre-training-curated
 LingualX64
 live-linguist-easylanguage-sft
 LiveCLKTBench
 LocalDoc/english-azerbaijani-parallel-corpus
+LongBlocks (Multilingual Long-Context Reasoning Dataset)
 LSR Anchoring Phase2 — Multilingual Safety Benchmark & Steering
 LughaGen Multilingual African Corpus
 LuxEmo
@@ -190,6 +203,7 @@ MMTIT-Bench
 MNG-4/anv_scripted_multilingual-shuffled
 MORE (Multilingual Document Parsing Benchmark)
 MORPHOGEN
+MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
 MRL 2026 Shared Task (Global PIQA successor)
 mSCORE — Multilingual Skill-Based Commonsense Reasoning
@@ -238,6 +252,7 @@ Nemotron-SFT-Multilingual-v2
 Nemotron-VLM-Dataset-v2
 NigBench-MAMAI-Speech-QA
 NiuTrans/LMT-60-sft-data
+NLPCC 2026 DA-MIVQA (Difficulty-Aware Medical Instructional Video QA)
 Nobody05/Multilingual-Medical-Corpus
 nur-dev/farabi-crosslingual-tool-argnorm
 NVIDIA Nemotron Post-Training Dataset v2
@@ -296,6 +311,7 @@ Soohak
 SorryBench-202503-Multilingual
 speech-translation-and-summarization
 SpeechJBB
+sripad17/multilingual-safety-probe-test
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
@@ -313,19 +329,24 @@ ToxiREX (Toxic REasoning in ConteXt)
 Tralalabs/multilingual-news
 Translation Tangles
 TranslationTangles
+tufaax/somali-multilingual-infopankki
 Tulsiandhare/Multilingual_medical_symptom_triage
+ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
 Ultra-FineWeb-L3
 UltraData-Math
+ulysse1/speculators-multilingual-en-fr-de-it-es
 UNICS (Unified Multilingual Code Search)
 UnityShotsBench
 Universal NER v2 (UNER v2)
 UPDESH
 UrduBench
+userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
 Viet Medi Species 2026
 virginiaceccatelli/SpeechJBB
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
+vojewale/Cross-lingualIFEval
 VoxENES 2026
 WAXAL
 WAXAL (Google)

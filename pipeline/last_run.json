@@ -1,28 +1,26 @@
 {
-  "last_run_date": "2026-07-30",
+  "last_run_date": "2026-07-31",
   "run_type": "incremental",
   "window_days": 20,
-  "window_start": "2026-07-10",
-  "window_end": "2026-07-30",
-  "baseline_sources_count": 344,
-  "new_datasets_found": 8,
-  "new_datasets_merged": 9,
-  "dedup_skipped": 1,
+  "window_start": "2026-07-11",
+  "window_end": "2026-07-31",
+  "baseline_sources_count": 365,
+  "new_datasets_found": 20,
+  "new_datasets_merged": 21,
+  "dedup_skipped": 0,
   "version_updates_found": 2,
   "version_updates_merged": 1,
-  "report_file": "sources_reports/2026-07-30.md",
-  "previous_run": "2026-07-27",
+  "report_file": "sources_reports/2026-07-31.md",
+  "previous_run": "2026-07-30",
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
     "zong_merge",
-    "index_rebuild",
+    "index_rebuild"
+  ],
+  "pending_stages": [
     "coder_push"
   ],
-  "pending_stages": [],
-  "notes": "Round 8. Bee found 10 (8 new + 2 updates). After dedup: 9 new merged, UPDESH already reported → update only. Baseline: 335→344. Professor-yu generated 297-line report. Top finds: Nemotron 3 Super (120B MoE), UPDESH (ACL 2026, 9.5M samples), Universal NER v2, AfriNLLB (15 African langs). Index rebuilt: 344 baseline, 320 reported.",
-  "github_url": "https://github.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-30.md",
-  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-07-30.md",
-  "feishu_url": "https://www.feishu.cn/wiki/Ofimww4PGiM7tekVk4TcmPbMnLd",
-  "execution_mode": "manual - Round 8 incremental"
+  "notes": "Round 9. Bee sourcing via HuggingFace API + arXiv API + SearXNG (DuckDuckGo bot-blocked). Found 20 new + 2 updates. All 20 new passed dedup (none in reported_names). 1 version update merged (chaurAr/Cross-lingual-entity-M not in baseline). Baseline: 344→365. Index rebuilt: 365 baseline, 341 reported. Key themes: low-resource languages (Somali, Kazakh, Nepali), safety (psyop-100k), embeddings (LightOn AI), medical multimodal (NLPCC 2026 DA-MIVQA).",
+  "execution_mode": "manual - Round 9 incremental"
 }
