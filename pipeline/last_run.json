@@ -21,5 +21,6 @@
   ],
   "pending_stages": [],
   "notes": "Round 11. Bee found 4 candidates + 1 version update + 4 papers. All 4 candidates already in reported_names.jsonl (100% dedup rate). Net new: 0. Version update: LeTG/multilingual-psyop-100k. Baseline unchanged at 365. Consecutive zero-new rounds: 3.",
-  "execution_mode": "manual - Round 11 incremental"
+  "execution_mode": "manual - Round 11 incremental",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport/blob/main/sources_reports/2026-08-01.md"
 }
