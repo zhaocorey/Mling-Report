@@ -38,7 +38,13 @@ SKIP_HEADERS = {
     "下次运行", "概述", "时效性分析", "基线健康度",
     "本次变化", "备注", "总结", "建议",
     "多语言数据集寻源增量报告", "增量报告",
+    # 论文章节标题（防止论文标题被误识别为数据集名）
+    "相关论文", "论文", "references", "参考文献",
+    "pipeline 状态", "pipeline status",
 }
+
+# 以 emoji 开头的非数据集标题模式
+EMOJI_SKIP_PREFIXES = ("🌍", "📊", "📚", "🔧", "📄", "⭐", "🏆", "🚨", "💡", "📋")
 
 
 def normalize_name(name):
@@ -55,6 +61,9 @@ def is_dataset_header(name):
     if len(lower) < 2:
         return False
     if re.match(r"^(概述|时效|基线|本次|备注|总结|建议|搜索|下次|top|round)", lower):
+        return False
+    # 跳过以 emoji 开头的非数据集标题（论文、统计等章节）
+    if any(name.startswith(p) for p in EMOJI_SKIP_PREFIXES):
         return False
     return True
 

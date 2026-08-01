@@ -45,6 +45,22 @@ Spawn `bee` agent（`sessions_spawn`，`agentId: "bee"`，`mode: "run"`，**`cwd
 
 详细搜索关键词和分类见 `~/.openclaw/agents/bee/workspace/TOOLS.md`。
 
+### Step 1.5: 跨 workspace 文件同步
+
+⚠️ **关键步骤**：子 agent 默认写入自己的 workspace，而非调度方的。必须手动同步：
+
+```bash
+# 同步 bee 的增量输出到 zong 的 workspace
+cp ~/.openclaw/agents/bee/workspace/pipeline/bee_sources_incremental.json \
+   ~/.openclaw/agents/zong/workspace/pipeline/bee_sources_incremental.json
+
+# 同步 professor-yu 的报告输出
+cp ~/.openclaw/agents/professor-yu/workspace/sources_reports/YYYY-MM-DD.md \
+   ~/.openclaw/agents/zong/workspace/sources_reports/YYYY-MM-DD.md
+```
+
+同理，Step 3 合并后如需 professor-yu 看到最新索引，也需反向同步。
+
 ### Step 2: 语教授🎓 增量报告生成
 
 Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mode: "run"`，**`cwd` 设为 zong 的 workspace 根目录**），任务指令：

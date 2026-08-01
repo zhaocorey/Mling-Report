@@ -340,10 +340,6 @@ XNLI (Cross-lingual NLI)
 XQ-MEval
 已报告再确认
 版本追踪关键变化
-🌍 BENI Global 10 — 全球南方经济叙事语料
-📊 DimABSA — 多语言维度情感分析
-📚 HPLT 3.0 — PB 级多语言预训练资源重大更新
-🔧 MixMinMatch — 跨源一致性过滤方法
 HuggingFaceCode/stack-v3-train
 EC-DGT-AI/EU-MMLU
 tojpaj/marketnews-multilingual-indic
