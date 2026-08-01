@@ -16,11 +16,13 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
-  ],
-  "pending_stages": [
+    "zong_merge",
     "coder_push"
   ],
+  "pending_stages": [],
   "notes": "Round 12. Bee found 13 candidates. 6 truly new, 6 dedup. Merged: ['HuggingFaceCode/stack-v3-train', 'EC-DGT-AI/EU-MMLU', 'tojpaj/marketnews-multilingual-indic', 'tojpaj/chart-qa-multilingual-indic', 'tufaax/somali-multilingual-infopankki', 'shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat', 'Helmcode/stack-v3-devops']. Top finds: The Stack v3 (5T tokens), EU MMLU (16 EU languages).",
-  "execution_mode": "manual - Round 12 incremental"
+  "execution_mode": "manual - Round 12 incremental",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport",
+  "feishu_doc_url": "https://www.feishu.cn/wiki/MKdKwwUAdiUo6QkTmVgc7aGlnYf"
 }
