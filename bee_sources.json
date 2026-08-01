@@ -7202,10 +7202,130 @@
       "last_updated": "2026-07-26",
       "note": "Updated Jul 26. Cross-lingual entity dataset with 5,430 downloads. Baseline tracked as chaurAr/Cross-lingual-entity-dataset.",
       "discovered_date": "2026-07-31"
+    },
+    {
+      "name": "HuggingFaceCode/stack-v3-train",
+      "url": "https://huggingface.co/datasets/HuggingFaceCode/stack-v3-train",
+      "languages": [
+        "code (770 programming languages)"
+      ],
+      "size": "~5T deduplicated tokens / 15.9 TB train split / 114 TB full corpus / 224M repositories",
+      "license": "Permissive focus (restrictive licenses excluded from train split)",
+      "category": "预训练",
+      "description": "The Stack v3 — 由 Hugging Face 和 BigCode 联合发布的最大开源代码数据集。覆盖 770 种编程语言，224M GitHub 仓库，约 5 万亿去重过滤后的训练 token。相比 v2 增长约 10 倍（v2 约 550B tokens）。v3 关键改进：代码内容直接内联（无需通过 SWH ID 获取），支持完整仓库级别预训练。train split 经过去重、启发式过滤、PII 脱敏。crawl 截止到 2025 年 8 月。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-07-31",
+      "release_version": "v3",
+      "timeliness_score": "高",
+      "search_keywords": "The Stack v3, BigCode, code pretraining, HuggingFaceCode",
+      "source": "HuggingFace API + DuckDuckGo web search"
+    },
+    {
+      "name": "EC-DGT-AI/EU-MMLU",
+      "url": "https://huggingface.co/datasets/EC-DGT-AI/EU-MMLU",
+      "languages": [
+        "hr",
+        "cs",
+        "nl",
+        "fr",
+        "de",
+        "el",
+        "hu",
+        "ga",
+        "it",
+        "lt",
+        "pl",
+        "pt",
+        "ro",
+        "sk",
+        "sl",
+        "es"
+      ],
+      "size": "1000+ 多选问题 × 16 种欧盟官方语言 × 7 个学科领域",
+      "license": "EUPL (European Union Public License)",
+      "category": "评估",
+      "description": "EU MMLU — 欧盟委员会翻译总司 (DG Translation) 发布的多语言 AI 基准测试数据集。基于 MMLU 构建，采用人工翻译（非机器翻译），由来自 21 所欧洲大学的近 250 名翻译硕士 (EMT) 学生参与翻译和审校。覆盖 7 个与欧盟相关的学科领域，旨在评估 LLM 在欧盟 16 种官方语言中的公平性和有效性。目标是建立多语言 AI 评估的新标准。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-07-29",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "EU MMLU, DG Translation, European Commission, multilingual benchmark",
+      "source": "HuggingFace API + DuckDuckGo web search"
+    },
+    {
+      "name": "tojpaj/marketnews-multilingual-indic",
+      "url": "https://huggingface.co/datasets/tojpaj/marketnews-multilingual-indic",
+      "languages": [
+        "hi",
+        "pa"
+      ],
+      "size": "市场新闻语料（具体规模待确认）",
+      "license": "待确认",
+      "category": "微调",
+      "description": "多语言印度语系市场新闻数据集，覆盖印地语 (Hindi) 和旁遮普语 (Punjabi)。包含带情感标签（positive/negative/neutral）和主题分类（policy_regulatory, agri_commodity, other）的新闻文本，适用于金融 NLP 和情感分析任务。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-08-01",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "marketnews multilingual indic, Hindi Punjabi financial news",
+      "source": "HuggingFace API search (multilingual, lastModified)"
+    },
+    {
+      "name": "tojpaj/chart-qa-multilingual-indic",
+      "url": "https://huggingface.co/datasets/tojpaj/chart-qa-multilingual-indic",
+      "languages": [
+        "hi",
+        "pa"
+      ],
+      "size": "图表问答语料（具体规模待确认）",
+      "license": "待确认",
+      "category": "评估",
+      "description": "多语言印度语系图表问答数据集，覆盖印地语和旁遮普语。用于评估模型在印度语言环境下的图表理解和问答能力。与 marketnews-multilingual-indic 同属一个作者的 Indic NLP 资源系列。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-08-01",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "chart QA multilingual indic, Hindi Punjabi visual question answering",
+      "source": "HuggingFace API search (multilingual, lastModified)"
+    },
+    {
+      "name": "shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat",
+      "url": "https://huggingface.co/datasets/shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "size": "平行语料（具体规模待确认）",
+      "license": "待确认",
+      "category": "微调",
+      "description": "中英平行翻译语料库，以中文为源文本、英文为翻译文本。适用于机器翻译、跨语言 NLP 任务训练。最近有更新。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-07-27",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "Chinese English parallel translation corpus",
+      "source": "HuggingFace API search (parallel corpus translation, lastModified)"
+    },
+    {
+      "name": "Helmcode/stack-v3-devops",
+      "url": "https://huggingface.co/datasets/Helmcode/stack-v3-devops",
+      "languages": [
+        "code (DevOps 相关编程语言)"
+      ],
+      "size": "Stack v3 的 DevOps 子集（具体规模待确认）, 3 likes",
+      "license": "继承自 The Stack v3",
+      "category": "预训练",
+      "description": "基于 The Stack v3 的 DevOps 代码数据集子集。专注于 DevOps 领域的编程语言和配置文件，适用于训练 DevOps 领域代码 LLM 或 agent。在 Stack v3 发布后仅 6 天即推出，体现了社区的快速衍生能力。",
+      "discovered_date": "2026-08-02",
+      "last_updated": "2026-07-29",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "Stack v3 DevOps code dataset, Helmcode",
+      "source": "HuggingFace API search (stack-v3, lastModified)"
     }
   ],
   "total_datasets": 344,
-  "last_merge": "2026-07-31",
-  "total_sources": 365,
-  "last_update_note": "Round 9: 21 new merged, 0 dedup skipped"
+  "last_merge": "2026-08-02T06:16:28.222952",
+  "total_sources": 371,
+  "last_update_note": "Round 12 incremental: +6 new datasets"
 }

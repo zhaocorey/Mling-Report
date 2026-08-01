@@ -270,3 +270,7 @@ tool	RedPajama
 tool	SHIFT (Training-Free RLVR Data Selection)
 tool	SlimPajama
 tool	Smart-data-selection-for-language-modeling
+paper	BridgeAlign: Bridging Preference Alignment for Humanities and Social Sciences
+paper	DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes
+tool	CodeForge-Agent
+tool	nano-llm-pretrain

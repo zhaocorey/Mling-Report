@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-29T09:05:00+08:00",
-  "date": "2026-07-29",
+  "timestamp": "2026-08-01T09:10:00+08:00",
+  "date": "2026-08-01",
   "type": "dataset_filtering_incremental",
-  "papers_added": 12,
-  "tools_added": 3,
-  "blogs_added": 10,
-  "total_papers": 246,
-  "total_tools": 36,
+  "papers_added": 2,
+  "tools_added": 2,
+  "blogs_added": 0,
+  "total_papers": 248,
+  "total_tools": 38,
   "total_blogs": 21
 }
