@@ -104,6 +104,9 @@ def extract_from_report(report_path):
             name = normalize_name(header)
             if not is_dataset_header(name):
                 continue
+            # 跳过包含描述性后缀的条目（版本更新说明、状态标注等）
+            if re.search(r"(—\s*\d{4}-|（[^）]*更新|（[^）]*升级|（[^）]*扩展|版本更新|首次跟踪|状态升级)", name):
+                continue
             url = urls[i] if i < len(urls) else ""
             datasets.append({"name": name, "url": url})
 

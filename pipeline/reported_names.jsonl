@@ -77,6 +77,7 @@ DimABSA — Multilingual Dimensional ABSA (SemEval-2026) 📄
 djelia/multilingual-asr
 Dolci-Think-SFT-32B-Multilingual
 drohanashM/multilingual-news-classifier-data
+EC-DGT-AI/EU-MMLU
 ECLeKTic
 EinicherAI/nemotron-multilingual-math-verified
 ellamind/grips-multilingual
@@ -112,6 +113,7 @@ gsm8k-multilingual-filtered
 halo-guard-bench — 46 语言安全护栏基准
 HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
+Helmcode/stack-v3-devops
 hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
 HPLT (High Performance Language Technologies)
 HPLT 2.0 Cleaned
@@ -120,9 +122,9 @@ HPLT 3.0 (High Performance Language Technologies)
 HPLT 3.0 (HPLT/HPLT3.0)
 HPLT OpenLID-v3
 HPLT/OpenLID-v3
+HuggingFaceCode/stack-v3-train
 HuggingFaceH4/Multilingual-Thinking
 IndicGuard (arXiv 2026-06)
-IndicGuard（HF 数据集确认可用）⭐ 状态升级
 IndicMMLU-Pro 📄
 IndicSafe
 infini-news-corpus — 52 语言新闻预训练语料 🔥
@@ -130,7 +132,6 @@ iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 jamesdborin/Nemotron-Multilingual-prompt-only
-jamesdborin/Nemotron-SFT-Multilingual-v2-prompt-only ⭐ 首次跟踪
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 Kaleidoscope
@@ -145,7 +146,6 @@ Lavanya2206/multilingual-asr-dataset
 Legal Corpus Raw Batches
 LEMAS Dataset
 LeTG/multilingual-psyop-100k
-LeTG/multilingual-psyop-100k ⭐
 lightonai/Dolci-Think-SFT-32B-Multilingual
 lightonai/embeddings-fine-tuning-multilingual-unfiltered
 lightonai/multilingual-embeddings-pre-training-curated
@@ -212,7 +212,6 @@ Multilingual-GSM-Symbolic (danish-foundation-models)
 multilingual-gsm-symbolic — 数据更新
 Multilingual-Medical-Corpus
 Multilingual-Reasoning-Gym-SFT
-Multilingual-Reasoning-Gym-SFT — 版本更新
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
 multilingual-safety-classification-dataset
@@ -220,8 +219,6 @@ Multilingual-TTS (malaysia-ai)
 multilingual-tts/open-bible
 multilingual-vlm-conflict (7-dataset suite)
 multilingual-vlm-conflict Expanded Suite
-multilingual-vlm-conflict/combined ⭐ 重要更新
-multilingual-vlm-conflict（套件扩展至 10 个数据集）⭐ 重要更新
 multilingual-vlm-reasoning
 MultiSynt/MT
 Multitask-Multilingual-Refusal
@@ -235,7 +232,6 @@ Nemotron-Personas (Multilingual) — Region-Specific Synthetic Personas 📄
 Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)
 Nemotron-Safety-Guard-Dataset-v3
 Nemotron-SFT-Multilingual-v2
-Nemotron-SFT-Multilingual-v2 — 2026-06-05 版本更新
 Nemotron-VLM-Dataset-v2
 Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
@@ -287,6 +283,7 @@ SeaEval
 SEAHateCheck ⚠️ 时效关注
 SemEval-2026 Task 7 (Everyday Knowledge)
 SemEval-2026 Task 9 (Multilingual Polarization)
+shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
@@ -307,6 +304,8 @@ Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 tejasta/Kannada-English-Parallel-Corpus
 textdetox/multilingual_toxicity_dataset
 The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
+tojpaj/chart-qa-multilingual-indic
+tojpaj/marketnews-multilingual-indic
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
@@ -340,10 +339,3 @@ XNLI (Cross-lingual NLI)
 XQ-MEval
 已报告再确认
 版本追踪关键变化
-HuggingFaceCode/stack-v3-train
-EC-DGT-AI/EU-MMLU
-tojpaj/marketnews-multilingual-indic
-tojpaj/chart-qa-multilingual-indic
-tufaax/somali-multilingual-infopankki
-shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
-Helmcode/stack-v3-devops
