@@ -16,14 +16,13 @@
   "pipeline_stages_completed": [
     "bee_sourcing",
     "professor-yu_report",
-    "zong_merge"
-  ],
-  "pending_stages": [
+    "zong_merge",
     "coder_push"
   ],
+  "pending_stages": [],
   "notes": "Round 14. Bee found 8 new datasets + 3 version updates + 3 papers. Top finds: SignVerse-2M (200万片段55+手语), NigBench-MAMAI (300h尼日利亚语音), XIH-Bench (首个多语言指令安全基准), babel-bench (古典语言破LLM安全,ICLR2026). DuckDuckGo blocked, used SearXNG.",
   "execution_mode": "cron - Round 14 incremental",
   "github_url": "https://github.com/zhaocorey/CaiWeiReport",
   "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport",
-  "feishu_doc_url": "https://www.feishu.cn/wiki/MKdKwwUAdiUo6QkTmVgc7aGlnYf"
+  "feishu_doc_url": "https://www.feishu.cn/wiki/Ts6awy24siDdSwkQJIec4UbfnMf"
 }
