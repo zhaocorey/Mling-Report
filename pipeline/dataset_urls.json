@@ -433,5 +433,13 @@
   "tojpaj/marketnews-multilingual-indic": "https://huggingface.co/datasets/tojpaj/marketnews-multilingual-indic",
   "tojpaj/chart-qa-multilingual-indic": "https://huggingface.co/datasets/tojpaj/chart-qa-multilingual-indic",
   "shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat": "https://huggingface.co/datasets/shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat",
-  "Helmcode/stack-v3-devops": "https://huggingface.co/datasets/Helmcode/stack-v3-devops"
+  "Helmcode/stack-v3-devops": "https://huggingface.co/datasets/Helmcode/stack-v3-devops",
+  "SignerX/SignVerse-2M": "https://huggingface.co/datasets/SignerX/SignVerse-2M",
+  "intronhealth/NigBench-MAMAI-Speech-QA": "https://huggingface.co/datasets/intronhealth/NigBench-MAMAI-Speech-QA",
+  "latam-gpt/LatamGPT-Corpus-1.0": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+  "g1moon/XIH-Bench": "https://huggingface.co/datasets/g1moon/XIH-Bench",
+  "MARUCIE/babel-bench": "https://github.com/MARUCIE/babel-bench",
+  "saidutta69/odia-eval-benchmark": "https://huggingface.co/datasets/saidutta69/odia-eval-benchmark",
+  "ranjithraj/indic-multilingual-educational-glossary": "https://huggingface.co/datasets/ranjithraj/indic-multilingual-educational-glossary",
+  "yagizgencer/emojinize-multilingual": "https://huggingface.co/datasets/yagizgencer/emojinize-multilingual"
 }

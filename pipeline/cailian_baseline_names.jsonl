@@ -274,3 +274,12 @@ paper	BridgeAlign: Bridging Preference Alignment for Humanities and Social Scien
 paper	DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes
 tool	CodeForge-Agent
 tool	nano-llm-pretrain
+paper	CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-Scale Pretraining Data
+paper	Test-Time Coverage: Test-Conditioned Data Curation for Deployment-Aware Learning
+paper	DomainPilot: Domain-Level Loss-Guided Two-Stage Data Mixture Optimization for Efficient Language Model Fine-Tuning
+paper	MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection
+paper	Unlocking Latent Value: Taxonomy-Guided Recovery of High-Performing Data from Low-Tier Web Corpora
+paper	Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection
+paper	Continual Safety Alignment via Gradient-Based Sample Selection
+paper	Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning
+paper	Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretraining

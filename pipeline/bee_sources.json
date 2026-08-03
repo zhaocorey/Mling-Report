@@ -1,0 +1,237 @@
+{
+  "datasets": [
+    {
+      "name": "SignerX/SignVerse-2M",
+      "url": "https://huggingface.co/datasets/SignerX/SignVerse-2M",
+      "languages": [
+        "55+ sign languages (aed, ase, asf, asq, bfi, ...)"
+      ],
+      "size": "~2M clips from 39,196 videos",
+      "license": "See paper",
+      "category": "multimodal/sign-language",
+      "description": "Large-scale pose-native multilingual sign language dataset. Converts public sign language videos into unified DWPose-based representation (128 keypoints per frame: body, hands, face). Supports sign language generation, recognition, and translation research. Paper: arXiv:2605.01720.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-02",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 1350,
+      "likes": 9,
+      "search_keywords": "sign language multilingual pose",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "intronhealth/NigBench-MAMAI-Speech-QA",
+      "url": "https://huggingface.co/datasets/intronhealth/NigBench-MAMAI-Speech-QA",
+      "languages": [
+        "ha",
+        "ig",
+        "nup",
+        "yo",
+        "pcm",
+        "ff",
+        "kr"
+      ],
+      "size": "300.17 hours, 10,081 recordings",
+      "license": "Gated access",
+      "category": "speech/African-languages",
+      "description": "Voices for Smart Care: Rural-first multilingual voice dataset for maternal health in Nigeria. Contains real-world maternal/reproductive health questions from women across Nigeria. 7 Nigerian languages: Hausa, Igbo, Nupe, Yoruba, Nigerian Pidgin, Fulfulde, Kanuri. Includes manual transcriptions, speaker metadata. Targets ASR and LLM development for low-resource African languages in healthcare.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-03",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 62,
+      "likes": 0,
+      "search_keywords": "African language speech multilingual",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "latam-gpt/LatamGPT-Corpus-1.0",
+      "url": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+      "languages": [
+        "es",
+        "pt",
+        "en"
+      ],
+      "size": "Large-scale corpus (gated)",
+      "license": "Custom (CENIA; commercial entities >$1B revenue need written authorization)",
+      "category": "pretraining/Latin-America",
+      "description": "Latin American pretraining corpus by CENIA. Covers Spanish, Portuguese, English with focus on Latin American content. Gated access with attribution requirements. Includes technical traceability signals (statistical watermarks) for AI training detection. First major open corpus targeting Latin American languages.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-03",
+      "release_version": "1.0",
+      "timeliness_score": "高",
+      "downloads": 90,
+      "likes": 2,
+      "search_keywords": "Latin American pretraining corpus",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "g1moon/XIH-Bench",
+      "url": "https://huggingface.co/datasets/g1moon/XIH-Bench",
+      "languages": [
+        "en",
+        "de",
+        "hi",
+        "zh",
+        "es",
+        "fr"
+      ],
+      "size": "100K-1M rows",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "evaluation/safety",
+      "description": "Multilingual instruction-hierarchy benchmark for AI safety. Evaluates instruction-following, prompt injection resistance, and cross-lingual safety across 6 languages. Tags: instruction-hierarchy, instruction-following, multilingual, cross-lingual, prompt-injection, ai-safety. Paper: arXiv:2607.23545.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-03",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 1,
+      "likes": 0,
+      "search_keywords": "multilingual safety benchmark instruction",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "MARUCIE/babel-bench",
+      "url": "https://github.com/MARUCIE/babel-bench",
+      "languages": [
+        "Classical Chinese",
+        "Latin",
+        "Sanskrit"
+      ],
+      "size": "Benchmark + evaluator + defense catalog",
+      "license": "Open source (CC-BOS ICLR 2026 based)",
+      "category": "evaluation/safety",
+      "description": "Ancient languages break every major LLM safety filter. Benchmark dataset + evaluator + defense catalog based on CC-BOS paper (ICLR 2026). Tests safety filter bypass via classical languages (Classical Chinese, Latin, Sanskrit) with 8-dimension annotations. 100% attack success rate on Claude-3.7, GPT-4o, Gemini-2.5-flash, DeepSeek-Reasoner, Qwen3, Grok-3. Only open-source implementation of CC-BOS methodology.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-07-15",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 0,
+      "likes": 3,
+      "search_keywords": "ancient language safety benchmark",
+      "source": "GitHub search (multilingual dataset benchmark 2026)"
+    },
+    {
+      "name": "saidutta69/odia-eval-benchmark",
+      "url": "https://huggingface.co/datasets/saidutta69/odia-eval-benchmark",
+      "languages": [
+        "or",
+        "en"
+      ],
+      "size": "125K rows, 34 source datasets, 487 subsets, 7 task types",
+      "license": "See HF page",
+      "category": "evaluation/Indic-languages",
+      "description": "Comprehensive Odia language evaluation benchmark. 125K rows covering QA, reasoning, knowledge, and other tasks. Aggregates 34 source datasets with both English and Odia prompts/references. First large-scale evaluation suite for Odia (Oriya) language LLM assessment.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-01",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "downloads": 82,
+      "likes": 0,
+      "search_keywords": "Odia evaluation benchmark",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "ranjithraj/indic-multilingual-educational-glossary",
+      "url": "https://huggingface.co/datasets/ranjithraj/indic-multilingual-educational-glossary",
+      "languages": [
+        "en",
+        "as",
+        "bn",
+        "brx",
+        "doi",
+        "+ more Indic"
+      ],
+      "size": "Educational glossary",
+      "license": "See HF page",
+      "category": "translation/Indic-languages",
+      "description": "Multilingual educational glossary covering English and multiple Indic languages including Assamese, Bengali, Bodo, Dogri. Useful for educational NLP applications and cross-lingual terminology alignment.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-08-02",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 13,
+      "likes": 0,
+      "search_keywords": "Indic multilingual glossary",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "yagizgencer/emojinize-multilingual",
+      "url": "https://huggingface.co/datasets/yagizgencer/emojinize-multilingual",
+      "languages": [
+        "en",
+        "+ 14 other languages (15 subsets)"
+      ],
+      "size": "108K rows (84.7K train)",
+      "license": "See HF page",
+      "category": "NLU/emoji-understanding",
+      "description": "Multilingual emoji understanding dataset with 108K rows across 15 language subsets. Each entry contains sentences with annotated emoji spans mapping text phrases to emoji sequences. Useful for multilingual text-to-emoji, emoji understanding, and cross-lingual semantic annotation tasks.",
+      "discovered_date": "2026-08-04",
+      "last_updated": "2026-07-27",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "downloads": 214,
+      "likes": 2,
+      "search_keywords": "emoji multilingual dataset",
+      "source": "HuggingFace API (multilingual, lastModified)"
+    }
+  ],
+  "version_updates": [
+    {
+      "name": "ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia",
+      "url": "https://huggingface.co/datasets/ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia",
+      "last_updated": "2026-08-03",
+      "previous_update": "round 12 discovery",
+      "note": "Updated since round 12 discovery; still actively maintained"
+    },
+    {
+      "name": "SWE-bench/SWE-bench_Multilingual",
+      "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multilingual",
+      "last_updated": "2026-07-22",
+      "downloads": 56986,
+      "likes": 21,
+      "note": "Continued updates; highest-download multilingual code benchmark in our tracking"
+    },
+    {
+      "name": "fevziegeyurtsevenler/multilingual-prompt-injection",
+      "url": "https://huggingface.co/datasets/fevziegeyurtsevenler/multilingual-prompt-injection",
+      "last_updated": "2026-07-26",
+      "downloads": 59,
+      "note": "Companion to multilingual-jailbreak (already in baseline); structured prompt injection dataset with OWASP/AML threat taxonomy tagging across multiple languages"
+    }
+  ],
+  "papers": [
+    {
+      "name": "paper PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2607.06008",
+      "published": "2026-07-08",
+      "updated": "2026-07-31 (v2)",
+      "authors": "Beijing Jiaotong University + Tencent (Weixin AI)",
+      "description": "First benchmark for multilingual long-horizon LLM agent workflows. 67 tasks across 5 domains (commerce, knowledge work, legal, localization, manufacturing). SOTA agents show significant degradation in multilingual settings. Hybrid evaluation: structural + executable + LLM-based.",
+      "dataset_available": false,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "paper CC-BOS: Classical Language Safety Bypass (ICLR 2026)",
+      "url": "https://openreview.net/forum?id=ccbos-iclr2026",
+      "published": "2026 (ICLR 2026)",
+      "authors": "Multiple",
+      "description": "Proves that LLM safety alignment (RLHF/SFT) only covers modern languages. Models understand classical languages (pre-trained on historical corpora) but safety layers don't fire. 100% attack success on all 6 frontier models via Classical Chinese, Latin, Sanskrit. Open-source implementation: babel-bench (see new datasets).",
+      "dataset_available": true,
+      "dataset_name": "MARUCIE/babel-bench",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "paper Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets",
+      "url": "https://arxiv.org/abs/2512.18834v2",
+      "published": "2025-12-21",
+      "updated": "2026 (v2)",
+      "authors": "AdaMLLab",
+      "description": "Cross-source agreement as free, model-free quality filter for multilingual pretraining data. Applied to Arabic, Turkish, Hindi, Thai, Italian, Indonesian, Korean, Japanese, Vietnamese. Produces corpora matching/exceeding best single-source baselines. Collection: huggingface.co/collections/AdaMLLab/mixminmatch (multiple datasets, 535M-974M tokens each).",
+      "dataset_available": true,
+      "dataset_name": "AdaMLLab/MixMinMatch collection (AraMix, TurMix, HinMix, ThaMix, ItaMix, IndMix, KorMix, JpnMix, VieMix)",
+      "timeliness_score": "中"
+    }
+  ],
+  "last_updated": "2026-08-04",
+  "total_datasets": 8
+}
