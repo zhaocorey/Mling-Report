@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-01T09:10:00+08:00",
-  "date": "2026-08-01",
+  "timestamp": "2026-08-05T09:30:00+08:00",
+  "date": "2026-08-05",
   "type": "dataset_filtering_incremental",
-  "papers_added": 2,
+  "papers_added": 14,
   "tools_added": 2,
-  "blogs_added": 0,
-  "total_papers": 248,
-  "total_tools": 38,
-  "total_blogs": 21
+  "blogs_added": 1,
+  "reported_skipped": 4,
+  "total_new": 17,
+  "report_file": "dataset_filtering_survey/2026-08-05.md"
 }

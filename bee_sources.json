@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-07-27",
-  "search_summary": "增量更新 2026-07-24 至 2026-07-27，6个新增，0个版本更新，基线达 335 个",
+  "search_date": "2026-08-05",
+  "search_summary": "Round 15 incremental: +12 new, 3 updated",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -6899,11 +6899,12 @@
       "category": "微调",
       "description": "100K multilingual psychological operations (psyop) text classification dataset covering 5 European languages. Relevant for information warfare detection and safety alignment.",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-30",
+      "last_updated": "2026-08-01",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual psyop text classification",
-      "source": "HuggingFace API (lastModified)"
+      "source": "HuggingFace API (lastModified)",
+      "_change_note": "Updated within search window"
     },
     {
       "name": "lightonai/multilingual-embeddings-pre-training-curated",
@@ -7034,11 +7035,12 @@
       "category": "预训练",
       "description": "Multilingual USAS semantic annotation of Wikipedia articles. Silver-standard quality labels for semantic categorization across multiple languages. From UCREL NLP group (Lancaster University).",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-30",
+      "last_updated": "2026-08-04",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "USAS semantic annotation multilingual wikipedia",
-      "source": "HuggingFace API (lastModified)"
+      "source": "HuggingFace API (lastModified)",
+      "_change_note": "Updated within search window"
     },
     {
       "name": "NLPCC 2026 DA-MIVQA (Difficulty-Aware Medical Instructional Video QA)",
@@ -7304,7 +7306,8 @@
       "release_version": "v1.0",
       "timeliness_score": "高",
       "search_keywords": "Chinese English parallel translation corpus",
-      "source": "HuggingFace API search (parallel corpus translation, lastModified)"
+      "source": "HuggingFace API search (parallel corpus translation, lastModified)",
+      "_change_note": "Updated within search window"
     },
     {
       "name": "Helmcode/stack-v3-devops",
@@ -7322,6 +7325,208 @@
       "timeliness_score": "高",
       "search_keywords": "Stack v3 DevOps code dataset, Helmcode",
       "source": "HuggingFace API search (stack-v3, lastModified)"
+    },
+    {
+      "name": "buumba641/Zambia-MultiLingual-ASR-Dataset",
+      "url": "https://huggingface.co/datasets/buumba641/Zambia-MultiLingual-ASR-Dataset",
+      "languages": [
+        "bem",
+        "nya",
+        "toi"
+      ],
+      "size": "28 audio samples (growing)",
+      "license": "Unknown",
+      "category": "ASR / Speech",
+      "description": "Multilingual ASR dataset for 3 Zambian languages: Bemba, Nyanja, and Tonga. Contains audio recordings with transcripts, corrections, and quality ratings. Collected July-August 2026.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "artindnr/Multilingual-Thinking",
+      "url": "https://huggingface.co/datasets/artindnr/Multilingual-Thinking",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "fa"
+      ],
+      "size": "Unknown (large, includes thinking traces)",
+      "license": "Unknown",
+      "category": "SFT / Reasoning",
+      "description": "Multilingual thinking/reasoning dataset with system prompts, user queries, chain-of-thought thinking traces in multiple languages (English, German, French, Spanish, Italian, Persian), and final responses. Structured for SFT with thinking/non-thinking modes.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "artindnr/Multilingual-Thinking-200",
+      "url": "https://huggingface.co/datasets/artindnr/Multilingual-Thinking-200",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it"
+      ],
+      "size": "200 samples (curated subset)",
+      "license": "Unknown",
+      "category": "SFT / Reasoning",
+      "description": "Curated 200-sample subset of Multilingual-Thinking dataset. Contains structured thinking traces in 5 European languages for instruction-following and reasoning SFT.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Sakonii/Multilingual-Refusal-Extended",
+      "url": "https://huggingface.co/datasets/Sakonii/Multilingual-Refusal-Extended",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Extended (large, harmful + benign prompts)",
+      "license": "Unknown",
+      "category": "Safety / Alignment",
+      "description": "Extended multilingual safety/refusal dataset containing harmful and benign prompts with language family tags (Latin, Germanic, etc.) and severity ratings. Designed for training and evaluating multilingual safety classifiers and refusal behaviors.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "wujoe132/ponys-ai-multilingual-companion-evaluation",
+      "url": "https://huggingface.co/datasets/wujoe132/ponys-ai-multilingual-companion-evaluation",
+      "languages": [
+        "ja",
+        "ko",
+        "es",
+        "pt",
+        "zh",
+        "en"
+      ],
+      "size": "20 evaluation protocols with CSV worksheets",
+      "license": "CC BY 4.0",
+      "category": "Evaluation / Benchmark",
+      "description": "20 reusable evaluation protocols for multilingual AI companion and character experiences. Covers conversation memory, persona consistency, consent recovery, visual continuity, code-switching, and regional language behavior across Japanese, Korean, Latin American Spanish, Brazilian Portuguese, Chinese, and English.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-03",
+      "release_version": "v1.0.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "tojpaj/kisan-advisory-multilingual-indic",
+      "url": "https://huggingface.co/datasets/tojpaj/kisan-advisory-multilingual-indic",
+      "languages": [
+        "en",
+        "hi",
+        "pa"
+      ],
+      "size": "15 downloads",
+      "license": "Unknown",
+      "category": "QA / Agriculture",
+      "description": "Multilingual Indic agricultural advisory QA dataset covering English, Hindi, and Punjabi. Farmer-focused question-answering for agricultural guidance.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-03",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "tojpaj/personal-finance-multilingual-indic",
+      "url": "https://huggingface.co/datasets/tojpaj/personal-finance-multilingual-indic",
+      "languages": [
+        "hi",
+        "pa"
+      ],
+      "size": "17 downloads",
+      "license": "Unknown",
+      "category": "Domain-Specific / Finance",
+      "description": "Multilingual Indic personal finance dataset in Hindi and Punjabi. Covers financial literacy and advisory content.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-02",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "tojpaj/science-misinfo-multilingual-indic",
+      "url": "https://huggingface.co/datasets/tojpaj/science-misinfo-multilingual-indic",
+      "languages": [
+        "hi",
+        "pa"
+      ],
+      "size": "21 downloads",
+      "license": "Unknown",
+      "category": "Classification / Misinformation",
+      "description": "Multilingual Indic science misinformation detection dataset in Hindi and Punjabi. Designed for identifying scientific misinformation in Indic languages.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-08-02",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "dayomtechnologies/English_Nuer_parallel_translation_open_corpus",
+      "url": "https://huggingface.co/datasets/dayomtechnologies/English_Nuer_parallel_translation_open_corpus",
+      "languages": [
+        "en",
+        "nus"
+      ],
+      "size": "63 downloads",
+      "license": "Unknown",
+      "category": "Translation / Parallel Corpus",
+      "description": "English-Nuer parallel translation corpus. Nuer is a Nilotic language spoken in South Sudan and Ethiopia — an extremely low-resource language. Contains sentence-aligned bilingual pairs from diverse sources including religious texts, educational content, and general web content.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-07-24",
+      "release_version": null,
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Crownelius/Hyper-UltraData-Grok-V1",
+      "url": "https://huggingface.co/datasets/Crownelius/Hyper-UltraData-Grok-V1",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "81 downloads",
+      "license": "Unknown",
+      "category": "SFT / General",
+      "description": "Community-created variant of OpenBMB UltraData, processed/enhanced with Grok-style augmentation. Part of the UltraData ecosystem derivatives.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-07-16",
+      "release_version": "V1",
+      "timeliness_score": "中"
+    },
+    {
+      "name": "majentik/ultradata-sft-calib",
+      "url": "https://huggingface.co/datasets/majentik/ultradata-sft-calib",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "42 downloads",
+      "license": "Unknown",
+      "category": "SFT / Calibration",
+      "description": "UltraData SFT calibration dataset — a processed subset of OpenBMB UltraData-SFT-2605 for model calibration and confidence tuning.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-07-18",
+      "release_version": null,
+      "timeliness_score": "中"
+    },
+    {
+      "name": "majentik/ultradata-math-calib",
+      "url": "https://huggingface.co/datasets/majentik/ultradata-math-calib",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "40 downloads",
+      "license": "Unknown",
+      "category": "SFT / Math Calibration",
+      "description": "UltraData Math calibration dataset — processed subset of OpenBMB UltraData-Math for model calibration and confidence estimation in mathematical reasoning.",
+      "discovered_date": "2026-08-05",
+      "last_updated": "2026-07-18",
+      "release_version": null,
+      "timeliness_score": "中"
     }
   ],
   "total_datasets": 344,

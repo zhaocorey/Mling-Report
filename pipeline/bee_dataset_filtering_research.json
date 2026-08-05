@@ -3564,6 +3564,94 @@
       "date_found": "2026-07-28",
       "date_published": "2026",
       "relevance": "data_filtering_safety"
+    },
+    {
+      "title": "Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-07-24",
+      "venue/source": "arXiv",
+      "relevance": "high — Introduces scalable inference-only data valuation pipeline approximating Shapley values without retraining. Maps semantic k-NN neighborhoods into directed graphs and evaluates data utility via zero-shot/one-shot conditional log-likelihood shifts. Demonstrates 99.1% manual audit search space reduction on HelpSteer2 and identifies hidden safety/factual preference inversions in HH-RLHF. Directly applicable to alignment dataset quality auditing.",
+      "url": "https://arxiv.org/abs/2607.22766",
+      "category": "quality/filtering"
+    },
+    {
+      "title": "Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA",
+      "authors": [
+        "Joan Figuerola Hurtado"
+      ],
+      "date": "2026-07-23",
+      "venue/source": "arXiv",
+      "relevance": "high — Demonstrates that once adapter capacity is adequate, training-data quality is the dominant lever on closed-book accuracy, outweighing LoRA rank, learning rate, and architecture. A single curation pass moved accuracy from 57.7% to 85.7%. Strong empirical evidence for data quality > model capacity principle.",
+      "url": "https://arxiv.org/abs/2607.21861",
+      "category": "quality"
+    },
+    {
+      "title": "Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-08-03",
+      "venue/source": "arXiv",
+      "relevance": "medium — Formulates faithful visual compression as constructing compact coreset for decoder messages. Training-free Grounded Message Coreset Pruning (GMC) jointly allocates support across query-grounded, appearance, and coordinate-aware evidence. Retains 97.78% capability with 80.2% fewer visual tokens. Extends coreset concept to multimodal compression.",
+      "url": "https://arxiv.org/abs/2608.02134",
+      "category": "coreset/compression"
+    },
+    {
+      "title": "Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation",
+      "authors": [
+        "Goutham Ramakrishnan"
+      ],
+      "date": "2026-07-31",
+      "venue/source": "arXiv",
+      "relevance": "medium — Open-source framework for generating high-quality synthetic training data for function calling. Decomposes multi-turn tool-use into constrained stepwise generation with validation and error-feedback loops. Released dataset spanning 1000+ APIs and 100K+ multi-turn interactions. Demonstrates data quality as critical bottleneck for small LMs.",
+      "url": "https://arxiv.org/abs/2607.29250",
+      "category": "synthetic/construction"
+    },
+    {
+      "title": "Unified Data Selection for LLM Reasoning",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-05-29",
+      "venue/source": "arXiv",
+      "relevance": "high — Proposes unified metric and efficient data selection method for LLM reasoning tasks. Demonstrates that data selection using a lightweight 0.6B model yields competitive results, making selection practical at scale.",
+      "url": "https://arxiv.org/abs/2605.22389",
+      "category": "selection/reasoning"
+    },
+    {
+      "title": "SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-07-01",
+      "venue/source": "IEEE",
+      "relevance": "high — Multi-granularity semantic hashing framework for large-scale document deduplication. Unifies semantic projection with hash-based indexing to preserve semantic equivalence while maintaining computational efficiency over massive corpora. Directly applicable to pretraining data deduplication.",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11621091",
+      "category": "deduplication"
+    },
+    {
+      "title": "DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-02-14",
+      "venue/source": "arXiv",
+      "relevance": "high — Frames data recipe optimization as RL problem where the agent learns optimal data composition for LLM adaptation. Addresses the key challenge of determining data mix ratios for fine-tuning.",
+      "url": "https://arxiv.org/abs/2602.11089",
+      "category": "mixing/recipe"
+    },
+    {
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-07-22",
+      "venue/source": "arXiv",
+      "relevance": "medium — First benchmark evaluating LLMs as training data preparators. Covers both data construction and automated data selection as co-equal capabilities. Provides standardized evaluation for the emerging paradigm of LLM-driven data preparation.",
+      "url": "https://arxiv.org/abs/2607.20465",
+      "category": "benchmark/quality"
     }
   ],
   "tools_and_repos": [
@@ -3891,6 +3979,28 @@
       "date_found": "2026-07-28",
       "date_created": "2026-07-25",
       "stars": 0
+    },
+    {
+      "title": "DataWarden",
+      "authors": [
+        "lordalex4788"
+      ],
+      "date": "2026-07-24",
+      "venue/source": "GitHub",
+      "relevance": "medium — Enterprise-grade TUI duplicate finder and data governance platform. Features xxHash indexing, cross-reference comparison, cascading smart filters, snapshot transactions, and local LLM (Ollama) integration for intelligent deduplication. Directly applicable to dataset deduplication workflows.",
+      "url": "https://github.com/lordalex4788/DataWarden",
+      "category": "deduplication"
+    },
+    {
+      "title": "Awesome-LLM-Data-Preparation",
+      "authors": [
+        "haolpku"
+      ],
+      "date": "2026-04-28",
+      "venue/source": "GitHub",
+      "relevance": "high — Curated companion to JCST 2026 survey on Data Preparation for LLMs. Covers pre-training, continual pre-training, and post-training (SFT/RLHF/RLAIF) across collection, filtering, and preparation stages. Comprehensive resource index for the field.",
+      "url": "https://github.com/haolpku/Awesome-LLM-Data-Preparation",
+      "category": "resource/survey"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3998,16 +4108,28 @@
       "year": 2026,
       "description": "Comprehensive survey of synthetic data generation tools in 2026 including Distilabel, Magpie, Augmentoolkit, NeMo Curator, Open-Instruct, and dozens of specialized tools for math, code, and reasoning data generation.",
       "date_found": "2026-07-28"
+    },
+    {
+      "title": "Human+ AI: Large scale Data Curation For Multilingual Guardrails",
+      "authors": [
+        "Unknown"
+      ],
+      "date": "2026-07-01",
+      "venue/source": "OpenReview",
+      "relevance": "medium — Discusses the rapid emergence of data curation and annotation industry for multilingual AI guardrails. Projects that much digital content will be consumed for LLM training between 2026+, highlighting the growing importance of systematic data curation at scale.",
+      "url": "https://openreview.net/forum?id=yAueHCL6ZA",
+      "category": "industry/curation"
     }
   ],
   "last_incremental_update": "2026-07-27",
   "metadata": {
     "last_updated": "2026-07-11T09:23:00+08:00",
-    "total_papers": 85,
+    "total_papers": 242,
     "total_tools_and_repos": 12,
     "total_blog_posts_and_tutorials": 8,
-    "total_tools": 14,
-    "total_blogs": 8
+    "total_tools": 35,
+    "total_blogs": 12,
+    "last_incremental_merge": "2026-08-05"
   },
   "last_merge": "2026-07-27",
   "last_updated": "2026-07-27",

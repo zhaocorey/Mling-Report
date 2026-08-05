@@ -191,3 +191,20 @@ tool	ptbr-cpt-data-ablation
 tool	SDG-Synthetic-Data-Factory
 tool	SHIFT (Training-Free RLVR Data Selection)
 tool	Smart-data-selection-for-language-modeling
+paper	Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
+paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning
+paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents
+paper	BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training
+paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
+paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
+paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
+paper	Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation
+paper	Unified Data Selection for LLM Reasoning
+paper	RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories
+paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training
+paper	SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication
+paper	DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
+paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
+tool	DataWarden
+tool	Awesome-LLM-Data-Preparation
+blog	Human+ AI: Large scale Data Curation For Multilingual Guardrails

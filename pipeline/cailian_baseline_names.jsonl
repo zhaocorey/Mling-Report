@@ -283,3 +283,14 @@ paper	Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data
 paper	Continual Safety Alignment via Gradient-Based Sample Selection
 paper	Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning
 paper	Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretraining
+paper	Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
+paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
+paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
+paper	Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation
+paper	Unified Data Selection for LLM Reasoning
+paper	SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication
+paper	DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
+paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
+tool	DataWarden
+tool	Awesome-LLM-Data-Preparation
+blog	Human+ AI: Large scale Data Curation For Multilingual Guardrails
