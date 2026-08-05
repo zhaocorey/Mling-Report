@@ -129,6 +129,7 @@ HPLT 2.0 Cleaned
 HPLT 3.0
 HPLT 3.0 (High Performance Language Technologies)
 HPLT 3.0 (HPLT/HPLT3.0)
+HPLT 3.0 — LREC-COLING 2026 论文发布
 HPLT OpenLID-v3
 HPLT/OpenLID-v3
 HuggingFaceCode/stack-v3-train
@@ -380,5 +381,8 @@ yagizgencer/emojinize-multilingual
 版本追踪关键变化
 🌍 BENI Global 10 — 全球南方经济叙事语料
 📊 DimABSA — 多语言维度情感分析
+📏 评估基准
 📚 HPLT 3.0 — PB 级多语言预训练资源重大更新
+📝 平行语料
 🔧 MixMinMatch — 跨源一致性过滤方法
+🛡️ 安全对齐

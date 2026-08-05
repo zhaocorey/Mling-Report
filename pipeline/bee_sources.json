@@ -173,6 +173,478 @@
       "likes": 2,
       "search_keywords": "emoji multilingual dataset",
       "source": "HuggingFace API (multilingual, lastModified)"
+    },
+    {
+      "name": "MAST Multilingual Queries 2026",
+      "url": "https://huggingface.co/datasets/mast-benchmark/multilingual-queries-2026",
+      "description": "Multilingual agentic search benchmark (MAST @ FIRE 2026). Evaluates whether multilingual search systems can answer complex questions posed in different languages. Builds on BrowseComp-Plus (ACL 2026).",
+      "languages": [
+        "ar",
+        "bn",
+        "cy",
+        "de",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "hi",
+        "ru",
+        "sw",
+        "ta",
+        "th",
+        "ur",
+        "zh"
+      ],
+      "size": "<1K queries per language, 15 languages",
+      "source": "HuggingFace",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-08-05",
+      "release_version": "2026",
+      "timeliness_score": "高",
+      "category": "评估基准",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "Multilingual USAS Silver Labelled Wikipedia",
+      "url": "https://huggingface.co/datasets/ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia",
+      "description": "Silver-labelled Wikipedia article text for training USAS semantic taggers and Multi-Word Expression identifiers. Covers 8 Wikipedia language sites, using Good/Featured articles from FineWiki.",
+      "languages": [
+        "en",
+        "nl",
+        "pt",
+        "es",
+        "da",
+        "it",
+        "fi",
+        "zh"
+      ],
+      "size": "10K-100K articles, 8 languages",
+      "source": "HuggingFace",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-08-05",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "category": "预训练语料",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "ZamVoice (Zambia Multilingual ASR Dataset)",
+      "url": "https://huggingface.co/datasets/buumpa641/Zambia-MultiLingual-ASR-Dataset",
+      "description": "Continuously growing multilingual speech corpus for Zambian languages (Bemba, Nyanja, Tonga). Community-driven data collection for ASR research in low-resource African languages.",
+      "languages": [
+        "bem",
+        "nya",
+        "toi"
+      ],
+      "size": "<1K recordings, 3 Zambian languages",
+      "source": "HuggingFace",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "语音多模态",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "WorldSpeech",
+      "url": "https://arxiv.org/abs/2605.09167",
+      "description": "Large-scale 24 kHz multilingual speech corpus with 65k hours of aligned audio-transcript data across 76 languages. Collected from parliamentary proceedings, international broadcasts, and public-domain audiobooks. Fine-tuning ASR models achieves 63.5% relative WER reduction.",
+      "languages": [
+        "76 languages (37 with >200h, 24 with >1000h)"
+      ],
+      "size": "65,000 hours aligned audio-transcript data",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-05-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "语音多模态",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "MaLA Bilingual Translation Corpus (EMMA-500)",
+      "url": "https://arxiv.org/abs/2506.00469",
+      "description": "Massively multilingual bilingual translation corpus covering 2,500+ language pairs for continual pre-training of LLMs to 500 languages. Used to develop EMMA-500 Llama 3 suite. Published at ACL Findings 2026.",
+      "languages": [
+        "500+ languages, 2,507 language pairs"
+      ],
+      "size": "Up to 671B tokens training data",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-20",
+      "release_version": "v2 (arXiv)",
+      "timeliness_score": "高",
+      "category": "平行语料",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "Thiomi Dataset",
+      "url": "https://arxiv.org/abs/2603.29244",
+      "description": "Large-scale multimodal corpus for 10 African languages across 4 language families. Contains 601K+ approved sentence-level text annotations and 385K+ audio recordings from 100+ contributors. ASR baselines achieve 3.24% WER on Swahili.",
+      "languages": [
+        "sw",
+        "ki",
+        "kam",
+        "mer",
+        "luo",
+        "mas",
+        "kipsigis",
+        "so",
+        "wo",
+        "ff"
+      ],
+      "size": "601K+ sentences, 385K+ audio recordings",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-04-05",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "SEAHateCheck",
+      "url": "https://arxiv.org/abs/2603.16070",
+      "description": "First functional test suite for hate speech detection in Southeast Asian languages (Indonesian, Tagalog, Thai, Vietnamese). Culturally relevant test cases validated by local experts. Builds on HateCheck framework.",
+      "languages": [
+        "id",
+        "tl",
+        "th",
+        "vi"
+      ],
+      "size": "Functional test suite (multiple test cases per function)",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-03-21",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "category": "安全对齐",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "Chitrakshara",
+      "url": "https://arxiv.org/abs/2603.23521",
+      "description": "Large-scale multilingual multimodal dataset for 11 Indian languages from Common Crawl. Includes Chitrakshara-IL (193M images, 30B text tokens, 50M multilingual documents) and Chitrakshara-Cap (44M image-text pairs, 733M tokens).",
+      "languages": [
+        "hi",
+        "bn",
+        "ta",
+        "te",
+        "ml",
+        "kn",
+        "gu",
+        "mr",
+        "pa",
+        "or",
+        "as"
+      ],
+      "size": "193M images + 30B tokens (IL) + 44M image-text pairs (Cap)",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-03-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "category": "语音多模态",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "INDIC-DIALECT",
+      "url": "https://arxiv.org/abs/2601.10388",
+      "description": "Human-curated parallel corpus of 13K sentence pairs spanning 11 dialects and 2 languages (Hindi and Odia). Multi-task benchmark for dialect classification, MCQ answering, and machine translation.",
+      "languages": [
+        "hi",
+        "or",
+        "11 Hindi/Odia dialects"
+      ],
+      "size": "13K sentence pairs, 11 dialects",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-01-16",
+      "release_version": "v1",
+      "timeliness_score": "中",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "MMLU Localisation Project (EMT Network)",
+      "url": "https://arxiv.org/abs/2607.18432",
+      "description": "EU DGT-EMT collaboration to localise the MMLU dataset into 11 European languages. Creates a more inclusive benchmark for LLM evaluation with professional translation quality.",
+      "languages": [
+        "11 European languages"
+      ],
+      "size": "Full MMLU translated to 11 EU languages",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "评估基准",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "Samasāmayik",
+      "url": "https://arxiv.org/abs/2603.24307",
+      "description": "Large-scale Hindi-Sanskrit parallel corpus with 92,196 sentences from diverse contemporary sources (spoken tutorials, children's magazines, radio conversations). Benchmarked with ByT5, NLLB, IndicTrans-v2.",
+      "languages": [
+        "hi",
+        "sa"
+      ],
+      "size": "92,196 parallel sentences",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-03-31",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "平行语料",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "ViDia2Std",
+      "url": "https://arxiv.org/abs/2607.23970",
+      "description": "First benchmark for cross-dialect comprehension in Vietnamese. 344 cloze-test items spanning 68 regional dialects from 18 provinces. Tests whether Vietnamese speakers understand other regional varieties.",
+      "languages": [
+        "vi",
+        "68 Vietnamese regional dialects"
+      ],
+      "size": "344 cloze-test items, 68 dialects",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-31",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "NepTam",
+      "url": "https://arxiv.org/abs/2606.22223",
+      "description": "Code-mixed Nepali-English sentiment analysis dataset with ~11K sentences. Built from social media content, designed for NLP in Nepali-English code-mixed environments.",
+      "languages": [
+        "ne",
+        "en",
+        "code-mixed"
+      ],
+      "size": "~11K sentences",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-06-26",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "MathMist",
+      "url": "https://arxiv.org/abs/2606.07648",
+      "description": "Multilingual math reasoning benchmark covering 16K items across 16 languages. Evaluates mathematical reasoning capabilities of LLMs in multilingual settings.",
+      "languages": [
+        "16 languages"
+      ],
+      "size": "16K math reasoning items",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-06-10",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "推理数学",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "MathNet",
+      "url": "https://arxiv.org/abs/2606.09602",
+      "description": "Real-world multimodal benchmark with 15K QA pairs in 5 languages spanning 34K images and 50K documents. Tests mathematical reasoning over real-world visual materials.",
+      "languages": [
+        "5 languages"
+      ],
+      "size": "15K QA pairs, 34K images, 50K documents",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-06-12",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "推理数学",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "mAceReason-Math",
+      "url": "https://arxiv.org/abs/2608.01228",
+      "description": "Multilingual benchmark for mathematical reasoning. Evaluates LLMs' ability to reason about mathematical concepts across multiple languages.",
+      "languages": [
+        "multiple languages"
+      ],
+      "size": "benchmark dataset",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-08-02",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "推理数学",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "Mdeval",
+      "url": "https://aclanthology.org/2026.findings-acl.1041/",
+      "description": "Massively multilingual code debugging benchmark. Evaluates LLMs' ability to debug code in multiple programming languages. Published at ACL Findings 2026.",
+      "languages": [
+        "multiple programming languages"
+      ],
+      "size": "multilingual code debugging dataset",
+      "source": "ACL Anthology",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-01",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "代码工具",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "BHT25 (Brazilian Hate Twitter 2025)",
+      "url": "https://arxiv.org/abs/2607.12573",
+      "description": "Brazilian Portuguese Twitter hate speech detection dataset. Multilingual approach to hate speech detection in low-resource language settings.",
+      "languages": [
+        "pt-br"
+      ],
+      "size": "Twitter dataset for hate speech detection",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-16",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "安全对齐",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "KannadaLit4NLP",
+      "url": "https://arxiv.org/abs/2607.10911",
+      "description": "Benchmark for Kannada language NLP tasks. Addresses the gap in evaluation resources for this low-resource Dravidian language.",
+      "languages": [
+        "kn"
+      ],
+      "size": "benchmark dataset",
+      "source": "arXiv",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-07-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "VietMediSpecies 2026",
+      "url": "https://doi.org/10.1145/3774905.3795608",
+      "description": "Massive multilingual image dataset for Vietnamese medicinal plants. 310,647 images of 4,799 species from multiple kingdoms. Connects Vietnamese vernacular names to GBIF taxonomy with online Explorer.",
+      "languages": [
+        "vi",
+        "scientific names"
+      ],
+      "size": "310,647 images, 4,799 species",
+      "source": "ACM",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-06-01",
+      "release_version": "2026",
+      "timeliness_score": "高",
+      "category": "低资源语言",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
+    },
+    {
+      "name": "MMMB (Massive Multilingual Multimodal Benchmark)",
+      "url": "https://github.com/AIDC-AI/Parrot",
+      "description": "Multilingual multimodal benchmark with 6 languages, 15 categories, and 12,000 questions. Introduced with Parrot (multilingual visual instruction tuning). Evaluates multilingual capabilities of MLLMs.",
+      "languages": [
+        "6 languages"
+      ],
+      "size": "12,000 questions, 15 categories",
+      "source": "GitHub",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-06-04",
+      "release_version": null,
+      "timeliness_score": "高",
+      "category": "语音多模态",
+      "is_version_update": false,
+      "previous_version": null,
+      "search_keywords": [],
+      "downloads": 0,
+      "likes": 0
     }
   ],
   "version_updates": [
@@ -197,6 +669,23 @@
       "last_updated": "2026-07-26",
       "downloads": 59,
       "note": "Companion to multilingual-jailbreak (already in baseline); structured prompt injection dataset with OWASP/AML threat taxonomy tagging across multiple languages"
+    },
+    {
+      "name": "HPLT 3.0",
+      "url": "https://huggingface.co/datasets/HPLT/HPLT-3.0",
+      "description": "HPLT 3.0 paper published at LREC-COLING 2026. Very large-scale multilingual resources for LLMs and MT, including mono/bilingual data, evaluation, and pre-trained models.",
+      "languages": [
+        "multiple languages"
+      ],
+      "size": "Very large-scale",
+      "source": "ACL Anthology",
+      "discovered_date": "2026-08-06",
+      "last_updated": "2026-05-20",
+      "release_version": "LREC-COLING 2026 paper",
+      "timeliness_score": "高",
+      "category": "预训练语料",
+      "is_version_update": true,
+      "previous_version": "HPLT 3.0 (already in baseline)"
     }
   ],
   "papers": [
@@ -230,8 +719,56 @@
       "dataset_available": true,
       "dataset_name": "AdaMLLab/MixMinMatch collection (AraMix, TurMix, HinMix, ThaMix, ItaMix, IndMix, KorMix, JpnMix, VieMix)",
       "timeliness_score": "中"
+    },
+    {
+      "title": "Building a European Multilingual Evaluation Dataset: The MMLU Localisation Project within the EMT Network",
+      "url": "https://arxiv.org/abs/2607.18432",
+      "authors": "EU DGT & EMT Network",
+      "date": "2026-07-20",
+      "summary": "Collaboration between EU DGT and European Master's in Translation to localise MMLU into 11 European languages. Creates inclusive LLM evaluation benchmark with professional translation quality.",
+      "relevance": "直接关联：多语言评估基准本地化方法论"
+    },
+    {
+      "title": "Data-Centric Continual Pre-training for 500+ Languages: A New Bilingual Translation Corpus and Multilingual Models (MaLA/EMMA-500)",
+      "url": "https://aclanthology.org/2026.findings-acl.937/",
+      "authors": "MaLA-LM team",
+      "date": "2026-07-01",
+      "summary": "Constructs MaLA bilingual translation corpus (2,507 language pairs) and develops EMMA-500 Llama 3 suite. Demonstrates bilingual data enhances language transfer, especially for low-resource languages.",
+      "relevance": "核心参考：500语言大规模平行语料构建方法论"
+    },
+    {
+      "title": "WorldSpeech: A Multilingual Speech Corpus from Around the World",
+      "url": "https://arxiv.org/abs/2605.09167",
+      "authors": "Luca Lanzendörfer et al.",
+      "date": "2026-05-09",
+      "summary": "76-language 65K-hour aligned speech corpus from parliamentary, broadcast, and audiobook sources. Achieves 63.5% relative WER reduction when fine-tuning ASR models.",
+      "relevance": "重要参考：大规模多语言语音语料构建方法"
+    },
+    {
+      "title": "The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource African Languages",
+      "url": "https://arxiv.org/abs/2603.29244",
+      "authors": "Hillary Mutisya et al.",
+      "date": "2026-03-31",
+      "summary": "10 African languages across 4 families with 601K+ text annotations and 385K+ audio recordings. Community-driven platform with 100+ contributors. ASR achieves 3.24% WER on Swahili.",
+      "relevance": "重要参考：非洲语言多模态数据集社区构建模式"
+    },
+    {
+      "title": "Data-Centric Continual Pre-training for 500+ Languages (MaLA bilingual corpus)",
+      "url": "https://arxiv.org/abs/2506.00469",
+      "authors": "MaLA-LM team",
+      "date": "2026-07-20",
+      "summary": "Updated version of the MaLA corpus paper. Studies impact of bilingual translation data for massively multilingual language adaptation. Constructs corpus of 2,500+ language pairs.",
+      "relevance": "核心参考：大规模多语言持续预训练数据策略"
+    },
+    {
+      "title": "The State and Fate of Multilingual, Contextual Evaluation in the NLP World",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/04/Multilingual_Evaluation_Survey-2.pdf",
+      "authors": "Microsoft Research",
+      "date": "2026-04-01",
+      "summary": "Comprehensive survey of 51 recent multilingual benchmarks spanning 242 datasets and 219 unique languages. Analyzes evaluation gaps and methodologies.",
+      "relevance": "元参考：多语言评估基准全景综述"
     }
   ],
-  "last_updated": "2026-08-04",
-  "total_datasets": 8
+  "last_updated": "2026-08-06",
+  "total_datasets": 29
 }
