@@ -645,6 +645,278 @@
       "search_keywords": [],
       "downloads": 0,
       "likes": 0
+    },
+    {
+      "name": "michsethowusu/melo-tts-ghana-multilingual",
+      "url": "https://huggingface.co/datasets/michsethowusu/melo-tts-ghana-multilingual",
+      "languages": [
+        "Ewe (ewe)"
+      ],
+      "size": "Large-scale TTS corpus (32+ shards)",
+      "license": "Unknown",
+      "category": "语音/TTS",
+      "description": "Ghana multilingual TTS dataset based on Bible text with phonetic IPA transcriptions. Covers Ewe language with multiple speakers. Useful for low-resource African language TTS development.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual speech audio ASR",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "Tonic/multilingual-EMIR-reporting",
+      "url": "https://huggingface.co/datasets/Tonic/multilingual-EMIR-reporting-jsonl",
+      "languages": [
+        "multilingual (EU languages)"
+      ],
+      "size": "10K-100K records",
+      "license": "Unknown",
+      "category": "金融/合规",
+      "description": "Multilingual European Market Infrastructure Regulation (EMIR) reporting dataset. Available in CSV, JSONL, and Parquet formats. Useful for financial compliance NLP in multiple EU languages.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset",
+      "source": "HuggingFace API (lastModified)",
+      "variants": [
+        "Tonic/multilingual-EMIR-reporting-csv",
+        "Tonic/multilingual-EMIR-reporting-jsonl",
+        "Tonic/multilingual-EMIR-reporting-parquet-mixed"
+      ]
+    },
+    {
+      "name": "masterofaudio2077/filtered-multilingual-pii",
+      "url": "https://huggingface.co/datasets/masterofaudio2077/filtered-multilingual-pii",
+      "languages": [
+        "de",
+        "en",
+        "es",
+        "fr",
+        "it",
+        "pt"
+      ],
+      "size": "945K rows",
+      "license": "MIT (derived from Wismut/nym-pii-multilingual-data)",
+      "category": "安全/PII检测",
+      "description": "Filtered version of multilingual PII dataset with 945K rows across 6 languages. Contains annotated PII entities (ADDRESS, PHONE, EMAIL, etc.) with structured provenance tracking. Schema v1.1.0.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-07",
+      "release_version": "v1.1.0",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual safety",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "Souro/agentic-tooluse-adapted-multilingual",
+      "url": "https://huggingface.co/datasets/Souro/agentic-tooluse-adapted-multilingual",
+      "languages": [
+        "ar",
+        "as",
+        "bn",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "gu",
+        "hi",
+        "it",
+        "ja",
+        "kn",
+        "ko",
+        "ml",
+        "mr",
+        "or",
+        "pa",
+        "pt",
+        "ru",
+        "ta",
+        "te",
+        "zh"
+      ],
+      "size": "Multi-shard dataset",
+      "license": "Unknown",
+      "category": "Agent/工具使用",
+      "description": "Multilingual agentic tool use dataset adapted for 23+ languages including many Indian languages (Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu). Passage-based QA with tool invocation patterns.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-06",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual SFT instruction",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "Souro/agentic-tooluse-synthetic-multilingual",
+      "url": "https://huggingface.co/datasets/Souro/agentic-tooluse-synthetic-multilingual",
+      "languages": [
+        "as",
+        "bn",
+        "brx",
+        "doi",
+        "en",
+        "hi",
+        "kn",
+        "ml",
+        "mr",
+        "ne",
+        "or",
+        "pa",
+        "sa",
+        "sd",
+        "si",
+        "ta",
+        "te",
+        "ur"
+      ],
+      "size": "Multi-shard synthetic dataset",
+      "license": "Unknown",
+      "category": "Agent/工具使用",
+      "description": "Synthetic multilingual agentic tool use dataset with focus on Indian languages including rare ones (Bodo, Dogri, Sanskrit, Sindhi, Sinhala, Nepali). Generated via synthetic augmentation.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-06",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual SFT instruction",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "BUAIR/Uganda-Multilingual-QA",
+      "url": "https://huggingface.co/datasets/BUAIR/Uganda-Multilingual-QA",
+      "languages": [
+        "en",
+        "adh (Alur)",
+        "teo (Ateso)",
+        "nyn (Runyankole)",
+        "lg (Luganda)"
+      ],
+      "size": "QA dataset (agriculture domain)",
+      "license": "Unknown",
+      "category": "QA/低资源语言",
+      "description": "Uganda multilingual QA dataset covering agriculture topics (maize, coffee farming). Supports 5 languages including 4 Ugandan languages (Alur, Ateso, Runyankole, Luganda) plus English. Low-resource African language coverage.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-06",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "low resource language",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "mast-benchmark/multilingual-queries-2026",
+      "url": "https://huggingface.co/datasets/mast-benchmark/multilingual-queries-2026",
+      "languages": [
+        "ar",
+        "bn",
+        "cy",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "hi",
+        "it",
+        "ja",
+        "ko",
+        "pt",
+        "ru",
+        "zh"
+      ],
+      "size": "Benchmark queries dataset",
+      "license": "Unknown",
+      "category": "评估/信息检索",
+      "description": "MAST Benchmark 2026 multilingual queries dataset for information retrieval evaluation. Covers 14+ languages with QA and text-retrieval tasks.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-06",
+      "release_version": "2026",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual benchmark",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "TerrorCoder/zimbabwe-public-service-dataset",
+      "url": "https://github.com/TerrorCoder/zimbabwe-public-service-dataset",
+      "languages": [
+        "en",
+        "sn (Shona)",
+        "nd (Ndebele)"
+      ],
+      "size": "20K procedure records + 100K QA benchmark pairs",
+      "license": "CC BY 4.0",
+      "category": "QA/低资源语言",
+      "description": "Multilingual Zimbabwe public service dataset: 20K structured procedure records + 100K QA intent benchmark pairs across English, Shona, and Ndebele. Covers all 10 provinces, 60 districts, 32 municipalities. Developed for POTRAZ AI4I 2026 Challenge. Zero PII certified.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-08-01",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "GitHub multilingual dataset",
+      "source": "GitHub API (updated)"
+    },
+    {
+      "name": "StereoTales",
+      "url": "https://arxiv.org/abs/2605.10442",
+      "languages": [
+        "10 languages"
+      ],
+      "size": "650K+ generated stories, 79 socio-demographic attributes, 1500+ over-represented associations",
+      "license": "Released with code",
+      "category": "评估/偏见检测",
+      "description": "Multilingual dataset and evaluation pipeline for studying social bias in open-ended LLM generation. 10 languages × 79 socio-demographic attributes, 650K+ stories from 23 LLMs annotated across 19 dimensions. Human harmfulness ratings (N=247). ACL 2026 era paper.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-05-14",
+      "release_version": "v2",
+      "timeliness_score": "中",
+      "search_keywords": "multilingual bias stereotype",
+      "source": "SearXNG (arXiv discovery)"
+    },
+    {
+      "name": "MBTP (Multilingual Bias with Thinking Processes)",
+      "url": "https://aclanthology.org/2026.acl-long.2204/",
+      "languages": [
+        "8 languages"
+      ],
+      "size": "6K instances, 13 social bias categories",
+      "license": "To be released upon acceptance",
+      "category": "评估/偏见检测",
+      "description": "Multilingual social bias benchmark incorporating human-generated pro- and anti-stereotype reasoning as thinking processes. 8 languages × 13 bias categories. Proposes few-shot meta-evaluation method. Published at ACL 2026 (San Diego). Authors: Kaneko, Bollegala, Baldwin.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-07-01",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "multilingual bias ACL 2026",
+      "source": "SearXNG (ACL anthology)"
+    },
+    {
+      "name": "SHADES (Stereotypes in LLMs Assessment)",
+      "url": "https://pdfs.semanticscholar.org/6a25/18184428f1e5c70507ec6403d95e31d89f9d.pdf",
+      "languages": [
+        "16 languages, 37 regions"
+      ],
+      "size": "300+ stereotypes with templates",
+      "license": "Unknown",
+      "category": "评估/偏见检测",
+      "description": "Multilingual assessment of stereotypes in LLMs. 300+ culturally-specific stereotypes from 37 regions, translated across 16 languages. Paired with templates for unlimited evaluation. Covers culturally-specific biases absent from English-centric resources.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-07-01",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "multilingual stereotype benchmark",
+      "source": "SearXNG (Semantic Scholar)"
+    },
+    {
+      "name": "EspanStereo",
+      "url": "https://arxiv.org/abs/2607.07895",
+      "languages": [
+        "es (Spanish, multiple countries)"
+      ],
+      "size": "Multiple Spanish-speaking countries across Europe and Latin America",
+      "license": "Unknown",
+      "category": "评估/偏见检测",
+      "description": "Spanish-language stereotype dataset using human-LLM collaborative annotation framework. Covers multiple Spanish-speaking countries. Captures culturally specific biases absent from English-centric resources. Framework adaptable to other languages.",
+      "discovered_date": "2026-08-09",
+      "last_updated": "2026-07-11",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "multilingual stereotype benchmark",
+      "source": "SearXNG (arXiv discovery)"
     }
   ],
   "version_updates": [
@@ -769,6 +1041,7 @@
       "relevance": "元参考：多语言评估基准全景综述"
     }
   ],
-  "last_updated": "2026-08-06",
-  "total_datasets": 29
+  "last_updated": "2026-08-10",
+  "total_datasets": 29,
+  "total_count": 41
 }

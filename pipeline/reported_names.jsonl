@@ -17,6 +17,7 @@ amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
 APARSIN
 arabic-russian-parallel-corpus
+artindnr/Multilingual-Thinking
 artindnr/Multilingual-Thinking ⭐
 artindnr/Multilingual-Thinking-200
 Asian Nuance and Implicit Context (Thai)
@@ -38,6 +39,7 @@ BIASEDTALES-ML
 BnMMLU — 孟加拉语 MMLU 评估基准
 BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
+BUAIR/Uganda-Multilingual-QA
 buumba641/Zambia-MultiLingual-ASR-Dataset
 C-Rust Parallel Semantic Similarity Corpus
 C3PO-Mixed-Pretraining-Corpus-Translations
@@ -95,6 +97,8 @@ english-nuer-dinka-parallel-corpus
 english-nuer-thok-naath-conversational-parallel-corpus
 English-Uzbek RAG Evaluation
 eQOURSE/multilingual-speech
+EspanStereo
+EspanStereo: Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration
 EU MMLU
 EU-Instruct-Synthetic
 EuraGovExam
@@ -123,6 +127,7 @@ halo-guard-bench — 46 语言安全护栏基准
 HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
 Helmcode/stack-v3-devops
+hf-audio/multilingual_evals
 hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
 HPLT (High Performance Language Technologies)
 HPLT 2.0 Cleaned
@@ -154,6 +159,7 @@ kasagadi — 数据内容重大扩展
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
 LangMark
+Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and Study
 LASA (Language-Agnostic Semantic Alignment)
 latam-gpt/LatamGPT-Corpus-1.0 🌟
 latentvector/multilingual-speech-text-corpus
@@ -186,10 +192,14 @@ malaysia-ai/Multilingual-TTS
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 MARUCIE/babel-bench 🔥
+mast-benchmark/multilingual-queries-2026
+masterofaudio2077/filtered-multilingual-pii
 Math-PT — Portuguese Math Reasoning Benchmark 📄
 MathMist
 MathNet
 MauroPello/multilingual-reasoning-gym-sft
+MBTP (Multilingual Bias with Thinking Processes)
+MBTP: A Multilingual Social Bias Benchmark Incorporating Thinking Processes
 mC4 (Multilingual Colossal Clean Crawled Corpus)
 mCoT-MATH
 MDPBench (Multilingual Document Parsing Benchmark)
@@ -197,6 +207,7 @@ MENT (Meta-Evaluation for Non-literal Translation)
 METATR v1.0 (Multilingual Text Recognition Benchmark)
 MGSM (Multilingual Grade School Math)
 MHQA-ITU (Multilingual Health QA)
+michsethowusu/melo-tts-ghana-multilingual
 Minionese
 MIRACL (Multilingual Information Retrieval)
 MITRA (Parallel Corpus for Buddhist Languages)
@@ -313,6 +324,7 @@ SeaEval
 SEAHateCheck ⚠️ 时效关注
 SemEval-2026 Task 7 (Everyday Knowledge)
 SemEval-2026 Task 9 (Multilingual Polarization)
+SHADES (Stereotypes in LLMs Assessment)
 shangzx/Chinese-English-Parallel-Translation-Corpus
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 SignerX/SignVerse-2M 🔥⭐ Top 10 候选
@@ -322,9 +334,12 @@ SlimPajama
 somali-pretraining-corpus
 Soohak — Research-level Math Benchmark 📄
 SorryBench-202503-Multilingual
+Souro/agentic-tooluse-adapted-multilingual
+Souro/agentic-tooluse-synthetic-multilingual
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
 SpeechJBB
 sripad17/multilingual-safety-probe-test
+StereoTales
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
@@ -334,6 +349,7 @@ tackhwa/multilingual_safety
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 tejasta/Kannada-English-Parallel-Corpus
+TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
 The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
 TidyVoice: A Curated Multilingual Dataset for Speaker Verification ⭐
@@ -342,6 +358,7 @@ tojpaj/kisan-advisory-multilingual-indic
 tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
+Tonic/multilingual-EMIR-reporting
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
@@ -380,9 +397,15 @@ yagizgencer/emojinize-multilingual
 已报告再确认
 版本追踪关键变化
 🌍 BENI Global 10 — 全球南方经济叙事语料
+💰 金融/合规
 📊 DimABSA — 多语言维度情感分析
+📏 评估/偏见检测
 📏 评估基准
 📚 HPLT 3.0 — PB 级多语言预训练资源重大更新
 📝 平行语料
+📦 其他
+🔊 语音
 🔧 MixMinMatch — 跨源一致性过滤方法
+🛡️ 安全/PII 检测
 🛡️ 安全对齐
+🤖 Agent/工具使用

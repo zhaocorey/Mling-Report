@@ -1,15 +1,15 @@
 {
-  "last_run_date": "2026-08-06",
-  "run_round": 16,
-  "new_datasets_found": 21,
-  "version_updates_found": 1,
-  "papers_found": 6,
-  "after_dedup_new": 9,
-  "window_start": "2026-07-17",
-  "window_end": "2026-08-06",
-  "report_path": "sources_reports/2026-08-06.md",
+  "last_run_date": "2026-08-10",
+  "run_round": 18,
+  "new_datasets_found": 12,
+  "version_updates_found": 4,
+  "papers_found": 3,
+  "after_dedup_new": 12,
+  "window_start": "2026-08-10",
+  "window_end": "2026-08-10",
+  "report_path": "sources_reports/2026-08-10.md",
   "total_baseline": 383,
-  "total_reported": 388,
-  "status": "report_generated",
-  "notes": "Round 16 complete. 21 scanned, 9 truly new after dedup. Strong math reasoning cluster + African/SE Asian languages."
+  "total_reported": 411,
+  "status": "merged",
+  "notes": "Round 18 complete. 12 new datasets merged into bee_sources.json. Dedup indexes rebuilt (411 reported, 383 baseline). Ready for push to GitHub/Gitee/Feishu."
 }
