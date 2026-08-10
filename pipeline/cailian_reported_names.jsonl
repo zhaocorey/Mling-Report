@@ -1,6 +1,9 @@
 blog	AI Pretraining Data Curation on GPU Cloud (2026 Guide)
 blog	Data for Agents
 blog	Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles
+blog	How to Generate and Use Synthetic Data for Finetuning
+blog	Human+ AI: Large scale Data Curation For Multilingual Guardrails
+blog	LLM Adoption in Data Curation Workflows: Industry Practices and Insights
 blog	Reproducible Data Curation In The Multimodal Lakehouse
 blog	Scaling Pedagogical Pre-training: From Optimal Mixing to 10 Billion Tokens
 blog	Spend 80% of Your LLM Compute on Data, Not Training
@@ -9,6 +12,7 @@ blog	Why Data Curation Became the Bottleneck Again
 paper	20/20 Vision Language Models: Better VLMs through Data Curation Alone
 paper	A Bitter Lesson for Data Filtering ⭐⭐⭐⭐⭐
 paper	A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data (LLM Data Auditor)
+paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents
 paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents ⭐⭐⭐⭐
 paper	Active Learning with Low-Rank Structure for Data Selection
 paper	Alignment Tuning for Large Language Models: A Data-Centric Lens on Alignment Data Pipelines
@@ -17,8 +21,10 @@ paper	arXiv cs.CL (July 23, 46 new + 24 cross-lists)
 paper	ASLEC: On the Step Length Confounding in LLM Reasoning Data Selection
 paper	Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data
 paper	Beyond Quantity: Investigating How LLMs Perceive Data Quality in Preference Optimization
+paper	Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
 paper	Beyond What to Select: Plug-and-play Oscillatory Data-Volume Scheduling (PODS)
 paper	Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation
+paper	BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training
 paper	Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs via Data Curation
 paper	BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs
 paper	Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs
@@ -35,12 +41,16 @@ paper	Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LL
 paper	DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data
 paper	Data Attribution in Large Language Models via Bidirectional Gradient Optimization
 paper	Data Governance and Curation Strategies for Large Foundation Models
+paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
 paper	Data Selection and Compression for Efficient Instruction Tuning
+paper	Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation
 paper	Data Value Density Enhancement for Large Language Model Training: A Comprehensive Survey
 paper	Data-Centric Safety Steering of LLMs
+paper	DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
 paper	DataComp-VLM: Improved Open Datasets for Vision-Language Models
 paper	DataEvolver: Automatic Data Preparation for LLMs through Multi-Level Self-Evolving ⭐⭐⭐
 paper	DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models
+paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
 paper	DataRater: Meta-learned Dataset Curation
 paper	Dataset Distillation by Influence Matching (InfMatch)
 paper	Datasets, Documents, and Repetitions: The Practicalities of Unequal Data Quality
@@ -79,6 +89,7 @@ paper	IPROX: Influence-Preserving Proxies for Gradient-Based Data Selection in L
 paper	IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage
 paper	Judging Quality Across Languages (JQL)
 paper	Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning (ADS)
+paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy (EVODATA)
 paper	Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning ⭐⭐⭐⭐
 paper	Learning Multi-Indicator Weights for Data Selection ⭐⭐⭐
 paper	Learning-Zone Energy (LZE): Online Data Selection for Efficient RL Post-Training
@@ -86,6 +97,7 @@ paper	Less is More: Improving LLM Alignment via Preference Data Selection (BeeS)
 paper	Less is More: Quality-Aware Training Data Selection for Scientific Summarization
 paper	LLM Benchmark Datasets Should Be Contamination-Resistant
 paper	MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning
+paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
 paper	MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 paper	NAIT: Neuron-Aware Data Selection in Instruction Tuning for Large Language Models
 paper	On Representation Redundancy in Large-Scale Instruction Tuning Data Selection
@@ -94,6 +106,7 @@ paper	Online Data Selection Is Implicit Alignment
 paper	OpenThoughts-Agent: Data Recipes for Agentic Models
 paper	OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration
 paper	Power and Limits of Subset Selection in Statistical Estimation
+paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning
 paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning ⭐⭐⭐⭐
 paper	PRISM: Preference-Aware Influence Function Based Data Selection Method for Efficient Fine-Tuning
 paper	propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale
@@ -101,12 +114,14 @@ paper	Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Trainin
 paper	QuaSR: Quality-Aware Sample Reweighting for Pacific Indigenous Speech Recognition
 paper	Reasoning Quality Emerges Early in Pre-training
 paper	Reasoning Quality Emerges Early: Data Curation for Reasoning Models
+paper	RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories
 paper	Removing Noise, not Finding Gold: Quality Filtering for Large-Scale Pretraining ⭐⭐⭐⭐⭐
 paper	Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods
 paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	Scaling Multi-Hop Training Data via Graph-Constrained Path Selection
 paper	Select2Reason: Scaling LLM Reasoning via Data Selection (ACL 2026)
 paper	SelecT: Selective Training for LLMs (ACL 2026)
+paper	SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication
 paper	SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection
 paper	SIEVE: Streaming Inference for Efficient Verification and Evaluation
 paper	Simula: Reasoning-Driven Synthetic Data Generation and Evaluation
@@ -115,12 +130,14 @@ paper	Tailoring the Curriculum: Student-Centered Reasoning Distillation via Dyna
 paper	TBDFiltering: Sample-Efficient Tree-Based Data Filtering
 paper	The Data Frontier for Large Language Models: Selection, Synthesis, and Tools ⭐⭐⭐
 paper	The Impact of Coreset Selection on Spurious Correlations and Group Robustness
+paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
 paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning (LHAS)
 paper	The Promise of Synthetic Data for NLP: Insights from Experiments on Sentence and Word Analogy Tasks
 paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practices for Large Language Models
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
+paper	Unified Data Selection for LLM Reasoning
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
 paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining
 paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
@@ -146,7 +163,9 @@ paper	值得深入研究的方向
 paper	六、NeurIPS 2025 补漏的价值
 paper	六、与历史 10 期报告的方向对比
 paper	六、发表渠道分布
+paper	关键发现
 paper	原因分析
+paper	去重 (Dedup)
 paper	可忽略/低优先级
 paper	可忽略或低优先级的工作
 paper	四、与前日报告的趋势对比
@@ -158,13 +177,18 @@ paper	年中淡季，但补漏价值显著
 paper	搜索渠道反思
 paper	搜索策略改进建议
 paper	数据去重（Deduplication）
+paper	数据构建 (Construction)
 paper	数据构建（Construction）
+paper	数据混合 (Mixing)
 paper	数据混合方法论持续深化
 paper	数据混合（Mixing）
 paper	数据策划目标多元化
 paper	数据策划（Curation）
+paper	数据质量 (Quality)
 paper	数据质量（Quality）
+paper	数据过滤 (Filtering)
 paper	数据过滤（Filtering）
+paper	数据采样/课程学习 (Sampling/Curriculum)
 paper	数据采样/课程学习（Sampling/Curriculum）
 paper	类别分布
 paper	精读优先级总表
@@ -172,9 +196,12 @@ paper	综述（Survey）
 paper	近期高价值论文
 tool	ADS (Adaptive Data Scheduling)
 tool	awesome-llm-data
+tool	Awesome-LLM-Data-Preparation
+tool	awesome-llm-training-data
 tool	BLISS-Bilevel-Data-Selection
 tool	CodeForge-Agent
 tool	CuratorKIT
+tool	DataWarden
 tool	DeMix Corpora & Code
 tool	DeMix Corpora and Code
 tool	distributed-curator
@@ -187,24 +214,10 @@ tool	LZE (Learning-Zone Energy)
 tool	Microsoft Data-Efficacy (STR/SAW)
 tool	NVIDIA NeMo Curator
 tool	Open Distillation Datasets
+tool	Pharmacist
 tool	ptbr-cpt-data-ablation
 tool	SDG-Synthetic-Data-Factory
 tool	SHIFT (Training-Free RLVR Data Selection)
 tool	Smart-data-selection-for-language-modeling
-paper	Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
-paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning
-paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents
-paper	BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training
-paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
-paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
-paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
-paper	Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation
-paper	Unified Data Selection for LLM Reasoning
-paper	RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories
-paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training
-paper	SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication
-paper	DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
-paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
-tool	DataWarden
-tool	Awesome-LLM-Data-Preparation
-blog	Human+ AI: Large scale Data Curation For Multilingual Guardrails
+tool	TokenTurbine
+tool	vl-data-engine

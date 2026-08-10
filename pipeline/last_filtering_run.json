@@ -1,11 +1,17 @@
 {
-  "timestamp": "2026-08-05T09:30:00+08:00",
-  "date": "2026-08-05",
+  "timestamp": "2026-08-06T09:00:00+08:00",
+  "date": "2026-08-06",
   "type": "dataset_filtering_incremental",
-  "papers_added": 14,
-  "tools_added": 2,
-  "blogs_added": 1,
-  "reported_skipped": 4,
-  "total_new": 17,
-  "report_file": "dataset_filtering_survey/2026-08-05.md"
+  "papers_added": 22,
+  "tools_added": 4,
+  "blogs_added": 2,
+  "total_new": 28,
+  "search_window": "2026-07-17 to 2026-08-06",
+  "note": "DuckDuckGo rate-limited; used SearXNG + GitHub API as primary sources",
+  "merged_to_baseline": true,
+  "dedup_index_rebuilt": true,
+  "github_pushed": true,
+  "push_commit": "7111ff4",
+  "push_repo": "zhaocorey/Mling-Report",
+  "pipeline_completed_at": "2026-08-06T10:27:26+08:00"
 }

@@ -9,7 +9,22 @@
     "influence function data selection language model",
     "data mixing pretraining language model strategy",
     "curriculum learning data sampling LLM training",
-    "dataset distillation survey"
+    "dataset distillation survey",
+    "dataset filtering",
+    "data selection",
+    "data curation",
+    "data deduplication",
+    "data mixing",
+    "core-set",
+    "coreset",
+    "influence function",
+    "curriculum learning",
+    "difficulty-based sampling",
+    "data quality assessment",
+    "synthetic data generation",
+    "data construction",
+    "active learning data selection",
+    "data attribution"
   ],
   "channels_searched": [
     "arXiv",
@@ -3652,6 +3667,334 @@
       "relevance": "medium — First benchmark evaluating LLMs as training data preparators. Covers both data construction and automated data selection as co-equal capabilities. Provides standardized evaluation for the emerging paradigm of LLM-driven data preparation.",
       "url": "https://arxiv.org/abs/2607.20465",
       "category": "benchmark/quality"
+    },
+    {
+      "title": "H3D: Benchmarking Unsupervised Text Hashing for Fine-Grained Document Deduplication",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.08382",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Benchmarks unsupervised text hashing methods for fine-grained document deduplication, distinguishing between near-duplicate documents (e.g., different versions of the same paper) vs. semantically similar but distinct documents. Compares neural semantic hashing with lightweight hash approaches.",
+      "key_methods": [
+        "unsupervised text hashing",
+        "fine-grained deduplication benchmark"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DEDUCT: An Efficient Model for Secure and Redundant-Free Cloud Text Storage",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11440986/",
+      "source_channel": "SearXNG",
+      "category": "dedup",
+      "description": "Proposes a scalable textual data deduplication framework for cloud storage, combining exact hashing with semantic similarity models (word embeddings) to identify both exact and near-duplicate text data.",
+      "key_methods": [
+        "exact hashing",
+        "semantic similarity deduplication",
+        "cloud text storage"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Difficulty Is Not Enough: Curriculum Learning for LLMs Fine-tuning Must Consider Utility (DUCL)",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40400",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes Difficulty-Utility Curriculum Learning (DUCL) that jointly considers sample difficulty and utility for curriculum learning in LLM fine-tuning. Introduces Difficulty-Utility Evaluation (DUE) scoring and Window Ordering scheduling strategy.",
+      "key_methods": [
+        "difficulty-utility scoring",
+        "window ordering",
+        "curriculum learning"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DUMP: Distribution-Level Curriculum Learning for RL-based LLM Post-training",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://openreview.net/forum?id=ILjb8TnGJa",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes distribution-level curriculum learning for RL-based LLM post-training, addressing the challenge of designing curricula when training data comes from multiple distributions. Uses UCB-based curriculum sampling.",
+      "key_methods": [
+        "distribution-level curriculum",
+        "UCB sampling",
+        "RL post-training"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Evo-CuRL: Curriculum-Aware Reinforcement Learning over Code Lineage Graphs for Software Engineering Reasoning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "http://dl.acm.org/citation.cfm?id=3810701",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Introduces curriculum-aware RL with code lineage graphs for software engineering. Uses multi-armed bandit formulation to adaptively sample from easy (single-file) to hard (cross-module) training instances. Achieves SOTA on SWE-bench Verified.",
+      "key_methods": [
+        "curriculum RL",
+        "code lineage graphs",
+        "multi-armed bandit sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "The Data-Quality Illusion: Rethinking Classifier-Based Quality Filtering for LLM Pretraining",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://openreview.net/forum?id=vSBACt34gS",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Challenges the effectiveness of classifier-based quality filtering (CQF) for LLM pretraining. Shows that CQF acts as implicit quality filtering on the high-quality dataset itself, upweighting data similar to the HQ set. Reveals fundamental limitations of the classifier-based approach.",
+      "key_methods": [
+        "classifier-based quality filtering analysis",
+        "implicit quality filtering"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://openreview.net/forum?id=d57KvqmcBA",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "Uses LLM's own quality assessment (self-perception via hidden state variability) to filter training data for efficient instruction fine-tuning, addressing low-quality and redundant data.",
+      "key_methods": [
+        "model self-perception",
+        "hidden state variability",
+        "data filtering"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Multi-Adversary Group Distributionally Robust Optimization (GDRO) for LLM Reasoning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.19280",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes Multi-Adversary GDRO for RL post-training with dynamic difficulty classification. Includes Prompt-GDRO (EMA-debiased bandit sampler) and Rollout-GDRO (shadow-price controller). Achieves +10.6% and +10.1% pass@8 gains over GRPO baseline.",
+      "key_methods": [
+        "online difficulty classifier",
+        "multiplicative-weights bandit",
+        "shadow-price controller"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.14198",
+      "source_channel": "SearXNG",
+      "category": "mixing",
+      "description": "Introduces uncertainty-aware data mixture optimization for multimodal LLM midtraining, producing benchmark-targeted data recipes with uncertainty quantification.",
+      "key_methods": [
+        "uncertainty-aware optimization",
+        "data mixture",
+        "multimodal midtraining"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "GneissWeb: Preparing High Quality Data for LLMs at Scale",
+      "authors": "IBM Research",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2502.14907",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Creates a large-scale high-quality pretraining dataset using ensemble quality filters and multi-dimensional annotation. Addresses the fundamental challenge of constructing Stage-1 datasets that balance scale and quality for long-horizon pre-training. Released as part of IBM data-prep-kit.",
+      "key_methods": [
+        "ensemble quality filter",
+        "multi-dimensional annotation",
+        "scalable data preparation"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Rewriting Pre-training Data Boosts LLM Performance in Math and Code",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8cc2387522e4473b6de7d0667a5be3ab-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "construction",
+      "description": "Introduces openly licensed pre-training datasets that enhance LLM performance by systematically rewriting public data. Filters high-quality code from The-Stack-v2 and rewrites web data for improved math and code capabilities.",
+      "key_methods": [
+        "data rewriting",
+        "code filtering",
+        "pre-training data enhancement"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DataDignity: Training Data Attribution for Large Language Models",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.05687",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Proposes a training data attribution method for LLMs using gradient direction with answer-token LM-head rows to identify influential training samples.",
+      "key_methods": [
+        "gradient-based attribution",
+        "LM-head analysis",
+        "training data attribution"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Large Language Models as Attribution Regularizers for Efficient Model Training",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-08327-2_4",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Uses LLMs to generate importance scores for input gradient-based attribution, serving as attribution regularizers for more efficient model training.",
+      "key_methods": [
+        "LLM-based importance scoring",
+        "input gradient attribution",
+        "attribution regularization"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.21996",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Proposes mechanistic data attribution using gradient-based influence functions to precisely identify training samples that most significantly impact the functional behavior of interpretable LLM units.",
+      "key_methods": [
+        "mechanistic interpretability",
+        "influence functions",
+        "training data tracing"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.21929",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Proposes low-rank influence functions for scalable training data attribution, enabling efficient storage and computation of per-example gradients for large-scale LLM auditing and debugging.",
+      "key_methods": [
+        "low-rank influence functions",
+        "projected gradients",
+        "scalable attribution"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.14869",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "Combines concept vectors with gradient-based influence for improved training data attribution. Uses LLM judge for evaluation of attribution quality.",
+      "key_methods": [
+        "concept vectors",
+        "gradient influence",
+        "interpretability-guided attribution"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.02913",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Comprehensive survey of rollout strategies for LLM RL post-training, covering generation, filtering, control, and replay paradigms for selecting and scheduling training data.",
+      "key_methods": [
+        "rollout strategies survey",
+        "RL data filtering",
+        "replay strategies"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.30407",
+      "source_channel": "SearXNG",
+      "category": "construction",
+      "description": "Systematically studies LLM agents for end-to-end data engineering including synthetic data curation, analyzing agent capabilities in automated data pipeline construction for model specialization.",
+      "key_methods": [
+        "agentic data engineering",
+        "automated data curation",
+        "model specialization"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://aclanthology.org/2026.findings-acl.118/",
+      "source_channel": "SearXNG",
+      "category": "construction",
+      "description": "Combines difficulty-controllable synthetic data generation with curriculum learning for mathematical reasoning. Uses automatic difficulty estimation and adaptive sampling for curriculum design.",
+      "key_methods": [
+        "difficulty-controllable synthesis",
+        "curriculum learning",
+        "math reasoning"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Pharmacist: Safety Alignment Data Curation for Large Language Models Against Harmful Fine-Tuning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.10085",
+      "source_channel": "GitHub",
+      "category": "filtering",
+      "description": "Safety alignment data curation that selects a high-quality and safety-critical core subset from alignment data to defend against harmful fine-tuning while reducing training cost. Compatible with Vaccine, RepNoise, Booster, and T-Vaccine.",
+      "key_methods": [
+        "safety-critical subset selection",
+        "alignment data curation",
+        "harmful fine-tuning defense"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "RECRL: Requirement-Aware Curriculum Reinforcement Learning for LLM Code Generation",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.00433",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes requirement-aware curriculum RL for code generation. Automatically perceives model-specific requirement difficulty, optimizes challenging requirements, and employs adaptive curriculum sampling with smoothly varying difficulty.",
+      "key_methods": [
+        "requirement difficulty perception",
+        "adaptive curriculum sampling",
+        "curriculum RL"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Competence-Difficulty Alignment Sampling (CDAS) for RL Training",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40408",
+      "source_channel": "SearXNG",
+      "category": "sampling",
+      "description": "Proposes Competence-Difficulty Alignment Sampling for LLM reasoning RL training, addressing issues of prior curriculum sampling methods by aligning model competence with problem difficulty.",
+      "key_methods": [
+        "competence-difficulty alignment",
+        "RL sampling",
+        "reasoning training"
+      ],
+      "relevance_score": "high"
     }
   ],
   "tools_and_repos": [
@@ -4001,6 +4344,42 @@
       "relevance": "high — Curated companion to JCST 2026 survey on Data Preparation for LLMs. Covers pre-training, continual pre-training, and post-training (SFT/RLHF/RLAIF) across collection, filtering, and preparation stages. Comprehensive resource index for the field.",
       "url": "https://github.com/haolpku/Awesome-LLM-Data-Preparation",
       "category": "resource/survey"
+    },
+    {
+      "name": "Pharmacist",
+      "url": "https://github.com/Lslland/Pharmacist",
+      "source_channel": "GitHub",
+      "description": "Safety alignment data curation tool that selects high-quality safety-critical core subsets from alignment data. Integrates with Vaccine, RepNoise, Booster, T-Vaccine defense methods.",
+      "stars": 0,
+      "category": "data_curation",
+      "relevance_score": "high"
+    },
+    {
+      "name": "awesome-llm-training-data",
+      "url": "https://github.com/Alfonsobang/awesome-llm-training-data",
+      "source_channel": "GitHub",
+      "description": "Curated list of tools, papers, datasets, and practices for LLM training data engineering. Updated August 2026.",
+      "stars": 1,
+      "category": "resource_list",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "vl-data-engine",
+      "url": "https://github.com/seycheles/vl-data-engine",
+      "source_channel": "GitHub",
+      "description": "Composable curation pipeline for vision-language training datasets with image filtering capabilities.",
+      "stars": 0,
+      "category": "data_curation",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "TokenTurbine",
+      "url": "https://github.com/EMventura/TokenTurbine",
+      "source_channel": "GitHub",
+      "description": "End-to-end data pipeline for LLM pre-training that ingests samples and processes them through a complete curation workflow.",
+      "stars": 2,
+      "category": "data_pipeline",
+      "relevance_score": "medium"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -4119,9 +4498,23 @@
       "relevance": "medium — Discusses the rapid emergence of data curation and annotation industry for multilingual AI guardrails. Projects that much digital content will be consumed for LLM training between 2026+, highlighting the growing importance of systematic data curation at scale.",
       "url": "https://openreview.net/forum?id=yAueHCL6ZA",
       "category": "industry/curation"
+    },
+    {
+      "title": "How to Generate and Use Synthetic Data for Finetuning",
+      "url": "https://eugeneyan.com/writing/synthetic/",
+      "source_channel": "Blog",
+      "description": "Practical guide on building synthetic instruction-response pairs for SFT, covering the ReST^EM approach and comparing synthetic vs human data quality.",
+      "relevance_score": "high"
+    },
+    {
+      "title": "LLM Adoption in Data Curation Workflows: Industry Practices and Insights",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3706599.3719677",
+      "source_channel": "Blog",
+      "description": "Industry survey on LLM adoption in data curation workflows, covering practices for pre-training data including slicing, filtering, and outlier identification.",
+      "relevance_score": "high"
     }
   ],
-  "last_incremental_update": "2026-07-27",
+  "last_incremental_update": "2026-08-06",
   "metadata": {
     "last_updated": "2026-07-11T09:23:00+08:00",
     "total_papers": 242,
@@ -4131,9 +4524,9 @@
     "total_blogs": 12,
     "last_incremental_merge": "2026-08-05"
   },
-  "last_merge": "2026-07-27",
-  "last_updated": "2026-07-27",
-  "total_papers": 220,
-  "total_tools": 29,
-  "total_blogs": 9
+  "last_merge": "2026-08-06T10:26:35+08:00",
+  "last_updated": "2026-08-06T10:26:35+08:00",
+  "total_papers": 264,
+  "total_tools": 39,
+  "total_blogs": 14
 }

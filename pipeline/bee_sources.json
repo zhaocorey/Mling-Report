@@ -917,6 +917,503 @@
       "timeliness_score": "中",
       "search_keywords": "multilingual stereotype benchmark",
       "source": "SearXNG (arXiv discovery)"
+    },
+    {
+      "name": "Fujitsu-FRE/MAPS",
+      "url": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "ar",
+        "hi",
+        "ru"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "MAPS: A Multilingual Benchmark for Agent Performance and Security. Translates 4 agentic benchmarks (GAIA, SWE-Bench, MATH, Agent Security Benchmark) into 11 languages with 805 unique tasks and 9,660 total instances. First standardized evaluation framework for multilingual agentic AI.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "GaoYao",
+      "url": "https://github.com/lunyiliu/GaoYao",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "ru",
+        "ar",
+        "hi",
+        "bn",
+        "th",
+        "vi",
+        "id",
+        "ms",
+        "tl",
+        "sw",
+        "yo",
+        "ha",
+        "am",
+        "ne",
+        "si",
+        "km",
+        "my"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Comprehensive benchmark with 182.3k samples, 26 languages and 51 nations/areas for evaluating multilingual and multicultural abilities of LLMs. Unified framework with 3 cultural layers (General Multilingual, Cross-cultural, Monocultural) and 9 cognitive sub-layers. ACL 2026 Long Paper.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-30",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "source": "ACL 2026 / GitHub"
+    },
+    {
+      "name": "Pluralis v0.1",
+      "url": "https://arxiv.org/abs/2607.06196",
+      "languages": [
+        "en",
+        "bn",
+        "hi",
+        "ko",
+        "ur",
+        "ms",
+        "ta",
+        "zh"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "安全对齐",
+      "description": "Multimodal, multi-regional, and multilingual dataset for AI safety evaluation built from a culture-first perspective. 6,448 prompts across 6 Asia-Pacific countries (Bangladesh, India, Korea, Pakistan, Singapore, Taiwan) and 8 languages. Introduces multimodal evaluation where text+image synergistically trigger cultural/legal violations. Includes Judge-Pluralis evaluation framework.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-08",
+      "release_version": "v0.1",
+      "timeliness_score": "高",
+      "source": "arXiv"
+    },
+    {
+      "name": "WebFAQ 2.0",
+      "url": "https://arxiv.org/abs/2602.17327",
+      "languages": [
+        "multilingual (108 languages)"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "知识问答",
+      "description": "198 million FAQ-based natural question-answer pairs across 108 languages. 14.3M bilingual aligned QA pairs (largest FAQ-based resource). Includes hard negatives dataset for dense retriever training (1.25M queries across 20 languages). Continuously updated via Open Web Index since late 2025.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-25",
+      "release_version": "2.0",
+      "timeliness_score": "高",
+      "source": "arXiv / HuggingFace / GitHub"
+    },
+    {
+      "name": "iNLP-Lab/GlobeAudio",
+      "url": "https://huggingface.co/datasets/iNLP-Lab/GlobeAudio",
+      "languages": [
+        "en",
+        "zh",
+        "es",
+        "hi",
+        "ar",
+        "sw"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Multilingual and multicultural benchmark for naturalistic evaluation of Large Audio-Language Models. 5,637 multiple-choice questions across 6 typologically diverse languages, expertly crafted by native speakers grounded on naturally occurring audio. Tests higher-level auditory reasoning and culturally grounded interpretation.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "vojewale/Cross-lingualIFEval",
+      "url": "https://huggingface.co/datasets/vojewale/Cross-lingualIFEval",
+      "languages": [
+        "en",
+        "ar",
+        "fr",
+        "es",
+        "de"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Cross-lingual instruction following evaluation dataset. Tests LLMs' ability to follow complex formatting instructions across languages including Arabic, with constraints on output format (JSON, Markdown, specific word counts, separators).",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-22",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "nvidia/Nemotron-SFT-Agentic-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2",
+      "languages": [
+        "en"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "NVIDIA's agentic SFT training dataset v2. 6,834 downloads and 66 likes. Focused on agentic task completion and tool use for LLM training. While primarily English, the agentic capabilities are relevant for multilingual agent development.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "fxmeng/UltraData-SFT-2605-no-think-8k-32k",
+      "url": "https://huggingface.co/datasets/fxmeng/UltraData-SFT-2605-no-think-8k-32k",
+      "languages": [
+        "en",
+        "zh",
+        "multilingual"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "UltraData SFT no-think variant with 8K-32K context window. Derived from openbmb/UltraData-SFT-2605 (14K+ downloads, 378 likes). Tags include 'multilingual'. Designed for non-reasoning (direct response) training mode, complementing the thinking-mode data in the original UltraData.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "fxmeng/UltraData-SFT-2605-no-think-32k-200k",
+      "url": "https://huggingface.co/datasets/fxmeng/UltraData-SFT-2605-no-think-32k-200k",
+      "languages": [
+        "en",
+        "zh",
+        "multilingual"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "UltraData SFT no-think variant with extended 32K-200K context window. Tags include 'multilingual'. Long-context non-reasoning SFT data for training models to handle extended inputs without chain-of-thought.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "BENI Global 10",
+      "url": "https://arxiv.org/abs/2606.10225",
+      "languages": [
+        "bn",
+        "en",
+        "hi",
+        "ne",
+        "si"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "预训练语料",
+      "description": "First multilingual economic news narrative corpus for the Global South. Covers multiple languages including Bangla, Hindi, and other South Asian languages. Focuses on economic narratives and financial discourse in underrepresented regions.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-15",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "source": "arXiv"
+    },
+    {
+      "name": "crosslingual-rule-following/rule-following-eval",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/rule-following-eval",
+      "languages": [
+        "en",
+        "ko",
+        "es",
+        "de",
+        "fr"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Cross-lingual rule following evaluation dataset. Tests LLMs' ability to follow explicit rules across languages including Korean, Spanish, and English. Includes regex-based and LLM-judge evaluation criteria for multilingual rule compliance.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-04",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "crosslingual-rule-following/model-inference-responses",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/model-inference-responses",
+      "languages": [
+        "en",
+        "ko",
+        "es",
+        "de",
+        "fr"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Model inference responses dataset for cross-lingual rule following evaluation. Contains LLM outputs across multiple languages for analyzing cross-lingual instruction following capabilities.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-05",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "sripad17/multilingual-safety-probe-test",
+      "url": "https://huggingface.co/datasets/sripad17/multilingual-safety-probe-test",
+      "languages": [
+        "en",
+        "ru",
+        "sr",
+        "te"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "安全对齐",
+      "description": "Multilingual safety probe test dataset for evaluating LLM safety across English, Russian, Serbian, and Telugu. Tests model responses to potentially unsafe inputs in diverse linguistic contexts.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "multilingual-safety-anon/lsr-anchoring-phase2-results",
+      "url": "https://huggingface.co/datasets/multilingual-safety-anon/lsr-anchoring-phase2-results",
+      "languages": [
+        "yo",
+        "ha",
+        "ig",
+        "sw",
+        "ar"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "安全对齐",
+      "description": "Language-specific safety anchoring results for African and low-resource languages (Yoruba, Hausa, Igbo, Swahili, Arabic). Phase 2 evaluation of safety alignment approaches in underrepresented languages.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-04",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "issdandavis/UltraData-Math",
+      "url": "https://huggingface.co/datasets/issdandavis/UltraData-Math",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "UltraData Math derivative dataset (en, zh). 368 downloads. Adapted from the popular openbmb/UltraData-Math (23K downloads, 331 likes). Mathematical reasoning training data for bilingual English-Chinese LLM development.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-29",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "alrazz-n/HPLT3-PerRef",
+      "url": "https://huggingface.co/datasets/alrazz-n/HPLT3-PerRef",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "预训练语料",
+      "description": "HPLT 3.0 Personal Reference dataset. Derivative of the HPLT 3.0 corpus (30T tokens, ~200 languages) curated for personalized reference and evaluation purposes.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-29",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Ultra-Training-Blends",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Ultra-Training-Blends",
+      "languages": [
+        "en"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "NVIDIA's RL training blends dataset for Nemotron models. 1,335 downloads and 15 likes. Reinforcement learning training data mixing multiple domains. Primarily English but relevant for RLHF pipeline methodology transfer to multilingual settings.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-17",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "pinkachu/harmless_multilingual",
+      "url": "https://huggingface.co/datasets/pinkachu/harmless_multilingual",
+      "languages": [
+        "es",
+        "en",
+        "multilingual"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "安全对齐",
+      "description": "Multilingual harmless instructions dataset. Contains diverse harmless prompts in Spanish and other languages for safety alignment training (paired with harmful_multilingual for contrastive learning).",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "uludagur/crosslingual-clinical-rag-study",
+      "url": "https://huggingface.co/datasets/uludagur/crosslingual-clinical-rag-study",
+      "languages": [
+        "tr",
+        "en"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Cross-lingual clinical RAG study dataset. Turkish-English medical question answering dataset for evaluating cross-lingual retrieval-augmented generation in clinical domains.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-03",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "bcv-commons/cross-lingual-span-profile",
+      "url": "https://huggingface.co/datasets/bcv-commons/cross-lingual-span-profile",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Cross-lingual span profiling dataset. 94 downloads. Designed for evaluating cross-lingual named entity recognition and span extraction capabilities.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-31",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "15juneee/agriculture-advisor-adapted-multilingual-v1",
+      "url": "https://huggingface.co/datasets/15juneee/agriculture-advisor-adapted-multilingual-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "Agriculture advisor adapted for multilingual contexts. English-language agricultural QA dataset adapted for multilingual instruction following in the agriculture domain.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": "v1",
+      "timeliness_score": "低",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "lingamvamshikrishnareddy/ramanv-indic-multilingual",
+      "url": "https://huggingface.co/datasets/lingamvamshikrishnareddy/ramanv-indic-multilingual",
+      "languages": [
+        "hi",
+        "te",
+        "ta",
+        "kn",
+        "ml",
+        "bn",
+        "mr",
+        "gu",
+        "pa",
+        "or"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "Indic multilingual dataset with 427 downloads. Covers multiple Indian languages for NLP tasks.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "Tonic/multilingual-EMIR-reporting-csv",
+      "url": "https://huggingface.co/datasets/Tonic/multilingual-EMIR-reporting-csv",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "指令微调",
+      "description": "Multilingual EMIR (European Market Infrastructure Regulation) reporting dataset in CSV format. Financial regulatory data across multiple European languages.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-08",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "HuggingFace"
+    },
+    {
+      "name": "CultSportQA",
+      "url": "https://arxiv.org/abs/2510.01247",
+      "languages": [
+        "multilingual (60+ countries)"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "评估基准",
+      "description": "Multilingual, multicultural benchmark assessing LMs' understanding of traditional sports across 60 countries and 6 continents. 33,000 multiple-choice questions across text and image modalities with 4 cultural categories. Tests zero-shot, few-shot, and chain-of-thought prompting.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-25",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "arXiv"
+    },
+    {
+      "name": "Multilingual News Ukraine Dataset",
+      "url": "https://www.nature.com/articles/s41597-026-07033-5",
+      "languages": [
+        "en",
+        "uk",
+        "ru",
+        "de",
+        "fr",
+        "pl"
+      ],
+      "size": "N/A",
+      "license": "N/A",
+      "category": "预训练语料",
+      "description": "Multilingual news dataset about Ukraine (2022-2025). Large-scale longitudinal news corpus covering multiple languages, published in Scientific Data (Nature). Useful for pretraining and evaluation on news domain data.",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-30",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Nature Scientific Data"
     }
   ],
   "version_updates": [
@@ -1041,7 +1538,7 @@
       "relevance": "元参考：多语言评估基准全景综述"
     }
   ],
-  "last_updated": "2026-08-10",
-  "total_datasets": 29,
-  "total_count": 41
+  "last_updated": "2026-08-11",
+  "total_datasets": 66,
+  "total_count": 66
 }
