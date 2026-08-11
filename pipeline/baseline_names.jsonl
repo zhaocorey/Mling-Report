@@ -1,3 +1,5 @@
+15juneee/agriculture-advisor-adapted-multilingual-v1
+96kevinli29/DAPO-Math-Multilingual-6Lang
 abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
 AdaMame Multilingual Reasoning Traces
 adivaanihf/adivaani-tribal-parallel-corpus
@@ -13,6 +15,7 @@ AI Language Proficiency Monitor
 AIME 2026 Multilingual (6语言)
 AISE-TUDelft/multilingual-code-comments-fixed-7
 Alexandria - Dialectal Arabic MT Dataset
+alrazz-n/HPLT3-PerRef
 amalia-Nemotron-SFT-Multilingual-v1
 anna-sarvam/indic-safety-eval
 APARSIN
@@ -67,8 +70,11 @@ corpus-parallel-en-fr-bam (Bambara Trilingual)
 corpus-tonal-african-languages
 Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-eval
+crosslingual-rule-following/model-inference-responses
+crosslingual-rule-following/rule-following-eval
 Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
+CultSportQA
 CulturaX
 CultureGuard / Nemotron-Safety-Guard-Dataset-v3
 CUTE
@@ -111,8 +117,12 @@ FineWeb-2
 FinMMEval
 ForMaT (Format-Preserving Multilingual Translation)
 forms-legal/legal-templates-multilingual
+Fujitsu-FRE/MAPS
 fxmeng/UltraData-SFT-2605-32k-200k
+fxmeng/UltraData-SFT-2605-no-think-32k-200k
+fxmeng/UltraData-SFT-2605-no-think-8k-32k
 GAIA-v2-LILT
+GaoYao
 GaoYao Benchmark
 GhanaNLP Multilingual Emotion
 ghananlpcommunity/twi-llm-reasoning-dataset-1k
@@ -142,8 +152,10 @@ IndicGuard
 IndicMMLU-Pro
 IndicSafe
 infini-news-corpus
+iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
+issdandavis/UltraData-Math
 jacekduszenko/coedit-multilingual
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
@@ -164,6 +176,7 @@ LEMAS Dataset
 LeTG/multilingual-psyop-100k
 lightonai/embeddings-fine-tuning-multilingual-unfiltered
 lightonai/multilingual-embeddings-pre-training-curated
+lingamvamshikrishnareddy/ramanv-indic-multilingual
 LingualX64
 live-linguist-easylanguage-sft
 LiveCLKTBench
@@ -185,6 +198,9 @@ malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS (版本追踪)
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
+mast-benchmark/multilingual-queries-2026
+masterofaudio2077/filtered-multilingual-pii
+MATH-IDN
 Math-PT
 MathMist
 MathNet
@@ -197,6 +213,7 @@ METATR v1.0
 MGSM (Multilingual Grade School Math)
 MGSM-Pro
 MHQA-ITU (Multilingual Health QA)
+michsethowusu/melo-tts-ghana-multilingual
 Minionese
 MIRACL (Multilingual Information Retrieval)
 MITRA (Parallel Corpus for Buddhist Languages)
@@ -230,6 +247,7 @@ MultiHal
 Multilingual English-Nuer-Dinka-Swahili Corpus
 Multilingual Instructional Dialogues
 Multilingual Mutual Reinforcement Effect IE Dataset
+Multilingual News Ukraine Dataset
 Multilingual Safety Classification Dataset
 Multilingual-Accent-Speech
 Multilingual-BFCL
@@ -244,6 +262,7 @@ multilingual-tts/open-bible
 multilingual-vlm-conflict (7-dataset suite)
 multilingual-vlm-conflict/combined
 multilingual-vlm-reasoning
+MultiNRC
 MultiNRC (Multilingual Native Reasoning Challenge)
 MultiSynt/MT
 Multitask-Multilingual-Refusal
@@ -266,7 +285,10 @@ NLPCC 2026 DA-MIVQA (Difficulty-Aware Medical Instructional Video QA)
 Nobody05/Multilingual-Medical-Corpus
 nur-dev/farabi-crosslingual-tool-argnorm
 NVIDIA Nemotron Post-Training Dataset v2
+nvidia/HelpSteer3
 nvidia/Nemotron-CC-v2
+nvidia/Nemotron-RL-Ultra-Training-Blends
+nvidia/Nemotron-SFT-Agentic-v2
 NyayaBench v2
 NyayaSetu Legal Dialogues Multilingual
 Odia Web Corpus v3
@@ -278,6 +300,7 @@ OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
 PazaBench
+pinkachu/harmless_multilingual
 PleIAs Common Corpus
 Pluralis v0.1
 PluraMath
@@ -315,6 +338,7 @@ SEAHateCheck
 sebastian328/qwen3-32B-thinking-plpd-multilingual-nova-training-data (新追踪)
 SemEval-2026 Task 7 (Everyday Knowledge)
 SemEval-2026 Task 9 (Multilingual Polarization)
+ShahiEmotion
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
@@ -342,6 +366,7 @@ tojpaj/kisan-advisory-multilingual-indic
 tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
+Tonic/multilingual-EMIR-reporting-csv
 ToxiREX (Toxic REasoning in ConteXt)
 Tralalabs/multilingual-news
 Translation Tangles
@@ -351,6 +376,7 @@ Tulsiandhare/Multilingual_medical_symptom_triage
 ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
 Ultra-FineWeb-L3
 UltraData-Math
+uludagur/crosslingual-clinical-rag-study
 ulysse1/speculators-multilingual-en-fr-de-it-es
 UNICS (Unified Multilingual Code Search)
 UnityShotsBench
@@ -365,6 +391,7 @@ VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
 vojewale/Cross-lingualIFEval
 VoxENES 2026
+wannaphong/HelpSteer3-good_edited_response
 WAXAL
 WAXAL (Google)
 WebFAQ 2.0

@@ -141,7 +141,6 @@ HuggingFaceCode/stack-v3-train
 HuggingFaceH4/Multilingual-Thinking
 Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
 IndicGuard (arXiv 2026-06)
-IndicGuard（HF 数据集确认可用）⭐ 状态升级
 IndicMMLU-Pro 📄
 IndicSafe
 infini-news-corpus — 52 语言新闻预训练语料 🔥
@@ -150,7 +149,6 @@ iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
 jamesdborin/Nemotron-Multilingual-prompt-only
-jamesdborin/Nemotron-SFT-Multilingual-v2-prompt-only ⭐ 首次跟踪
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 Kaleidoscope
@@ -245,7 +243,6 @@ Multilingual-GSM-Symbolic (danish-foundation-models)
 multilingual-gsm-symbolic — 数据更新
 Multilingual-Medical-Corpus
 Multilingual-Reasoning-Gym-SFT
-Multilingual-Reasoning-Gym-SFT — 版本更新
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
 multilingual-safety-classification-dataset
@@ -254,7 +251,6 @@ multilingual-tts/open-bible
 multilingual-vlm-conflict (7-dataset suite)
 multilingual-vlm-conflict Expanded Suite
 multilingual-vlm-conflict/combined ⭐ 重要更新
-multilingual-vlm-conflict（套件扩展至 10 个数据集）⭐ 重要更新
 multilingual-vlm-reasoning
 MultiSynt/MT
 Multitask-Multilingual-Refusal
@@ -268,7 +264,6 @@ Nemotron-Personas (Multilingual) — Region-Specific Synthetic Personas 📄
 Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)
 Nemotron-Safety-Guard-Dataset-v3
 Nemotron-SFT-Multilingual-v2
-Nemotron-SFT-Multilingual-v2 — 2026-06-05 版本更新
 Nemotron-VLM-Dataset-v2
 Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
@@ -396,17 +391,18 @@ yagizgencer/emojinize-multilingual
 临近警戒线
 已报告再确认
 版本追踪关键变化
-🌍 BENI Global 10 — 全球南方经济叙事语料
+💬 情感 & 评估
 💰 金融/合规
-📊 DimABSA — 多语言维度情感分析
+📏 指令遵循评估
 📏 评估/偏见检测
 📏 评估基准
-📚 HPLT 3.0 — PB 级多语言预训练资源重大更新
+📐 数学推理 & RL 训练
 📝 平行语料
-📝 指令微调
 📦 其他
 🔊 语音
-🔧 MixMinMatch — 跨源一致性过滤方法
 🛡️ 安全/PII 检测
 🛡️ 安全对齐
+🛡️ 安全评估
 🤖 Agent/工具使用
+🤖 偏好数据 & RLHF
+🧠 多语言推理评估

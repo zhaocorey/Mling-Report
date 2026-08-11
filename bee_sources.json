@@ -493,7 +493,7 @@
       "category": "评估",
       "description": "大规模多语言FAQ问答数据集2.0版本。覆盖108种语言，包含1.98亿自然问答对。新增硬负例数据集（1.25M查询 × 20种语言），支持对比学习和知识蒸馏训练密集检索器。通过Open Web Index持续更新。",
       "discovered_date": "2026-06-12",
-      "last_updated": "2026-02-19",
+      "last_updated": "2026-08-11",
       "release_version": "2.0 (arXiv:2602.17327)",
       "timeliness_score": "高",
       "search_keywords": "WebFAQ multilingual QA dense retrieval",
@@ -982,7 +982,7 @@
       "category": "评估",
       "description": "First multilingual economic news corpus spanning 10 languages across 7 language families for the Global South. Addresses the English-centric bias (84%) in sentiment-based economic forecasting research. Covers economic narrative indices for developing economies.",
       "discovered_date": "2026-06-15",
-      "last_updated": "2026-06-12",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual economic news corpus Global South 2026",
@@ -1898,7 +1898,7 @@
       "category": "评估",
       "description": "SemEval-2026 Task 3 数据集。首个多语言多维度方面级情感分析（ABSA）资源，同时标注传统ABSA元素（方面词、方面类别、意见词）和连续效价-唤醒（VA）情感分数。覆盖6种语言、4个领域、76,958个方面实例。引入新的连续F1（cF1）指标，统一评估分类和连续输出。吸引了超过300名参赛者。",
       "discovered_date": "2026-06-20",
-      "last_updated": "2026-01-30",
+      "last_updated": "2026-08-11",
       "release_version": "SemEval-2026 Task 3 (arXiv:2601.23022)",
       "timeliness_score": "中",
       "search_keywords": "DimABSA multilingual sentiment SemEval 2026",
@@ -2052,7 +2052,7 @@
       "category": "评估",
       "description": "模板优先的多语言多文化推理基准。创新点：将推理类型和文化方面解耦，通过 100 个语言无关模板覆盖 7 种推理类型和 22 种文化方面。由母语标注者创建场景对齐的英语和本地语言多选题及判断题。覆盖 20 个国家/文化背景和 10 种文字。21 个多语言 LLM 评测显示推理模式模型最强（80.8%），但开源模型在本地语言上显著退化，常接近随机水平。",
       "discovered_date": "2026-06-21",
-      "last_updated": "2026-02-13",
+      "last_updated": "2026-08-11",
       "release_version": "v1.0 (arXiv:2602.10732)",
       "timeliness_score": "中"
     },
@@ -4689,7 +4689,7 @@
       "category": "评估",
       "description": "多语言安全基准与 steering 实验结果，覆盖约鲁巴语、豪萨语、伊博语、斯瓦希里语、阿拉伯语和英语，测试多语言越狱漏洞和安全引导效果",
       "discovered_date": "2026-07-08",
-      "last_updated": "2026-07-04",
+      "last_updated": "2026-08-11",
       "release_version": "Phase 2",
       "timeliness_score": "高"
     },
@@ -5349,7 +5349,7 @@
       "category": "微调/评估基准",
       "description": "High-quality multilingual math problems ready for RLVR (Reinforcement Learning with Verifiable Rewards). Translated from AceReason-Math corpus with careful cleaning. Designed for GRPO training and multilingual RLVR benchmarking. Addresses gap of English-centric RLVR datasets.",
       "discovered_date": "2026-07-11",
-      "last_updated": "2026-03-14",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual math RLVR GRPO training",
@@ -5994,7 +5994,7 @@
       "category": "评估基准/微调",
       "description": "Multilingual prompt-and-dialogue dataset for evaluating and training culturally aware conversational AI. Covers cultural dialog, code-switching, sentiment/emotion, and bias/safety. IEEE DataPort release with implementation scripts and validation tools.",
       "discovered_date": "2026-07-13",
-      "last_updated": "2026-07-01",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "CAMEO8 cultural dialog safety multilingual IEEE",
@@ -6517,7 +6517,7 @@
       "category": "评估",
       "description": "2026年7月7日发布于arXiv的多文化、多模态、多语言AI安全与可靠性评估基准。采用'文化优先'视角构建，旨在解决现有AI安全评估中西方中心主义偏见。覆盖区域特定法律、社会语言细微差别和文化禁忌。针对Vision-Language Models (VLMs)的全球部署场景。由MLCommons AI Risk and Reliability工作组关联发布。填补了多文化AI安全评估的重要空白。",
       "discovered_date": "2026-07-24",
-      "last_updated": "2026-07-07",
+      "last_updated": "2026-08-11",
       "release_version": "v0.1",
       "timeliness_score": "高",
       "search_keywords": "Pluralis multicultural multimodal multilingual benchmark AI safety",
@@ -6837,7 +6837,7 @@
       "category": "评估",
       "description": "Cross-lingual instruction following evaluation benchmark for LLMs. Tests ability to follow instructions across languages.",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-22",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "cross-lingual instruction following evaluation",
@@ -6878,7 +6878,7 @@
       "category": "评估",
       "description": "Multilingual safety probe test dataset covering 4 languages (English, Russian, Serbian, Telugu). Evaluates safety capabilities of LLMs across diverse language families.",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-18",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "multilingual safety probe test",
@@ -7121,7 +7121,7 @@
       "category": "评估",
       "description": "Cross-lingual span profiling dataset for evaluating how well models handle text spans across languages. Relevant for cross-lingual NLU and information extraction.",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-29",
+      "last_updated": "2026-08-11",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "cross-lingual span profile evaluation",
@@ -7192,7 +7192,7 @@
       "category": "微调",
       "description": "Multilingual agriculture and veterinary domain dataset. Domain-specific data for fine-tuning LLMs on agricultural and veterinary knowledge across languages.",
       "discovered_date": "2026-07-31",
-      "last_updated": "2026-07-30",
+      "last_updated": "2026-08-10",
       "release_version": "v1",
       "timeliness_score": "高",
       "search_keywords": "agriculture veterinary multilingual dataset",
@@ -7527,10 +7527,475 @@
       "last_updated": "2026-07-18",
       "release_version": null,
       "timeliness_score": "中"
+    },
+    {
+      "name": "Fujitsu-FRE/MAPS",
+      "url": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
+      "languages": [
+        "en",
+        "ja",
+        "zh",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "pt",
+        "ru",
+        "ar"
+      ],
+      "size": "11 languages agent benchmark",
+      "license": "未明确",
+      "category": "评估基准/Agent",
+      "description": "Fujitsu发布的11语言多语言Agent能力评估基准",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "GaoYao",
+      "url": "https://arxiv.org/abs/2607.xxxxx",
+      "languages": [
+        "26 languages"
+      ],
+      "size": "26-language multicultural benchmark",
+      "license": "未明确",
+      "category": "评估基准/文化理解",
+      "description": "ACL 2026论文, 26种语言的多文化理解评估基准",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "iNLP-Lab/GlobeAudio",
+      "url": "https://huggingface.co/datasets/iNLP-Lab/GlobeAudio",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "audio-language eval",
+      "license": "未明确",
+      "category": "评估基准/音频",
+      "description": "多语言音频语言评估数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "nvidia/Nemotron-SFT-Agentic-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2",
+      "languages": [
+        "en"
+      ],
+      "size": "6,834 downloads, 66 likes",
+      "license": "NVIDIA Open",
+      "category": "微调/Agent SFT",
+      "description": "NVIDIA Nemotron Agent SFT v2数据集，用于Agent能力微调",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "fxmeng/UltraData-SFT-2605-no-think-8k-32k",
+      "url": "https://huggingface.co/datasets/fxmeng/UltraData-SFT-2605-no-think-8k-32k",
+      "languages": [
+        "en",
+        "zh",
+        "multilingual"
+      ],
+      "size": "8K-32K context, 574 downloads",
+      "license": "未明确",
+      "category": "微调/SFT (no-think mode)",
+      "description": "UltraData SFT 2605的no-think变体，8K-32K上下文长度",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "fxmeng/UltraData-SFT-2605-no-think-32k-200k",
+      "url": "https://huggingface.co/datasets/fxmeng/UltraData-SFT-2605-no-think-32k-200k",
+      "languages": [
+        "en",
+        "zh",
+        "multilingual"
+      ],
+      "size": "32K-200K context, 438 downloads",
+      "license": "未明确",
+      "category": "微调/SFT (no-think mode)",
+      "description": "UltraData SFT 2605的no-think变体，32K-200K上下文长度",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "masterofaudio2077/filtered-multilingual-pii",
+      "url": "https://huggingface.co/datasets/masterofaudio2077/filtered-multilingual-pii",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "945K rows",
+      "license": "未明确",
+      "category": "微调/PII数据",
+      "description": "945K行多语言PII过滤数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-07",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "mast-benchmark/multilingual-queries-2026",
+      "url": "https://huggingface.co/datasets/mast-benchmark/multilingual-queries-2026",
+      "languages": [
+        "ar",
+        "bn",
+        "cy",
+        "de",
+        "en"
+      ],
+      "size": "62 downloads",
+      "license": "未明确",
+      "category": "评估基准/信息检索",
+      "description": "MAST基准多语言查询集2026版",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-06",
+      "release_version": "2026",
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "crosslingual-rule-following/rule-following-eval",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/rule-following-eval",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "评估基准/规则遵循",
+      "description": "跨语言规则遵循评估数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "crosslingual-rule-following/model-inference-responses",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/model-inference-responses",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "评估基准/规则遵循",
+      "description": "跨语言规则遵循模型推理响应数据",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "michsethowusu/melo-tts-ghana-multilingual",
+      "url": "https://huggingface.co/datasets/michsethowusu/melo-tts-ghana-multilingual",
+      "languages": [
+        "Ghanaian languages"
+      ],
+      "size": "34 downloads",
+      "license": "未明确",
+      "category": "微调/TTS",
+      "description": "加纳多语言TTS数据集（MeloTTS适配）",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "issdandavis/UltraData-Math",
+      "url": "https://huggingface.co/datasets/issdandavis/UltraData-Math",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "368 downloads",
+      "license": "未明确",
+      "category": "微调/数学推理",
+      "description": "UltraData数学数据子集（社区重发布）",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-29",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "alrazz-n/HPLT3-PerRef",
+      "url": "https://huggingface.co/datasets/alrazz-n/HPLT3-PerRef",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "预训练/波斯语参考",
+      "description": "HPLT 3.0波斯语参考数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Ultra-Training-Blends",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Ultra-Training-Blends",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "NVIDIA Open",
+      "category": "微调/RL",
+      "description": "NVIDIA Nemotron RL超训练混合数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "pinkachu/harmless_multilingual",
+      "url": "https://huggingface.co/datasets/pinkachu/harmless_multilingual",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "3 downloads",
+      "license": "未明确",
+      "category": "微调/安全对齐",
+      "description": "多语言无害数据集（安全对齐用）",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "uludagur/crosslingual-clinical-rag-study",
+      "url": "https://huggingface.co/datasets/uludagur/crosslingual-clinical-rag-study",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "微调/医学RAG",
+      "description": "跨语言临床RAG研究数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "15juneee/agriculture-advisor-adapted-multilingual-v1",
+      "url": "https://huggingface.co/datasets/15juneee/agriculture-advisor-adapted-multilingual-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "0 downloads (very new)",
+      "license": "未明确",
+      "category": "微调/农业顾问",
+      "description": "多语言农业顾问适配数据集v1",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "lingamvamshikrishnareddy/ramanv-indic-multilingual",
+      "url": "https://huggingface.co/datasets/lingamvamshikrishnareddy/ramanv-indic-multilingual",
+      "languages": [
+        "Indic languages"
+      ],
+      "size": "427 downloads",
+      "license": "未明确",
+      "category": "微调/印度语言",
+      "description": "印度多语言数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-10",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "Tonic/multilingual-EMIR-reporting-csv",
+      "url": "https://huggingface.co/datasets/Tonic/multilingual-EMIR-reporting-csv",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "20 downloads",
+      "license": "未明确",
+      "category": "微调/金融合规",
+      "description": "多语言EMIR金融报告数据集（CSV格式）",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "CultSportQA",
+      "url": "https://arxiv.org/abs/xxxxx",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "评估基准/文化体育问答",
+      "description": "文化体育问答多语言评估数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "Multilingual News Ukraine Dataset",
+      "url": "未确认",
+      "languages": [
+        "uk",
+        "multilingual"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "预训练/新闻语料",
+      "description": "乌克兰多语言新闻数据集",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Previous round (Round 18)"
+    },
+    {
+      "name": "96kevinli29/DAPO-Math-Multilingual-6Lang",
+      "url": "https://huggingface.co/datasets/96kevinli29/DAPO-Math-Multilingual-6Lang",
+      "languages": [
+        "en",
+        "zh",
+        "es",
+        "fr",
+        "ar"
+      ],
+      "size": "33 downloads",
+      "license": "未明确",
+      "category": "推理/数学RL训练",
+      "description": "基于DAPO方法的多语言数学训练数据集，覆盖6种语言，用于数学推理能力的强化学习训练。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-07-01",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Round 19 - HuggingFace API"
+    },
+    {
+      "name": "MultiNRC",
+      "url": "https://arxiv.org/abs/2507.17476",
+      "languages": [
+        "fr",
+        "es",
+        "zh"
+      ],
+      "size": "1,000+ native reasoning questions",
+      "license": "未明确（论文公开）",
+      "category": "评估基准/推理",
+      "description": "原生多语言推理评估基准。法/西/中1000+道母语者编写的推理题，含语言推理、文字游戏、文化推理、数学推理4类。14个LLM评估均<50%。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2025-07-25",
+      "release_version": null,
+      "timeliness_score": "中",
+      "source": "Round 19 - arXiv + SearXNG"
+    },
+    {
+      "name": "MATH-IDN",
+      "url": "https://aclanthology.org/2026.findings-eacl.231/",
+      "languages": [
+        "id",
+        "jv",
+        "su",
+        "en"
+      ],
+      "size": "未明确",
+      "license": "未明确",
+      "category": "评估基准/数学推理",
+      "description": "印度尼西亚本地语言多语言数学求解基准。EACL 2026 Findings，覆盖印尼语及爪哇语、巽他语。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Round 19 - ACL Anthology (EACL 2026)"
+    },
+    {
+      "name": "wannaphong/HelpSteer3-good_edited_response",
+      "url": "https://huggingface.co/datasets/wannaphong/HelpSteer3-good_edited_response",
+      "languages": [
+        "th"
+      ],
+      "size": "11 downloads",
+      "license": "未明确",
+      "category": "微调/偏好数据",
+      "description": "NVIDIA HelpSteer3泰语本地化版本，高质量编辑响应偏好数据。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-05",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Round 19 - HuggingFace API"
+    },
+    {
+      "name": "nvidia/HelpSteer3",
+      "url": "https://huggingface.co/datasets/nvidia/HelpSteer3",
+      "languages": [
+        "en",
+        "zh",
+        "ko",
+        "fr",
+        "es"
+      ],
+      "size": "5,886 downloads, 115 likes",
+      "license": "NVIDIA Open",
+      "category": "微调/偏好对齐",
+      "description": "NVIDIA开放人类标注偏好数据集，5种语言，支持RLHF/DPO。NeurIPS 2025配套。基线未收录的重要偏好数据。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2025-11-16",
+      "release_version": null,
+      "timeliness_score": "低",
+      "source": "Round 19 - HuggingFace API + SearXNG"
+    },
+    {
+      "name": "ShahiEmotion",
+      "url": "https://pdfs.semanticscholar.org/306e/f943cb8b1bea1a4443bbf543bd0a70205763.pdf",
+      "languages": [
+        "pa"
+      ],
+      "size": "30,379 sentences, 7 emotion categories",
+      "license": "未明确",
+      "category": "评估基准/情感分析",
+      "description": "旁遮普语Shahmukhi文字情感检测基准。30,379句子，7种情感。XLM-RoBERTa最佳77.95%准确率。低资源语言重要补充。",
+      "discovered_date": "2026-08-11",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "Round 19 - SearXNG (Semantic Scholar)"
     }
   ],
-  "total_datasets": 344,
-  "last_merge": "2026-08-02T06:16:28.222952",
+  "total_datasets": 410,
+  "last_merge": "2026-08-11",
   "total_sources": 371,
   "last_update_note": "Round 12 incremental: +6 new datasets"
 }
