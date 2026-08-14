@@ -98,8 +98,12 @@ Spawn `professor-yu` agent（`sessions_spawn`，`agentId: "professor-yu"`，`mod
    - `pipeline/reported_names.jsonl` — 语教授用的去重名称列表
    - `pipeline/dataset_urls.json` — 数据集 URL 映射
 4. 更新 `pipeline/last_run.json`（时间、报告路径、统计数）
-5. 删除 `pipeline/bee_sources_incremental.json`
-6. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
+5. **同步 bee_sources.json 到远程仓库**：
+   ```bash
+   cp bee_sources.json CaiWeiReport/bee_sources.json
+   ```
+6. 删除 `pipeline/bee_sources_incremental.json`
+7. Git commit: `chore: daily sourcing pipeline YYYY-MM-DD`
 
 ### Step 4: 码工程师👨‍💻 推送报告到远程仓库 + 飞书
 
@@ -114,23 +118,27 @@ Spawn `coder` agent（`sessions_spawn`，`agentId: "coder"`，`mode: "run"`，**
    - 仓库地址：git@github.com:zhaocorey/CaiWeiReport.git
    - 目标目录：sources_reports/
 3. 拷贝报告文件到远程仓库的 sources_reports/ 目录
-4. Git add → commit → push origin main
-   - Commit message: feat: 新增 YYYY-MM-DD 增量寻源报告 (N个新数据集)
-5. 确认 push 成功，输出 GitHub 链接
+4. 同步 bee_sources.json 到远程仓库根目录：
+   ```bash
+   cp bee_sources.json CaiWeiReport/bee_sources.json
+   ```
+5. Git add → commit → push origin main
+   - Commit message: feat: 新增 YYYY-MM-DD 增量寻源报告 (N个新数据集) + 同步 bee_sources.json
+6. 确认 push 成功，输出 GitHub 链接
 
 【Gitee 推送】
-6. 使用同一克隆目录，添加 gitee remote：
+7. 使用同一克隆目录，添加 gitee remote：
    - git remote add gitee git@gitee.com:zhaocorey/CaiWeiReport.git
-7. git push gitee main
-8. 确认 push 成功，输出 Gitee 链接
+8. git push gitee main
+9. 确认 push 成功，输出 Gitee 链接
 
 【飞书推送】
-9. 使用 feishu_create_doc 工具将报告内容创建为飞书云文档：
+10. 使用 feishu_create_doc 工具将报告内容创建为飞书云文档：
    - title: "采薇寻源报告 YYYY-MM-DD"
    - markdown: 报告正文内容（转换为 Lark-flavored Markdown）
    - wiki_space: my_library（个人知识库）
-10. 如报告内容过长，先用 create-doc 创建核心内容，再用 feishu_update_doc（append 模式）分段追加
-11. 输出飞书文档链接
+11. 如报告内容过长，先用 create-doc 创建核心内容，再用 feishu_update_doc（append 模式）分段追加
+12. 输出飞书文档链接
 ```
 
 **远程仓库信息**：
