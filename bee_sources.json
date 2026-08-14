@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-08-05",
-  "search_summary": "Round 15 incremental: +12 new, 3 updated",
+  "search_date": "2026-08-15",
+  "search_summary": "Round 21: 增量合并完成，新增 4 个数据集。总计 414 个。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -7992,6 +7992,78 @@
       "release_version": null,
       "timeliness_score": "高",
       "source": "Round 19 - SearXNG (Semantic Scholar)"
+    },
+    {
+      "name": "SWE-Bench ProMax",
+      "url": "https://arxiv.org/abs/2608.09802",
+      "languages": [
+        "Python",
+        "Java",
+        "TypeScript",
+        "Go",
+        "C",
+        "C++",
+        "Rust"
+      ],
+      "size": "170 个专家策划的代码重构实例，来自真实 commit",
+      "license": "待确认（论文公开，数据集待发布）",
+      "category": "评估",
+      "description": "大规模多语言代码重构基准，评估 AI 编码 agent 在跨文件、行为保持的重构任务上的能力。覆盖 7 种编程语言，前沿 agent 仅解决 41.2% 的任务。",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-08-13",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "MGAL (Multilingual Granularity-Aware Long-Context Benchmark)",
+      "url": "https://icml.cc/virtual/2026/poster/66350",
+      "languages": [
+        "多语言（具体语言列表待确认，覆盖高/低资源语言）"
+      ],
+      "size": "多粒度（词/句/段落/文档级）长上下文评估数据",
+      "license": "待确认（ICML 2026 论文公开）",
+      "category": "评估",
+      "description": "首个多语言、粒度和位置感知的长上下文基准。弥补了现有基准仅限文档级且偏向高资源语言的不足，支持从词级到文档级的细粒度评估。ICML 2026 收录。",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-07-09",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "GigaSpeechBench",
+      "url": "https://arxiv.org/abs/2606.28884",
+      "languages": [
+        "多语言（具体语言列表待确认）"
+      ],
+      "size": "680 小时人工标注语音数据",
+      "license": "待确认（论文公开）",
+      "category": "评估",
+      "description": "真实场景多语言语音转文本基准，涵盖 ASR 和 AST 任务。680 小时人工标注的野外语音数据，多维度评估。弥补了现有多语言语音基准的空白。",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-06-28",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "IFMTBench (International Forum on Machine Translation Benchmark)",
+      "url": "https://arxiv.org/abs/2605.28218",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "fr",
+        "de",
+        "es"
+      ],
+      "size": "4,506 个单约束项 + 2,838 个多约束项，覆盖 6 个约束维度和 5 种组合模式",
+      "license": "待确认（论文公开）",
+      "category": "评估",
+      "description": "多语言翻译指令遵循基准，覆盖 7 种语言。评估翻译模型在遵循各类约束指令（如风格、术语、格式）方面的能力，支持多种组合模式。",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-05-28",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
     }
   ],
   "total_datasets": 410,
