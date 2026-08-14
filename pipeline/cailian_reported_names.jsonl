@@ -56,6 +56,7 @@ paper	Dataset Distillation by Influence Matching (InfMatch)
 paper	Datasets, Documents, and Repetitions: The Practicalities of Unequal Data Quality
 paper	DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning
 paper	DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment ⭐⭐⭐⭐
+paper	DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes
 paper	Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs ⭐⭐⭐⭐
 paper	Defending Against Harmful Supervision Hidden in Benign Samples
 paper	DeMix: Decouple Searching from Training — Scaling Data Mixing via Model Merging for LLM Pre-training
@@ -210,6 +211,7 @@ tool	D³ (Dynamic Directional Data Scheduling)
 tool	GCSCS (Graph-Constrained Multi-Hop Data)
 tool	InfMatch
 tool	LLM-Based Synthetic Data Generation (curated resource list)
+tool	LMData — Distributed Orchestration for LLM Training Data Curation
 tool	LZE (Learning-Zone Energy)
 tool	Microsoft Data-Efficacy (STR/SAW)
 tool	NVIDIA NeMo Curator

@@ -3995,6 +3995,18 @@
         "reasoning training"
       ],
       "relevance_score": "high"
+    },
+    {
+      "title": "DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes",
+      "authors": [
+        "Zhongbin Guo et al."
+      ],
+      "url": "https://arxiv.org/abs/2607.24516",
+      "arxiv_id": "2607.24516",
+      "published": "2026-07-27",
+      "abstract_summary": "Formulates VLM data construction as a systematic mixture-optimization problem, decoupling inter-class ratios (across capabilities) and intra-class ratios (within a category). Uses iterative search for inter-class allocation and constrained convex optimization with diversity objective for intra-class composition. Optimal ratios transfer seamlessly from small-scale proxies to larger scales. Validated with 80B additional multimodal continue-pretraining tokens.",
+      "relevance": "Data mixture optimization for Vision-Language Model pretraining. Directly relevant to data mixing and curation strategies.",
+      "discovery_note": "Published Jul 27 — just before the Aug 6 window but not captured in previous run. Included as a near-window discovery."
     }
   ],
   "tools_and_repos": [
@@ -4380,6 +4392,20 @@
       "stars": 2,
       "category": "data_pipeline",
       "relevance_score": "medium"
+    },
+    {
+      "name": "LMData",
+      "url": "https://github.com/0x0addc001/LMData",
+      "created": "2026-08-09",
+      "stars": 1,
+      "description": "LMData: Distributed Orchestration for LLM Training Data Curation (面向 LLM 训练数据治理的分布式编排方案). A distributed system for orchestrating data curation workflows for LLM pretraining.",
+      "tags": [
+        "data-curation",
+        "distributed-systems",
+        "llm",
+        "pretraining"
+      ],
+      "relevance": "Directly addresses distributed data curation for LLM training — a new tooling approach for scaling data preparation."
     }
   ],
   "blog_posts_and_tutorials": [
@@ -4522,7 +4548,8 @@
     "total_blog_posts_and_tutorials": 8,
     "total_tools": 35,
     "total_blogs": 12,
-    "last_incremental_merge": "2026-08-05"
+    "last_incremental_merge": "2026-08-05",
+    "last_run": "2026-08-06"
   },
   "last_merge": "2026-08-06T10:26:35+08:00",
   "last_updated": "2026-08-06T10:26:35+08:00",

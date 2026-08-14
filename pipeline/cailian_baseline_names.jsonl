@@ -83,6 +83,7 @@ paper	Datasets, Documents, and Repetitions: The Practicalities of Unequal Data Q
 paper	DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning
 paper	DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment
 paper	daVinci-LLM: Towards the Science of Pretraining
+paper	DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes
 paper	DEDUCT: An Efficient Model for Secure and Redundant-Free Cloud Text Storage
 paper	Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs
 paper	DeMix: Decouple Searching from Training — Scaling Data Mixing via Model Merging for LLM Pre-training
@@ -295,6 +296,7 @@ tool	fineWeb (HuggingFace)
 tool	GCSCS (Graph-Constrained Multi-Hop Data)
 tool	InfMatch (Dataset Distillation by Influence Matching)
 tool	LLM-Based Synthetic Data Generation (curated resource list)
+tool	LMData
 tool	LZE (Learning-Zone Energy)
 tool	Microsoft Data-Efficacy (STR/SAW Data Organization)
 tool	NVIDIA NeMo Curator
@@ -307,3 +309,4 @@ tool	SlimPajama
 tool	Smart-data-selection-for-language-modeling
 tool	TokenTurbine
 tool	vl-data-engine
+paper	Epiplexity Guided Data Selection and Generation for Out-of-Distribution Generalization
