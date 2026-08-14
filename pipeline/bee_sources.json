@@ -1414,6 +1414,121 @@
       "release_version": null,
       "timeliness_score": "高",
       "source": "Nature Scientific Data"
+    },
+    {
+      "name": "nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual",
+      "url": "https://huggingface.co/datasets/nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ru",
+        "hi",
+        "ar"
+      ],
+      "size": "~13.6k pairs × 6 languages",
+      "license": "CC-BY-4.0",
+      "category": "Sentiment Analysis / Cross-lingual",
+      "description": "Minimal-ish 5★↔1★ review counterfactual pairs from Amazon Reviews 2023, with GPT-4o-mini translations. ~13.6k English pairs plus translations into 5 target languages. Includes token edit similarity filtering and DistilBERT polarity verification.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-13",
+      "timeliness_score": "高",
+      "source": "HuggingFace",
+      "language_count": 6
+    },
+    {
+      "name": "PoetryMTEB/MultilingualPoetryBitextMining",
+      "url": "https://huggingface.co/datasets/PoetryMTEB/MultilingualPoetryBitextMining",
+      "languages": [
+        "be",
+        "ca",
+        "de",
+        "en",
+        "es",
+        "fa",
+        "fr",
+        "hu",
+        "it",
+        "lt",
+        "nl",
+        "pt",
+        "ru",
+        "sl",
+        "tr"
+      ],
+      "size": "10,943 pairs across 23 directed pairs",
+      "license": "other (includes copyrighted poems)",
+      "category": "Bitext Mining / Poetry Translation",
+      "description": "Multilingual poetry translation bitexts for MTEB-style bitext mining evaluation. 23 directed language pairs covering 10,943 pairs. Pairs extracted from lyrikline using DeepSeek V3.1. Includes parallel MultilingualPoetryThemeClassification dataset for 6-way theme classification.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-13",
+      "timeliness_score": "高",
+      "source": "HuggingFace",
+      "language_count": 15
+    },
+    {
+      "name": "SraVaani 1.0",
+      "url": "https://arxiv.org/abs/2608.xxxxx",
+      "languages": [
+        "65 Indic languages and dialects"
+      ],
+      "size": "Large-scale speech corpus",
+      "license": "unknown",
+      "category": "Speech Recognition / ASR",
+      "description": "Multilingual ASR model covering 65 Indian languages and dialects, many of which currently have no publicly available or competing ASR system. Built on FastConformer architecture. Scaling inclusive speech recognition for the Indian subcontinent.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-12",
+      "timeliness_score": "高",
+      "source": "arXiv",
+      "language_count": 65
+    },
+    {
+      "name": "SurakshaEval",
+      "url": "https://arxiv.org/abs/2608.xxxxx",
+      "languages": [
+        "Multiple Indic languages"
+      ],
+      "size": "Benchmark dataset",
+      "license": "unknown",
+      "category": "Safety Evaluation / Multilingual LLM",
+      "description": "Novel safety benchmark for multilingual LLMs focusing on Indic languages. Addresses gap in existing safety datasets that predominantly focus on English and Western contexts. Covers culturally grounded safety risks specific to Indian languages.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-07",
+      "timeliness_score": "高",
+      "source": "arXiv",
+      "language_count": 11
+    },
+    {
+      "name": "Mawqif-XT",
+      "url": "https://arxiv.org/abs/2608.xxxxx",
+      "languages": [
+        "ar"
+      ],
+      "size": "996 tweets",
+      "license": "unknown",
+      "category": "Stance Detection / Arabic NLP",
+      "description": "Arabic benchmark dataset for cross-target stance detection. 996 manually annotated Arabic tweets across three public targets (Women Driving, E-Cars, Trimester System). Each tweet annotated with stance, sentiment, and additional metadata. Fills gap in Arabic target-specific stance detection datasets.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-13",
+      "timeliness_score": "高",
+      "source": "arXiv",
+      "language_count": 1
+    },
+    {
+      "name": "LingT2I",
+      "url": "https://arxiv.org/abs/2608.xxxxx",
+      "languages": [
+        "10 widely used languages"
+      ],
+      "size": "33K prompts across 10 languages",
+      "license": "unknown",
+      "category": "Cross-lingual Text-to-Image Evaluation",
+      "description": "Benchmark covering 10 languages with 33K prompts, designed to evaluate cross-lingual effects in both content generation and text rendering for multilingual text-to-image models. First systematic study of cross-lingual consistency in multilingual T2I generation.",
+      "discovered_date": "2026-08-14",
+      "last_updated": "2026-08-11",
+      "timeliness_score": "高",
+      "source": "arXiv",
+      "language_count": 10
     }
   ],
   "version_updates": [
@@ -1455,6 +1570,16 @@
       "category": "预训练语料",
       "is_version_update": true,
       "previous_version": "HPLT 3.0 (already in baseline)"
+    },
+    {
+      "name": "artindnr/Multilingual-Thinking",
+      "last_updated": "2026-08-04",
+      "note": "Dataset updated (already in baseline as artindnr/Multilingual-Thinking and HuggingFaceH4/Multilingual-Thinking)"
+    },
+    {
+      "name": "lingamvamshikrishnareddy/ramanv-indic-multilingual",
+      "last_updated": "2026-08-14",
+      "note": "Indic multilingual dataset updated (already in baseline)"
     }
   ],
   "papers": [
@@ -1538,7 +1663,7 @@
       "relevance": "元参考：多语言评估基准全景综述"
     }
   ],
-  "last_updated": "2026-08-11",
-  "total_datasets": 66,
-  "total_count": 66
+  "last_updated": "2026-08-14",
+  "total_datasets": 72,
+  "total_count": 72
 }
