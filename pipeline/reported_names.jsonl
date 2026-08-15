@@ -141,6 +141,7 @@ HPLT/OpenLID-v3
 HuggingFaceCode/stack-v3-train
 HuggingFaceH4/Multilingual-Thinking
 IFMTBench (International Forum on Machine Translation Benchmark)
+Indic DiarBench
 Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
 IndicGuard (arXiv 2026-06)
 IndicMMLU-Pro 📄
@@ -368,6 +369,7 @@ Tonic/multilingual-EMIR-reporting
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
+TriviaRoomQA
 tufaax/somali-multilingual-infopankki
 tufaax/somali-multilingual-infopankki ⭐
 Tulsiandhare/Multilingual_medical_symptom_triage

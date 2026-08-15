@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-08-15",
-  "search_summary": "Round 21: 增量合并完成，新增 4 个数据集。总计 414 个。",
+  "search_date": "2026-08-16",
+  "search_summary": "Round 22: 增量合并完成，新增 4 个数据集。总计 418 个。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -8063,6 +8063,87 @@
       "discovered_date": "2026-08-15",
       "last_updated": "2026-05-28",
       "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "TriviaRoomQA",
+      "url": "https://arxiv.org/abs/2607.16780",
+      "description": "TriviaRoomQA: When Trivia Is Not Trivial — 多语言日常知识评估基准，涵盖 288 个主题领域，使用问答形式测试 LLM 在常识、文化相关和长尾知识方面的表现。揭示多语言 LLM 在非英语日常知识方面的失败模式。",
+      "category": "🧠 多语言推理评估",
+      "discovered_date": "2026-08-16",
+      "last_updated": "2026-07-23",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "multilingual (multiple languages)"
+      ],
+      "source": "arXiv",
+      "paper_date": "2026-07-23"
+    },
+    {
+      "name": "Indic DiarBench",
+      "url": "https://arxiv.org/abs/2607.19941",
+      "description": "Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages — 印度语言说话者分离与 ASR 联合基准，填补了印度语言在说话者识别和语音识别交叉领域的评估空白。由 IIT Madras 开发。",
+      "category": "🔊 语音",
+      "discovered_date": "2026-08-16",
+      "last_updated": "2026-07-26",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Bengali",
+        "Marathi",
+        "Gujarati",
+        "Kannada",
+        "Malayalam"
+      ],
+      "source": "arXiv",
+      "paper_date": "2026-07-26",
+      "authors": [
+        "Deovrat Mehendale",
+        "Aditya Mehndiratta",
+        "Dhruv Rathi",
+        "Kaushal Bhogale",
+        "Mitesh M. Khapra"
+      ]
+    },
+    {
+      "name": "SraVaani 1.0",
+      "url": "https://arxiv.org/abs/2608.05832",
+      "languages": [
+        "65 Indian languages and dialects"
+      ],
+      "size": "65 language ASR benchmark",
+      "license": "TBD",
+      "category": "评估",
+      "description": "SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages — 65 种印度语言 ASR 基准",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-08-12",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "SurakshaEval",
+      "url": "https://arxiv.org/abs/2608.05140",
+      "languages": [
+        "Hindi",
+        "Bengali",
+        "Tamil",
+        "Telugu",
+        "Marathi",
+        "Gujarati",
+        "Kannada",
+        "Malayalam",
+        "Punjabi",
+        "Odia"
+      ],
+      "size": "Indic safety evaluation benchmark",
+      "license": "TBD",
+      "category": "评估",
+      "description": "SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs — 印度语言 LLM 安全评估基准",
+      "discovered_date": "2026-08-15",
+      "last_updated": "2026-08-07",
       "timeliness_score": "高"
     }
   ],

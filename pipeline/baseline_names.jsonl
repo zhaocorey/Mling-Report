@@ -150,6 +150,7 @@ HuggingFaceH4/Multilingual-Thinking
 IdiomX
 IFMTBench (International Forum on Machine Translation Benchmark)
 IMTBench
+Indic DiarBench
 IndicGuard
 IndicMMLU-Pro
 IndicSafe
@@ -350,7 +351,9 @@ Soohak
 SorryBench-202503-Multilingual
 speech-translation-and-summarization
 SpeechJBB
+SraVaani 1.0
 sripad17/multilingual-safety-probe-test
+SurakshaEval
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
 SWE-bench Multilingual
@@ -375,6 +378,7 @@ ToxiREX (Toxic REasoning in ConteXt)
 Tralalabs/multilingual-news
 Translation Tangles
 TranslationTangles
+TriviaRoomQA
 tufaax/somali-multilingual-infopankki
 Tulsiandhare/Multilingual_medical_symptom_triage
 ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
