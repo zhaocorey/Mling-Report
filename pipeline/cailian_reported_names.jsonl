@@ -68,6 +68,7 @@ paper	Efficient Multilingual Data Selection via Joint Optimization ⭐
 paper	Efficient Text Deduplication via Suffix-aware Embeddings
 paper	Enhancing Multilingual LLM Pretraining with Model-Based Data Selection
 paper	Environment-free Synthetic Data Generation for API-Calling Agents ⭐⭐⭐
+paper	Epiplexity Guided Data Selection and Generation for Out-of-Distribution Generalization
 paper	EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT
 paper	Fidelity-Diversity Metrics for Data Selection
 paper	Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tuning
@@ -98,6 +99,7 @@ paper	Less is More: Improving LLM Alignment via Preference Data Selection (BeeS)
 paper	Less is More: Quality-Aware Training Data Selection for Scientific Summarization
 paper	LLM Benchmark Datasets Should Be Contamination-Resistant
 paper	MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning
+paper	Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
 paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
 paper	MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 paper	NAIT: Neuron-Aware Data Selection in Instruction Tuning for Large Language Models

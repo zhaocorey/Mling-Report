@@ -4007,6 +4007,51 @@
       "abstract_summary": "Formulates VLM data construction as a systematic mixture-optimization problem, decoupling inter-class ratios (across capabilities) and intra-class ratios (within a category). Uses iterative search for inter-class allocation and constrained convex optimization with diversity objective for intra-class composition. Optimal ratios transfer seamlessly from small-scale proxies to larger scales. Validated with 80B additional multimodal continue-pretraining tokens.",
       "relevance": "Data mixture optimization for Vision-Language Model pretraining. Directly relevant to data mixing and curation strategies.",
       "discovery_note": "Published Jul 27 — just before the Aug 6 window but not captured in previous run. Included as a near-window discovery."
+    },
+    {
+      "title": "Epiplexity Guided Data Selection and Generation for Out-of-Distribution Generalization",
+      "authors": [
+        "Ellen Su",
+        "Andres Potapczynski",
+        "Shikai Qiu",
+        "Edward Hughes",
+        "Andrew Gordon Wilson"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.11746",
+      "abstract": "Operationalizes epiplexity (structural information extractable by compute-bounded learners) as an online training signal for adaptive domain sampling and REINFORCE-guided synthetic data generation. For selection, fits scaling laws to training loss curves to predict epiplexity gain and adaptively determine domain sampling weights. For generation, uses REINFORCE policy gradients to guide generator toward epiplexity-maximizing distribution.",
+      "key_methods": [
+        "epiplexity-guided sampling",
+        "REINFORCE data generation",
+        "adaptive domain sampling",
+        "EpiSelect",
+        "EpiGen"
+      ],
+      "relevance": "Directly about data selection + synthetic data generation for OOD generalization. Code available.",
+      "note": "Captured in Aug 14 run but not yet merged to baseline"
+    },
+    {
+      "title": "Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining",
+      "authors": [
+        "Yuto Nishida",
+        "Hirokazu Kiyomaru",
+        "Yusuke Oda",
+        "Takashi Kodama",
+        "Chaoran Liu",
+        "Daisuke Kawahara",
+        "Yusuke Miyao",
+        "Max Müller-Eberstein",
+        "Masaru Isonuma"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.12913",
+      "abstract": "Proposes a task-agnostic measure of training data influence across LM pretraining. Addresses the challenge that selecting downstream tasks or validation sets representative of a model's general capabilities is difficult, and reliance on task performance at intermediate checkpoints complicates comparisons across training.",
+      "key_methods": [
+        "task-agnostic data influence",
+        "training data attribution",
+        "pretraining data analysis"
+      ],
+      "relevance": "Data attribution method for pretraining — relevant for understanding which data points contribute most to model capabilities, enabling informed data selection decisions."
     }
   ],
   "tools_and_repos": [

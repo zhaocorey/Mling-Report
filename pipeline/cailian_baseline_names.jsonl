@@ -107,6 +107,7 @@ paper	Efficient training of large language models on distributed infrastructures
 paper	Enhancing Multilingual LLM Pretraining with Model-Based Data Selection
 paper	ENTP: Enhancing Low-Quality SFT Data via Neural-Symbolic Text Purge-Mix
 paper	Environment-free Synthetic Data Generation for API-Calling Agents
+paper	Epiplexity Guided Data Selection and Generation for Out-of-Distribution Generalization
 paper	Evo-CuRL: Curriculum-Aware Reinforcement Learning over Code Lineage Graphs for Software Engineering Reasoning
 paper	EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT
 paper	EvoSelect: Data-Efficient LLM Evolution for Targeted Task Adaptation
@@ -171,6 +172,7 @@ paper	LLMSurgeon: Diagnosing Data Mixture of Large Language Models
 paper	LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution
 paper	MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning
 paper	MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning
+paper	Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
 paper	Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units
 paper	Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference
 paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
@@ -309,4 +311,3 @@ tool	SlimPajama
 tool	Smart-data-selection-for-language-modeling
 tool	TokenTurbine
 tool	vl-data-engine
-paper	Epiplexity Guided Data Selection and Generation for Out-of-Distribution Generalization
