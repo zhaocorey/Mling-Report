@@ -43,6 +43,7 @@ BIASEDTALES-ML
 BnMMLU
 BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
+BUAIR/Uganda-Multilingual-QA
 buumba641/Zambia-MultiLingual-ASR-Dataset
 C-Rust Parallel Semantic Similarity Corpus
 C3PO-Mixed-Pretraining-Corpus-Translations
@@ -154,10 +155,12 @@ Indic DiarBench
 IndicGuard
 IndicMMLU-Pro
 IndicSafe
+inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b
 infini-news-corpus
 iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
+instinct-org/multilingual-tts-voice-dataset
 issdandavis/UltraData-Math
 jacekduszenko/coedit-multilingual
 jamesdborin/Nemotron-Multilingual-prompt-only
@@ -284,6 +287,7 @@ Nemotron-Safety-Guard-Dataset-v3
 Nemotron-SFT-Multilingual-v2
 Nemotron-VLM-Dataset-v2
 NigBench-MAMAI-Speech-QA
+nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual
 NiuTrans/LMT-60-sft-data
 NLPCC 2026 DA-MIVQA (Difficulty-Aware Medical Instructional Video QA)
 Nobody05/Multilingual-Medical-Corpus
@@ -308,6 +312,7 @@ pinkachu/harmless_multilingual
 PleIAs Common Corpus
 Pluralis v0.1
 PluraMath
+PoetryMTEB (Multilingual Poetry Evaluation Suite)
 PolyMath
 PolyRefuse
 PowerBench-Multilingual

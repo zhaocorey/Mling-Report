@@ -40,6 +40,7 @@ BnMMLU — 孟加拉语 MMLU 评估基准
 BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
 BUAIR/Uganda-Multilingual-QA
+BUAIR/Uganda-Multilingual-QA ⭐
 buumba641/Zambia-MultiLingual-ASR-Dataset
 C-Rust Parallel Semantic Similarity Corpus
 C3PO-Mixed-Pretraining-Corpus-Translations
@@ -146,10 +147,12 @@ Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Tran
 IndicGuard (arXiv 2026-06)
 IndicMMLU-Pro 📄
 IndicSafe
+inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b
 infini-news-corpus — 52 语言新闻预训练语料 🔥
 iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
+instinct-org/multilingual-tts-voice-dataset
 intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
@@ -192,6 +195,7 @@ MADE (Multilingual Agentic Diagnosing Engine)
 majentik/ultradata-math-calib
 majentik/ultradata-sft-calib
 malaysia-ai/Multilingual-TTS
+malaysia-ai/Multilingual-TTS-language
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 MARUCIE/babel-bench 🔥
@@ -295,6 +299,7 @@ PALO Multilingual Dataset
 PazaBench
 PleIAs Common Corpus
 Pluralis v0.1
+PoetryMTEB (Multilingual Poetry Evaluation Suite)
 PoetryMTEB/MultilingualPoetryBitextMining
 PolyRefuse
 PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
@@ -353,6 +358,7 @@ SWE-Bench ProMax
 SWE-bench/SWE-bench_Multilingual
 swebench-multilingual (junlin-modal)
 tackhwa/multilingual_safety
+tackhwa/multilingual_safety_v2
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 tejasta/Kannada-English-Parallel-Corpus

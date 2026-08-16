@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-08-16",
-  "search_summary": "Round 22: 增量合并完成，新增 4 个数据集。总计 418 个。",
+  "search_date": "2026-08-17",
+  "search_summary": "Round 23: 增量合并完成，新增 5 个数据集，更新 2 个。总计 423 个。",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -2071,11 +2071,11 @@
       "category": "预训练/语音",
       "description": "多语言TTS数据集，覆盖中文、英语、马来语、泰米尔语、孟加拉语。持续更新中。",
       "discovered_date": "2026-06-20",
-      "last_updated": "2026-07-06",
+      "last_updated": "2026-08-06",
       "release_version": "持续更新",
       "timeliness_score": "高",
       "update_note": "last_updated 从 2026-06-20 更新至 2026-06-28",
-      "version_note": "持续更新 — 新增TTS数据，现含141K+小时音频、150+语言",
+      "version_note": "Updated language-variant on 2026-08-06: Language-annotated variant of malaysia-ai/Multilingual-TTS with extra language identification column",
       "search_keywords": "malaysia-ai Multilingual-TTS",
       "source": "已知数据集版本更新检查"
     },
@@ -4175,11 +4175,12 @@
       "category": "安全对齐",
       "description": "多语言安全数据集，刚发布即被索引。具体语言覆盖和安全类别待确认。",
       "discovered_date": "2026-07-06",
-      "last_updated": "2026-07-05",
+      "last_updated": "2026-08-15",
       "release_version": "v1",
       "timeliness_score": "高",
       "downloads": 0,
-      "significance": "待确认 — 新发布，需进一步验证"
+      "significance": "待确认 — 新发布，需进一步验证",
+      "version_note": "Updated v2 on 2026-08-15: Version 2 of multilingual_safety dataset. Updated 2026-08-15 with improvements over v1."
     },
     {
       "name": "AIME 2026 Multilingual (6语言)",
@@ -8145,10 +8146,175 @@
       "discovered_date": "2026-08-15",
       "last_updated": "2026-08-07",
       "timeliness_score": "高"
+    },
+    {
+      "name": "BUAIR/Uganda-Multilingual-QA",
+      "url": "https://huggingface.co/datasets/BUAIR/Uganda-Multilingual-QA",
+      "description": "Parallel question–answer dataset for Ugandan languages (Alur, Ateso, Runyankole, Luganda + English). 5,000 agriculture/rural-livelihood QA pairs per language, curated by BUAIR Voice at Busitema University. Covers critically low-resource East African languages.",
+      "platform": "HuggingFace",
+      "discovered_date": "2026-08-17",
+      "last_updated": "2026-08-06",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "languages": [
+        "en",
+        "adh",
+        "teo",
+        "nyn",
+        "lg"
+      ],
+      "tags": [
+        "评估",
+        "问答",
+        "低资源语言",
+        "非洲语言"
+      ],
+      "license": "CC-BY-4.0",
+      "size": "5,000 QA pairs × 5 languages",
+      "source": "HuggingFace API recent updates"
+    },
+    {
+      "name": "instinct-org/multilingual-tts-voice-dataset",
+      "url": "https://huggingface.co/datasets/instinct-org/multilingual-tts-voice-dataset",
+      "description": "Multilingual TTS voice dataset covering Central Asian languages: Kazakh, Kyrgyz, Russian, Tajik, and English. Addresses critical data gap for Central Asian low-resource languages in speech synthesis.",
+      "platform": "HuggingFace",
+      "discovered_date": "2026-08-17",
+      "last_updated": "2026-08-16",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "en",
+        "kk",
+        "ky",
+        "ru",
+        "tg"
+      ],
+      "tags": [
+        "语音合成",
+        "TTS",
+        "中亚语言",
+        "低资源语言"
+      ],
+      "license": null,
+      "size": null,
+      "source": "HuggingFace API recent updates"
+    },
+    {
+      "name": "inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b",
+      "url": "https://huggingface.co/datasets/inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b",
+      "description": "94,505 fresh (prompt, response) pairs generated from Qwen3-235B-A22B-Instruct-2507 for code and multilingual instruction coverage. Covers 20 languages. Generated in non-thinking mode for downstream speculator training. High-quality teacher distillation data.",
+      "platform": "HuggingFace",
+      "discovered_date": "2026-08-17",
+      "last_updated": "2026-08-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt",
+        "zh",
+        "ja",
+        "ar",
+        "it",
+        "hi",
+        "ko",
+        "nl",
+        "tr",
+        "vi",
+        "pl",
+        "fa",
+        "bn",
+        "uk",
+        "el",
+        "sv",
+        "de"
+      ],
+      "tags": [
+        "指令微调",
+        "代码生成",
+        "教师蒸馏",
+        "多语言SFT"
+      ],
+      "license": "Apache-2.0",
+      "size": "94,505 pairs",
+      "source": "HuggingFace API recent updates"
+    },
+    {
+      "name": "PoetryMTEB (Multilingual Poetry Evaluation Suite)",
+      "url": "https://huggingface.co/PoetryMTEB",
+      "description": "Comprehensive multilingual poetry evaluation suite with 4 benchmarks: (1) BitextMining (15 languages, 23 directed pairs), (2) ThemeClassification (60+ languages), (3) GEWEmotionClassification (multi-label emotion), (4) MeterClassification. Extends MTEB framework to literary/poetic understanding across massively multilingual settings.",
+      "platform": "HuggingFace",
+      "discovered_date": "2026-08-17",
+      "last_updated": "2026-08-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "af",
+        "am",
+        "ar",
+        "as",
+        "ay",
+        "be",
+        "bg",
+        "bn",
+        "ca",
+        "cs",
+        "de",
+        "en",
+        "es",
+        "fa",
+        "fr",
+        "hu",
+        "it",
+        "lt",
+        "nl",
+        "pt",
+        "ru",
+        "sl",
+        "tr"
+      ],
+      "tags": [
+        "评估基准",
+        "MTEB",
+        "文学理解",
+        "情感分析",
+        "诗歌"
+      ],
+      "license": "other",
+      "size": "4 sub-benchmarks, 60+ languages total",
+      "source": "HuggingFace API recent updates"
+    },
+    {
+      "name": "nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual",
+      "url": "https://huggingface.co/datasets/nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual",
+      "description": "Counterfactual review pairs (5★ ↔ 1★) from Amazon Reviews 2023, with GPT-4o-mini translations across 6 languages. Designed for sentiment analysis and text classification evaluation in multilingual e-commerce domain.",
+      "platform": "HuggingFace",
+      "discovered_date": "2026-08-17",
+      "last_updated": "2026-08-13",
+      "release_version": null,
+      "timeliness_score": "高",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ru",
+        "hi",
+        "ar"
+      ],
+      "tags": [
+        "情感分析",
+        "文本分类",
+        "反事实推理",
+        "电商"
+      ],
+      "license": "CC-BY-4.0",
+      "size": "Counterfactual pairs across 6 languages",
+      "source": "HuggingFace API recent updates"
     }
   ],
   "total_datasets": 410,
-  "last_merge": "2026-08-11",
+  "last_merge": "2026-08-17",
   "total_sources": 371,
-  "last_update_note": "Round 12 incremental: +6 new datasets"
+  "last_update_note": "Round 23 incremental: +5 new, 2 updated"
 }
