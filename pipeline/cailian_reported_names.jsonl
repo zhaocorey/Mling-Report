@@ -90,6 +90,7 @@ paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy
 paper	IPROX: Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning
 paper	IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage
 paper	Judging Quality Across Languages (JQL)
+paper	Language Models Under Pedagogically Controlled Knowledge Exposure (LITTLECURRICULUM)
 paper	Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning (ADS)
 paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy (EVODATA)
 paper	Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning ⭐⭐⭐⭐
@@ -101,6 +102,7 @@ paper	LLM Benchmark Datasets Should Be Contamination-Resistant
 paper	MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning
 paper	Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
 paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
+paper	Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
 paper	MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 paper	NAIT: Neuron-Aware Data Selection in Instruction Tuning for Large Language Models
 paper	On Representation Redundancy in Large-Scale Instruction Tuning Data Selection
@@ -204,6 +206,7 @@ tool	awesome-llm-training-data
 tool	BLISS-Bilevel-Data-Selection
 tool	CodeForge-Agent
 tool	CuratorKIT
+tool	DataFlex (OpenDCAI)
 tool	DataWarden
 tool	DeMix Corpora & Code
 tool	DeMix Corpora and Code

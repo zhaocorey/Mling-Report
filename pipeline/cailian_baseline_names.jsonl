@@ -156,6 +156,7 @@ paper	Label-Efficient Dataset Pruning via Semi-Supervised Pseudo-Labeling
 paper	LABELING COPILOT: A Deep Research Agent for Automated Data Curation in Computer Vision
 paper	Language model-driven data pruning enables efficient active learning
 paper	Language Models and Fast Coreset Algorithms: A Fusion Approach
+paper	Language Models Under Pedagogically Controlled Knowledge Exposure (LITTLECURRICULUM)
 paper	Large Language Models as Attribution Regularizers for Efficient Model Training
 paper	Large-Scale Data Preparation for Malay Language LLM Development
 paper	LearnAlign: Data Selection for LLM Reinforcement Learning with Improved Gradient Alignment
@@ -177,6 +178,7 @@ paper	Mechanistic Data Attribution: Tracing the Training Origins of Interpretabl
 paper	Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference
 paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
 paper	Midtraining Bridges Pretraining and Posttraining Distributions
+paper	Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
 paper	Mitigating Spurious Correlations with Memorization-Guided Dataset De-Biasing
 paper	Mix Data or Merge Models? Balancing the Helpfulness, Honesty, and Harmlessness of Large Language Models
 paper	MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining
@@ -287,6 +289,7 @@ tool	CuratorKIT (Lexsi-Labs)
 tool	D3 (Dynamic Directional Data Scheduling)
 tool	data-prep-kit (IBM)
 tool	DataComp
+tool	DataFlex
 tool	DataTrove (HuggingFace)
 tool	DCLM (DataComp-LM)
 tool	deduplicate-text-datasets (Google Research)

@@ -4052,6 +4052,38 @@
         "pretraining data analysis"
       ],
       "relevance": "Data attribution method for pretraining — relevant for understanding which data points contribute most to model capabilities, enabling informed data selection decisions."
+    },
+    {
+      "title": "Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "authors": [
+        "Jacob Nielsen et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.13517",
+      "abstract": "Introduces Mimir v1, a 1B-parameter language model based on the Hierarchical Reasoning Model architecture, trained from scratch using only permissible post-training data. Trained on a mixture of 161 datasets, it outperforms the original HRM-Text 1B and competes with larger models like Qwen 3.5 4B and Gemma 4 E2B across 20 benchmarks. Sets new SOTA for Danish language.",
+      "key_methods": [
+        "permissible data sourcing",
+        "multi-dataset mixing (161 datasets)",
+        "data quality curation for permissibility"
+      ],
+      "category": "data_curation",
+      "added_date": "2026-08-17"
+    },
+    {
+      "title": "Language Models Under Pedagogically Controlled Knowledge Exposure (LITTLECURRICULUM)",
+      "authors": [
+        "Jana Zeller et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.13545",
+      "abstract": "Introduces LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school material (Grade 5 and below). Training a 5B-parameter LLM from scratch yields LITTLELEARNER with clear knowledge boundaries. Demonstrates developmentally restricted sandbox for studying knowledge acquisition under controlled curriculum.",
+      "key_methods": [
+        "pedagogically-controlled corpus curation",
+        "knowledge boundary mapping",
+        "curriculum-restricted pretraining"
+      ],
+      "category": "data_curation",
+      "added_date": "2026-08-17"
     }
   ],
   "tools_and_repos": [
@@ -4451,6 +4483,14 @@
         "pretraining"
       ],
       "relevance": "Directly addresses distributed data curation for LLM training — a new tooling approach for scaling data preparation."
+    },
+    {
+      "name": "DataFlex",
+      "url": "https://github.com/OpenDCAI/DataFlex",
+      "description": "Data-centric LLM training framework built on LLaMA-Factory. Integrates dynamic data selection (LESS, NICE, Loss, Delta Loss, NEAR, TSDS), data mixture optimization (DoReMi, ODM), and data reweighting inside the training loop. Drop-in replacement for LLaMA-Factory with unified CLI.",
+      "category": "data_selection_and_mixing",
+      "stars": 2088,
+      "added_date": "2026-08-17"
     }
   ],
   "blog_posts_and_tutorials": [
