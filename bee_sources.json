@@ -1,6 +1,6 @@
 {
-  "search_date": "2026-08-17",
-  "search_summary": "Round 23: 增量合并完成，新增 5 个数据集，更新 2 个。总计 423 个。",
+  "search_date": "2026-08-18",
+  "search_summary": "Round 24 incremental sourcing. Added 14 new datasets, 8 version updates noted.",
   "sources": [
     {
       "name": "FineWeb-2",
@@ -8311,6 +8311,247 @@
       "license": "CC-BY-4.0",
       "size": "Counterfactual pairs across 6 languages",
       "source": "HuggingFace API recent updates"
+    },
+    {
+      "name": "tuchong/TuChong-SWE-bench-Multilingual",
+      "url": "https://huggingface.co/datasets/tuchong/TuChong-SWE-bench-Multilingual",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "评估",
+      "description": "图虫(TuChong)发布的SWE-bench多语言变体，覆盖中英文代码评估场景",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-17",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa",
+      "url": "https://huggingface.co/datasets/FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "es",
+        "el"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "评估",
+      "description": "FinNLP-2026 Shared Task 3: PolyFiQA — 5语言金融领域问答评估基准",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-17",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "FinNLP-Multilingual-Understanding/finnlp2026-subtask2-japanese-icr",
+      "url": "https://huggingface.co/datasets/FinNLP-Multilingual-Understanding/finnlp2026-subtask2-japanese-icr",
+      "languages": [
+        "ja"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "评估",
+      "description": "FinNLP-2026 Shared Task 2: Japanese ICR — 日语金融文本分类评估",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-17",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner",
+      "url": "https://huggingface.co/datasets/FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner",
+      "languages": [
+        "el"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "评估",
+      "description": "FinNLP-2026 Shared Task 1: Greek NER — 希腊语金融命名实体识别",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-17",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "prasannachinna2006/indian-agri-advice-multilingual",
+      "url": "https://huggingface.co/datasets/prasannachinna2006/indian-agri-advice-multilingual",
+      "languages": [
+        "en",
+        "hi",
+        "bn",
+        "ta",
+        "te"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "微调",
+      "description": "印度农业建议多语言数据集，覆盖5种印度主要语言，面向农业领域QA",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-16",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP",
+      "url": "https://huggingface.co/datasets/fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP",
+      "languages": [
+        "syl",
+        "bn",
+        "en",
+        "ru",
+        "de"
+      ],
+      "size": "56 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "5语言平行语料，包含低资源锡尔赫特语(Sylheti)、孟加拉语、英语、俄语、德语",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-16",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "ayousanz/piper-plus-multilingual-7lang-v8-dataset",
+      "url": "https://huggingface.co/datasets/ayousanz/piper-plus-multilingual-7lang-v8-dataset",
+      "languages": [
+        "ja",
+        "en",
+        "zh",
+        "es",
+        "fr"
+      ],
+      "size": "27 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "Piper Plus 7语言TTS数据集v8版本，覆盖日语、英语、中文、西班牙语、法语",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-15",
+      "release_version": "v8",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "yadenil/Negarit_gazeta_amhari_english_parallel_corpus",
+      "url": "https://huggingface.co/datasets/yadenil/Negarit_gazeta_amhari_english_parallel_corpus",
+      "languages": [
+        "am",
+        "en"
+      ],
+      "size": "22 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "阿姆哈拉语-英语平行语料，源自埃塞俄比亚《 Negarit Gazette》新闻/法律文本",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-13",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus",
+      "url": "https://huggingface.co/datasets/aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus",
+      "languages": [
+        "eke",
+        "en",
+        "sw"
+      ],
+      "size": "39 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "Ekegusii-英语-斯瓦希里语三语平行语料，Ekegusii为肯尼亚低资源班图语",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-11",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "JosueG/french-adja-parallel-corpus",
+      "url": "https://huggingface.co/datasets/JosueG/french-adja-parallel-corpus",
+      "languages": [
+        "fr",
+        "ajg"
+      ],
+      "size": "29 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "法语-Adja语平行语料，Adja为贝宁低资源语言",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-10",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus",
+      "url": "https://huggingface.co/datasets/Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus",
+      "languages": [
+        "arz",
+        "en"
+      ],
+      "size": "127 downloads, 1 like",
+      "license": "未标注",
+      "category": "微调",
+      "description": "埃及阿拉伯语-英语平行语料，覆盖方言阿拉伯语翻译场景",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-09",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "The-CoLab/multilingual-textarena-suite",
+      "url": "https://huggingface.co/datasets/The-CoLab/multilingual-textarena-KuhnPoker-v0-train",
+      "languages": [
+        "en",
+        "multilingual"
+      ],
+      "size": "6个子数据集",
+      "license": "未标注",
+      "category": "微调",
+      "description": "TextArena多语言博弈论数据集套件，包含6个博弈场景：IteratedPrisonersDilemma、SimpleTak、Nim、ColonelBlotto、KuhnPoker、TicTacToe",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-11",
+      "release_version": "v0",
+      "timeliness_score": "高",
+      "sub_datasets": [
+        "The-CoLab/multilingual-textarena-IteratedPrisonersDilemma-v0-train",
+        "The-CoLab/multilingual-textarena-SimpleTak-v0-train",
+        "The-CoLab/multilingual-textarena-Nim-v0-train",
+        "The-CoLab/multilingual-textarena-ColonelBlotto-v0-train",
+        "The-CoLab/multilingual-textarena-KuhnPoker-v0-train",
+        "The-CoLab/multilingual-textarena-TicTacToe-v0-train"
+      ]
+    },
+    {
+      "name": "dave1368/repro-gxpo-group-cross-lingual-relative-policy-optimization-for-code-generation-traces",
+      "url": "https://huggingface.co/datasets/dave1368/repro-gxpo-group-cross-lingual-relative-policy-optimization-for-code-generation-traces",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "44 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "跨语言相对策略优化(GXPO)代码生成训练数据，复现论文方法",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-12",
+      "release_version": "",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "maliced/multilingual_audio_alignments_prosody",
+      "url": "https://huggingface.co/datasets/maliced/multilingual_audio_alignments_prosody",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "46 downloads",
+      "license": "未标注",
+      "category": "微调",
+      "description": "多语言音频韵律对齐数据集，面向语音合成韵律建模",
+      "discovered_date": "2026-08-18",
+      "last_updated": "2026-08-13",
+      "release_version": "",
+      "timeliness_score": "高"
     }
   ],
   "total_datasets": 410,

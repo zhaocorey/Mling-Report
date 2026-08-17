@@ -28,6 +28,8 @@ Asian Nuance and Implicit Context (Thai)
 ASTRAI Pluto-Nano Pretrain v2
 Aya Dataset (Aya Collection)
 AyaVisionBench
+aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
+ayousanz/piper-plus-multilingual-7lang-v8-dataset
 BabyBabelLM
 BabyLM 2026 Multilingual Track
 bcv-commons/cross-lingual-span-profile
@@ -80,6 +82,7 @@ CulturaX
 CultureGuard / Nemotron-Safety-Guard-Dataset-v3
 CUTE
 DAPO-Math-Multilingual-6Lang
+dave1368/repro-gxpo-group-cross-lingual-relative-policy-optimization-for-code-generation-traces
 DaveGabe/cwt-multilingual-pretrain-mix
 dayomtechnologies/English_Nuer_parallel_translation_open_corpus
 DCLM (DataComp for Language Models)
@@ -110,12 +113,16 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 FBK-MT/RedVox
 FineTranslations
 FineWeb-2
 FinMMEval
+FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
+FinNLP-Multilingual-Understanding/finnlp2026-subtask2-japanese-icr
+FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
 ForMaT (Format-Preserving Multilingual Translation)
 forms-legal/legal-templates-multilingual
 Fujitsu-FRE/MAPS
@@ -168,6 +175,7 @@ jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 JiraiBench
 jml2026/multilingual-accent-speech
+JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
 Kudod/retain_wiki_multilingual
@@ -202,6 +210,7 @@ majentik/ultradata-math-calib
 majentik/ultradata-sft-calib
 malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS (版本追踪)
+maliced/multilingual_audio_alignments_prosody
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 mast-benchmark/multilingual-queries-2026
@@ -235,6 +244,7 @@ MMM - Multilingual MRE Mix Dataset
 MMTEB-Multilingual-v2
 MMTIT-Bench
 MNG-4/anv_scripted_multilingual-shuffled
+Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus
 MORE (Multilingual Document Parsing Benchmark)
 MORPHOGEN
 MR-CODESPIKE/agri-vet-multilingual-dataset
@@ -316,6 +326,7 @@ PoetryMTEB (Multilingual Poetry Evaluation Suite)
 PolyMath
 PolyRefuse
 PowerBench-Multilingual
+prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
 RAGTruth Translated Hallucinations
@@ -371,6 +382,7 @@ Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 tejasta/Kannada-English-Parallel-Corpus
 textdetox/multilingual_toxicity_dataset
+The-CoLab/multilingual-textarena-suite
 Thiomi Dataset
 tiny-aya-math-edition/fusion-aya-math-bench
 tojpaj/chart-qa-multilingual-indic
@@ -384,6 +396,7 @@ Tralalabs/multilingual-news
 Translation Tangles
 TranslationTangles
 TriviaRoomQA
+tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki
 Tulsiandhare/Multilingual_medical_symptom_triage
 ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
@@ -418,6 +431,7 @@ XL-SafetyBench
 XNLI (Cross-lingual NLI)
 XQ-MEval
 xzx34/cross-lingual-pitfalls
+yadenil/Negarit_gazeta_amhari_english_parallel_corpus
 YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples
 Zyroxx66/somali-pretraining-corpus
 万卷·丝路2.0 (WanJuan Silk Road 2.0)

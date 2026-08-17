@@ -24,7 +24,9 @@ Asian Nuance and Implicit Context (Thai)
 ASTRAI Pluto-Nano Pretrain v2
 Aya Dataset (Aya Collection)
 AyaVisionBench
+aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
 aymansharara/IdiomX
+ayousanz/piper-plus-multilingual-7lang-v8-dataset
 BabyBabelLM
 BabyLM 2026 Multilingual Track 📄
 bcv-commons/cross-lingual-span-profile
@@ -73,6 +75,7 @@ CulturaX
 CUTE (COLING 2025)
 danish-foundation-models/multilingual-gsm-symbolic
 DAPO-Math-Multilingual-6Lang
+dave1368/repro-gxpo-cross-lingual-code-generation
 DaveGabe/cwt-multilingual-pretrain-mix
 dayomtechnologies/English_Nuer_parallel_translation_open_corpus
 DCLM (DataComp for Language Models)
@@ -106,6 +109,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 fevziegeyurtsevenler/multilingual-prompt-injection
@@ -113,6 +117,7 @@ FinanceComplexQA
 FineTranslations
 FineWeb-2
 FinMMEval
+FinNLP-2026 Shared Tasks
 ForMaT (Format-Preserving Multilingual Translation)
 fxmeng/UltraData-SFT-2605-32k-200k
 g1moon/XIH-Bench 🔥⭐ Top 10 候选
@@ -157,6 +162,7 @@ intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
+JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
 kasagadi — 数据内容重大扩展
@@ -196,6 +202,7 @@ majentik/ultradata-math-calib
 majentik/ultradata-sft-calib
 malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS-language
+maliced/multilingual_audio_alignments_prosody
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 MARUCIE/babel-bench 🔥
@@ -230,6 +237,7 @@ MM-JudgeBench
 MMLU-ProX
 MMM - Multilingual MRE Mix Dataset 📄
 MNG-4/anv_scripted_multilingual-shuffled
+Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus
 MORE — Multilingual Document Parsing Benchmark 📄🔥
 MORE: A Multilingual Document Parsing Benchmark and Evaluation
 MORPHOGEN
@@ -300,10 +308,12 @@ PazaBench
 PleIAs Common Corpus
 Pluralis v0.1
 PoetryMTEB (Multilingual Poetry Evaluation Suite)
+PoetryMTEB Suite 扩展
 PoetryMTEB/MultilingualPoetryBitextMining
 PolyRefuse
 PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
 PowerBench/PowerBench-Multilingual
+prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
 RAGTruth Translated Hallucinations
@@ -356,8 +366,10 @@ Swahili-Pretraining-Corpus
 SWE-bench Multilingual
 SWE-Bench ProMax
 SWE-bench/SWE-bench_Multilingual
+SWE-bench/SWE-bench_Multilingual 🔥
 swebench-multilingual (junlin-modal)
 tackhwa/multilingual_safety
+tackhwa/multilingual_safety + v2
 tackhwa/multilingual_safety_v2
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
@@ -365,6 +377,7 @@ tejasta/Kannada-English-Parallel-Corpus
 TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
 The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
+The-CoLab/multilingual-textarena-suite
 TidyVoice: A Curated Multilingual Dataset for Speaker Verification ⭐
 tojpaj/chart-qa-multilingual-indic
 tojpaj/kisan-advisory-multilingual-indic
@@ -372,10 +385,12 @@ tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
 Tonic/multilingual-EMIR-reporting
+toolathon123/released-multilingual-stories
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
 TriviaRoomQA
+tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki
 tufaax/somali-multilingual-infopankki ⭐
 Tulsiandhare/Multilingual_medical_symptom_triage
@@ -406,6 +421,7 @@ XGLUE
 XL-SafetyBench
 XNLI (Cross-lingual NLI)
 XQ-MEval
+yadenil/Negarit_gazeta_amhari_english_parallel_corpus
 yagizgencer/emojinize-multilingual
 临近警戒线
 已报告再确认
