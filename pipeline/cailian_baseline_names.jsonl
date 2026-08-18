@@ -41,6 +41,7 @@ paper	Calibrated Progressive Distillation: Co-Designing Curriculum and Target Mi
 paper	Can Generalist Agents Automate Data Curation?
 paper	Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs
 paper	Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice
+paper	Capacity-Dependent Effects of Data Selection for Reasoning
 paper	CausalMix: Data Mixture as Causal Inference for Language Model Training
 paper	CCI4.0: A Bilingual Pretraining Dataset for Enhancing Reasoning in Large Language Models
 paper	Characterizing Narrative Content in Web-scale LLM Pretraining Data
@@ -123,6 +124,7 @@ paper	From Instance Selection to Fixed-Pool Data Recipe Search for Supervised Fi
 paper	GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes
 paper	GALA: Geometric Data Selection with Strategic Prospecting for Large Language Model Self-training
 paper	Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning
+paper	Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification
 paper	Getting Your Indices in a Row: Full-Text Search for LLM Training Data for Real World Applications
 paper	GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry
 paper	GneissWeb: Preparing High Quality Data for LLMs at Scale

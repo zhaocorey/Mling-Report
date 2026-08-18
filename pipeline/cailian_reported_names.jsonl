@@ -29,6 +29,7 @@ paper	Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs vi
 paper	BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs
 paper	Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs
 paper	Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice ⭐⭐⭐⭐
+paper	Capacity-Dependent Effects of Data Selection for Reasoning
 paper	CausalMix: Causal Data Mixing for LLM Pre-training
 paper	CausalMix: Data Mixture as Causal Inference for Language Model Training
 paper	Co-Adaptive Multi-Task LoRA: Transfer-Aware, Label-Free Control of Domain Participation
@@ -75,6 +76,7 @@ paper	Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tun
 paper	From Instance Selection to Selection Size: The Gap in Dataset Selection (ACL 2026)
 paper	GAIA: Generative AI Alignment with Data Selection
 paper	GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes
+paper	Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification
 paper	GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry
 paper	GitHub 新仓库
 paper	GRACE 状态更新
@@ -180,6 +182,7 @@ paper	四、数据混合方法论的「综述化」确认
 paper	增量窗口说明
 paper	年中淡季，但补漏价值显著
 paper	搜索渠道反思
+paper	搜索环境说明
 paper	搜索策略改进建议
 paper	数据去重（Deduplication）
 paper	数据构建 (Construction)

@@ -1,5 +1,5 @@
 {
-  "search_date": "2026-07-15",
+  "search_date": "2026-08-18",
   "search_keywords": [
     "dataset filtering LLM training",
     "data selection pretraining language model",
@@ -4084,6 +4084,40 @@
       ],
       "category": "data_curation",
       "added_date": "2026-08-17"
+    },
+    {
+      "title": "Capacity-Dependent Effects of Data Selection for Reasoning",
+      "authors": "Cuong Dang et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.13721",
+      "source_channel": "arXiv (cs.LG cross-listed to cs.CL, cs.AI)",
+      "category": "sampling",
+      "description": "Studies how the effectiveness of likelihood-based data selection for reasoning SFT depends critically on model capacity and training duration. Identifies a 'Fast-Fit/Slow-Gain' pattern: high-likelihood data accelerates early improvements (especially in small models 1.5B-3B), but low-likelihood data becomes more beneficial for larger models (8B+) with extended training. Small models fail to absorb low-likelihood supervision and fall into shallow/repetitive behaviors, while larger models better move toward the teacher distribution. Accepted at COLM 2026.",
+      "key_methods": [
+        "likelihood-based response selection",
+        "capacity-dependent data scheduling",
+        "Fast-Fit/Slow-Gain pattern",
+        "capacity-constrained distillation theory"
+      ],
+      "relevance_score": "high",
+      "venue": "COLM 2026"
+    },
+    {
+      "title": "Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification",
+      "authors": "Gonzalo A. Ruz et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.13866",
+      "source_channel": "arXiv (cs.LG cross-listed to cs.CL)",
+      "category": "filtering",
+      "description": "Proposes a geometric filtering framework that evaluates LLM-generated synthetic samples by their Euclidean distance to real class examples in sentence embedding space. Selects only geometrically consistent candidates with a soft weighting mechanism. Evaluated across 13 datasets, 5 classifiers, 10 augmentation methods, and 6700+ configurations, achieving +2.61pp over SMOTE (p<0.0001, Cohen's d=0.95, 88.9% win rate). Generalizes to NER (+9.26pp). Key finding: simplest distance-based filter consistently outperforms complex multi-criteria alternatives. To be published in IEEE LACCI 2026.",
+      "key_methods": [
+        "Euclidean distance filtering in embedding space",
+        "soft weighting mechanism",
+        "geometric consistency selection",
+        "synthetic data quality assessment"
+      ],
+      "relevance_score": "medium",
+      "venue": "IEEE LACCI 2026"
     }
   ],
   "tools_and_repos": [
