@@ -206,6 +206,7 @@ maliced/multilingual_audio_alignments_prosody
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 MARUCIE/babel-bench 🔥
+MAST 100K Corpus 2026
 mast-benchmark/multilingual-queries-2026
 masterofaudio2077/filtered-multilingual-pii
 Math-PT — Portuguese Math Reasoning Benchmark 📄
@@ -301,6 +302,7 @@ openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
 openbmb/UltraData-Math
+OpenEuroLLM Reasoning Traces Multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
@@ -308,8 +310,12 @@ PazaBench
 PleIAs Common Corpus
 Pluralis v0.1
 PoetryMTEB (Multilingual Poetry Evaluation Suite)
+PoetryMTEB MultilingualPoetryGEWEmotionClassification
+PoetryMTEB MultilingualPoetryMeterClassification
+PoetryMTEB MultilingualPoetryThemeClassification
 PoetryMTEB Suite 扩展
 PoetryMTEB/MultilingualPoetryBitextMining
+PoetryMTEB/MultilingualPoetryBitextMining (已报告 — 更新确认)
 PolyRefuse
 PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
 PowerBench/PowerBench-Multilingual
@@ -321,6 +327,7 @@ rakhine-nlp/rakhine-english-parallel-corpus
 rakhine-nlp/rakhine-myanmar-parallel-corpus
 ranbirchabungbam/meiteimayek-audio-parallel-corpus
 ranjithraj/indic-multilingual-educational-glossary
+ranjithraj/indic-multilingual-educational-glossary (已报告 — 更新确认)
 ReasonXL (Soofi-Think-SFT-10B-multilingual)
 REDACT (Multilingual PII Detection Benchmark)
 RedPajama-V2
@@ -379,16 +386,20 @@ textdetox/multilingual_toxicity_dataset
 The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
 The-CoLab/multilingual-textarena-suite
 TidyVoice: A Curated Multilingual Dataset for Speaker Verification ⭐
+tojpaj/agriculture-multilingual-indic
 tojpaj/chart-qa-multilingual-indic
+tojpaj/hr-grievance-multilingual-indic
 tojpaj/kisan-advisory-multilingual-indic
 tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
 Tonic/multilingual-EMIR-reporting
 toolathon123/released-multilingual-stories
+toolathon123/released-multilingual-stories (已报告 — 更新确认)
 ToxiREX (Toxic REasoning in ConteXt)
 Translation Tangles
 TranslationTangles
+treasure4l/multilingual_instruction_tuning
 TriviaRoomQA
 tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki

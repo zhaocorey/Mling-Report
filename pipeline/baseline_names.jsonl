@@ -213,6 +213,7 @@ malaysia-ai/Multilingual-TTS (版本追踪)
 maliced/multilingual_audio_alignments_prosody
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
+mast-benchmark/100k-corpus-2026
 mast-benchmark/multilingual-queries-2026
 masterofaudio2077/filtered-multilingual-pii
 MATH-IDN
@@ -314,6 +315,7 @@ Omnilingual ASR Corpus
 openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
+openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
@@ -323,6 +325,10 @@ PleIAs Common Corpus
 Pluralis v0.1
 PluraMath
 PoetryMTEB (Multilingual Poetry Evaluation Suite)
+PoetryMTEB/MultilingualPoetryBitextMining
+PoetryMTEB/MultilingualPoetryGEWEmotionClassification
+PoetryMTEB/MultilingualPoetryMeterClassification
+PoetryMTEB/MultilingualPoetryThemeClassification
 PolyMath
 PolyRefuse
 PowerBench-Multilingual
@@ -333,6 +339,7 @@ RAGTruth Translated Hallucinations
 rakhine-nlp/rakhine-english-parallel-corpus
 rakhine-nlp/rakhine-myanmar-parallel-corpus
 ranbirchabungbam/meiteimayek-audio-parallel-corpus
+ranjithraj/indic-multilingual-educational-glossary
 ReasonXL (Soofi-Think-SFT-10B-multilingual)
 REDACT
 RedPajama-V2
@@ -385,16 +392,20 @@ textdetox/multilingual_toxicity_dataset
 The-CoLab/multilingual-textarena-suite
 Thiomi Dataset
 tiny-aya-math-edition/fusion-aya-math-bench
+tojpaj/agriculture-multilingual-indic
 tojpaj/chart-qa-multilingual-indic
+tojpaj/hr-grievance-multilingual-indic
 tojpaj/kisan-advisory-multilingual-indic
 tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
 Tonic/multilingual-EMIR-reporting-csv
+toolathon123/released-multilingual-stories
 ToxiREX (Toxic REasoning in ConteXt)
 Tralalabs/multilingual-news
 Translation Tangles
 TranslationTangles
+treasure4l/multilingual_instruction_tuning
 TriviaRoomQA
 tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki
