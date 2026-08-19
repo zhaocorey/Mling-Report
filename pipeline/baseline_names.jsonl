@@ -14,10 +14,12 @@ AgriQA Multilingual Dataset
 AI Language Proficiency Monitor
 AIME 2026 Multilingual (6语言)
 AISE-TUDelft/multilingual-code-comments-fixed-7
+aixk/multilingual-words-9lang
 Alexandria - Dialectal Arabic MT Dataset
 alrazz-n/HPLT3-PerRef
 amalia-Nemotron-SFT-Multilingual-v1
 anna-sarvam/indic-safety-eval
+AnthonyPa57/Witcher-multilingual-convos
 APARSIN
 apart-global-south-hack/counterfactual-pendulum-multilingual
 apart-global-south-hack/remote_sensing_VQA_multilingual
@@ -32,6 +34,7 @@ aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
 BabyBabelLM
 BabyLM 2026 Multilingual Track
+BavGround (Bavarian Cultural Grounding Benchmark)
 bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
@@ -47,6 +50,8 @@ BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
 BUAIR/Uganda-Multilingual-QA
 buumba641/Zambia-MultiLingual-ASR-Dataset
+bysismo/Temel-cumle-analizi-2.7M-instruction
+bysismo/Turkish-Python-instruction-335k
 C-Rust Parallel Semantic Similarity Corpus
 C3PO-Mixed-Pretraining-Corpus-Translations
 CAMEO8
@@ -73,6 +78,7 @@ corpus-parallel-en-fr-bam (Bambara Trilingual)
 corpus-tonal-african-languages
 Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-eval
+crosslingual-rule-following/canonical-dataset
 crosslingual-rule-following/model-inference-responses
 crosslingual-rule-following/rule-following-eval
 Crownelius/Hyper-UltraData-Grok-V1
@@ -113,6 +119,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+facebook/omnilingual-gaia2 (OmnilingualGAIA2)
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
@@ -180,6 +187,7 @@ Kaleidoscope
 kalenjin-parallel-corpus
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
+l3cube-pune/IndicQuest-v2
 LangMark
 LASA (Language-Agnostic Semantic Alignment)
 latentvector/multilingual-speech-text-corpus

@@ -12,9 +12,11 @@ AgriQA Multilingual Dataset
 AI Language Proficiency Monitor
 AIME 2026 Multilingual (6语言)
 AISE-TUDelft/multilingual-code-comments-fixed-7
+aixk/multilingual-words-9lang
 Alexandria - Dialectal Arabic MT Dataset 📄
 amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
+AnthonyPa57/Witcher-multilingual-convos
 APARSIN
 arabic-russian-parallel-corpus
 artindnr/Multilingual-Thinking
@@ -29,6 +31,7 @@ aymansharara/IdiomX
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
 BabyBabelLM
 BabyLM 2026 Multilingual Track 📄
+BavGround (Bavarian Cultural Grounding Benchmark)
 bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
@@ -44,6 +47,8 @@ BRIDGE (Multilingual Clinical Text Benchmark)
 BUAIR/Uganda-Multilingual-QA
 BUAIR/Uganda-Multilingual-QA ⭐
 buumba641/Zambia-MultiLingual-ASR-Dataset
+bysismo/Temel-cumle-analizi-2.7M-instruction
+bysismo/Turkish-Python-instruction-335k
 C-Rust Parallel Semantic Similarity Corpus
 C3PO-Mixed-Pretraining-Corpus-Translations
 CAMEO8 (Cultural Dialog and Safety Evaluation Multilingual Dataset)
@@ -69,6 +74,7 @@ CRAC 2026 (Multilingual Coreference Resolution)
 Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-em-en-finance-insecure
 crosslingual-em/tiny-aya-global-eval
+crosslingual-rule-following/canonical-dataset
 Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
 CulturaX
@@ -109,6 +115,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+facebook/omnilingual-gaia2 (OmnilingualGAIA2) ⭐
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
@@ -168,6 +175,7 @@ kalenjin-parallel-corpus
 kasagadi — 数据内容重大扩展
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
+l3cube-pune/IndicQuest-v2
 LangMark
 Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and Study
 LASA (Language-Agnostic Semantic Alignment)
@@ -303,6 +311,7 @@ OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
 openbmb/UltraData-Math
 OpenEuroLLM Reasoning Traces Multilingual
+openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
