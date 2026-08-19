@@ -4118,6 +4118,132 @@
       ],
       "relevance_score": "medium",
       "venue": "IEEE LACCI 2026"
+    },
+    {
+      "title": "DomainPilot: Domain-Level Loss-Guided Two-Stage Data Mixture Optimization for Efficient Language Model Fine-Tuning",
+      "authors": [
+        "He Zhang"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.22769",
+      "submitted": "2026-07-23",
+      "category": "data mixing",
+      "abstract": "Domain-level loss-guided two-stage data mixture optimization framework. Introduces token-level domain loss monitoring, Scaling Law guided coarse optimization, and Mixing Law guided fine optimization. Achieves +2% MMLU-Redux, +1.8% AIME24, +3.8% LiveCodeBench v5 on Qwen3-1.7B SFT without increasing data volume.",
+      "venue": null
+    },
+    {
+      "title": "MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection",
+      "authors": [
+        "Haowen Wang",
+        "Yaxin Du",
+        "Jian Yang",
+        "Jiajun Wu",
+        "Shukai Liu",
+        "Yuxuan Zhang",
+        "Pingjie Wang",
+        "Siheng Chen",
+        "Tuney Zheng",
+        "Ming Zhou",
+        "Xianglong Liu",
+        "Bryan Dai"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.30288",
+      "submitted": "2026-05-28",
+      "category": "data selection",
+      "abstract": "Source-aware filtering framework based on self-anchored rubric discovery for mid-training data selection. Discovers evaluation rubrics per source group, then distills into scalable student scorers. On code-oriented mid-training with 21 sources, matches full-corpus performance using only half the tokens.",
+      "venue": null
+    },
+    {
+      "title": "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+      "authors": [
+        "Yassine Turki",
+        "Vinko Sabolčec",
+        "Bettina Messmer",
+        "Martin Jaggi"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.20549",
+      "submitted": "2026-04-22",
+      "category": "quality filtering",
+      "abstract": "Investigates cross-lingual consistency of quality markers in embedding space for multilingual data filtering. Shows massive multilingual pooling outperforms monolingual baselines for 1B model trained on 103B tokens. Accepted at DATA-FM @ ICLR 2026.",
+      "venue": "ICLR 2026 Workshop (DATA-FM)"
+    },
+    {
+      "title": "Data filtering methods for training language models",
+      "authors": [
+        "Egor Shevchenko",
+        "Elena Bruches"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.29807",
+      "submitted": "2026-05-28",
+      "category": "quality filtering",
+      "abstract": "Comparative analysis of Confident Learning and Dataset Cartography for label error detection on Russian text classification. Shows effectiveness depends on dataset characteristics; targeted removal outperforms random removal. Accepted at AINL-2026.",
+      "venue": "AINL-2026"
+    },
+    {
+      "title": "Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance",
+      "authors": [
+        "Shiqiang Wang",
+        "Herbert Woisetschläger",
+        "Hans Arno Jacobsen",
+        "Mingyue Ji"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.18801",
+      "submitted": "2026-05-11",
+      "category": "data quality assessment",
+      "abstract": "Position paper proposing data probes as a methodology to fundamentally understand how data affects LLM performance. Accepted to ICML 2026 Position Paper Track.",
+      "venue": "ICML 2026 Position Paper"
+    },
+    {
+      "title": "Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling",
+      "authors": [
+        "Ansar Aynetdinov",
+        "Patrick Haller",
+        "Alan Akbik"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.28075",
+      "submitted": "2026-04-30",
+      "category": "data filtering",
+      "abstract": "Studies the diversity-vs-quality tradeoff for non-English language modeling (German). Finds that for high-resource non-English languages, aggressive filtering creating high-signal repetitive subsets outperforms training on larger but noisier diverse corpora.",
+      "venue": null
+    },
+    {
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "authors": [
+        "Yi Jing",
+        "Zao Dai",
+        "Jinwu Hu",
+        "Zijun Yao",
+        "Lei Hou",
+        "Juanzi Li",
+        "Xiaozhi Wang"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.27354",
+      "submitted": "2026-05-26",
+      "category": "data selection",
+      "abstract": "Data engineering framework for LLM RL using Sparse Autoencoder (SAE) model internals. Models diversity, difficulty, and quality via SAE-space representations. Each property grounds concrete data engineering operations.",
+      "venue": null
+    },
+    {
+      "title": "Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection",
+      "authors": [
+        "Jinhan Li",
+        "Kexian Tang",
+        "Yihan Xu",
+        "Zhuorui Ye",
+        "Kaifeng Lyu"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.19168",
+      "submitted": "2026-06-17",
+      "category": "data quality/safety",
+      "abstract": "Pushes safety alignment into pretraining data curation stage. Proposes regular safety reflection during pretraining rather than relying solely on post-training alignment.",
+      "venue": null
     }
   ],
   "tools_and_repos": [
