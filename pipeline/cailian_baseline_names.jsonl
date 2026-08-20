@@ -275,6 +275,7 @@ paper	Training data filtration for large language models
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing
 paper	Understanding and Selecting Calibration Data for LLM Quantization: From Sensitivity Analysis to Activation-Based Curation
+paper	Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics
 paper	Understanding Data Influence with Differential Approximation
 paper	Unified Data Selection for LLM Reasoning
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)

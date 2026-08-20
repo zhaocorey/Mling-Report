@@ -152,6 +152,7 @@ paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practice
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
+paper	Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics
 paper	Unified Data Selection for LLM Reasoning
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
 paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining
@@ -167,6 +168,7 @@ paper	三、Coreset 应用边界持续扩展
 paper	三、多语言数据策划的「案例库」持续扩展
 paper	三、数据选择从「近视」到「远视」的范式转移
 paper	三、方法论趋势
+paper	与之前调研的对比
 paper	二、主题分布变化
 paper	二、多语言数据策划的「方法论闭环」形成
 paper	二、文本去重进入「语义理解」时代
@@ -188,6 +190,7 @@ paper	四、对齐数据策划的理论化加速
 paper	四、数据安全：从被动防御到主动威胁建模
 paper	四、数据混合方法论的「综述化」确认
 paper	增量窗口说明
+paper	对多语言数据集构建的启示
 paper	年中淡季，但补漏价值显著
 paper	搜索渠道反思
 paper	搜索环境说明
@@ -206,6 +209,7 @@ paper	数据过滤 (Filtering)
 paper	数据过滤（Filtering）
 paper	数据采样/课程学习 (Sampling/Curriculum)
 paper	数据采样/课程学习（Sampling/Curriculum）
+paper	本次发现的关键趋势
 paper	类别分布
 paper	精读优先级总表
 paper	综述（Survey）

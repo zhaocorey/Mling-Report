@@ -4244,6 +4244,22 @@
       "category": "data quality/safety",
       "abstract": "Pushes safety alignment into pretraining data curation stage. Proposes regular safety reflection during pretraining rather than relying solely on post-training alignment.",
       "venue": null
+    },
+    {
+      "title": "Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics",
+      "authors": "Zhikai Ding, Ziyi Ye",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.17268",
+      "abstract": "Curriculum learning has been widely adopted in the post-training of large language models by organizing training data from easy to hard. However, its effectiveness varies substantially across reasoning tasks, suggesting that no single curriculum is universally optimal. This paper analyzes the optimization dynamics induced by different curriculum schedules, showing that the transfer relationship between different difficulty levels characterizes the dynamics. The authors formalize this as Relative Transfer, a principled measure of cross-difficulty knowledge transfer, and derive Transfer-aware Dynamic Curriculum Sampling (TDCS), which dynamically adjusts the sampling distribution according to the estimated transfer relationship throughout training. Experiments on multiple reasoning benchmarks demonstrate that TDCS consistently outperforms representative scheduling strategies across different tasks and model scales.",
+      "tags": [
+        "curriculum learning",
+        "data sampling",
+        "data scheduling",
+        "post-training",
+        "reasoning",
+        "optimization dynamics"
+      ],
+      "submission_date": "2026-08-18"
     }
   ],
   "tools_and_repos": [
@@ -4797,7 +4813,7 @@
     "last_run": "2026-08-06"
   },
   "last_merge": "2026-08-06T10:26:35+08:00",
-  "last_updated": "2026-08-06T10:26:35+08:00",
+  "last_updated": "2026-08-20",
   "total_papers": 264,
   "total_tools": 39,
   "total_blogs": 14

@@ -116,6 +116,7 @@ EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
 facebook/omnilingual-gaia2 (OmnilingualGAIA2) ⭐
+facebook/omnilingual-gaia2 ⭐
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
@@ -125,6 +126,8 @@ FineTranslations
 FineWeb-2
 FinMMEval
 FinNLP-2026 Shared Tasks
+FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
+FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
 ForMaT (Format-Preserving Multilingual Translation)
 fxmeng/UltraData-SFT-2605-32k-200k
 g1moon/XIH-Bench 🔥⭐ Top 10 候选
@@ -325,6 +328,9 @@ PoetryMTEB MultilingualPoetryThemeClassification
 PoetryMTEB Suite 扩展
 PoetryMTEB/MultilingualPoetryBitextMining
 PoetryMTEB/MultilingualPoetryBitextMining (已报告 — 更新确认)
+PoetryMTEB/MultilingualPoetryGEWEmotionClassification
+PoetryMTEB/MultilingualPoetryMeterClassification
+PoetryMTEB/MultilingualPoetryThemeClassification
 PolyRefuse
 PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
 PowerBench/PowerBench-Multilingual
@@ -369,6 +375,7 @@ SlimPajama
 somali-pretraining-corpus
 Soohak — Research-level Math Benchmark 📄
 SorryBench-202503-Multilingual
+SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
 Souro/agentic-tooluse-adapted-multilingual
 Souro/agentic-tooluse-synthetic-multilingual
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
@@ -376,6 +383,8 @@ SpeechJBB
 SraVaani 1.0
 sripad17/multilingual-safety-probe-test
 StereoTales
+SultanR/ultradata-math-qa-ar
+SultanR/ultradata-math-textbook-exercise-ar
 SurakshaEval
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus

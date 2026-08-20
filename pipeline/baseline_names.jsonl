@@ -119,6 +119,7 @@ EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+facebook/omnilingual-gaia2
 facebook/omnilingual-gaia2 (OmnilingualGAIA2)
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 farabi-lab/Multilingual_Locale_Fidelity
@@ -380,10 +381,13 @@ SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
 Soohak
 SorryBench-202503-Multilingual
+SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
 speech-translation-and-summarization
 SpeechJBB
 SraVaani 1.0
 sripad17/multilingual-safety-probe-test
+SultanR/ultradata-math-qa-ar
+SultanR/ultradata-math-textbook-exercise-ar
 SurakshaEval
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
