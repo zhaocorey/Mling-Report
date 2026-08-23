@@ -4260,6 +4260,76 @@
         "optimization dynamics"
       ],
       "submission_date": "2026-08-18"
+    },
+    {
+      "title": "Learning What to Fail On: Failure-Mode Contextual Bandits for Adversarial Data Curation",
+      "authors": "Roie Kazoom et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.18681",
+      "abstract": "We introduce a failure-aware adversarial retrieval-augmented framework for improving robustness in natural language understanding. Rather than selecting synthetic examples with a fixed reward threshold, our method formulates adversarial data curation as a failure-mode contextual bandit problem. Candidate examples are generated with retrieval-augmented prompting, filtered by the current target model, automatically validated by an LLM judge ensemble, and clustered into recurring failure modes. A stochastic policy then selects which failure modes to sample for retraining, and is updated using validation-based reward that balances robustness gains, forgetting, and data cost.",
+      "tags": [
+        "adversarial data curation",
+        "contextual bandits",
+        "failure mode analysis",
+        "retrieval-augmented",
+        "data quality",
+        "robustness"
+      ],
+      "submission_date": "2026-08-19",
+      "journal": "Transactions on Machine Learning Research (TMLR), August 2026",
+      "relevance_score": 0.85
+    },
+    {
+      "title": "Institutional Books - Enriched Text: A customizable multilingual open-source pipeline for denoising, deduplicating, and annotating OCR text at scale",
+      "authors": "David Lowry-Duda et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.19026",
+      "abstract": "Released in 2025, Institutional Books: Harvard Library (IB-HL) is a collection of 983,004 volumes (242B tokens). We describe an approach called Enriched Text that normalizes text while preserving metadata through annotations. We separate endmatter, detect per-paragraph language, identify clusters of duplicate paragraphs, and compute per-paragraph bits-per-byte scores. The pipeline applies to all ~250 languages in the collection. The release includes IB-HL-ET (217B tokens across 983,003 volumes, 1.39B annotated subtopic paragraphs).",
+      "tags": [
+        "OCR pipeline",
+        "multilingual",
+        "data deduplication",
+        "data denoising",
+        "data quality",
+        "large-scale processing",
+        "open-source"
+      ],
+      "submission_date": "2026-08-19",
+      "relevance_score": 0.9
+    },
+    {
+      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
+      "authors": "Matteo Cargnelutti et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.18972",
+      "abstract": "We present the Institutional Newspapers Pipeline, a modular system jointly designed with Boston Public Library to extract high-quality, structured datasets from historical newspaper scans. The pipeline segments scans into individual type-agnostic crops and performs OCR, text analysis, type classification, reading order detection, NER, subject classification, language detection, and embedding generation. The OCR output represents 16.3 billion tokens across 83.1 million crops, extracted from 1,473,635 public domain newspaper scans (1795-1930).",
+      "tags": [
+        "OCR pipeline",
+        "data extraction",
+        "data quality",
+        "historical text",
+        "structured data",
+        "language detection",
+        "NER"
+      ],
+      "submission_date": "2026-08-19",
+      "relevance_score": 0.8
+    },
+    {
+      "title": "When Do LLMs Actually Help? Evaluating LLMs as Data Quality Annotators",
+      "authors": "Praphulla Lal Shrestha et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.18158",
+      "abstract": "This study tests an LLM on two e-commerce data quality tasks (entity matching and brand mislabeling) against rule-based baselines and human-verified ground truth. On entity matching, a simple rule-based baseline (F1=0.950) performed about as well as LLM zero-shot prompting (F1=0.948). On brand mislabeling detection, the LLM clearly outperformed a naive rule-based baseline (F1=0.833 vs 0.721). Testing consistency across repeated runs showed 99.7% self-agreement. LLMs offer little advantage when strong lexical signals exist, but clear advantage when the task requires background knowledge.",
+      "tags": [
+        "data quality",
+        "LLM evaluation",
+        "data annotation",
+        "entity matching",
+        "quality assessment"
+      ],
+      "submission_date": "2026-08-13",
+      "relevance_score": 0.75
     }
   ],
   "tools_and_repos": [

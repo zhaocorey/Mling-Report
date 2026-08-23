@@ -92,6 +92,8 @@ paper	How Should LLMs Consume High-Quality Data? Optimal Data Scheduling via Qua
 paper	HuggingFace Daily Papers (July 22-23)
 paper	HuggingFace Daily Papers (July 24, 19篇)
 paper	IGDS: From Insight to Action: Interpretability-Guided Data Selection in Large Language Models
+paper	Institutional Books - Enriched Text: A customizable multilingual open-source pipeline for denoising, deduplicating, and annotating OCR text at scale
+paper	Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers
 paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy
 paper	IPROX: Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning
 paper	IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage
@@ -101,6 +103,7 @@ paper	Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforc
 paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy (EVODATA)
 paper	Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning ⭐⭐⭐⭐
 paper	Learning Multi-Indicator Weights for Data Selection ⭐⭐⭐
+paper	Learning What to Fail On: Failure-Mode Contextual Bandits for Adversarial Data Curation
 paper	Learning-Zone Energy (LZE): Online Data Selection for Efficient RL Post-Training
 paper	Less is More: Improving LLM Alignment via Preference Data Selection (BeeS)
 paper	Less is More: Quality-Aware Training Data Selection for Scientific Summarization
@@ -159,6 +162,7 @@ paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and M
 paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
 paper	What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective (wICI)
 paper	What Matters in Data for DPO?
+paper	When Do LLMs Actually Help? Evaluating LLMs as Data Quality Annotators
 paper	When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training
 paper	一、Coreset 方法在 LLM 场景的「工程化适配」加速
 paper	一、Coreset 选择进入「模型内信号」时代

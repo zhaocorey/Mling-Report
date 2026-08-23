@@ -152,6 +152,8 @@ paper	Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encod
 paper	Influence Functions for Efficient Data Selection in Reasoning
 paper	Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning
 paper	Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning (IPROX)
+paper	Institutional Books - Enriched Text: A customizable multilingual open-source pipeline for denoising, deduplicating, and annotating OCR text at scale
+paper	Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers
 paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for Efficient LLM Fine-Tuning
 paper	Instruction Data Selection via Answer Divergence (ADG)
 paper	Integrating Coreset Selection in Language Model Fine-Tuning
@@ -170,6 +172,7 @@ paper	Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforc
 paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training
 paper	Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning
 paper	Learning Multi-Indicator Weights for Data Selection: A Joint Task-Model Adaptation Framework with Efficient Proxies
+paper	Learning What to Fail On: Failure-Mode Contextual Bandits for Adversarial Data Curation
 paper	Learning-Zone Energy (LZE): Online Data Selection for Efficient RL Post-Training
 paper	Less is More: Improving LLM Alignment via Preference Data Selection (BeeS)
 paper	Less is More: Quality-Aware Training Data Selection for Scientific Summarization
@@ -287,6 +290,7 @@ paper	What is Your Data Worth to GPT? LLM-Scale Data Valuation with Influence Fu
 paper	What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning
 paper	What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective (wICI)
 paper	What Matters in Data for DPO?
+paper	When Do LLMs Actually Help? Evaluating LLMs as Data Quality Annotators
 paper	When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training
 paper	Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretraining
 paper	Why Less is More (Sometimes): A Theory of Data Curation

@@ -6592,7 +6592,8 @@
       "category": "评估基准/代码",
       "description": "SWE-bench的多语言编程扩展，评估语言模型在9种编程语言（C、C++、Go、Java、JS/TS、PHP、Ruby、Rust）上的真实GitHub issue解决能力。300个精选任务来自42个仓库。遵循与SWE-bench相同的收集策略、数据格式和评估协议。54,851下载（极高社区采用），20 likes。Claude Opus 5以89.5%领先。2025-04-29创建，2026-07-22最后更新。注意：'Multilingual'指编程语言而非自然语言。",
       "last_updated": "2026-08-17",
-      "release_version": "updated"
+      "release_version": "sha:846e647b",
+      "last_checked": "2026-08-24"
     },
     {
       "name": "Multilingual-Multimodal-NLP/FinanceComplexQA",
@@ -7671,9 +7672,10 @@
       "description": "MAST基准多语言查询集2026版",
       "discovered_date": "2026-08-11",
       "last_updated": "2026-08-20",
-      "release_version": "updated",
+      "release_version": "sha:fb6614cb",
       "timeliness_score": "高",
-      "source": "Previous round (Round 18)"
+      "source": "Previous round (Round 18)",
+      "last_checked": "2026-08-24"
     },
     {
       "name": "crosslingual-rule-following/rule-following-eval",
@@ -9139,10 +9141,11 @@
       "description": "OmnilingualGAIA2: Meta's multilingual extension of the GAIA2 agentic benchmark. Tests AI agent capabilities across 10 languages with 6,400 scenarios. Published at ACL 2026 (arXiv:2608.08775). High-quality benchmark from a major AI lab.",
       "discovered_date": "2026-08-21",
       "last_updated": "2026-08-17",
-      "release_version": "v1",
+      "release_version": "sha:d57bef8e",
       "timeliness_score": "高",
       "search_keywords": "OmnilingualGAIA Meta multilingual agentic benchmark",
-      "source": "HuggingFace API + SearXNG (ACL 2026 paper)"
+      "source": "HuggingFace API + SearXNG (ACL 2026 paper)",
+      "last_checked": "2026-08-24"
     },
     {
       "name": "SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026",
@@ -9178,10 +9181,11 @@
       "description": "Arabic-English bilingual math QA dataset derived from the UltraData math domain. Extends the UltraData ecosystem with Arabic language coverage for mathematical reasoning SFT.",
       "discovered_date": "2026-08-21",
       "last_updated": "2026-08-17",
-      "release_version": null,
+      "release_version": "sha:2bc83ed6",
       "timeliness_score": "高",
       "search_keywords": "UltraData math Arabic",
-      "source": "HuggingFace API"
+      "source": "HuggingFace API",
+      "last_checked": "2026-08-24"
     },
     {
       "name": "SultanR/ultradata-math-textbook-exercise-ar",
@@ -9196,15 +9200,91 @@
       "description": "Arabic-English bilingual math textbook exercise dataset derived from UltraData. Provides structured math problems from textbooks translated to Arabic for multilingual math reasoning training.",
       "discovered_date": "2026-08-21",
       "last_updated": "2026-08-17",
-      "release_version": null,
+      "release_version": "sha:8089b886",
       "timeliness_score": "高",
       "search_keywords": "UltraData math textbook Arabic",
-      "source": "HuggingFace API"
+      "source": "HuggingFace API",
+      "last_checked": "2026-08-24"
+    },
+    {
+      "name": "Atharva2099/multilingual-political-statements",
+      "url": "https://huggingface.co/datasets/Atharva2099/multilingual-political-statements",
+      "description": "1,246 parallel policy statements across 6 languages (English, Spanish, German, Chinese, Hindi, Marathi) with polarity labels {-1, 0, 1}. Derived from Anthropic/llm_global_opinions (Pew + World Values Survey). Useful for cross-lingual political text classification and LLM alignment evaluation.",
+      "languages": [
+        "en",
+        "es",
+        "de",
+        "zh",
+        "hi",
+        "mr"
+      ],
+      "size": "1,246 parallel statements",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "评估/分类",
+      "discovered_date": "2026-08-24",
+      "last_updated": "2026-08-21",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (lastModified multilingual)"
+    },
+    {
+      "name": "Benji-fish/ethiopian-languages-speech-dataset",
+      "url": "https://huggingface.co/datasets/Benji-fish/ethiopian-languages-speech-dataset",
+      "description": "Leyu Ethiopian Languages Speech Dataset: 2,750 audio recordings with transcripts covering 4 Ethiopian languages (Amharic, Afaan Oromo, Sidama, Tigrinya). Crowdsourced via Leyu Platform for ASR/TTS tasks.",
+      "languages": [
+        "am",
+        "om",
+        "sid",
+        "ti"
+      ],
+      "size": "2,750 examples",
+      "license": "CC-BY-4.0",
+      "category": "语音/低资源语言",
+      "discovered_date": "2026-08-24",
+      "last_updated": "2026-08-20",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (Ethiopian speech dataset)"
+    },
+    {
+      "name": "ReopenAI/cantonese-chinese-parallel-corpus-audio",
+      "url": "https://huggingface.co/datasets/ReopenAI/cantonese-chinese-parallel-corpus-audio",
+      "description": "Cantonese-Chinese parallel corpus with synthesized audio (using OmniVoice), transcribed with Qwen3-ASR and Qwen3-Omni. Audio+text parallel for speech-to-speech and MT tasks.",
+      "languages": [
+        "yue",
+        "zh"
+      ],
+      "size": "Unknown",
+      "license": "Not specified",
+      "category": "语音/平行语料",
+      "discovered_date": "2026-08-24",
+      "last_updated": "2026-08-19",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus)"
+    },
+    {
+      "name": "YDX07/YDX07_Multilingual_Corpus_2026",
+      "url": "https://huggingface.co/datasets/YDX07/YDX07_Multilingual_Corpus_2026",
+      "description": "Multilingual corpus with audio and text modalities, Apache-2.0 license. Part of Leyu Ethiopian multilingual data ecosystem.",
+      "languages": [
+        "am",
+        "om",
+        "ti"
+      ],
+      "size": "<1K examples",
+      "license": "Apache-2.0",
+      "category": "多语言语料/低资源语言",
+      "discovered_date": "2026-08-24",
+      "last_updated": "2026-08-21",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (lastModified multilingual)"
     }
   ],
-  "total_datasets": 410,
-  "last_merge": "2026-08-17",
+  "total_datasets": 464,
+  "last_merge": "2026-08-24T06:06:36.684590",
   "total_sources": 371,
-  "last_update_note": "Round 23 incremental: +5 new, 2 updated",
-  "last_updated": "2026-08-21T06:13:21.042578"
+  "last_update_note": "Round 30: +4 new, 5 version updates",
+  "last_updated": "2026-08-24"
 }
