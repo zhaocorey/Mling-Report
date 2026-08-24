@@ -59,6 +59,7 @@ C3PO-Mixed-Pretraining-Corpus-Translations
 CAMEO8
 CAMEO8 (Cultural Dialog and Safety Evaluation Multilingual Dataset)
 CCAligned
+CCFQA
 CCFQA (Cross-lingual Cross-modal Factuality QA)
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
@@ -155,9 +156,11 @@ gsm8k-multilingual-filtered
 halo-guard-bench
 HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
+HealMed
 Helmcode/stack-v3-devops
 hf-audio/multilingual_evals (版本追踪)
 hf-audio/open-asr-leaderboard-multilingual-datasets
+hjm1980/korea-places-multilingual
 HPLT (High Performance Language Technologies) v3.0
 HPLT 2.0 Cleaned
 HPLT 3.0
@@ -190,6 +193,7 @@ Kaleidoscope
 kalenjin-parallel-corpus
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
+L3Cube-IndicQuest v2
 l3cube-pune/IndicQuest-v2
 LangMark
 LASA (Language-Agnostic Semantic Alignment)
@@ -299,6 +303,7 @@ MULTITuDE
 MultiZebraLogic
 MulTypo - Multilingual Typo Robustness Evaluation
 MURI (Multilingual Reverse Instructions)
+myMediWhisper
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nemotron 3 Super Datasets
 Nemotron-CC-Math
@@ -331,6 +336,7 @@ OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
 PazaBench
+PERCEPT
 pinkachu/harmless_multilingual
 PleIAs Common Corpus
 Pluralis v0.1

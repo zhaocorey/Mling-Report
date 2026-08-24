@@ -56,6 +56,7 @@ C3PO-Mixed-Pretraining-Corpus-Translations
 CAMEO8 (Cultural Dialog and Safety Evaluation Multilingual Dataset)
 CC-BOS: Classical Language Safety Bypass (ICLR 2026)
 CCAligned
+CCFQA — 跨语言跨模态事实性基准
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
 chaurAr/Cross-lingual-entity-M
@@ -127,6 +128,7 @@ FinanceComplexQA
 FineTranslations
 FineWeb-2
 FinMMEval
+FinNLP 2026 Subtask 2 — 日语金融意图分类
 FinNLP-2026 Shared Tasks
 FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
 FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
@@ -145,9 +147,11 @@ gsm8k-multilingual-filtered
 halo-guard-bench — 46 语言安全护栏基准
 HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
+HealMed — 多语言医学评估基准
 Helmcode/stack-v3-devops
 hf-audio/multilingual_evals
 hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
+hjm1980/korea-places-multilingual — 韩国地名多语言数据
 HPLT (High Performance Language Technologies)
 HPLT 2.0 Cleaned
 HPLT 3.0
@@ -180,6 +184,7 @@ kalenjin-parallel-corpus
 kasagadi — 数据内容重大扩展
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
+L3Cube-IndicQuest v2 — 印度语言知识评估基准
 l3cube-pune/IndicQuest-v2
 LangMark
 Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and Study
@@ -290,6 +295,7 @@ Multitask-Multilingual-Refusal
 MULTITuDE
 MulTypo - Multilingual Typo Robustness Evaluation 📄
 MURI (Multilingual Reverse Instructions)
+myMediWhisper — 缅甸语医疗语音语料
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nemotron 3 Super Datasets ⭐ 强烈建议加入 Top 10
 Nemotron-CC-Math
@@ -321,6 +327,7 @@ OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
 PazaBench
+PERCEPT — 波斯-英语代码混合语料
 PleIAs Common Corpus
 Pluralis v0.1
 PoetryMTEB (Multilingual Poetry Evaluation Suite)
