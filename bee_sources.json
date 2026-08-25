@@ -2071,7 +2071,7 @@
       "category": "预训练/语音",
       "description": "多语言TTS数据集，覆盖中文、英语、马来语、泰米尔语、孟加拉语。持续更新中。",
       "discovered_date": "2026-06-20",
-      "last_updated": "2026-08-24",
+      "last_updated": "2026-08-25",
       "release_version": "持续更新",
       "timeliness_score": "高",
       "update_note": "last_updated 从 2026-06-20 更新至 2026-06-28",
@@ -8207,7 +8207,7 @@
       "description": "94,505 fresh (prompt, response) pairs generated from Qwen3-235B-A22B-Instruct-2507 for code and multilingual instruction coverage. Covers 20 languages. Generated in non-thinking mode for downstream speculator training. High-quality teacher distillation data.",
       "platform": "HuggingFace",
       "discovered_date": "2026-08-17",
-      "last_updated": "2026-08-11",
+      "last_updated": "2026-08-18",
       "release_version": null,
       "timeliness_score": "高",
       "languages": [
@@ -9043,7 +9043,7 @@
       "category": "评估",
       "description": "跨语言规则遵循评估的标准化数据集。与同系列的model-inference-responses和rule-following-eval配套，提供规范化的规则遵循测试场景。",
       "discovered_date": "2026-08-20",
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-08-22",
       "release_version": "v1.0",
       "timeliness_score": "高",
       "search_keywords": "crosslingual rule following canonical dataset",
@@ -9422,11 +9422,427 @@
       "timeliness_score": "中",
       "search_keywords": "CCFQA cross-lingual cross-modal factuality benchmark AAAI",
       "source": "DuckDuckGo (web_search)"
+    },
+    {
+      "name": "Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset",
+      "url": "https://huggingface.co/datasets/Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset",
+      "description": "Multilingual SNAC TTS dataset for Malian languages",
+      "languages": [
+        "Malian languages (est. Bambara, etc.)"
+      ],
+      "category": "TTS / Speech Synthesis",
+      "size": "Unknown (newly created)",
+      "downloads": 0,
+      "likes": 0,
+      "last_updated": "2026-08-25",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "malaysia-ai/Multilingual-TTS-language",
+      "url": "https://huggingface.co/datasets/malaysia-ai/Multilingual-TTS-language",
+      "description": "Language metadata and configuration for malaysia-ai/Multilingual-TTS project. Companion dataset to the main Multilingual-TTS.",
+      "languages": [
+        "multilingual (zh, en, ms, ta, bn)"
+      ],
+      "category": "TTS / Speech Synthesis",
+      "size": "720 downloads",
+      "downloads": 720,
+      "likes": 0,
+      "last_updated": "2026-08-25",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "maanka2/MOSS-Audio-Tokenizer-Nano-50hrs-multilingual-speech-codes",
+      "url": "https://huggingface.co/datasets/maanka2/MOSS-Audio-Tokenizer-Nano-50hrs-multilingual-speech-codes",
+      "description": "Multilingual speech codes generated using MOSS Audio Tokenizer Nano on 50 hours of multilingual speech data",
+      "languages": [
+        "multilingual"
+      ],
+      "category": "Speech / Audio Tokenization",
+      "size": "50 hours of speech codes",
+      "downloads": 0,
+      "likes": 0,
+      "last_updated": "2026-08-25",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual code search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "Obotu/final_multilingual_sft",
+      "url": "https://huggingface.co/datasets/Obotu/final_multilingual_sft",
+      "description": "Final multilingual SFT (supervised fine-tuning) dataset",
+      "languages": [
+        "multilingual"
+      ],
+      "category": "SFT / Instruction Tuning",
+      "size": "Unknown",
+      "downloads": 0,
+      "likes": 0,
+      "last_updated": "2026-08-24",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (SFT multilingual search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "crosslingual-rule-following/model-inference-activations",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/model-inference-activations",
+      "description": "Model inference activations for cross-lingual rule-following evaluation. Companion to the canonical-dataset (already tracked).",
+      "languages": [
+        "en, am, de, hi, ig (est.)"
+      ],
+      "category": "Evaluation / Cross-lingual",
+      "size": "528 downloads",
+      "downloads": 528,
+      "likes": 0,
+      "last_updated": "2026-08-24",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (cross-lingual search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "VelkroLM/african-languages-speech",
+      "url": "https://huggingface.co/datasets/VelkroLM/african-languages-speech",
+      "description": "African languages speech dataset collection",
+      "languages": [
+        "African languages"
+      ],
+      "category": "Speech / ASR",
+      "size": "296 downloads",
+      "downloads": 296,
+      "likes": 0,
+      "last_updated": "2026-08-23",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "rufatronics/african-languages-hplt-filtered",
+      "url": "https://huggingface.co/datasets/rufatronics/african-languages-hplt-filtered",
+      "description": "HPLT dataset filtered for African languages (Hausa, Yoruba, Igbo, Fulfulde, Kanuri)",
+      "languages": [
+        "ha",
+        "yo",
+        "ig",
+        "ff",
+        "kr"
+      ],
+      "category": "Pretraining Corpus",
+      "size": "Filtered subset of HPLT",
+      "downloads": 53,
+      "likes": 0,
+      "last_updated": "2026-08-22",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "VelkroLM/african-languages-catalog",
+      "url": "https://huggingface.co/datasets/VelkroLM/african-languages-catalog",
+      "description": "Catalog of African languages resources",
+      "languages": [
+        "African languages"
+      ],
+      "category": "Metadata / Language Catalog",
+      "size": "71 downloads",
+      "downloads": 71,
+      "likes": 0,
+      "last_updated": "2026-08-22",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "VelkroLM/african-languages-corpus",
+      "url": "https://huggingface.co/datasets/VelkroLM/african-languages-corpus",
+      "description": "Text corpus for African languages (Hausa, Yoruba, Igbo, Fulfulde, Kanuri)",
+      "languages": [
+        "ha",
+        "yo",
+        "ig",
+        "ff",
+        "kr"
+      ],
+      "category": "Pretraining Corpus",
+      "size": "39 downloads",
+      "downloads": 39,
+      "likes": 0,
+      "last_updated": "2026-08-22",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "issamanisb/leyu-multilingual-audio-dataset",
+      "url": "https://huggingface.co/datasets/issamanisb/leyu-multilingual-audio-dataset",
+      "description": "Leyu multilingual audio dataset (Ethiopian languages focus)",
+      "languages": [
+        "Ethiopian languages (est.)"
+      ],
+      "category": "Speech / Audio",
+      "size": "26 downloads",
+      "downloads": 26,
+      "likes": 0,
+      "last_updated": "2026-08-21",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "VelkroLM/african-languages-filtered",
+      "url": "https://huggingface.co/datasets/VelkroLM/african-languages-filtered",
+      "description": "Filtered African languages dataset (Hausa, Yoruba, Igbo, Nigerian Pidgin, Kanuri)",
+      "languages": [
+        "ha",
+        "yo",
+        "ig",
+        "pcm",
+        "kr"
+      ],
+      "category": "Pretraining Corpus",
+      "size": "58 downloads",
+      "downloads": 58,
+      "likes": 0,
+      "last_updated": "2026-08-20",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "rufatronics/african-languages-filtered",
+      "url": "https://huggingface.co/datasets/rufatronics/african-languages-filtered",
+      "description": "Filtered African languages dataset (Hausa, Yoruba, Igbo, Nigerian Pidgin, Kanuri)",
+      "languages": [
+        "ha",
+        "yo",
+        "ig",
+        "pcm",
+        "kr"
+      ],
+      "category": "Pretraining Corpus",
+      "size": "67 downloads",
+      "downloads": 67,
+      "likes": 0,
+      "last_updated": "2026-08-20",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "Dagi2730/leyu-multilingual-speech-dataset",
+      "url": "https://huggingface.co/datasets/Dagi2730/leyu-multilingual-speech-dataset",
+      "description": "Leyu multilingual speech dataset (Ethiopian languages)",
+      "languages": [
+        "Ethiopian languages (est.)"
+      ],
+      "category": "Speech / ASR",
+      "size": "40 downloads",
+      "downloads": 40,
+      "likes": 0,
+      "last_updated": "2026-08-20",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "African-Languages-Lab/proxy-mt-translations",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/proxy-mt-translations",
+      "description": "Proxy machine translation data for African languages (Afrikaans, Amharic, Arabic, Bambara, Bengali, and more)",
+      "languages": [
+        "af",
+        "am",
+        "ar",
+        "bm",
+        "bn",
+        "and more"
+      ],
+      "category": "Translation / Parallel Corpus",
+      "size": "99 downloads",
+      "downloads": 99,
+      "likes": 0,
+      "last_updated": "2026-08-14",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "African-Languages-Lab/proxy-mt-benchmark-scores",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/proxy-mt-benchmark-scores",
+      "description": "Benchmark scores for proxy machine translation evaluation on African languages",
+      "languages": [
+        "African languages"
+      ],
+      "category": "Evaluation / MT Benchmark",
+      "size": "41 downloads",
+      "downloads": 41,
+      "likes": 0,
+      "last_updated": "2026-08-14",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "African-Languages-Lab/proxy-mt-eval-scores",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/proxy-mt-eval-scores",
+      "description": "Evaluation scores for proxy MT on African languages",
+      "languages": [
+        "African languages"
+      ],
+      "category": "Evaluation / MT",
+      "size": "29 downloads",
+      "downloads": 29,
+      "likes": 0,
+      "last_updated": "2026-08-14",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "ChiamakaNwokolo/adaption-african-languages-narratives",
+      "url": "https://huggingface.co/datasets/ChiamakaNwokolo/adaption-african-languages-narratives",
+      "description": "African language narratives adaptation dataset (Romansh, Scottish Gaelic, Yoruba)",
+      "languages": [
+        "rm",
+        "gd",
+        "yo"
+      ],
+      "category": "Text Generation / Narratives",
+      "size": "29 downloads",
+      "downloads": 29,
+      "likes": 0,
+      "last_updated": "2026-08-15",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "ketanmore/LLaVA-Pretrain-558k-10-African-Languages",
+      "url": "https://huggingface.co/datasets/ketanmore/LLaVA-Pretrain-558k-10-African-Languages",
+      "description": "LLaVA pretraining data (558k samples) translated to 10 African languages (Tumbuka, Northern Sotho, Twi, Chichewa, Igbo, etc.) for multilingual VLM training",
+      "languages": [
+        "tum",
+        "nso",
+        "tw",
+        "ny",
+        "ig",
+        "and 5 more African languages"
+      ],
+      "category": "Multimodal / VLM Pretraining",
+      "size": "558K samples, 10 African languages",
+      "downloads": 115,
+      "likes": 0,
+      "last_updated": "2026-08-01",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (African language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "Multilingual-Multimodal-NLP/AutoMemoryBench",
+      "url": "https://huggingface.co/datasets/Multilingual-Multimodal-NLP/AutoMemoryBench",
+      "description": "Automated memory benchmark for multilingual/multimodal NLP systems. QA and retrieval evaluation.",
+      "languages": [
+        "en (primary), multilingual context"
+      ],
+      "category": "Evaluation / Benchmark",
+      "size": "125 downloads",
+      "downloads": 125,
+      "likes": 0,
+      "last_updated": "2026-08-20",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "prabhjotschugh/Not-Truly-Multilingual-PuMVR",
+      "url": "https://github.com/prabhjotschugh/Not-Truly-Multilingual-PuMVR",
+      "description": "Dataset and code for 'Not Truly Multilingual: Script Consistency as a Measure of Multilingual VLM Robustness'. Evaluates script consistency in multilingual vision-language models.",
+      "languages": [
+        "multilingual"
+      ],
+      "category": "Evaluation / VLM Robustness",
+      "size": "GitHub ⭐3",
+      "downloads": null,
+      "likes": 3,
+      "last_updated": "2026-08-23",
+      "discovered_date": "2026-08-26",
+      "source": "GitHub API (multilingual dataset 2026)",
+      "timeliness": "高"
+    },
+    {
+      "name": "M4FC (Multimodal Multilingual Multicultural Multitask Fact-Checking)",
+      "url": "https://huggingface.co/datasets/UKPLab/M4FC",
+      "description": "Real-world multimodal fact-checking dataset: 4,982 images + 6,980 claims in 10 languages. 6 tasks: visual claim extraction, claimant intent prediction, fake image detection, image contextualization, location verification, verdict prediction. EMNLP 2026 Findings.",
+      "languages": [
+        "10 languages"
+      ],
+      "category": "Evaluation / Fact-Checking",
+      "size": "4,982 images, 6,980 claims",
+      "downloads": null,
+      "likes": null,
+      "last_updated": "2026-08-25",
+      "discovered_date": "2026-08-26",
+      "source": "GitHub API + arXiv (EMNLP 2026 Findings)",
+      "timeliness": "高"
+    },
+    {
+      "name": "iqbaltaha3/indic-voices-indian-language-classification",
+      "url": "https://huggingface.co/datasets/iqbaltaha3/indic-voices-indian-language-classification",
+      "description": "Indic voices dataset for Indian language classification",
+      "languages": [
+        "Indic languages"
+      ],
+      "category": "Speech / Language Classification",
+      "size": "Unknown",
+      "downloads": 0,
+      "likes": 0,
+      "last_updated": "2026-08-25",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (Indic language search)",
+      "timeliness": "高"
+    },
+    {
+      "name": "vietphamlaiyen/Multilingual_medical_symptom_triage",
+      "url": "https://huggingface.co/datasets/vietphamlaiyen/Multilingual_medical_symptom_triage",
+      "description": "Multilingual medical symptom triage dataset (English, Hindi, Gujarati, Telugu, Marathi). Distinct fork/version of similar dataset.",
+      "languages": [
+        "en",
+        "hi",
+        "gu",
+        "te",
+        "mr"
+      ],
+      "category": "Medical / QA",
+      "size": "50 downloads",
+      "downloads": 50,
+      "likes": 0,
+      "last_updated": "2026-07-28",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual medical search)",
+      "timeliness": "中"
+    },
+    {
+      "name": "Tasfiya025/Multilingual_Legal_Contract_Risk",
+      "url": "https://huggingface.co/datasets/Tasfiya025/Multilingual_Legal_Contract_Risk",
+      "description": "Multilingual legal contract risk assessment dataset",
+      "languages": [
+        "multilingual"
+      ],
+      "category": "Legal / Risk Assessment",
+      "size": "9 downloads",
+      "downloads": 9,
+      "likes": 0,
+      "last_updated": "2025-12-16",
+      "discovered_date": "2026-08-26",
+      "source": "HuggingFace API (multilingual legal search)",
+      "timeliness": "中"
     }
   ],
-  "total_datasets": 470,
-  "last_merge": "2026-08-25T06:12:44.141233",
+  "total_datasets": 494,
+  "last_merge": "Round 32: +24 new, 9 updates",
   "total_sources": 371,
   "last_update_note": "Round 31: +6 new, 6 version updates",
-  "last_updated": "2026-08-25"
+  "last_updated": "2026-08-26"
 }

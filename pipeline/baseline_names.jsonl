@@ -7,6 +7,9 @@ African Languages Lab Corpus
 African-Languages-Lab/all-lab-speech
 African-Languages-Lab/all-lab-text-multi
 African-Languages-Lab/kasagadi
+African-Languages-Lab/proxy-mt-benchmark-scores
+African-Languages-Lab/proxy-mt-eval-scores
+African-Languages-Lab/proxy-mt-translations
 African-Languages_Sentiments
 AfriMMT-EA
 AfriNLLB Parallel Corpus
@@ -64,6 +67,7 @@ CCFQA (Cross-lingual Cross-modal Factuality QA)
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
 chaurAr/Cross-lingual-entity-M
+ChiamakaNwokolo/adaption-african-languages-narratives
 ChinaHeritaQA
 ChiSafe-PAS (Chinese Safety Pilot Annotation Set)
 Chitrakshara
@@ -82,6 +86,7 @@ corpus-tonal-african-languages
 Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
+crosslingual-rule-following/model-inference-activations
 crosslingual-rule-following/model-inference-responses
 crosslingual-rule-following/rule-following-eval
 Crownelius/Hyper-UltraData-Grok-V1
@@ -90,6 +95,7 @@ CultSportQA
 CulturaX
 CultureGuard / Nemotron-Safety-Guard-Dataset-v3
 CUTE
+Dagi2730/leyu-multilingual-speech-dataset
 DAPO-Math-Multilingual-6Lang
 dave1368/repro-gxpo-group-cross-lingual-relative-policy-optimization-for-code-generation-traces
 DaveGabe/cwt-multilingual-pretrain-mix
@@ -181,6 +187,8 @@ iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
+iqbaltaha3/indic-voices-indian-language-classification
+issamanisb/leyu-multilingual-audio-dataset
 issdandavis/UltraData-Math
 jacekduszenko/coedit-multilingual
 jamesdborin/Nemotron-Multilingual-prompt-only
@@ -191,6 +199,7 @@ jml2026/multilingual-accent-speech
 JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
+ketanmore/LLaVA-Pretrain-558k-10-African-Languages
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
 L3Cube-IndicQuest v2
@@ -217,6 +226,8 @@ LuxEmo
 M3Kang
 M3TQA (Massively Multilingual Multitask Table QA)
 M4-RAG
+M4FC (Multimodal Multilingual Multicultural Multitask Fact-Checking)
+maanka2/MOSS-Audio-Tokenizer-Nano-50hrs-multilingual-speech-codes
 mabera/nigeria-multilingual-health-dataset
 Macaron
 mAceReason-Math
@@ -225,6 +236,7 @@ majentik/ultradata-math-calib
 majentik/ultradata-sft-calib
 malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS (版本追踪)
+malaysia-ai/Multilingual-TTS-language
 maliced/multilingual_audio_alignments_prosody
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
@@ -285,6 +297,7 @@ Multilingual Safety Classification Dataset
 Multilingual-Accent-Speech
 Multilingual-BFCL
 multilingual-gsm-symbolic
+Multilingual-Multimodal-NLP/AutoMemoryBench
 Multilingual-Multimodal-NLP/FinanceComplexQA
 Multilingual-Reasoning-Gym-SFT
 multilingual-reasoning-v2-9.8k
@@ -326,6 +339,7 @@ nvidia/Nemotron-RL-Ultra-Training-Blends
 nvidia/Nemotron-SFT-Agentic-v2
 NyayaBench v2
 NyayaSetu Legal Dialogues Multilingual
+Obotu/final_multilingual_sft
 Odia Web Corpus v3
 Omnilingual ASR Corpus
 openbmb/factnet_factsense
@@ -335,6 +349,7 @@ openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
+Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
 PazaBench
 PERCEPT
 pinkachu/harmless_multilingual
@@ -349,6 +364,7 @@ PoetryMTEB/MultilingualPoetryThemeClassification
 PolyMath
 PolyRefuse
 PowerBench-Multilingual
+prabhjotschugh/Not-Truly-Multilingual-PuMVR
 prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
@@ -365,6 +381,8 @@ ReMMDBench
 ReopenAI/cantonese-chinese-parallel-corpus-audio
 risale-nur-multilingual
 rokayon/AgriQA_Multilingual_Dataset
+rufatronics/african-languages-filtered
+rufatronics/african-languages-hplt-filtered
 RuSafety
 Sacredceltic/multilingual-idiomatic-sentences
 safety-data
@@ -408,6 +426,7 @@ TableEval
 tackhwa/multilingual_safety
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
+Tasfiya025/Multilingual_Legal_Contract_Risk
 tejasta/Kannada-English-Parallel-Corpus
 textdetox/multilingual_toxicity_dataset
 The-CoLab/multilingual-textarena-suite
@@ -443,7 +462,12 @@ UPDESH
 UrduBench
 userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
+VelkroLM/african-languages-catalog
+VelkroLM/african-languages-corpus
+VelkroLM/african-languages-filtered
+VelkroLM/african-languages-speech
 Viet Medi Species 2026
+vietphamlaiyen/Multilingual_medical_symptom_triage
 virginiaceccatelli/SpeechJBB
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking

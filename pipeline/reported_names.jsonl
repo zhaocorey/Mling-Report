@@ -5,6 +5,9 @@ African Languages Lab Corpus — 40 种非洲语言多模态语料 (ACL 2026)
 African-Languages-Lab/all-lab-speech
 African-Languages-Lab/all-lab-text-multi
 African-Languages-Lab/kasagadi
+African-Languages-Lab/proxy-mt-benchmark-scores
+African-Languages-Lab/proxy-mt-eval-scores
+African-Languages-Lab/proxy-mt-translations
 African-Languages_Sentiments
 AfriMMT-EA
 AfriNLLB Parallel Corpus 🟡 时效降级
@@ -60,6 +63,7 @@ CCFQA — 跨语言跨模态事实性基准
 CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
 chaurAr/Cross-lingual-entity-M
+ChiamakaNwokolo/adaption-african-languages-narratives
 ChiSafe-PAS (Chinese Safety Pilot Annotation Set)
 Chitrakshara
 CMHG (Chinese Minority Headline Generation)
@@ -82,6 +86,7 @@ Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
 CulturaX
 CUTE (COLING 2025)
+Dagi2730/leyu-multilingual-speech-dataset
 danish-foundation-models/multilingual-gsm-symbolic
 DAPO-Math-Multilingual-6Lang
 dave1368/repro-gxpo-cross-lingual-code-generation
@@ -175,6 +180,8 @@ iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
 intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
+iqbaltaha3/indic-voices-indian-language-classification
+issamanisb/leyu-multilingual-audio-dataset
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
@@ -182,6 +189,7 @@ JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
 kasagadi — 数据内容重大扩展
+ketanmore/LLaVA-Pretrain-558k-10-African-Languages ⭐
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
 L3Cube-IndicQuest v2 — 印度语言知识评估基准
@@ -214,6 +222,8 @@ LughaGen Multilingual African Corpus
 LuxEmo
 M3Kang
 M4-RAG
+M4FC（Multimodal Multilingual Multicultural Multitask Fact-Checking）🔥⭐
+maanka2/MOSS-Audio-Tokenizer-Nano-50hrs-multilingual-speech-codes
 mabera/nigeria-multilingual-health-dataset
 MADE (Multilingual Agentic Diagnosing Engine)
 majentik/ultradata-math-calib
@@ -280,6 +290,7 @@ multilingual-gsm-symbolic
 Multilingual-GSM-Symbolic (danish-foundation-models)
 multilingual-gsm-symbolic — 数据更新
 Multilingual-Medical-Corpus
+Multilingual-Multimodal-NLP/AutoMemoryBench
 Multilingual-Reasoning-Gym-SFT
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
@@ -315,6 +326,7 @@ nvidia/Nemotron-CC-v2
 nvidia/Nemotron-CC-v2 🔥
 nvidia/Nemotron-SFT-Multilingual-v2
 NyayaBench v2
+Obotu/final_multilingual_sft
 Odia Web Corpus v3
 Omnilingual ASR Corpus
 openbmb/factnet_factsense
@@ -326,6 +338,7 @@ openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
 PALO Multilingual Dataset
+Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
 PazaBench
 PERCEPT — 波斯-英语代码混合语料
 PleIAs Common Corpus
@@ -343,6 +356,7 @@ PoetryMTEB/MultilingualPoetryThemeClassification
 PolyRefuse
 PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
 PowerBench/PowerBench-Multilingual
+prabhjotschugh/Not-Truly-Multilingual-PuMVR ⭐
 prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
@@ -360,6 +374,8 @@ ReMMDBench
 ReopenAI/cantonese-chinese-parallel-corpus-audio
 risale-nur-multilingual
 risaleinur/risale-nur-multilingual
+rufatronics/african-languages-filtered
+rufatronics/african-languages-hplt-filtered
 Sacredceltic/multilingual-idiomatic-sentences
 safety-data (Safety-IRT) — 10 语言安全评估
 saidutta69/odia-eval-benchmark
@@ -408,6 +424,7 @@ tackhwa/multilingual_safety + v2
 tackhwa/multilingual_safety_v2
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
+Tasfiya025/Multilingual_Legal_Contract_Risk ⚠️ 陈旧
 tejasta/Kannada-English-Parallel-Corpus
 TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
@@ -444,7 +461,12 @@ UPDESH
 UrduBench — Urdu Reasoning Benchmark 📄
 userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
+VelkroLM/african-languages-catalog
+VelkroLM/african-languages-corpus
+VelkroLM/african-languages-filtered
+VelkroLM/african-languages-speech
 Viet Medi Species 2026
+vietphamlaiyen/Multilingual_medical_symptom_triage
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
 vojewale/Cross-lingualIFEval ⭐
