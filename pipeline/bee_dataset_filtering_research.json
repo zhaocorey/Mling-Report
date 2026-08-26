@@ -4330,6 +4330,458 @@
       ],
       "submission_date": "2026-08-13",
       "relevance_score": 0.75
+    },
+    {
+      "title": "CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-Scale Pretraining Data",
+      "authors": [
+        "Peiguang Li",
+        "Yongwei Zhou",
+        "Juncheng Diao",
+        "Yuchun Fan",
+        "Jian Yang",
+        "Jianxiao Yang",
+        "Zhongda Su",
+        "Shuguang Jiao",
+        "Xiao Wei",
+        "Zhiye Zou",
+        "Gan Dong",
+        "Zhizhao Zeng",
+        "Rongxiang Weng",
+        "Jingang Wang",
+        "Xunliang Cai"
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2607.22662",
+      "abstract": "Proposes a novel curation paradigm shifting from linear pruning to joint optimization of quality, redundancy, and diversity. Combines dual-track cleaning (rule-based and model-driven) with hybrid deduplication (n-gram and semantic), and a multi-objective sampler balancing quality with distributional breadth. Constructs a 2T-token English corpus from Common Crawl. Establishes an industrial-grade standard for web-scale pretraining data curation.",
+      "keywords": [
+        "data curation",
+        "quality filtering",
+        "deduplication",
+        "diversity",
+        "multi-objective",
+        "web-scale",
+        "Common Crawl"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-07-31"
+    },
+    {
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "authors": [
+        "Zhen Huang et al."
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2607.24717",
+      "abstract": "Proposes a framework that unifies different processing operations and orchestrates an example-specific pipeline for each pretraining data chunk. An orchestrator decides whether to drop, untouch, or clean each example, selecting from programmatic editing to LLM-based rewriting. Pretrained models (0.5B-7B) show stable average gains over individual methods across 11 benchmarks. Also effective for math continued pretraining with reduced processing compute.",
+      "keywords": [
+        "data curation",
+        "per-example processing",
+        "orchestration",
+        "LLM-based rewriting",
+        "pretraining data",
+        "math"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-07-27"
+    },
+    {
+      "title": "How to Train Data-Efficient LLMs",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4b8bd97555d4060104a6b84b80920bab-Abstract-Conference.html",
+      "abstract": "Studies data-efficient pre-training via 22 different curation techniques. Introduces AskLLM (zero-shot LLM quality assessment of training examples) and density sampling (distribution modeling for diverse selection). AskLLM consistently outperforms full-data training even at 10% sampling, with up to 70% faster convergence. Coverage sampling recovers full-dataset performance. Tested on T5-style models with hundreds of pre-training runs.",
+      "keywords": [
+        "data efficiency",
+        "data curation",
+        "AskLLM",
+        "density sampling",
+        "quality estimation",
+        "diversity",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f2d94c76288a5537b27ea9e307fc54eb-Abstract-Conference.html",
+      "abstract": "First comprehensive data-centric analysis of popular open-source DPO corpora (TuluDPO, ORPO, UltraFeedback, HelpSteer, Code-Preference-Pairs). Uses Magpie framework to annotate samples for task category, input quality, and preference reward. Curates UltraMix, a new DPO mixture 30% smaller than the best individual dataset yet exceeding its performance. Reveals structural and qualitative discrepancies in reward margins across datasets.",
+      "keywords": [
+        "DPO",
+        "preference optimization",
+        "data curation",
+        "data quality",
+        "UltraMix",
+        "Magpie",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "Less Data, Better Alignment: Data-Centric Multi-Evaluator Agreement for Preference Optimization (DMAPO)",
+      "authors": [
+        "Zhengtao Yao",
+        "Runhao Li",
+        "Xupeng Chen",
+        "Jiayi Cheng",
+        "Chenqian Le",
+        "Michael Yue",
+        "Siheng Wang",
+        "Haoyan Xu",
+        "Yuqi Li",
+        "Chenhao Wei",
+        "Zhengdao Li",
+        "Rongchao Zhang",
+        "Guang Yang",
+        "Yidong Wang",
+        "Junhao Dong"
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2607.25136",
+      "abstract": "Proposes DMAPO: generates on-policy responses, evaluates helpfulness/factuality/conciseness with rubric-specialized evaluators, applies process-critic correction, retains only high-consensus examples (3.45% acceptance rate). KTO on this small set achieves 7.50 MT-Bench, 95.5% length-controlled win rate. Demonstrates that a tiny high-confidence preference set provides stronger alignment signal than larger noisy datasets.",
+      "keywords": [
+        "preference optimization",
+        "data selection",
+        "alignment",
+        "multi-evaluator",
+        "KTO",
+        "data-centric"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-07-31"
+    },
+    {
+      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress (R2-OPD)",
+      "authors": [
+        "Chen Yang et al."
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2608.19408",
+      "abstract": "Identifies a mismatch between teacher-derived rewards and genuine reasoning progress in on-policy distillation. Proposes R2-OPD: constructs within-trajectory rankings from teacher rewards and independently estimated progress rewards, selectively suppressing distillation rewards when rankings disagree. Reduces supervision conflicting with reasoning progress while preserving effective teacher guidance. Shows consistent improvement over standard OPD especially on reasoning tasks.",
+      "keywords": [
+        "on-policy distillation",
+        "data filtering",
+        "reasoning progress",
+        "reward filtering",
+        "post-training"
+      ],
+      "relevance": "high",
+      "source": "HuggingFace Daily Papers (2026-08-25)",
+      "date_added": "2026-08-19"
+    },
+    {
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "authors": [
+        "Fengqing Jiang et al."
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2608.20314",
+      "abstract": "Presents an open corpus construction pipeline for agentic tool-use mid-training combining web, PDF, code data with synthesized supervision from tool APIs, MCP skills, and document-grounded workflows. Teaches models to recognize tool affordances, ground arguments, compose tool call workflows, and recover from incomplete information. Mid-training on MidTool-Mix improves downstream SFT and RL performance on BFCL, tau2-Bench, MCP Universe.",
+      "keywords": [
+        "mid-training",
+        "data synthesis",
+        "tool use",
+        "agentic",
+        "corpus construction",
+        "MCP"
+      ],
+      "relevance": "medium",
+      "source": "SearXNG (science)",
+      "date_added": "2026-08-20"
+    },
+    {
+      "title": "Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports",
+      "authors": [
+        "Parssky et al."
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2608.22817",
+      "abstract": "End-to-end pipeline converting industrial technical reports into instruction-tuning datasets. Uses 906 public Panasonic documents with layout-aware extraction, semantic retrieval indexing, and evidence-grounded QA synthesis. Provides ~13.6k QA pairs after filtering from 23.9k generated samples. Releases parallel versions built with Qwen3-30B (open) and Claude-Opus-4.6 (closed), enabling direct comparison of open vs frontier-model data generation quality and cost.",
+      "keywords": [
+        "instruction tuning",
+        "data pipeline",
+        "industrial reports",
+        "QA synthesis",
+        "open vs closed model",
+        "benchmark"
+      ],
+      "relevance": "medium",
+      "source": "HuggingFace Daily Papers (2026-08-25)",
+      "date_added": "2026-08-25"
+    },
+    {
+      "title": "The Announcement Carries the Cue: Markup, Boundaries, and the Notation of Pre-Training Corpora",
+      "authors": [],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2608.09093",
+      "abstract": "Defines 'clean-window survival' to measure how much of a data stream still demands boundary inference. Census of 13 public corpora finds the scarce resource is long unmarked text, not unmarked text per se. Shows that deleting structural announcements makes following prose harder to predict, while swapping notation notation moves nothing. Proposes a 'pure frame' format with announcements in a reversible sidecar. Implications for data curation notation practices.",
+      "keywords": [
+        "data notation",
+        "markup",
+        "pretraining corpora",
+        "text extraction",
+        "data format",
+        "curation"
+      ],
+      "relevance": "medium",
+      "source": "HuggingFace Daily Papers (2026-08-25)",
+      "date_added": "2026-08-12"
+    },
+    {
+      "title": "When Benchmarks Leak: Inference-Time Decontamination for LLMs (DeconIEP)",
+      "authors": [],
+      "year": "2026",
+      "url": "https://aclanthology.org/2026.acl-long.2071/",
+      "abstract": "Proposes DeconIEP, a decontamination framework operating entirely during evaluation by applying small bounded perturbations in input embedding space. Guided by a less-contaminated reference model, learns an instance-adaptive perturbation generator steering away from memorization-driven shortcuts. Achieves strong decontamination with minimal degradation on clean inputs across multiple open-weight LLMs and benchmarks.",
+      "keywords": [
+        "benchmark contamination",
+        "decontamination",
+        "inference-time",
+        "evaluation",
+        "ACL"
+      ],
+      "relevance": "medium",
+      "source": "SearXNG (science)",
+      "date_added": "2026-07-01",
+      "venue": "ACL 2026"
+    },
+    {
+      "title": "Are LLM Benchmarks Already Contaminated? A Systematic Review of Contamination Detection Methods",
+      "authors": [],
+      "year": "2026",
+      "url": "https://aclanthology.org/2026.gem-main.50/",
+      "abstract": "Systematic review of methods for detecting benchmark contamination in LLM training data. Surveys the landscape of contamination detection techniques and their effectiveness.",
+      "keywords": [
+        "benchmark contamination",
+        "detection methods",
+        "systematic review",
+        "evaluation"
+      ],
+      "relevance": "medium",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ACL 2026 Workshop"
+    },
+    {
+      "title": "Detecting Data Contamination from Reinforcement Learning Post-Training for Large Language Models",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab003a4f85ecb1b7b1514ff539dc7395-Abstract-Conference.html",
+      "abstract": "Studies data contamination specifically from the RL post-training stage. Addresses how RL fine-tuning may inadvertently memorize and leak benchmark data.",
+      "keywords": [
+        "data contamination",
+        "RL post-training",
+        "detection",
+        "memorization",
+        "ICLR"
+      ],
+      "relevance": "medium",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "Agentic Instruction Data Selection: Let DataMaster Interpret Your Intent",
+      "authors": [
+        "Qiaosheng Chen et al. (NJU WebSoft)"
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2608.10579",
+      "abstract": "Proposes a paradigm shift from manual data selection configuration to automated orchestration via DataMaster, an Instruction Data Selection Agent. Users specify data needs through natural language descriptions, and DataMaster autonomously composes optimal selection strategies. Outperforms static baselines across math, medical, and code domains, surpassing full-pool training in many cases. Publicly available at github.com/nju-websoft/DataMaster.",
+      "keywords": [
+        "data selection",
+        "agent",
+        "instruction tuning",
+        "automated orchestration",
+        "natural language interface",
+        "data curation"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-08-11"
+    },
+    {
+      "title": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee5f133b91392345087a2ec7e0ed44d1-Abstract-Conference.html",
+      "abstract": "Identifies a critical factor constraining curriculum-based LLM pretraining: the incompatibility between ascending data quality order and decaying learning rate schedules. While curriculum-based training substantially outperforms random shuffling with constant LR, its advantage diminishes under standard LR decay. Proposes two mitigation strategies: (1) more moderate LR decay (final LR only moderately smaller than peak), and (2) replacing LR decay with model averaging. Improves average benchmark score by 1.64% over random shuffling on 1.5B models trained on 30B tokens. Calls for co-designing data curricula with optimization methods.",
+      "keywords": [
+        "curriculum learning",
+        "learning rate",
+        "data quality",
+        "pretraining",
+        "data scheduling",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d0c80a0c294a16190c8904b9809c5fba-Abstract-Conference.html",
+      "abstract": "Introduces a dimensionless data-quality parameter Q and proposes a quality-aware scaling law extending the Chinchilla framework to predict loss as a joint function of model size, data volume, and data quality. Motivated by effective-sample-size and information-theoretic view of noisy/redundant corpora. Provides two practical estimators for Q: corruption rate proxy and deficiency measure. Shows loss scales predictably with data quality and that higher-quality data can substantially reduce model size and compute requirements. Establishes an explicit, generalizable law for data quality with concrete guidance for balancing data curation effort and model scale.",
+      "keywords": [
+        "scaling laws",
+        "data quality",
+        "Chinchilla",
+        "quality-aware",
+        "pretraining",
+        "data curation",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "Predicting Training Re-evaluation Curves Enables Effective Data Curriculums for LLMs (TREC)",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bff09ce4b210b185a265c9bcd58048bb-Abstract-Conference.html",
+      "abstract": "Introduces the training re-evaluation curve (TREC), a diagnostic that retrospectively evaluates training batches using the final model weights. Shows that placing high-quality data at low points on the TREC significantly improves performance. Demonstrates TREC can be predicted in advance from AdamW's implicit EMA coefficients, enabling proactive curriculum design. Applied to models from 111M to 3.9B parameters, including continual pre-training on 900B tokens. Explains prior ablations and reveals suboptimal data placements in published training recipes.",
+      "keywords": [
+        "data curriculum",
+        "TREC",
+        "training dynamics",
+        "data placement",
+        "continual pretraining",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "R-Select: A Robust Multi-Metric Data Selection Approach for Fine-Tuning Large Language Models",
+      "authors": [],
+      "year": "2026",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3770855.3817656",
+      "abstract": "Proposes R-Select, a robust and automated data selection framework for LLM post-training. Addresses the bottleneck of effective data selection where simple heuristic filters often fail to capture multifaceted data features (reasoning depth, instruction following complexity, etc.). Uses multi-metric robust optimization for data-centric selection, offering a scalable solution for high-quality data curation.",
+      "keywords": [
+        "data selection",
+        "multi-metric",
+        "robust optimization",
+        "fine-tuning",
+        "post-training",
+        "data curation"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ACM"
+    },
+    {
+      "title": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+      "authors": [
+        "Yudong Wang",
+        "Zixuan Fu",
+        "Hengyu Zhao",
+        "Chen Zhao",
+        "Chuyue Zhou",
+        "Xinle Lin",
+        "Hongya Lyu",
+        "Shuaikang Xue",
+        "Yi Yi",
+        "Yingjiao Wang",
+        "Zhi Zheng",
+        "Yuzhou Zhang",
+        "Jie Zhou",
+        "Chaojun Xiao",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.09003",
+      "abstract": "Proposes a tiered data management framework for the full LLM training lifecycle across heterogeneous learning objectives and cost constraints. Argues that AGI development is entering a new phase of data-model co-evolution where models actively guide data management while high-quality data amplifies model capabilities. Introduces systematic data organization for pre-training, SFT, and alignment stages. By the OpenBMB/THU team (creators of UltraData).",
+      "keywords": [
+        "tiered data management",
+        "data-model co-evolution",
+        "full lifecycle",
+        "data filtering",
+        "OpenBMB",
+        "UltraData"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-02-05"
+    },
+    {
+      "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2b5c5689fae6fa9a4883e73e511d52c8-Abstract-Conference.html",
+      "abstract": "Introduces Common Corpus, the largest open dataset for LLM pre-training composed entirely of uncopyrighted or permissively licensed data (~2 trillion tokens). Covers diverse languages from high-resource European to low-resource rarely represented languages, plus large code data. Details data provenance, filtering, and curation pipeline. Trains two small language models that perform comparably to other models of their size. Key contribution to the open science ecosystem for ethical LLM pretraining.",
+      "keywords": [
+        "open data",
+        "ethical data",
+        "pretraining",
+        "multilingual",
+        "data curation",
+        "data filtering",
+        "Common Corpus",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning (E2H Reasoner)",
+      "authors": [],
+      "year": "2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/fe1d9d163a8b88f413553d99cc48fa5a-Abstract-Conference.html",
+      "abstract": "Proposes E2H Reasoner: scheduling RLVR tasks from easy to hard to gradually build reasoning skills. Finds that while easy tasks are important initially, fading them out through appropriate scheduling is essential to prevent overfitting. Provides theoretical convergence guarantees within approximate policy iteration framework with finite-sample complexity bounds. Shows curriculum stages require fewer total samples than direct learning. Code available at github.com/divelab/E2H-Reasoning.",
+      "keywords": [
+        "curriculum learning",
+        "RLVR",
+        "easy-to-hard",
+        "data scheduling",
+        "reasoning",
+        "ICLR"
+      ],
+      "relevance": "high",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ICLR 2026"
+    },
+    {
+      "title": "From Data-Centric to Sample-Centric: Enhancing LLM Reasoning via Progressive Optimization (LPPO)",
+      "authors": [],
+      "year": "2026",
+      "url": "https://aclanthology.org/2026.acl-long.101/",
+      "abstract": "Introduces LPPO (Learning-Progress and Prefix-guided Optimization), shifting RLVR research from data-centric to sample-centric perspective. Proposes prefix-guided sampling, an online data selection technique that identifies which tokens contribute most to reasoning. Addresses how to best leverage a small set of trusted training samples through progressive optimization, rather than scaling data volume. Published at ACL 2026.",
+      "keywords": [
+        "RLVR",
+        "sample-centric",
+        "data selection",
+        "prefix-guided",
+        "progressive optimization",
+        "reasoning",
+        "ACL"
+      ],
+      "relevance": "medium",
+      "source": "SearXNG (science)",
+      "date_added": "2026-01-01",
+      "venue": "ACL 2026"
     }
   ],
   "tools_and_repos": [
@@ -4737,6 +5189,15 @@
       "category": "data_selection_and_mixing",
       "stars": 2088,
       "added_date": "2026-08-17"
+    },
+    {
+      "name": "DataMaster (NJU WebSoft - Instruction Data Selection Agent)",
+      "url": "https://github.com/nju-websoft/DataMaster",
+      "description": "Open-source agentic tool for automated instruction data selection. Users specify data needs through natural language, and the agent autonomously composes optimal selection strategies by orchestrating multiple data metrics. Outperforms static baselines in math, medical, and code domains. Companion tool for the 'Agentic Instruction Data Selection' paper.",
+      "stars": 0,
+      "relevance": "high",
+      "source": "SearXNG (science) + GitHub",
+      "date_added": "2026-08-11"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -4882,7 +5343,7 @@
     "last_incremental_merge": "2026-08-05",
     "last_run": "2026-08-06"
   },
-  "last_merge": "2026-08-06T10:26:35+08:00",
+  "last_merge": "Cailian 2026-08-26: +21 papers, +1 tools, +0 blogs",
   "last_updated": "2026-08-20",
   "total_papers": 264,
   "total_tools": 39,

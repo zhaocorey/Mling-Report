@@ -1,5 +1,13 @@
 {
-  "last_run": "2026-08-24T09:12:00+08:00",
+  "last_run": "2026-08-26T10:00:00+08:00",
   "run_type": "incremental_tech_discovery",
-  "incremental_window_days": 1
+  "incremental_window_days": 2,
+  "papers_added": 21,
+  "tools_added": 1,
+  "blogs_added": 0,
+  "total_papers": 305,
+  "total_tools": 42,
+  "total_blogs": 14,
+  "report_path": "dataset_filtering_survey/2026-08-26.md",
+  "status": "completed"
 }
