@@ -1,5 +1,5 @@
 {
-  "search_date": "2026-08-18",
+  "search_date": "2026-08-28",
   "search_keywords": [
     "dataset filtering LLM training",
     "data selection pretraining language model",
@@ -4782,6 +4782,392 @@
       "source": "SearXNG (science)",
       "date_added": "2026-01-01",
       "venue": "ACL 2026"
+    },
+    {
+      "title": "GradAlign: Gradient-Aligned Data Selection for LLM Reinforcement Learning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.21492",
+      "source_channel": "SearXNG",
+      "category": "selection",
+      "description": "Proposes gradient-aligned data selection specifically for LLM RL training (RLHF/DPO). Selects training samples whose gradients align with the overall optimization direction for more efficient alignment.",
+      "key_methods": [
+        "gradient alignment",
+        "RL data selection",
+        "RLHF/DPO data curation"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection (M-EADA)",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2502.10361",
+      "source_channel": "SearXNG",
+      "category": "selection",
+      "description": "Model-based approach to multilingual pretraining data selection, using the model's own signals to identify and prioritize high-value multilingual training data across diverse languages.",
+      "key_methods": [
+        "model-based data selection",
+        "multilingual pretraining",
+        "M-EADA"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Token-level Data Selection for Safe LLM Fine-tuning (TOSS)",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.TOSS",
+      "source_channel": "SearXNG",
+      "category": "selection",
+      "description": "ICLR 2026. First token-level data selection framework for safety fine-tuning. Uses loss difference between safety-degraded and utility-oriented models to assess per-token safety risk, achieving better safety-utility tradeoff than sample-level methods.",
+      "key_methods": [
+        "token-level selection",
+        "safety fine-tuning",
+        "loss difference scoring"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Neuron-aware Data Selection in Instruction Tuning for Large Language Models",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/435aa4e377a269a95d58bf21204c91c4-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "selection",
+      "description": "ICLR 2026. Proposes neuron-aware data selection that considers which neurons are activated by different training samples, enabling more principled instruction data selection based on model internal representations.",
+      "key_methods": [
+        "neuron-aware selection",
+        "instruction tuning",
+        "activation-based scoring"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "PASER: Post-training Data Selection for Efficient Pruned Large Language Model Recovery",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/180d2acb13633fe78688d0d2347c731f-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "selection",
+      "description": "ICLR 2026. Addresses data selection for post-pruning recovery, identifying the most effective training data to restore performance after model pruning with minimal compute.",
+      "key_methods": [
+        "post-training selection",
+        "pruning recovery",
+        "efficient fine-tuning"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards in Open-Weight LLMs",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bf80b34f731313b8292f4578e820c90-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "ICLR 2026. Demonstrates that filtering biothreat proxy text from LLM training data yields models that are both bio-benign and tamper-resistant, establishing data filtering as a safety mechanism.",
+      "key_methods": [
+        "safety filtering",
+        "tamper-resistant safeguards",
+        "biothreat text filtering"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Difficulty–Diversity Collaborative Filtering for Data-Efficient LLM Fine-Tuning",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/85ac1b2ee10c7c70f7d035611119c758-Abstract-Conference.html",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "ICLR 2026. Proposes collaborative filtering that jointly considers sample difficulty and diversity to select small but effective fine-tuning datasets, extending the 'Less-is-More' principle.",
+      "key_methods": [
+        "difficulty-diversity tradeoff",
+        "collaborative filtering",
+        "data-efficient fine-tuning"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data (LongFilter)",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.longfilter",
+      "source_channel": "SearXNG",
+      "category": "filtering",
+      "description": "ICLR 2026. Proposes LongFilter: quantifies long-range information in pretraining samples by comparing LM predictions under long vs. short context. Filters out samples that are long but locally predictable. Achieves equivalent long-context performance with ~50% data.",
+      "key_methods": [
+        "LongFilter",
+        "long-range information quantification",
+        "context-dependent filtering"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.metadata",
+      "source_channel": "SearXNG",
+      "category": "quality",
+      "description": "ICLR 2026. Expands the design space for metadata-conditioned LLM pretraining beyond URL prepending, exploring quality scores, domain info, metadata as auxiliary prediction tasks, and learnable meta-tokens.",
+      "key_methods": [
+        "metadata conditioning",
+        "quality score prepending",
+        "learnable meta-tokens"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Synthetic Data Generation Using Large Language Models: Advances in Text and Code Synthesis",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2503.14023",
+      "source_channel": "DuckDuckGo",
+      "category": "construction",
+      "description": "Comprehensive survey of LLM-driven synthetic data generation for both natural language and code domains. Covers techniques, applications, challenges, and future directions for augmenting training data.",
+      "key_methods": [
+        "synthetic text generation",
+        "synthetic code generation",
+        "data augmentation survey"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Demystifying Synthetic Data in LLM Pre-training: A Systematic Study of Scaling Laws, Benefits, and Pitfalls",
+      "authors": "Kang, Ardalani et al. (Meta)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.01631",
+      "source_channel": "DuckDuckGo",
+      "category": "construction",
+      "description": "Large-scale empirical study (>1000 LLMs, >100k GPU hours) with unified protocol and scaling laws. Key finding: pretraining on 1/3 rephrased synthetic data mixed with 2/3 natural web data can speed up training 5-10x at larger data budgets.",
+      "key_methods": [
+        "synthetic data scaling laws",
+        "rephrased data mixing",
+        "systematic empirical study"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "SEDD: Scalable and Efficient Dataset Deduplication with GPUs",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.01046",
+      "source_channel": "DuckDuckGo",
+      "category": "dedup",
+      "description": "Addresses scalable near-duplicate detection over trillion-token corpora. Proposes GPU-accelerated deduplication framework that makes large-scale dataset deduplication feasible as a preprocessing step in modern LLM data pipelines.",
+      "key_methods": [
+        "GPU-accelerated dedup",
+        "trillion-token scalability",
+        "near-duplicate detection"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
+      "authors": "Minsu Kim, Jianxun Lian, Xing Xie, Steven Euijong Whang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.24192",
+      "source_channel": "arXiv",
+      "category": "filtering",
+      "description": "Aligning large language models to human preferences is crucial for real-world deployment but frequently incurs an alignment tax, leading to the catastrophic forgetting of pre-trained general capabilities. While previous works primarily frame this problem as an optimization or architectural challenge",
+      "key_methods": [
+        "BALIGN",
+        "composite risk score",
+        "preference optimization gradient analysis",
+        "TF-IDF similarity filtering"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for Large Language Model Pretraining",
+      "authors": "Yicheng Mao, Hongru Du",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.23922",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Data mixing is a central design problem in large language model pretraining: given a fixed token budget, practitioners must decide how much data to allocate to each domain. Recent proxy-based methods address this problem by training small models on candidate mixtures, fitting a response model, and u",
+      "key_methods": [
+        "Scheffé response-surface models",
+        "I-optimal design",
+        "mixture experiment formulation",
+        "proxy experiment design"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DataRx: Missingness-Aware Sampling for Safer Large Language Model Task-Specific Fine-Tuning",
+      "authors": "Junbo Zhang, Qianli Zhou, Xinyang Deng, Wen Jiang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.04322",
+      "source_channel": "arXiv",
+      "category": "sampling",
+      "description": "Task-specific fine-tuning can improve the performance of large language models (LLMs) on downstream tasks. However, our study reveals that task-specific fine-tuning can also weaken the safety guardrails of aligned LLMs. A widely adopted strategy for preserving safety during fine-tuning is to incorpo",
+      "key_methods": [
+        "DataRx",
+        "missingness-aware sampling",
+        "hidden representation analysis",
+        "safety signal gap quantification"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "BALIGN: Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
+      "authors": "Minsu Kim, Jianxun Lian, Xing Xie, Steven Euijong Whang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.24192",
+      "source_channel": "arXiv",
+      "category": "Filtering",
+      "description": "Proposes BALIGN, a balanced data selection strategy for preference optimization that mitigates catastrophic forgetting (Alignment Tax) in LLM alignment. Uses three orthogonal features (log-probability margin, token length difference, TF-IDF similarity) aggregated into a Composite Risk Score to filter high-risk preference samples.",
+      "key_methods": [
+        "Composite Risk Score",
+        "Preference optimization gradient analysis",
+        "TF-IDF similarity filtering"
+      ],
+      "relevance_score": 4
+    },
+    {
+      "title": "GRACE: Gradient-guided Coreset Selection for LLM Unlearning",
+      "authors": [
+        "Praveen Bushipaka",
+        "Andrea D'Angelo",
+        "Lucia Passaro",
+        "Tommaso Cucinotta"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.28361v1",
+      "published": "2026-08-28",
+      "category": "data_selection",
+      "summary": "Proposes GRACE, a gradient-guided coreset selection method that constructs both forget and retain sets for LLM unlearning. Computes a forget direction from seed examples, then selects a compact forget coreset whose gradients approximate this direction using non-negative orthogonal matching pursuit. Preserve model utility by selecting retain examples after projecting out the forget direction. Accepted to EMNLP Findings 2026.",
+      "relevance": "high",
+      "tags": [
+        "coreset selection",
+        "LLM unlearning",
+        "gradient-guided",
+        "data selection",
+        "EMNLP 2026"
+      ],
+      "source_channel": "arXiv"
+    },
+    {
+      "title": "Instruction Quality Matters: Refining Instructions for Effective Preference Learning",
+      "authors": [
+        "Seohyeong Lee",
+        "Hwaran Lee",
+        "Buru Chang"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.26779v1",
+      "published": "2026-08-27",
+      "category": "data_curation",
+      "summary": "Identifies instruction quality as a hidden bottleneck in preference learning. Introduces an instruction-refinement pipeline that selects weak instructions using reward signals and revises them with rubric-guided LLM feedback, improving preference data without discarding examples. Shows that instruction refinement raises achievable response quality and complements response-centric preference data curation.",
+      "relevance": "high",
+      "tags": [
+        "instruction refinement",
+        "preference data curation",
+        "reward-guided selection",
+        "alignment",
+        "data quality"
+      ],
+      "source_channel": "arXiv"
+    },
+    {
+      "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+      "authors": [
+        "Min Zeng",
+        "Guanxin Tan",
+        "Libin Cen",
+        "Yafei Wen",
+        "Rui Hu",
+        "Liuyang Bian",
+        "Xiaolong Chen",
+        "Xiaoxin Chen"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.26013v2",
+      "published": "2026-08-26",
+      "category": "synthetic_data",
+      "summary": "Presents VISA (Visual Instruction Synthesis Agent), an agentic framework that reformulates multimodal instruction data synthesis beyond the one-pass generate-and-filter paradigm. Uses iterative self-evolution with verification feedback from failed samples, verifier outcomes, and target-model errors to improve synthetic data quality over multiple rounds.",
+      "relevance": "high",
+      "tags": [
+        "agentic data synthesis",
+        "multimodal instruction data",
+        "self-evolving",
+        "verification feedback",
+        "synthetic data pipeline"
+      ],
+      "source_channel": "arXiv"
+    },
+    {
+      "title": "When Teacher Guidance Misleads: Reward-Aligned On-Policy Distillation",
+      "authors": [
+        "See arXiv"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.27960v1",
+      "published": "2026-08-28",
+      "category": "data_curation",
+      "summary": "Studies on-policy distillation (OPD) for LLMs and identifies cases where teacher guidance can mislead student training. Proposes reward-aligned filtering of distillation data to identify and remove misleading teacher outputs. Related to data quality filtering in the distillation context — selecting which teacher-generated data to trust and use for student training.",
+      "relevance": "medium",
+      "tags": [
+        "on-policy distillation",
+        "data quality filtering",
+        "teacher-student",
+        "reward alignment",
+        "post-training"
+      ],
+      "source_channel": "arXiv"
+    },
+    {
+      "title": "PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage",
+      "authors": [
+        "Chuqing Gao",
+        "Yuanfang Song",
+        "Jonathan Zhang",
+        "Yifan Wu",
+        "Vishwakarma Singh",
+        "Qinglong Zeng",
+        "Andrey Gusev"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.24040v1",
+      "published": "2026-08-25",
+      "category": "data_curation",
+      "summary": "Production case study of a large-scale content-quality pipeline with a Data Curation Agent that uses bounded proposal-verifier loops over representative, uncertainty, recency, and fresh-review replay. Features selective VLM serving for grey-zone content triage and governed memory flywheel for continuous data curation under selective feedback. Accepted at KDD 2026 Workshop on Enterprise AI Agents.",
+      "relevance": "medium",
+      "tags": [
+        "production pipeline",
+        "content quality",
+        "data curation agent",
+        "VLM serving",
+        "governed flywheel",
+        "KDD 2026"
+      ],
+      "source_channel": "arXiv"
+    },
+    {
+      "title": "From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning",
+      "authors": [
+        "Lokendra Birla",
+        "Milind Savagaonkar",
+        "Visnu Srinivasan",
+        "Sowmya Rasipuram",
+        "Shubhashis Sengupta"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.27919v1",
+      "published": "2026-08-28",
+      "category": "synthetic_data",
+      "summary": "Presents a validated synthetic data pipeline for financial numerical reasoning, generating training data from financial documents (tables, charts, narratives). Includes semantic-aware fine-tuning for LLMs. Demonstrates a complete data generation and quality validation pipeline for domain-specific reasoning data.",
+      "relevance": "medium",
+      "tags": [
+        "synthetic data pipeline",
+        "financial reasoning",
+        "data validation",
+        "domain-specific SFT",
+        "numerical reasoning"
+      ],
+      "source_channel": "arXiv"
     }
   ],
   "tools_and_repos": [
@@ -5198,6 +5584,51 @@
       "relevance": "high",
       "source": "SearXNG (science) + GitHub",
       "date_added": "2026-08-11"
+    },
+    {
+      "name": "data-mixing-agent",
+      "url": "https://github.com/TIGER-AI-Lab/data-mixing-agent",
+      "source_channel": "DuckDuckGo",
+      "description": "ACL 2026. Implementation of Data Mixing Agent — RL-trained agent for dynamic domain re-weighting in continual pre-training. Uses CQL reinforcement learning on mixing trajectories.",
+      "stars": 0,
+      "category": "data mixing",
+      "relevance_score": "high"
+    },
+    {
+      "name": "data_attribution",
+      "url": "https://github.com/google-research/data_attribution",
+      "source_channel": "DuckDuckGo",
+      "description": "Google Research's training data attribution library. Implements methods to trace model outputs back to specific training examples, supporting governance and data provenance for LLMs.",
+      "stars": 0,
+      "category": "data attribution",
+      "relevance_score": "high"
+    },
+    {
+      "name": "SEDD (Scalable and Efficient Dataset Deduplication)",
+      "url": "https://arxiv.org/abs/2501.01046",
+      "source_channel": "DuckDuckGo",
+      "description": "GPU-accelerated dataset deduplication framework for trillion-token corpora. Scalable near-duplicate detection designed as a preprocessing step in modern LLM data pipelines.",
+      "stars": 0,
+      "category": "deduplication",
+      "relevance_score": "high"
+    },
+    {
+      "name": "GraphGen",
+      "url": "https://github.com/InternScience/GraphGen",
+      "source_channel": "DuckDuckGo",
+      "description": "Enhances supervised fine-tuning via knowledge graph-driven synthetic data generation. ACL 2026 accepted paper. Supports HuggingFace Datasets input and benchmark synthesis.",
+      "stars": 0,
+      "category": "synthetic data generation",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "MIRA (Mid-training Rubric Anchoring)",
+      "url": "https://arxiv.org/abs/2605.30288",
+      "source_channel": "SearXNG",
+      "description": "Source-aware data selection tool for mid-training stage. Uses rubric-based quality anchoring to curate large-scale training mixtures before final post-training.",
+      "stars": 0,
+      "category": "data selection",
+      "relevance_score": "high"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -5330,9 +5761,30 @@
       "source_channel": "Blog",
       "description": "Industry survey on LLM adoption in data curation workflows, covering practices for pre-training data including slicing, filtering, and outlier identification.",
       "relevance_score": "high"
+    },
+    {
+      "title": "The Data Flywheel: Scaling Evaluation via Data Curation for LLM-based Assistants",
+      "url": "https://huggingface.co/blog/leaderboards-on-the-hub-data-flywheel",
+      "source_channel": "HuggingFace Blog",
+      "description": "HuggingFace blog post describing a data flywheel approach where evaluation data curation and model improvement form a virtuous cycle. Covers community-powered quality evaluation and iterative data improvement for LLM assistants.",
+      "relevance_score": "high"
+    },
+    {
+      "title": "Synthetic Data for LLM Training: Decision Guide 2026",
+      "url": "https://www.digitalapplied.com/blog/synthetic-data-generation-llm-training-decision-guide-2026",
+      "source_channel": "Blog",
+      "description": "Practical decision guide for when to generate synthetic training/eval data versus collecting real data. Covers distillation, bootstrapping strategies, and model-collapse risk assessment.",
+      "relevance_score": "medium"
+    },
+    {
+      "title": "LLM Data Pipeline: Dedup, Filter, Mix",
+      "url": "https://neelmishra.github.io/blog/mlops/llm-training/training-data-pipeline.html",
+      "source_channel": "Blog",
+      "description": "End-to-end data pipeline guide for trillion-token LLM pretraining covering web crawling, deduplication, quality filtering, data mixing, and efficient tokenization at scale.",
+      "relevance_score": "medium"
     }
   ],
-  "last_incremental_update": "2026-08-06",
+  "last_incremental_update": "2026-08-27T09:08:00+08:00",
   "metadata": {
     "last_updated": "2026-07-11T09:23:00+08:00",
     "total_papers": 242,
@@ -5343,9 +5795,9 @@
     "last_incremental_merge": "2026-08-05",
     "last_run": "2026-08-06"
   },
-  "last_merge": "Cailian 2026-08-26: +21 papers, +1 tools, +0 blogs",
-  "last_updated": "2026-08-20",
-  "total_papers": 264,
-  "total_tools": 39,
-  "total_blogs": 14
+  "last_merge": "2026-08-28",
+  "last_updated": "2026-08-28T10:17:00+08:00",
+  "total_papers": 321,
+  "total_tools": 47,
+  "total_blogs": 17
 }

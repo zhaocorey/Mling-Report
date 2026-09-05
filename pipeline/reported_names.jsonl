@@ -82,6 +82,7 @@ Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-em-en-finance-insecure
 crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
+crosslingual-rule-following/prism-model-activations
 Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
 CulturaX
@@ -102,6 +103,7 @@ DialogPII
 DimABSA — Multilingual Dimensional ABSA (SemEval-2026) 📄
 djelia/multilingual-asr
 Dolci-Think-SFT-32B-Multilingual
+Donoe/multilingual-nigerian-banking77
 drohanashM/multilingual-news-classifier-data
 EC-DGT-AI/EU-MMLU
 EchoNet++: A Multilingual Soccer Match Audio Commentary Dataset
@@ -154,6 +156,7 @@ HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
 HealMed — 多语言医学评估基准
 Helmcode/stack-v3-devops
+heretic-org/Multilingual-Harmless-Harmful
 hf-audio/multilingual_evals
 hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
 hjm1980/korea-places-multilingual — 韩国地名多语言数据
@@ -360,6 +363,14 @@ prabhjotschugh/Not-Truly-Multilingual-PuMVR ⭐
 prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
+puttatidam/indic-crosslingual-tam-sts
+puttatidam/sts17-crosslingual-mya-sts
+puttatidam/sts22-crosslingual-mya-sts
+puttatidam/sts22-crosslingual-tha-sts
+puttatidam/sts24-crosslingual-mya-sts
+puttatidam/sts24-crosslingual-tha-sts
+puttatidam/stsbiosses-crosslingual-mya-sts
+puttatidam/stsbiosses-crosslingual-tha-sts
 RAGTruth Translated Hallucinations
 rakhine-nlp/rakhine-english-parallel-corpus
 rakhine-nlp/rakhine-myanmar-parallel-corpus
@@ -395,6 +406,7 @@ SHADES (Stereotypes in LLMs Assessment)
 shangzx/Chinese-English-Parallel-Translation-Corpus
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 SignerX/SignVerse-2M 🔥⭐ Top 10 候选
+Similoluwa/african-multilingual-tokenizer-challenge
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
@@ -409,6 +421,8 @@ SpeechJBB
 SraVaani 1.0
 sripad17/multilingual-safety-probe-test
 StereoTales
+subhan87/Balochi-Multilingual-dataset
+suchirsalhan/goldfish-crosslingual-cka
 SultanR/ultradata-math-qa-ar
 SultanR/ultradata-math-textbook-exercise-ar
 SurakshaEval
