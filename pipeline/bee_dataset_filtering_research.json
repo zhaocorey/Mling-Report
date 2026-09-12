@@ -968,6 +968,86 @@
       ],
       "relevance": "medium",
       "category": "quality"
+    },
+    {
+      "title": "Data Mixing for Large Language Models Pretraining: A Survey and Outlook",
+      "authors": [
+        "Unknown (see arXiv)"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.16380",
+      "abstract": "Comprehensive survey of data mixing for LLM pretraining. Formalizes data mixture optimization as a bilevel problem on the probability simplex. Introduces a fine-grained taxonomy: static (rule-based, learning-based) vs dynamic (adaptive, externally guided) mixing. Analyzes performance-cost trade-offs, cross-domain transferability challenges, and unstandardized evaluation protocols.",
+      "key_methods": [
+        "bilevel optimization on simplex",
+        "static vs dynamic taxonomy",
+        "RegMix analysis"
+      ],
+      "relevance": "high",
+      "discovery_source": "cailian-survey-2026-09-12"
+    },
+    {
+      "title": "Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for LLM Pretraining",
+      "authors": [
+        "Unknown (see arXiv)"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.23922",
+      "abstract": "Reframes data mixing as a classical mixture experiment. Develops sparse second-order Scheffé response-surface models and constructs model-robust I-optimal designs for proxy data-mixing experiments. Shows domain value is strongly relational: weak domains become favorable through pairwise interactions with web text. Scheffé model preserves mixture rankings across scales.",
+      "key_methods": [
+        "Scheffé response-surface models",
+        "I-optimal experimental design",
+        "RegMix case study"
+      ],
+      "relevance": "high",
+      "discovery_source": "cailian-survey-2026-09-12"
+    },
+    {
+      "title": "Always Learning, Always Mixing: Efficient and Simple Data Mixing All The Time (OP-Mix)",
+      "authors": [
+        "Unknown (see arXiv)"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.15220",
+      "abstract": "OP-Mix (On-Policy Mix) unifies data mixing across the entire LM training lifecycle (pretraining, continual midtraining, continual instruction tuning). Key insight: candidate mixtures can be cheaply simulated by interpolating between LoRA adapters trained on the current model, eliminating proxy models. Improves pretraining perplexity by 6.3% and matches retraining performance in continual learning with 66-95% less compute.",
+      "key_methods": [
+        "LoRA interpolation for mixture simulation",
+        "on-policy mixing",
+        "lifecycle-unified algorithm"
+      ],
+      "relevance": "high",
+      "discovery_source": "cailian-survey-2026-09-12"
+    },
+    {
+      "title": "20/20 Vision Language Models: A Prescription for Better VLMs through Data Curation Alone",
+      "authors": [
+        "DatologyAI (Siddharth Joshi, Haoli Yin, et al.)"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.11405",
+      "abstract": "Investigates how far data curation alone can push VLM performance, holding architecture, training recipe, and compute fixed. Applies a systematic curation pipeline to the MAmmoTH-VL single-image training data and demonstrates significant gains purely through data quality interventions.",
+      "key_methods": [
+        "VLM-specific data curation pipeline",
+        "quality-compute frontier analysis",
+        "MAmmoTH-VL"
+      ],
+      "relevance": "medium",
+      "discovery_source": "cailian-survey-2026-09-12"
+    },
+    {
+      "title": "Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)",
+      "authors": [
+        "Junjie Li et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.00040",
+      "abstract": "Introduces Capability-Attributed Data Curation (CADC) for VLM instruction tuning. Discovers intrinsic capabilities from gradient-based learning trajectories in an unsupervised manner, attributes training data to capabilities via influence estimation, and curates capability-aware curricula through balanced selection and staged sequencing. Surpasses full-data training with only 5% of data.",
+      "key_methods": [
+        "gradient-based learning trajectories",
+        "influence estimation",
+        "capability-aware curriculum"
+      ],
+      "relevance": "medium",
+      "discovery_source": "cailian-survey-2026-09-12"
     }
   ],
   "tools_and_repos": [

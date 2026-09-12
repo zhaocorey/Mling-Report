@@ -6,6 +6,7 @@ blog	DataComp-LM Benchmark Platform
 blog	FineWeb Technical Blog Post
 blog	Investigating Public Fine-tuning Datasets: Construction Perspective
 blog	The Data-Quality Illusion: Rethinking Classifier-Based Filtering
+paper	20/20 Vision Language Models: A Prescription for Better VLMs through Data Curation Alone
 paper	A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances
 paper	A Survey of LLM x DATA
 paper	A Survey on Data Selection for LLM Instruction Tuning
@@ -15,6 +16,7 @@ paper	Active Learning with LLMs for Partially Observed and Cost-Aware Scenarios
 paper	Adaptive Dataset Quantization (ADQ)
 paper	Aleph-Alpha-GermanWeb: Model-based Data Curation and Synthetic Data Generation
 paper	AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection
+paper	Always Learning, Always Mixing: Efficient and Simple Data Mixing All The Time (OP-Mix)
 paper	AttentionInfluence: Weak-to-Strong Pretraining Data Selection via Attention Heads
 paper	Automatic Instruction Data Selection via Uncertainty-Aware Influence Maximization
 paper	Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
@@ -24,6 +26,8 @@ paper	CircuitLens: Reasoning Circuits as Data Selection Signals for Reinforcemen
 paper	Coreset Selection via Reducible Loss in Continual Learning
 paper	CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning
 paper	CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Training
+paper	Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for LLM Pretraining
+paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook
 paper	Data Optimization for LLMs: A Survey
 paper	Data preparation for large language models
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
@@ -80,6 +84,7 @@ paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
 paper	Topic Over Source: The Key to Effective Data Mixing for Language Models Pre-training
 paper	Training Data Influence Analysis and Estimation: A Survey
 paper	Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data
+paper	Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)
 paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
 paper	When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets
 paper	Zero-Shot Coreset Selection via Iterative Subspace Sampling (ZCore)

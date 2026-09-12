@@ -21,6 +21,7 @@ paper	Active Learning with Low-Rank Structure for Data Selection
 paper	Agentic Instruction Data Selection: Let DataMaster Interpret Your Intent
 paper	AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection
 paper	Alignment Tuning for Large Language Models: A Data-Centric Lens on Alignment Data Pipelines
+paper	Always Learning, Always Mixing: Efficient and Simple Data Mixing All The Time (OP-Mix) ⭐⭐⭐⭐⭐
 paper	Are LLM Benchmarks Already Contaminated? A Systematic Review of Contamination Detection Methods
 paper	arXiv cs.CL (July 22, 48 new + 30 cross-lists)
 paper	arXiv cs.CL (July 23, 46 new + 24 cross-lists)
@@ -57,6 +58,7 @@ paper	Data Attribution in Large Language Models via Bidirectional Gradient Optim
 paper	Data filtering methods for training language models
 paper	Data Governance and Curation Strategies for Large Foundation Models
 paper	Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for Large Language Model Pretraining
+paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook ⭐⭐⭐⭐⭐
 paper	Data Preparation for Large Language Models
 paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
 paper	Data Science and Technology Towards AGI Part I: Tiered Data Management
@@ -197,6 +199,7 @@ paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practice
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
+paper	Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)
 paper	Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics
 paper	Unified Data Selection for LLM Reasoning
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
@@ -247,6 +250,7 @@ paper	多语言数据质量首获专论
 paper	对多语言数据集构建的启示
 paper	年中淡季，但补漏价值显著
 paper	搜索渠道反思
+paper	搜索渠道退化
 paper	搜索环境说明
 paper	搜索策略改进建议
 paper	数据去重（Deduplication）
@@ -255,6 +259,7 @@ paper	数据构建 (Construction)
 paper	数据构建（Construction）
 paper	数据混合 (Mixing)
 paper	数据混合方法论持续深化
+paper	数据混合方法论进入"综述+统一算法"阶段
 paper	数据混合（Mixing）
 paper	数据策划目标多元化
 paper	数据策划（Curation）
