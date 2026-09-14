@@ -1,13 +1,16 @@
 {
-  "round": 41,
-  "date": "2026-09-06",
-  "search_window": "2026-08-17 to 2026-09-06",
-  "verified_new": 13,
-  "verified_updates": 2,
-  "total_findings": 15,
-  "baseline_names": 494,
-  "reported_names": 519,
-  "report_path": "sources_reports/2026-09-06.md",
-  "verification_method": "HuggingFace API + DuckDuckGo web_search by bee subagent",
-  "note": "Round 41: 15 incremental findings (13 new + 2 updates). STS crosslingual series (8) covering Thai/Burmese/Tamil. Notable: Balochi extremely low-resource dataset. All timeliness: high."
+  "round": 45,
+  "date": "2026-09-15",
+  "search_window": "2026-08-26 to 2026-09-15",
+  "verified_new": 0,
+  "verified_updates": 0,
+  "total_scanned": 17,
+  "baseline_names": 510,
+  "reported_names": 528,
+  "report_path": "sources_reports/2026-09-15.md",
+  "note": "Round 45: 17 incremental items scanned, 0 truly new after dedup against 528 reported names. All datasets already in historical reports. Report generated as confirmation log.",
+  "merge_stats": {
+    "added_to_baseline": 16,
+    "total_baseline": 510
+  }
 }

@@ -48,6 +48,7 @@ paper	Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training
 paper	Coreset 选择
 paper	Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks
 paper	CuBAS: Information Geometric Curvature-Based Adaptive Sampling for Supervised Classification
+paper	CurateEvo: Data-Curation Evolving for Agentic Post-Training
 paper	CurateEvo: Evolutionary Evaluation for Data Curation
 paper	CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Training
 paper	CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-Scale Pretraining Data
@@ -61,6 +62,7 @@ paper	Data Mixing as Mixture Experiment: Response Surface Methodology and Optima
 paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook ⭐⭐⭐⭐⭐
 paper	Data Preparation for Large Language Models
 paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
+paper	Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
 paper	Data Science and Technology Towards AGI Part I: Tiered Data Management
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
 paper	Data Selection and Compression for Efficient Instruction Tuning
@@ -105,6 +107,7 @@ paper	From Instance Selection to Selection Size: The Gap in Dataset Selection (A
 paper	From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution
 paper	GAIA: Generative AI Alignment with Data Selection
 paper	GAIA: Online Data Selection for Instruction Tuning via Gaussian Processes
+paper	GEM: Geometric Entropy Mixing for Optimal LLM Data Curation
 paper	Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification
 paper	GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry
 paper	GitHub 新仓库
@@ -164,6 +167,7 @@ paper	Predicting Training Re-evaluation Curves Enables Effective Data Curriculum
 paper	PRISM: Preference-Aware Influence Function Based Data Selection Method for Efficient Fine-Tuning
 paper	propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale
 paper	Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation
+paper	QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 paper	QuaSR: Quality-Aware Sample Reweighting for Pacific Indigenous Speech Recognition
 paper	R-Select: A Robust Multi-Metric Data Selection Approach for Fine-Tuning LLMs
 paper	Reasoning Quality Emerges Early in Pre-training
@@ -201,6 +205,7 @@ paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐�
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
 paper	Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)
 paper	Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics
+paper	Understanding Data Influence With Differential Approximation (Diff-In)
 paper	Unified Data Selection for LLM Reasoning
 paper	Unified Data Selection for LLM Reasoning (HES: High-Entropy Sum)
 paper	UniGeM: Unifying Data Mixing and Selection via Geometric Exploration and Mining

@@ -1048,6 +1048,113 @@
       ],
       "relevance": "medium",
       "discovery_source": "cailian-survey-2026-09-12"
+    },
+    {
+      "title": "GEM: Geometric Entropy Mixing for Optimal LLM Data Curation",
+      "authors": [
+        "Yue Min et al."
+      ],
+      "url": "https://arxiv.org/abs/2605.26121",
+      "date": "2026-05",
+      "venue": "ICML 2026 Poster",
+      "description": "Reformulates data curation as a variational problem on the hypersphere augmented with a mixing-balance regularizer. Uses MM algorithm to counteract cluster collapse and discover balanced semantic structures. Introduces Geometric Influence Score (GIS) for interpretable taxonomy generation. Integrated with DoReMi and RegMix, improving downstream accuracy by up to 1.2% on 1.1B-parameter models.",
+      "relevance": "data mixing, data curation, geometric approach to optimal data composition",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "CurateEvo: Data-Curation Evolving for Agentic Post-Training",
+      "authors": [
+        "Multiple authors"
+      ],
+      "url": "https://arxiv.org/abs/2607.06140",
+      "date": "2026-07",
+      "venue": "arXiv preprint",
+      "description": "Failure-driven dynamic evolution framework for agentic post-training data curation. Represents curation strategy as executable code, iteratively rewriting it using failed trajectories. Transforms raw corpus into SFT data, RL data, and inference-time memory bank. Improves average scores by 3.2 and 2.7 points on ACEBench-Agent, BFCL-V4, and tau2-Bench.",
+      "relevance": "dynamic data curation, agentic post-training, failure-driven filtering",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training",
+      "authors": [
+        "Jiaxing Wang",
+        "Depeng Xiang",
+        "Jin Xu",
+        "Zirui Liu",
+        "Zicheng Zhang",
+        "Guoqiang Gong",
+        "Jun Fang",
+        "Chao Liu",
+        "Pengzhang Liu",
+        "Tongxuan Liu",
+        "Ke Zhang",
+        "Qixia Jiang"
+      ],
+      "url": "https://arxiv.org/abs/2606.18650",
+      "date": "2026-06",
+      "venue": "arXiv preprint",
+      "description": "Hessian-free framework for data selection that reformulates bi-level optimization as a penalized single-level objective via Lagrange multipliers. Replaces static reference model with dynamic one synchronized with training. Instantiated as a memoryless randomized block-coordinate Frank-Wolfe algorithm for online batch selection.",
+      "relevance": "data selection, influence functions without Hessian, bi-level optimization, online batch selection",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training",
+      "authors": [
+        "Multiple authors"
+      ],
+      "url": "https://aclanthology.org/2026.acl-long.505/",
+      "date": "2026",
+      "venue": "ACL 2026",
+      "description": "Evo-Curate: a dynamic data curation framework that synchronizes sample complexity with the maturing capacity of the LLM during supervised post-training. Evolution-based approach that adapts data curation to training dynamics.",
+      "relevance": "dynamic data curation, curriculum learning, post-training data strategy",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning",
+      "authors": [
+        "ZJunBo et al."
+      ],
+      "url": "https://arxiv.org/abs/2606.00160",
+      "date": "2026-06",
+      "venue": "arXiv preprint",
+      "description": "Identifies safety-degrading samples in benign fine-tuning datasets by quantifying each sample's contribution to model compliance behavior. Three components: Compliance Vector Extraction, Compliance-Aware Score (CAS), and Safety-degrading Sample Filtering. Tested on Llama3-8B, Llama3.1-8B, and Qwen2.5-7B.",
+      "relevance": "safety filtering, data quality for fine-tuning, compliance-aware data selection",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining",
+      "authors": [
+        "Multiple authors"
+      ],
+      "url": "https://arxiv.org/abs/2504.16511",
+      "date": "2026-04",
+      "venue": "arXiv preprint",
+      "description": "Unified data selection framework that jointly optimizes quality and diversity for LLM pretraining. Uses multiple quality criteria and domain classification to measure diversity, with a parameterized sampling function optimized via LightGBM. Achieves 7.2% average improvement across multiple benchmarks.",
+      "relevance": "data selection, quality-diversity trade-off, data mixing optimization",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "Understanding Data Influence With Differential Approximation",
+      "authors": [
+        "Multiple authors"
+      ],
+      "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11421676",
+      "date": "2026",
+      "venue": "IEEE",
+      "description": "Diff-In: Approximates sample influence by accumulating differences in influence between consecutive learning steps using second-order approximations. Achieves lower approximation error than existing influence estimators while maintaining computational complexity comparable to first-order methods. Scales to millions of data points for vision-language pre-training.",
+      "relevance": "influence functions, data attribution, scalable data influence estimation",
+      "discovery_method": "SearXNG search"
+    },
+    {
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "authors": [
+        "Multiple authors"
+      ],
+      "url": "https://arxiv.org/abs/2609.11917",
+      "date": "2026-09-10",
+      "venue": "arXiv preprint (cs.LG cross-listed cs.CL)",
+      "description": "Studies data repetition effects on MoE vs dense models (80M to 1B active/8.5B total parameters). Finds MoEs degrade more rapidly under data repetition, starting to suffer at 4x vs dense models tolerating 8x. Expert specialization correlates with overfitting. Dropout and masking-based regularization can partially mitigate overfitting but no method fully matches all-unique data performance.",
+      "relevance": "data repetition, data exhaustion implications, training data quality for sparse models",
+      "discovery_method": "arXiv new listings Sept 11, 2026"
     }
   ],
   "tools_and_repos": [

@@ -1,3 +1,4 @@
+15juneee/agriculture-advisor-adapted-multilingual-v1 (v1)
 abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
 AdaMame Multilingual Reasoning Traces
 adivaanihf/adivaani-tribal-parallel-corpus
@@ -41,6 +42,7 @@ BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
 BenchMAX
 BENI Global 10
+BENI Global 10 (v1.0)
 BENI Global 10 - Multilingual Economic Narrative Corpus 📄
 Benji-fish/ethiopian-languages-speech-dataset
 Beyond Pass Rate (Multilingual Code LLM Evaluation)
@@ -140,9 +142,11 @@ FinNLP-2026 Shared Tasks
 FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
 FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
 ForMaT (Format-Preserving Multilingual Translation)
+Fujitsu-FRE/MAPS (v1.0)
 fxmeng/UltraData-SFT-2605-32k-200k
 g1moon/XIH-Bench 🔥⭐ Top 10 候选
 GAIA-v2-LILT — Multilingual Agent Benchmark Beyond Translation 📄
+GaoYao (v1.0)
 GaoYao Benchmark (ACL 2026 主会)
 GhanaNLP Multilingual Emotion
 GigaSpeechBench
@@ -179,6 +183,7 @@ IndicSafe
 inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b
 infini-news-corpus — 52 语言新闻预训练语料 🔥
 iNLP-Lab/GlobeAudio
+iNLP-Lab/GlobeAudio (v1.0)
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
@@ -239,7 +244,9 @@ MAPS (Multilingual Agent Performance & Security Benchmark)
 MARUCIE/babel-bench 🔥
 MAST 100K Corpus 2026
 mast-benchmark/multilingual-queries-2026
+mast-benchmark/multilingual-queries-2026 (2026 版)
 masterofaudio2077/filtered-multilingual-pii
+masterofaudio2077/filtered-multilingual-pii (v1.1.0)
 Math-PT — Portuguese Math Reasoning Benchmark 📄
 MathMist
 MathNet
@@ -327,6 +334,7 @@ NLPCC 2026 DA-MIVQA ⭐
 nur-dev/farabi-crosslingual-tool-argnorm
 nvidia/Nemotron-CC-v2
 nvidia/Nemotron-CC-v2 🔥
+nvidia/Nemotron-SFT-Agentic-v2 (v2)
 nvidia/Nemotron-SFT-Multilingual-v2
 NyayaBench v2
 Obotu/final_multilingual_sft
@@ -487,6 +495,7 @@ vojewale/Cross-lingualIFEval ⭐
 VoxENES 2026
 WAXAL
 WebFAQ 2.0
+WebFAQ 2.0 (v2.0)
 WILA-popQA
 Wismut/nym-pii-multilingual-data
 WMT26 General MT Test Data
