@@ -1155,6 +1155,457 @@
       "description": "Studies data repetition effects on MoE vs dense models (80M to 1B active/8.5B total parameters). Finds MoEs degrade more rapidly under data repetition, starting to suffer at 4x vs dense models tolerating 8x. Expert specialization correlates with overfitting. Dropout and masking-based regularization can partially mitigate overfitting but no method fully matches all-unique data performance.",
       "relevance": "data repetition, data exhaustion implications, training data quality for sparse models",
       "discovery_method": "arXiv new listings Sept 11, 2026"
+    },
+    {
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2607.24717",
+      "date": "2026-07-27",
+      "venue": "arXiv",
+      "abstract": "Pretraining data processing is critical to LLM performance. Many existing approaches define a fixed processing strategy at the corpus or domain level, without adapting to the needs of each example. DataOrchestra learns per-example curation strategies including filtering and rewriting.",
+      "tags": [
+        "data curation",
+        "per-example",
+        "pretraining",
+        "filtering",
+        "rewriting"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Greedy Information Projection for LLM Data Selection",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2603.13790",
+      "date": "2026-03-14",
+      "venue": "arXiv",
+      "abstract": "GIP casts data selection as maximizing mutual information between a subset of examples and task-specific query signals, providing a principled framework for choosing training examples for LLM fine-tuning.",
+      "tags": [
+        "data selection",
+        "information theory",
+        "mutual information",
+        "fine-tuning"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Capacity-Aware Mixture Law Enables Efficient LLM Data Optimization",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2603.08022",
+      "date": "2026-03-09",
+      "venue": "arXiv",
+      "abstract": "Proposes a data mixture scaling law that captures the interaction between model size and data mixtures, enabling efficient optimization without expensive proxy training.",
+      "tags": [
+        "data mixing",
+        "scaling law",
+        "model capacity",
+        "mixture optimization"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2502.01968",
+      "date": "2025-02-04",
+      "venue": "arXiv",
+      "abstract": "Goes beyond traditional sample-level data cleaning by proposing a generic token cleaning pipeline and analytical framework for LLM SFT, filtering non-task-related tokens within samples.",
+      "tags": [
+        "token-level",
+        "data cleaning",
+        "fine-tuning",
+        "fine-grained selection"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2506.04689",
+      "date": "2025-06-05",
+      "venue": "arXiv",
+      "abstract": "Takes moderate-quality documents and prompts an LLM to rewrite them, enhancing both data quality and quantity for pre-training. Addresses the data wall problem by recycling web data.",
+      "tags": [
+        "data rewriting",
+        "web data",
+        "pre-training",
+        "data quality"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "TBDFiltering: Sample-Efficient Tree-Based Data Filtering",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2601.22016",
+      "date": "2026-01-29",
+      "venue": "arXiv",
+      "abstract": "Proposes tree-based data filtering that is more sample-efficient than querying LLMs for quality scoring, addressing the scalability challenge of filtering billions of documents.",
+      "tags": [
+        "data filtering",
+        "tree-based",
+        "sample efficiency",
+        "scalability"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "MergeMix: Optimizing Mid-Training Data Mixtures via Learnable Model Merging",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2601.17858",
+      "date": "2026-01-25",
+      "venue": "arXiv",
+      "abstract": "Determines optimal data mixing ratios by repurposing model merging, avoiding expensive proxy training runs for mixture optimization.",
+      "tags": [
+        "data mixing",
+        "model merging",
+        "mid-training",
+        "mixture optimization"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "SELECting over Tokens: Curating Pre-training Data at Scale via Token Classification",
+      "authors": "Unknown",
+      "url": "https://aclanthology.org/2026.acl-long.2219/",
+      "date": "2026",
+      "venue": "ACL 2026",
+      "abstract": "Proposes token-level classification for pre-training data curation, going beyond document-level filtering to enable fine-grained data selection across three distinct data preparation scenarios.",
+      "tags": [
+        "token classification",
+        "data curation",
+        "pre-training",
+        "fine-grained"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Murating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining",
+      "authors": "Unknown",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6e54c0fb5c8be96b92055f6a3b6b2d6f-Abstract-Conference.html",
+      "date": "2025",
+      "venue": "NeurIPS 2025",
+      "abstract": "Combines heuristic-based filtering and LLM-guided quality evaluation for multilingual data selection, demonstrating reliable performance for large-scale multilingual data curation.",
+      "tags": [
+        "data selection",
+        "multilingual",
+        "quality filtering",
+        "LLM-guided"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "LLM Data Selection and Utilization via Dynamic Bi-level Optimization",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2507.16178",
+      "date": "2025-07-22",
+      "venue": "arXiv",
+      "abstract": "Strategically selecting high-quality data via dynamic bi-level optimization to enhance training efficiency and reduce computational costs for LLM development.",
+      "tags": [
+        "data selection",
+        "bi-level optimization",
+        "dynamic",
+        "efficiency"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2508.21589",
+      "date": "2025-08-29",
+      "venue": "arXiv",
+      "abstract": "Addresses limitations of static dataset curation by proposing dynamic, model-informed data optimization for SFT via closed-loop learning that adapts to evolving model needs.",
+      "tags": [
+        "dynamic optimization",
+        "fine-tuning",
+        "closed-loop",
+        "model-informed"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Selection of LLM Fine-tuning Data Based on Orthogonal Rules",
+      "authors": "Unknown",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40444",
+      "date": "2026",
+      "venue": "AAAI 2026",
+      "abstract": "Automated framework for rule-based data selection using orthogonal rules and DPP-based selection, combining rule rating with diversity-aware subset selection.",
+      "tags": [
+        "data selection",
+        "orthogonal rules",
+        "DPP",
+        "automated"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Beyond Random Sampling: Efficient Language Model Pretraining via Curriculum Learning",
+      "authors": "Unknown",
+      "url": "https://aclanthology.org/2026.eacl-long.271/",
+      "date": "2026",
+      "venue": "EACL 2026",
+      "abstract": "Systematic investigation of curriculum learning in LLM pretraining, studying pacing-based sampling, interleaved curricula, and combinations of curriculum strategies with difficulty metrics.",
+      "tags": [
+        "curriculum learning",
+        "pretraining",
+        "pacing",
+        "difficulty metrics"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning",
+      "authors": "Unknown",
+      "url": "https://aclanthology.org/2026.acl-long.1591/",
+      "date": "2026",
+      "venue": "ACL 2026",
+      "abstract": "Challenges the notion of a universal curriculum for math reasoning, finding that model-uncertain samples can further enhance learning outcomes.",
+      "tags": [
+        "curriculum learning",
+        "mathematical reasoning",
+        "data ordering",
+        "uncertainty"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "How Learning Rate Decay Wastes Your Best Data in Curriculum-based LLM Pretraining",
+      "authors": "Unknown",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee5f133b91392345087a2ec7e0ed44d1-Abstract-Conference.html",
+      "date": "2026",
+      "venue": "ICLR 2026",
+      "abstract": "Underscores the potential of co-designing data curricula with learning rate schedules, showing that standard LR decay can waste high-quality curriculum data.",
+      "tags": [
+        "curriculum learning",
+        "learning rate",
+        "data efficiency",
+        "pretraining"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Open LLM Projects Should Allocate More Compute for Data Than Training",
+      "authors": "Unknown",
+      "url": "https://openreview.net/forum?id=YdvGgmIJRH",
+      "date": "2026",
+      "venue": "ICLR 2026 DATA-FM Workshop",
+      "abstract": "Argues that data curation should be the most expensive part of LLM development from a compute allocation perspective, advocating for fair compensation to data creators.",
+      "tags": [
+        "data compute",
+        "resource allocation",
+        "position paper",
+        "data creators"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization Than Offline Methods",
+      "authors": "Unknown",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b77e87be2a7caca996da3c79191e2e88-Abstract-Conference.html",
+      "date": "2026",
+      "venue": "ICLR 2026",
+      "abstract": "Shows that data selection, mixing, and balancing can all be expressed as special cases of data reweighting, and that dynamic in-training adjustment of data weights offers better generalization.",
+      "tags": [
+        "data reweighting",
+        "online learning",
+        "generalization",
+        "data curation"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-resistant Safeguards into Open-weight LLMs",
+      "authors": "Unknown",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bf80b34f731313b8292f4578e820c90-Abstract-Conference.html",
+      "date": "2026",
+      "venue": "ICLR 2026",
+      "abstract": "Demonstrates that filtering biothreat proxy text from LLM training data yields models that are both bio-benign and tamper-resistant, a novel safety-by-data-curation approach.",
+      "tags": [
+        "data filtering",
+        "safety",
+        "tamper-resistance",
+        "biosecurity"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "LangGPS: Language Separability Guided Data Pre-Selection for Joint Multilingual Instruction Tuning",
+      "authors": "Unknown",
+      "url": "https://doi.org/10.1609/aaai.v40i40.40743",
+      "date": "2026",
+      "venue": "AAAI 2026",
+      "abstract": "Addresses the sensitivity of multilingual instruction-following to data composition, proposing language separability as a guide for data pre-selection in joint multilingual tuning.",
+      "tags": [
+        "data selection",
+        "multilingual",
+        "language separability",
+        "instruction tuning"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Go4RL: Improving the Pre-training Data Mixture of Large Language Models for Enhancing Reinforcement Learning",
+      "authors": "Unknown",
+      "url": "https://openreview.net/forum?id=PIxyvNPhSh",
+      "date": "2026",
+      "venue": "OpenReview",
+      "abstract": "Formulates finding optimal pre-training dataset mixing ratios for RL as an optimization problem, identifying mixtures that yield the best LLM performance after both pre-training and RL.",
+      "tags": [
+        "data mixing",
+        "reinforcement learning",
+        "pre-training",
+        "mixture optimization"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Quality-Aware Selection for Retrieval-Augmented Fine-Tuning of Small Language Models",
+      "authors": "Unknown",
+      "url": "https://doi.org/10.3390/math14173026",
+      "date": "2026",
+      "venue": "MDPI Mathematics",
+      "abstract": "Contributes quality-aware selection methods for RAFT training data, addressing the variability in synthetic training data quality from commercial LLMs for small language models.",
+      "tags": [
+        "data selection",
+        "retrieval-augmented",
+        "quality-aware",
+        "small language models"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study",
+      "authors": "Unknown",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3844732",
+      "date": "2026",
+      "venue": "ACM",
+      "abstract": "Empirical study evaluating the effectiveness of training data optimization methods for code generation, providing practical guidance on when data selection helps.",
+      "tags": [
+        "data optimization",
+        "code generation",
+        "empirical study"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "On Causal and Anticausal LLM-based Data Synthesis",
+      "authors": "Unknown",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3773966.3779380",
+      "date": "2026",
+      "venue": "ACM",
+      "abstract": "Analyzes causal vs anticausal synthetic data for fine-tuning, finding that anticausal synthetic data consistently degrades performance on pretrained tasks.",
+      "tags": [
+        "synthetic data",
+        "data synthesis",
+        "causal analysis",
+        "fine-tuning"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Synthetic Eggs in Many Baskets: The Impact of Synthetic Data Diversity on LLM Fine-Tuning",
+      "authors": "Unknown",
+      "url": "https://aclanthology.org/2026.findings-acl.360/",
+      "date": "2026",
+      "venue": "ACL 2026 Findings",
+      "abstract": "Studies how the diversity of synthetic data sources impacts fine-tuned LLM performance, relevant for both pretraining and post-training data strategies.",
+      "tags": [
+        "synthetic data",
+        "data diversity",
+        "fine-tuning",
+        "source diversity"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "How Can Synthetic Data Improve Multilingual Language Model Pretraining? A Data Quality Perspective",
+      "authors": "Unknown",
+      "url": "https://aclanthology.org/2026.acl-long.1002/",
+      "date": "2026",
+      "venue": "ACL 2026",
+      "abstract": "Proposes methods to use LLM-based translation and synthetic data generation to improve multilingual pretraining, analyzing data quality implications.",
+      "tags": [
+        "synthetic data",
+        "multilingual",
+        "pretraining",
+        "data quality"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "On Data Engineering for Scaling LLM Terminal Capabilities",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2602.21193",
+      "date": "2026-02-24",
+      "venue": "arXiv",
+      "abstract": "Systematic study of data engineering for terminal agents, including Terminal-Task-Gen, a lightweight synthetic task generation pipeline for LLM terminal capabilities.",
+      "tags": [
+        "data engineering",
+        "terminal capabilities",
+        "synthetic data",
+        "pipeline"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "DUMP: Distribution-Level Curriculum Learning for RL-based LLM Post-training",
+      "authors": "Unknown",
+      "url": "https://openreview.net/forum?id=ILjb8TnGJa",
+      "date": "2026",
+      "venue": "OpenReview (ICLR 2026 under review)",
+      "abstract": "Curriculum learning framework with GRPO for reasoning datasets with multiple difficulties and sources, using UCB-based curriculum scheduling.",
+      "tags": [
+        "curriculum learning",
+        "reinforcement learning",
+        "post-training",
+        "reasoning"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data",
+      "authors": "Unknown",
+      "url": "https://arxiv.org/abs/2601.17717",
+      "date": "2026-01-23",
+      "venue": "arXiv",
+      "abstract": "Comprehensive survey on evaluating quality and trustworthiness in LLM-generated data, covering data quality dimensions, evaluation methods, and pretraining data filtering approaches.",
+      "tags": [
+        "survey",
+        "data quality",
+        "trustworthiness",
+        "LLM-generated data"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Unifying Data, Memory, and Compute Efficiency in LLM Training: A Survey",
+      "authors": "Unknown",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11558412/",
+      "date": "2026",
+      "venue": "IEEE",
+      "abstract": "Unified survey on LLM efficiency covering data filtering, curriculum learning, and the interplay between data quality, memory, and compute efficiency.",
+      "tags": [
+        "survey",
+        "efficiency",
+        "data filtering",
+        "curriculum learning",
+        "compute"
+      ],
+      "status": "new"
+    },
+    {
+      "title": "Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective",
+      "authors": "Unknown",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40408",
+      "date": "2026",
+      "venue": "AAAI 2026",
+      "abstract": "Proposes sampling based on model competence and problem difficulty alignment for RL-based LLM reasoning, with curriculum sampling showing improvements.",
+      "tags": [
+        "data sampling",
+        "reinforcement learning",
+        "reasoning",
+        "difficulty alignment"
+      ],
+      "status": "new"
     }
   ],
   "tools_and_repos": [
@@ -1307,6 +1758,50 @@
       "stars": "2",
       "last_updated": "2026-09-09",
       "category": "filtering"
+    },
+    {
+      "name": "CodeForge-Agent",
+      "url": "https://github.com/NoGamble/CodeForge-Agent",
+      "description": "Agentic Data Curation Pipeline built with LangChain for filtering, deduplicating, and extracting high-quality Python pre-training data for LLMs.",
+      "stars": 3,
+      "last_updated": "2026-08-12",
+      "tags": [
+        "data curation",
+        "filtering",
+        "deduplication",
+        "LangChain",
+        "Python"
+      ],
+      "status": "new"
+    },
+    {
+      "name": "nemo-curator-training-data",
+      "url": "https://github.com/backblaze-b2-samples/nemo-curator-training-data",
+      "description": "Curate LLM pretraining and fine-tuning data with NVIDIA NeMo Curator — multi-stage dedup, quality-filter, PII-redact pipeline writing versioned JSONL corpora to Backblaze B2.",
+      "stars": 0,
+      "last_updated": "2026-07-31",
+      "tags": [
+        "NeMo Curator",
+        "deduplication",
+        "quality filtering",
+        "PII",
+        "pipeline"
+      ],
+      "status": "new"
+    },
+    {
+      "name": "ptbr-cpt-data-ablation",
+      "url": "https://github.com/pedrohpgadelha/ptbr-cpt-data-ablation",
+      "description": "Controlled data-curation ablation study (deduplication and quality/repetition filtering) for continued pre-training of a small Portuguese LLM.",
+      "stars": 0,
+      "last_updated": "2026-07-16",
+      "tags": [
+        "data curation",
+        "ablation study",
+        "Portuguese",
+        "continued pretraining"
+      ],
+      "status": "new"
     }
   ],
   "blog_posts_and_tutorials": [

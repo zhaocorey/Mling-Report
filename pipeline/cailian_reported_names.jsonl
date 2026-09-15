@@ -288,6 +288,15 @@ paper	📌 Mixing — 数据混合
 paper	📌 Quality — 质量评估
 paper	📌 Sampling — 采样策略
 paper	📌 Selection — 数据选择
+paper	📌 其他方向
+paper	📌 合成数据 / Synthetic Data
+paper	📌 多语言专项 / Multilingual
+paper	📌 安全与对齐 / Safety & Alignment
+paper	📌 数据混合 / Data Mixing
+paper	📌 数据策展 / Data Curation
+paper	📌 数据选择 / Data Selection
+paper	📌 综述 / Surveys
+paper	📌 课程学习 / Curriculum Learning
 paper	📖 必读论文 Top 5
 paper	🔥 值得深入研究的方向
 paper	🛠️ 建议纳入 pipeline 的工具
@@ -322,6 +331,7 @@ tool	LMData — Distributed Orchestration for LLM Training Data Curation
 tool	LZE (Learning-Zone Energy)
 tool	Microsoft Data-Efficacy (STR/SAW)
 tool	MIRA (Mid-training Rubric Anchoring)
+tool	nemo-curator-training-data
 tool	NVIDIA NeMo Curator
 tool	Open Distillation Datasets
 tool	Pharmacist
