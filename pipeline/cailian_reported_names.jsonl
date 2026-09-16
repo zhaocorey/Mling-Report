@@ -37,6 +37,7 @@ paper	Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Se
 paper	BLADE: Scalable Bi-level Adaptive Data Selection for LLM Training
 paper	Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs via Data Curation
 paper	BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs
+paper	Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning
 paper	Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs
 paper	Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice ⭐⭐⭐⭐
 paper	Capacity-Dependent Effects of Data Selection for Reasoning
@@ -55,6 +56,7 @@ paper	CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-
 paper	Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LLMs Beyond the Base Model
 paper	Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning (E2H Reasoner)
 paper	DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data
+paper	Data Attribution at Scale via Influence Matrix Estimation
 paper	Data Attribution in Large Language Models via Bidirectional Gradient Optimization
 paper	Data filtering methods for training language models
 paper	Data Governance and Curation Strategies for Large Foundation Models
@@ -101,6 +103,7 @@ paper	Epiplexity Guided Data Selection and Generation for Out-of-Distribution Ge
 paper	EvoData: A Framework for Grounded Evaluation of Data Synthesis for SFT
 paper	Fidelity-Diversity Metrics for Data Selection
 paper	Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tuning
+paper	FORGE: Failure-Guided Co-Evolution of Prompts and Training Data
 paper	From Data-Centric to Sample-Centric: Enhancing LLM Reasoning via Progressive Optimization (LPPO)
 paper	From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning
 paper	From Instance Selection to Selection Size: The Gap in Dataset Selection (ACL 2026)
@@ -153,6 +156,8 @@ paper	MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection
 paper	MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 paper	NAIT: Neuron-Aware Data Selection in Instruction Tuning for Large Language Models
 paper	Neuron-Guided Fine-Tuning (NGFT): Unlocking Efficient Alignment Mechanisms for Large Language Models
+paper	Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training
+paper	OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration
 paper	On Representation Redundancy in Large-Scale Instruction Tuning Data Selection
 paper	On the Difficulty of Learning a Meta-network for Training Data Selection (MTS Analysis)
 paper	Online Data Selection Is Implicit Alignment
@@ -189,6 +194,8 @@ paper	SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Se
 paper	SIEVE: Streaming Inference for Efficient Verification and Evaluation
 paper	Simula: Reasoning-Driven Synthetic Data Generation and Evaluation
 paper	SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning
+paper	Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data
+paper	SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data
 paper	Tailoring the Curriculum: Student-Centered Reasoning Distillation via Dynamic Data-Model Compatibility ⭐⭐⭐
 paper	TBDFiltering: Sample-Efficient Tree-Based Data Filtering
 paper	The Announcement Carries the Cue: Markup, Boundaries, and the Notation of Pre-Training Corpora
@@ -254,6 +261,7 @@ paper	增量窗口说明
 paper	多语言数据质量首获专论
 paper	对多语言数据集构建的启示
 paper	年中淡季，但补漏价值显著
+paper	搜索渠道
 paper	搜索渠道反思
 paper	搜索渠道退化
 paper	搜索环境说明
