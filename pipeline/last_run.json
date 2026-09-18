@@ -1,16 +1,16 @@
 {
-  "round": 45,
-  "date": "2026-09-15",
-  "search_window": "2026-08-26 to 2026-09-15",
+  "round": 46,
+  "date": "2026-09-18",
+  "search_window": "2026-08-29 to 2026-09-18",
   "verified_new": 0,
   "verified_updates": 0,
-  "total_scanned": 17,
+  "total_scanned": 16,
   "baseline_names": 510,
   "reported_names": 528,
-  "report_path": "sources_reports/2026-09-15.md",
-  "note": "Round 45: 17 incremental items scanned, 0 truly new after dedup against 528 reported names. All datasets already in historical reports. Report generated as confirmation log.",
+  "report_path": "sources_reports/2026-09-18.md",
+  "note": "Round 46: Bee found 16 items but all already in historical reports. 0 truly new after dedup. Report generated as confirmation log.",
   "merge_stats": {
-    "added_to_baseline": 16,
+    "added_to_baseline": 0,
     "total_baseline": 510
   }
 }

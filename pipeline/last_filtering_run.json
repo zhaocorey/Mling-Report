@@ -1,4 +1,20 @@
 {
-  "last_run": "2026-09-13T09:09:42.362563+08:00",
-  "source": "dataset_filtering_survey/2026-09-13.md"
+  "date": "2026-09-18",
+  "timestamp": "2026-09-18T23:09:00+08:00",
+  "status": "success",
+  "new_papers": 20,
+  "new_tools": 0,
+  "new_blogs": 3,
+  "total_papers": 155,
+  "total_tools": 26,
+  "total_blogs": 11,
+  "report_file": "dataset_filtering_survey/2026-09-18.md",
+  "github_commit": "pending",
+  "actions_completed": [
+    "baseline_merge",
+    "incremental_file_copy",
+    "report_generation",
+    "dedup_index_rebuild"
+  ],
+  "notes": "2 new publications (Sep 17) + 18 baseline misses. Report generated and dedup index updated."
 }
