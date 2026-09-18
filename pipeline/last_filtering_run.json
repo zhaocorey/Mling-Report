@@ -9,12 +9,13 @@
   "total_tools": 26,
   "total_blogs": 11,
   "report_file": "dataset_filtering_survey/2026-09-18.md",
-  "github_commit": "pending",
+  "github_commit": "6c36c6e",
   "actions_completed": [
     "baseline_merge",
     "incremental_file_copy",
     "report_generation",
-    "dedup_index_rebuild"
+    "dedup_index_rebuild",
+    "github_push"
   ],
   "notes": "2 new publications (Sep 17) + 18 baseline misses. Report generated and dedup index updated."
 }
