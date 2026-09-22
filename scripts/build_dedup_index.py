@@ -72,7 +72,7 @@ def load_sources():
     with open(SOURCES_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
     entries = {}
-    for src in data.get("sources", []):
+    for src in data.get("sources", data.get("datasets", [])):
         name = src.get("name", "").strip()
         if not name:
             continue

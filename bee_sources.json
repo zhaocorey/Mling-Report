@@ -1886,19 +1886,14 @@
       "name": "DimABSA",
       "url": "https://arxiv.org/abs/2601.23022",
       "languages": [
-        "en",
-        "zh",
-        "ja",
-        "ko",
-        "de",
-        "es"
+        "6种语言（具体未确认，含英语）"
       ],
-      "size": "76,958 aspect instances across 42,590 sentences",
-      "license": "未明确标注（SemEval-2026 Task 3数据集）",
-      "category": "评估",
-      "description": "SemEval-2026 Task 3 数据集。首个多语言多维度方面级情感分析（ABSA）资源，同时标注传统ABSA元素（方面词、方面类别、意见词）和连续效价-唤醒（VA）情感分数。覆盖6种语言、4个领域、76,958个方面实例。引入新的连续F1（cF1）指标，统一评估分类和连续输出。吸引了超过300名参赛者。",
+      "size": "76,958 aspect instances, 42,590 sentences, 4 domains",
+      "license": "未知",
+      "category": "评估/情感分析",
+      "description": "首个多语言维度方面级情感分析资源。采用连续效价-唤醒(VA)分数替代传统分类标签，覆盖6种语言和4个领域。作为SemEval-2026 Task 3 Track A的官方数据集，吸引300+参与者。提出新的连续F1(cF1)统一度量。",
       "discovered_date": "2026-06-20",
-      "last_updated": "2026-08-11",
+      "last_updated": "2026-09-01",
       "release_version": "SemEval-2026 Task 3 (arXiv:2601.23022)",
       "timeliness_score": "中",
       "search_keywords": "DimABSA multilingual sentiment SemEval 2026",
@@ -9721,7 +9716,7 @@
     {
       "name": "ketanmore/LLaVA-Pretrain-558k-10-African-Languages",
       "url": "https://huggingface.co/datasets/ketanmore/LLaVA-Pretrain-558k-10-African-Languages",
-      "description": "LLaVA pretraining data (558k samples) translated to 10 African languages (Tumbuka, Northern Sotho, Twi, Chichewa, Igbo, etc.) for multilingual VLM training",
+      "description": "LLaVA pretraining data expanded to 10 African languages (Tumbuka, Northern Sotho, Twi, Nyanja, Igbo and more). 558K multimodal examples. Updated 2026-09-22.",
       "languages": [
         "tum",
         "nso",
@@ -9734,10 +9729,11 @@
       "size": "558K samples, 10 African languages",
       "downloads": 115,
       "likes": 0,
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-09-22",
       "discovered_date": "2026-08-26",
       "source": "HuggingFace API (African language search)",
-      "timeliness": "高"
+      "timeliness": "高",
+      "release_version": "version-update"
     },
     {
       "name": "Multilingual-Multimodal-NLP/AutoMemoryBench",
@@ -9908,19 +9904,12 @@
         "en",
         "bn",
         "de",
-        "es",
-        "fr",
-        "ja",
-        "ru",
-        "sw",
-        "te",
-        "th",
-        "zh"
+        "multilingual"
       ],
-      "size": "261,160 rows (64,384 with worked solutions)",
-      "license": "CC-BY-4.0",
+      "size": "数学训练数据池",
+      "license": "未知",
       "category": "微调/数学推理",
-      "description": "Grade-school math word problems in 11 languages. Aggregates 4 public datasets (GSM8K, MGSM, etc.) with provenance tracking. Each row has question, numeric answer, optional worked solution, language tag, and source metadata. Rows without solutions usable with verifier.",
+      "description": "多语言小学数学训练数据池，覆盖英语、孟加拉语、德语等多种语言。作为Emulated-Inc多语言训练数据系列的数学推理子集，用于训练多语言数学推理能力。",
       "discovered_date": "2026-09-15",
       "last_updated": "2026-09-11",
       "release_version": "v1.0",
@@ -10219,11 +10208,511 @@
       "search_keywords": "dehumanisation multilingual EMNLP",
       "source": "GitHub API (updated search)",
       "github_stars": 0
+    },
+    {
+      "name": "heretic-org/Multilingual-Harmless-Harmful",
+      "url": "https://huggingface.co/datasets/heretic-org/Multilingual-Harmless-Harmful",
+      "languages": [
+        "bn",
+        "en",
+        "hi",
+        "mr",
+        "fr",
+        "it",
+        "ru",
+        "ta",
+        "ko"
+      ],
+      "size": "~7,500 samples (416 harmful + 416 harmless per language, 9 languages)",
+      "license": "CC-BY-SA-4.0",
+      "category": "安全",
+      "description": "多语言无害/有害提示对数据集，覆盖9种语言。每种语言包含有害和无害提示各416条，附带英文参考翻译。用于安全对齐研究和abliteration技术评估。"
+    },
+    {
+      "name": "Nailyk14/prompt-safety-multilingual",
+      "url": "https://huggingface.co/datasets/Nailyk14/prompt-safety-multilingual",
+      "languages": [
+        "en",
+        "fr",
+        "de",
+        "es"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "安全",
+      "description": "多语言提示安全分类数据集，覆盖英语、法语、德语和西班牙语。用于训练和评估LLM的提示安全分类器。"
+    },
+    {
+      "name": "SignNet-1M",
+      "url": "https://github.com/openhe-hub/SignNet-1M",
+      "languages": [
+        "multilingual sign languages"
+      ],
+      "size": "~1M video clips",
+      "license": "未知",
+      "category": "评估/视频",
+      "description": "ECCV 2026发布的约100万片段多语言手语视频数据集。用于大规模手语识别和理解研究，是当前最大规模的多语言手语数据集之一。"
+    },
+    {
+      "name": "naver-ai/UGTPHON",
+      "url": "https://github.com/naver-ai/UGTPHON",
+      "languages": [
+        "multilingual grapheme-to-phoneme"
+      ],
+      "size": "多语言G2P基准",
+      "license": "未知",
+      "category": "评估/语音",
+      "description": "EMNLP 2026 Findings发布的多语言字素到音素(G2P)转换基准。由Naver AI开发，用于评估多语言G2P系统的跨语言泛化能力。"
+    },
+    {
+      "name": "Last Translation Benchmark (LTBv1)",
+      "url": "https://arxiv.org/abs/2609.04173",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "持续增长的活跃数据集",
+      "license": "未知",
+      "category": "评估/翻译",
+      "description": "arXiv 2609.04173发布的翻译基准，收录人工撰写并同行评审的翻译难题示例（含文本、图片、音频、视频），每个示例附带手工验证规则。LTBv1版本收录2026年9月1日前的贡献，持续接收新投稿。用于测试领先MT模型的翻译极限。"
+    },
+    {
+      "name": "AbjadAuthorID",
+      "url": "https://pdfs.semanticscholar.org/1b06/7f0e3541ec5b2012b19726221978c4ed842f.pdf",
+      "languages": [
+        "ar",
+        "ur",
+        "ku"
+      ],
+      "size": "多作者文学文本分类",
+      "license": "未知",
+      "category": "评估/作者识别",
+      "description": "EACL 2026 AbjadNLP Workshop的多语言作者归属识别共享任务。覆盖现代标准阿拉伯语、乌尔都语和库尔德语，针对阿拉伯字母书写语言的跨语言作者识别基准。"
+    },
+    {
+      "name": "m-elio/madove-multilingual-train",
+      "url": "https://huggingface.co/datasets/m-elio/madove-multilingual-train",
+      "languages": [
+        "de",
+        "it",
+        "fr",
+        "es"
+      ],
+      "size": "多模态训练集",
+      "license": "Apache-2.0",
+      "category": "微调/多模态",
+      "description": "多语言视觉语言理解(VLU)训练数据集，覆盖德语、意大利语、法语和西班牙语。包含配套的GPT生成测试集和人工评估测试集，用于评估多模态模型的跨语言理解能力。"
+    },
+    {
+      "name": "failed09/bashkir-multilingual-phrasebooks",
+      "url": "https://huggingface.co/datasets/failed09/bashkir-multilingual-phrasebooks",
+      "languages": [
+        "ba",
+        "ru",
+        "en"
+      ],
+      "size": "三语平行短语手册",
+      "license": "CDLA-Permissive-2.0",
+      "category": "平行语料",
+      "description": "巴什基尔语-俄语-英语三语平行短语手册数据集，基于bashkorttele/trilingual-parallel-phrasebooks-bgpu构建。为巴什基尔语（低资源突厥语族语言）的NLP研究提供平行训练数据。"
+    },
+    {
+      "name": "avirambo/cci-multilingualrules-canonical-dataset",
+      "url": "https://huggingface.co/datasets/avirambo/cci-multilingualrules-canonical-dataset",
+      "languages": [
+        "en",
+        "am",
+        "de",
+        "hi",
+        "ig"
+      ],
+      "size": "规范数据集",
+      "license": "未知",
+      "category": "评估/规则跟随",
+      "description": "多语言规则跟随评估数据集，覆盖英语、阿姆哈拉语、德语、印地语和伊博语。包含规范数据集、模型推理响应和激活值等配套数据集，用于评估LLM的跨语言规则遵循能力。"
+    },
+    {
+      "name": "danielelvs/multilingual-islr-mediapipe",
+      "url": "https://huggingface.co/datasets/danielelvs/multilingual-islr-mediapipe",
+      "languages": [
+        "bzs",
+        "ins",
+        "kvk"
+      ],
+      "size": "视频分类数据集",
+      "license": "MIT",
+      "category": "评估/视频",
+      "description": "基于MediaPipe提取的多语言孤立手语识别(ISLR)视频分类数据集，覆盖巴西手语(bzs)、印尼手语(ins)和肯尼亚手语(kvK)三种手语。"
+    },
+    {
+      "name": "puttatidam/multilingual-sentiment-vie-classification",
+      "url": "https://huggingface.co/datasets/puttatidam/multilingual-sentiment-vie-classification",
+      "languages": [
+        "vi"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "评估/情感分析",
+      "description": "越南语情感分类数据集，10K-100K规模。作为多语言情感评估系列的一部分，用于评估LLM的越南语情感理解能力。"
+    },
+    {
+      "name": "puttatidam/multilingual-sentiment-tha-classification",
+      "url": "https://huggingface.co/datasets/puttatidam/multilingual-sentiment-tha-classification",
+      "languages": [
+        "th"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "评估/情感分析",
+      "description": "泰语情感分类数据集，10K-100K规模。作为多语言情感评估系列的一部分，用于评估LLM的泰语情感理解能力。"
+    },
+    {
+      "name": "puttatidam/multilingual-sentiment-ind-classification",
+      "url": "https://huggingface.co/datasets/puttatidam/multilingual-sentiment-ind-classification",
+      "languages": [
+        "id"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "评估/情感分析",
+      "description": "印尼语情感分类数据集，10K-100K规模。作为多语言情感评估系列的一部分，用于评估LLM的印尼语情感理解能力。"
+    },
+    {
+      "name": "Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages",
+      "url": "https://huggingface.co/datasets/Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages",
+      "languages": [
+        "de",
+        "fr",
+        "pt",
+        "it",
+        "es",
+        "+16种语言"
+      ],
+      "size": "500,000张图片",
+      "license": "未知",
+      "category": "评估/OCR",
+      "description": "大规模多语言OCR数据集，包含21种语言的50万张文档图片。用于训练和评估多语言OCR系统，覆盖欧洲、亚洲等多种语言。"
+    },
+    {
+      "name": "kaustubhg73/multilingual-multitask-refusal",
+      "url": "https://huggingface.co/datasets/kaustubhg73/multilingual-multitask-refusal",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de"
+      ],
+      "size": "文本生成数据集",
+      "license": "未知",
+      "category": "安全",
+      "description": "多语言多任务拒绝数据集，用于评估LLM在英语、西班牙语、法语和德语中的安全拒绝能力。覆盖多种拒绝场景和多任务设置。"
+    },
+    {
+      "name": "fortik11/Multilingual_dataset",
+      "url": "https://huggingface.co/datasets/fortik11/Multilingual_dataset",
+      "languages": [
+        "ky",
+        "ru",
+        "en",
+        "tg"
+      ],
+      "size": "文本生成数据集",
+      "license": "未知",
+      "category": "微调",
+      "description": "柯尔克孜语-俄语-英语-塔吉克语多语言文本生成数据集，覆盖中亚低资源语言。用于多语言文本生成模型的微调和评估。"
+    },
+    {
+      "name": "Rishabh157/krw-unified-multilingual-ner",
+      "url": "https://huggingface.co/datasets/Rishabh157/krw-unified-multilingual-ner",
+      "languages": [
+        "en",
+        "de"
+      ],
+      "size": "命名实体识别数据集",
+      "license": "未知",
+      "category": "评估/NER",
+      "description": "Unified multilingual NER dataset with 2.25M sentences and 47 entity classes across multiple scripts. Updated 2026-09-19 with schema refinements.",
+      "last_updated": "2026-09-19",
+      "release_version": "version-update"
+    },
+    {
+      "name": "NjeriKahoro/kikuyu-english-multilingual-text",
+      "url": "https://huggingface.co/datasets/NjeriKahoro/kikuyu-english-multilingual-text",
+      "languages": [
+        "ki",
+        "en"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "平行语料",
+      "description": "基库尤语-英语双语平行文本数据集，1K-10K规模。基库尤语是肯尼亚最大民族语言，属于班图语系，为非洲低资源语言NLP研究提供数据支持。"
+    },
+    {
+      "name": "Aynursusuz/mossv1.5-tts-multilingual-test",
+      "url": "https://huggingface.co/datasets/Aynursusuz/mossv1.5-tts-multilingual-test",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "it",
+        "th"
+      ],
+      "size": "TTS测试集",
+      "license": "未知",
+      "category": "评估/语音",
+      "description": "MOSS v1.5多语言TTS测试数据集，覆盖英语、中文、日语、意大利语和泰语5种语言。用于评估文本到语音合成系统的多语言生成质量。"
+    },
+    {
+      "name": "omerfsahan/Multilingual-Eu14-allergens",
+      "url": "https://huggingface.co/datasets/omerfsahan/Multilingual-Eu14-allergens",
+      "languages": [
+        "am",
+        "ar",
+        "bn",
+        "ca",
+        "+10种欧洲语言"
+      ],
+      "size": "文本分类数据集",
+      "license": "未知",
+      "category": "评估/文本分类",
+      "description": "14种欧洲语言过敏原信息分类数据集，覆盖阿姆哈拉语、阿拉伯语、孟加拉语、加泰罗尼亚语等。用于评估多语言文本分类模型在食品安全/过敏原领域的表现。"
+    },
+    {
+      "name": "PrakharGoonj/715-multilingual-indian-literary-acadmics-corpus",
+      "url": "https://huggingface.co/datasets/PrakharGoonj/715-multilingual-indian-literary-acadmics-corpus",
+      "languages": [
+        "多种印度语言"
+      ],
+      "size": "715篇文档",
+      "license": "未知",
+      "category": "预训练/文学",
+      "description": "多语言印度文学和学术语料库，包含715篇覆盖多种印度语言的文学和学术文本。用于印度语言NLP研究和多语言学术文本分析。"
+    },
+    {
+      "name": "VettyCher/dehumanisation_study (WOAH EMNLP 2026)",
+      "url": "https://github.com/VettyCher/dehumanisation_study",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "去人性化检测数据集",
+      "license": "未知",
+      "category": "评估/安全",
+      "description": "WOAH@EMNLP 2026论文\"A Multilingual Dataset for Dehumanisation Detection\"的多语言去人性化检测数据集。用于评估多语言模型在有害内容检测中识别去人性化表述的能力。"
+    },
+    {
+      "name": "AISE-TUDelft/multilingual-code-comments-fixed-8",
+      "url": "https://huggingface.co/datasets/AISE-TUDelft/multilingual-code-comments-fixed-8",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "1K<n<10K",
+      "license": "未知",
+      "category": "微调/代码",
+      "description": "多语言代码注释数据集v8版本，是baseline中v7版本的更新。由TU Delft AISE实验室维护，用于代码理解和生成任务。"
+    },
+    {
+      "name": "Heyjab/Multilingual-Harmless-Harmful",
+      "url": "https://huggingface.co/datasets/Heyjab/Multilingual-Harmless-Harmful",
+      "languages": [
+        "bn",
+        "en",
+        "hi",
+        "mr",
+        "fr"
+      ],
+      "size": "",
+      "license": "",
+      "category": "安全对齐",
+      "description": "Multilingual harmless/harmful classification dataset for safety alignment. Contains paired harmless and harmful prompts in 5 languages (Bengali, English, Hindi, Marathi, French) for training safety classifiers.",
+      "discovered_date": "2026-09-22",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Icdiwabh07/Multilingual-Benchmark-Rollout",
+      "url": "https://huggingface.co/datasets/Icdiwabh07/Multilingual-Benchmark-Rollout",
+      "languages": [
+        "multilingual (unspecified)"
+      ],
+      "size": "",
+      "license": "",
+      "category": "评估基准",
+      "description": "Large-scale (15.3GB) multilingual benchmark rollout dataset. Gated access with contact info required. Exact language coverage not publicly disclosed.",
+      "discovered_date": "2026-09-22",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "mzoelfakar/Mini-GSM8K-Multilingual-Alignment",
+      "url": "https://huggingface.co/datasets/mzoelfakar/Mini-GSM8K-Multilingual-Alignment",
+      "languages": [
+        "en",
+        "ar",
+        "fr",
+        "es",
+        "de"
+      ],
+      "size": "",
+      "license": "",
+      "category": "数学推理",
+      "description": "Mini GSM8K math reasoning dataset aligned across 5 languages (English, Arabic, French, Spanish, German). Contains bilingual math word problems with step-by-step solutions for cross-lingual math reasoning training and evaluation.",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-21",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "mahrukhsaeed/SMS_Spam_Multilingual_Collection_Dataset",
+      "url": "https://huggingface.co/datasets/mahrukhsaeed/SMS_Spam_Multilingual_Collection_Dataset",
+      "languages": [
+        "en",
+        "zh",
+        "es",
+        "hi",
+        "fr"
+      ],
+      "size": "",
+      "license": "",
+      "category": "文本分类",
+      "description": "Multilingual SMS spam classification dataset covering 5 languages (English, Chinese, Spanish, Hindi, French). Text classification task for spam detection across diverse linguistic contexts.",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-21",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "prince4332/confana-sft-multilingual",
+      "url": "https://huggingface.co/datasets/prince4332/confana-sft-multilingual",
+      "languages": [
+        "tw",
+        "fat",
+        "ee",
+        "gaa",
+        "dag",
+        "ha",
+        "en"
+      ],
+      "size": "",
+      "license": "",
+      "category": "指令微调",
+      "description": "Synthetic teacher-generated SFT data for a small multilingual voice agent serving Ghana. Covers 7 languages: Twi, Fante, Ewe, Ga, Dagbani, Hausa, English. Includes tool-calling examples with quality flags and native speaker review annotations.",
+      "discovered_date": "2026-09-22",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "TaskPuppyAI/lunamax-multilingual-code-review-50",
+      "url": "https://huggingface.co/datasets/TaskPuppyAI/lunamax-multilingual-code-review-50",
+      "languages": [
+        "en (code: Python, Java, Rust, C#, Go)"
+      ],
+      "size": "",
+      "license": "",
+      "category": "代码",
+      "description": "Multilingual code review dataset covering Python, Java, Rust, C#, and Go. Contains code snippets with security vulnerability analysis and classification. Designed for training code review and vulnerability detection models.",
+      "discovered_date": "2026-09-06",
+      "last_updated": "2026-09-06",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Subayyal/Urdu-Low-Resource-Language-Dataset",
+      "url": "https://huggingface.co/datasets/Subayyal/Urdu-Low-Resource-Language-Dataset",
+      "languages": [
+        "ur"
+      ],
+      "size": "",
+      "license": "",
+      "category": "低资源语言",
+      "description": "Low-resource Urdu language dataset for summarization, feature extraction, and sentence similarity tasks. Contains article-summary pairs with URL metadata for NLP research on Urdu.",
+      "discovered_date": "2026-09-06",
+      "last_updated": "2026-09-06",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "nprak26/synthetic-multilingual-speech-asr",
+      "url": "https://huggingface.co/datasets/nprak26/synthetic-multilingual-speech-asr",
+      "languages": [
+        "en",
+        "es",
+        "fr"
+      ],
+      "size": "",
+      "license": "",
+      "category": "语音",
+      "description": "Synthetic multilingual speech ASR dataset with TTS-generated audio in English, Spanish, and French. Contains reference text, TTS model info, and ASR hypothesis transcripts. Designed for evaluating ASR robustness on synthetic speech. DOI: 10.57967/hf/6608, CC BY-NC 4.0.",
+      "discovered_date": "2026-09-22",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "MoritzLaurer/multilingual-NLI-26lang-2mil7",
+      "url": "https://huggingface.co/datasets/MoritzLaurer/multilingual-NLI-26lang-2mil7",
+      "languages": [
+        "26 languages (multilingual)"
+      ],
+      "size": "",
+      "license": "",
+      "category": "自然语言推理",
+      "description": "Large-scale multilingual NLI dataset covering 26 languages with 2.7 million examples. Based on MultiNLI, Fever-NLI, ANLI, LingNLI and WANLI, created using latest open-source machine translation models. For training multilingual NLI and zero-shot classification.",
+      "discovered_date": "2026-09-22",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Okwu/african-language-parallel-corpus",
+      "url": "https://huggingface.co/datasets/Okwu/african-language-parallel-corpus",
+      "languages": [
+        "yor",
+        "swa",
+        "pcm",
+        "en"
+      ],
+      "size": "",
+      "license": "",
+      "category": "平行语料",
+      "description": "Human-verified parallel corpus for African languages covering Yorùbá, Swahili, Nigerian Pidgin, and English. High-quality translation pairs with human verification, designed for MT and cross-lingual transfer research.",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-22",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "erenyeager-1/tiny-aya-l2-thinker-multilingual-reasoning",
+      "url": "https://huggingface.co/datasets/erenyeager-1/tiny-aya-l2-thinker-multilingual-reasoning",
+      "languages": [
+        "am",
+        "ar",
+        "bg",
+        "bn",
+        "ca"
+      ],
+      "size": "",
+      "license": "",
+      "category": "推理",
+      "description": "Fork/variant of CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning. Multilingual reasoning traces covering Amharic, Arabic, Bulgarian, Bengali, Catalan and more languages. Fork of the Aya L2 Thinker dataset for deep reasoning training.",
+      "discovered_date": "2026-09-10",
+      "last_updated": "2026-09-10",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "hf-audio/multilingual_evals",
+      "url": "https://huggingface.co/datasets/hf-audio/multilingual_evals",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": "",
+      "category": "语音评估",
+      "description": "Multilingual audio evaluation benchmark suite. Updated 2026-09-19 with expanded evaluation coverage. Version update to existing baseline dataset.",
+      "discovered_date": "2026-06-01",
+      "last_updated": "2026-09-19",
+      "timeliness_score": "高"
     }
   ],
-  "total_datasets": 510,
-  "last_merge": "Round 32: +24 new, 9 updates",
-  "total_sources": 510,
-  "last_update_note": "Round 45 incremental: 17 items scanned, 0 truly new (all previously reported)",
-  "last_updated": "2026-09-15"
+  "total_datasets": 545,
+  "last_merge": {
+    "date": "2026-09-23",
+    "added": 12,
+    "updated": 2,
+    "round": 50
+  },
+  "total_sources": 545,
+  "last_update_note": "Round 50: +12 new, 2 updated",
+  "last_updated": "2026-09-23"
 }

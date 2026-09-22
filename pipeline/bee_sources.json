@@ -1529,6 +1529,346 @@
       "timeliness_score": "高",
       "source": "arXiv",
       "language_count": 10
+    },
+    {
+      "name": "zouhar/last-translation-benchmark",
+      "url": "https://huggingface.co/datasets/zouhar/last-translation-benchmark",
+      "category": "评估基准",
+      "description": "Last Translation Benchmark — 56 languages, 3.46K carefully crafted test cases designed to push SOTA MT models to their limits. Includes poetry, slang, polysemy, garden-path sentences. Each example has translations from multiple MT systems (Google, Gemini, Llama, Gemma, Lara) with human verification rules. arXiv:2609.04173. 58 likes, 908 downloads.",
+      "languages": [
+        "en",
+        "zh",
+        "de",
+        "fr",
+        "es",
+        "ja",
+        "ru",
+        "it",
+        "pt",
+        "nl",
+        "pl",
+        "ar",
+        "ko",
+        "vi",
+        "tr",
+        "cs",
+        "sv",
+        "uk",
+        "fa",
+        "id",
+        "ro",
+        "ca",
+        "fi",
+        "hu",
+        "da",
+        "no",
+        "he",
+        "el",
+        "th",
+        "hi",
+        "sk",
+        "hr",
+        "lt",
+        "et",
+        "bn",
+        "ur",
+        "ta",
+        "te",
+        "mr",
+        "be",
+        "af",
+        "eo",
+        "la",
+        "jv",
+        "my",
+        "ug",
+        "kn",
+        "or",
+        "as",
+        "ha",
+        "yo",
+        "ku",
+        "sa",
+        "lb",
+        "ti",
+        "rm"
+      ],
+      "size": "3.46K test cases",
+      "license": "CC-BY-4.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-04",
+      "release_version": "v1 (LTBv1)",
+      "timeliness_score": "高",
+      "search_keywords": "translation benchmark multilingual",
+      "source": "HuggingFace API (translation+benchmark query)"
+    },
+    {
+      "name": "mzoelfakar/Mini-GSM8K-Multilingual-Alignment",
+      "url": "https://huggingface.co/datasets/mzoelfakar/Mini-GSM8K-Multilingual-Alignment",
+      "category": "对齐/偏好",
+      "description": "Compact multilingual DPO alignment dataset for training small language models in step-by-step mathematical reasoning. Based on GSM8K with chosen/rejected pairs. Designed for the Al-Khwarizmi-3B math tutor model. Machine-generated translations + CoT reasoning.",
+      "languages": [
+        "en",
+        "ar",
+        "fr",
+        "es",
+        "de",
+        "it",
+        "pt",
+        "zh",
+        "ru"
+      ],
+      "size": "<1K samples",
+      "license": "Apache-2.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual DPO math reasoning",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "Okwu/african-language-parallel-corpus",
+      "url": "https://huggingface.co/datasets/Okwu/african-language-parallel-corpus",
+      "category": "平行语料",
+      "description": "Human-created, human-validated parallel sentence pairs for Yorùbá, Swahili, and Nigerian Pidgin ↔ English. Derived from NKENNE language-learning curriculum authored by native-speaker educators. Expert-generated annotations. Version 1.0.",
+      "languages": [
+        "yor",
+        "swa",
+        "pcm",
+        "eng"
+      ],
+      "size": "10K-100K sentence pairs",
+      "license": "CDLA-Permissive-2.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-20",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "parallel corpus African language",
+      "source": "HuggingFace API (parallel+corpus query)"
+    },
+    {
+      "name": "hysi-lab/unwebtv-multilingual-audio-archive",
+      "url": "https://huggingface.co/datasets/hysi-lab/unwebtv-multilingual-audio-archive",
+      "category": "语音数据",
+      "description": "UN WebTV Multilingual Audio Archive — reproducibility-oriented archive of multilingual audio tracks from publicly accessible institutional media pages. Files grouped by source with manifests preserving source URLs, language labels, extraction status, and verification metadata.",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "unknown (audio archive)",
+      "license": "public (research use)",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual audio speech",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "Rishabh157/krw-unified-multilingual-ner",
+      "url": "https://huggingface.co/datasets/Rishabh157/krw-unified-multilingual-ner",
+      "category": "NLP基准",
+      "description": "KRW Unified Multilingual 47-Class NER Dataset — 2,252,976 sentences (~47.4M tokens) across 47 fine-grained entity classes in 15+ languages. Harmonizes WikiANN, MultiNERD, and MultiCoNER 2023 into a single unified dataset. Diverse scripts: Latin, Cyrillic, Indic, East Asian.",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "pt",
+        "nl",
+        "pl",
+        "ru",
+        "sv",
+        "zh",
+        "bn",
+        "hi",
+        "fa",
+        "uk"
+      ],
+      "size": "2.25M sentences / 47.4M tokens",
+      "license": "Apache-2.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual NER named entity",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "curatelmbln/multilingual-sample-1k",
+      "url": "https://huggingface.co/datasets/curatelmbln/multilingual-sample-1k",
+      "category": "预训练语料",
+      "description": "CurateLM Multilingual Sample Corpus — sample release from a licensed multilingual text corpus. 150 languages, ~1,000 tokens per language. Sourced from deep-web and institutional archives (NOT Wikipedia/Common Crawl/Gutenberg). Gated access (manual approval).",
+      "languages": [
+        "multilingual (150 languages)"
+      ],
+      "size": "~1K tokens per language (sample)",
+      "license": "Other (commercial license required for full corpus)",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual pretraining corpus",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "fortik11/Multilingual_dataset",
+      "url": "https://huggingface.co/datasets/fortik11/Multilingual_dataset",
+      "category": "代码/多语言",
+      "description": "Multilingual Code and Language Dataset (Central Asian & Global) — curated for training/fine-tuning multi-language AI models, focusing on cross-lingual code understanding, documentation synthesis, and NLP for Central Asian low-resource languages.",
+      "languages": [
+        "ky",
+        "ru",
+        "en",
+        "tg",
+        "kk",
+        "uz"
+      ],
+      "size": "unknown",
+      "license": "CC-BY-4.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual code Central Asian",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "m-elio/madove-multilingual-test-human",
+      "url": "https://huggingface.co/datasets/m-elio/madove-multilingual-test-human",
+      "category": "多模态评估",
+      "description": "MaDOVE Test Split Human — multilingual Visual Question Answering benchmark extending llamaindex/vdr-multilingual-test. Answers generated by Qwen2.5-VL-72B-Instruct, manually evaluated and corrected by one human annotator.",
+      "languages": [
+        "it",
+        "es",
+        "en"
+      ],
+      "size": "<1K samples",
+      "license": "Apache-2.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual VQA multimodal",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "m-elio/madove-multilingual-test-gpt",
+      "url": "https://huggingface.co/datasets/m-elio/madove-multilingual-test-gpt",
+      "category": "多模态评估",
+      "description": "MaDOVE Test Split GPT — multilingual VQA benchmark extending llamaindex/vdr-multilingual-test. Answers generated by Qwen2.5-VL-72B-Instruct, evaluated and corrected by GPT-4o. Covers 5 languages.",
+      "languages": [
+        "de",
+        "it",
+        "fr",
+        "es",
+        "en"
+      ],
+      "size": "1K-10K samples",
+      "license": "Apache-2.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual VQA multimodal",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus",
+      "url": "https://huggingface.co/datasets/Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus",
+      "category": "平行语料",
+      "description": "Comprehensive Egyptian Arabic → English parallel corpus covering 1,800 topics from daily Egyptian life. Designed for fine-tuning LLMs on Egyptian Arabic dialect translation and generation. Structured with SFT train/test splits.",
+      "languages": [
+        "arz (Egyptian Arabic)",
+        "en"
+      ],
+      "size": "100K-1M samples",
+      "license": "CC-BY-4.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "parallel corpus Arabic dialect",
+      "source": "HuggingFace API (parallel+corpus query)"
+    },
+    {
+      "name": "Aynursusuz/mossv1.5-tts-multilingual-test",
+      "url": "https://huggingface.co/datasets/Aynursusuz/mossv1.5-tts-multilingual-test",
+      "category": "语音数据",
+      "description": "MOSS-TTS-v1.5 multilingual zero-shot voice cloning test dataset. 5 reference voices cloned across EN/IT/JA/TH/ZH. Includes DNSMOS quality scores and speaker similarity metrics. Reference audio from Expresso (CC BY-NC 4.0).",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "it",
+        "th"
+      ],
+      "size": "<1K samples",
+      "license": "CC-BY-NC-4.0",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual TTS speech",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "AISE-TUDelft/multilingual-code-comments-fixed-8",
+      "url": "https://huggingface.co/datasets/AISE-TUDelft/multilingual-code-comments-fixed-8",
+      "category": "代码/评估",
+      "description": "Fixed-8 revision of multilingual code comments dataset. 2,500 total rows across 5 languages (500 per language). Expert accuracy labels (5 experts per row). Updated from fixed-7 by replacing 6 Greek rows with missing labels.",
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "el"
+      ],
+      "size": "2,500 samples",
+      "license": "unknown",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-18",
+      "release_version": "fixed-8",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual code comments",
+      "source": "HuggingFace API (multilingual query, lastModified)"
+    },
+    {
+      "name": "LeyuCompetition/Dagi-leyu-multilingual-speech-dataset",
+      "url": "https://huggingface.co/datasets/LeyuCompetition/Dagi-leyu-multilingual-speech-dataset",
+      "category": "语音数据",
+      "description": "Dagi-Leyu multilingual speech dataset. Audio folder format. Competition-style dataset for multilingual speech recognition.",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "<1K samples",
+      "license": "unknown",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-02",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual speech ASR",
+      "source": "HuggingFace API (speech+multilingual query)"
+    },
+    {
+      "name": "bekan/english_karakalpak_parallel_corpus_v10",
+      "url": "https://huggingface.co/datasets/bekan/english_karakalpak_parallel_corpus_v10",
+      "category": "平行语料",
+      "description": "English-Karakalpak Parallel Corpus v10.0 — high-quality finalized parallel dataset with 50,667 carefully aligned sentence pairs. Extreme low-resource Turkic language (~400K speakers). Structural optimization for NMT. Significant upgrade from v5 (baseline).",
+      "languages": [
+        "en",
+        "kaa"
+      ],
+      "size": "50,667 sentence pairs",
+      "license": "MIT",
+      "discovered_date": "2026-09-21",
+      "last_updated": "2026-09-13",
+      "release_version": "v10.0",
+      "timeliness_score": "高",
+      "search_keywords": "parallel corpus Karakalpak low-resource",
+      "source": "HuggingFace API (parallel+corpus query)",
+      "update_note": "Major version upgrade from v5 (in baseline) to v10. 50,667 pairs vs ~10-100K in v5."
     }
   ],
   "version_updates": [
@@ -1580,6 +1920,24 @@
       "name": "lingamvamshikrishnareddy/ramanv-indic-multilingual",
       "last_updated": "2026-08-14",
       "note": "Indic multilingual dataset updated (already in baseline)"
+    },
+    {
+      "name": "bekan/english_karakalpak_parallel_corpus_v5",
+      "baseline_entry": "bekan/english_karakalpak_parallel_corpus_v5",
+      "update_type": "new_major_version",
+      "note": "v10 released (50,667 pairs) as separate dataset repo. v5 also updated Sep 13. Listed as new entry above."
+    },
+    {
+      "name": "heretic-org/Multilingual-Harmless-Harmful",
+      "baseline_entry": "heretic-org/Multilingual-Harmless-Harmful",
+      "update_type": "minor_refresh",
+      "note": "Last modified Sep 18 (baseline had Sep 16 refresh). No structural changes detected."
+    },
+    {
+      "name": "hf-audio/multilingual_evals",
+      "baseline_entry": "hf-audio/multilingual_evals",
+      "update_type": "minor_refresh",
+      "note": "Last modified Sep 19. Ongoing updates from HF Audio team."
     }
   ],
   "papers": [
@@ -1661,9 +2019,17 @@
       "date": "2026-04-01",
       "summary": "Comprehensive survey of 51 recent multilingual benchmarks spanning 242 datasets and 219 unique languages. Analyzes evaluation gaps and methodologies.",
       "relevance": "元参考：多语言评估基准全景综述"
+    },
+    {
+      "name": "UPRPRC: Unified Pipeline for Reproducing Parallel Resources — Corpus from the United Nations",
+      "arxiv": "2509.15789",
+      "published": "2025-09-19",
+      "description": "713M English tokens, largest publicly available parallel corpus of entirely human-translated non-AI-generated content. GAPA algorithm for paragraph alignment. MIT License. Code and corpus available.",
+      "dataset_available": false,
+      "note": "No HF dataset repo found yet; monitor for dataset release."
     }
   ],
-  "last_updated": "2026-08-14",
-  "total_datasets": 72,
-  "total_count": 72
+  "last_updated": "2026-09-21",
+  "total_datasets": 86,
+  "total_count": 86
 }
