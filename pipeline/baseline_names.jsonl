@@ -112,6 +112,7 @@ DCLM (DataComp for Language Models)
 DebdipCS/cloze-congruence-multilingual-benchmark
 Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
+Delores-Lin/MDPBench
 DenseOn (Open Multilingual Long-Context Retrieval)
 DetectRL-X
 DetectRL-X - Multilingual LLM-Generated Text Detection
@@ -135,12 +136,14 @@ english-nuer-thok-naath-conversational-parallel-corpus
 English-Uzbek RAG Evaluation
 eQOURSE/multilingual-speech
 erenyeager-1/tiny-aya-l2-thinker-multilingual-reasoning
+espnet/yodas3
 EU MMLU
 EU-Instruct-Synthetic
 EuraGovExam
 EuroBlocks-SFT-2512
 EuroWeb-2512
 F2LLM-v2
+facebook/multiloko
 facebook/omnilingual-gaia2
 facebook/omnilingual-gaia2 (OmnilingualGAIA2)
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
@@ -157,6 +160,7 @@ FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
 ForMaT (Format-Preserving Multilingual Translation)
 forms-legal/legal-templates-multilingual
 fortik11/Multilingual_dataset
+fufu1976/multilingual-shopping-queries
 Fujitsu-FRE/MAPS
 fxmeng/UltraData-SFT-2605-32k-200k
 fxmeng/UltraData-SFT-2605-no-think-32k-200k
@@ -185,6 +189,7 @@ hf-audio/multilingual_evals
 hf-audio/multilingual_evals (版本追踪)
 hf-audio/open-asr-leaderboard-multilingual-datasets
 hjm1980/korea-places-multilingual
+Horizon-Labs/multilingual-zeroshot-synthetic
 HPLT (High Performance Language Technologies) v3.0
 HPLT 2.0 Cleaned
 HPLT 3.0
@@ -209,6 +214,7 @@ iNLP-Lab/GlobeAudio
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
+instinct1912/multilingual-tts-selected-speech
 iqbaltaha3/indic-voices-indian-language-classification
 issamanisb/leyu-multilingual-audio-dataset
 issdandavis/UltraData-Math
@@ -219,6 +225,7 @@ jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
 JiraiBench
 jml2026/multilingual-accent-speech
+jml2026/multilingual-accent-speech-v2
 JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
@@ -266,6 +273,7 @@ malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS (版本追踪)
 malaysia-ai/Multilingual-TTS-language
 maliced/multilingual_audio_alignments_prosody
+MameLoshnLM / Oytser / Kashes
 Manusagents/Multilingual-Medical-Corpus
 MAPS (Multilingual Agent Performance & Security Benchmark)
 mast-benchmark/100k-corpus-2026
@@ -317,6 +325,7 @@ MUDIDI
 mudkip02/gsm8k-multilingual-filtered
 multi-open (African Languages)
 MultIdiom_Dataset
+MultiGhostBench
 MultiHal
 Multilingual English-Nuer-Dinka-Swahili Corpus
 Multilingual Instructional Dialogues
@@ -328,6 +337,7 @@ Multilingual-BFCL
 multilingual-gsm-symbolic
 Multilingual-Multimodal-NLP/AutoMemoryBench
 Multilingual-Multimodal-NLP/FinanceComplexQA
+Multilingual-Multimodal-NLP/WebWorld-SFT-10k
 Multilingual-Reasoning-Gym-SFT
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
@@ -336,6 +346,7 @@ multilingual-safety-anon/lsr-anchoring-phase2-results
 multilingual-tts/open-bible
 multilingual-vlm-conflict (7-dataset suite)
 multilingual-vlm-conflict/combined
+multilingual-vlm-conflict/worldcuisines-conflict
 multilingual-vlm-reasoning
 MultiNRC
 MultiNRC (Multilingual Native Reasoning Challenge)
@@ -349,6 +360,8 @@ myMediWhisper
 mzoelfakar/Mini-GSM8K-Multilingual-Alignment
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nailyk14/prompt-safety-multilingual
+nassimjp/afghanistan-multilingual-reasoning
+nassimjp/Legal-Issues-Multilingual-Reasoning
 naver-ai/UGTPHON
 Nemotron 3 Super Datasets
 Nemotron-CC-Math
@@ -370,7 +383,18 @@ nur-dev/farabi-crosslingual-tool-argnorm
 NVIDIA Nemotron Post-Training Dataset v2
 nvidia/HelpSteer3
 nvidia/Nemotron-CC-v2
+nvidia/Nemotron-RL-agent-calendar_scheduling
+nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1
+nvidia/Nemotron-RL-Identity-Following-v1
+nvidia/Nemotron-RL-Instruction-Following-Citation-Formatting-v1
+nvidia/Nemotron-RL-Instruction-Following-Free-Form-Formatting-v1
+nvidia/Nemotron-RL-instruction_following
+nvidia/Nemotron-RL-litmus-bench-v0.1
+nvidia/Nemotron-RL-ReasoningGym-v1
+nvidia/Nemotron-RL-Safety-v1
+nvidia/Nemotron-RL-Science-v1
 nvidia/Nemotron-RL-Ultra-Training-Blends
+nvidia/Nemotron-Safety-Guard-Dataset-v3
 nvidia/Nemotron-SFT-Agentic-v2
 NyayaBench v2
 NyayaSetu Legal Dialogues Multilingual
@@ -385,8 +409,10 @@ openbmb/Ultra-FineWeb
 openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)
+PaDaS-Lab/webfaq-v2
 PALO Multilingual Dataset
 Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
+paulokewunmi/ubuntuguard
 PazaBench
 PERCEPT
 pinkachu/harmless_multilingual
@@ -419,6 +445,7 @@ ReasonXL (Soofi-Think-SFT-10B-multilingual)
 REDACT
 RedPajama-V2
 RefusEU
+RegalFire/policy-aware-multilingual-support
 ReMMDBench
 ReopenAI/cantonese-chinese-parallel-corpus-audio
 risale-nur-multilingual
@@ -436,6 +463,7 @@ SALT-31
 sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
 ScaleAI/MultiNRC
+schneiderkamplab/dfm12-multilingual-synthetic
 SEA-NLI
 SEA-SafeguardBench
 SEADialogues
@@ -446,10 +474,12 @@ SemEval-2026 Task 7 (Everyday Knowledge)
 SemEval-2026 Task 9 (Multilingual Polarization)
 ShahiEmotion
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
+shenglisten/multilingual_counterfactual_speech
 SignNet-1M
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
+songjhPKU/PM4Bench
 Soohak
 SorryBench-202503-Multilingual
 SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
@@ -474,6 +504,7 @@ Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 Tasfiya025/Multilingual_Legal_Contract_Risk
 TaskPuppyAI/lunamax-multilingual-code-review-50
+tasksource/multilingual-sentiments
 tejasta/Kannada-English-Parallel-Corpus
 textdetox/multilingual_toxicity_dataset
 The-CoLab/multilingual-textarena-suite
@@ -531,6 +562,7 @@ WILA-popQA
 Wismut/nym-pii-multilingual-data
 WMT26 General MT Test Data
 wujoe132/ponys-ai-multilingual-companion-evaluation
+WUJUNCHAO/DetectRL-X
 X-Fact
 XGLUE
 XL-SafetyBench
@@ -541,5 +573,6 @@ yadenil/Negarit_gazeta_amhari_english_parallel_corpus
 YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples
 YDX07/YDX07_Multilingual_Corpus_2026
 yufan/UltraData-SFT-2605-Chinese
+zhiyuan-ning/linguasafe
 Zyroxx66/somali-pretraining-corpus
 万卷·丝路2.0 (WanJuan Silk Road 2.0)

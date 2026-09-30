@@ -19,6 +19,7 @@ AIME 2026 Multilingual (6语言)
 AISE-TUDelft/multilingual-code-comments-fixed-7
 AISE-TUDelft/multilingual-code-comments-fixed-8
 aixk/multilingual-words-9lang
+akuzdeuov/qwen3-tts-multilingual-emotional-speech
 Alexandria - Dialectal Arabic MT Dataset 📄
 amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
@@ -77,6 +78,7 @@ Code-Switching Reasoning Traces
 CohereLabs/CultureMarkers
 CohereLabs/Global-MMLU-Lite
 CohereLabs/m-ArenaHard-v2.0
+CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning ⭐
 Common Corpus
 Community OSCAR
 compar:IA (French Preference Dataset)
@@ -102,6 +104,7 @@ dave1368/repro-gxpo-cross-lingual-code-generation
 DaveGabe/cwt-multilingual-pretrain-mix
 dayomtechnologies/English_Nuer_parallel_translation_open_corpus
 DCLM (DataComp for Language Models)
+DebdipCS/cloze-congruence-multilingual-benchmark
 Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
 DenseOn (Open Multilingual Long-Context Retrieval) ⭐
@@ -121,6 +124,7 @@ EinicherAI/nemotron-multilingual-math-verified
 ellamind/grips-multilingual
 EMMA-500 Bilingual Translation Corpus 📄🔥
 Emulated-Inc/multilingual-grade-school-math-training-pool
+Emulated-Inc/multilingual-knowledge-training-pool ⭐
 en-az-opus-filtered-parallel-corpus
 english-khasi-parallel-corpus-43k
 english-nuer-dinka-parallel-corpus
@@ -129,6 +133,7 @@ English-Uzbek RAG Evaluation
 eQOURSE/multilingual-speech
 EspanStereo
 EspanStereo: Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration
+espnet/yodas3 ⭐🔥 STANDOUT — Top 10 候选
 EU MMLU
 EU-Instruct-Synthetic
 EuraGovExam
@@ -153,6 +158,7 @@ FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
 ForMaT (Format-Preserving Multilingual Translation)
 fortik11/Multilingual_dataset
 fortik11/Multilingual_dataset 🔄 *已在 reported_names 中*
+fufu1976/multilingual-shopping-queries
 Fujitsu-FRE/MAPS (v1.0)
 fxmeng/UltraData-SFT-2605-32k-200k
 g1moon/XIH-Bench 🔥⭐ Top 10 候选
@@ -175,6 +181,7 @@ heretic-org/Multilingual-Harmless-Harmful
 hf-audio/multilingual_evals
 hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
 hjm1980/korea-places-multilingual — 韩国地名多语言数据
+Horizon-Labs/multilingual-zeroshot-synthetic
 HPLT (High Performance Language Technologies)
 HPLT 2.0 Cleaned
 HPLT 3.0
@@ -199,9 +206,11 @@ iNLP-Lab/GlobeAudio (v1.0)
 iNLP-Lab/multilingual-safety
 INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
+instinct1912/multilingual-tts-selected-speech
 intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
 iqbaltaha3/indic-voices-indian-language-classification
 issamanisb/leyu-multilingual-audio-dataset
+jahangir67/multilingual-safety-benchmark
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
@@ -338,6 +347,8 @@ myMediWhisper — 缅甸语医疗语音语料
 mzoelfakar/Mini-GSM8K-Multilingual-Alignment
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nailyk14/prompt-safety-multilingual
+nassimjp/afghanistan-multilingual-reasoning
+nassimjp/Legal-Issues-Multilingual-Reasoning
 naver-ai/UGTPHON
 Nemotron 3 Super Datasets ⭐ 强烈建议加入 Top 10
 Nemotron-CC-Math
@@ -346,6 +357,7 @@ Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)
 Nemotron-Safety-Guard-Dataset-v3
 Nemotron-SFT-Multilingual-v2
 Nemotron-VLM-Dataset-v2
+Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages
 Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages 🔥
 Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
@@ -442,6 +454,7 @@ SemEval-2026 Task 9 (Multilingual Polarization)
 SHADES (Stereotypes in LLMs Assessment)
 shangzx/Chinese-English-Parallel-Translation-Corpus
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
+shenglisten/multilingual_counterfactual_speech
 SignerX/SignVerse-2M 🔥⭐ Top 10 候选
 SignNet-1M 🔥
 Similoluwa/african-multilingual-tokenizer-challenge
@@ -477,6 +490,7 @@ tackhwa/multilingual_safety_v2
 Tagengo
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 Tasfiya025/Multilingual_Legal_Contract_Risk ⚠️ 陈旧
+tasksource/multilingual-sentiments
 tejasta/Kannada-English-Parallel-Corpus
 TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
@@ -552,21 +566,25 @@ zouhar/last-translation-benchmark 🔥
 📏 指令遵循评估
 📏 评估/偏见检测
 📏 评估基准
+📏 顶会基准数据集
 📐 数学推理 & RL 训练
 📝 平行语料
 📝 平行语料与低资源语言
 📝 文本分类
 📦 其他
+📦 数据质量
 📦 预训练语料
 🔊 语音
 🔊 语音数据
 🛡️ 安全/PII 检测
 🛡️ 安全与对齐
 🛡️ 安全对齐
+🛡️ 安全数据集
 🛡️ 安全评估
 🤖 Agent/工具使用
 🤖 偏好数据 & RLHF
 🤖 对齐/偏好
+🤖 强化学习训练数据
 🤖 指令微调
 🧠 多语言推理评估
 🧠 微调数据
