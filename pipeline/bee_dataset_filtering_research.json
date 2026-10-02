@@ -1855,6 +1855,602 @@
       "source_channel": "SearXNG science",
       "category": "data_selection_federated",
       "relevance_score": 7
+    },
+    {
+      "title": "AutoData: Agentic Search for Pre-training Data Selection",
+      "authors": [
+        "Yan Meng",
+        "Dhruv Srikanth",
+        "Bingchen Zhao",
+        "Zhengyao Jiang",
+        "Yuxiang Wu"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.19754",
+      "description": "Frames pre-training data selection as heuristic engineering over per-document features (lexical statistics, categorical labels, perplexity). Introduces AutoData, an agent that searches directly over executable selection algorithms — a richer program space of scoring, stratification, and stochastic selection rules. Unlike prior data mixture methods that optimise weights over fixed domains, AutoData discovers feature interactions automatically by iteratively refining algorithms with validation feedback from a proxy model. Within an overnight search, discovers a selection algorithm that outperforms existing human-designed curation pipelines and transfers to larger scales.",
+      "category": "data_selection",
+      "relevance_score": 9,
+      "published_date": "2026-09-17",
+      "arxiv_id": "2609.19754"
+    },
+    {
+      "title": "Quality over Quantity: Diversity-Aware Data Selection for Efficient Verilog Code Generation",
+      "authors": [
+        "Yiheng Shen",
+        "Wei Zheng",
+        "Xiao Wei",
+        "Hao Shen",
+        "Xiang Chen",
+        "Guang Yang"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.XXXXX",
+      "description": "Addresses noise and redundancy in LLM code generation datasets. Proposes a diversity-aware data selection method that prioritizes quality over quantity for Verilog code generation, reducing training costs while maintaining or improving model performance. Directly applicable to data selection/filtering methodologies for domain-specific LLM fine-tuning.",
+      "category": "data_selection",
+      "relevance_score": 7,
+      "published_date": "2026-09-19",
+      "arxiv_id": "submitted Sep 19 2026"
+    },
+    {
+      "title": "LIMIT: Less Is More for Instruction Tuning in Text-to-SQL",
+      "authors": [
+        "Haoyuan Ma",
+        "Hengwei Liu",
+        "Linjuan Wu",
+        "Yongliang Shen",
+        "Weiming Lu"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.XXXXX",
+      "description": "Challenges the assumption that scale drives performance in instruction tuning. Investigates minimal data requirements for effective Text-to-SQL instruction tuning, proposing LIMIT — a framework that identifies the smallest sufficient training subset. Relevant to data selection and curriculum strategies for efficient LLM fine-tuning.",
+      "category": "data_selection",
+      "relevance_score": 7,
+      "published_date": "2026-09-21",
+      "arxiv_id": "submitted Sep 21 2026"
+    },
+    {
+      "title": "NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation",
+      "authors": [
+        "Johnny Greco",
+        "Nabin Mulepati",
+        "Andre Manoel",
+        "Eric Tramel",
+        "Kirit Thadaka",
+        "Mike Knepper",
+        "Dhruv Nathawani",
+        "Dane Corneil",
+        "Yev Meyer",
+        "Alex Watson",
+        "Maarten Van Segbroeck"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.17699",
+      "description": "Open-source, general-purpose framework for multi-modal synthetic data generation (SDG) from NVIDIA. Provides declarative configuration for dataset columns spanning text, code, structured outputs, images, embeddings, and statistical samplers for steering diversity. Features a preview-and-revision loop for iterative SDG, dependency resolution, and retry mechanisms. Includes case studies for Nemotron model development and production enterprise deployments. Directly relevant as a data construction tool.",
+      "category": "synthetic_data",
+      "relevance_score": 8,
+      "published_date": "2026-09-15",
+      "arxiv_id": "2609.17699"
+    },
+    {
+      "title": "Quality over Quantity: Diversity-Aware Data Selection for Efficient Verilog Code Generation",
+      "authors": "Yiheng Shen, Wei Zheng, Xiao Wei, Hao Shen, Xiang Chen, Guang Yang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.22765",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Proposes VeriSelector, the first data selection framework for Verilog code generation that jointly optimizes quality and diversity via constrained bi-objective subset selection with IFD scoring and structural feature clustering.",
+      "key_methods": [
+        "IFD scoring",
+        "structural feature clustering",
+        "proportional adaptive sampling"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "LIMIT: Less Is More for Instruction Tuning in Text-to-SQL",
+      "authors": "Haoyuan Ma, Hengwei Liu, Linjuan Wu, Yongliang Shen, Weiming Lu",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.24186",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Data-centric framework demonstrating that strategic selection of ~800 samples via difficulty-aware filtering, CoT synthesis, LLM-as-judge quality scoring, and genetic algorithm optimization can outperform 20x larger training sets on Text-to-SQL benchmarks.",
+      "key_methods": [
+        "difficulty-aware filtering",
+        "CoT synthesis",
+        "genetic algorithm optimization",
+        "LLM-as-judge"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Hunyuan-A13B Technical Report",
+      "authors": "Tencent Hunyuan Team",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.27284",
+      "source_channel": "arXiv",
+      "category": "curation",
+      "description": "MoE model (80B total, 13B active) pretrained on rigorously filtered 20T-token corpus with enhanced STEM data curation. Describes large-scale data filtering pipeline including quality classification and domain-specific curation.",
+      "key_methods": [
+        "quality filtering pipeline",
+        "STEM data curation",
+        "20T-token corpus"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
+      "authors": "Praveen Kumar Myakala, Ravichandra Namburi, Sowmya Keragodu Jayaramu, Sooraj George Thomas",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.12353",
+      "source_channel": "arXiv",
+      "category": "quality",
+      "description": "Corpus-level, model-agnostic synthetic contamination detection using distributional divergence over lexical diversity, n-gram tail truncation, and perplexity variance. Positioned as a data-curation defense for pre-training corpora.",
+      "key_methods": [
+        "distributional divergence",
+        "lexical diversity collapse",
+        "corpus screening"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Instella-MoE Technical Report",
+      "authors": "Jiang Liu, Sudhanshu Ranjan, Prakamya Mishra, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.00791",
+      "source_channel": "arXiv",
+      "category": "curation",
+      "description": "Fully open MoE model (16B/2.8B active) with feedback-driven data curation in SFT pipeline. Describes multi-stage data curation including quality filtering, data mixture design, and process-supervised data curation for SFT.",
+      "key_methods": [
+        "feedback-driven data curation",
+        "multi-stage pipeline",
+        "data mixture design"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "DataFoundry: Evolving Data Preparators via Recursive Self-Improving",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.29966",
+      "source_channel": "arXiv",
+      "category": "curation",
+      "description": "Proposes recursive self-improvement framework for data preparation pipelines in domain adaptation of LLMs. Addresses data quality before generation through evolving preparators.",
+      "key_methods": [
+        "recursive self-improvement",
+        "data preparation pipeline",
+        "domain adaptation"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "GRACE: Gradient-guided Coreset Selection for LLM Unlearning",
+      "authors": "Praveen Bushipaka, Andrea D'Angelo, Lucia Passaro, Tommaso Cucinotta",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.28361",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Gradient-guided coreset selection for constructing forget and retain sets in LLM unlearning. Uses non-negative orthogonal matching pursuit for forget set and clustered orthogonal matching pursuit for retain set. Accepted at EMNLP Findings.",
+      "key_methods": [
+        "gradient-guided selection",
+        "orthogonal matching pursuit",
+        "LLM unlearning"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Hierarchical Data Selection via Manifold Coverage and Sparse Feature Coverage in LLM Post-training (MASS)",
+      "authors": "Peng Sun, Yi Yang, Antong Zhang, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.16927",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Formulates SFT data selection as coarse-to-fine hierarchical coverage. Uses dense autoencoder for manifold-based semantic grouping and TopK sparse autoencoder for quality-aware feature coverage within groups.",
+      "key_methods": [
+        "hierarchical coverage",
+        "manifold learning",
+        "sparse autoencoder"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Data-DPO: Direct Preference Optimization for Target Model Data Selection in LLM Post-Training",
+      "authors": "Peng Sun, Yi Yang, Antong Zhang, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.16926",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Target model-oriented SFT data selection using one-step probing to convert activation differences into pairwise preferences. Trains lightweight reward model for target-model-aware data selection combined with quality scores and diversity.",
+      "key_methods": [
+        "DPO-based selection",
+        "one-step probing",
+        "target-model-aware preferences"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "SieveIVF: Threshold-Aware IVF Execution for Large-Scale Training Data Deduplication",
+      "authors": "Zhisheng Hu, Zhifang Li, Junjie Chen, et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.03199",
+      "source_channel": "arXiv",
+      "category": "deduplication",
+      "description": "Threshold-aware IVF executor for embedding-based deduplication that stops early when no qualifying candidates remain. Achieves 4.1-8.4x speedup over fixed-probe IVF on Hunyuan workloads with minimal recall loss.",
+      "key_methods": [
+        "threshold-aware early stopping",
+        "continuous batching",
+        "lookahead scheduling"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DomainPilot: Domain-Level Loss-Guided Two-Stage Data Mixture Optimization for Efficient Language Model Fine-Tuning",
+      "authors": "He Zhang",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.22769",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Domain-level mixture optimization using token-level domain loss monitoring, scaling law-guided coarse optimization, and mixing law-guided fine optimization. Achieves +2% MMLU-Redux, +1.8% AIME24 on Qwen3-1.7B SFT without extra compute.",
+      "key_methods": [
+        "domain-level loss monitoring",
+        "scaling law guidance",
+        "mixing law refinement"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.18199",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Task-aware and budget-aware data selection framework for LLM fine-tuning that selects informative training samples to reduce computational cost while preserving downstream performance.",
+      "key_methods": [
+        "task-aware selection",
+        "budget-aware selection",
+        "perplexity-based"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "When Audit Quality Fails to Predict Downstream Utility: A Counterfactual Study of Synthetic-Data Selectors for Low-Resource African NLP",
+      "authors": "Son Ha Xuan, Phat T. Tran-Truong, Xuan-Bach Le",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.18960",
+      "source_channel": "arXiv",
+      "category": "quality",
+      "description": "Shows that LLM-judged audit quality and downstream utility diverge for synthetic data selection in low-resource African NLP. Proposes counterfactual audit framework demonstrating audit quality ≠ downstream performance.",
+      "key_methods": [
+        "counterfactual audit",
+        "synthetic data selection",
+        "quality-utility gap analysis"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation (Neuron-OPSD)",
+      "authors": "Zhuowei Chen, Xiang Lorraine Li",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.02460",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Uses internal neuron activations to guide training-data selection and teacher context construction for annotation-free self-distillation. Improves in-domain performance while preserving cross-domain generalization.",
+      "key_methods": [
+        "neuron activation guidance",
+        "annotation-free distillation",
+        "on-policy training"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Online Data Selection for Instruction Tuning via Gaussian Processes (GAIA)",
+      "authors": "Jun Wang, Quoc Phong Nguyen, Julien Monteil, Vu Nguyen",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.30077",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Formulates data valuation as global estimation using Gaussian Process regression to model continuous utility manifolds. Adaptive strategy fusion with dynamic-regret guarantees for non-stationary quality scores during training.",
+      "key_methods": [
+        "Gaussian Process regression",
+        "adaptive strategy fusion",
+        "dynamic regret bounds"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "DRIFT: Refining Instruction Data via On-Policy Data Attribution",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.18307",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "On-policy data attribution method for refining instruction tuning data. Uses gradient-based attribution to identify and refine influential training examples.",
+      "key_methods": [
+        "on-policy attribution",
+        "instruction data refinement",
+        "gradient-based"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories",
+      "authors": "Kaiyan Zhao, Zhongtao Miao, Akiko Aizawa, Yoshimasa Tsuruoka",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.18663",
+      "source_channel": "arXiv",
+      "category": "mixing",
+      "description": "Extends RegMix to dynamic mixing by training regression models on full loss trajectories from proxy runs. Supports offline and online variants, surpassing RegMix with only 25% of proxy compute budget.",
+      "key_methods": [
+        "trajectory-based regression",
+        "dynamic mixing schedule",
+        "proxy-efficient"
+      ],
+      "relevance_score": "high"
+    },
+    {
+      "title": "Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.09739",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Unsupervised coreset selection for LLM benchmark evaluation. Selects representative prompt subsets without requiring score labels, enabling efficient evaluation.",
+      "key_methods": [
+        "unsupervised coreset",
+        "prompt subset selection",
+        "evaluation efficiency"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.00014",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Chain-of-thought-aware coreset selection for accelerating LLM evaluation. Selects representative subsets that preserve CoT reasoning patterns.",
+      "key_methods": [
+        "CoT-aware coreset",
+        "evaluation acceleration"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "authors": "Not specified",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.13668",
+      "source_channel": "arXiv",
+      "category": "selection",
+      "description": "Distills gradient-based influence rankings from decoder models into an encoder for efficient data attribution in code generation tasks.",
+      "key_methods": [
+        "influence distillation",
+        "encoder-decoder",
+        "gradient influence ranking"
+      ],
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Form Over Content In Gradient-Based Data Attribution Methods",
+      "url": "https://arxiv.org/abs/2609.19589",
+      "arxiv_id": "2609.19589",
+      "date": "2026-09-17",
+      "category": "data_attribution",
+      "summary": "Analyzes gradient-based data attribution methods, revealing that form (structural properties) matters more than content in determining data importance scores for LLM training.",
+      "relevance": "Directly relevant to understanding data influence estimation methods"
+    },
+    {
+      "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+      "url": "https://arxiv.org/abs/2609.05198",
+      "arxiv_id": "2609.05198",
+      "date": "2026-09-04",
+      "category": "data_selection",
+      "summary": "Studies on-policy distillation through the lens of data efficiency and selection, identifying key factors that determine which distilled data most benefits LLM training.",
+      "relevance": "Directly addresses data selection for knowledge distillation"
+    },
+    {
+      "title": "Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.24192",
+      "arxiv_id": "2608.24192",
+      "date": "2026-08-25",
+      "category": "data_selection",
+      "summary": "Proposes methods for selecting preference data that mitigates the alignment tax (performance degradation on non-alignment tasks) during LLM alignment training.",
+      "relevance": "Addresses preference data selection for RLHF/DPO alignment"
+    },
+    {
+      "title": "Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models",
+      "url": "https://arxiv.org/abs/2608.21019",
+      "arxiv_id": "2608.21019",
+      "date": "2026-08-21",
+      "category": "data_selection",
+      "summary": "Proposes target-aware calibration data selection to preserve uncertainty estimates in quantized LLMs, showing that careful data selection maintains model calibration quality.",
+      "relevance": "Data selection for model quantization calibration"
+    },
+    {
+      "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+      "url": "https://arxiv.org/abs/2606.11459",
+      "arxiv_id": "2606.11459",
+      "date": "2026-06-09",
+      "category": "data_selection",
+      "summary": "Introduces APEX, an automated prompt engineering system that dynamically selects training data based on prompt quality and relevance for improved LLM fine-tuning.",
+      "relevance": "Dynamic data selection combined with prompt engineering"
+    },
+    {
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "url": "https://arxiv.org/abs/2607.01104",
+      "arxiv_id": "2607.01104",
+      "date": "2026-07-01",
+      "category": "data_mixing",
+      "summary": "Reframes data mixture optimization as a causal inference problem, using causal effect estimation to determine optimal domain proportions for LLM pretraining.",
+      "relevance": "Novel causal framework for data mixture optimization"
+    },
+    {
+      "title": "A Bitter Lesson for Data Filtering",
+      "url": "https://arxiv.org/abs/2605.19407",
+      "arxiv_id": "2605.19407",
+      "date": "2026-05-19",
+      "category": "data_filtering",
+      "summary": "Challenges conventional data filtering wisdom by showing that aggressive quality filtering can harm LLM performance, arguing that scale and diversity matter more than curated quality.",
+      "relevance": "Important counterpoint to quality-filtering approaches; high-impact position paper"
+    },
+    {
+      "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
+      "url": "https://arxiv.org/abs/2604.07963",
+      "arxiv_id": "2604.07963",
+      "date": "2026-04-09",
+      "category": "data_mixing",
+      "summary": "Provides a new perspective on data mixing by analyzing it from the LLM's viewpoint, revealing that model-internal signals can guide better mixture proportions than external heuristics.",
+      "relevance": "Novel model-centric approach to data mixing"
+    },
+    {
+      "title": "DynaMiCS: Fine-tuning LLMs with Performance Constraints using Dynamic Mixtures",
+      "url": "https://arxiv.org/abs/2605.10770",
+      "arxiv_id": "2605.10770",
+      "date": "2026-05-11",
+      "category": "data_mixing",
+      "summary": "Proposes dynamic mixture optimization for LLM fine-tuning under performance constraints, adapting data proportions during training to meet multi-objective targets.",
+      "relevance": "Dynamic data mixing with constraint satisfaction"
+    },
+    {
+      "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
+      "url": "https://arxiv.org/abs/2605.13225",
+      "arxiv_id": "2605.13225",
+      "date": "2026-05-13",
+      "category": "data_mixing",
+      "summary": "Demonstrates that mixing bilingual data during pre-training outperforms extensive hyperparameter tuning in data-constrained settings, emphasizing data strategy over model optimization.",
+      "relevance": "Data mixing strategy for multilingual/bilingual LLM training"
+    },
+    {
+      "title": "Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA",
+      "url": "https://arxiv.org/abs/2607.21861",
+      "arxiv_id": "2607.21861",
+      "date": "2026-07-23",
+      "category": "data_quality",
+      "summary": "Shows that data quality matters more than model capacity when internalizing documents into LoRA adapters, providing empirical evidence for quality-over-quantity in parameter-efficient fine-tuning.",
+      "relevance": "Empirical evidence for data quality importance in LoRA fine-tuning"
+    },
+    {
+      "title": "FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction",
+      "url": "https://arxiv.org/abs/2606.24679",
+      "arxiv_id": "2606.24679",
+      "date": "2026-06-23",
+      "category": "data_curation",
+      "summary": "Introduces FlowPipe, using LLM-enhanced conditional generative flow networks to automatically construct data preparation pipelines, reducing manual effort in data curation workflows.",
+      "relevance": "Automated data preparation pipeline construction"
+    },
+    {
+      "title": "The Significance of Style Diversity in Annotation-Free Synthetic Data Generation",
+      "url": "https://arxiv.org/abs/2606.20400",
+      "arxiv_id": "2606.20400",
+      "date": "2026-06-18",
+      "category": "synthetic_data",
+      "summary": "Demonstrates that style diversity in annotation-free synthetic data generation significantly impacts LLM fine-tuning quality, providing guidelines for diverse synthetic data construction.",
+      "relevance": "Synthetic data quality through style diversity"
+    },
+    {
+      "title": "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins",
+      "url": "https://arxiv.org/abs/2606.17660",
+      "arxiv_id": "2606.17660",
+      "date": "2026-06-16",
+      "category": "data_selection",
+      "summary": "Proposes methods to predict fine-tuning performance before full training, enabling early data selection decisions and resource allocation based on predicted data utility.",
+      "relevance": "Early performance prediction for data selection decisions"
+    },
+    {
+      "title": "GRADFILTERING: Uncertainty-Aware Gradient Signal-to-Noise Data Selection for Instruction Tuning",
+      "url": "https://arxiv.org/abs/2601.13697",
+      "arxiv_id": "2601.13697",
+      "date": "2026-01-13",
+      "category": "data_selection",
+      "summary": "Proposes GRADFILTERING, using GPT-2 proxy with LoRA ensemble to compute uncertainty-aware gradient signal-to-noise ratios for instruction data selection. Matches or surpasses baselines with faster convergence.",
+      "relevance": "Uncertainty-aware gradient-based data selection method"
+    },
+    {
+      "title": "InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for Efficient LLM Fine-Tuning",
+      "url": "https://arxiv.org/abs/2601.23006",
+      "arxiv_id": "2601.23006",
+      "date": "2026-01-23",
+      "category": "data_selection",
+      "summary": "Introduces InstructDiff, using differential entropy between base and calibrated models for domain-adaptive data selection. Achieves 17% improvement on math reasoning and 52% on general instruction-following with only 10% of data.",
+      "relevance": "Domain-adaptive data selection with strong empirical results"
+    },
+    {
+      "title": "From Insight to Action: Interpretability-Guided Data Selection in Large Language Models (IGDS)",
+      "url": "https://arxiv.org/abs/2604.25167",
+      "arxiv_id": "2604.25167",
+      "date": "2026-04-25",
+      "category": "data_selection",
+      "summary": "Proposes IGDS using Sparse Autoencoders to identify task features and select 'Feature-Resonant Data' for fine-tuning. Surpasses full-dataset fine-tuning by 17.4% on math with 50% of data.",
+      "relevance": "Mechanistic interpretability-guided data selection"
+    },
+    {
+      "title": "CASS: Cognitive Approach to Data Selection for Educational LLMs",
+      "url": "https://doi.org/10.1609/aaai.v40i26.39300",
+      "date": "2026-07-01",
+      "category": "data_selection",
+      "summary": "Proposes CASS using Multidimensional Item Response Theory and Fisher Information for cognitive-level data selection. Demonstrates superior accuracy and generalization in educational LLMs.",
+      "relevance": "Cognitive modeling approach to educational data selection"
+    },
+    {
+      "title": "BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a28af221f2f70be183afc16797a56b91-Abstract-Conference.html",
+      "date": "2026-04-24",
+      "venue": "ICLR 2026",
+      "category": "data_selection",
+      "summary": "Proposes BOTS, a Bayesian framework for online task selection during LLM reinforcement fine-tuning, filtering out uninformative tasks to improve training efficiency.",
+      "relevance": "Task selection for RL-based LLM post-training"
+    },
+    {
+      "title": "An Empirical Study on Influence-Based Pretraining Data Selection for Code Large Language Models",
+      "url": "http://dl.acm.org/citation.cfm?id=3794813",
+      "date": "2026-04-09",
+      "category": "data_selection",
+      "summary": "Empirical study of data-influence-score filtering for Code-LLMs on 100B code tokens. Shows influence-based filtering enhances programming performance, with beneficial data characteristics varying across tasks.",
+      "relevance": "Code-LLM specific data selection empirical study"
+    },
+    {
+      "title": "GneissWeb: Preparing High Quality Data for LLMs at Scale",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html",
+      "date": "2026-04-24",
+      "venue": "ICLR 2026",
+      "category": "data_curation",
+      "summary": "Addresses constructing Stage-1 high-quality training data at scale using ensemble quality annotators and filtering to maximize data quality for LLM pretraining.",
+      "relevance": "Large-scale data quality preparation for pretraining"
+    },
+    {
+      "title": "Selection Bias in Sentiment Data of Social Media in LLM Training Datasets",
+      "url": "https://doi.org/10.54254/2755-2721%2F2026.gu34146",
+      "date": "2026-06-01",
+      "category": "data_filtering",
+      "summary": "Reveals that standard filtering pipelines systematically deplete negative sentiment from training corpora (C4, RefinedWeb), creating positive bias. Identifies four conflating factors causing sentiment skew.",
+      "relevance": "Bias analysis of filtering pipelines; important for understanding filtering side-effects"
+    },
+    {
+      "title": "Can Generalist Agents Automate Data Curation?",
+      "url": "https://arxiv.org/abs/2606.04261",
+      "arxiv_id": "2606.04261",
+      "date": "2026-06-04",
+      "category": "data_curation",
+      "summary": "Investigates whether generalist AI agents can automate data curation pipelines, finding that agents substantially improve training outcomes and reach expert-baseline performance in few iterations.",
+      "relevance": "Agentic data curation automation"
+    },
+    {
+      "title": "Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering",
+      "url": "https://aclanthology.org/2026.loreslm-1.13/",
+      "date": "2026-06-01",
+      "category": "data_filtering",
+      "summary": "Multi-stage pipeline for building educational Romanian pretraining data with diversity and quality filtering, demonstrating quality filtering effectiveness for underrepresented languages.",
+      "relevance": "Low-resource language data filtering pipeline"
+    },
+    {
+      "title": "PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage",
+      "url": "https://arxiv.org/abs/2608.24040",
+      "arxiv_id": "2608.24040",
+      "date": "2026-08-25",
+      "category": "data_quality",
+      "summary": "Production system for selective VLM serving with governed memory flywheel for enterprise content-quality triage, demonstrating scalable data quality assessment in production.",
+      "relevance": "Production-grade data quality triage system"
     }
   ],
   "tools_and_repos": [
@@ -2101,6 +2697,110 @@
       "last_updated": "2026-06-23",
       "source_channel": "GitHub API",
       "relevance_score": 6
+    },
+    {
+      "name": "NeMo Data Designer (NDD)",
+      "url": "https://arxiv.org/abs/2609.17699",
+      "description": "NVIDIA's open-source framework for multi-modal synthetic data generation. Declarative config, plugin system, preview-and-revision workflow. Used in Nemotron model development. Paper companion: arXiv:2609.17699.",
+      "stars": 0,
+      "last_updated": "2026-09-15",
+      "category": "synthetic_data_generation"
+    },
+    {
+      "name": "artificialguybr/llm-dataset-studio",
+      "url": "https://github.com/artificialguybr/llm-dataset-studio",
+      "description": "Local-first text and LLM dataset curation studio for JSONL, SFT, DPO, conversation formats. Provides interactive dataset browsing and curation capabilities.",
+      "stars": 0,
+      "last_updated": "2026-09-22",
+      "category": "dataset_curation_tool"
+    },
+    {
+      "name": "mdressman/dataset-scout",
+      "url": "https://github.com/mdressman/dataset-scout",
+      "description": "Dataset discovery and curation tool. Helps find and evaluate datasets for ML training.",
+      "stars": 3,
+      "last_updated": "2026-09-18",
+      "category": "dataset_discovery"
+    },
+    {
+      "name": "NVIDIA/paidf-curation-and-retrieval",
+      "url": "https://github.com/NVIDIA/paidf-curation-and-retrieval",
+      "description": "PAIDF Curation and Retrieval turns raw video and image collections into training-ready data. NVIDIA's multimodal data curation pipeline.",
+      "stars": 0,
+      "last_updated": "2026-09-16",
+      "category": "multimodal_data_curation"
+    },
+    {
+      "name": "AutoData",
+      "url": "https://github.com/WecoAI/AutoData",
+      "source_channel": "GitHub",
+      "description": "Agentic search for pre-training data selection. Companion code for the AutoData paper that searches over executable selection algorithms.",
+      "stars": 8,
+      "category": "data-selection",
+      "relevance_score": "high"
+    },
+    {
+      "name": "DataFlex",
+      "url": "https://github.com/OpenDCAI/DataFlex",
+      "source_channel": "GitHub",
+      "description": "Data-centric LLM training framework with dynamic sample selection, domain mixture optimization, and example reweighting inside the training loop.",
+      "stars": 2822,
+      "category": "data-selection",
+      "relevance_score": "high"
+    },
+    {
+      "name": "jev-dataops",
+      "url": "https://github.com/RenaGao/jev-dataops",
+      "source_channel": "GitHub",
+      "description": "JEV-powered workbench for streaming data selection, quality evaluation, automatic LoRA training and held-out evaluation. Created 2026-09-21.",
+      "stars": 54,
+      "category": "data-curation",
+      "relevance_score": "high"
+    },
+    {
+      "name": "certified-safety-curation-llm",
+      "url": "https://github.com/oadamharoon/certified-safety-curation-llm",
+      "source_channel": "GitHub",
+      "description": "Code for 'Clean Data, Unsafe Model: Certified Safety Curation for LLM Fine-Tuning' - certified safety guarantees for data curation in LLM fine-tuning.",
+      "stars": 1,
+      "category": "safety-curation",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "star-data",
+      "url": "https://github.com/cryer/star-data",
+      "source_channel": "GitHub",
+      "description": "Automated pipeline: quality analysis → data cleansing → three-stage deduplication for training datasets. Created 2026-09-23.",
+      "stars": 0,
+      "category": "deduplication",
+      "relevance_score": "medium"
+    },
+    {
+      "name": "DatasetForge (wiradifit)",
+      "url": "https://github.com/wiradifit/datasetforge",
+      "description": "Synthetic dataset generation, curation, and deduplication toolkit for AI & LLM training. Combines generation, filtering, and dedup in a unified pipeline.",
+      "language": "Python",
+      "last_updated": "2026-09-07",
+      "stars": 0,
+      "category": "data_curation_toolkit"
+    },
+    {
+      "name": "IndicCurate",
+      "url": "https://github.com/KeerthanaNehru/indiccurate",
+      "description": "Comprehensive solution for curating Tamil language datasets with specific focus on Indic language data quality and filtering.",
+      "language": "Python",
+      "last_updated": "2026-09-15",
+      "stars": 0,
+      "category": "language_specific_curation"
+    },
+    {
+      "name": "Imkumar80/llm-data-lab",
+      "url": "https://github.com/Imkumar80/llm-data-lab",
+      "description": "Research lab for creating high-quality datasets for language models, with focus on data quality assessment and curation workflows.",
+      "language": "Python",
+      "last_updated": "2026-09-15",
+      "stars": 0,
+      "category": "data_curation_research"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -2167,6 +2867,37 @@
       "source_channel": "TechRxiv preprint",
       "category": "survey_tutorial",
       "relevance_score": 9
+    },
+    {
+      "title": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement (Blog/Report)",
+      "url": "https://arxiv.org/abs/2608.29966",
+      "source_channel": "arXiv",
+      "description": "Accompanying discussion of the DataFoundry framework for domain-specific data preparation pipeline evolution for LLM training.",
+      "relevance_score": "medium"
+    },
+    {
+      "title": "Synthetic Data in a Data-Intensive World: A Literature Review to Address an Application-Driven Analysis",
+      "url": "https://www.preprints.org/manuscript/202609.0152",
+      "date": "2026-09-02",
+      "source": "Preprints.org",
+      "summary": "Comprehensive literature review of synthetic data generation in data-intensive contexts, covering LLM-driven synthetic data generation, curation, and evaluation approaches.",
+      "relevance": "Survey of synthetic data generation and curation practices"
+    },
+    {
+      "title": "Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering (LoresLM Workshop)",
+      "url": "https://aclanthology.org/2026.loreslm-1.13/",
+      "date": "2026-06-01",
+      "source": "ACL Anthology (LoresLM Workshop)",
+      "summary": "Practical guide to building educational Romanian pretraining data with multi-stage quality filtering pipeline, demonstrating approach for underrepresented languages.",
+      "relevance": "Low-resource language data curation practical guide"
+    },
+    {
+      "title": "On LLMs-driven synthetic data generation, curation, and evaluation (referenced in Synthetic Data review)",
+      "url": "https://www.preprints.org/manuscript/202609.0152",
+      "date": "2026-09-01",
+      "source": "Preprints.org (referenced survey)",
+      "summary": "Referenced work on LLM-driven synthetic data generation pipelines, covering generation strategies, quality filtering, and evaluation methodologies for synthetic training data.",
+      "relevance": "LLM-driven synthetic data pipeline guidance"
     }
   ],
   "taxonomy_summary": {

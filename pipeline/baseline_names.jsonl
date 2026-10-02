@@ -15,6 +15,8 @@ African-Languages_Sentiments
 AfriMMT-EA
 AfriNLLB Parallel Corpus
 AgriQA Multilingual Dataset
+ahmedheakl/DocAtlas-Bench
+ahmedheakl/docatlas_instruct
 AI Language Proficiency Monitor
 AIME 2026 Multilingual (6语言)
 AISE-TUDelft/multilingual-code-comments-fixed-7
@@ -87,6 +89,7 @@ CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning
 Common Corpus
 Community OSCAR
 compar:IA (French Preference Dataset)
+Cong123779/matcha-tts-multilingual-datasets
 CorefUD 1.4 / CRAC 2026 Shared Task
 corpus-parallel-en-fr-bam (Bambara Trilingual)
 corpus-tonal-african-languages
@@ -148,6 +151,7 @@ facebook/omnilingual-gaia2
 facebook/omnilingual-gaia2 (OmnilingualGAIA2)
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 failed09/bashkir-multilingual-phrasebooks
+Faizaniqbal/BhartiOCR
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 FBK-MT/RedVox
@@ -189,6 +193,9 @@ hf-audio/multilingual_evals
 hf-audio/multilingual_evals (版本追踪)
 hf-audio/open-asr-leaderboard-multilingual-datasets
 hjm1980/korea-places-multilingual
+Horizon-Labs/civil-comments-multilingual
+Horizon-Labs/go-emotions-multilingual
+Horizon-Labs/multilingual-rerank-distill
 Horizon-Labs/multilingual-zeroshot-synthetic
 HPLT (High Performance Language Technologies) v3.0
 HPLT 2.0 Cleaned
@@ -227,6 +234,7 @@ JiraiBench
 jml2026/multilingual-accent-speech
 jml2026/multilingual-accent-speech-v2
 JosueG/french-adja-parallel-corpus
+jsdosanj/SikhLibrary
 Kaleidoscope
 kalenjin-parallel-corpus
 karmx/TinyQuery-Tools-Multilingual
@@ -287,6 +295,7 @@ MauroPello/multilingual-reasoning-gym-sft
 mC4 (Multilingual Colossal Clean Crawled Corpus)
 mCoT-MATH
 MDPBench (Multilingual Document Parsing Benchmark)
+meaecosystem/pustaka
 MENT (Meta-Evaluation for Non-literal Translation)
 METATR v1.0
 MGAL (Multilingual Granularity-Aware Long-Context Benchmark)
@@ -384,11 +393,14 @@ NVIDIA Nemotron Post-Training Dataset v2
 nvidia/HelpSteer3
 nvidia/Nemotron-CC-v2
 nvidia/Nemotron-RL-agent-calendar_scheduling
+nvidia/Nemotron-RL-agent-workplace_assistant
 nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1
+nvidia/Nemotron-RL-coding-competitive_coding
 nvidia/Nemotron-RL-Identity-Following-v1
 nvidia/Nemotron-RL-Instruction-Following-Citation-Formatting-v1
 nvidia/Nemotron-RL-Instruction-Following-Free-Form-Formatting-v1
 nvidia/Nemotron-RL-instruction_following
+nvidia/Nemotron-RL-knowledge-mcqa
 nvidia/Nemotron-RL-litmus-bench-v0.1
 nvidia/Nemotron-RL-ReasoningGym-v1
 nvidia/Nemotron-RL-Safety-v1
@@ -401,8 +413,10 @@ NyayaSetu Legal Dialogues Multilingual
 Obotu/final_multilingual_sft
 Odia Web Corpus v3
 Okwu/african-language-parallel-corpus
+Omarrran/BharatSetu-22Indic-1M
 omerfsahan/Multilingual-Eu14-allergens
 Omnilingual ASR Corpus
+openalphalab/gdelt-news
 openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
@@ -450,6 +464,7 @@ ReMMDBench
 ReopenAI/cantonese-chinese-parallel-corpus-audio
 risale-nur-multilingual
 Rishabh157/krw-unified-multilingual-ner
+rishanthrajendhran/IdeaShift-X
 rokayon/AgriQA_Multilingual_Dataset
 rufatronics/african-languages-filtered
 rufatronics/african-languages-hplt-filtered
@@ -525,6 +540,7 @@ Translation Tangles
 TranslationTangles
 treasure4l/multilingual_instruction_tuning
 treasure4l/multilingual_instruction_tuning_plus
+Tree-AI-lab/personahub-multilingue
 TriviaRoomQA
 tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki
@@ -550,6 +566,7 @@ VettyCher/dehumanisation_study (WOAH EMNLP 2026)
 Viet Medi Species 2026
 vietphamlaiyen/Multilingual_medical_symptom_triage
 virginiaceccatelli/SpeechJBB
+virk12621/multilingual-security-blindspot-eval
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
 vojewale/Cross-lingualIFEval
