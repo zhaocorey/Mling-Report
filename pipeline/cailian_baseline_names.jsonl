@@ -142,3 +142,8 @@ tool	data-juicer-multimodal-curation
 tool	DatasetForge
 tool	nemo-curator-training-data
 tool	ptbr-cpt-data-ablation
+paper	Let Training Guide Selection: Online Synthetic Data Filtering via Real-Anchored Utility (FROST)
+paper	ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining
+tool	distillery
+tool	ReScraper
+tool	websieve

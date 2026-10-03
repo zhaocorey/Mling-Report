@@ -1608,177 +1608,44 @@
       "status": "new"
     },
     {
-      "title": "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
+      "title": "Let Training Guide Selection: Online Synthetic Data Filtering via Real-Anchored Utility (FROST)",
       "authors": [
-        "Praveen Kumar Myakala",
-        "Ravichandra Namburi",
-        "Sowmya Keragodu Jayaramu",
-        "Sooraj George Thomas"
-      ],
-      "url": "https://arxiv.org/abs/2609.12353v1",
-      "arxiv_id": "2609.12353",
-      "published": "2026-09-11",
-      "categories": [
-        "cs.CL"
-      ],
-      "venue": "IEEE Asia Conference on Innovation in Emerging Technology 2026",
-      "summary": "Introduces SynthSentry, a corpus-level, model-agnostic synthetic data contamination detector requiring no access to the generating model, generation history, or synthetic labels. Uses distributional divergence over lexical diversity collapse, n-gram tail truncation, and perplexity variance. Positioned as a data-curation defense rather than post-hoc diagnosis. Releases scoring toolkit.",
-      "relevance": "Directly addresses data quality filtering for pretraining — detecting synthetic contamination before training. Provides a practical screening tool for data curation pipelines.",
-      "relevance_tags": [
-        "data quality",
-        "synthetic data detection",
-        "data curation defense",
-        "pretraining data screening"
-      ]
-    },
-    {
-      "title": "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration",
-      "authors": [
-        "Yuzhuo Fu",
-        "Xiangchun Wang",
-        "Chao Huang",
-        "Liyi Wang",
-        "Binwei Zeng",
+        "Yanran Wu",
         "et al."
       ],
-      "url": "https://arxiv.org/abs/2609.11148v1",
-      "arxiv_id": "2609.11148",
-      "published": "2026-09-10",
-      "categories": [
-        "cs.DB"
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.29988",
+      "abstract": "Synthetic data can scale training supervision when real-world data are limited, but noise and distribution mismatch can reduce its value. Existing synthetic data selection methods often emphasize fidelity or diversity rather than the learner's evolving needs. We propose FROST, an online framework that estimates synthetic-data utility through gradient feedback anchored in real training data. It calibrates batch utility against recent history to determine when filtering is needed and filters samples only in out-of-band batches to determine what to retain, without an external verifier or held-out validation set. Experiments on two public benchmarks for image classification and LLM fine-tuning for text-to-SQL show that FROST filters out around 20-30% of the synthetic data while improving real-task performance compared with training on the full synthetic data pool.",
+      "key_methods": [
+        "online synthetic data filtering",
+        "gradient-anchored utility estimation",
+        "batch-level calibration",
+        "real-data anchored scoring"
       ],
-      "venue": "VLDB 2026 Best Industry Paper",
-      "summary": "Architecture blueprint for a unified wide-table layer for petabyte-scale LLM data curation. Manages 35+ PB of training data across web, code, PDF, and SFT domains. Reduces human-in-the-loop curation cycle from ~14 days to ~2.5 days (5.6x improvement). Features: unified wide-table abstraction, declarative feature lifecycle management, adaptive execution engine with CPU/GPU routing, hybrid-accelerated data exploration exceeding 20 TB/hour.",
-      "relevance": "Industrial-grade data curation infrastructure for LLM development. Directly addresses the engineering bottleneck of managing petabyte-scale pretraining corpora. VLDB Best Industry Paper award signals high practical impact.",
-      "relevance_tags": [
-        "data curation infrastructure",
-        "petabyte-scale",
-        "industrial LLM",
-        "feature engineering",
-        "data lineage"
-      ]
+      "category": "filtering",
+      "submission_date": "2026-09-24"
     },
     {
-      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "title": "ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining",
       "authors": [
-        "Mehrnaz Mofakhami",
-        "Ananya Sahu",
-        "Alejandro R. Salamanca",
-        "Daniel D'souza",
-        "Alexandre Berard",
-        "et al."
+        "Zichun Yu",
+        "Jiarui Yan",
+        "Shlok Sanghvi",
+        "Nihar Atri",
+        "Chenyan Xiong"
       ],
-      "url": "https://arxiv.org/abs/2609.10445v1",
-      "arxiv_id": "2609.10445",
-      "published": "2026-09-09",
-      "categories": [
-        "cs.CL"
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.34287",
+      "abstract": "LLM pretraining corpora are normally cleaned by a stack of hand-written heuristics. A heuristic scraper extracts the main content from HTML, and dozens of rule-based filters then clean it, so corpus quality is capped by the coarseness and accuracy of the rules. In this work, we propose ReScraper, a unified language model of only 0.6B parameters that replaces this entire stack. To train ReScraper, we carefully curate supervised data from the outputs of three teacher models, so it learns to first extract the main content from raw data and then choose among four operations: keeping the page as extracted, editing out noisy lines and spans, deleting it entirely, or rewriting it when it is poorly written but informative. Based on the same crawled data pool, pretraining 400M, 1.4B, and 2.8B models on our curated data improves the DCLM Core score by a relative 3.8-4.7% over the strongest baseline at each scale, including the costly multi-agent curation.",
+      "key_methods": [
+        "unified extraction+cleaning model",
+        "small LM replaces heuristic stack",
+        "four operations: keep/edit/delete/rewrite",
+        "teacher model distillation",
+        "AI4AI data curation"
       ],
-      "summary": "Addresses the English-centric bias in reasoning language models. Proposes data mixing strategies as the key to achieving in-language reasoning generalization (L2 reasoning). Shows that models primarily reason in English regardless of prompt language, and that strategic data mixing can overcome this limitation.",
-      "relevance": "Directly studies data mixing strategies for multilingual reasoning — a core data curation design problem. Provides empirical evidence that data mixture composition is the primary lever for cross-lingual reasoning generalization.",
-      "relevance_tags": [
-        "data mixing",
-        "multilingual reasoning",
-        "cross-lingual generalization",
-        "data composition"
-      ]
-    },
-    {
-      "title": "Data Attribution at Scale via Influence Matrix Estimation",
-      "authors": [
-        "Yuxi Chen",
-        "Hamza Golubovic",
-        "Han Tong",
-        "Arian Maleki",
-        "Andrew Ilyas"
-      ],
-      "url": "https://arxiv.org/abs/2609.15044v1",
-      "arxiv_id": "2609.15044",
-      "published": "2026-09-14",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "summary": "Proposes scalable data attribution via influence matrix estimation. Addresses the computational challenge of quantifying how individual training examples shape model predictions. Builds on metagradient-based methods (MAGIC) with improved scalability for neural networks. Applicable to data valuation, machine unlearning, and model interpretability.",
-      "relevance": "Advances the influence function approach to data selection — a key method for identifying high-value training examples. Scalability improvements make influence-based data selection more practical for large models.",
-      "relevance_tags": [
-        "influence functions",
-        "data attribution",
-        "data valuation",
-        "scalable data selection"
-      ]
-    },
-    {
-      "title": "Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data",
-      "authors": [
-        "Takayuki Yamamoto",
-        "Daisuke Kawahara"
-      ],
-      "url": "https://arxiv.org/abs/2609.16532v1",
-      "arxiv_id": "2609.16532",
-      "published": "2026-09-15",
-      "categories": [
-        "cs.CL"
-      ],
-      "summary": "Studies how preference optimization with synthetic data can help LLMs elicit stored knowledge more accurately after continued pretraining. Proposes style-debiased DPO that separates factual correctness from stylistic preferences in synthetic preference data generation, preventing style bias from dominating the preference signal.",
-      "relevance": "Relevant to synthetic data generation for post-training — specifically how to generate higher-quality preference data by controlling for confounding factors (style vs. factuality). Addresses data quality in DPO training sets.",
-      "relevance_tags": [
-        "synthetic data",
-        "preference optimization",
-        "DPO",
-        "data quality",
-        "style debiasing"
-      ]
-    },
-    {
-      "title": "Failure-Guided Co-Evolution of Prompts and Training Data",
-      "authors": [
-        "Tianyu Yuan",
-        "Zhuzhong Qian"
-      ],
-      "url": "https://arxiv.org/abs/2609.15209v1",
-      "arxiv_id": "2609.15209",
-      "published": "2026-09-14",
-      "categories": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "summary": "Introduces FORGE, a framework that co-evolves prompts and training data by treating failures as dual signals: indicating both how prompts should be revised and what new training evidence should be synthesized. Moves beyond fixed training data in automatic prompt optimization to dynamically generate targeted training examples.",
-      "relevance": "Relevant to data selection/augmentation strategy — shows that co-optimizing data with model objectives yields better results than static data selection. Introduces failure-guided synthetic data generation as a curation strategy.",
-      "relevance_tags": [
-        "training data optimization",
-        "synthetic data generation",
-        "failure-guided",
-        "co-evolution"
-      ]
-    },
-    {
-      "title": "Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training",
-      "authors": [
-        "Yuanhao Yue",
-        "Qianli Ma",
-        "Chengyu Wang",
-        "Haoting Wang",
-        "Lei Shen",
-        "et al."
-      ],
-      "url": "https://arxiv.org/abs/2609.15051v1",
-      "arxiv_id": "2609.15051",
-      "published": "2026-09-14",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "summary": "Proposes exploration-guided prompt scaffolding that dynamically adapts training prompt distribution during RL post-training of multimodal LLMs. Recognizes that training prompts vary substantially in informativeness — some are saturated, others too difficult — and allocates rollout budget accordingly.",
-      "relevance": "Addresses data selection for RL post-training — dynamically selecting which training prompts to use based on their learning signal quality. Extends curriculum learning concepts to the prompt-level for reinforcement learning.",
-      "relevance_tags": [
-        "RL post-training",
-        "prompt selection",
-        "curriculum learning",
-        "data efficiency",
-        "multimodal LLM"
-      ]
+      "category": "quality",
+      "submission_date": "2026-09-28"
     }
   ],
   "tools_and_repos": [
@@ -1975,6 +1842,30 @@
         "continued pretraining"
       ],
       "status": "new"
+    },
+    {
+      "name": "distillery",
+      "url": "https://github.com/JustVugg/distillery",
+      "description": "Turn documents into high-quality instruction datasets with grounding, quality filtering, deduplication, and provenance. Every example is grounded in source material, graded by LLM judge, deduplicated by instruction embedding (not string match), and has full provenance traceability. Exports to JSONL, OpenAI messages, HF datasets, DPO preference pairs.",
+      "stars": 32,
+      "last_updated": "2026-09-30",
+      "category": "construction"
+    },
+    {
+      "name": "ReScraper",
+      "url": "https://github.com/cxcscmu/ReScraper",
+      "description": "Official repository for the ReScraper paper. A 0.6B parameter model (Qwen3-0.6B) that replaces the entire heuristic HTML-to-text cleaning stack in pretraining pipelines. Reads visible text of raw web pages and generates short programs with keep/edit/delete/rewrite operations. Includes model weights (HuggingFace: cx-cmu/ReScraper) and curated data (cx-cmu/ReScraper-Data).",
+      "stars": 0,
+      "last_updated": "2026-09-28",
+      "category": "quality"
+    },
+    {
+      "name": "websieve",
+      "url": "https://github.com/ehtishammubarik/websieve",
+      "description": "Turn a web crawl into an ML-ready dataset. Features boilerplate extraction, Gopher/C4 quality filtering, MinHash near-deduplication, and sharded output. Zero core dependencies. Processes raw HTML into clean text with quality scores in gzipped shards for streaming dataloaders.",
+      "stars": 1,
+      "last_updated": "2026-09-20",
+      "category": "filtering"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -2198,5 +2089,13 @@
         "SFT Dataset Review"
       ]
     }
+  },
+  "last_updated": "2026-10-03",
+  "last_incremental_merge": {
+    "date": "2026-10-03",
+    "window": "2026-09-13 to 2026-10-03",
+    "papers_added": 2,
+    "tools_added": 3,
+    "blogs_added": 0
   }
 }
