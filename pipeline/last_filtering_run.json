@@ -1,9 +1,10 @@
 {
-  "last_run": "2026-10-02T09:00:00+08:00",
+  "last_run": "2026-10-03T09:11:00+08:00",
   "report_path": "pipeline/bee_dataset_filtering_incremental.json",
+  "report_md": "dataset_filtering_survey/2026-10-03.md",
   "incremental": {
-    "papers": 5,
-    "tools": 5,
+    "papers": 4,
+    "tools": 6,
     "blogs": 0,
     "total": 10
   },
@@ -12,5 +13,5 @@
     "tools": 38,
     "blogs": 12
   },
-  "search_notes": "Oct 2 run: 4 new papers within 20-day window (Sept 12-Oct 2), 1 paper with Sept update. 2 major tools actively maintained (NeMo Curator pushed Oct 2, Data-Juicer pushed Sept 28). 3 new small GitHub repos. No new blog posts from major AI labs. DuckDuckGo bot-limited (3/5 queries blocked); SearXNG + arXiv web search used as primary channels. GitHub API functional but repos have been renamed (data-juicer→datajuicer/data-juicer, NeMo-Curator→NVIDIA-NeMo/Curator)."
+  "search_notes": "Oct 3 run: 4 new papers (group-level signals, ReScraper, code-switching curricula, medical encoder recipe), 6 new tools (ReScraper CMU code, websieve, SLM_Factory, ACREF, datasetforge, Llm_Data_Forge). FROST excluded (already reported). distillery excluded (not found on GitHub). DuckDuckGo bot-limited; SearXNG + arXiv API + GitHub search used."
 }

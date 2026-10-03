@@ -12135,6 +12135,157 @@
       "timeliness_score": "高",
       "search_keywords": "multilingual dataset (HF API filter=multilingual, Oct 2)",
       "source": "HuggingFace API (recently modified multilingual datasets)"
+    },
+    {
+      "name": "psdn-ai/CROWS-multilingual",
+      "url": "https://huggingface.co/datasets/psdn-ai/CROWS-multilingual",
+      "languages": [
+        "ar",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "ja",
+        "ko",
+        "mr",
+        "pt",
+        "ru",
+        "tr",
+        "ur",
+        "vi",
+        "zh"
+      ],
+      "size": "812K rows across 53 subsets, 1M-10M total",
+      "license": "CC-BY-NC-4.0",
+      "category": "Audio/Safety",
+      "description": "Multilingual deepfake audio detection dataset covering 16 languages. Includes audio, tabular, and text modalities. 53 language-specific and cross-language subsets with breadth-filtered and synthetic-prediction variants.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-10-03",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual audio deepfake detection",
+      "source": "HuggingFace API (lastModified sort)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Super-Training-Blends",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Super-Training-Blends",
+      "languages": [
+        "en"
+      ],
+      "size": "Large (591 downloads, 40 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Post-Training",
+      "description": "High-quality superset of Nemotron-RL training blends for RL post-training. Curated blend combining the best components from the full Nemotron-RL suite. Used for Nemotron-3-Ultra post-training.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL NVIDIA post-training",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "Medium-Large (1,407 downloads, 15 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Agentic",
+      "description": "RL training data for software engineering agent tasks. Part of the Nemotron-RL agentic pivot suite for training coding agents via RL.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL SWE agentic NVIDIA",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "Medium-Large (1,333 downloads, 38 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Agentic",
+      "description": "RL training data for conversational tool use. Highest-engagement agentic dataset (38 likes) in the Nemotron-RL suite. Trains agents to use tools in multi-turn conversations.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL tool use conversational NVIDIA",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Agentic-Terminal-Pivot-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Terminal-Pivot-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "Medium-Large (1,600 downloads, 31 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Agentic",
+      "description": "RL training data for terminal/shell agent operations. Trains agents to execute terminal commands effectively.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-28",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL terminal agentic NVIDIA",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Instruction-Following-Structured-Outputs-v2",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Instruction-Following-Structured-Outputs-v2",
+      "languages": [
+        "en"
+      ],
+      "size": "Medium (998 downloads, 8 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Instruction Following",
+      "description": "RL training data for structured output formatting (JSON, XML, etc.). v2 of the structured outputs dataset with improved quality.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-29",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL structured outputs instruction following",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+      "languages": [
+        "en"
+      ],
+      "size": "Small-Medium (286 downloads, 4 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Instruction Following",
+      "description": "RL training data for adversarial instruction following — tests model robustness against tricky/adversarial prompts.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-29",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL adversarial instruction following",
+      "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "nvidia/Nemotron-RL-math-OpenMathReasoning",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-math-OpenMathReasoning",
+      "languages": [
+        "en"
+      ],
+      "size": "Small-Medium (333 downloads, 18 likes)",
+      "license": "CC-BY-4.0",
+      "category": "RL Training / Math",
+      "description": "RL training data for mathematical reasoning based on OpenMathReasoning. Part of the Nemotron-RL math sub-suite.",
+      "discovered_date": "2026-10-04",
+      "last_updated": "2026-09-28",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Nemotron-RL math reasoning OpenMath",
+      "source": "HuggingFace API (Nemotron-RL search)"
     }
   ],
   "total_datasets": 578,
