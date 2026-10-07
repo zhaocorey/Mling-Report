@@ -1,8 +1,11 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-08",
   "report_path": "sources_reports/2026-10-04.md",
   "incremental_new": 8,
   "incremental_updates": 0,
   "incremental_total": 8,
-  "round": 57
+  "round": 58,
+  "new_datasets": 7,
+  "report": "sources_reports/2026-10-08.md",
+  "baseline_total": 632
 }
