@@ -12286,6 +12286,180 @@
       "timeliness_score": "高",
       "search_keywords": "Nemotron-RL math reasoning OpenMath",
       "source": "HuggingFace API (Nemotron-RL search)"
+    },
+    {
+      "name": "MouradGad/multilingual-code-switching-bench",
+      "url": "https://huggingface.co/datasets/MouradGad/multilingual-code-switching-bench",
+      "languages": [
+        "en",
+        "ar",
+        "zh",
+        "es"
+      ],
+      "size": "未公开（评估基准）",
+      "license": "MIT",
+      "category": "评估",
+      "description": "多语言代码切换（Code-Switching）评估基准，覆盖英语、阿拉伯语、中文、西班牙语四种语言的代码切换场景，支持text-generation和translation任务。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-07",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Kashif786/sindhi-multilingual-gold-corpus-raw",
+      "url": "https://huggingface.co/datasets/Kashif786/sindhi-multilingual-gold-corpus-raw",
+      "languages": [
+        "sd",
+        "en",
+        "ur",
+        "ar"
+      ],
+      "size": "未公开（Gold Corpus）",
+      "license": "MIT",
+      "category": "微调",
+      "description": "信德语（Sindhi）多语言黄金语料库，覆盖信德语、英语、乌尔都语、阿拉伯语四种语言，支持fill-mask和text-generation任务。信德语为南亚低资源语言。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-07",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset",
+      "url": "https://huggingface.co/datasets/abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "未公开",
+      "license": "Apache-2.0",
+      "category": "微调",
+      "description": "PrivoNest多语言隐私数据集，用于隐私检测和隐私保护研究。与此前的privonest-multilingual-privacy-annotations为同一作者的不同版本/命名。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-07",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "burkimbia/moore-parallel-corpus",
+      "url": "https://huggingface.co/datasets/burkimbia/moore-parallel-corpus",
+      "languages": [
+        "fr",
+        "mos"
+      ],
+      "size": "未公开",
+      "license": "Other",
+      "category": "微调",
+      "description": "法语-莫西语（Mossi/Moore）平行语料库。莫西语为布基纳法索主要语言之一，属尼日尔-刚果语系，是典型的低资源语言。用于机器翻译研究。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-10",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "felixhajj/multilingual-news-runtime",
+      "url": "https://huggingface.co/datasets/felixhajj/multilingual-news-runtime",
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "size": "未公开",
+      "license": "Other",
+      "category": "预训练",
+      "description": "多语言新闻运行时数据集，覆盖英语和阿拉伯语的新闻语料，可用于多语言新闻分类、摘要生成等预训练/微调任务。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-05",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "Ayushdubey772/Vitamin-C-multilingual",
+      "url": "https://huggingface.co/datasets/Ayushdubey772/Vitamin-C-multilingual",
+      "languages": [
+        "hi",
+        "bn",
+        "pa",
+        "gu",
+        "mr",
+        "ta",
+        "te",
+        "kn",
+        "ml",
+        "ur"
+      ],
+      "size": "10K-100K 样本",
+      "license": "Other",
+      "category": "微调",
+      "description": "多语言维生素C（Verifiable Claims）数据集，覆盖10种印度语言：印地语、孟加拉语、旁遮普语、古吉拉特语、马拉地语、泰米尔语、泰卢固语、卡纳达语、马拉雅拉姆语、乌尔都语。用于事实验证和文本分类任务。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-10",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "JinghIzKing/OCR-Synthetic-Multilingual-v1",
+      "url": "https://huggingface.co/datasets/JinghIzKing/OCR-Synthetic-Multilingual-v1",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "ru",
+        "zh"
+      ],
+      "size": "10M-100M 样本",
+      "license": "CC-BY-4.0",
+      "category": "微调",
+      "description": "合成多语言OCR数据集v1，基于SynthDog生成，覆盖英语、日语、韩语、俄语、中文五种语言。支持目标检测和图像文字识别任务。与NemoTron-OCR-Synthetic-Multilingual-v1相关。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-09",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "schneiderkamplab/dfm13-multilingual-*-lv (Latvian SFT系列)",
+      "url": "https://huggingface.co/datasets/schneiderkamplab/dfm13-multilingual-summary-rewrite-lv",
+      "languages": [
+        "lv"
+      ],
+      "size": "6个子数据集",
+      "license": "未标注",
+      "category": "微调",
+      "description": "DFM13多语言SFT拉脱维亚语系列，包含6个子数据集：summary-rewrite、multiturn、grounded-instruct、tool-dialogue、openhermes、math-code。扩展了DFM13框架对波罗的海语言的覆盖。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-05",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "schneiderkamplab/dfm13-multilingual-*-lt (Lithuanian SFT系列)",
+      "url": "https://huggingface.co/datasets/schneiderkamplab/dfm13-multilingual-summary-rewrite-lt",
+      "languages": [
+        "lt"
+      ],
+      "size": "5个子数据集",
+      "license": "未标注",
+      "category": "微调",
+      "description": "DFM13多语言SFT立陶宛语系列，包含5个子数据集：summary-rewrite、multiturn、grounded-instruct、tool-dialogue、math-code。扩展了DFM13框架对波罗的海语言的覆盖。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-10-05",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
+    },
+    {
+      "name": "subhan87/Balochi-Multilingual-dataset",
+      "url": "https://huggingface.co/datasets/subhan87/Balochi-Multilingual-dataset",
+      "languages": [
+        "bal",
+        "ur",
+        "fa",
+        "en"
+      ],
+      "size": "未公开",
+      "license": "未标注",
+      "category": "微调",
+      "description": "俾路支语（Balochi）多语言数据集，覆盖俾路支语、乌尔都语、波斯语、英语。支持文本分类、命名实体识别和翻译任务。俾路支语为巴基斯坦/伊朗/阿富汗地区的低资源语言。",
+      "discovered_date": "2026-10-12",
+      "last_updated": "2026-09-04",
+      "release_version": "v1.0",
+      "timeliness_score": "高"
     }
   ],
   "total_datasets": 578,

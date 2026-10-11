@@ -22,6 +22,7 @@ AISE-TUDelft/multilingual-code-comments-fixed-8
 aixk/multilingual-words-9lang
 akuzdeuov/qwen3-tts-multilingual-emotional-speech
 Alexandria - Dialectal Arabic MT Dataset 📄
+AlphaMWE
 amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
 AnthonyPa57/Witcher-multilingual-convos
@@ -40,9 +41,11 @@ aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
 aymansharara/IdiomX
 Aynursusuz/mossv1.5-tts-multilingual-test
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
+Ayushdubey772/Vitamin-C-multilingual
 BabyBabelLM
 BabyLM 2026 Multilingual Track 📄
 BavGround (Bavarian Cultural Grounding Benchmark)
+bcckfdn/Instruct-Multilingual-v1 → v1-fix-3
 bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v10 🔥
@@ -62,6 +65,7 @@ BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
 BUAIR/Uganda-Multilingual-QA
 BUAIR/Uganda-Multilingual-QA ⭐
+burkimbia/moore-parallel-corpus
 buumba641/Zambia-MultiLingual-ASR-Dataset
 bysismo/Temel-cumle-analizi-2.7M-instruction
 bysismo/Turkish-Python-instruction-335k
@@ -153,6 +157,7 @@ fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 failed09/bashkir-multilingual-phrasebooks
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
+felixhajj/multilingual-news-runtime
 fevziegeyurtsevenler/multilingual-prompt-injection
 FinanceComplexQA
 FineTranslations
@@ -226,12 +231,15 @@ jahangir67/multilingual-safety-benchmark
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
+JinghIzKing/OCR-Synthetic-Multilingual-v1
 JosueG/french-adja-parallel-corpus
 Kaleidoscope
 kalenjin-parallel-corpus
 kapturecx/bolAIndia
 kasagadi — 数据内容重大扩展
+Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
+ketanmore/LLaVA-Instruct-150K-13-African-Languages
 ketanmore/LLaVA-Pretrain-558k-10-African-Languages ⭐
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
@@ -324,6 +332,7 @@ Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus 🔄 *已在 reported_name
 MORE — Multilingual Document Parsing Benchmark 📄🔥
 MORE: A Multilingual Document Parsing Benchmark and Evaluation
 MORPHOGEN
+MouradGad/multilingual-code-switching-bench
 MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
 mSCORE — Multilingual Skill-Based Commonsense Reasoning
@@ -482,6 +491,8 @@ Sakonii/Multilingual-Refusal-Extended ⭐
 SALT-31
 sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
+schneiderkamplab/dfm13-multilingual-*-lt
+schneiderkamplab/dfm13-multilingual-*-lv
 SEA-NLI
 SEA-SafeguardBench
 SEADialogues — Southeast Asian Culturally Grounded Dialogue Dataset 📄
@@ -506,6 +517,7 @@ SorryBench-202503-Multilingual
 SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
 Souro/agentic-tooluse-adapted-multilingual
 Souro/agentic-tooluse-synthetic-multilingual
+SPADE (Multilingual Speech Partial Deepfake)
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
 SpeechJBB
 SraVaani 1.0
@@ -523,6 +535,7 @@ SWE-Bench ProMax
 SWE-bench/SWE-bench_Multilingual
 SWE-bench/SWE-bench_Multilingual 🔥
 swebench-multilingual (junlin-modal)
+SwitchLingua
 tackhwa/multilingual_safety
 tackhwa/multilingual_safety + v2
 tackhwa/multilingual_safety_v2
@@ -556,6 +569,7 @@ tufaax/somali-multilingual-infopankki
 tufaax/somali-multilingual-infopankki ⭐
 Tulsiandhare/Multilingual_medical_symptom_triage
 ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
+Ugiat/multilingual_librispeech_french_punctuated
 Ultra-FineWeb-L3
 UltraData-Math
 ulysse1/speculators-multilingual-en-fr-de-it-es

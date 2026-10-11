@@ -11,8 +11,8 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-09-17T09:08:14+08:00",
-    "total_papers": 135,
+    "last_updated": "2026-10-08T09:21:00+08:00",
+    "total_papers": 186,
     "total_tools": 26,
     "total_blogs": 8
   },
@@ -2451,6 +2451,26 @@
       "category": "data_quality",
       "summary": "Production system for selective VLM serving with governed memory flywheel for enterprise content-quality triage, demonstrating scalable data quality assessment in production.",
       "relevance": "Production-grade data quality triage system"
+    },
+    {
+      "title": "CuratorMAS: Automating Dataset Curation via Multi-Agent Orchestration",
+      "url": "https://arxiv.org/abs/2610.07075",
+      "authors": "Unknown",
+      "year": 2026,
+      "description": "Multi-agent orchestration framework for automating dataset curation. Features 5 programmable execution stages with parallelized workflows. Achieves 36pp noise rate reduction and 8.88pp downstream F1 improvement.",
+      "source_channel": "arXiv RSS",
+      "category": "data_curation_automation",
+      "relevance_score": 9
+    },
+    {
+      "title": "Fisher-Guided Submodular Data Selection for Continual Pre-Training",
+      "url": "https://arxiv.org/abs/2610.02593",
+      "authors": "Unknown",
+      "year": 2026,
+      "description": "Fisher-aware data selector for continual pre-training. Decomposes gradients into anchor and frontier components, uses submodular objective function for selection. Achieves 10x token efficiency advantage on medical domain CPT (1B selected tokens outperform 10B replay tokens).",
+      "source_channel": "arXiv RSS",
+      "category": "data_selection_continual_pretraining",
+      "relevance_score": 9
     }
   ],
   "tools_and_repos": [

@@ -48,6 +48,7 @@ paper	CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection
 paper	CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning
 paper	CurateEvo: Data-Curation Evolving for Agentic Post-Training
 paper	CuratorKIT: Data Curation and Synthetic Data Generation for LLM Post-Training
+paper	CuratorMAS: Automating Dataset Curation via Multi-Agent Orchestration
 paper	CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-Scale Pretraining Data
 paper	Data Attribution at Scale via Influence Matrix Estimation
 paper	Data Divergence-Aware Client Selection via Knowledge Graph for Federated LLM Fine-Tuning
@@ -80,6 +81,7 @@ paper	Efficient Pretraining Data Selection via Multi-Actor Collaboration
 paper	Escaping Collapse: The Strength of Weak Data for Large Language Model Training
 paper	Failure-Guided Co-Evolution of Prompts and Training Data
 paper	Fine PT-PT Web: A High-Quality 41 Billion Tokens Data Collection of the European Portuguese Web
+paper	Fisher-Guided Submodular Data Selection for Continual Pre-Training
 paper	Fixing It in Post: Comparative Study of LLM Post-training Data Quality
 paper	FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction
 paper	Form Over Content In Gradient-Based Data Attribution Methods
@@ -217,8 +219,3 @@ tool	ptbr-cpt-data-ablation
 tool	Shuddhi
 tool	star-data
 tool	Synthetic Data Flywheel
-paper	Effective Synthetic Data Curation Requires Group-Level Signals
-paper	ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining
-paper	Let Training Guide Selection: Online Synthetic Data Filtering via Real-Anchored Utility
-paper	Feeding BabyLMs Macaroni: Code-Switching Curricula Cause Cross-Lingual Convergence
-paper	Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretraining

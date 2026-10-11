@@ -1,5 +1,6 @@
 15juneee/agriculture-advisor-adapted-multilingual-v1
 96kevinli29/DAPO-Math-Multilingual-6Lang
+abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset
 abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
 AbjadAuthorID
 AdaMame Multilingual Reasoning Traces
@@ -44,6 +45,7 @@ AyaVisionBench
 aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
 Aynursusuz/mossv1.5-tts-multilingual-test
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
+Ayushdubey772/Vitamin-C-multilingual
 BabyBabelLM
 BabyLM 2026 Multilingual Track
 BavGround (Bavarian Cultural Grounding Benchmark)
@@ -62,6 +64,7 @@ BnMMLU
 BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
 BUAIR/Uganda-Multilingual-QA
+burkimbia/moore-parallel-corpus
 buumba641/Zambia-MultiLingual-ASR-Dataset
 bysismo/Temel-cumle-analizi-2.7M-instruction
 bysismo/Turkish-Python-instruction-335k
@@ -155,6 +158,7 @@ Faizaniqbal/BhartiOCR
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
 FBK-MT/RedVox
+felixhajj/multilingual-news-runtime
 FineTranslations
 FineWeb-2
 FinMMEval
@@ -230,6 +234,7 @@ jahangir67/multilingual-safety-benchmark
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
+JinghIzKing/OCR-Synthetic-Multilingual-v1
 JiraiBench
 jml2026/multilingual-accent-speech
 jml2026/multilingual-accent-speech-v2
@@ -238,6 +243,7 @@ jsdosanj/SikhLibrary
 Kaleidoscope
 kalenjin-parallel-corpus
 karmx/TinyQuery-Tools-Multilingual
+Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
 ketanmore/LLaVA-Pretrain-558k-10-African-Languages
 Kudod/retain_wiki_multilingual
@@ -321,6 +327,7 @@ Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus
 MORE (Multilingual Document Parsing Benchmark)
 MoritzLaurer/multilingual-NLI-26lang-2mil7
 MORPHOGEN
+MouradGad/multilingual-code-switching-bench
 MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
 MRL 2026 Shared Task (Global PIQA successor)
@@ -487,6 +494,8 @@ sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
 ScaleAI/MultiNRC
 schneiderkamplab/dfm12-multilingual-synthetic
+schneiderkamplab/dfm13-multilingual-*-lt (Lithuanian SFT系列)
+schneiderkamplab/dfm13-multilingual-*-lv (Latvian SFT系列)
 SEA-NLI
 SEA-SafeguardBench
 SEADialogues
@@ -511,6 +520,7 @@ SpeechJBB
 SraVaani 1.0
 sripad17/multilingual-safety-probe-test
 Subayyal/Urdu-Low-Resource-Language-Dataset
+subhan87/Balochi-Multilingual-dataset
 suki000/multilingual-cybercorpus
 SultanR/ultradata-math-qa-ar
 SultanR/ultradata-math-textbook-exercise-ar

@@ -1,17 +1,8 @@
 {
-  "last_run": "2026-10-03T09:11:00+08:00",
-  "report_path": "pipeline/bee_dataset_filtering_incremental.json",
-  "report_md": "dataset_filtering_survey/2026-10-03.md",
-  "incremental": {
-    "papers": 4,
-    "tools": 6,
-    "blogs": 0,
-    "total": 10
-  },
-  "baseline_totals": {
-    "papers": 184,
-    "tools": 38,
-    "blogs": 12
-  },
-  "search_notes": "Oct 3 run: 4 new papers (group-level signals, ReScraper, code-switching curricula, medical encoder recipe), 6 new tools (ReScraper CMU code, websieve, SLM_Factory, ACREF, datasetforge, Llm_Data_Forge). FROST excluded (already reported). distillery excluded (not found on GitHub). DuckDuckGo bot-limited; SearXNG + arXiv API + GitHub search used."
+  "last_run": "2026-10-11",
+  "run_type": "incremental",
+  "source": "bee_subagent",
+  "output_file": "pipeline/bee_dataset_filtering_incremental.json",
+  "window": "2026-10-10 to 2026-10-11",
+  "notes": "DuckDuckGo bot-detected (0 results); used arXiv search pages + GitHub API + SearXNG. Found 4 new papers, 4 new tools, 0 new blogs."
 }
