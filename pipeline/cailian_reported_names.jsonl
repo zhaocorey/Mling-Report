@@ -6,6 +6,8 @@ blog	Human+ AI: Large scale Data Curation For Multilingual Guardrails
 blog	Improving Romanian LLM Pretraining Data (LoresLM Workshop)
 blog	LLM Adoption in Data Curation Workflows: Industry Practices and Insights
 blog	LLM Data Pipeline: Dedup, Filter, Mix
+blog	LLM Training Data in 2026: What AI Models Need
+blog	LLM Training Data Quality: Checks, Frameworks & Governance
 blog	On LLMs-driven Synthetic Data Generation, Curation, and Evaluation
 blog	Reproducible Data Curation In The Multimodal Lakehouse
 blog	Scaling Pedagogical Pre-training: From Optimal Mixing to 10 Billion Tokens
@@ -76,6 +78,7 @@ paper	Data Mixing as Mixture Experiment: Response Surface Methodology and Optima
 paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook ⭐⭐⭐⭐⭐
 paper	Data Preparation for Large Language Models
 paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
+paper	Data Quality Rule Generation with LLMs (LeDQeR)
 paper	Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
 paper	Data Science and Technology Towards AGI Part I: Tiered Data Management
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
@@ -99,6 +102,7 @@ paper	DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensu
 paper	DecoupleMix: Decoupled Ratio Search and Convex Allocation for Scalable VLM Data Recipes
 paper	Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs ⭐⭐⭐⭐
 paper	Defending Against Harmful Supervision Hidden in Benign Samples
+paper	DeMix — ICML 2026 接收确认
 paper	DeMix: Decouple Searching from Training — Scaling Data Mixing via Model Merging for LLM Pre-training
 paper	Detecting Data Contamination from Reinforcement Learning Post-Training for LLMs
 paper	DoGraph: Decomposing and Orchestrating LLM Reasoning Graphs (ACL 2026 Short)
@@ -157,6 +161,7 @@ paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy
 paper	Instruction Quality Matters: Refining Instructions for Effective Preference Learning
 paper	IPROX: Influence-Preserving Proxies for Gradient-Based Data Selection in LLM Fine-tuning
 paper	IRDS: Interpretable RLVR Data Selection via Verifier-Coupled Sparse Autoencoder Coverage
+paper	It's All Training: A Fully Synthetic Single-Stage Recipe for LLMs
 paper	Judging Quality Across Languages (JQL)
 paper	Language Models Under Pedagogically Controlled Knowledge Exposure (LITTLECURRICULUM)
 paper	Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning (ADS)
@@ -208,6 +213,7 @@ paper	Register Always Matters: Analysis of LLM Pretraining Data Through the Lens
 paper	RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories
 paper	Removing Noise, not Finding Gold: Quality Filtering for Large-Scale Pretraining ⭐⭐⭐⭐⭐
 paper	Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling
+paper	ReScraper & DataPrep-Bench
 paper	ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining
 paper	Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods
 paper	Rethinking Data Mixing from the Perspective of Large Language Models
@@ -306,6 +312,7 @@ paper	对多语言数据集构建的启示
 paper	年中淡季，但补漏价值显著
 paper	搜索渠道
 paper	搜索渠道反思
+paper	搜索渠道改进建议
 paper	搜索渠道退化
 paper	搜索环境说明
 paper	搜索策略改进建议
@@ -361,6 +368,8 @@ paper	🔥 值得深入研究的方向
 paper	🔴 高相关性
 paper	🛠️ 建议纳入 pipeline 的工具
 paper	🟡 一般相关性
+tool	123123213weqw/llm-data-curation-pipeline
+tool	abhinavm/llm-dataset-curation
 tool	ACREF
 tool	ADS (Adaptive Data Scheduling)
 tool	Advanced-LLM-Framework-NON-MOE
@@ -411,8 +420,11 @@ tool	SHIFT (Training-Free RLVR Data Selection)
 tool	Shuddhi
 tool	SLM_Factory
 tool	Smart-data-selection-for-language-modeling
+tool	smurilloo/llm-distill-pipeline
+tool	SuperJohn/llm-dataset-curation
 tool	Synthetic Data Flywheel
 tool	TokenTurbine
 tool	vl-data-engine
 tool	websieve
+tool	yashpulapalli-eng/Llm_Data_Forge
 tool	📌 安全对齐（Safety & Alignment）— 5 项

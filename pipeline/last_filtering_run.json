@@ -1,8 +1,15 @@
 {
-  "last_run": "2026-10-11",
+  "last_run": "2026-10-12",
   "run_type": "incremental",
+  "status": "merged_and_pushed",
   "source": "bee_subagent",
-  "output_file": "pipeline/bee_dataset_filtering_incremental.json",
-  "window": "2026-10-10 to 2026-10-11",
-  "notes": "DuckDuckGo bot-detected (0 results); used arXiv search pages + GitHub API + SearXNG. Found 4 new papers, 4 new tools, 0 new blogs."
+  "merged_into": "pipeline/bee_dataset_filtering_research.json",
+  "pushed_to": "https://github.com/zhaocorey/Mling-Report/blob/main/dataset_filtering_survey/2026-10-12.md",
+  "window": "2026-09-22 to 2026-10-12",
+  "added": {
+    "papers": 5,
+    "tools": 7,
+    "blogs": 2
+  },
+  "notes": "DuckDuckGo bot-detected for arXiv site: queries; arXiv API rate-limited (429). Used SearXNG + GitHub Search API + direct arXiv page fetching."
 }

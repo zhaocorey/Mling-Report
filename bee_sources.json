@@ -12460,11 +12460,147 @@
       "last_updated": "2026-09-04",
       "release_version": "v1.0",
       "timeliness_score": "高"
+    },
+    {
+      "name": "openbmb/UltraData-Stack-v3-L2",
+      "url": "https://huggingface.co/datasets/openbmb/UltraData-Stack-v3-L2",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "~240B tokens across 11 programming languages",
+      "license": "Unknown (check HF page)",
+      "category": "预训练",
+      "description": "Selected code corpus from The Stack v3, obtained through quality-control cleaning and fine-grained L2 selection with UltraData-Code-L2-Classifier. Covers 11 programming languages with language-adaptive L2 selection framework. Part of the UltraData ecosystem for MiniCPM5 training.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-13",
+      "release_version": "v1.0",
+      "timeliness_score": "高",
+      "search_keywords": "openbmb UltraData Stack v3",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "nassimjp/riddles-multilingual",
+      "url": "https://huggingface.co/datasets/nassimjp/riddles-multilingual",
+      "languages": [
+        "ps",
+        "ur",
+        "fa",
+        "en",
+        "ja"
+      ],
+      "size": "1K riddles per language subset",
+      "license": "Unknown (check HF page)",
+      "category": "评估",
+      "description": "Multilingual riddles dataset for evaluating reasoning and cultural understanding across Pashto, Urdu, Persian, English, and Japanese. Tests non-literal thinking, metaphor comprehension, and cross-cultural knowledge.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-13",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset huggingface lastModified",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "HasanOJ/ppqa-multilingual-qa",
+      "url": "https://huggingface.co/datasets/HasanOJ/ppqa-multilingual-qa",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "de",
+        "pt"
+      ],
+      "size": "Unknown (95 downloads)",
+      "license": "Unknown (check HF page)",
+      "category": "评估",
+      "description": "Multilingual question-answering dataset covering 5 European languages (English, French, Spanish, German, Portuguese). Designed for evaluating QA capabilities across languages.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-13",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset huggingface lastModified",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "daipath/multilingual-math-20k",
+      "url": "https://huggingface.co/datasets/daipath/multilingual-math-20k",
+      "languages": [
+        "en",
+        "zh",
+        "es",
+        "th"
+      ],
+      "size": "19,759 problems × 4 languages = 79,036 problem-language pairs",
+      "license": "Research only (upstream: GSM8K MIT + OpenR1-Math-220k Apache-2.0)",
+      "category": "微调",
+      "description": "Multilingual math reasoning dataset with 19,759 problems fully parallel across English, Chinese, Spanish, and Thai. Each problem includes step-by-step solutions with unified \\boxed{<answer>} format. Sources: GSM8K (7,473) + OpenR1-Math-220k (12,286). Gated access for research purposes.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset huggingface lastModified",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "mjbommar/opengloss-v2.4-multilingual",
+      "url": "https://huggingface.co/datasets/mjbommar/opengloss-v2.4-multilingual",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it"
+      ],
+      "size": "~28K entries per language (100K-1M total)",
+      "license": "CC-BY-4.0",
+      "category": "评估",
+      "description": "OpenGloss v2.4 — multilingual legal/terminology glossary dataset with sense-aligned translations across 6 languages. Features english-anchored parallel entries with synthetic sense alignment. Includes train/dev/test splits (~28K train, 278 dev/test per language).",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-12",
+      "release_version": "v2.4",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset huggingface lastModified",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "bcckfdn/Instruct-Multilingual-v1-fix-3",
+      "url": "https://huggingface.co/datasets/bcckfdn/Instruct-Multilingual-v1-fix-3",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "Unknown (36 downloads)",
+      "license": "Unknown (check HF page)",
+      "category": "微调",
+      "description": "Third fix iteration of Instruct-Multilingual-v1 instruction tuning dataset. Contains multilingual instruction-response pairs including translation tasks and tool-use scenarios. Covers multiple languages including Portuguese, Turkish, and others.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-10-08",
+      "release_version": "fix-3",
+      "timeliness_score": "高",
+      "search_keywords": "multilingual dataset huggingface lastModified",
+      "source": "HuggingFace API (lastModified search)"
+    },
+    {
+      "name": "CohereLabs/lbpp",
+      "url": "https://huggingface.co/datasets/CohereLabs/lbpp",
+      "languages": [
+        "en"
+      ],
+      "size": "621 downloads, 31 likes",
+      "license": "Unknown (check HF page)",
+      "category": "评估",
+      "description": "LBPP (Language-Based Programming Problems) — coding challenge dataset with Python programming tasks, test cases, and solutions. Published by CohereLabs. While single-language (Python), relevant for evaluating code generation capabilities of multilingual LLMs.",
+      "discovered_date": "2026-10-14",
+      "last_updated": "2026-06-09",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "CohereLabs dataset huggingface",
+      "source": "HuggingFace API (CohereLabs search)"
     }
   ],
   "total_datasets": 578,
   "last_merge": "2026-10-03",
-  "total_sources": 595,
+  "total_sources": 620,
   "last_update_note": "Round 56: +17 datasets (Nemotron-RL, DocAtlas, Indian/African langs, Horizon-Labs)",
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-14"
 }

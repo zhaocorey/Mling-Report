@@ -11,10 +11,10 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-10-08T09:21:00+08:00",
-    "total_papers": 186,
-    "total_tools": 26,
-    "total_blogs": 8
+    "last_updated": "2026-10-12",
+    "total_papers": 191,
+    "total_tools": 45,
+    "total_blogs": 14
   },
   "papers": [
     {
@@ -2471,6 +2471,108 @@
       "source_channel": "arXiv RSS",
       "category": "data_selection_continual_pretraining",
       "relevance_score": 9
+    },
+    {
+      "title": "ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining",
+      "authors": [
+        "Zichun Yu",
+        "et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.34287",
+      "abstract": "Proposes ReScraper, a unified 0.6B parameter language model that replaces the entire stack of hand-written heuristics for cleaning LLM pretraining corpora. Trained on supervised data from three teacher models, it learns to extract main content from raw HTML and apply four operations: keep, edit noisy lines/spans, delete, or rewrite poorly-written-but-informative pages. Pretraining 400M-2.8B models on ReScraper-curated data improves DCLM Core score by 3.8-4.7% over the strongest baseline at each scale, including costly multi-agent curation. Demonstrates that a single small learned model outperforms a cascade of separate models for extraction and cleaning.",
+      "source": "arXiv (2609.34287), submitted 2026-09-28",
+      "github": "https://github.com/cxcscmu/ReScraper",
+      "github_stars": 5,
+      "tags": [
+        "data curation",
+        "web scraping",
+        "pretraining data",
+        "AI4AI",
+        "quality filtering"
+      ]
+    },
+    {
+      "title": "It's All Training: A Fully Synthetic Single-Stage Recipe for LLMs",
+      "authors": [
+        "PleIAs team"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.37891",
+      "abstract": "Presents SYNTH, the first open-source synthetic corpus derived from 58,698 Wikipedia articles that collapses pre-, mid-, and post-training into a single training stage via structured amplification of curated encyclopedic seeds. Trains models from 56M to 13B MoE. At iso-compute, SYNTH outperforms filtered web data. Because SYNTH is back-translated from grounded passages, SYNTH-trained models achieve high factual precision despite 10-140x fewer training tokens. Accepted at NeurIPS 2026. Dataset released under permissive license.",
+      "source": "arXiv (2609.37891), NeurIPS 2026",
+      "dataset_url": "https://huggingface.co/datasets/PleIAs/SYNTH",
+      "tags": [
+        "synthetic data",
+        "data recipe",
+        "pretraining data",
+        "single-stage training",
+        "data efficiency"
+      ]
+    },
+    {
+      "title": "Data Quality Rule Generation with LLMs",
+      "authors": [
+        "Anna-Christina Glock",
+        "et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.06053",
+      "abstract": "Introduces LeDQeR, an LLM-based approach for automated data quality rule generation. Formalizes a generalizable generate-filter framework where an LLM first generates candidate rules from observed dirty data tuples, then applies four filter techniques ensuring executability, correctness, generalizability, and non-redundancy. While focused on enterprise data quality rather than LLM pretraining specifically, the generate-filter framework is applicable to LLM data curation pipelines.",
+      "source": "arXiv (2609.06053), submitted 2026-09-05",
+      "tags": [
+        "data quality",
+        "rule generation",
+        "LLM-based filtering",
+        "generate-filter framework"
+      ]
+    },
+    {
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "authors": [
+        "Hao Liang",
+        "Qifeng Cai",
+        "Yibo Lin",
+        "Jianzhuo Du",
+        "Qifeng Xia",
+        "Sizhe Qiu",
+        "Linzhuang Sun",
+        "Meiyi Qiang",
+        "Zhaoyang Han",
+        "Xiaochen Ma",
+        "Bohan Zeng",
+        "Ruichuan An",
+        "Conghui He",
+        "Wentao Zhang"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.20465",
+      "abstract": "Introduces the first unified benchmark that jointly evaluates LLM-driven data construction (transforming raw sources into supervised training data) and data quality evaluation (predicting training value of candidate datasets before downstream training). Covers six domains and multiple base models under a shared downstream-grounded protocol. Releases Data-Construction-Set for standardized evaluation. Addresses the gap in measuring how well LLMs, agents, and data-centric workflows prepare training data end-to-end.",
+      "source": "arXiv (2607.20465), submitted 2026-07",
+      "tags": [
+        "data curation benchmark",
+        "data quality evaluation",
+        "LLM data preparation",
+        "data construction"
+      ]
+    },
+    {
+      "title": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+      "authors": [
+        "DeMix team"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.00747",
+      "abstract": "Proposes DeMix, a framework that leverages model merging to predict optimal data ratios for LLM pretraining. Instead of training proxy models for every sampled mixture, DeMix trains component models on candidate datasets at scale and derives data mixture proxies via weighted model merging. This decouples search from training costs, enabling evaluation of unlimited sampled mixtures without extra training burden. Releases DeMix Corpora, a 22T-token dataset with validated mixtures. Accepted at ICML 2026.",
+      "source": "arXiv (2602.00747), ICML 2026",
+      "github": "https://github.com/Lucius-lsr/DeMix",
+      "tags": [
+        "data mixing",
+        "model merging",
+        "pretraining data",
+        "data recipe optimization",
+        "22T tokens"
+      ]
     }
   ],
   "tools_and_repos": [
@@ -2821,6 +2923,99 @@
       "last_updated": "2026-09-15",
       "stars": 0,
       "category": "data_curation_research"
+    },
+    {
+      "name": "ReScraper",
+      "url": "https://github.com/cxcscmu/ReScraper",
+      "description": "Official repository for 'ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining'. A 0.6B parameter model that replaces hand-written heuristic stacks for web data curation in LLM pretraining pipelines. Supports extraction, noise editing, deletion, and rewriting of web pages.",
+      "stars": 5,
+      "created": "2026-09-27",
+      "language": "Python",
+      "tags": [
+        "web scraping",
+        "data cleaning",
+        "pretraining data",
+        "AI4AI"
+      ]
+    },
+    {
+      "name": "SuperJohn/llm-dataset-curation",
+      "url": "https://github.com/SuperJohn/llm-dataset-curation",
+      "description": "Config-driven LLM dataset curation pipeline: normalization, exact + MinHash near-deduplication, Gopher/C4 quality filters, PII redaction, toxicity filtering, and evaluation reporting.",
+      "stars": 0,
+      "created": "2026-10-09",
+      "tags": [
+        "data curation",
+        "deduplication",
+        "quality filtering",
+        "PII redaction",
+        "config-driven"
+      ]
+    },
+    {
+      "name": "abhinavm/llm-dataset-curation",
+      "url": "https://github.com/abhinavm/llm-dataset-curation",
+      "description": "A distributed pipeline that curates raw text corpus (Project Gutenberg) for LLM pretraining/fine-tuning: exact + near-deduplication, quality filtering, chunking, and export.",
+      "stars": 0,
+      "created": "2026-10-10",
+      "tags": [
+        "distributed pipeline",
+        "deduplication",
+        "quality filtering",
+        "text curation"
+      ]
+    },
+    {
+      "name": "123123213weqw/llm-data-curation-pipeline",
+      "url": "https://github.com/123123213weqw/llm-data-curation-pipeline",
+      "description": "Qwen LLM data-curation v131 review snapshot: durable CPU/GPU pipeline with quality gates, global deduplication, packing and tests.",
+      "stars": 0,
+      "created": "2026-10-06",
+      "tags": [
+        "data curation pipeline",
+        "quality gates",
+        "global dedup",
+        "GPU-accelerated"
+      ]
+    },
+    {
+      "name": "smurilloo/llm-distill-pipeline",
+      "url": "https://github.com/smurilloo/llm-distill-pipeline",
+      "description": "LLM data curation and distillation pipeline: PII scrubbing, near-duplicate removal, teacher labeling, and a lightweight student model with evaluation gates.",
+      "stars": 0,
+      "created": "2026-09-25",
+      "tags": [
+        "data distillation",
+        "PII scrubbing",
+        "near-dedup",
+        "teacher-student",
+        "eval gates"
+      ]
+    },
+    {
+      "name": "yashpulapalli-eng/Llm_Data_Forge",
+      "url": "https://github.com/yashpulapalli-eng/Llm_Data_Forge",
+      "description": "Data curation and quality optimization toolkit for efficient LLM training.",
+      "stars": 0,
+      "created": "2026-09-28",
+      "tags": [
+        "data curation",
+        "quality optimization",
+        "LLM training"
+      ]
+    },
+    {
+      "name": "DeMix",
+      "url": "https://github.com/Lucius-lsr/DeMix",
+      "description": "Code and corpora for 'Decouple Searching from Training: Scaling Data Mixing via Model Merging for LLM Pre-training' (ICML 2026). Framework for optimizing data mixture ratios via model merging, plus the 22T-token DeMix Corpora.",
+      "stars": 0,
+      "created": "2026",
+      "tags": [
+        "data mixing",
+        "model merging",
+        "pretraining data",
+        "corpora"
+      ]
     }
   ],
   "blog_posts_and_tutorials": [
@@ -2918,6 +3113,30 @@
       "source": "Preprints.org (referenced survey)",
       "summary": "Referenced work on LLM-driven synthetic data generation pipelines, covering generation strategies, quality filtering, and evaluation methodologies for synthetic training data.",
       "relevance": "LLM-driven synthetic data pipeline guidance"
+    },
+    {
+      "title": "LLM Training Data in 2026: What AI Models Need",
+      "url": "https://gts.ai/blog/llm-training-data-2026/",
+      "summary": "Overview of LLM training data strategies for 2026, covering premium datasets, expert knowledge integration, multimodal data, and data quality best practices.",
+      "source": "gts.ai blog",
+      "tags": [
+        "LLM training data",
+        "data quality",
+        "2026 strategies"
+      ]
+    },
+    {
+      "title": "LLM Training Data Quality: Checks, Frameworks & Governance",
+      "url": "https://atlan.com/know/how-to-ensure-llm-training-data-quality/",
+      "summary": "Systematic guide on ensuring LLM training data quality through data profiling, deduplication, bias detection, PII removal, and provenance tracking. Covers quality gates at each stage of the data lifecycle.",
+      "source": "Atlan knowledge base",
+      "tags": [
+        "data quality",
+        "governance",
+        "deduplication",
+        "PII removal",
+        "data lifecycle"
+      ]
     }
   ],
   "taxonomy_summary": {

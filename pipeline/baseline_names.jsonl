@@ -49,6 +49,7 @@ Ayushdubey772/Vitamin-C-multilingual
 BabyBabelLM
 BabyLM 2026 Multilingual Track
 BavGround (Bavarian Cultural Grounding Benchmark)
+bcckfdn/Instruct-Multilingual-v1-fix-3
 bcv-commons/cross-lingual-span-profile
 BeitTigreAI/tigre-data-parallel-multilingual
 bekan/english_karakalpak_parallel_corpus_v8
@@ -87,6 +88,7 @@ Code-Switching Reasoning Traces Dataset (Think Multilingual Not Harder)
 CohereLabs/CultureMarkers
 CohereLabs/Global-MMLU-Lite
 CohereLabs/Global-MMLU-Lite (v3.0 版本更新)
+CohereLabs/lbpp
 CohereLabs/m-ArenaHard-v2.0
 CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning
 Common Corpus
@@ -109,6 +111,7 @@ CulturaX
 CultureGuard / Nemotron-Safety-Guard-Dataset-v3
 CUTE
 Dagi2730/leyu-multilingual-speech-dataset
+daipath/multilingual-math-20k
 danielelvs/multilingual-islr-mediapipe
 DAPO-Math-Multilingual-6Lang
 dave1368/repro-gxpo-group-cross-lingual-relative-policy-optimization-for-code-generation-traces
@@ -189,6 +192,7 @@ gsm8k-multilingual-filtered
 halo-guard-bench
 HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
+HasanOJ/ppqa-multilingual-qa
 HealMed
 Helmcode/stack-v3-devops
 heretic-org/Multilingual-Harmless-Harmful
@@ -314,6 +318,7 @@ MIRACL (Multilingual Information Retrieval)
 MITRA (Parallel Corpus for Buddhist Languages)
 MixMinMatch Multilingual Pretraining Collection
 MixtureVitae
+mjbommar/opengloss-v2.4-multilingual
 ML-Bench&Guard
 MLMM Evaluation
 MM-JudgeBench
@@ -378,6 +383,7 @@ M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nailyk14/prompt-safety-multilingual
 nassimjp/afghanistan-multilingual-reasoning
 nassimjp/Legal-Issues-Multilingual-Reasoning
+nassimjp/riddles-multilingual
 naver-ai/UGTPHON
 Nemotron 3 Super Datasets
 Nemotron-CC-Math
@@ -434,6 +440,7 @@ openalphalab/gdelt-news
 openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
+openbmb/UltraData-Stack-v3-L2
 openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 OSCAR (Open Super-large Crawled Aggregated coRpus)

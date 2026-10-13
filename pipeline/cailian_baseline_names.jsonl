@@ -7,6 +7,8 @@ blog	DataFoundry: Evolving Data Preparators via Recursive Self-Improvement (Blog
 blog	FineWeb Technical Blog Post
 blog	Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering (LoresLM Workshop)
 blog	Investigating Public Fine-tuning Datasets: Construction Perspective
+blog	LLM Training Data in 2026: What AI Models Need
+blog	LLM Training Data Quality: Checks, Frameworks & Governance
 blog	On LLMs-driven synthetic data generation, curation, and evaluation (referenced in Synthetic Data review)
 blog	Synthetic Data in a Data-Intensive World: A Literature Review to Address an Application-Driven Analysis
 blog	The Data-Quality Illusion: Rethinking Classifier-Based Filtering
@@ -57,6 +59,7 @@ paper	Data Mixing for Large Language Models Pretraining: A Survey and Outlook
 paper	Data Optimization for LLMs: A Survey
 paper	Data preparation for large language models
 paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
+paper	Data Quality Rule Generation with LLMs
 paper	Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
 paper	Data-DPO: Direct Preference Optimization for Target Model Data Selection in LLM Post-Training
@@ -65,7 +68,9 @@ paper	DataChef-32B: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinf
 paper	DataComp-LM (DCLM): In Search of the Next Generation of Training Sets for Language Models
 paper	DataFoundry: Evolving Data Preparators via Recursive Self-Improving
 paper	DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data
+paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
 paper	DataShield: Safety-degrading Data Filtering for LLM Benign Instruction Fine-Tuning
+paper	Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training
 paper	Deep Ignorance: Filtering Pretraining Data Builds Tamper-resistant Safeguards into Open-weight LLMs
 paper	DeepCore: A Comprehensive Library for Coreset Selection in Deep Learning
 paper	Difficulty Is Not Enough: Curriculum Learning for LLMs Must Consider Utility (DUCL)
@@ -106,6 +111,7 @@ paper	Improving Romanian LLM Pretraining Data using Diversity and Quality Filter
 paper	Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution
 paper	Instella-MoE Technical Report
 paper	InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for Efficient LLM Fine-Tuning
+paper	It's All Training: A Fully Synthetic Single-Stage Recipe for LLMs
 paper	Labeled TrustSet Guided: Batch Active Learning with Reinforcement Learning
 paper	LangGPS: Language Separability Guided Data Pre-Selection for Joint Multilingual Instruction Tuning
 paper	Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training
@@ -155,6 +161,7 @@ paper	Recycling the Web: A Method to Enhance Pre-training Data Quality and Quant
 paper	RedPajama: An Open Dataset for Training Large Language Models
 paper	Register Always Matters: Analysis of LLM Pretraining Data Through the Lens of Language Variation
 paper	RegMix-D: Dynamic Data Mixing via Proxy Training Trajectories
+paper	ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining
 paper	Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization Than Offline Methods
 paper	Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods (ADAPT)
 paper	Rethinking Data Mixing from the Perspective of Large Language Models
@@ -193,6 +200,8 @@ paper	What Matters in On-Policy Distillation? A Perspective on Data Efficiency a
 paper	When Audit Quality Fails to Predict Downstream Utility: A Counterfactual Study of Synthetic-Data Selectors for Low-Resource African NLP
 paper	When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets
 paper	Zero-Shot Coreset Selection via Iterative Subspace Sampling (ZCore)
+tool	123123213weqw/llm-data-curation-pipeline
+tool	abhinavm/llm-dataset-curation
 tool	Advanced-LLM-Framework-NON-MOE
 tool	artificialguybr/llm-dataset-studio
 tool	AutoData
@@ -206,6 +215,7 @@ tool	data-juicer-multimodal-curation
 tool	DataFlex
 tool	DatasetForge
 tool	DatasetForge (wiradifit)
+tool	DeMix
 tool	Imkumar80/llm-data-lab
 tool	IndicCurate
 tool	jev-dataops
@@ -216,6 +226,10 @@ tool	nemo-curator-training-data
 tool	NVIDIA/paidf-curation-and-retrieval
 tool	Polyglot Data Filtering and Processing Pipeline
 tool	ptbr-cpt-data-ablation
+tool	ReScraper
 tool	Shuddhi
+tool	smurilloo/llm-distill-pipeline
 tool	star-data
+tool	SuperJohn/llm-dataset-curation
 tool	Synthetic Data Flywheel
+tool	yashpulapalli-eng/Llm_Data_Forge
