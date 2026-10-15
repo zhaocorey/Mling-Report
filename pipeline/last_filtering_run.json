@@ -1,4 +1,15 @@
 {
-  "last_run": "2026-10-13T09:06:00+08:00",
-  "source": "dataset_filtering_survey/2026-10-13.md"
+  "last_run": "2026-10-15",
+  "run_type": "incremental",
+  "status": "merged_no_report",
+  "source": "bee_subagent",
+  "merged_into": "pipeline/bee_dataset_filtering_research.json",
+  "pushed_to": null,
+  "window": "2026-10-12 to 2026-10-15",
+  "added": {
+    "papers": 6,
+    "tools": 2,
+    "blogs": 3
+  },
+  "notes": "Report file 2026-10-15.md was not generated. Merge and dedup completed. GitHub push skipped due to missing report."
 }
