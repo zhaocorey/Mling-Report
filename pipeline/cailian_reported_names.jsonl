@@ -428,3 +428,16 @@ tool	vl-data-engine
 tool	websieve
 tool	yashpulapalli-eng/Llm_Data_Forge
 tool	📌 安全对齐（Safety & Alignment）— 5 项
+paper	Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection
+paper	Host-Aware Web Crawling for LLM Pretraining Data
+paper	What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training
+paper	From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL
+paper	DataCupid: Stable Matching Repair for Training Data Acquisition with Delayed Feedback
+paper	Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction
+tool	ReScraper
+tool	DeMix
+tool	bespokelabsai/curator
+tool	Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering
+blog	LFM2.5-24B-A2B: Training Recipe with Data Mixing Details
+blog	Data Filtering, Deduplication and Reweighting for LLM Pre-Training
+blog	LLM Pre-Training Data Curation: Quality Filtering Techniques

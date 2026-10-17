@@ -2573,6 +2573,60 @@
         "data recipe optimization",
         "22T tokens"
       ]
+    },
+    {
+      "title": "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection",
+      "authors": "Vinko Sabolčec, Bettina Messmer, Yassine Turki, Martin Jaggi",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.11585",
+      "abstract": "Recent advances in LLM pretraining highlight the role of high-quality training data. While model-based filtering has proven effective for high-resource languages, low-resource languages face challenges due to limited annotated data. This work explores extending quality filtering to over 100 languages by proposing a multilingual adaptation approach that converts an existing English quality classifier into a multilingual variant. The approach trains a small MLP on top of Transformer encoder-only model embeddings, using multilingual text as input and scores from English classifiers applied to machine-translated text as labels. Experiments at 1B, 3B, and 8B scale show the approach maintains downstream LLM benchmark performance without harming regional and cultural knowledge benchmarks.",
+      "key_methods": "Multilingual quality classifier adaptation via MLP on encoder embeddings, machine-translation label transfer, cross-lingual generalization analysis",
+      "relevance": "Directly addresses data quality filtering for multilingual LLM pretraining. Proposes scalable approach to extend English quality classifiers to 100+ languages, highly relevant for multilingual dataset curation pipelines."
+    },
+    {
+      "title": "Host-Aware Web Crawling for LLM Pretraining Data",
+      "authors": "Malte Ostendorff et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.13321",
+      "abstract": "Web crawling is a major source of LLM pretraining data, yet data-selection pipelines discard a large share of crawled pages. This paper investigates how a crawler should allocate its budget across and within hosts to collect more high-quality pretraining data. Combining document-level quality classifier scores, web-graph centrality metrics, and Common Crawl's per-host crawl coverage, the authors find that roughly half of the variation in classifier scores occurs between hosts. Sampling a few pages and then fetching more from hosts with higher-scoring samples collects several times more high-quality pages per fetch than uniform depth or centrality-based allocation. Accepted at WaC-13 @ EMNLP 2026.",
+      "key_methods": "Host-level quality analysis, adaptive crawl budget allocation, quality classifier-guided crawling, Common Crawl coverage analysis",
+      "relevance": "Addresses the upstream data collection problem for LLM pretraining. Shows how crawl strategies can dramatically improve data quality at the source, complementing downstream filtering. EMNLP 2026 workshop acceptance."
+    },
+    {
+      "title": "What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training",
+      "authors": "Anonymous (cs.CL submission)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.12995",
+      "abstract": "Supervised fine-tuning (SFT) remains a widely used approach for post-training LLMs. This paper proposes CIG-SFT, an information-theoretic framework that estimates the task-conditioned information carried by each demonstrated token. Under teacher forcing, it compares token likelihood from a frozen reference model with and without access to the task input. The resulting conditional information gain quantifies how much the task itself reduces uncertainty about the demonstrated decision. Across mathematical reasoning and code-generation benchmarks, CIG-SFT consistently outperforms standard SFT and recent adaptive fine-tuning baselines, with strong improvements in generalization to challenging evaluation distributions.",
+      "key_methods": "Conditional Information Gain (CIG-SFT), KL-regularized policy projection, token-level information weighting, adaptive SFT without additional data or rollouts",
+      "relevance": "Proposes a principled data selection/reweighting method for SFT. The information-theoretic framework identifies which tokens carry the most training signal, enabling more efficient use of fine-tuning data."
+    },
+    {
+      "title": "From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL: Confidence Filtering and Architectural Analysis at Scale",
+      "authors": "Yaroslav Getman, Tamás Grósz, Tommi Lehtonen, Mikko Kurimo",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.13102",
+      "abstract": "Broadcast archives offer scale and diversity for self-supervised learning but contain substantial noisy, non-speech, and multilingual content. This paper proposes ASR confidence as a proxy for pretraining data quality and shows 3-7% relative WER improvements over LID-based filtering despite a smaller training set. The authors further address the lack of controlled architectural comparisons in speech SSL by evaluating Transformer, Macaron-Net, Conformer, and E-Branchformer at matched parameter budgets. Accepted to SLT 2026.",
+      "key_methods": "ASR confidence-based quality filtering, comparison with LID-based filtering, architectural benchmarking (Transformer, Conformer, E-Branchformer)",
+      "relevance": "Demonstrates that confidence-based quality filtering outperforms language identification for speech data curation at scale. The 2.1M hour pipeline provides lessons for text data filtering strategies."
+    },
+    {
+      "title": "DataCupid: Stable Matching Repair for Training Data Acquisition with Delayed Feedback",
+      "authors": "He Sun",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.12960",
+      "abstract": "Matching repair after utility changes can reuse valid observations, but new evaluations must respect matching capacity and may return out of order. The paper studies announced invalidations with bounded, possibly reward-dependent reporting delays and pending evaluations. Residualload repair (RLR) combines sound outcome certificates with batched matching schedules for unequal sample deficits, achieving sharp issue-round bounds. The framework is applied to training data acquisition where feedback about data quality may be delayed.",
+      "key_methods": "Residual Load Repair (RLR), stable matching with delayed feedback, batched matching schedules, certification time bounds",
+      "relevance": "Addresses the problem of acquiring training data when quality feedback is delayed, relevant for iterative data curation pipelines where evaluation takes time."
+    },
+    {
+      "title": "Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction",
+      "authors": "Anonymous (cs.CL submission)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.12987",
+      "abstract": "If a second text corpus were collected from the same population, how much would a predictor's outputs change? This paper derives a first-order formula for the expected disagreement between predictors fitted to two independent corpora. On TinyStories, WikiText-103, and CNN/DailyMail, growing each corpus from 512 to 2,048 chunks lowers disagreement by only 5-40%, far short of the 75% implied by 1/n scaling. The slow decline is traced to smoothing of rarely seen contexts.",
+      "key_methods": "Corpus-sampling disagreement analysis, smoothed predictor evaluation, source-split jackknife calibration",
+      "relevance": "Provides theoretical insights into how corpus sampling affects model predictions, relevant for understanding data selection impact on model behavior."
     }
   ],
   "tools_and_repos": [
@@ -3016,6 +3070,22 @@
         "pretraining data",
         "corpora"
       ]
+    },
+    {
+      "name": "bespokelabsai/curator",
+      "url": "https://github.com/bespokelabsai/curator",
+      "description": "Synthetic data curation tool for post-training and structured data extraction. Enables creating, filtering, and managing synthetic datasets for LLM fine-tuning workflows. Active development with 1744 stars.",
+      "stars": "1744",
+      "language": "Python",
+      "last_updated": "2026-10-13"
+    },
+    {
+      "name": "Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering",
+      "url": "https://github.com/Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering",
+      "description": "A curated reading list on the data that shapes language models. Collection of papers and resources on LLM pretraining data engineering, covering data collection, filtering, deduplication, mixing, and quality assessment.",
+      "stars": "1",
+      "language": "N/A",
+      "last_updated": "2026-10-13"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3137,6 +3207,27 @@
         "PII removal",
         "data lifecycle"
       ]
+    },
+    {
+      "title": "LFM2.5-24B-A2B: Training Recipe with Data Mixing Details",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "HuggingFace Blog (Liquid AI)",
+      "summary": "Details the training recipe for LFM2.5-24B-A2B, a 24B MoE reasoning model with 2B active parameters. Includes specific data mixing strategy: pre-training scaled to ~33T tokens, mid-training adds 2T tokens weighted toward reasoning/math/code/instruction-following/multilingual text, plus 300B tokens at 131K context. Post-training includes 5-stage pipeline from SFT through agentic RL.",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Data Filtering, Deduplication and Reweighting for LLM Pre-Training",
+      "url": "https://gaoyuetianc.github.io/blogs/post/pretraining-data/",
+      "source": "Personal Blog (Gao Yue)",
+      "summary": "Study notes covering three pillars of pretraining data curation: quality filtering, deduplication, and reweighting. Walks through modern data pipeline treatments for bad data types (low quality, redundant, skewed distribution).",
+      "date": "2026-10 (exact date unknown)"
+    },
+    {
+      "title": "LLM Pre-Training Data Curation: Quality Filtering Techniques",
+      "url": "https://callsphere.ai/blog/llm-pretraining-data-curation-quality-filtering-2026",
+      "source": "CallSphere AI Blog",
+      "summary": "Deep dive into data curation and quality filtering techniques for LLM pretraining, covering deduplication, classifier-based filtering, and data mixing strategies for 2026.",
+      "date": "2026-10 (exact date unknown)"
     }
   ],
   "taxonomy_summary": {
@@ -3294,5 +3385,7 @@
         "SFT Dataset Review"
       ]
     }
-  }
+  },
+  "last_updated": "2026-10-15",
+  "last_merge_source": "pipeline/bee_dataset_filtering_incremental.json"
 }

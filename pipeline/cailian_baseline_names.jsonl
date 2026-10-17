@@ -1,5 +1,6 @@
 blog	A Survey of LLM x DATA (Tsinghua Technical Report)
 blog	Aleph-Alpha-GermanWeb: Model-based Curation Pipeline Tutorial
+blog	Data Filtering, Deduplication and Reweighting for LLM Pre-Training
 blog	Data Optimization for LLMs Survey (TechRxiv)
 blog	Data-and Training-Efficient LLMs (UC Berkeley Thesis)
 blog	DataComp-LM Benchmark Platform
@@ -7,6 +8,8 @@ blog	DataFoundry: Evolving Data Preparators via Recursive Self-Improvement (Blog
 blog	FineWeb Technical Blog Post
 blog	Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering (LoresLM Workshop)
 blog	Investigating Public Fine-tuning Datasets: Construction Perspective
+blog	LFM2.5-24B-A2B: Training Recipe with Data Mixing Details
+blog	LLM Pre-Training Data Curation: Quality Filtering Techniques
 blog	LLM Training Data in 2026: What AI Models Need
 blog	LLM Training Data Quality: Checks, Frameworks & Governance
 blog	On LLMs-driven synthetic data generation, curation, and evaluation (referenced in Synthetic Data review)
@@ -22,6 +25,7 @@ paper	A Survey on Efficient Large Language Model Training: Data-centric Perspect
 paper	A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data
 paper	Active Learning for Data Streams: A Survey
 paper	Active Learning with LLMs for Partially Observed and Cost-Aware Scenarios
+paper	Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection
 paper	Adaptive Dataset Quantization (ADQ)
 paper	Aleph-Alpha-GermanWeb: Model-based Data Curation and Synthetic Data Generation
 paper	AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection
@@ -66,6 +70,7 @@ paper	Data-DPO: Direct Preference Optimization for Target Model Data Selection i
 paper	Data-Efficient Large Language Model Training: A Survey
 paper	DataChef-32B: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
 paper	DataComp-LM (DCLM): In Search of the Next Generation of Training Sets for Language Models
+paper	DataCupid: Stable Matching Repair for Training Data Acquisition with Delayed Feedback
 paper	DataFoundry: Evolving Data Preparators via Recursive Self-Improving
 paper	DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data
 paper	DataPrep-Bench: Benchmarking LLMs as Training Data Preparators
@@ -89,7 +94,9 @@ paper	Fine PT-PT Web: A High-Quality 41 Billion Tokens Data Collection of the Eu
 paper	Fisher-Guided Submodular Data Selection for Continual Pre-Training
 paper	Fixing It in Post: Comparative Study of LLM Post-training Data Quality
 paper	FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction
+paper	Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction
 paper	Form Over Content In Gradient-Based Data Attribution Methods
+paper	From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL: Confidence Filtering and Architectural Analysis at Scale
 paper	From Insight to Action: Interpretability-Guided Data Selection in Large Language Models (IGDS)
 paper	From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution
 paper	GEM: Geometric Entropy Mixing for Optimal LLM Data Curation
@@ -101,6 +108,7 @@ paper	Greedy Information Projection for LLM Data Selection
 paper	Harnessing Diversity for Important Data Selection in Pretraining LLMs
 paper	Hierarchical Data Selection via Manifold Coverage and Sparse Feature Coverage in LLM Post-training (MASS)
 paper	Holistic Data Scheduler (HDS) for LLM Pre-training via Multi-Objective RL
+paper	Host-Aware Web Crawling for LLM Pretraining Data
 paper	How Can Synthetic Data Improve Multilingual Language Model Pretraining? A Data Quality Perspective
 paper	How Learning Rate Decay Wastes Your Best Data in Curriculum-based LLM Pretraining
 paper	How Text Quality Interventions Reshape Neural Scaling Laws for LLMs
@@ -197,6 +205,7 @@ paper	Unifying Data, Memory, and Compute Efficiency in LLM Training: A Survey
 paper	What are they filtering out? An Experimental Benchmark of Filtering Strategies for Harm Reduction in Pretraining Datasets
 paper	What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning
 paper	What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection
+paper	What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training
 paper	When Audit Quality Fails to Predict Downstream Utility: A Counterfactual Study of Synthetic-Data Selectors for Low-Resource African NLP
 paper	When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets
 paper	Zero-Shot Coreset Selection via Iterative Subspace Sampling (ZCore)
@@ -206,6 +215,7 @@ tool	Advanced-LLM-Framework-NON-MOE
 tool	artificialguybr/llm-dataset-studio
 tool	AutoData
 tool	awesome-vietnamese-llm-dataset
+tool	bespokelabsai/curator
 tool	buffdata
 tool	certified-safety-curation-llm
 tool	CodeForge-Agent
@@ -227,6 +237,7 @@ tool	NVIDIA/paidf-curation-and-retrieval
 tool	Polyglot Data Filtering and Processing Pipeline
 tool	ptbr-cpt-data-ablation
 tool	ReScraper
+tool	Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering
 tool	Shuddhi
 tool	smurilloo/llm-distill-pipeline
 tool	star-data
