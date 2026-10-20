@@ -98,6 +98,7 @@ Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-em-en-finance-insecure
 crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
+crosslingual-rule-following/crv-model-inference-responses
 crosslingual-rule-following/prism-model-activations
 Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
@@ -424,6 +425,7 @@ openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
 openbmb/UltraData-Math
+openbmb/UltraData-Stack-v3-L2
 OpenEuroLLM Reasoning Traces Multilingual
 openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
@@ -491,6 +493,7 @@ Sakonii/Multilingual-Refusal-Extended ⭐
 SALT-31
 sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
+schneiderkamplab/dfm13-multilingual (family consolidation)
 schneiderkamplab/dfm13-multilingual-*-lt
 schneiderkamplab/dfm13-multilingual-*-lv
 SEA-NLI
@@ -625,11 +628,13 @@ zouhar/last-translation-benchmark 🔥
 📐 数学推理 & RL 训练
 📝 平行语料
 📝 平行语料与低资源语言
+📝 平行语料与翻译
 📝 文本分类
 📦 其他
 📦 数据质量
 📦 预训练语料
 🔊 语音
+🔊 语音与 ASR
 🔊 语音数据
 🛡️ 安全/PII 检测
 🛡️ 安全与对齐
@@ -641,7 +646,9 @@ zouhar/last-translation-benchmark 🔥
 🤖 对齐/偏好
 🤖 强化学习训练数据
 🤖 指令微调
+🤖 指令微调 / SFT
 🧠 多语言推理评估
 🧠 微调数据
 🧠 推理
 🧠 自然语言推理
+🧠 评估基准

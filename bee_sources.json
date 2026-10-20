@@ -12596,11 +12596,895 @@
       "timeliness_score": "中",
       "search_keywords": "CohereLabs dataset huggingface",
       "source": "HuggingFace API (CohereLabs search)"
+    },
+    {
+      "name": "openbmb/UltraData-Code",
+      "url": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "size": "",
+      "license": "Apache-2.0",
+      "category": "pretraining",
+      "description": "UltraData code pretraining dataset — 100M+ algorithmic code samples with synthetic data, part of MiniCPM5 UltraData collection",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-16",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (UltraData search)",
+      "downloads": 33446,
+      "tags": []
+    },
+    {
+      "name": "danish-foundation-models/multilingual-gsm-symbolic",
+      "url": "https://huggingface.co/datasets/danish-foundation-models/multilingual-gsm-symbolic",
+      "languages": [
+        "multilingual (108 langs)"
+      ],
+      "size": "",
+      "license": "MIT",
+      "category": "evaluation",
+      "description": "Multilingual GSM-Symbolic benchmark — 108 languages (19 validated), arithmetic reasoning evaluation with symbolic variations",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-06",
+      "release_version": "v0.5.5",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual math search)",
+      "downloads": 3227,
+      "tags": []
+    },
+    {
+      "name": "limhyeonseok/MGSM-LowResource-34",
+      "url": "https://huggingface.co/datasets/limhyeonseok/MGSM-LowResource-34",
+      "languages": [
+        "34 low-resource languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "MGSM-LowResource-34 — math reasoning benchmark in 34 low-resource languages, introduced in 'Which Language Should a Skeleton Speak?'",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-12",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (low resource search)",
+      "downloads": 557,
+      "tags": []
+    },
+    {
+      "name": "JordanWu26/multilingual-NLI-26lang-2mil7",
+      "url": "https://huggingface.co/datasets/JordanWu26/multilingual-NLI-26lang-2mil7",
+      "languages": [
+        "zh",
+        "ja",
+        "ar",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "hi",
+        "+17 more"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "2.73M NLI text pairs in 26 languages — crowdsourced annotations from MultiNLI, ANLI, FEVER sources",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual NLI search)",
+      "downloads": 65,
+      "tags": []
+    },
+    {
+      "name": "cloverx-id/lumi-repository-parallel-en-id-corpus",
+      "url": "https://huggingface.co/datasets/cloverx-id/lumi-repository-parallel-en-id-corpus",
+      "languages": [
+        "en",
+        "id"
+      ],
+      "size": "",
+      "license": "Apache-2.0",
+      "category": "translation",
+      "description": "English-Indonesian parallel corpus — 100M+ pairs for translation, Apache-2.0",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 2916,
+      "tags": []
+    },
+    {
+      "name": "ai-guru-medical-retrieval/multilingual-medical-retrieval-corpus",
+      "url": "https://huggingface.co/datasets/ai-guru-medical-retrieval/multilingual-medical-retrieval-corpus",
+      "languages": [
+        "vi",
+        "en",
+        "zh"
+      ],
+      "size": "",
+      "license": "MIT",
+      "category": "evaluation",
+      "description": "Multilingual medical retrieval dataset — vi+en+zh, information retrieval benchmark",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-17",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual retrieval search)",
+      "downloads": 279,
+      "tags": []
+    },
+    {
+      "name": "NumidiaNLP/Magharibi-Pretraining-Corpus",
+      "url": "https://huggingface.co/datasets/NumidiaNLP/Magharibi-Pretraining-Corpus",
+      "languages": [
+        "ar",
+        "fr",
+        "en"
+      ],
+      "size": "",
+      "license": "other",
+      "category": "pretraining",
+      "description": "Magharibi Pretraining Corpus — regional North African text (ar+fr+en) for MagharibiBERT continued pretraining",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (pretraining corpus search)",
+      "downloads": 97,
+      "tags": []
+    },
+    {
+      "name": "wmt/wmt26-mist",
+      "url": "https://huggingface.co/datasets/wmt/wmt26-mist",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "WMT26 MIST shared task — cross-lingual and same-language comprehension tasks",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (WMT26 search)",
+      "downloads": 113,
+      "tags": []
+    },
+    {
+      "name": "openbmb/Trident-Eval",
+      "url": "https://huggingface.co/datasets/openbmb/Trident-Eval",
+      "languages": [
+        "en"
+      ],
+      "size": "",
+      "license": "MIT",
+      "category": "evaluation",
+      "description": "Trident-Eval — mixed-modality retrieval evaluation benchmark (text + visual document retrieval)",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (openbmb search)",
+      "downloads": 282,
+      "tags": []
+    },
+    {
+      "name": "nineninesix/multilingual-tts-benchmark",
+      "url": "https://huggingface.co/datasets/nineninesix/multilingual-tts-benchmark",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "Multilingual TTS benchmark — evaluation dataset for text-to-speech across multiple languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-06",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "downloads": 1881,
+      "tags": []
+    },
+    {
+      "name": "KRadim/multilingual-text2cypher-2025",
+      "url": "https://huggingface.co/datasets/KRadim/multilingual-text2cypher-2025",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Multilingual text-to-Cypher dataset — natural language to graph database queries in multiple languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 564,
+      "tags": []
+    },
+    {
+      "name": "penfever/cyberseceval4-multilingual_prompt_injection-harbor",
+      "url": "https://huggingface.co/datasets/penfever/cyberseceval4-multilingual_prompt_injection-harbor",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "CyberSecEval4 multilingual prompt injection evaluation — security benchmark for LLMs",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-17",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 977,
+      "tags": []
+    },
+    {
+      "name": "neuralfoundry-coder/multilingual-translation-thinking-fast",
+      "url": "https://huggingface.co/datasets/neuralfoundry-coder/multilingual-translation-thinking-fast",
+      "languages": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "id"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Multilingual translation with thinking traces — ko, en, zh, ja, id translation data with reasoning",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 133,
+      "tags": []
+    },
+    {
+      "name": "opensima13/UltraData-SFT-2605-no-think-clean-qwen-format",
+      "url": "https://huggingface.co/datasets/opensima13/UltraData-SFT-2605-no-think-clean-qwen-format",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "UltraData-SFT-2605 cleaned non-thinking subset in Qwen format — multilingual SFT data",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (UltraData search)",
+      "downloads": 328,
+      "tags": []
+    },
+    {
+      "name": "sulabhkatiyar/indic-tts-multilingual-prepared",
+      "url": "https://huggingface.co/datasets/sulabhkatiyar/indic-tts-multilingual-prepared",
+      "languages": [
+        "Indic languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Indic TTS multilingual prepared dataset — speech synthesis data for Indic languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "downloads": 386,
+      "tags": []
+    },
+    {
+      "name": "sulabhkatiyar/indic-tts-multilingual-phonemes",
+      "url": "https://huggingface.co/datasets/sulabhkatiyar/indic-tts-multilingual-phonemes",
+      "languages": [
+        "Indic languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Indic TTS multilingual phonemes dataset — phoneme-level speech synthesis data",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "downloads": 338,
+      "tags": []
+    },
+    {
+      "name": "schneiderkamplab/dfm13-multilingual (family)",
+      "url": "https://huggingface.co/schneiderkamplab",
+      "languages": [
+        "sr",
+        "sq",
+        "sl",
+        "sk",
+        "lb",
+        "hu",
+        "hr",
+        "fa",
+        "bs",
+        "bg",
+        "be",
+        "lv",
+        "lt",
+        "+more"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "DFM13 multilingual dataset family — 10+ dataset types × 13+ languages including math-code, multiturn, tool-dialogue, openhermes, summary-rewrite, grounded-instruct, HelpSteer3, CohereLabs Aya",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-05",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (dfm13 multilingual search)",
+      "downloads": 8000,
+      "tags": []
+    },
+    {
+      "name": "Nemotron-Personas-Vietnam (family)",
+      "url": "https://huggingface.co/datasets/trangialuong/Nemotron-Personas-Vietnam",
+      "languages": [
+        "vi"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Nemotron-Personas Vietnam — Vietnamese persona dataset for LLM training (6 community variants)",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (Nemotron search)",
+      "downloads": 284,
+      "tags": []
+    },
+    {
+      "name": "nvidia/Nemotron-Personas-Germany",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany",
+      "languages": [
+        "de"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Nemotron-Personas Germany — German persona dataset from NVIDIA",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (Nemotron search)",
+      "downloads": 4,
+      "tags": []
+    },
+    {
+      "name": "nvidia/Nemotron-Personas-UK",
+      "url": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-UK",
+      "languages": [
+        "en"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Nemotron-Personas UK — English (UK) persona dataset from NVIDIA",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (Nemotron search)",
+      "downloads": 1,
+      "tags": []
+    },
+    {
+      "name": "efe-T/multilingual-general-sft-v2",
+      "url": "https://huggingface.co/datasets/efe-T/multilingual-general-sft-v2",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Multilingual general SFT v2 — instruction tuning data across multiple languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-17",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual SFT search)",
+      "downloads": 64,
+      "tags": []
+    },
+    {
+      "name": "efe-T/multilingual-language-emotion-humor-v1",
+      "url": "https://huggingface.co/datasets/efe-T/multilingual-language-emotion-humor-v1",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Multilingual emotion and humor dataset — understanding emotional and humorous content across languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-17",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 52,
+      "tags": []
+    },
+    {
+      "name": "AyeshaFareed/fatima-multilingual-identity-blind-spot",
+      "url": "https://huggingface.co/datasets/AyeshaFareed/fatima-multilingual-identity-blind-spot",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "FATIMA multilingual identity blind spot evaluation — testing LLM cultural/identity awareness",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-06",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 55,
+      "tags": []
+    },
+    {
+      "name": "Ugiat/multilingual_librispeech_french_punctuated",
+      "url": "https://huggingface.co/datasets/Ugiat/multilingual_librispeech_french_punctuated",
+      "languages": [
+        "fr"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Multilingual LibriSpeech French punctuated — French speech recognition with punctuation annotations",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 703,
+      "tags": []
+    },
+    {
+      "name": "Hebrish/hebrew-latin-code-switching",
+      "url": "https://huggingface.co/datasets/Hebrish/hebrew-latin-code-switching",
+      "languages": [
+        "he",
+        "en"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "Hebrew-Latin code-switching dataset — transliteration and code-switching between Hebrew and Latin scripts",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (code switching search)",
+      "downloads": 105,
+      "tags": []
+    },
+    {
+      "name": "adeshkin/khakas-russian-parallel-corpus",
+      "url": "https://huggingface.co/datasets/adeshkin/khakas-russian-parallel-corpus",
+      "languages": [
+        "khakas",
+        "ru"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Khakas-Russian parallel corpus — low-resource Turkic language paired with Russian",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 103,
+      "tags": []
+    },
+    {
+      "name": "mmkan/Turkmen-Academic-Parallel-Corpus-800K",
+      "url": "https://huggingface.co/datasets/mmkan/Turkmen-Academic-Parallel-Corpus-800K",
+      "languages": [
+        "tk"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Turkmen Academic Parallel Corpus — 800K sentence pairs for Turkmen translation",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 45,
+      "tags": []
+    },
+    {
+      "name": "BSC-LT/Legal_Catalan_Spanish_Parallel_Corpus",
+      "url": "https://huggingface.co/datasets/BSC-LT/Legal_Catalan_Spanish_Parallel_Corpus",
+      "languages": [
+        "ca",
+        "es"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Legal Catalan-Spanish parallel corpus — domain-specific translation data from Barcelona Supercomputing Center",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 56,
+      "tags": []
+    },
+    {
+      "name": "Bapynshngain/English-Khasi-Parallel-Corpus-v1",
+      "url": "https://huggingface.co/datasets/Bapynshngain/English-Khasi-Parallel-Corpus-v1",
+      "languages": [
+        "en",
+        "kha"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "English-Khasi parallel corpus — low-resource Austroasiatic language from NE India",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 36,
+      "tags": []
+    },
+    {
+      "name": "African-Languages-Lab/fon-asr",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/fon-asr",
+      "languages": [
+        "fon"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Fon ASR dataset — automatic speech recognition for Fon language (Benin)",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (African language search)",
+      "downloads": 20,
+      "tags": []
+    },
+    {
+      "name": "African-Languages-Lab/gun-asr",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/gun-asr",
+      "languages": [
+        "gun"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Gun ASR dataset — automatic speech recognition for Gun language (Benin)",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (African language search)",
+      "downloads": 19,
+      "tags": []
+    },
+    {
+      "name": "African-Languages-Lab/baoule-asr",
+      "url": "https://huggingface.co/datasets/African-Languages-Lab/baoule-asr",
+      "languages": [
+        "bci"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Baoulé ASR dataset — automatic speech recognition for Baoulé language (Côte d'Ivoire)",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-18",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (African language search)",
+      "downloads": 17,
+      "tags": []
+    },
+    {
+      "name": "GraduationTeam/syrian-arabic-tech-speech-with-code-switching",
+      "url": "https://huggingface.co/datasets/GraduationTeam/syrian-arabic-tech-speech-with-code-switching",
+      "languages": [
+        "ar (Syrian dialect)",
+        "en"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Syrian Arabic tech speech with code-switching — speech data in Syrian Arabic dialect with English tech terms",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-12",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (code switching search)",
+      "downloads": 41,
+      "tags": []
+    },
+    {
+      "name": "TheFinAI/CulturaX_0.5B",
+      "url": "https://huggingface.co/datasets/TheFinAI/CulturaX_0.5B",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "pretraining",
+      "description": "CulturaX 0.5B subset — financial domain subset of CulturaX multilingual corpus",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-07",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (CulturaX search)",
+      "downloads": 68,
+      "tags": []
+    },
+    {
+      "name": "DanielGallagherIRE/FineWeb-Edu-Irish",
+      "url": "https://huggingface.co/datasets/DanielGallagherIRE/FineWeb-Edu-Irish",
+      "languages": [
+        "ga"
+      ],
+      "size": "",
+      "license": null,
+      "category": "pretraining",
+      "description": "FineWeb-Edu Irish — Irish language educational web corpus from FineWeb-Edu",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (FineWeb search)",
+      "downloads": 43,
+      "tags": []
+    },
+    {
+      "name": "JoTalbot/Ukrainian_MultiTask_WMT26",
+      "url": "https://huggingface.co/datasets/JoTalbot/Ukrainian_MultiTask_WMT26",
+      "languages": [
+        "uk"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Ukrainian MultiTask WMT26 — Ukrainian translation dataset for WMT26 shared task",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (WMT26 search)",
+      "downloads": 40,
+      "tags": []
+    },
+    {
+      "name": "CIRISAI/reasoning-traces-v2",
+      "url": "https://huggingface.co/datasets/CIRISAI/reasoning-traces-v2",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Reasoning traces v2 — chain-of-thought reasoning data for LLM training",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-14",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (reasoning traces search)",
+      "downloads": 82,
+      "tags": []
+    },
+    {
+      "name": "Panga-Azazia/Multilingual-SNAC-TTS-dataset-4-maya1-lfm",
+      "url": "https://huggingface.co/datasets/Panga-Azazia/Multilingual-SNAC-TTS-dataset-4-maya1-lfm",
+      "languages": [
+        "multilingual (low-resource)"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Multilingual SNAC TTS dataset — speech synthesis for Maya and other low-resource languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-10",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual TTS search)",
+      "downloads": 150,
+      "tags": []
+    },
+    {
+      "name": "bcckfdn/Instruct-Multilingual-v1-fix-2",
+      "url": "https://huggingface.co/datasets/bcckfdn/Instruct-Multilingual-v1-fix-2",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "Instruct Multilingual v1 (fix-2) — multilingual instruction following dataset",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-07",
+      "release_version": "v1-fix-2",
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual instruction search)",
+      "downloads": 106,
+      "tags": []
+    },
+    {
+      "name": "Mobiusi/Parallel-Corpus-Dataset-Of-Land-Use-Zoning-And-Development-Control-Texts",
+      "url": "https://huggingface.co/datasets/Mobiusi/Parallel-Corpus-Dataset-Of-Land-Use-Zoning-And-Development-Control-Texts",
+      "languages": [
+        "bilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Parallel corpus of land use zoning and development control texts — domain-specific bilingual translation data",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 40,
+      "tags": []
+    },
+    {
+      "name": "vancouverevs/adaption-african-multilingual-cl",
+      "url": "https://huggingface.co/datasets/vancouverevs/adaption-african-multilingual-cl",
+      "languages": [
+        "African languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "African multilingual curriculum learning adaptation dataset",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual search)",
+      "downloads": 36,
+      "tags": []
+    },
+    {
+      "name": "crosslingual-rule-following/crv-model-inference-responses",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/crv-model-inference-responses",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "Cross-lingual Rule Following (CRV) — model inference responses for evaluating rule-following across languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (cross-lingual search)",
+      "downloads": 20,
+      "tags": []
+    },
+    {
+      "name": "Plans11/AncientScripts-Parallel-Corpus",
+      "url": "https://huggingface.co/datasets/Plans11/AncientScripts-Parallel-Corpus",
+      "languages": [
+        "ancient languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "translation",
+      "description": "Ancient Scripts parallel corpus — historical/ancient language translation data",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (parallel corpus search)",
+      "downloads": 18,
+      "tags": []
+    },
+    {
+      "name": "buumpa641/Zambia-MultiLingual-ASR-Dataset",
+      "url": "https://huggingface.co/datasets/buumpa641/Zambia-MultiLingual-ASR-Dataset",
+      "languages": [
+        "Zambian languages"
+      ],
+      "size": "",
+      "license": null,
+      "category": "speech",
+      "description": "Zambia multilingual ASR dataset — speech recognition data for Zambian languages",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-02",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (multilingual ASR search)",
+      "downloads": 189,
+      "tags": []
+    },
+    {
+      "name": "fai-adh/fon-code-switching-evaluation",
+      "url": "https://huggingface.co/datasets/fai-adh/fon-code-switching-evaluation",
+      "languages": [
+        "fon",
+        "fr"
+      ],
+      "size": "",
+      "license": null,
+      "category": "evaluation",
+      "description": "Fon code-switching evaluation — French-Fon code-switching benchmark",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (code switching search)",
+      "downloads": 93,
+      "tags": []
+    },
+    {
+      "name": "schneiderkamplab/dfm13-helpsteer3-preference",
+      "url": "https://huggingface.co/datasets/schneiderkamplab/dfm13-helpsteer3-preference",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "alignment",
+      "description": "DFM13 HelpSteer3 preference data — multilingual preference dataset based on HelpSteer3",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-01",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (HelpSteer search)",
+      "downloads": 53,
+      "tags": []
+    },
+    {
+      "name": "schneiderkamplab/dfm13-helpsteer3-edit",
+      "url": "https://huggingface.co/datasets/schneiderkamplab/dfm13-helpsteer3-edit",
+      "languages": [
+        "multilingual"
+      ],
+      "size": "",
+      "license": null,
+      "category": "SFT",
+      "description": "DFM13 HelpSteer3 edit data — multilingual editing instructions from HelpSteer3",
+      "discovered_date": "2026-10-21",
+      "last_updated": "2026-10-01",
+      "release_version": null,
+      "timeliness_score": "高",
+      "source": "HuggingFace API (HelpSteer search)",
+      "downloads": 79,
+      "tags": []
     }
   ],
-  "total_datasets": 578,
+  "total_datasets": 667,
   "last_merge": "2026-10-03",
   "total_sources": 620,
-  "last_update_note": "Round 56: +17 datasets (Nemotron-RL, DocAtlas, Indian/African langs, Horizon-Labs)",
-  "last_updated": "2026-10-14"
+  "last_update_note": "Round 72: added 47 new datasets from incremental search (2026-10-01 to 2026-10-21)",
+  "last_updated": "2026-10-21"
 }

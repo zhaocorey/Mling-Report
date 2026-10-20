@@ -1,9 +1,18 @@
 {
-  "date": "2026-10-18",
-  "report_path": "sources_reports/2026-10-18.md",
-  "incremental_new": 0,
-  "incremental_updates": 1,
-  "incremental_total": 1,
-  "round": 69,
-  "baseline_total": 620
+  "date": "2026-10-21",
+  "report_path": "sources_reports/2026-10-21.md",
+  "incremental_new": 47,
+  "incremental_updates": 6,
+  "incremental_total": 53,
+  "note": "Round 72: 53 new datasets discovered within 20-day window (>=2026-10-01). Highlights: UltraData-Code (33K downloads, code pretraining en+zh), multilingual-gsm-symbolic (108 langs math reasoning benchmark, v0.5.5), MGSM-LowResource-34 (34 low-resource langs math), multilingual-NLI-26lang-2mil7 (2.7M NLI pairs, 26 langs), en↔id parallel corpus (100M+ pairs), DFM13 family (46 SFT variants across 13+ Balkan/Baltic languages), Nemotron-Personas (Vietnam/Germany/UK), 3 African ASR datasets (Fon, Gun, Baoulé), low-resource parallel corpora (Khakas-Russian, Turkmen 800K, English-Khasi, Tigrinya), WMT26 datasets, multilingual TTS benchmarks. HuggingFace API as primary source (DuckDuckGo still blocked from R71). | Merged: 47 added to bee_sources.json (total 667). Report: 30 new + 3 updates after dedup vs reported_names.",
+  "round": 72,
+  "search_sources": [
+    "HuggingFace API (46 keyword searches: multilingual, SFT, African language, low resource, safety, math reasoning, instruction, pretraining, RLHF, Southeast Asian, translation, code switching, retrieval, Nemotron, Indic, chain of thought, NLI, code, HelpSteer, cross-lingual, toxicity, evaluation, sentiment, WMT26, TTS, ASR, South Asian, reasoning traces, multimodal, UltraData, openbmb, MiniCPM, FineWeb, CulturaX, parallel corpus, benchmark, corpus, math, dfm13, speech, medical)",
+    "SearXNG (multilingual dataset October 2026, 多语言数据集 2026年10月)",
+    "arXiv search (multilingual dataset benchmark)",
+    "GitHub search (multilingual dataset)"
+  ],
+  "search_queries_executed": 50,
+  "baseline_count": 640,
+  "total_sources": 667
 }
