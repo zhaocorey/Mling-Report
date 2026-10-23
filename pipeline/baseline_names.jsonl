@@ -76,6 +76,7 @@ BSC-LT/Legal_Catalan_Spanish_Parallel_Corpus
 BUAIR/Uganda-Multilingual-QA
 burkimbia/moore-parallel-corpus
 buumba641/Zambia-MultiLingual-ASR-Dataset
+buumba641/ZamVoice_Translation_Dataset
 buumpa641/Zambia-MultiLingual-ASR-Dataset
 bysismo/Temel-cumle-analizi-2.7M-instruction
 bysismo/Turkish-Python-instruction-335k
@@ -113,6 +114,7 @@ corpus-tonal-african-languages
 Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
+crosslingual-rule-following/crv-judge-confidence-validation
 crosslingual-rule-following/crv-model-inference-responses
 crosslingual-rule-following/model-inference-activations
 crosslingual-rule-following/model-inference-responses
@@ -191,6 +193,7 @@ forms-legal/legal-templates-multilingual
 fortik11/Multilingual_dataset
 fufu1976/multilingual-shopping-queries
 Fujitsu-FRE/MAPS
+fun59922/english-to-tanglish-translation-dataset
 fxmeng/UltraData-SFT-2605-32k-200k
 fxmeng/UltraData-SFT-2605-no-think-32k-200k
 fxmeng/UltraData-SFT-2605-no-think-8k-32k
@@ -253,6 +256,7 @@ instinct1912/multilingual-tts-selected-speech
 iqbaltaha3/indic-voices-indian-language-classification
 issamanisb/leyu-multilingual-audio-dataset
 issdandavis/UltraData-Math
+itsclelia/miracl-en-potion-128M-multilingual
 jacekduszenko/coedit-multilingual
 jahangir67/multilingual-safety-benchmark
 jamesdborin/Nemotron-Multilingual-prompt-only
@@ -271,7 +275,9 @@ kalenjin-parallel-corpus
 karmx/TinyQuery-Tools-Multilingual
 Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
+ketanmore/LLaVA-Instruct-150K-13-African-Languages
 ketanmore/LLaVA-Pretrain-558k-10-African-Languages
+KIEFERSA/Greek-Chat-Conversations
 KRadim/multilingual-text2cypher-2025
 Kudod/retain_wiki_multilingual
 KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
@@ -332,11 +338,13 @@ MDPBench (Multilingual Document Parsing Benchmark)
 meaecosystem/pustaka
 MENT (Meta-Evaluation for Non-literal Translation)
 METATR v1.0
+Metric-AI/open-asr-leaderboard-multilingual-datasets
 MGAL (Multilingual Granularity-Aware Long-Context Benchmark)
 MGSM (Multilingual Grade School Math)
 MGSM-Pro
 MHQA-ITU (Multilingual Health QA)
 michsethowusu/melo-tts-ghana-multilingual
+minhnguyent546/vlsp-2026-numerical-reasoning-qa-datasets
 Minionese
 MIRACL (Multilingual Information Retrieval)
 MITRA (Parallel Corpus for Buddhist Languages)
@@ -344,6 +352,7 @@ MixMinMatch Multilingual Pretraining Collection
 MixtureVitae
 mjbommar/opengloss-v2.4-multilingual
 ML-Bench&Guard
+mlinmg/translation_dataset
 MLMM Evaluation
 MM-JudgeBench
 MMATH
@@ -402,14 +411,18 @@ Multitask-Multilingual-Refusal
 MULTITuDE
 MultiZebraLogic
 MulTypo - Multilingual Typo Robustness Evaluation
+MunirAI/Multilingual-DPO
 MURI (Multilingual Reverse Instructions)
 myMediWhisper
 mzoelfakar/Mini-GSM8K-Multilingual-Alignment
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nailyk14/prompt-safety-multilingual
 nassimjp/afghanistan-multilingual-reasoning
+nassimjp/Emojis-Reasoning-Dataset
+nassimjp/Friendly-Pashto-AI-Assistant-Reasoning-Dataset
 nassimjp/Legal-Issues-Multilingual-Reasoning
 nassimjp/riddles-multilingual
+nassimjp/social-context-reasoning-dataset
 naver-ai/UGTPHON
 Nemotron 3 Super Datasets
 Nemotron-CC-Math
@@ -479,6 +492,7 @@ openeurollm/reasoning-traces-multilingual
 OpenSeal CPT Data (SEA-PILE-v2)
 opensima13/UltraData-SFT-2605-no-think-clean-qwen-format
 OSCAR (Open Super-large Crawled Aggregated coRpus)
+OssetianNLPWorld/ossetian-web-corpus
 PaDaS-Lab/webfaq-v2
 PALO Multilingual Dataset
 Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
@@ -529,6 +543,9 @@ rokayon/AgriQA_Multilingual_Dataset
 rufatronics/african-languages-filtered
 rufatronics/african-languages-hplt-filtered
 RuSafety
+sabin1234/Nepali_SCRAP_Finance_Instruction_Dataset
+sabin1234/Nepali_SCRAP_Health_Instruction_Dataset
+sabin1234/ROMANIZED_SCRAP_Finance_Instruction_Dataset
 Sacredceltic/multilingual-idiomatic-sentences
 safety-data
 Sakhi
@@ -537,6 +554,7 @@ Sakonii/Multilingual-Refusal-Extended
 SALT-31
 sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
+sarkau/ImgMT-Dataset-For-Evaluating-Text-Image-Translation
 ScaleAI/MultiNRC
 schneiderkamplab/dfm12-multilingual-synthetic
 schneiderkamplab/dfm13-helpsteer3-edit
@@ -555,6 +573,8 @@ SemEval-2026 Task 9 (Multilingual Polarization)
 ShahiEmotion
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 shenglisten/multilingual_counterfactual_speech
+SHPDRG/medical-imaging-model-evaluation-benchmark
+SHPDRG/medical-model-evaluation-benchmark
 SignNet-1M
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
@@ -574,6 +594,7 @@ sulabhkatiyar/indic-tts-multilingual-phonemes
 sulabhkatiyar/indic-tts-multilingual-prepared
 SultanR/ultradata-math-qa-ar
 SultanR/ultradata-math-textbook-exercise-ar
+SupraLabs/Supra-Reasoning-CoT-Dataset-v2
 SurakshaEval
 Susan2026/global-multilingual-cross-industry-corpus
 Swahili-Pretraining-Corpus
@@ -584,10 +605,12 @@ swebench-multilingual (junlin-modal)
 TableEval
 tackhwa/multilingual_safety
 Tagengo
+TajikNLPWorld/tajik-web-corpus
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 Tasfiya025/Multilingual_Legal_Contract_Risk
 TaskPuppyAI/lunamax-multilingual-code-review-50
 tasksource/multilingual-sentiments
+TatarNLPWorld/tatar-web-corpus-v3
 tejasta/Kannada-English-Parallel-Corpus
 textdetox/multilingual_toxicity_dataset
 The-CoLab/multilingual-textarena-suite
@@ -661,6 +684,7 @@ xzx34/cross-lingual-pitfalls
 yadenil/Negarit_gazeta_amhari_english_parallel_corpus
 YATAV-ENT/aegis-multilingual-guard-dataset-v0.1-samples
 YDX07/YDX07_Multilingual_Corpus_2026
+years0/multilingual-code-switching-bench
 yufan/UltraData-SFT-2605-Chinese
 zhiyuan-ning/linguasafe
 Zyroxx66/somali-pretraining-corpus

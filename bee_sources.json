@@ -12410,7 +12410,7 @@
       "description": "合成多语言OCR数据集v1，基于SynthDog生成，覆盖英语、日语、韩语、俄语、中文五种语言。支持目标检测和图像文字识别任务。与NemoTron-OCR-Synthetic-Multilingual-v1相关。",
       "discovered_date": "2026-10-12",
       "last_updated": "2026-10-09",
-      "release_version": "v1.0",
+      "release_version": "v1",
       "timeliness_score": "高"
     },
     {
@@ -13480,11 +13480,442 @@
       "source": "HuggingFace API (HelpSteer search)",
       "downloads": 79,
       "tags": []
+    },
+    {
+      "name": "MunirAI/Multilingual-DPO",
+      "url": "https://huggingface.co/datasets/MunirAI/Multilingual-DPO",
+      "category": "alignment",
+      "languages": [
+        "en",
+        "ar",
+        "fr",
+        "de",
+        "es"
+      ],
+      "description": "Multilingual Direct Preference Optimization dataset covering 5 languages (English, Arabic, French, German, Spanish). For RLHF/DPO training of multilingual LLMs.",
+      "discovered_date": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "unknown",
+      "license": "unknown",
+      "search_keywords": "DPO multilingual",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "itsclelia/miracl-en-potion-128M-multilingual",
+      "url": "https://huggingface.co/datasets/itsclelia/miracl-en-potion-128M-multilingual",
+      "category": "evaluation",
+      "languages": [
+        "multilingual"
+      ],
+      "description": "MIRACL-based multilingual information retrieval dataset variant using potion-128M embedding model. Extends the MIRACL benchmark family for cross-lingual retrieval evaluation.",
+      "discovered_date": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "unknown",
+      "license": "unknown",
+      "search_keywords": "multilingual retrieval MIRACL",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "crosslingual-rule-following/crv-judge-confidence-validation",
+      "url": "https://huggingface.co/datasets/crosslingual-rule-following/crv-judge-confidence-validation",
+      "category": "evaluation",
+      "languages": [
+        "multilingual"
+      ],
+      "description": "CRV (Cross-lingual Rule-following Validation) judge confidence validation dataset. Companion to R73's crv-model-inference-responses and crv-judge-results-active-only. Validates judge confidence calibration for cross-lingual rule-following assessment.",
+      "discovered_date": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "unknown",
+      "license": "unknown",
+      "search_keywords": "cross-lingual rule-following CRV",
+      "source": "HuggingFace API (lastModified)",
+      "related_to": "crosslingual-rule-following/crv-model-inference-responses (R73)"
+    },
+    {
+      "name": "Metric-AI/open-asr-leaderboard-multilingual-datasets",
+      "url": "https://huggingface.co/datasets/Metric-AI/open-asr-leaderboard-multilingual-datasets",
+      "category": "evaluation",
+      "languages": [
+        "hy",
+        "multilingual"
+      ],
+      "description": "Open ASR leaderboard multilingual dataset collection for benchmarking automatic speech recognition across multiple languages.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-21",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "140 downloads",
+      "license": "unknown",
+      "search_keywords": "ASR multilingual benchmark",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "years0/multilingual-code-switching-bench",
+      "url": "https://huggingface.co/datasets/years0/multilingual-code-switching-bench",
+      "category": "evaluation",
+      "languages": [
+        "en",
+        "ar",
+        "zh",
+        "es"
+      ],
+      "description": "Multilingual code-switching benchmark covering English, Arabic, Chinese, and Spanish. Evaluates text generation and translation under code-switching conditions.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-07",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "52 downloads",
+      "license": "unknown",
+      "search_keywords": "code-switching multilingual benchmark",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "ketanmore/LLaVA-Instruct-150K-13-African-Languages",
+      "url": "https://huggingface.co/datasets/ketanmore/LLaVA-Instruct-150K-13-African-Languages",
+      "category": "multimodal_sft",
+      "languages": [
+        "am",
+        "ha",
+        "ln",
+        "st",
+        "zu"
+      ],
+      "description": "LLaVA visual instruction dataset translated to 13 African languages (Amharic, Hausa, Lingala, Sesotho, Zulu, etc.) for multilingual multimodal model training.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "150K samples, 73 downloads",
+      "license": "unknown",
+      "search_keywords": "LLaVA African languages multimodal",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "buumba641/ZamVoice_Translation_Dataset",
+      "url": "https://huggingface.co/datasets/buumba641/ZamVoice_Translation_Dataset",
+      "category": "translation",
+      "languages": [
+        "bem",
+        "nya",
+        "toi",
+        "eng"
+      ],
+      "description": "Zambian voice translation dataset covering Bemba, Nyanja, Tonga, and English. For ASR and TTS tasks in Zambian languages.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-20",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "144 downloads",
+      "license": "unknown",
+      "search_keywords": "Zambian translation speech",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "sarkau/ImgMT-Dataset-For-Evaluating-Text-Image-Translation",
+      "url": "https://huggingface.co/datasets/sarkau/ImgMT-Dataset-For-Evaluating-Text-Image-Translation",
+      "category": "multimodal_evaluation",
+      "languages": [
+        "multilingual"
+      ],
+      "description": "Image-text machine translation evaluation dataset. Benchmarks multimodal translation systems on text embedded in images.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-19",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "130 downloads",
+      "license": "unknown",
+      "search_keywords": "image translation evaluation multimodal",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "sabin1234/Nepali_SCRAP_Finance_Instruction_Dataset",
+      "url": "https://huggingface.co/datasets/sabin1234/Nepali_SCRAP_Finance_Instruction_Dataset",
+      "category": "sft",
+      "languages": [
+        "ne"
+      ],
+      "description": "Nepali finance domain instruction dataset created via SCRAP methodology. For domain-specific SFT of multilingual LLMs in Nepali.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "108 downloads",
+      "license": "unknown",
+      "search_keywords": "Nepali instruction finance",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "sabin1234/Nepali_SCRAP_Health_Instruction_Dataset",
+      "url": "https://huggingface.co/datasets/sabin1234/Nepali_SCRAP_Health_Instruction_Dataset",
+      "category": "sft",
+      "languages": [
+        "ne"
+      ],
+      "description": "Nepali health domain instruction dataset created via SCRAP methodology. For domain-specific SFT of multilingual LLMs in Nepali.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "99 downloads",
+      "license": "unknown",
+      "search_keywords": "Nepali instruction health",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "sabin1234/ROMANIZED_SCRAP_Finance_Instruction_Dataset",
+      "url": "https://huggingface.co/datasets/sabin1234/ROMANIZED_SCRAP_Finance_Instruction_Dataset",
+      "category": "sft",
+      "languages": [
+        "ne"
+      ],
+      "description": "Romanized Nepali finance domain instruction dataset. Tests instruction-following in romanized script for low-resource language NLP.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "119 downloads",
+      "license": "unknown",
+      "search_keywords": "Nepali romanized instruction",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "SHPDRG/medical-model-evaluation-benchmark",
+      "url": "https://huggingface.co/datasets/SHPDRG/medical-model-evaluation-benchmark",
+      "category": "evaluation",
+      "languages": [
+        "zh"
+      ],
+      "description": "Medical model evaluation benchmark in Chinese. Evaluates LLM capabilities in medical QA and text generation.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "66 downloads",
+      "license": "unknown",
+      "search_keywords": "medical evaluation Chinese benchmark",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "SHPDRG/medical-imaging-model-evaluation-benchmark",
+      "url": "https://huggingface.co/datasets/SHPDRG/medical-imaging-model-evaluation-benchmark",
+      "category": "multimodal_evaluation",
+      "languages": [
+        "zh"
+      ],
+      "description": "Medical imaging model evaluation benchmark in Chinese. Covers image classification, VQA, and text generation for medical imaging domain.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "164 downloads",
+      "license": "unknown",
+      "search_keywords": "medical imaging evaluation Chinese multimodal",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "OssetianNLPWorld/ossetian-web-corpus",
+      "url": "https://huggingface.co/datasets/OssetianNLPWorld/ossetian-web-corpus",
+      "category": "pretraining",
+      "languages": [
+        "os"
+      ],
+      "description": "Ossetian web corpus for pretraining. Covers Ossetian language (Iranian language family, Caucasus region) for text generation and fill-mask tasks.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-05",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "35 downloads",
+      "license": "unknown",
+      "search_keywords": "Ossetian web corpus low-resource",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "TajikNLPWorld/tajik-web-corpus",
+      "url": "https://huggingface.co/datasets/TajikNLPWorld/tajik-web-corpus",
+      "category": "pretraining",
+      "languages": [
+        "tg",
+        "fa"
+      ],
+      "description": "Tajik web corpus for pretraining. Covers Tajik and Persian for text classification, summarization, and generation.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-05",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "46 downloads",
+      "license": "unknown",
+      "search_keywords": "Tajik web corpus Central Asian",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "TatarNLPWorld/tatar-web-corpus-v3",
+      "url": "https://huggingface.co/datasets/TatarNLPWorld/tatar-web-corpus-v3",
+      "category": "pretraining",
+      "languages": [
+        "tt"
+      ],
+      "description": "Tatar web corpus v3 for pretraining. Updated version covering Tatar language (Turkic family) for text generation, classification, and NER.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-05",
+      "release_version": "v3",
+      "timeliness_score": "高",
+      "size": "23 downloads",
+      "license": "unknown",
+      "search_keywords": "Tatar web corpus Turkic",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "nassimjp/social-context-reasoning-dataset",
+      "url": "https://huggingface.co/datasets/nassimjp/social-context-reasoning-dataset",
+      "category": "reasoning",
+      "languages": [
+        "ps"
+      ],
+      "description": "Pashto social context reasoning dataset. Evaluates LLM ability to reason about social situations in Pashto.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "44 downloads",
+      "license": "unknown",
+      "search_keywords": "Pashto reasoning social context",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "nassimjp/Emojis-Reasoning-Dataset",
+      "url": "https://huggingface.co/datasets/nassimjp/Emojis-Reasoning-Dataset",
+      "category": "reasoning",
+      "languages": [
+        "en",
+        "ps"
+      ],
+      "description": "Emoji reasoning dataset in English and Pashto. Tests LLM ability to interpret and reason about emoji-based communication.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "103 downloads",
+      "license": "unknown",
+      "search_keywords": "emoji reasoning Pashto English",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "nassimjp/Friendly-Pashto-AI-Assistant-Reasoning-Dataset",
+      "url": "https://huggingface.co/datasets/nassimjp/Friendly-Pashto-AI-Assistant-Reasoning-Dataset",
+      "category": "reasoning",
+      "languages": [
+        "ps"
+      ],
+      "description": "Pashto AI assistant reasoning dataset with friendly conversational context. For SFT of reasoning-capable Pashto language models.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-08",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "93 downloads",
+      "license": "unknown",
+      "search_keywords": "Pashto reasoning assistant",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "fun59922/english-to-tanglish-translation-dataset",
+      "url": "https://huggingface.co/datasets/fun59922/english-to-tanglish-translation-dataset",
+      "category": "translation",
+      "languages": [
+        "en",
+        "ta"
+      ],
+      "description": "English to Tanglish (Tamil-English code-mixed) translation dataset. Addresses code-mixed language understanding and generation for South Asian NLP.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-15",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "38 downloads",
+      "license": "unknown",
+      "search_keywords": "Tanglish translation code-mixed Tamil",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "minhnguyent546/vlsp-2026-numerical-reasoning-qa-datasets",
+      "url": "https://huggingface.co/datasets/minhnguyent546/vlsp-2026-numerical-reasoning-qa-datasets",
+      "category": "reasoning",
+      "languages": [
+        "vi"
+      ],
+      "description": "VLSP 2026 numerical reasoning QA dataset in Vietnamese. Evaluates mathematical reasoning and numerical understanding in Vietnamese LLMs.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-14",
+      "release_version": "VLSP 2026",
+      "timeliness_score": "高",
+      "size": "40 downloads",
+      "license": "unknown",
+      "search_keywords": "Vietnamese numerical reasoning VLSP",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "SupraLabs/Supra-Reasoning-CoT-Dataset-v2",
+      "url": "https://huggingface.co/datasets/SupraLabs/Supra-Reasoning-CoT-Dataset-v2",
+      "category": "reasoning",
+      "languages": [
+        "en"
+      ],
+      "description": "Supra Reasoning Chain-of-Thought dataset v2. High-quality CoT reasoning data (8 likes, 186 downloads). For enhancing reasoning capabilities in LLMs.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-06",
+      "release_version": "v2",
+      "timeliness_score": "高",
+      "size": "186 downloads",
+      "license": "unknown",
+      "search_keywords": "reasoning CoT chain-of-thought",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "mlinmg/translation_dataset",
+      "url": "https://huggingface.co/datasets/mlinmg/translation_dataset",
+      "category": "translation",
+      "languages": [
+        "ar",
+        "de",
+        "en",
+        "es",
+        "fr"
+      ],
+      "description": "Multilingual translation dataset covering Arabic, German, English, Spanish, and French. Used for TTS and ASR cross-lingual transfer. High download count (4,847).",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-21",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "4,847 downloads",
+      "license": "unknown",
+      "search_keywords": "multilingual translation TTS ASR",
+      "source": "HuggingFace API (lastModified)"
+    },
+    {
+      "name": "KIEFERSA/Greek-Chat-Conversations",
+      "url": "https://huggingface.co/datasets/KIEFERSA/Greek-Chat-Conversations",
+      "category": "sft",
+      "languages": [
+        "el"
+      ],
+      "description": "Greek chat conversations dataset for text generation. Provides conversational training data for Greek language LLMs.",
+      "discovered_date": "2026-10-24",
+      "last_updated": "2026-10-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "size": "48 downloads",
+      "license": "unknown",
+      "search_keywords": "Greek chat conversation",
+      "source": "HuggingFace API (lastModified)"
     }
   ],
-  "total_datasets": 667,
-  "last_merge": "2026-10-03",
+  "total_datasets": 691,
+  "last_merge": "2026-10-24",
   "total_sources": 620,
-  "last_update_note": "Round 72: added 47 new datasets from incremental search (2026-10-01 to 2026-10-21)",
+  "last_update_note": "R74: +24 new, 4 updated",
   "last_updated": "2026-10-21"
 }

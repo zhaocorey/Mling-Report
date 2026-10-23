@@ -390,6 +390,7 @@ Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages 🔥
 Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
 NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
 Nigerian Clinical QA Benchmark (medRxiv)
+nineninesix/multilingual-tts-benchmark
 nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual
 NiuTrans/LMT-60-sft-data
 NjeriKahoro/kikuyu-english-multilingual-text
@@ -424,6 +425,7 @@ Omnilingual ASR Corpus
 openbmb/factnet_factsense
 OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
+openbmb/UltraData-Code
 openbmb/UltraData-Math
 openbmb/UltraData-Stack-v3-L2
 OpenEuroLLM Reasoning Traces Multilingual
@@ -630,6 +632,7 @@ zouhar/last-translation-benchmark 🔥
 📝 平行语料与低资源语言
 📝 平行语料与翻译
 📝 文本分类
+📝 翻译与平行语料
 📦 其他
 📦 数据质量
 📦 预训练语料
@@ -644,6 +647,7 @@ zouhar/last-translation-benchmark 🔥
 🤖 Agent/工具使用
 🤖 偏好数据 & RLHF
 🤖 对齐/偏好
+🤖 对齐与偏好
 🤖 强化学习训练数据
 🤖 指令微调
 🤖 指令微调 / SFT
@@ -652,3 +656,4 @@ zouhar/last-translation-benchmark 🔥
 🧠 推理
 🧠 自然语言推理
 🧠 评估基准
+🧠🖼️ 多模态评估
