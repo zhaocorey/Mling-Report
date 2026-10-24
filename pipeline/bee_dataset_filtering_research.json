@@ -11,10 +11,10 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-10-12",
-    "total_papers": 191,
-    "total_tools": 45,
-    "total_blogs": 14
+    "last_updated": "2026-09-17T09:08:14+08:00",
+    "total_papers": 135,
+    "total_tools": 26,
+    "total_blogs": 8
   },
   "papers": [
     {
@@ -2232,401 +2232,244 @@
       "relevance_score": "medium"
     },
     {
-      "title": "Form Over Content In Gradient-Based Data Attribution Methods",
-      "url": "https://arxiv.org/abs/2609.19589",
-      "arxiv_id": "2609.19589",
-      "date": "2026-09-17",
-      "category": "data_attribution",
-      "summary": "Analyzes gradient-based data attribution methods, revealing that form (structural properties) matters more than content in determining data importance scores for LLM training.",
-      "relevance": "Directly relevant to understanding data influence estimation methods"
-    },
-    {
-      "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
-      "url": "https://arxiv.org/abs/2609.05198",
-      "arxiv_id": "2609.05198",
-      "date": "2026-09-04",
+      "title": "Pick the Mixture, Not the Samples: Combinatorial Data Selection for LLMs",
+      "arxiv_id": "2610.14028",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2610.14028",
+      "summary": "提出 Combinatorial Data Selection (CDS) 框架，将数据选择分为归因(attribution)和选择(selection)两阶段。Mixture-then-Select 算法先决定各域取样数量再域内排序，比强基线提升 20-54%，理论差距与选择大小线性相关而与池大小无关",
       "category": "data_selection",
-      "summary": "Studies on-policy distillation through the lens of data efficiency and selection, identifying key factors that determine which distilled data most benefits LLM training.",
-      "relevance": "Directly addresses data selection for knowledge distillation"
+      "date_found": "2026-10-21",
+      "is_new": true
     },
     {
-      "title": "Preference Data Selection for Mitigating the Alignment Tax in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.24192",
-      "arxiv_id": "2608.24192",
-      "date": "2026-08-25",
-      "category": "data_selection",
-      "summary": "Proposes methods for selecting preference data that mitigates the alignment tax (performance degradation on non-alignment tasks) during LLM alignment training.",
-      "relevance": "Addresses preference data selection for RLHF/DPO alignment"
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "arxiv_id": "2605.30334",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.30334",
+      "summary": "Microsoft 出品，系统研究数据组织对 LLM 训练的影响。提出 4 条优化准则（Boundary Sharpening/Cyclic Scheduling/Curriculum Continuity/Local Diversity）和两种数据排序方法 STR/SAW，在预训练和 SFT 阶段均有效",
+      "category": "data_organization",
+      "date_found": "2026-10-21",
+      "is_new": true
     },
     {
-      "title": "Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models",
-      "url": "https://arxiv.org/abs/2608.21019",
-      "arxiv_id": "2608.21019",
-      "date": "2026-08-21",
-      "category": "data_selection",
-      "summary": "Proposes target-aware calibration data selection to preserve uncertainty estimates in quantized LLMs, showing that careful data selection maintains model calibration quality.",
-      "relevance": "Data selection for model quantization calibration"
+      "title": "PUFFER: Incremental Fuzzy Deduplication for Continuously Evolving Corpora",
+      "arxiv_id": "2608.28622",
+      "date": "2026-08",
+      "url": "https://arxiv.org/abs/2608.28622",
+      "summary": "面向持续演化语料的增量模糊去重方法，解决传统批量去重与流式数据管线不匹配的问题",
+      "category": "data_deduplication",
+      "date_found": "2026-10-21",
+      "is_new": true
     },
     {
-      "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
-      "url": "https://arxiv.org/abs/2606.11459",
-      "arxiv_id": "2606.11459",
-      "date": "2026-06-09",
-      "category": "data_selection",
-      "summary": "Introduces APEX, an automated prompt engineering system that dynamically selects training data based on prompt quality and relevance for improved LLM fine-tuning.",
-      "relevance": "Dynamic data selection combined with prompt engineering"
-    },
-    {
-      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
-      "url": "https://arxiv.org/abs/2607.01104",
-      "arxiv_id": "2607.01104",
-      "date": "2026-07-01",
-      "category": "data_mixing",
-      "summary": "Reframes data mixture optimization as a causal inference problem, using causal effect estimation to determine optimal domain proportions for LLM pretraining.",
-      "relevance": "Novel causal framework for data mixture optimization"
-    },
-    {
-      "title": "A Bitter Lesson for Data Filtering",
-      "url": "https://arxiv.org/abs/2605.19407",
-      "arxiv_id": "2605.19407",
-      "date": "2026-05-19",
+      "title": "Layer-Aware Representation Filtering (LARF): Purifying Finetuning Data to Preserve LLM Safety Alignment",
+      "arxiv_id": "2507.18631",
+      "date": "2025-07",
+      "url": "https://arxiv.org/abs/2507.18631",
+      "summary": "识别 LLM 中的安全敏感层，利用其表征检测后训练数据中含安全退化特征的样本。移除这些数据后缓解微调导致的安全对齐退化",
       "category": "data_filtering",
-      "summary": "Challenges conventional data filtering wisdom by showing that aggressive quality filtering can harm LLM performance, arguing that scale and diversity matter more than curated quality.",
-      "relevance": "Important counterpoint to quality-filtering approaches; high-impact position paper"
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/LLLeoLi/LARF"
     },
     {
-      "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
-      "url": "https://arxiv.org/abs/2604.07963",
-      "arxiv_id": "2604.07963",
-      "date": "2026-04-09",
-      "category": "data_mixing",
-      "summary": "Provides a new perspective on data mixing by analyzing it from the LLM's viewpoint, revealing that model-internal signals can guide better mixture proportions than external heuristics.",
-      "relevance": "Novel model-centric approach to data mixing"
-    },
-    {
-      "title": "DynaMiCS: Fine-tuning LLMs with Performance Constraints using Dynamic Mixtures",
-      "url": "https://arxiv.org/abs/2605.10770",
-      "arxiv_id": "2605.10770",
-      "date": "2026-05-11",
-      "category": "data_mixing",
-      "summary": "Proposes dynamic mixture optimization for LLM fine-tuning under performance constraints, adapting data proportions during training to meet multi-objective targets.",
-      "relevance": "Dynamic data mixing with constraint satisfaction"
-    },
-    {
-      "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
-      "url": "https://arxiv.org/abs/2605.13225",
-      "arxiv_id": "2605.13225",
-      "date": "2026-05-13",
-      "category": "data_mixing",
-      "summary": "Demonstrates that mixing bilingual data during pre-training outperforms extensive hyperparameter tuning in data-constrained settings, emphasizing data strategy over model optimization.",
-      "relevance": "Data mixing strategy for multilingual/bilingual LLM training"
-    },
-    {
-      "title": "Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA",
-      "url": "https://arxiv.org/abs/2607.21861",
-      "arxiv_id": "2607.21861",
-      "date": "2026-07-23",
-      "category": "data_quality",
-      "summary": "Shows that data quality matters more than model capacity when internalizing documents into LoRA adapters, providing empirical evidence for quality-over-quantity in parameter-efficient fine-tuning.",
-      "relevance": "Empirical evidence for data quality importance in LoRA fine-tuning"
-    },
-    {
-      "title": "FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction",
-      "url": "https://arxiv.org/abs/2606.24679",
-      "arxiv_id": "2606.24679",
-      "date": "2026-06-23",
-      "category": "data_curation",
-      "summary": "Introduces FlowPipe, using LLM-enhanced conditional generative flow networks to automatically construct data preparation pipelines, reducing manual effort in data curation workflows.",
-      "relevance": "Automated data preparation pipeline construction"
-    },
-    {
-      "title": "The Significance of Style Diversity in Annotation-Free Synthetic Data Generation",
-      "url": "https://arxiv.org/abs/2606.20400",
-      "arxiv_id": "2606.20400",
-      "date": "2026-06-18",
-      "category": "synthetic_data",
-      "summary": "Demonstrates that style diversity in annotation-free synthetic data generation significantly impacts LLM fine-tuning quality, providing guidelines for diverse synthetic data construction.",
-      "relevance": "Synthetic data quality through style diversity"
-    },
-    {
-      "title": "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins",
-      "url": "https://arxiv.org/abs/2606.17660",
-      "arxiv_id": "2606.17660",
-      "date": "2026-06-16",
-      "category": "data_selection",
-      "summary": "Proposes methods to predict fine-tuning performance before full training, enabling early data selection decisions and resource allocation based on predicted data utility.",
-      "relevance": "Early performance prediction for data selection decisions"
-    },
-    {
-      "title": "GRADFILTERING: Uncertainty-Aware Gradient Signal-to-Noise Data Selection for Instruction Tuning",
-      "url": "https://arxiv.org/abs/2601.13697",
-      "arxiv_id": "2601.13697",
-      "date": "2026-01-13",
-      "category": "data_selection",
-      "summary": "Proposes GRADFILTERING, using GPT-2 proxy with LoRA ensemble to compute uncertainty-aware gradient signal-to-noise ratios for instruction data selection. Matches or surpasses baselines with faster convergence.",
-      "relevance": "Uncertainty-aware gradient-based data selection method"
-    },
-    {
-      "title": "InstructDiff: Domain-Adaptive Data Selection via Differential Entropy for Efficient LLM Fine-Tuning",
-      "url": "https://arxiv.org/abs/2601.23006",
-      "arxiv_id": "2601.23006",
-      "date": "2026-01-23",
-      "category": "data_selection",
-      "summary": "Introduces InstructDiff, using differential entropy between base and calibrated models for domain-adaptive data selection. Achieves 17% improvement on math reasoning and 52% on general instruction-following with only 10% of data.",
-      "relevance": "Domain-adaptive data selection with strong empirical results"
-    },
-    {
-      "title": "From Insight to Action: Interpretability-Guided Data Selection in Large Language Models (IGDS)",
-      "url": "https://arxiv.org/abs/2604.25167",
-      "arxiv_id": "2604.25167",
-      "date": "2026-04-25",
-      "category": "data_selection",
-      "summary": "Proposes IGDS using Sparse Autoencoders to identify task features and select 'Feature-Resonant Data' for fine-tuning. Surpasses full-dataset fine-tuning by 17.4% on math with 50% of data.",
-      "relevance": "Mechanistic interpretability-guided data selection"
-    },
-    {
-      "title": "CASS: Cognitive Approach to Data Selection for Educational LLMs",
-      "url": "https://doi.org/10.1609/aaai.v40i26.39300",
-      "date": "2026-07-01",
-      "category": "data_selection",
-      "summary": "Proposes CASS using Multidimensional Item Response Theory and Fisher Information for cognitive-level data selection. Demonstrates superior accuracy and generalization in educational LLMs.",
-      "relevance": "Cognitive modeling approach to educational data selection"
-    },
-    {
-      "title": "BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a28af221f2f70be183afc16797a56b91-Abstract-Conference.html",
-      "date": "2026-04-24",
-      "venue": "ICLR 2026",
-      "category": "data_selection",
-      "summary": "Proposes BOTS, a Bayesian framework for online task selection during LLM reinforcement fine-tuning, filtering out uninformative tasks to improve training efficiency.",
-      "relevance": "Task selection for RL-based LLM post-training"
-    },
-    {
-      "title": "An Empirical Study on Influence-Based Pretraining Data Selection for Code Large Language Models",
-      "url": "http://dl.acm.org/citation.cfm?id=3794813",
-      "date": "2026-04-09",
-      "category": "data_selection",
-      "summary": "Empirical study of data-influence-score filtering for Code-LLMs on 100B code tokens. Shows influence-based filtering enhances programming performance, with beneficial data characteristics varying across tasks.",
-      "relevance": "Code-LLM specific data selection empirical study"
-    },
-    {
-      "title": "GneissWeb: Preparing High Quality Data for LLMs at Scale",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html",
-      "date": "2026-04-24",
-      "venue": "ICLR 2026",
-      "category": "data_curation",
-      "summary": "Addresses constructing Stage-1 high-quality training data at scale using ensemble quality annotators and filtering to maximize data quality for LLM pretraining.",
-      "relevance": "Large-scale data quality preparation for pretraining"
-    },
-    {
-      "title": "Selection Bias in Sentiment Data of Social Media in LLM Training Datasets",
-      "url": "https://doi.org/10.54254/2755-2721%2F2026.gu34146",
-      "date": "2026-06-01",
+      "title": "FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering",
+      "arxiv_id": "2501.07314",
+      "date": "2025-01",
+      "url": "https://arxiv.org/abs/2501.07314",
+      "summary": "GPT-4o mini 标注行级质量标签，训练 DeBERTa-v3 分类器扩展到 10B token 子集。过滤后模型在 HellaSwag 上更高准确率，且用少 25% 数据即可达到同等性能",
       "category": "data_filtering",
-      "summary": "Reveals that standard filtering pipelines systematically deplete negative sentiment from training corpora (C4, RefinedWeb), creating positive bias. Identifies four conflating factors causing sentiment skew.",
-      "relevance": "Bias analysis of filtering pipelines; important for understanding filtering side-effects"
+      "date_found": "2026-10-21",
+      "is_new": true
     },
     {
-      "title": "Can Generalist Agents Automate Data Curation?",
-      "url": "https://arxiv.org/abs/2606.04261",
-      "arxiv_id": "2606.04261",
-      "date": "2026-06-04",
+      "title": "Which Pairs to Compare for LLM Post-Training?",
+      "arxiv_id": "2606.19607",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.19607",
+      "summary": "将偏好数据对比对选择形式化为采样设计问题，分析对比对选择如何通过 DPO 训练传播到下游策略性能。提出信息矩阵链接标签分配与参数估计误差的显式优化准则",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Why Less Is More (Sometimes): A Theory of Data Curation",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5af28a311a6ae8b30ab4941a96675fa2-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，提出理论框架解释数据策展中的核心悖论——为何有时少即是多。为 LLM 数学推理中观察到的矛盾策展策略提供统一解释",
+      "category": "data_curation_theory",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
+      "arxiv_id": "2502.10361",
+      "date": "2025-02",
+      "url": "https://arxiv.org/abs/2502.10361",
+      "summary": "面向多语言数据集的模型级过滤框架，利用 Transformer 和 FastText 分类器识别多样化和知识丰富样本。在 FineWeb-2 上 1B 模型仅用 15% 训练 token 即可匹配基线 MMLU 分数，覆盖 20 种语言",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "UDS: Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning",
+      "arxiv_id": "2510.16882",
+      "date": "2025-10",
+      "url": "https://arxiv.org/abs/2510.16882",
+      "summary": "在线批次选择框架，利用 logits 矩阵核范数同时捕获数据效用和样本内多样性，通过低维嵌入对比估计样本间多样性。无需外部资源，显著减少训练时间",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/gfyddha/UDS"
+    },
+    {
+      "title": "GradAlign: Gradient-Aligned Data Selection for LLM Reinforcement Learning",
+      "arxiv_id": "2602.21492",
+      "date": "2026-02",
+      "url": "https://arxiv.org/abs/2602.21492",
+      "summary": "面向 LLM RL 的梯度对齐数据选择方法，用小规模可信验证集优先选择策略梯度与验证梯度对齐的训练问题，产生自适应课程",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/StigLidu/GradAlign"
+    },
+    {
+      "title": "MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection",
+      "arxiv_id": "2605.30288",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.30288",
+      "summary": "面向中训练的源感知过滤框架，基于自锚定评标准则发现。先发现每个源组应评估什么，再蒸馏为可扩展的学生评分器进行全语料过滤。在代码中训练上仅用一半 token 匹配全语料性能",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "From Parameters to Data (P2D): A Task-Parameter-Guided Fine-Tuning Pipeline for Efficient LLM Alignment",
+      "arxiv_id": "2605.21558",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.21558",
+      "summary": "提出 Strong Map Hypothesis：少量注意力头主导任务适配。P2D 框架用任务敏感注意力头同时指导样本挖掘和结构剪枝，仅更新 10% 头+10% 数据即获 8.3pp 提升和 7x 加速",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+      "arxiv_id": "2604.20549",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.20549",
+      "summary": "研究嵌入空间中质量标记的跨语言一致性，高资源语言可辅助低资源语言过滤。大规模多语言池化在 103B token 训练中优于单语基线",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Data Selection for LLM Alignment Using Fine-Grained Preferences",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bcf4ca90a8d405201d29dd47d75ac896-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，基于细粒度偏好的 LLM 对齐数据选择方法，从数据中心视角建立对齐数据选择理论",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Cure-SFT: Diagnostic-Guided Data Curation for Instruction Tuning",
+      "url": "https://openreview.net/forum?id=wTLFM5mWoa",
+      "date": "2026",
+      "summary": "诊断驱动的指令微调数据策展方法，系统性识别和处理低质量 SFT 样本",
       "category": "data_curation",
-      "summary": "Investigates whether generalist AI agents can automate data curation pipelines, finding that agents substantially improve training outcomes and reach expert-baseline performance in few iterations.",
-      "relevance": "Agentic data curation automation"
+      "date_found": "2026-10-21",
+      "is_new": true
     },
     {
-      "title": "Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering",
-      "url": "https://aclanthology.org/2026.loreslm-1.13/",
-      "date": "2026-06-01",
+      "title": "SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning",
+      "arxiv_id": "2605.23969",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.23969",
+      "summary": "在线策略数据选择框架，结合分层损失剪枝实现高效指令微调",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Data Efficient Sample Selection for In-Context Learning",
+      "arxiv_id": "2609.06670",
+      "date": "2026-09",
+      "url": "https://arxiv.org/abs/2609.06670",
+      "summary": "面向上下文学习的高效样本选择方法，提供样本复杂度理论框架",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-training",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2b5c5689fae6fa9a4883e73e511d52c8-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，Mozilla 发布的大规模伦理预训练语料，详细描述数据组装、过滤和策展流程",
+      "category": "data_curation",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "One Pass, Three Purchases: Deduplication's Efficiency, Generalisation and Privacy Arguments Each Hold in Their Own Regime",
+      "url": "https://lifeofresearch.com/articles/95/files/95/one-pass-three-purchases.pdf",
+      "date": "2026",
+      "summary": "深入分析去重的三重收益（效率/泛化/隐私），发现去重模型释放训练数据的概率约低 20 倍，不同收益在不同机制下成立",
+      "category": "data_deduplication",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "HPLT 3.0: Very Large-Scale Multilingual Resources for LLM and MT",
+      "arxiv_id": "2511.01066",
+      "date": "2025-11",
+      "url": "https://arxiv.org/abs/2511.01066",
+      "summary": "30 万亿 token、近 200 种语言的最大规模开放多语言预训练数据集，配套完整开源管线（文档选择/文本提取/语言识别/精确与近似去重/质量标注/PII 检测/过滤）",
+      "category": "data_curation",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b260b381bee9f64b1a1ef66a8de21133-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，提出用 200 倍更少数据评估 LLM 的方法，涉及粗粒度过滤和去重策略",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Which Long Documents Matter? A Controlled Study of Data Selection for Context Extension",
+      "arxiv_id": "2610.24469",
+      "date": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.24469",
+      "summary": "长文档数据选择方法对比研究，提出 truncLongPPL 评分方法，在 128K/256K 上下文扩展任务中显著提升选择效果",
+      "category": "data_selection",
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Diversity Without Labels: Task-Agnostic Coreset Selection Across Perception and Action",
+      "arxiv_id": "2610.23642",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23642",
+      "summary": "无需标签的任务无关核集选择方法，适用于大规模训练数据策展，跨感知与动作领域",
+      "category": "data_selection",
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Surprise Masking: Private Data Filtering with Model Likelihoods",
+      "arxiv_id": "2610.22988",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.22988",
+      "summary": "基于困惑度的隐私数据过滤技术，用参考模型似然值识别并屏蔽敏感文本段",
       "category": "data_filtering",
-      "summary": "Multi-stage pipeline for building educational Romanian pretraining data with diversity and quality filtering, demonstrating quality filtering effectiveness for underrepresented languages.",
-      "relevance": "Low-resource language data filtering pipeline"
-    },
-    {
-      "title": "PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage",
-      "url": "https://arxiv.org/abs/2608.24040",
-      "arxiv_id": "2608.24040",
-      "date": "2026-08-25",
-      "category": "data_quality",
-      "summary": "Production system for selective VLM serving with governed memory flywheel for enterprise content-quality triage, demonstrating scalable data quality assessment in production.",
-      "relevance": "Production-grade data quality triage system"
-    },
-    {
-      "title": "CuratorMAS: Automating Dataset Curation via Multi-Agent Orchestration",
-      "url": "https://arxiv.org/abs/2610.07075",
-      "authors": "Unknown",
-      "year": 2026,
-      "description": "Multi-agent orchestration framework for automating dataset curation. Features 5 programmable execution stages with parallelized workflows. Achieves 36pp noise rate reduction and 8.88pp downstream F1 improvement.",
-      "source_channel": "arXiv RSS",
-      "category": "data_curation_automation",
-      "relevance_score": 9
-    },
-    {
-      "title": "Fisher-Guided Submodular Data Selection for Continual Pre-Training",
-      "url": "https://arxiv.org/abs/2610.02593",
-      "authors": "Unknown",
-      "year": 2026,
-      "description": "Fisher-aware data selector for continual pre-training. Decomposes gradients into anchor and frontier components, uses submodular objective function for selection. Achieves 10x token efficiency advantage on medical domain CPT (1B selected tokens outperform 10B replay tokens).",
-      "source_channel": "arXiv RSS",
-      "category": "data_selection_continual_pretraining",
-      "relevance_score": 9
-    },
-    {
-      "title": "ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining",
-      "authors": [
-        "Zichun Yu",
-        "et al."
-      ],
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.34287",
-      "abstract": "Proposes ReScraper, a unified 0.6B parameter language model that replaces the entire stack of hand-written heuristics for cleaning LLM pretraining corpora. Trained on supervised data from three teacher models, it learns to extract main content from raw HTML and apply four operations: keep, edit noisy lines/spans, delete, or rewrite poorly-written-but-informative pages. Pretraining 400M-2.8B models on ReScraper-curated data improves DCLM Core score by 3.8-4.7% over the strongest baseline at each scale, including costly multi-agent curation. Demonstrates that a single small learned model outperforms a cascade of separate models for extraction and cleaning.",
-      "source": "arXiv (2609.34287), submitted 2026-09-28",
-      "github": "https://github.com/cxcscmu/ReScraper",
-      "github_stars": 5,
-      "tags": [
-        "data curation",
-        "web scraping",
-        "pretraining data",
-        "AI4AI",
-        "quality filtering"
-      ]
-    },
-    {
-      "title": "It's All Training: A Fully Synthetic Single-Stage Recipe for LLMs",
-      "authors": [
-        "PleIAs team"
-      ],
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.37891",
-      "abstract": "Presents SYNTH, the first open-source synthetic corpus derived from 58,698 Wikipedia articles that collapses pre-, mid-, and post-training into a single training stage via structured amplification of curated encyclopedic seeds. Trains models from 56M to 13B MoE. At iso-compute, SYNTH outperforms filtered web data. Because SYNTH is back-translated from grounded passages, SYNTH-trained models achieve high factual precision despite 10-140x fewer training tokens. Accepted at NeurIPS 2026. Dataset released under permissive license.",
-      "source": "arXiv (2609.37891), NeurIPS 2026",
-      "dataset_url": "https://huggingface.co/datasets/PleIAs/SYNTH",
-      "tags": [
-        "synthetic data",
-        "data recipe",
-        "pretraining data",
-        "single-stage training",
-        "data efficiency"
-      ]
-    },
-    {
-      "title": "Data Quality Rule Generation with LLMs",
-      "authors": [
-        "Anna-Christina Glock",
-        "et al."
-      ],
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.06053",
-      "abstract": "Introduces LeDQeR, an LLM-based approach for automated data quality rule generation. Formalizes a generalizable generate-filter framework where an LLM first generates candidate rules from observed dirty data tuples, then applies four filter techniques ensuring executability, correctness, generalizability, and non-redundancy. While focused on enterprise data quality rather than LLM pretraining specifically, the generate-filter framework is applicable to LLM data curation pipelines.",
-      "source": "arXiv (2609.06053), submitted 2026-09-05",
-      "tags": [
-        "data quality",
-        "rule generation",
-        "LLM-based filtering",
-        "generate-filter framework"
-      ]
-    },
-    {
-      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
-      "authors": [
-        "Hao Liang",
-        "Qifeng Cai",
-        "Yibo Lin",
-        "Jianzhuo Du",
-        "Qifeng Xia",
-        "Sizhe Qiu",
-        "Linzhuang Sun",
-        "Meiyi Qiang",
-        "Zhaoyang Han",
-        "Xiaochen Ma",
-        "Bohan Zeng",
-        "Ruichuan An",
-        "Conghui He",
-        "Wentao Zhang"
-      ],
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2607.20465",
-      "abstract": "Introduces the first unified benchmark that jointly evaluates LLM-driven data construction (transforming raw sources into supervised training data) and data quality evaluation (predicting training value of candidate datasets before downstream training). Covers six domains and multiple base models under a shared downstream-grounded protocol. Releases Data-Construction-Set for standardized evaluation. Addresses the gap in measuring how well LLMs, agents, and data-centric workflows prepare training data end-to-end.",
-      "source": "arXiv (2607.20465), submitted 2026-07",
-      "tags": [
-        "data curation benchmark",
-        "data quality evaluation",
-        "LLM data preparation",
-        "data construction"
-      ]
-    },
-    {
-      "title": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
-      "authors": [
-        "DeMix team"
-      ],
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2602.00747",
-      "abstract": "Proposes DeMix, a framework that leverages model merging to predict optimal data ratios for LLM pretraining. Instead of training proxy models for every sampled mixture, DeMix trains component models on candidate datasets at scale and derives data mixture proxies via weighted model merging. This decouples search from training costs, enabling evaluation of unlimited sampled mixtures without extra training burden. Releases DeMix Corpora, a 22T-token dataset with validated mixtures. Accepted at ICML 2026.",
-      "source": "arXiv (2602.00747), ICML 2026",
-      "github": "https://github.com/Lucius-lsr/DeMix",
-      "tags": [
-        "data mixing",
-        "model merging",
-        "pretraining data",
-        "data recipe optimization",
-        "22T tokens"
-      ]
-    },
-    {
-      "title": "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection",
-      "authors": "Vinko Sabolčec, Bettina Messmer, Yassine Turki, Martin Jaggi",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.11585",
-      "abstract": "Recent advances in LLM pretraining highlight the role of high-quality training data. While model-based filtering has proven effective for high-resource languages, low-resource languages face challenges due to limited annotated data. This work explores extending quality filtering to over 100 languages by proposing a multilingual adaptation approach that converts an existing English quality classifier into a multilingual variant. The approach trains a small MLP on top of Transformer encoder-only model embeddings, using multilingual text as input and scores from English classifiers applied to machine-translated text as labels. Experiments at 1B, 3B, and 8B scale show the approach maintains downstream LLM benchmark performance without harming regional and cultural knowledge benchmarks.",
-      "key_methods": "Multilingual quality classifier adaptation via MLP on encoder embeddings, machine-translation label transfer, cross-lingual generalization analysis",
-      "relevance": "Directly addresses data quality filtering for multilingual LLM pretraining. Proposes scalable approach to extend English quality classifiers to 100+ languages, highly relevant for multilingual dataset curation pipelines."
-    },
-    {
-      "title": "Host-Aware Web Crawling for LLM Pretraining Data",
-      "authors": "Malte Ostendorff et al.",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.13321",
-      "abstract": "Web crawling is a major source of LLM pretraining data, yet data-selection pipelines discard a large share of crawled pages. This paper investigates how a crawler should allocate its budget across and within hosts to collect more high-quality pretraining data. Combining document-level quality classifier scores, web-graph centrality metrics, and Common Crawl's per-host crawl coverage, the authors find that roughly half of the variation in classifier scores occurs between hosts. Sampling a few pages and then fetching more from hosts with higher-scoring samples collects several times more high-quality pages per fetch than uniform depth or centrality-based allocation. Accepted at WaC-13 @ EMNLP 2026.",
-      "key_methods": "Host-level quality analysis, adaptive crawl budget allocation, quality classifier-guided crawling, Common Crawl coverage analysis",
-      "relevance": "Addresses the upstream data collection problem for LLM pretraining. Shows how crawl strategies can dramatically improve data quality at the source, complementing downstream filtering. EMNLP 2026 workshop acceptance."
-    },
-    {
-      "title": "What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training",
-      "authors": "Anonymous (cs.CL submission)",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.12995",
-      "abstract": "Supervised fine-tuning (SFT) remains a widely used approach for post-training LLMs. This paper proposes CIG-SFT, an information-theoretic framework that estimates the task-conditioned information carried by each demonstrated token. Under teacher forcing, it compares token likelihood from a frozen reference model with and without access to the task input. The resulting conditional information gain quantifies how much the task itself reduces uncertainty about the demonstrated decision. Across mathematical reasoning and code-generation benchmarks, CIG-SFT consistently outperforms standard SFT and recent adaptive fine-tuning baselines, with strong improvements in generalization to challenging evaluation distributions.",
-      "key_methods": "Conditional Information Gain (CIG-SFT), KL-regularized policy projection, token-level information weighting, adaptive SFT without additional data or rollouts",
-      "relevance": "Proposes a principled data selection/reweighting method for SFT. The information-theoretic framework identifies which tokens carry the most training signal, enabling more efficient use of fine-tuning data."
-    },
-    {
-      "title": "From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL: Confidence Filtering and Architectural Analysis at Scale",
-      "authors": "Yaroslav Getman, Tamás Grósz, Tommi Lehtonen, Mikko Kurimo",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.13102",
-      "abstract": "Broadcast archives offer scale and diversity for self-supervised learning but contain substantial noisy, non-speech, and multilingual content. This paper proposes ASR confidence as a proxy for pretraining data quality and shows 3-7% relative WER improvements over LID-based filtering despite a smaller training set. The authors further address the lack of controlled architectural comparisons in speech SSL by evaluating Transformer, Macaron-Net, Conformer, and E-Branchformer at matched parameter budgets. Accepted to SLT 2026.",
-      "key_methods": "ASR confidence-based quality filtering, comparison with LID-based filtering, architectural benchmarking (Transformer, Conformer, E-Branchformer)",
-      "relevance": "Demonstrates that confidence-based quality filtering outperforms language identification for speech data curation at scale. The 2.1M hour pipeline provides lessons for text data filtering strategies."
-    },
-    {
-      "title": "DataCupid: Stable Matching Repair for Training Data Acquisition with Delayed Feedback",
-      "authors": "He Sun",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.12960",
-      "abstract": "Matching repair after utility changes can reuse valid observations, but new evaluations must respect matching capacity and may return out of order. The paper studies announced invalidations with bounded, possibly reward-dependent reporting delays and pending evaluations. Residualload repair (RLR) combines sound outcome certificates with batched matching schedules for unequal sample deficits, achieving sharp issue-round bounds. The framework is applied to training data acquisition where feedback about data quality may be delayed.",
-      "key_methods": "Residual Load Repair (RLR), stable matching with delayed feedback, batched matching schedules, certification time bounds",
-      "relevance": "Addresses the problem of acquiring training data when quality feedback is delayed, relevant for iterative data curation pipelines where evaluation takes time."
-    },
-    {
-      "title": "Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction",
-      "authors": "Anonymous (cs.CL submission)",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.12987",
-      "abstract": "If a second text corpus were collected from the same population, how much would a predictor's outputs change? This paper derives a first-order formula for the expected disagreement between predictors fitted to two independent corpora. On TinyStories, WikiText-103, and CNN/DailyMail, growing each corpus from 512 to 2,048 chunks lowers disagreement by only 5-40%, far short of the 75% implied by 1/n scaling. The slow decline is traced to smoothing of rarely seen contexts.",
-      "key_methods": "Corpus-sampling disagreement analysis, smoothed predictor evaluation, source-split jackknife calibration",
-      "relevance": "Provides theoretical insights into how corpus sampling affects model predictions, relevant for understanding data selection impact on model behavior."
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
     }
   ],
   "tools_and_repos": [
@@ -2952,140 +2795,58 @@
       "relevance_score": "medium"
     },
     {
-      "name": "DatasetForge (wiradifit)",
-      "url": "https://github.com/wiradifit/datasetforge",
-      "description": "Synthetic dataset generation, curation, and deduplication toolkit for AI & LLM training. Combines generation, filtering, and dedup in a unified pipeline.",
+      "name": "microsoft/data-efficacy",
+      "url": "https://github.com/microsoft/data-efficacy",
+      "description": "Microsoft 出品的数据组织/排序工具库，实现 STR/SAW 等数据排序方法，配套论文 Demystifying Data Organization for Enhanced LLM Training",
       "language": "Python",
-      "last_updated": "2026-09-07",
-      "stars": 0,
-      "category": "data_curation_toolkit"
+      "date_found": "2026-10-21",
+      "category": "data_organization",
+      "is_new": true
     },
     {
-      "name": "IndicCurate",
-      "url": "https://github.com/KeerthanaNehru/indiccurate",
-      "description": "Comprehensive solution for curating Tamil language datasets with specific focus on Indic language data quality and filtering.",
+      "name": "LLLeoLi/LARF",
+      "url": "https://github.com/LLLeoLi/LARF",
+      "description": "Layer-Aware Representation Filtering 实现代码，识别安全敏感层并检测含安全退化特征的训练数据",
       "language": "Python",
-      "last_updated": "2026-09-15",
-      "stars": 0,
-      "category": "language_specific_curation"
+      "date_found": "2026-10-21",
+      "category": "data_filtering",
+      "is_new": true
     },
     {
-      "name": "Imkumar80/llm-data-lab",
-      "url": "https://github.com/Imkumar80/llm-data-lab",
-      "description": "Research lab for creating high-quality datasets for language models, with focus on data quality assessment and curation workflows.",
+      "name": "gfyddha/UDS",
+      "url": "https://github.com/gfyddha/UDS",
+      "description": "Utility-Diversity Sampling 在线批次选择框架实现，基于 logits 矩阵核范数同时优化数据效用和多样性",
       "language": "Python",
-      "last_updated": "2026-09-15",
-      "stars": 0,
-      "category": "data_curation_research"
+      "date_found": "2026-10-21",
+      "category": "data_selection",
+      "is_new": true
     },
     {
-      "name": "ReScraper",
-      "url": "https://github.com/cxcscmu/ReScraper",
-      "description": "Official repository for 'ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining'. A 0.6B parameter model that replaces hand-written heuristic stacks for web data curation in LLM pretraining pipelines. Supports extraction, noise editing, deletion, and rewriting of web pages.",
-      "stars": 5,
-      "created": "2026-09-27",
+      "name": "StigLidu/GradAlign",
+      "url": "https://github.com/StigLidu/GradAlign",
+      "description": "梯度对齐数据选择方法实现，面向 LLM 强化学习的自适应课程学习",
       "language": "Python",
-      "tags": [
-        "web scraping",
-        "data cleaning",
-        "pretraining data",
-        "AI4AI"
-      ]
+      "date_found": "2026-10-21",
+      "category": "data_selection",
+      "is_new": true
     },
     {
-      "name": "SuperJohn/llm-dataset-curation",
-      "url": "https://github.com/SuperJohn/llm-dataset-curation",
-      "description": "Config-driven LLM dataset curation pipeline: normalization, exact + MinHash near-deduplication, Gopher/C4 quality filters, PII redaction, toxicity filtering, and evaluation reporting.",
-      "stars": 0,
-      "created": "2026-10-09",
-      "tags": [
-        "data curation",
-        "deduplication",
-        "quality filtering",
-        "PII redaction",
-        "config-driven"
-      ]
-    },
-    {
-      "name": "abhinavm/llm-dataset-curation",
-      "url": "https://github.com/abhinavm/llm-dataset-curation",
-      "description": "A distributed pipeline that curates raw text corpus (Project Gutenberg) for LLM pretraining/fine-tuning: exact + near-deduplication, quality filtering, chunking, and export.",
-      "stars": 0,
-      "created": "2026-10-10",
-      "tags": [
-        "distributed pipeline",
-        "deduplication",
-        "quality filtering",
-        "text curation"
-      ]
-    },
-    {
-      "name": "123123213weqw/llm-data-curation-pipeline",
-      "url": "https://github.com/123123213weqw/llm-data-curation-pipeline",
-      "description": "Qwen LLM data-curation v131 review snapshot: durable CPU/GPU pipeline with quality gates, global deduplication, packing and tests.",
-      "stars": 0,
-      "created": "2026-10-06",
-      "tags": [
-        "data curation pipeline",
-        "quality gates",
-        "global dedup",
-        "GPU-accelerated"
-      ]
-    },
-    {
-      "name": "smurilloo/llm-distill-pipeline",
-      "url": "https://github.com/smurilloo/llm-distill-pipeline",
-      "description": "LLM data curation and distillation pipeline: PII scrubbing, near-duplicate removal, teacher labeling, and a lightweight student model with evaluation gates.",
-      "stars": 0,
-      "created": "2026-09-25",
-      "tags": [
-        "data distillation",
-        "PII scrubbing",
-        "near-dedup",
-        "teacher-student",
-        "eval gates"
-      ]
-    },
-    {
-      "name": "yashpulapalli-eng/Llm_Data_Forge",
-      "url": "https://github.com/yashpulapalli-eng/Llm_Data_Forge",
-      "description": "Data curation and quality optimization toolkit for efficient LLM training.",
-      "stars": 0,
-      "created": "2026-09-28",
-      "tags": [
-        "data curation",
-        "quality optimization",
-        "LLM training"
-      ]
-    },
-    {
-      "name": "DeMix",
-      "url": "https://github.com/Lucius-lsr/DeMix",
-      "description": "Code and corpora for 'Decouple Searching from Training: Scaling Data Mixing via Model Merging for LLM Pre-training' (ICML 2026). Framework for optimizing data mixture ratios via model merging, plus the 22T-token DeMix Corpora.",
-      "stars": 0,
-      "created": "2026",
-      "tags": [
-        "data mixing",
-        "model merging",
-        "pretraining data",
-        "corpora"
-      ]
-    },
-    {
-      "name": "bespokelabsai/curator",
-      "url": "https://github.com/bespokelabsai/curator",
-      "description": "Synthetic data curation tool for post-training and structured data extraction. Enables creating, filtering, and managing synthetic datasets for LLM fine-tuning workflows. Active development with 1744 stars.",
-      "stars": "1744",
+      "name": "Word2VecT/Middo",
+      "url": "https://github.com/Word2VecT/Middo",
+      "description": "自进化模型感知动态数据优化框架，通过损失模式/嵌入聚类/自对齐分数三轴诊断 + 自适应优化引擎实现闭环数据优化",
       "language": "Python",
-      "last_updated": "2026-10-13"
+      "date_found": "2026-10-21",
+      "category": "data_optimization",
+      "is_new": true
     },
     {
-      "name": "Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering",
-      "url": "https://github.com/Ruiqi327/Awesome-LLM-Pretraining-Data-Engineering",
-      "description": "A curated reading list on the data that shapes language models. Collection of papers and resources on LLM pretraining data engineering, covering data collection, filtering, deduplication, mixing, and quality assessment.",
-      "stars": "1",
-      "language": "N/A",
-      "last_updated": "2026-10-13"
+      "name": "LLM-Sanitizer-Pro",
+      "url": "https://github.com/Yog-Sotho/LLM-Sanitizer-Pro",
+      "description": "全面的 LLM 训练数据清洗工具包：PII脱敏 + 三级去重 + 多质量评分 + 基准去污染 + 聊天验证",
+      "date_found": "2026-10-20",
+      "category": "data_curation_pipeline",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3159,75 +2920,6 @@
       "source_channel": "arXiv",
       "description": "Accompanying discussion of the DataFoundry framework for domain-specific data preparation pipeline evolution for LLM training.",
       "relevance_score": "medium"
-    },
-    {
-      "title": "Synthetic Data in a Data-Intensive World: A Literature Review to Address an Application-Driven Analysis",
-      "url": "https://www.preprints.org/manuscript/202609.0152",
-      "date": "2026-09-02",
-      "source": "Preprints.org",
-      "summary": "Comprehensive literature review of synthetic data generation in data-intensive contexts, covering LLM-driven synthetic data generation, curation, and evaluation approaches.",
-      "relevance": "Survey of synthetic data generation and curation practices"
-    },
-    {
-      "title": "Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering (LoresLM Workshop)",
-      "url": "https://aclanthology.org/2026.loreslm-1.13/",
-      "date": "2026-06-01",
-      "source": "ACL Anthology (LoresLM Workshop)",
-      "summary": "Practical guide to building educational Romanian pretraining data with multi-stage quality filtering pipeline, demonstrating approach for underrepresented languages.",
-      "relevance": "Low-resource language data curation practical guide"
-    },
-    {
-      "title": "On LLMs-driven synthetic data generation, curation, and evaluation (referenced in Synthetic Data review)",
-      "url": "https://www.preprints.org/manuscript/202609.0152",
-      "date": "2026-09-01",
-      "source": "Preprints.org (referenced survey)",
-      "summary": "Referenced work on LLM-driven synthetic data generation pipelines, covering generation strategies, quality filtering, and evaluation methodologies for synthetic training data.",
-      "relevance": "LLM-driven synthetic data pipeline guidance"
-    },
-    {
-      "title": "LLM Training Data in 2026: What AI Models Need",
-      "url": "https://gts.ai/blog/llm-training-data-2026/",
-      "summary": "Overview of LLM training data strategies for 2026, covering premium datasets, expert knowledge integration, multimodal data, and data quality best practices.",
-      "source": "gts.ai blog",
-      "tags": [
-        "LLM training data",
-        "data quality",
-        "2026 strategies"
-      ]
-    },
-    {
-      "title": "LLM Training Data Quality: Checks, Frameworks & Governance",
-      "url": "https://atlan.com/know/how-to-ensure-llm-training-data-quality/",
-      "summary": "Systematic guide on ensuring LLM training data quality through data profiling, deduplication, bias detection, PII removal, and provenance tracking. Covers quality gates at each stage of the data lifecycle.",
-      "source": "Atlan knowledge base",
-      "tags": [
-        "data quality",
-        "governance",
-        "deduplication",
-        "PII removal",
-        "data lifecycle"
-      ]
-    },
-    {
-      "title": "LFM2.5-24B-A2B: Training Recipe with Data Mixing Details",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "HuggingFace Blog (Liquid AI)",
-      "summary": "Details the training recipe for LFM2.5-24B-A2B, a 24B MoE reasoning model with 2B active parameters. Includes specific data mixing strategy: pre-training scaled to ~33T tokens, mid-training adds 2T tokens weighted toward reasoning/math/code/instruction-following/multilingual text, plus 300B tokens at 131K context. Post-training includes 5-stage pipeline from SFT through agentic RL.",
-      "date": "2026-10-13"
-    },
-    {
-      "title": "Data Filtering, Deduplication and Reweighting for LLM Pre-Training",
-      "url": "https://gaoyuetianc.github.io/blogs/post/pretraining-data/",
-      "source": "Personal Blog (Gao Yue)",
-      "summary": "Study notes covering three pillars of pretraining data curation: quality filtering, deduplication, and reweighting. Walks through modern data pipeline treatments for bad data types (low quality, redundant, skewed distribution).",
-      "date": "2026-10 (exact date unknown)"
-    },
-    {
-      "title": "LLM Pre-Training Data Curation: Quality Filtering Techniques",
-      "url": "https://callsphere.ai/blog/llm-pretraining-data-curation-quality-filtering-2026",
-      "source": "CallSphere AI Blog",
-      "summary": "Deep dive into data curation and quality filtering techniques for LLM pretraining, covering deduplication, classifier-based filtering, and data mixing strategies for 2026.",
-      "date": "2026-10 (exact date unknown)"
     }
   ],
   "taxonomy_summary": {
@@ -3385,7 +3077,5 @@
         "SFT Dataset Review"
       ]
     }
-  },
-  "last_updated": "2026-10-15",
-  "last_merge_source": "pipeline/bee_dataset_filtering_incremental.json"
+  }
 }
