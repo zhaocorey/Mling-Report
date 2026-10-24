@@ -2230,6 +2230,246 @@
         "gradient influence ranking"
       ],
       "relevance_score": "medium"
+    },
+    {
+      "title": "Pick the Mixture, Not the Samples: Combinatorial Data Selection for LLMs",
+      "arxiv_id": "2610.14028",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2610.14028",
+      "summary": "提出 Combinatorial Data Selection (CDS) 框架，将数据选择分为归因(attribution)和选择(selection)两阶段。Mixture-then-Select 算法先决定各域取样数量再域内排序，比强基线提升 20-54%，理论差距与选择大小线性相关而与池大小无关",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "arxiv_id": "2605.30334",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.30334",
+      "summary": "Microsoft 出品，系统研究数据组织对 LLM 训练的影响。提出 4 条优化准则（Boundary Sharpening/Cyclic Scheduling/Curriculum Continuity/Local Diversity）和两种数据排序方法 STR/SAW，在预训练和 SFT 阶段均有效",
+      "category": "data_organization",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "PUFFER: Incremental Fuzzy Deduplication for Continuously Evolving Corpora",
+      "arxiv_id": "2608.28622",
+      "date": "2026-08",
+      "url": "https://arxiv.org/abs/2608.28622",
+      "summary": "面向持续演化语料的增量模糊去重方法，解决传统批量去重与流式数据管线不匹配的问题",
+      "category": "data_deduplication",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Layer-Aware Representation Filtering (LARF): Purifying Finetuning Data to Preserve LLM Safety Alignment",
+      "arxiv_id": "2507.18631",
+      "date": "2025-07",
+      "url": "https://arxiv.org/abs/2507.18631",
+      "summary": "识别 LLM 中的安全敏感层，利用其表征检测后训练数据中含安全退化特征的样本。移除这些数据后缓解微调导致的安全对齐退化",
+      "category": "data_filtering",
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/LLLeoLi/LARF"
+    },
+    {
+      "title": "FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering",
+      "arxiv_id": "2501.07314",
+      "date": "2025-01",
+      "url": "https://arxiv.org/abs/2501.07314",
+      "summary": "GPT-4o mini 标注行级质量标签，训练 DeBERTa-v3 分类器扩展到 10B token 子集。过滤后模型在 HellaSwag 上更高准确率，且用少 25% 数据即可达到同等性能",
+      "category": "data_filtering",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Which Pairs to Compare for LLM Post-Training?",
+      "arxiv_id": "2606.19607",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.19607",
+      "summary": "将偏好数据对比对选择形式化为采样设计问题，分析对比对选择如何通过 DPO 训练传播到下游策略性能。提出信息矩阵链接标签分配与参数估计误差的显式优化准则",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Why Less Is More (Sometimes): A Theory of Data Curation",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5af28a311a6ae8b30ab4941a96675fa2-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，提出理论框架解释数据策展中的核心悖论——为何有时少即是多。为 LLM 数学推理中观察到的矛盾策展策略提供统一解释",
+      "category": "data_curation_theory",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
+      "arxiv_id": "2502.10361",
+      "date": "2025-02",
+      "url": "https://arxiv.org/abs/2502.10361",
+      "summary": "面向多语言数据集的模型级过滤框架，利用 Transformer 和 FastText 分类器识别多样化和知识丰富样本。在 FineWeb-2 上 1B 模型仅用 15% 训练 token 即可匹配基线 MMLU 分数，覆盖 20 种语言",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "UDS: Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning",
+      "arxiv_id": "2510.16882",
+      "date": "2025-10",
+      "url": "https://arxiv.org/abs/2510.16882",
+      "summary": "在线批次选择框架，利用 logits 矩阵核范数同时捕获数据效用和样本内多样性，通过低维嵌入对比估计样本间多样性。无需外部资源，显著减少训练时间",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/gfyddha/UDS"
+    },
+    {
+      "title": "GradAlign: Gradient-Aligned Data Selection for LLM Reinforcement Learning",
+      "arxiv_id": "2602.21492",
+      "date": "2026-02",
+      "url": "https://arxiv.org/abs/2602.21492",
+      "summary": "面向 LLM RL 的梯度对齐数据选择方法，用小规模可信验证集优先选择策略梯度与验证梯度对齐的训练问题，产生自适应课程",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true,
+      "github": "https://github.com/StigLidu/GradAlign"
+    },
+    {
+      "title": "MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection",
+      "arxiv_id": "2605.30288",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.30288",
+      "summary": "面向中训练的源感知过滤框架，基于自锚定评标准则发现。先发现每个源组应评估什么，再蒸馏为可扩展的学生评分器进行全语料过滤。在代码中训练上仅用一半 token 匹配全语料性能",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "From Parameters to Data (P2D): A Task-Parameter-Guided Fine-Tuning Pipeline for Efficient LLM Alignment",
+      "arxiv_id": "2605.21558",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.21558",
+      "summary": "提出 Strong Map Hypothesis：少量注意力头主导任务适配。P2D 框架用任务敏感注意力头同时指导样本挖掘和结构剪枝，仅更新 10% 头+10% 数据即获 8.3pp 提升和 7x 加速",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+      "arxiv_id": "2604.20549",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.20549",
+      "summary": "研究嵌入空间中质量标记的跨语言一致性，高资源语言可辅助低资源语言过滤。大规模多语言池化在 103B token 训练中优于单语基线",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Data Selection for LLM Alignment Using Fine-Grained Preferences",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/bcf4ca90a8d405201d29dd47d75ac896-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，基于细粒度偏好的 LLM 对齐数据选择方法，从数据中心视角建立对齐数据选择理论",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Cure-SFT: Diagnostic-Guided Data Curation for Instruction Tuning",
+      "url": "https://openreview.net/forum?id=wTLFM5mWoa",
+      "date": "2026",
+      "summary": "诊断驱动的指令微调数据策展方法，系统性识别和处理低质量 SFT 样本",
+      "category": "data_curation",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning",
+      "arxiv_id": "2605.23969",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.23969",
+      "summary": "在线策略数据选择框架，结合分层损失剪枝实现高效指令微调",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Data Efficient Sample Selection for In-Context Learning",
+      "arxiv_id": "2609.06670",
+      "date": "2026-09",
+      "url": "https://arxiv.org/abs/2609.06670",
+      "summary": "面向上下文学习的高效样本选择方法，提供样本复杂度理论框架",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-training",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2b5c5689fae6fa9a4883e73e511d52c8-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，Mozilla 发布的大规模伦理预训练语料，详细描述数据组装、过滤和策展流程",
+      "category": "data_curation",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "One Pass, Three Purchases: Deduplication's Efficiency, Generalisation and Privacy Arguments Each Hold in Their Own Regime",
+      "url": "https://lifeofresearch.com/articles/95/files/95/one-pass-three-purchases.pdf",
+      "date": "2026",
+      "summary": "深入分析去重的三重收益（效率/泛化/隐私），发现去重模型释放训练数据的概率约低 20 倍，不同收益在不同机制下成立",
+      "category": "data_deduplication",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "HPLT 3.0: Very Large-Scale Multilingual Resources for LLM and MT",
+      "arxiv_id": "2511.01066",
+      "date": "2025-11",
+      "url": "https://arxiv.org/abs/2511.01066",
+      "summary": "30 万亿 token、近 200 种语言的最大规模开放多语言预训练数据集，配套完整开源管线（文档选择/文本提取/语言识别/精确与近似去重/质量标注/PII 检测/过滤）",
+      "category": "data_curation",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b260b381bee9f64b1a1ef66a8de21133-Abstract-Conference.html",
+      "date": "2026",
+      "summary": "ICLR 2026，提出用 200 倍更少数据评估 LLM 的方法，涉及粗粒度过滤和去重策略",
+      "category": "data_selection",
+      "date_found": "2026-10-21",
+      "is_new": true
+    },
+    {
+      "title": "Which Long Documents Matter? A Controlled Study of Data Selection for Context Extension",
+      "arxiv_id": "2610.24469",
+      "date": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.24469",
+      "summary": "长文档数据选择方法对比研究，提出 truncLongPPL 评分方法，在 128K/256K 上下文扩展任务中显著提升选择效果",
+      "category": "data_selection",
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Diversity Without Labels: Task-Agnostic Coreset Selection Across Perception and Action",
+      "arxiv_id": "2610.23642",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23642",
+      "summary": "无需标签的任务无关核集选择方法，适用于大规模训练数据策展，跨感知与动作领域",
+      "category": "data_selection",
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Surprise Masking: Private Data Filtering with Model Likelihoods",
+      "arxiv_id": "2610.22988",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.22988",
+      "summary": "基于困惑度的隐私数据过滤技术，用参考模型似然值识别并屏蔽敏感文本段",
+      "category": "data_filtering",
+      "date_found": "2026-10-20",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
     }
   ],
   "tools_and_repos": [
@@ -2553,6 +2793,60 @@
       "stars": 0,
       "category": "deduplication",
       "relevance_score": "medium"
+    },
+    {
+      "name": "microsoft/data-efficacy",
+      "url": "https://github.com/microsoft/data-efficacy",
+      "description": "Microsoft 出品的数据组织/排序工具库，实现 STR/SAW 等数据排序方法，配套论文 Demystifying Data Organization for Enhanced LLM Training",
+      "language": "Python",
+      "date_found": "2026-10-21",
+      "category": "data_organization",
+      "is_new": true
+    },
+    {
+      "name": "LLLeoLi/LARF",
+      "url": "https://github.com/LLLeoLi/LARF",
+      "description": "Layer-Aware Representation Filtering 实现代码，识别安全敏感层并检测含安全退化特征的训练数据",
+      "language": "Python",
+      "date_found": "2026-10-21",
+      "category": "data_filtering",
+      "is_new": true
+    },
+    {
+      "name": "gfyddha/UDS",
+      "url": "https://github.com/gfyddha/UDS",
+      "description": "Utility-Diversity Sampling 在线批次选择框架实现，基于 logits 矩阵核范数同时优化数据效用和多样性",
+      "language": "Python",
+      "date_found": "2026-10-21",
+      "category": "data_selection",
+      "is_new": true
+    },
+    {
+      "name": "StigLidu/GradAlign",
+      "url": "https://github.com/StigLidu/GradAlign",
+      "description": "梯度对齐数据选择方法实现，面向 LLM 强化学习的自适应课程学习",
+      "language": "Python",
+      "date_found": "2026-10-21",
+      "category": "data_selection",
+      "is_new": true
+    },
+    {
+      "name": "Word2VecT/Middo",
+      "url": "https://github.com/Word2VecT/Middo",
+      "description": "自进化模型感知动态数据优化框架，通过损失模式/嵌入聚类/自对齐分数三轴诊断 + 自适应优化引擎实现闭环数据优化",
+      "language": "Python",
+      "date_found": "2026-10-21",
+      "category": "data_optimization",
+      "is_new": true
+    },
+    {
+      "name": "LLM-Sanitizer-Pro",
+      "url": "https://github.com/Yog-Sotho/LLM-Sanitizer-Pro",
+      "description": "全面的 LLM 训练数据清洗工具包：PII脱敏 + 三级去重 + 多质量评分 + 基准去污染 + 聊天验证",
+      "date_found": "2026-10-20",
+      "category": "data_curation_pipeline",
+      "is_new": false,
+      "note": "延续项 - 上轮(10/20)发现但未合并入基线"
     }
   ],
   "blog_posts_and_tutorials": [
