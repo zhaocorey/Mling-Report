@@ -51,6 +51,7 @@ paper	Data preparation for large language models
 paper	Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
 paper	Data Selection for LLM Alignment Using Fine-Grained Preferences
+paper	Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle
 paper	Data-DPO: Direct Preference Optimization for Target Model Data Selection in LLM Post-Training
 paper	Data-Efficient Large Language Model Training: A Survey
 paper	DataChef-32B: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
@@ -153,6 +154,7 @@ paper	Rethinking Data Selection: The Importance of Coverage over Difficulty in G
 paper	Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?
 paper	Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective
 paper	RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility
+paper	Scaling Laws for Multimodal Data Mixtures
 paper	Select2Reason: Efficient Instruction-Tuning Data Selection for Long-CoT Reasoning
 paper	SELECting over Tokens: Curating Pre-training Data at Scale via Token Classification
 paper	Selection of LLM Fine-tuning Data Based on Orthogonal Rules
@@ -174,6 +176,7 @@ paper	Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning
 paper	Topic Over Source: The Key to Effective Data Mixing for Language Models Pre-training
 paper	Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection
 paper	Training Data Influence Analysis and Estimation: A Survey
+paper	Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too
 paper	UDS: Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning
 paper	Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data
 paper	Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)
@@ -187,6 +190,7 @@ paper	Which Long Documents Matter? A Controlled Study of Data Selection for Cont
 paper	Which Pairs to Compare for LLM Post-Training?
 paper	Why Less Is More (Sometimes): A Theory of Data Curation
 paper	Zero-Shot Coreset Selection via Iterative Subspace Sampling (ZCore)
+paper	ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes
 tool	Advanced-LLM-Framework-NON-MOE
 tool	artificialguybr/llm-dataset-studio
 tool	AutoData
@@ -197,6 +201,7 @@ tool	CodeForge-Agent
 tool	curation-discipline
 tool	Data-Juicer v1.6.0 (with Juicer model)
 tool	data-juicer-multimodal-curation
+tool	data_strategy_survey
 tool	DataFlex
 tool	DatasetForge
 tool	gfyddha/UDS

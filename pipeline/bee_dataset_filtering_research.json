@@ -2470,6 +2470,92 @@
       "date_found": "2026-10-20",
       "is_new": false,
       "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Scaling Laws for Multimodal Data Mixtures",
+      "authors": [
+        "Ayush Kumar Tarun et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14423",
+      "abstract": "Frontier AI systems are increasingly natively multimodal, jointly pretrained on multiple modalities, such as text, vision, and audio. However, the scientific understanding of the multimodal data mixtures used to pretrain these systems is largely absent or gatekept. In this work, we derive data mixing scaling laws for three modalities: text, vision, and audio. Using MoE architectures (268 experiments, 457M to 8.3B parameters, up to 150B tokens), we find: (1) compute optima are modality-specific—audio is model-heavy while text and vision require balanced scaling; (2) repeating vision or audio data beyond 2x yields negligible benefits; (3) cross-modal interactions are highly asymmetric—vision strongly interferes with audio, whereas audio's interference with text and vision is negligible.",
+      "key_methods": [
+        "multimodal data mixing scaling laws",
+        "MoE architecture experiments",
+        "modality-specific compute optima",
+        "cross-modal interference analysis"
+      ],
+      "categories": [
+        "data mixing",
+        "multimodal pretraining",
+        "scaling laws"
+      ],
+      "published": "2026-10-10",
+      "venue": "NeurIPS 2026 Spotlight"
+    },
+    {
+      "title": "ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes",
+      "authors": [
+        "Lisong He et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15336",
+      "abstract": "Influence functions enable principled data selection for LLMs, but scaling IFs to LLMs is hindered by billion-scale Hessian matrices and backpropagation memory overhead. We propose ZOIF, a zeroth-order framework for influence estimation that operates entirely via forward passes, enabling memory-efficient data selection. ZOIF decomposes influence estimation into three BP-free stages: (1) approximating the average proxy gradient via zeroth-order estimation; (2) reformulating the inverse Hessian-vector product as an auxiliary zeroth-order optimization; (3) deriving per-sample influence scores via forward finite difference. Experiments show ZOIF selects data subsets with competitive downstream utility at substantially lower peak memory cost.",
+      "key_methods": [
+        "zeroth-order influence estimation",
+        "forward-pass-only data selection",
+        "memory-efficient influence functions",
+        "inverse Hessian approximation"
+      ],
+      "categories": [
+        "influence function",
+        "data selection",
+        "memory efficiency"
+      ],
+      "published": "2026-10-11"
+    },
+    {
+      "title": "Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle",
+      "authors": [
+        "Yuanjian Xu et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.21681",
+      "abstract": "Data strategy governs the selection, weighting, and scheduling of training data, determining the capabilities a model can acquire from a fixed data budget. This work reviews data strategies across the training lifecycle and formulates them as policies that allocate a training budget over candidate examples. Methods are organised by decision granularity, model dependence, and temporal adaptivity, with comparison of computational requirements and empirical support. Fine-grained or state-dependent policies offer more control but incur additional scoring, search, or rollout costs. Evidence for transfer across model scales and comparable end-to-end cost remains limited.",
+      "key_methods": [
+        "unified survey of data strategies",
+        "training lifecycle perspective",
+        "policy-based data allocation",
+        "granularity-adaptivity taxonomy"
+      ],
+      "categories": [
+        "survey",
+        "data strategy",
+        "training lifecycle"
+      ],
+      "published": "2026-10-15"
+    },
+    {
+      "title": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
+      "authors": [
+        "Mehdi Makni et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18516",
+      "abstract": "Post-training pruning enables efficient deployment, but conventional methods do not explicitly preserve internal-gradient alignment between sparse and dense models. We introduce CACTUS, a novel ADMM-based optimizer supporting both pruning and sparse-plus-low-rank decompositions. CACTUS achieves over an order-of-magnitude speedup over LLM-Surgeon. At 50% pruning of Qwen3-4B, it reduces the C4 perplexity gap by 45% and runs 28x faster. By preserving influence functions, CACTUS supports effective data selection: fine-tuning on the 5% of data selected by CACTUS achieves 49.44% accuracy on BIG-Bench Hard, vs 47.22% using ALPS and 49.54% using dense-model selection.",
+      "key_methods": [
+        "curvature-aware pruning (CACTUS)",
+        "ADMM-based optimizer",
+        "influence function preservation",
+        "gradient alignment for data selection"
+      ],
+      "categories": [
+        "pruning",
+        "influence function",
+        "data selection",
+        "model compression"
+      ],
+      "published": "2026-10-13"
     }
   ],
   "tools_and_repos": [
@@ -2847,6 +2933,19 @@
       "category": "data_curation_pipeline",
       "is_new": false,
       "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "name": "data_strategy_survey",
+      "url": "https://github.com/xuyj233/data_strategy_survey",
+      "stars": 0,
+      "description": "Companion repository for the survey 'Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle'. Intended to maintain a continuously updated list of papers and public implementations for data strategies across the LLM training lifecycle.",
+      "features": [
+        "paper list",
+        "public implementations",
+        "continuously updated"
+      ],
+      "last_updated": "2026-10-15",
+      "note": "Repository created but currently empty as of 2026-10-25. Monitor for future population."
     }
   ],
   "blog_posts_and_tutorials": [

@@ -90,6 +90,7 @@ paper	Data Science and Technology Towards AGI Part I: Tiered Data Management
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
 paper	Data Selection and Compression for Efficient Instruction Tuning
 paper	Data Selection for LLM Alignment Using Fine-Grained Preferences
+paper	Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle
 paper	Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation
 paper	Data Value Density Enhancement for Large Language Model Training: A Comprehensive Survey
 paper	Data-Centric Safety Steering of LLMs
@@ -242,6 +243,7 @@ paper	Rethinking Data Selection: The Importance of Coverage over Difficulty in G
 paper	Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?
 paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility
+paper	Scaling Laws for Multimodal Data Mixtures
 paper	Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining
 paper	Scaling Multi-Hop Training Data via Graph-Constrained Path Selection
 paper	Select2Reason: Scaling LLM Reasoning via Data Selection (ACL 2026)
@@ -273,6 +275,7 @@ paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practice
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
 paper	TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins
+paper	Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too (CACTUS)
 paper	UDS: Utility-Diversity Aware Online Batch Selection for LLM Supervised Fine-tuning
 paper	UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing ⭐⭐⭐⭐⭐
 paper	Uncovering Intrinsic Capabilities: A Paradigm for Data Curation in Vision-Language Models (CADC)
@@ -296,6 +299,7 @@ paper	Where Does the Signal Live? A Web Data Recipe for Medical Encoder Pretrain
 paper	Which Long Documents Matter? A Controlled Study of Data Selection for Context Extension
 paper	Which Pairs to Compare for LLM Post-Training?
 paper	Why Less Is More (Sometimes): A Theory of Data Curation
+paper	ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes
 paper	⏭️ 可忽略或低优先级的工作
 paper	一、Coreset 方法在 LLM 场景的「工程化适配」加速
 paper	一、Coreset 选择进入「模型内信号」时代
@@ -325,6 +329,7 @@ paper	六、发表渠道分布
 paper	关键发现
 paper	原因分析
 paper	去重 (Dedup)
+paper	可忽略
 paper	可忽略/低优先级
 paper	可忽略或低优先级的工作
 paper	可持续关注
@@ -416,6 +421,7 @@ tool	Data-Juicer v1.6.0
 tool	data-juicer-multimodal-curation
 tool	data-mixing-agent
 tool	data_attribution (Google Research)
+tool	data_strategy_survey
 tool	DataFlex (OpenDCAI)
 tool	DataMaster (NJU WebSoft)
 tool	DatasetForge
