@@ -637,6 +637,7 @@ zouhar/last-translation-benchmark 🔥
 📦 数据质量
 📦 预训练语料
 🔊 语音
+🔊 语音/ASR
 🔊 语音与 ASR
 🔊 语音数据
 🛡️ 安全/PII 检测
@@ -649,11 +650,13 @@ zouhar/last-translation-benchmark 🔥
 🤖 对齐/偏好
 🤖 对齐与偏好
 🤖 强化学习训练数据
+🤖 微调/翻译与 SFT
 🤖 指令微调
 🤖 指令微调 / SFT
 🧠 多语言推理评估
 🧠 微调数据
 🧠 推理
+🧠 推理与数学
 🧠 自然语言推理
 🧠 评估基准
 🧠🖼️ 多模态评估

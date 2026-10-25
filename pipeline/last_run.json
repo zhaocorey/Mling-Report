@@ -1,17 +1,18 @@
 {
-  "date": "2026-10-24",
-  "report_path": "sources_reports/2026-10-24.md",
-  "incremental_new": 24,
-  "incremental_updates": 4,
-  "incremental_total": 28,
-  "note": "Round 74: 24 new datasets after dedup (4 removed as already reported), 4 version updates. Highlights: MunirAI 5-lang DPO, 3 low-resource web corpora (Ossetian/Tajik/Tatar), Pashto reasoning series, Nepali vertical SFT, ZamVoice Zambian translation, 2 Chinese medical benchmarks, multilingual code-switching bench.",
-  "round": 74,
+  "date": "2026-10-26",
+  "report_path": "sources_reports/2026-10-26.md",
+  "incremental_new": 28,
+  "incremental_updates": 9,
+  "incremental_total": 37,
+  "note": "Round 75: 28 new datasets after dedup (9 already reported). Highlights: r-three-moto 25-lang QA (MIT, 10M-100M), 5 unprecedented low-resource language pairs (ja-ps, ko-ps, tk-ru, kjh-ru, idu-en), 3 West African ASR datasets (Fon, Baoulé, Gun), DeepSEA SE Asian benchmark, Bashkir web corpus (46.9M tokens). 10 first-time languages including endangered Khakas.",
+  "round": 75,
   "search_sources": [
-    "HuggingFace API (18 queries)",
+    "HuggingFace API (12 queries)",
+    "arXiv (2 papers)",
+    "SearXNG (5 queries)",
     "GitHub API",
-    "DuckDuckGo (1 query)",
-    "R73 cross-check"
+    "DuckDuckGo (3 queries)"
   ],
-  "search_queries_executed": 20,
-  "baseline_count": 691
+  "search_queries_executed": 23,
+  "baseline_count": 708
 }

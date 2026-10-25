@@ -55,6 +55,7 @@ Ayushdubey772/Vitamin-C-multilingual
 BabyBabelLM
 BabyLM 2026 Multilingual Track
 Bapynshngain/English-Khasi-Parallel-Corpus-v1
+BashkirNLPWorld/bashkir-web-corpus
 BavGround (Bavarian Cultural Grounding Benchmark)
 bcckfdn/Instruct-Multilingual-v1-fix-2
 bcckfdn/Instruct-Multilingual-v1-fix-3
@@ -116,6 +117,7 @@ crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
 crosslingual-rule-following/crv-judge-confidence-validation
 crosslingual-rule-following/crv-model-inference-responses
+crosslingual-rule-following/crv-norule-baseline-responses
 crosslingual-rule-following/model-inference-activations
 crosslingual-rule-following/model-inference-responses
 crosslingual-rule-following/rule-following-eval
@@ -138,6 +140,7 @@ DCLM (DataComp for Language Models)
 DebdipCS/cloze-congruence-multilingual-benchmark
 Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
+DeepSEA (Multilingual Evaluation Benchmark for Southeast Asia)
 Delores-Lin/MDPBench
 DenseOn (Open Multilingual Long-Context Retrieval)
 DetectRL-X
@@ -180,6 +183,7 @@ failed09/bashkir-multilingual-phrasebooks
 Faizaniqbal/BhartiOCR
 farabi-lab/Multilingual_Locale_Fidelity
 Faruna01/Cross-lingual-Multi-Agent-Safety
+fatima2442/qwen25-multilingual-safety-eval
 FBK-MT/RedVox
 felixhajj/multilingual-news-runtime
 FineTranslations
@@ -254,6 +258,7 @@ INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
 instinct1912/multilingual-tts-selected-speech
 iqbaltaha3/indic-voices-indian-language-classification
+ismaelfi/melolingua-cefr-graded-multilingual-stories
 issamanisb/leyu-multilingual-audio-dataset
 issdandavis/UltraData-Math
 itsclelia/miracl-en-potion-128M-multilingual
@@ -275,6 +280,7 @@ kalenjin-parallel-corpus
 karmx/TinyQuery-Tools-Multilingual
 Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
+KeisukeMiyamoto/lambda-audio-courpus-multilingual
 ketanmore/LLaVA-Instruct-150K-13-African-Languages
 ketanmore/LLaVA-Pretrain-558k-10-African-Languages
 KIEFERSA/Greek-Chat-Conversations
@@ -289,6 +295,8 @@ Last Translation Benchmark (LTBv1)
 latentvector/multilingual-speech-text-corpus
 Lavanya2206/multilingual-asr-dataset
 Legal Corpus Raw Batches
+LegendNNT/benchmark_cross_lingual
+leileix1/UltraData-RL-2609
 LEMAS (Idea Research Institute)
 LEMAS Dataset
 LeTG/multilingual-psyop-100k
@@ -334,6 +342,7 @@ MathNet
 MauroPello/multilingual-reasoning-gym-sft
 mC4 (Multilingual Colossal Clean Crawled Corpus)
 mCoT-MATH
+mdjisanmashrafi/qwen3-multilingual-flood-evaluation
 MDPBench (Multilingual Document Parsing Benchmark)
 meaecosystem/pustaka
 MENT (Meta-Evaluation for Non-literal Translation)
@@ -370,6 +379,7 @@ MORPHOGEN
 MouradGad/multilingual-code-switching-bench
 MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
+mrheartng/idoma-english-parallel-corpus
 MRL 2026 Shared Task (Global PIQA successor)
 mSCORE — Multilingual Skill-Based Commonsense Reasoning
 MsIris2026/embtb-multilingual-eval
@@ -380,6 +390,7 @@ MuBench (Multilingual Benchmark)
 MUDIDI
 mudkip02/gsm8k-multilingual-filtered
 multi-open (African Languages)
+Multi-SFT (Permissively-Licensed Multilingual Instruction-Following)
 MultIdiom_Dataset
 MultiGhostBench
 MultiHal
@@ -417,9 +428,12 @@ myMediWhisper
 mzoelfakar/Mini-GSM8K-Multilingual-Alignment
 M³IT (Multi-Modal Multilingual Instruction Tuning)
 Nailyk14/prompt-safety-multilingual
+Nailyk14/prompt-safety-multilingual-v2
 nassimjp/afghanistan-multilingual-reasoning
 nassimjp/Emojis-Reasoning-Dataset
 nassimjp/Friendly-Pashto-AI-Assistant-Reasoning-Dataset
+nassimjp/japanese-pashto-parallel-corpus
+nassimjp/korean-pashto-parallel-corpus
 nassimjp/Legal-Issues-Multilingual-Reasoning
 nassimjp/riddles-multilingual
 nassimjp/social-context-reasoning-dataset
@@ -524,11 +538,13 @@ psdn-ai/CROWS-multilingual
 puttatidam/multilingual-sentiment-ind-classification
 puttatidam/multilingual-sentiment-tha-classification
 puttatidam/multilingual-sentiment-vie-classification
+r-three-moto/multilingual-addition
 RAGTruth Translated Hallucinations
 rakhine-nlp/rakhine-english-parallel-corpus
 rakhine-nlp/rakhine-myanmar-parallel-corpus
 ranbirchabungbam/meiteimayek-audio-parallel-corpus
 ranjithraj/indic-multilingual-educational-glossary
+RayNene/qwen3-multilingual-safety-eval
 ReasonXL (Soofi-Think-SFT-10B-multilingual)
 REDACT
 RedPajama-V2
@@ -579,6 +595,7 @@ SignNet-1M
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
+SolusOps/multilingual-vla-rollouts
 songjhPKU/PM4Bench
 Soohak
 SorryBench-202503-Multilingual
