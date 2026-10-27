@@ -2470,6 +2470,196 @@
       "date_found": "2026-10-20",
       "is_new": false,
       "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "title": "Scaling Laws for Multimodal Data Mixtures",
+      "authors": [
+        "Ayush Kumar Tarun et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14423",
+      "abstract": "Frontier AI systems are increasingly natively multimodal, jointly pretrained on multiple modalities, such as text, vision, and audio. However, the scientific understanding of the multimodal data mixtures used to pretrain these systems is largely absent or gatekept. In this work, we derive data mixing scaling laws for three modalities: text, vision, and audio. Using MoE architectures (268 experiments, 457M to 8.3B parameters, up to 150B tokens), we find: (1) compute optima are modality-specific—audio is model-heavy while text and vision require balanced scaling; (2) repeating vision or audio data beyond 2x yields negligible benefits; (3) cross-modal interactions are highly asymmetric—vision strongly interferes with audio, whereas audio's interference with text and vision is negligible.",
+      "key_methods": [
+        "multimodal data mixing scaling laws",
+        "MoE architecture experiments",
+        "modality-specific compute optima",
+        "cross-modal interference analysis"
+      ],
+      "categories": [
+        "data mixing",
+        "multimodal pretraining",
+        "scaling laws"
+      ],
+      "published": "2026-10-10",
+      "venue": "NeurIPS 2026 Spotlight"
+    },
+    {
+      "title": "ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes",
+      "authors": [
+        "Lisong He et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15336",
+      "abstract": "Influence functions enable principled data selection for LLMs, but scaling IFs to LLMs is hindered by billion-scale Hessian matrices and backpropagation memory overhead. We propose ZOIF, a zeroth-order framework for influence estimation that operates entirely via forward passes, enabling memory-efficient data selection. ZOIF decomposes influence estimation into three BP-free stages: (1) approximating the average proxy gradient via zeroth-order estimation; (2) reformulating the inverse Hessian-vector product as an auxiliary zeroth-order optimization; (3) deriving per-sample influence scores via forward finite difference. Experiments show ZOIF selects data subsets with competitive downstream utility at substantially lower peak memory cost.",
+      "key_methods": [
+        "zeroth-order influence estimation",
+        "forward-pass-only data selection",
+        "memory-efficient influence functions",
+        "inverse Hessian approximation"
+      ],
+      "categories": [
+        "influence function",
+        "data selection",
+        "memory efficiency"
+      ],
+      "published": "2026-10-11"
+    },
+    {
+      "title": "Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle",
+      "authors": [
+        "Yuanjian Xu et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.21681",
+      "abstract": "Data strategy governs the selection, weighting, and scheduling of training data, determining the capabilities a model can acquire from a fixed data budget. This work reviews data strategies across the training lifecycle and formulates them as policies that allocate a training budget over candidate examples. Methods are organised by decision granularity, model dependence, and temporal adaptivity, with comparison of computational requirements and empirical support. Fine-grained or state-dependent policies offer more control but incur additional scoring, search, or rollout costs. Evidence for transfer across model scales and comparable end-to-end cost remains limited.",
+      "key_methods": [
+        "unified survey of data strategies",
+        "training lifecycle perspective",
+        "policy-based data allocation",
+        "granularity-adaptivity taxonomy"
+      ],
+      "categories": [
+        "survey",
+        "data strategy",
+        "training lifecycle"
+      ],
+      "published": "2026-10-15"
+    },
+    {
+      "title": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
+      "authors": [
+        "Mehdi Makni et al."
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18516",
+      "abstract": "Post-training pruning enables efficient deployment, but conventional methods do not explicitly preserve internal-gradient alignment between sparse and dense models. We introduce CACTUS, a novel ADMM-based optimizer supporting both pruning and sparse-plus-low-rank decompositions. CACTUS achieves over an order-of-magnitude speedup over LLM-Surgeon. At 50% pruning of Qwen3-4B, it reduces the C4 perplexity gap by 45% and runs 28x faster. By preserving influence functions, CACTUS supports effective data selection: fine-tuning on the 5% of data selected by CACTUS achieves 49.44% accuracy on BIG-Bench Hard, vs 47.22% using ALPS and 49.54% using dense-model selection.",
+      "key_methods": [
+        "curvature-aware pruning (CACTUS)",
+        "ADMM-based optimizer",
+        "influence function preservation",
+        "gradient alignment for data selection"
+      ],
+      "categories": [
+        "pruning",
+        "influence function",
+        "data selection",
+        "model compression"
+      ],
+      "published": "2026-10-13"
+    },
+    {
+      "title": "\"High-Quality\" Data for Early-Stage Instruction Tuning: An Empirical Study of Data Quality Metrics",
+      "url": "https://arxiv.org/abs/2610.33969",
+      "arxiv_id": "2610.33969",
+      "authors": "Sofia Serrano et al.",
+      "year": 2026,
+      "date": "2026-10-25",
+      "description": "Studies data quality as an operational property for instruction tuning. Evaluates example-level metrics (response ratio, etc.) as predictors of training utility under fixed finetuning budgets. Finds answer-dense supervision (response ratio) is a stronger predictor than commonly used proxies. Sorts instruction-response examples by score, partitions into low/middle/high bins, and compares validation perplexity and LLM-as-judge scores.",
+      "source_channel": "arXiv API (submittedDate search)",
+      "category": "data_quality_metrics_instruction_tuning",
+      "relevance_score": 9,
+      "discovery_status": "new_in_window"
+    },
+    {
+      "title": "MetaCurate: Evolving Curation Filters for High-Quality Agentic Coding Data",
+      "url": "https://arxiv.org/abs/2610.23134",
+      "arxiv_id": "2610.23134",
+      "year": 2026,
+      "date": "2026-10-16",
+      "description": "Evolves trajectory curation filters using pairwise LLM judgments for agentic coding data. Proposes diagnostics-driven approach where a proposer uses disagreement signals to refine curation filter criteria. Addresses the challenge of selecting high-quality agent trajectory data for coding tasks.",
+      "source_channel": "SearXNG science",
+      "category": "automated_data_curation",
+      "relevance_score": 9,
+      "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection",
+      "url": "https://arxiv.org/abs/2610.11585",
+      "arxiv_id": "2610.11585",
+      "authors": "Vinko Sabolčec et al.",
+      "year": 2026,
+      "date": "2026-10-08",
+      "description": "Extends quality filtering to 100+ languages by converting English quality classifiers into multilingual variants. Trains small MLP on top of Transformer encoder embeddings using multilingual text with scores from English classifiers on machine-translated text. Maintains downstream LLM benchmark performance without harming regional/cultural knowledge. Demonstrates cross-lingual generalization even for unseen languages.",
+      "source_channel": "SearXNG science",
+      "category": "multilingual_data_selection",
+      "relevance_score": 10,
+      "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "Effective Synthetic Data Curation Requires Group-Level Signals",
+      "url": "https://arxiv.org/abs/2610.00779",
+      "arxiv_id": "2610.00779",
+      "authors": "Cathy Jiao et al.",
+      "year": 2026,
+      "date": "2026-09-30",
+      "description": "Shows that individual-level data curation signals are insufficient for synthetic data. Group-level signals (accounting for interactions among samples) are necessary for effective curation. Demonstrates that synthetic datasets with different compositions can be indistinguishable under individual-level influence but differ sharply under group-level influence. Provides cheap diagnostic for prioritizing which data groups need group-level estimation.",
+      "source_channel": "SearXNG science",
+      "category": "synthetic_data_curation",
+      "relevance_score": 9,
+      "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "CuratorMAS: Automating Dataset Curation via Multi-Agent Orchestration",
+      "url": "https://arxiv.org/abs/2610.07075",
+      "arxiv_id": "2610.07075",
+      "authors": "Yixin Zhang et al.",
+      "year": 2026,
+      "date": "2026-10-05",
+      "description": "Multi-agent collaboration framework for automated dataset curation. Decomposes curation into five programmable stages: dataset exploration, domain knowledge retrieval, evaluation criteria derivation, metric computation, and filtering. Includes evolution module for updating curation skills. Reduces noise rate by up to 36pp and improves downstream F1 by up to 8.88pp.",
+      "source_channel": "SearXNG science",
+      "category": "automated_data_curation",
+      "relevance_score": 9,
+      "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining",
+      "url": "https://arxiv.org/abs/2609.34287",
+      "arxiv_id": "2609.34287",
+      "authors": "Zichun Yu et al. (CMU)",
+      "year": 2026,
+      "date": "2026-09-28",
+      "description": "Replaces entire heuristic scraper + rule-based filter stack with a single 0.6B parameter model. Trained on curated data from three teacher models. Learns to extract main content then choose among keep/edit/delete/rewrite operations. Improves DCLM Core score by 3.8-4.7% over strongest baselines at 400M-2.8B scale. Open-sourced at github.com/cxcscmu/ReScraper.",
+      "source_channel": "SearXNG science",
+      "category": "data_cleaning_pipeline",
+      "relevance_score": 9,
+      "discovery_status": "missed_in_previous_run",
+      "code_url": "https://github.com/cxcscmu/ReScraper"
+    },
+    {
+      "title": "The Format is the Filter: Scoring Format Fixes What an LLM Judge Can Express",
+      "url": "https://arxiv.org/abs/2610.17158",
+      "arxiv_id": "2610.17158",
+      "authors": "Lovedeep Gondara et al.",
+      "year": 2026,
+      "date": "2026-10-12",
+      "description": "Studies how scoring format (binary/1-5/0-100/comparison) affects LLM judge-based data curation for instruction tuning. Tests 15,406 UltraFeedback candidates across 5 formats with 3 judges, fine-tunes 66 models. Finds 0-100 scale effectively uses only 7-12 levels, binary verdict leaves 77-78% ties. Curated data beats random selection but no ordering among formats is detectable. Proposes 4 quantities that curation pipelines should report.",
+      "source_channel": "SearXNG science",
+      "category": "data_quality_judge_format",
+      "relevance_score": 8,
+      "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "Scaling Synthetic Pre-training Data and Evaluation for Indic LLMs",
+      "url": "https://arxiv.org/abs/2610.26006",
+      "arxiv_id": "2610.26006",
+      "authors": "NVIDIA + AI4Bharat",
+      "year": 2026,
+      "date": "2026-10-19",
+      "description": "Introduces Nemotron-Pretraining-Indic-v1, a synthetic pretraining corpus of ~2.83 trillion tokens covering all 22 scheduled Indian languages. Includes Indic-LLM-Eval-Suite for multilingual benchmark across chat, instruction following, and other tasks. Investigates trade-off between synthetic data quality and quantity for multilingual pretraining.",
+      "source_channel": "SearXNG science",
+      "category": "synthetic_pretraining_data_multilingual",
+      "relevance_score": 8,
+      "discovery_status": "missed_in_previous_run"
     }
   ],
   "tools_and_repos": [
@@ -2847,6 +3037,30 @@
       "category": "data_curation_pipeline",
       "is_new": false,
       "note": "延续项 - 上轮(10/20)发现但未合并入基线"
+    },
+    {
+      "name": "data_strategy_survey",
+      "url": "https://github.com/xuyj233/data_strategy_survey",
+      "stars": 0,
+      "description": "Companion repository for the survey 'Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle'. Intended to maintain a continuously updated list of papers and public implementations for data strategies across the LLM training lifecycle.",
+      "features": [
+        "paper list",
+        "public implementations",
+        "continuously updated"
+      ],
+      "last_updated": "2026-10-15",
+      "note": "Repository created but currently empty as of 2026-10-25. Monitor for future population."
+    },
+    {
+      "name": "ReScraper",
+      "url": "https://github.com/cxcscmu/ReScraper",
+      "description": "Unified scraping and cleaning model (0.6B params) for LLM pretraining data curation. Replaces heuristic scraper + rule-based filter stack. Trained on teacher model outputs. Operations: keep/edit/delete/rewrite. Improves DCLM Core score by 3.8-4.7%. Paper: arXiv:2609.34287.",
+      "stars": null,
+      "language": "Python",
+      "last_updated": "2026-09",
+      "category": "data_cleaning_pipeline",
+      "relevance_score": 9,
+      "discovery_status": "missed_in_previous_run"
     }
   ],
   "blog_posts_and_tutorials": [
