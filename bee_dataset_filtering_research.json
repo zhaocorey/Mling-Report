@@ -11,10 +11,10 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-09-17T09:08:14+08:00",
-    "total_papers": 135,
-    "total_tools": 26,
-    "total_blogs": 8
+    "last_updated": "2026-10-30",
+    "total_papers": 199,
+    "total_tools": 43,
+    "total_blogs": 9
   },
   "papers": [
     {
@@ -2660,6 +2660,75 @@
       "category": "synthetic_pretraining_data_multilingual",
       "relevance_score": 8,
       "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "title": "Advancement or Acceleration? How Data Curation Improves LLM Training",
+      "authors": "Jiaxing Wang et al.",
+      "url": "https://arxiv.org/abs/2610.36983",
+      "arxiv_id": "2610.36983",
+      "date": "2026-10-27",
+      "summary": "Formalizes the distinction between data curation as advancement (improving attainable performance) vs. acceleration (reaching same performance with less data). Shows that advancement requires a correctable train-target gap: when baseline training and target objectives coincide, no curation policy improves the endpoint. Proposes the Delta-test, an observable discrepancy between uncurated baseline's training and target losses that predicts whether curation yields persistent gains. Reframes advancement as a property of the curation task rather than the curation method, and points to target-set construction as a promising direction.",
+      "relevance": "Foundational theoretical work that reframes the entire data curation debate. The Delta-test provides a practical, pre-curation diagnostic for deciding whether data curation is worth the compute investment. Directly relevant to data mixture and selection strategies.",
+      "tags": [
+        "data curation",
+        "data selection",
+        "data mixture",
+        "theoretical analysis",
+        "scaling laws",
+        "target-set construction"
+      ]
+    },
+    {
+      "title": "LinMix: Data Mixing as Linear Domain Attribution",
+      "authors": "Anonymous (NeurIPS 2026 Workshop on Attributing Model Behavior at Scale)",
+      "url": "https://arxiv.org/abs/2610.37390",
+      "arxiv_id": "2610.37390",
+      "date": "2026-10-27",
+      "summary": "Recognizes data mixing as a domain attribution problem: regression measures each domain's contribution to the target metric. Standard Dirichlet sampling of proxy data mixes is a poor regression design for hundreds of domains. Introduces LinMix, which samples mixes at the vertices of the capped simplex (each domain at cap or absent), enabling an interpretable linear model whose coefficients are the domain attributions. The optimal mix keeps only domains with positive attribution values. Tested with 1B OLMo2 and 4B Qwen3.5 models: 46% relative gain on MBPP, 14% on GSM8K over Dirichlet-based mixing. At 288 fine-grained domains, only vertex sampling supports a linear fit with 11% average accuracy improvement.",
+      "relevance": "Novel approach to data mixture optimization that scales to hundreds of domains where existing methods fail. Hyperparameter-free and provably optimal under linear attribution. Directly applicable to pretraining data recipe design.",
+      "tags": [
+        "data mixing",
+        "data mixture optimization",
+        "domain attribution",
+        "experimental design",
+        "pretraining",
+        "NeurIPS 2026 workshop"
+      ]
+    },
+    {
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "authors": "Anonymous",
+      "url": "https://arxiv.org/abs/2610.37481",
+      "arxiv_id": "2610.37481",
+      "date": "2026-10-27",
+      "summary": "Addresses the problem of fine-tuning LLMs on instruction data that quietly erodes safety, even when no training example looks harmful. Proposes SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples whose gradients align with unsafe behavior. By simplifying a low-rank attribution method and restricting backpropagation to the final 4 transformer blocks, SimpleLoRIF can embed datasets of ~1M examples. Builds SafeTulu (Tulu 3 with top 20% safety-degrading examples removed), reducing GCG attack success rate by up to 22% across Qwen, Llama, and Olmo. Identifies under-studied sources of safety degradation including tool-execution failures and narrative arithmetic.",
+      "relevance": "Demonstrates gradient-based data filtering for safety preservation at scale (million-example datasets). Introduces practical tool (SimpleLoRIF) and releases SafeTulu. Connects data selection with safety alignment, a critical intersection for LLM post-training.",
+      "tags": [
+        "data filtering",
+        "safety",
+        "gradient attribution",
+        "instruction tuning",
+        "data selection",
+        "alignment",
+        "post-training"
+      ]
+    },
+    {
+      "title": "An Embarrassingly Simple Data Selection Strategy for Million-Scale Multi-Modal Instruction-Tuning",
+      "authors": "Anonymous",
+      "url": "https://arxiv.org/abs/2503.13383",
+      "arxiv_id": "2503.13383",
+      "date": "2025-03-18",
+      "date_appeared_in_listings": "2026-10-29",
+      "summary": "Proposes a simple yet effective data selection strategy for million-scale multi-modal instruction-tuning datasets. The method focuses on selecting representative subsets that maintain training effectiveness at reduced scale. Cross-listed to cs.CL on Oct 29, 2026, indicating renewed relevance.",
+      "relevance": "Addresses the practical challenge of scaling instruction-tuning data selection to million-sample multimodal datasets. The 'embarrassingly simple' approach suggests practical heuristics that work well at scale without complex optimization.",
+      "tags": [
+        "data selection",
+        "multimodal",
+        "instruction tuning",
+        "scaling",
+        "cross-listed 2026-10"
+      ]
     }
   ],
   "tools_and_repos": [

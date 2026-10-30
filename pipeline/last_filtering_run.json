@@ -1,20 +1,20 @@
 {
-  "last_run": "2026-10-27",
+  "last_run": "2026-10-30",
   "run_type": "incremental",
   "status": "completed",
   "source": "bee_subagent",
   "merged_into": "bee_dataset_filtering_research.json",
-  "report": "dataset_filtering_survey/2026-10-27.md",
-  "window": "2026-10-25 to 2026-10-27",
+  "report": "dataset_filtering_survey/2026-10-30.md",
+  "window": "2026-10-28 to 2026-10-30",
   "added": {
-    "papers": 8,
-    "tools": 1,
+    "papers": 4,
+    "tools": 0,
     "blogs": 0
   },
   "current_baseline": {
-    "papers": 195,
+    "papers": 199,
     "tools": 43,
     "blogs": 9
   },
-  "note": "增量已合并入基线，去重后+8论文+1工具。"
+  "note": "增量已合并入基线，去重后+4论文。"
 }
