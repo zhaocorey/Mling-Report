@@ -1,18 +1,30 @@
 {
-  "date": "2026-10-26",
-  "report_path": "sources_reports/2026-10-26.md",
-  "incremental_new": 28,
-  "incremental_updates": 9,
-  "incremental_total": 37,
-  "note": "Round 75: 28 new datasets after dedup (9 already reported). Highlights: r-three-moto 25-lang QA (MIT, 10M-100M), 5 unprecedented low-resource language pairs (ja-ps, ko-ps, tk-ru, kjh-ru, idu-en), 3 West African ASR datasets (Fon, Baoulé, Gun), DeepSEA SE Asian benchmark, Bashkir web corpus (46.9M tokens). 10 first-time languages including endangered Khakas.",
-  "round": 75,
-  "search_sources": [
-    "HuggingFace API (12 queries)",
-    "arXiv (2 papers)",
-    "SearXNG (5 queries)",
-    "GitHub API",
-    "DuckDuckGo (3 queries)"
+  "last_run_date": "2026-11-02",
+  "run_type": "incremental",
+  "window_days": 3,
+  "window_start": "2026-10-30",
+  "window_end": "2026-11-02",
+  "baseline_sources_count": 712,
+  "new_datasets_found": 4,
+  "new_datasets_merged": 4,
+  "dedup_skipped": 16,
+  "version_updates_found": 0,
+  "version_updates_merged": 0,
+  "notable_mentions": 0,
+  "papers_of_interest": 0,
+  "report_file": "sources_reports/2026-11-02.md",
+  "previous_run": "2026-10-30",
+  "pipeline_stages_completed": [
+    "bee_sourcing",
+    "professor-yu_report",
+    "zong_merge",
+    "coder_push"
   ],
-  "search_queries_executed": 23,
-  "baseline_count": 708
+  "pending_stages": [],
+  "notes": "Round 78 incremental. 4 new datasets found: aya-multilingual-refusal-prompts (8-lang safety), indicsutra-multilingual-lexicon (7-lang lexicon), vibiomir-biomedical-corpus (3-lang 4.93M biomedical), shilluk_to_english_parallel_corpus (low-resource). Weekend window, fewer releases.",
+  "execution_mode": "manual - Round 78 incremental",
+  "github_url": "https://github.com/zhaocorey/CaiWeiReport",
+  "gitee_url": "https://gitee.com/zhaocorey/CaiWeiReport",
+  "feishu_doc_url": "https://www.feishu.cn/wiki/Ts6awy24siDdSwkQJIec4UbfnMf",
+  "feishu_status": "auth_needed"
 }

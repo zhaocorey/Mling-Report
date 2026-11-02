@@ -1,6 +1,7 @@
 15juneee/agriculture-advisor-adapted-multilingual-v1 (v1)
 abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset
 abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
+abdullahabtahi/refusal-parity ⭐
 AbjadAuthorID
 AdaMame Multilingual Reasoning Traces
 adivaanihf/adivaani-tribal-parallel-corpus
@@ -25,6 +26,7 @@ Alexandria - Dialectal Arabic MT Dataset 📄
 AlphaMWE
 amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
+AnmolGV/section10-divorce-corpus
 AnthonyPa57/Witcher-multilingual-convos
 APARSIN
 arabic-russian-parallel-corpus
@@ -32,9 +34,11 @@ artindnr/Multilingual-Thinking
 artindnr/Multilingual-Thinking ⭐
 artindnr/Multilingual-Thinking-200
 ARTPARK-IISc/Vaani-transcription-part
+ArVaViT/history-globe
 Asian Nuance and Implicit Context (Thai)
 ASTRAI Pluto-Nano Pretrain v2
 Atharva2099/multilingual-political-statements
+Aus-23/indic-synthetic-scene-text-1000
 Aya Dataset (Aya Collection)
 AyaVisionBench
 aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
@@ -42,6 +46,7 @@ aymansharara/IdiomX
 Aynursusuz/mossv1.5-tts-multilingual-test
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
 Ayushdubey772/Vitamin-C-multilingual
+b4ph/nemotron-3-5-egg-argument-eval
 BabyBabelLM
 BabyLM 2026 Multilingual Track 📄
 BavGround (Bavarian Cultural Grounding Benchmark)
@@ -60,6 +65,7 @@ BharatSetu-22Indic-1M
 BhartiOCR
 BhashaKritika — Indic Synthetic Pretraining Data (AAAI 2026) 📄
 BIASEDTALES-ML
+birgermoell/oellm-eu-tasks
 BnMMLU — 孟加拉语 MMLU 评估基准
 BOUQuET
 BRIDGE (Multilingual Clinical Text Benchmark)
@@ -109,6 +115,7 @@ Dagi2730/leyu-multilingual-speech-dataset
 danielelvs/multilingual-islr-mediapipe
 danish-foundation-models/multilingual-gsm-symbolic
 DAPO-Math-Multilingual-6Lang
+datahiveai/multilingual-conversations-sample
 dave1368/repro-gxpo-cross-lingual-code-generation
 DaveGabe/cwt-multilingual-pretrain-mix
 dayomtechnologies/English_Nuer_parallel_translation_open_corpus
@@ -123,14 +130,17 @@ DialogPII
 DimABSA
 DimABSA — Multilingual Dimensional ABSA (SemEval-2026) 📄
 djelia/multilingual-asr
+doanhlt/cabin-asr-distill-data
 DocAtlas-Bench
 DocAtlas-Instruct (docatlas_instruct)
 Dolci-Think-SFT-32B-Multilingual
 Donoe/multilingual-nigerian-banking77
+drakkeng/outilsia-injections-prompt-multilingue
 drohanashM/multilingual-news-classifier-data
 EC-DGT-AI/EU-MMLU
 EchoNet++: A Multilingual Soccer Match Audio Commentary Dataset
 ECLeKTic
+efederici/smol-software-harbor
 EinicherAI/nemotron-multilingual-math-verified
 ElectronicHug/short_video_ocr_dataset
 ellamind/grips-multilingual
@@ -212,6 +222,7 @@ HuggingFaceH4/Multilingual-Thinking
 hysi-lab/unwebtv-multilingual-audio-archive
 IdeaShift-X
 IFMTBench (International Forum on Machine Translation Benchmark)
+ikhlasulakmalh/sci-rho
 Indic DiarBench
 Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
 IndicGuard (arXiv 2026-06)
@@ -238,6 +249,7 @@ Kaleidoscope
 kalenjin-parallel-corpus
 kapturecx/bolAIndia
 kasagadi — 数据内容重大扩展
+Kashif786/Sindhi-Assistant-IFT-1500
 Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
 ketanmore/LLaVA-Instruct-150K-13-African-Languages
@@ -395,6 +407,7 @@ nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual
 NiuTrans/LMT-60-sft-data
 NjeriKahoro/kikuyu-english-multilingual-text
 NLPCC 2026 DA-MIVQA ⭐
+NoeFlandre/GeoReSeT-Corpus 🔥⭐
 nur-dev/farabi-crosslingual-tool-argnorm
 NVIDIA Nemotron-RL-agent-workplace_assistant
 NVIDIA Nemotron-RL-Agentic-Function-Calling-Pivot-v1
@@ -403,6 +416,7 @@ NVIDIA Nemotron-RL-instruction_following
 NVIDIA Nemotron-RL-knowledge-mcqa
 NVIDIA Nemotron-RL-Safety-v1
 NVIDIA Nemotron-RL-Ultra-Training-Blends
+nvidia/Granary-HiFi
 nvidia/Nemotron-CC-v2
 nvidia/Nemotron-CC-v2 🔥
 nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1
@@ -503,6 +517,7 @@ SEA-SafeguardBench
 SEADialogues — Southeast Asian Culturally Grounded Dialogue Dataset 📄
 SeaEval
 SEAHateCheck ⚠️ 时效关注
+seharaman786/multilingual-model-blind-spots
 SemEval-2026 Task 7 (Everyday Knowledge)
 SemEval-2026 Task 9 (Multilingual Polarization)
 SHADES (Stereotypes in LLMs Assessment)
@@ -513,6 +528,7 @@ SignerX/SignVerse-2M 🔥⭐ Top 10 候选
 SignNet-1M 🔥
 SikhLibrary
 Similoluwa/african-multilingual-tokenizer-challenge
+sinabis-group/sinabis-10k-synthetic-emails
 SLAAB-Finance-Multilingual-Instruction-Splits
 SLAAB-Medical-Multilingual-Instruction-Splits
 SlimPajama
@@ -525,6 +541,7 @@ Souro/agentic-tooluse-synthetic-multilingual
 SPADE (Multilingual Speech Partial Deepfake)
 speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
 SpeechJBB
+Squezilia/Route4Secure 🔥
 SraVaani 1.0
 sripad17/multilingual-safety-probe-test
 StereoTales
@@ -545,15 +562,19 @@ tackhwa/multilingual_safety
 tackhwa/multilingual_safety + v2
 tackhwa/multilingual_safety_v2
 Tagengo
+Tahsin-Mayeesha/tofu-bn
 Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
 Tasfiya025/Multilingual_Legal_Contract_Risk ⚠️ 陈旧
 tasksource/multilingual-sentiments
+TBOGamer22/RUBIC-58K
 tejasta/Kannada-English-Parallel-Corpus
 TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
 The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
 The-CoLab/multilingual-textarena-suite
+therapy-support/llm-gender-bias-mental-health
 TidyVoice: A Curated Multilingual Dataset for Speaker Verification ⭐
+tinyrolls/RoleVerse ⭐
 tojpaj/agriculture-multilingual-indic
 tojpaj/chart-qa-multilingual-indic
 tojpaj/hr-grievance-multilingual-indic
@@ -582,6 +603,7 @@ UNICS (Unified Multilingual Code Search)
 UnityShotsBench
 Universal NER v2 (UNER v2)
 UPDESH
+Urdatorn/linder-walberg
 UrduBench — Urdu Reasoning Benchmark 📄
 userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
@@ -592,6 +614,8 @@ VelkroLM/african-languages-speech
 VettyCher/dehumanisation_study
 Viet Medi Species 2026
 vietphamlaiyen/Multilingual_medical_symptom_triage
+VillanovaAI/Multi-CommonCanvas-captioning
+VillanovaAI/Multi-CommonCanvas-QA
 VityaVitalich/multilingual-safety-data
 VoiceNet/multilingual-in-the-wild-thinking
 vojewale/Cross-lingualIFEval ⭐
@@ -599,6 +623,7 @@ VoxENES 2026
 WAXAL
 WebFAQ 2.0
 WebFAQ 2.0 (v2.0)
+weilin2468/multilingual_audio_alignments 🔥
 WILA-popQA
 Wismut/nym-pii-multilingual-data
 WMT26 General MT Test Data
@@ -660,3 +685,7 @@ zouhar/last-translation-benchmark 🔥
 🧠 自然语言推理
 🧠 评估基准
 🧠🖼️ 多模态评估
+aya-multilingual-refusal-prompts
+indicsutra-multilingual-lexicon
+vibiomir-biomedical-corpus
+shilluk_to_english_parallel_corpus_biblical_text
