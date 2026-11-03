@@ -2,11 +2,13 @@ blog	A Survey of LLM x DATA (Tsinghua Technical Report)
 blog	Aleph-Alpha-GermanWeb: Model-based Curation Pipeline Tutorial
 blog	Data Optimization for LLMs Survey (TechRxiv)
 blog	Data-and Training-Efficient LLMs (UC Berkeley Thesis)
+blog	Data-Centric Alignment of LLMs: Survey
 blog	DataComp-LM Benchmark Platform
 blog	DataFoundry: Evolving Data Preparators via Recursive Self-Improvement (Blog/Report)
 blog	FineWeb Technical Blog Post
 blog	Investigating Public Fine-tuning Datasets: Construction Perspective
 blog	The Data-Quality Illusion: Rethinking Classifier-Based Filtering
+blog	There is no posttraining data commons
 paper	"High-Quality" Data for Early-Stage Instruction Tuning: An Empirical Study of Data Quality Metrics
 paper	20/20 Vision Language Models: A Prescription for Better VLMs through Data Curation Alone
 paper	A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances
@@ -78,6 +80,7 @@ paper	DUMP: Distribution-Level Curriculum Learning for RL-based LLM Post-trainin
 paper	Edu-QuRating: Multi-Dimensional Educational Data Curation with Distilled Pairwise Judgements
 paper	Effective Synthetic Data Curation Requires Group-Level Signals
 paper	Efficient Pretraining Data Selection via Multi-Actor Collaboration
+paper	Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining (AQL-Lite)
 paper	Enhancing Multilingual LLM Pretraining with Model-Based Data Selection
 paper	Escaping Collapse: The Strength of Weak Data for Large Language Model Training
 paper	Failure-Guided Co-Evolution of Prompts and Training Data
@@ -166,6 +169,7 @@ paper	Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoni
 paper	RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility
 paper	Scaling Laws for Multimodal Data Mixtures
 paper	Scaling Synthetic Pre-training Data and Evaluation for Indic LLMs
+paper	SEDD: Scalable and Efficient Dataset Deduplication with GPUs
 paper	Select2Reason: Efficient Instruction-Tuning Data Selection for Long-CoT Reasoning
 paper	SELECting over Tokens: Curating Pre-training Data at Scale via Token Classification
 paper	Selection of LLM Fine-tuning Data Based on Orthogonal Rules

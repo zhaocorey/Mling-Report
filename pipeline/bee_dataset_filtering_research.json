@@ -11,10 +11,10 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-10-30",
-    "total_papers": 199,
-    "total_tools": 43,
-    "total_blogs": 9
+    "last_updated": "2026-11-03T09:17:00+08:00",
+    "total_papers": 201,
+    "total_tools": 47,
+    "total_blogs": 11
   },
   "papers": [
     {
@@ -2729,6 +2729,28 @@
         "scaling",
         "cross-listed 2026-10"
       ]
+    },
+    {
+      "title": "Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining (AQL-Lite)",
+      "url": "https://arxiv.org/abs/2610.30344",
+      "authors": "Houssam Eddine Boukhalfa et al.",
+      "year": 2026,
+      "date": "2026-10-21",
+      "description": "Quality-first curation pipeline (AQL-Lite) for Arabic LLM adaptation: structural cleaning + heuristic/model-based filtering + MSA selection + deduplication, combined with partial-parameter CPT (RS-LoRA + last 8 blocks + embedding). At 1B tokens, curated data yields +3.51 over raw web text. At 40B tokens, 12B model scores 75.3 on OALL v2. Demonstrates curation pipeline design for domain-specific adaptation.",
+      "source_channel": "arXiv",
+      "category": "quality_filtering_pipeline",
+      "relevance_score": 8
+    },
+    {
+      "title": "SEDD: Scalable and Efficient Dataset Deduplication with GPUs",
+      "url": "https://arxiv.org/abs/2501.01046",
+      "authors": "mcrl et al.",
+      "year": 2026,
+      "date": "2026-10 (v4 update, ACM 2026)",
+      "description": "GPU-accelerated deduplication framework using MinHash LSH with partially reusable hash functions, optimized GPU kernels, and streaming-based approach replacing data shuffling. 158× faster than SlimPajama CPU, 7.8× faster than NeMo Curator GPU. MinHash signature generation 375× faster. Deduplicates 1.2T tokens in 3h on 32-GPU cluster. Jaccard similarity >0.95 vs standard MinHash.",
+      "source_channel": "arXiv / GitHub (mcrl/SEDD)",
+      "category": "data_deduplication",
+      "relevance_score": 9
     }
   ],
   "tools_and_repos": [
@@ -3130,6 +3152,42 @@
       "category": "data_cleaning_pipeline",
       "relevance_score": 9,
       "discovery_status": "missed_in_previous_run"
+    },
+    {
+      "url": "https://github.com/marin-community/marin",
+      "stars": "~2000",
+      "description": "Open-source framework for foundation model R&D covering data curation, transformation, filtering, tokenization, pretraining, posttraining, and evaluation. Includes Delphi open scaling suite (3e18 to 1e23 FLOPs). 25T-token data pipeline. Committed to open development with full process documentation.",
+      "category": "full_training_framework",
+      "relevance_score": 9,
+      "date_added": "2026-11-03",
+      "title": "Marin"
+    },
+    {
+      "url": "https://github.com/OpenDCAI/Data-Preparation-Bench",
+      "stars": "241",
+      "description": "First unified, downstream-grounded benchmark for data preparation in LLM training. Three tracks: Data Construction (raw→SFT), Data Selection (subset selection), Data Quality Evaluation (utility prediction). Includes baselines: Data-Construction-Skill, 10 selector strategies, Distributional Alignment Score (DAS).",
+      "category": "data_quality_benchmark",
+      "relevance_score": 9,
+      "date_added": "2026-11-03",
+      "title": "Data-Preparation-Bench (DataPrep-Bench)"
+    },
+    {
+      "url": "https://github.com/Tanish-o9/LLM-Data-Engine",
+      "stars": "1",
+      "description": "End-to-end LLM data preparation pipeline: validation → deduplication → quality filtering → PII detection → export. Modular design for data curation workflows.",
+      "category": "data_curation_pipeline",
+      "relevance_score": 6,
+      "date_added": "2026-11-03",
+      "title": "LLM-Data-Engine"
+    },
+    {
+      "url": "https://github.com/Saidul-Mursalin-Khan/Agentic-Data-Platform",
+      "stars": "unknown",
+      "description": "Multi-agent data management platform built on LangGraph for automated data curation and management workflows.",
+      "category": "agentic_data_management",
+      "relevance_score": 6,
+      "date_added": "2026-11-03",
+      "title": "Agentic-Data-Platform"
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3203,6 +3261,24 @@
       "source_channel": "arXiv",
       "description": "Accompanying discussion of the DataFoundry framework for domain-specific data preparation pipeline evolution for LLM training.",
       "relevance_score": "medium"
+    },
+    {
+      "title": "There is no posttraining data commons",
+      "url": "https://openathena.ai/blog/",
+      "author": "Marin / Open Athena",
+      "date": "2026-10-15",
+      "description": "Analysis of why SFT/RLHF posttraining data differs fundamentally from pretraining data commons. Argues posttraining data cannot be treated as a shared resource in the same way as pretraining corpora.",
+      "category": "data_ecosystem_analysis",
+      "relevance_score": 7
+    },
+    {
+      "title": "Data-Centric Alignment of LLMs: Survey",
+      "url": "https://omintelligence.ai/",
+      "author": "OM Intelligence",
+      "date": "2026-10",
+      "description": "Comprehensive survey of data-centric approaches to LLM alignment, covering corpus-level safety filtering, data curation for alignment, and synthetic data generation approaches.",
+      "category": "alignment_data_survey",
+      "relevance_score": 8
     }
   ],
   "taxonomy_summary": {
