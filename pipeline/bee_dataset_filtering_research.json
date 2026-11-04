@@ -2751,6 +2751,62 @@
       "source_channel": "arXiv / GitHub (mcrl/SEDD)",
       "category": "data_deduplication",
       "relevance_score": 9
+    },
+    {
+      "title": "AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining",
+      "authors": "Unknown (arXiv 2610.30344)",
+      "date": "2026-10",
+      "url": "https://arxiv.org/abs/2610.30344",
+      "description": "Quality-first curation pipeline (structural cleaning, heuristic + model-based filtering, MSA selection, deduplication) coupled with partial-parameter CPT recipe. Recovers 94% of full-parameter CPT gain in 52% wall-clock time. Scaled to 40B MSA tokens."
+    },
+    {
+      "title": "UniGeM: Unifying Data Selection and Mixing via Geometric Exploration and Mining",
+      "authors": "ACL 2026 Findings",
+      "date": "2026",
+      "url": "https://aclanthology.org/2026.findings-acl.1037/",
+      "description": "Framework that unifies data mixing and selection by treating data curation as geometric exploration. Combines instance-level and domain-level approaches using geometric representations."
+    },
+    {
+      "title": "TiKMiX: Efficient Semi-Dynamic Data Mixture via Data Influence for LLM Pre-training",
+      "authors": "ACL 2026",
+      "date": "2026",
+      "url": "https://aclanthology.org/2026.acl-long.261/",
+      "description": "Semi-dynamic data mixing framework grounded in influence ranking invariance observation. Bridges gap between static (suboptimal) and fully dynamic (computationally expensive) mixing strategies."
+    },
+    {
+      "title": "DaMo: Data Mixing Optimizer in Fine-tuning Multimodal LLMs for Mobile Phone Agents",
+      "authors": "ACL 2026 Findings",
+      "date": "2026",
+      "url": "https://aclanthology.org/2026.findings-acl.1439/",
+      "description": "Data mixing optimizer for multimodal LLM fine-tuning targeting mobile phone agents. Addresses optimal training data composition for multitask SFT."
+    },
+    {
+      "title": "Optimizing Training Data Diversity with DataSpinner: An LLM-driven Curator-Agent Approach",
+      "authors": "IEEE (11661205)",
+      "date": "2026",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11661205/",
+      "description": "LLM-driven curator agent that treats dataset diversity optimization as a sequential decision problem. Mitigates distributional collapse where training corpus converges toward narrow low-diversity subsets."
+    },
+    {
+      "title": "Scalable Entity-Centric Data Filtration for LLM Pretraining",
+      "authors": "IEEE (11723055)",
+      "date": "2026",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11723055/",
+      "description": "Entity-centric filtering framework using entities as compact semantic anchors to identify and remove redundant or low-density information from pretraining corpora."
+    },
+    {
+      "title": "Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling",
+      "authors": "EMNLP 2026 (arXiv 2604.28075)",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.28075",
+      "description": "Investigates quality vs diversity trade-off for German LLM data filtering: should practitioners prioritize diversity (large lightly-filtered data) or quality (strictly filtered core repeated over epochs)? Constructs hierarchical filtering pipeline for Boldt model family."
+    },
+    {
+      "title": "DADFS: A Dynamic Adaptive Data Filtering and Sampling Framework for Optimized Fine-Tuning of Large Language Models",
+      "authors": "IEEE (10984505)",
+      "date": "2025-05",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10984505",
+      "description": "Framework combining Dynamic Adaptive Filtering, Adaptive Data Sampling, and Data Mixing with Proportional Weighting for LLM fine-tuning. Integrates LoRA within PEFT framework."
     }
   ],
   "tools_and_repos": [
@@ -3188,6 +3244,13 @@
       "relevance_score": 6,
       "date_added": "2026-11-03",
       "title": "Agentic-Data-Platform"
+    },
+    {
+      "name": "Marin",
+      "authors": "marin-community",
+      "date": "2026-10+",
+      "url": "https://github.com/marin-community/marin",
+      "description": "Open-source framework for research covering full LLM data pipeline: data curation, transformation, filtering, tokenization, pretraining, posttraining, and evaluation. Committed to open development and sharing process knowledge."
     }
   ],
   "blog_posts_and_tutorials": [

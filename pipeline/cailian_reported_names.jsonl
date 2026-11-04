@@ -69,6 +69,8 @@ paper	CuraWeb: Joint Optimization of Quality, Redundancy, and Diversity for Web-
 paper	Cure-SFT: Diagnostic-Guided Data Curation for Instruction Tuning
 paper	Curriculum Reinforcement Learning Can Incentivize Reasoning Capacity in LLMs Beyond the Base Model
 paper	Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning (E2H Reasoner)
+paper	DADFS: A Dynamic Adaptive Data Filtering and Sampling Framework for Optimized Fine-Tuning of Large Language Models
+paper	DaMo: Data Mixing Optimizer in Fine-tuning Multimodal LLMs for Mobile Phone Agents
 paper	DAPT-Bench: A Dynamic Benchmark for Domain-Adaptive Pre-Training with Contaminated Data
 paper	Data Attribution at Scale via Influence Matrix Estimation
 paper	Data Attribution in Large Language Models via Bidirectional Gradient Optimization
@@ -200,6 +202,7 @@ paper	On the Difficulty of Learning a Meta-network for Training Data Selection (
 paper	One Pass, Three Purchases: Deduplication's Efficiency, Generalisation and Privacy Arguments
 paper	Online Data Selection Is Implicit Alignment
 paper	OpenThoughts-Agent: Data Recipes for Agentic Models
+paper	Optimizing Training Data Diversity with DataSpinner: An LLM-driven Curator-Agent Approach
 paper	OptiSelect: How does the Optimizer Shape Data Curriculum?
 paper	OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration
 paper	Pick the Mixture, Not the Samples: Combinatorial Data Selection for LLMs
@@ -227,6 +230,7 @@ paper	Rethinking Data Selection: The Importance of Coverage over Difficulty in G
 paper	Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?
 paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility
+paper	Scalable Entity-Centric Data Filtration for LLM Pretraining
 paper	Scaling Laws for Multimodal Data Mixtures
 paper	Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining
 paper	Scaling Multi-Hop Training Data via Graph-Constrained Path Selection
@@ -255,6 +259,7 @@ paper	The LLM Data Auditor: A Metric-Oriented Survey on Quality and Trustworthin
 paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning
 paper	The Long-Term Effects of Data Selection in LLM Fine-Tuning (LHAS)
 paper	The Promise of Synthetic Data for NLP: Insights from Experiments on Sentence and Word Analogy Tasks
+paper	TiKMiX: Efficient Semi-Dynamic Data Mixture via Data Influence for LLM Pre-training
 paper	Toward Reliable AI: A Taxonomy of Trustworthy Data and Evaluation Practices for Large Language Models
 paper	Towards Next-Generation LLM Training: From the Data-Centric Perspective
 paper	TrainRef: Curating Data with Label Distribution and Minimal Reference ⭐⭐⭐
@@ -431,6 +436,7 @@ tool	LLM-Sanitizer-Pro
 tool	Llm_Data_Forge
 tool	LMData — Distributed Orchestration for LLM Training Data Curation
 tool	LZE (Learning-Zone Energy)
+tool	Marin
 tool	Marin 🔥
 tool	Microsoft Data-Efficacy (STR/SAW)
 tool	microsoft/data-efficacy
