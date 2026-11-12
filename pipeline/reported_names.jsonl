@@ -1,20 +1,15 @@
-0adminindicsutra/indicsutra-multilingual-lexicon 📚
+0adminindicsutra/indicsutra-multilingual-lexicon
 15juneee/agriculture-advisor-adapted-multilingual-v1 (v1)
 96kevinli29/Multilingual-Math-Reasoning-Eval
 96kevinli29/SFT-Math-Multilingual-43k
 96kevinli29/SFT-Math-Multilingual-56k
-AI Language Proficiency Monitor
-AIME 2026 Multilingual (6语言)
-AISE-TUDelft/multilingual-code-comments-fixed-7
-AISE-TUDelft/multilingual-code-comments-fixed-8
-APARSIN
-ARTPARK-IISc/Vaani-transcription-part
-ASTRAI Pluto-Nano Pretrain v2
+abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset
+abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
+abdullahabtahi/refusal-parity
 AbjadAuthorID
 AdaMame Multilingual Reasoning Traces
-AfriMMT-EA
-AfriNLLB Parallel Corpus 🟡 时效降级
-African Languages Lab Corpus — 40 种非洲语言多模态语料 (ACL 2026)
+adivaanihf/adivaani-tribal-parallel-corpus
+African Languages Lab Corpus — 40 种非洲语言多模态语料
 African-Languages-Lab/all-lab-speech
 African-Languages-Lab/all-lab-text-multi
 African-Languages-Lab/kasagadi
@@ -22,563 +17,466 @@ African-Languages-Lab/proxy-mt-benchmark-scores
 African-Languages-Lab/proxy-mt-eval-scores
 African-Languages-Lab/proxy-mt-translations
 African-Languages_Sentiments
+AfriMMT-EA
+AfriNLLB Parallel Corpus
 AgriQA Multilingual Dataset
-Alexandria - Dialectal Arabic MT Dataset 📄
+AI Language Proficiency Monitor
+AIME 2026 Multilingual (6语言)
+AISE-TUDelft/multilingual-code-comments-fixed-7
+AISE-TUDelft/multilingual-code-comments-fixed-8
+aixk/multilingual-words-9lang
+akuzdeuov/qwen3-tts-multilingual-emotional-speech
+Alexandria - Dialectal Arabic MT Dataset
 AlphaMWE
+amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
 AnmolGV/section10-divorce-corpus
 AnthonyPa57/Witcher-multilingual-convos
-ArVaViT/history-globe
-Asian Nuance and Implicit Context (Thai)
-Atharva2099/multilingual-political-statements
-Aus-23/indic-synthetic-scene-text-1000
-Aya Dataset (Aya Collection)
-AyaVisionBench
-Aynursusuz/mossv1.5-tts-multilingual-test
-Ayushdubey772/Vitamin-C-multilingual
-BENI Global 10
-BENI Global 10 (v1.0)
-BENI Global 10 - Multilingual Economic Narrative Corpus 📄
-BIASEDTALES-ML
-BOUQuET
-BRIDGE (Multilingual Clinical Text Benchmark)
-BUAIR/Uganda-Multilingual-QA
-BUAIR/Uganda-Multilingual-QA ⭐
-BabyBabelLM
-BabyLM 2026 Multilingual Track 📄
-BavGround (Bavarian Cultural Grounding Benchmark)
-BeitTigreAI/tigre-data-parallel-multilingual
-BenchMAX
-Benji-fish/ethiopian-languages-speech-dataset
-Beyond Pass Rate (Multilingual Code LLM Evaluation)
-BharatSetu-22Indic-1M
-BhartiOCR
-BhashaKritika — Indic Synthetic Pretraining Data (AAAI 2026) 📄
-BnMMLU — 孟加拉语 MMLU 评估基准
-C-Rust Parallel Semantic Similarity Corpus
-C3PO-Mixed-Pretraining-Corpus-Translations
-CAMEO8 (Cultural Dialog and Safety Evaluation Multilingual Dataset)
-CC-BOS: Classical Language Safety Bypass (ICLR 2026)
-CCAligned
-CCFQA — 跨语言跨模态事实性基准
-CEE-PII-Bench
-CMHG (Chinese Minority Headline Generation)
-CRAC 2026 (Multilingual Coreference Resolution)
-CUTE (COLING 2025)
-ChiSafe-PAS (Chinese Safety Pilot Annotation Set)
-ChiamakaNwokolo/adaption-african-languages-narratives
-Chitrakshara
-Code-Switching Reasoning Traces
-CohereLabs/CultureMarkers
-CohereLabs/Global-MMLU-Lite
-CohereLabs/m-ArenaHard-v2.0
-CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning ⭐
-Common Corpus
-Community OSCAR
-CorefUD 1.4 / CRAC 2026
-Cross-Lingual-Pitfalls
-Crownelius/Hyper-UltraData-Grok-V1
-CulturaX
-DAPO-Math-Multilingual-6Lang
-DCLM (DataComp for Language Models)
-Dagi2730/leyu-multilingual-speech-dataset
-DaveGabe/cwt-multilingual-pretrain-mix
-DebdipCS/cloze-congruence-multilingual-benchmark
-Debk/Indian-Multilingual-Bias-Dataset
-DenseOn (Open Multilingual Long-Context Retrieval) ⭐
-DetectRL-X
-DetectRL-X - Multilingual LLM-Generated Text Detection 📄
-DialogPII
-DimABSA
-DimABSA — Multilingual Dimensional ABSA (SemEval-2026) 📄
-DocAtlas-Bench
-DocAtlas-Instruct (docatlas_instruct)
-Dolci-Think-SFT-32B-Multilingual
-Donoe/multilingual-nigerian-banking77
-EC-DGT-AI/EU-MMLU
-ECLeKTic
-EMMA-500 Bilingual Translation Corpus 📄🔥
-EU MMLU
-EU-Instruct-Synthetic
-EchoNet++: A Multilingual Soccer Match Audio Commentary Dataset
-EinicherAI/nemotron-multilingual-math-verified
-ElectronicHug/short_video_ocr_dataset
-Emulated-Inc/multilingual-grade-school-math-training-pool
-Emulated-Inc/multilingual-knowledge-training-pool ⭐
-English-Uzbek RAG Evaluation
-EspanStereo
-EspanStereo: Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration
-EuraGovExam
-EuroBlocks-SFT-2512
-EuroWeb-2512
-F2LLM-v2
-Faruna01/Cross-lingual-Multi-Agent-Safety
-FinMMEval
-FinNLP 2026 Subtask 2 — 日语金融意图分类
-FinNLP-2026 Shared Tasks
-FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
-FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
-FinanceComplexQA
-FineTranslations
-FineWeb-2
-ForMaT (Format-Preserving Multilingual Translation)
-Fujitsu-FRE/MAPS (v1.0)
-GAIA-v2-LILT — Multilingual Agent Benchmark Beyond Translation 📄
-GDELT News Reconstructions (gdelt-news)
-GLM-5.1-Multilingual-STEM
-GSMB/aya-multilingual-refusal-prompts 🛡️
-GaoYao (v1.0)
-GaoYao Benchmark (ACL 2026 主会)
-GhanaNLP Multilingual Emotion
-GigaSpeechBench
-GitHub Multilingual Repositories Dataset
-GlobalMedQA
-HPLT (High Performance Language Technologies)
-HPLT 2.0 Cleaned
-HPLT 3.0
-HPLT 3.0 (HPLT/HPLT3.0)
-HPLT 3.0 (High Performance Language Technologies)
-HPLT 3.0 — LREC-COLING 2026 论文发布
-HPLT OpenLID-v3
-HPLT/OpenLID-v3
-HaloGuard 1.0
-HealMed — 多语言医学评估基准
-Helmcode/stack-v3-devops
-Horizon-Labs/civil-comments-multilingual
-Horizon-Labs/go-emotions-multilingual
-Horizon-Labs/multilingual-rerank-distill
-Horizon-Labs/multilingual-zeroshot-synthetic
-HuggingFaceCode/stack-v3-train
-HuggingFaceH4/Multilingual-Thinking
-IFMTBench (International Forum on Machine Translation Benchmark)
-INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
-IdeaShift-X
-Indic DiarBench
-Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
-IndicGuard (arXiv 2026-06)
-IndicMMLU-Pro 📄
-IndicSafe
-JinghIzKing/OCR-Synthetic-Multilingual-v1
-JosueG/french-adja-parallel-corpus
-Kaleidoscope
-Kashif786/Sindhi-Assistant-IFT-1500
-Kashif786/sindhi-multilingual-gold-corpus-raw
-Kudod/retain_wiki_multilingual
-KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
-L3Cube-IndicQuest v2 — 印度语言知识评估基准
-LASA (Language-Agnostic Semantic Alignment)
-LEMAS Dataset
-LLaVA-Pretrain-558k-10-African-Languages
-LSR Anchoring Phase2 — Multilingual Safety Benchmark & Steering
-LangMark
-Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and Study
-Last Translation Benchmark (LTBv1)
-Lavanya2206/multilingual-asr-dataset
-LeTG/multilingual-psyop-100k
-LeTG/multilingual-psyop-100k ⭐
-Legal Corpus Raw Batches
-LeyuCompetition/Dagi-leyu-multilingual-speech-dataset
-LingT2I
-Lingu10: Grocery Fashion Retail Consumer Tech Low-Resource Dataset
-LinguaSafe (arXiv 2025, 更新至 2026)
-LingualX64
-LingualX64: Multilingual Translation Symmetry (Nature Scientific Reports)
-LiveCLKTBench
-LocalDoc/english-azerbaijani-parallel-corpus
-LongBlocks (Multilingual Long-Context Reasoning)
-LughaGen Multilingual African Corpus
-LuxEmo
-M3Kang
-M4-RAG
-M4FC（Multimodal Multilingual Multicultural Multitask Fact-Checking）🔥⭐
-MADE (Multilingual Agentic Diagnosing Engine)
-MAPS (Multilingual Agent Performance & Security Benchmark)
-MARUCIE/babel-bench 🔥
-MAST 100K Corpus 2026
-MBTP (Multilingual Bias with Thinking Processes)
-MBTP: A Multilingual Social Bias Benchmark Incorporating Thinking Processes
-MDPBench (Multilingual Document Parsing Benchmark)
-MENT (Meta-Evaluation for Non-literal Translation)
-METATR v1.0 (Multilingual Text Recognition Benchmark)
-MGAL (Multilingual Granularity-Aware Long-Context Benchmark)
-MGSM (Multilingual Grade School Math)
-MHQA-ITU (Multilingual Health QA)
-MIRACL (Multilingual Information Retrieval)
-MITRA (Parallel Corpus for Buddhist Languages)
-ML-Bench&Guard — Policy-Grounded Multilingual Safety Benchmark 📄
-ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World ⭐
-MLMM Evaluation
-MM-JudgeBench
-MMLU-ProX
-MMM - Multilingual MRE Mix Dataset 📄
-MNG-4/anv_scripted_multilingual-shuffled
-MORE — Multilingual Document Parsing Benchmark 📄🔥
-MORE: A Multilingual Document Parsing Benchmark and Evaluation
-MORPHOGEN
-MR-CODESPIKE/agri-vet-multilingual-dataset
-MUDIDI — 多语言理解推理基准
-MULTITuDE
-MURI (Multilingual Reverse Instructions)
-Manusagents/Multilingual-Medical-Corpus
-Matcha-TTS Multilingual Datasets
-Math-PT — Portuguese Math Reasoning Benchmark 📄
-MathMist
-MathNet
-MatterWaveAI/gok-multilingual-v1.1.0-22k
-MauroPello/multilingual-reasoning-gym-sft
-Mawqif-XT
-Minionese
-Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets
-MixMinMatch Multilingual Pretraining Collection
-MixtureVitae
-Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus
-Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus 🔄 *已在 reported_names 中*
-MouradGad/multilingual-code-switching-bench
-MsIris2026/embtb-multilingual-eval
-MuBench (aialt/MuBench)
-MulTypo - Multilingual Typo Robustness Evaluation 📄
-MultIdiom_Dataset
-MultiHal
-MultiSynt/MT
-Multilingual English-Nuer-Dinka-Swahili Corpus
-Multilingual Instructional Dialogues
-Multilingual Mutual Reinforcement Effect IE Dataset
-Multilingual Safety Classification Dataset
-Multilingual-Accent-Speech
-Multilingual-BFCL
-Multilingual-GSM-Symbolic (danish-foundation-models)
-Multilingual-Medical-Corpus
-Multilingual-Multimodal-NLP/AutoMemoryBench
-Multilingual-Reasoning-Gym-SFT
-Multilingual-TTS (malaysia-ai)
-Multitask-Multilingual-Refusal
-M³IT (Multi-Modal Multilingual Instruction Tuning)
-NLPCC 2026 DA-MIVQA ⭐
-NVIDIA Nemotron-RL-Agentic-Function-Calling-Pivot-v1
-NVIDIA Nemotron-RL-Safety-v1
-NVIDIA Nemotron-RL-Ultra-Training-Blends
-NVIDIA Nemotron-RL-agent-workplace_assistant
-NVIDIA Nemotron-RL-coding-competitive_coding
-NVIDIA Nemotron-RL-instruction_following
-NVIDIA Nemotron-RL-knowledge-mcqa
-Nailyk14/prompt-safety-multilingual
-Nemotron 3 Super Datasets ⭐ 强烈建议加入 Top 10
-Nemotron-CC-Math
-Nemotron-Personas (Multilingual) — Region-Specific Synthetic Personas 📄
-Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)
-Nemotron-SFT-Multilingual-v2
-Nemotron-Safety-Guard-Dataset-v3
-Nemotron-VLM-Dataset-v2
-Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages
-Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages 🔥
-Nexus-Analytics/multilingual-hate-detection-dataset (v38-v39 系列)
-NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
-Nigerian Clinical QA Benchmark (medRxiv)
-NiuTrans/LMT-60-sft-data
-NjeriKahoro/kikuyu-english-multilingual-text
-NoeFlandre/GeoReSeT-Corpus 🔥⭐
-NyayaBench v2
-OSCAR (Open Super-large Crawled Aggregated coRpus)
-Obotu/final_multilingual_sft
-Odia Web Corpus v3
-Okwu/african-language-parallel-corpus
-Okwu/african-language-parallel-corpus (v1.5)
-Omnilingual ASR Corpus
-OpenBMB/MA-ProofBench
-OpenEuroLLM Reasoning Traces Multilingual
-OpenSeal CPT Data (SEA-PILE-v2)
-PALO Multilingual Dataset
-PERCEPT — 波斯-英语代码混合语料
-Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
-PazaBench
-PersonaHub-Multilingue
-PleIAs Common Corpus
-Pluralis v0.1
-PoetryMTEB (Multilingual Poetry Evaluation Suite)
-PoetryMTEB MultilingualPoetryGEWEmotionClassification
-PoetryMTEB MultilingualPoetryMeterClassification
-PoetryMTEB MultilingualPoetryThemeClassification
-PoetryMTEB Suite 扩展
-PoetryMTEB/MultilingualPoetryBitextMining
-PoetryMTEB/MultilingualPoetryBitextMining (已报告 — 更新确认)
-PoetryMTEB/MultilingualPoetryGEWEmotionClassification
-PoetryMTEB/MultilingualPoetryMeterClassification
-PoetryMTEB/MultilingualPoetryThemeClassification
-PolyRefuse
-PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
-PowerBench/PowerBench-Multilingual
-PrakharGoonj/715-multilingual-indian-literary-acadmics-corpus
-Pustaka
-RAGTruth Translated Hallucinations
-REDACT (Multilingual PII Detection Benchmark)
-ReMMDBench
-ReasonXL (Soofi-Think-SFT-10B-multilingual)
-RedPajama-V2
-RedVox: Multilingual Safety and Fairness Benchmark for Speech
-ReopenAI/cantonese-chinese-parallel-corpus-audio
-Rishabh157/krw-unified-multilingual-ner 🔥
-SALT-31
-SEA-NLI
-SEA-SafeguardBench
-SEADialogues — Southeast Asian Culturally Grounded Dialogue Dataset 📄
-SEAHateCheck ⚠️ 时效关注
-SHADES (Stereotypes in LLMs Assessment)
-SLAAB-Finance-Multilingual-Instruction-Splits
-SLAAB-Medical-Multilingual-Instruction-Splits
-SPADE (Multilingual Speech Partial Deepfake)
-SWE-Bench ProMax
-SWE-bench Multilingual
-SWE-bench/SWE-bench_Multilingual
-SWE-bench/SWE-bench_Multilingual 🔥
-Sacredceltic/multilingual-idiomatic-sentences
-Sakhi
-Sakonii/Multilingual-Refusal-Extended ⭐
-SeaEval
-SemEval-2026 Task 7 (Everyday Knowledge)
-SemEval-2026 Task 9 (Multilingual Polarization)
-SignNet-1M 🔥
-SignerX/SignVerse-2M 🔥⭐ Top 10 候选
-SikhLibrary
-Similoluwa/african-multilingual-tokenizer-challenge
-SlimPajama
-Soohak — Research-level Math Benchmark 📄
-SorryBench-202503-Multilingual
-SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
-Souro/agentic-tooluse-adapted-multilingual
-Souro/agentic-tooluse-synthetic-multilingual
-SpeechJBB
-Squezilia/Route4Secure 🔥
-SraVaani 1.0
-StereoTales
-SultanR/ultradata-math-qa-ar
-SultanR/ultradata-math-textbook-exercise-ar
-SurakshaEval
-Susan2026/global-multilingual-cross-industry-corpus
-Swahili-Pretraining-Corpus
-SwitchLingua
-TBOGamer22/RUBIC-58K
-Tagengo
-Tahsin-Mayeesha/tofu-bn
-Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
-Tasfiya025/Multilingual_Legal_Contract_Risk ⚠️ 陈旧
-TerrorCoder/zimbabwe-public-service-dataset
-The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI (ACL 2026)
-The-CoLab/multilingual-textarena-suite
-TidyVoice: A Curated Multilingual Dataset for Speaker Verification ⭐
-Tonic/multilingual-EMIR-reporting
-ToxiREX (Toxic REasoning in ConteXt)
-Translation Tangles
-TranslationTangles
-TriviaRoomQA
-Tulsiandhare/Multilingual_medical_symptom_triage
-UNICS (Unified Multilingual Code Search)
-UPDESH
-Ugiat/multilingual_librispeech_french_punctuated
-Ultra-FineWeb-L3
-UltraData-Math
-UnityShotsBench
-Universal NER v2 (UNER v2)
-Urdatorn/linder-walberg
-UrduBench — Urdu Reasoning Benchmark 📄
-VelkroLM/african-languages-catalog
-VelkroLM/african-languages-corpus
-VelkroLM/african-languages-filtered
-VelkroLM/african-languages-speech
-VettyCher/dehumanisation_study
-Viet Medi Species 2026
-VillanovaAI/Multi-CommonCanvas-QA
-VillanovaAI/Multi-CommonCanvas-captioning
-VityaVitalich/multilingual-safety-data
-VoiceNet/multilingual-in-the-wild-thinking
-VoxENES 2026
-WAXAL
-WILA-popQA
-WMT26 General MT Test Data
-WebFAQ 2.0
-WebFAQ 2.0 (v2.0)
-Wismut/nym-pii-multilingual-data
-X-Fact
-XGLUE
-XL-SafetyBench
-XNLI (Cross-lingual NLI)
-XQ-MEval
-YDX07/YDX07_Multilingual_Corpus_2026
-abbasrazalagha/PrivoNest_Multilingual_Privacy_Dataset
-abdelhaqueidali/Kabyle-Latin-to-Tifinagh-Parallel-Corpus
-abdullahabtahi/refusal-parity ⭐
-adivaanihf/adivaani-tribal-parallel-corpus
-aixk/multilingual-words-9lang
-akuzdeuov/qwen3-tts-multilingual-emotional-speech
-amalia-Nemotron-SFT-Multilingual-v1
+APARSIN
 arabic-russian-parallel-corpus
 artindnr/Multilingual-Thinking
-artindnr/Multilingual-Thinking ⭐
 artindnr/Multilingual-Thinking-200
+ARTPARK-IISc/Vaani-transcription-part
+ArVaViT/history-globe
+Asian Nuance and Implicit Context (Thai)
+ASTRAI Pluto-Nano Pretrain v2
+Atharva2099/multilingual-political-statements
+Aus-23/indic-synthetic-scene-text-1000
+Aya Dataset
+AyaVisionBench
 aykgeh/Ekegusii-English-Kiswahili-Parallel-Corpus
 aymansharara/IdiomX
+Aynursusuz/mossv1.5-tts-multilingual-test
 ayousanz/piper-plus-multilingual-7lang-v8-dataset
+Ayushdubey772/Vitamin-C-multilingual
 b4ph/nemotron-3-5-egg-argument-eval
-bcckfdn/Instruct-Multilingual-v1 → v1-fix-3
+BabyBabelLM
+BabyLM 2026 Multilingual Track
+BavGround
+bcckfdn/Instruct-Multilingual-v1
 bcv-commons/cross-lingual-span-profile
-bekan/english_karakalpak_parallel_corpus_v10 🔥
+BeitTigreAI/tigre-data-parallel-multilingual
+bekan/english_karakalpak_parallel_corpus_v10
 bekan/english_karakalpak_parallel_corpus_v8
+BenchMAX
+BENI Global 10
+BENI Global 10 (v1.0)
+BENI Global 10 - Multilingual Economic Narrative Corpus
+Benji-fish/ethiopian-languages-speech-dataset
+Beyond Pass Rate
+BharatSetu-22Indic-1M
+BhartiOCR
+BhashaKritika — Indic Synthetic Pretraining Data
+BIASEDTALES-ML
 birgermoell/oellm-eu-tasks
+BnMMLU
+BOUQuET
+BRIDGE
+BUAIR/Uganda-Multilingual-QA
 burkimbia/moore-parallel-corpus
 buumba641/Zambia-MultiLingual-ASR-Dataset
 bysismo/Temel-cumle-analizi-2.7M-instruction
 bysismo/Turkish-Python-instruction-335k
-chaurAr/Cross-lingual-entity-M
+C-Rust Parallel Semantic Similarity Corpus
+C3PO-Mixed-Pretraining-Corpus-Translations
+CAMEO8
+CC-BOS: Classical Language Safety Bypass
+CCAligned
+CCFQA
+CEE-PII-Bench
 chaurAr/Cross-lingual-entity-dataset
-compar:IA (French Preference Dataset)
+chaurAr/Cross-lingual-entity-M
+ChiamakaNwokolo/adaption-african-languages-narratives
+ChiSafe-PAS
+Chitrakshara
+CMHG
+Code-Switching Reasoning Traces
+CohereLabs/CultureMarkers
+CohereLabs/Global-MMLU-Lite
+CohereLabs/m-ArenaHard-v2.0
+CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning
+Common Corpus
+Community OSCAR
+compar:IA
+CorefUD 1.4 / CRAC 2026
 corpus-parallel-en-fr-bam
 corpus-tonal-african-languages
+CRAC 2026
+Cross-Lingual-Pitfalls
 crosslingual-em/tiny-aya-global-em-en-finance-insecure
 crosslingual-em/tiny-aya-global-eval
 crosslingual-rule-following/canonical-dataset
 crosslingual-rule-following/crv-analysis
 crosslingual-rule-following/crv-model-inference-responses
 crosslingual-rule-following/prism-model-activations
+Crownelius/Hyper-UltraData-Grok-V1
 cs-552-2026-kth/multilingual_sft_full
+CulturaX
 curatelmbln/multilingual-sample-1k
+CUTE
+Dagi2730/leyu-multilingual-speech-dataset
 danielelvs/multilingual-islr-mediapipe
 danish-foundation-models/multilingual-gsm-symbolic
+DAPO-Math-Multilingual-6Lang
 datahiveai/multilingual-conversations-sample
 dave1368/repro-gxpo-cross-lingual-code-generation
+DaveGabe/cwt-multilingual-pretrain-mix
 dayomtechnologies/English_Nuer_parallel_translation_open_corpus
-dayomtechnologies/shilluk_to_english_parallel_corpus_biblical_text 🌍
+dayomtechnologies/shilluk_to_english_parallel_corpus_biblical_text
+DCLM
+DebdipCS/cloze-congruence-multilingual-benchmark
+Debk/Indian-Multilingual-Bias-Dataset
 deepmage121/adaption-multilingual-instruction-tuning
+DenseOn
+DetectRL-X
+DetectRL-X - Multilingual LLM-Generated Text Detection
+DialogPII
+DimABSA
+DimABSA — Multilingual Dimensional ABSA (SemEval-2026)
 djelia/multilingual-asr
 doanhlt/cabin-asr-distill-data
+DocAtlas-Bench
+DocAtlas-Instruct (docatlas_instruct)
+Dolci-Think-SFT-32B-Multilingual
+Donoe/multilingual-nigerian-banking77
 drakkeng/outilsia-injections-prompt-multilingue
 drohanashM/multilingual-news-classifier-data
-eQOURSE/multilingual-speech
+EC-DGT-AI/EU-MMLU
+EchoNet++: A Multilingual Soccer Match Audio Commentary Dataset
+ECLeKTic
 efederici/smol-software-harbor
+EinicherAI/nemotron-multilingual-math-verified
+ElectronicHug/short_video_ocr_dataset
 ellamind/grips-multilingual
+EMMA-500 Bilingual Translation Corpus
+Emulated-Inc/multilingual-grade-school-math-training-pool
+Emulated-Inc/multilingual-knowledge-training-pool
 en-az-opus-filtered-parallel-corpus
 english-khasi-parallel-corpus-43k
 english-nuer-dinka-parallel-corpus
 english-nuer-thok-naath-conversational-parallel-corpus
-espnet/yodas3 ⭐🔥 STANDOUT — Top 10 候选
-facebook/omnilingual-gaia2 (OmnilingualGAIA2) ⭐
-facebook/omnilingual-gaia2 ⭐
+English-Uzbek RAG Evaluation
+eQOURSE/multilingual-speech
+EspanStereo
+EspanStereo: Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration
+espnet/yodas3  STANDOUT — Top 10 候选
+EU MMLU
+EU-Instruct-Synthetic
+EuraGovExam
+EuroBlocks-SFT-2512
+EuroWeb-2512
+F2LLM-v2
+facebook/omnilingual-gaia2
+facebook/omnilingual-gaia2 (OmnilingualGAIA2)
 fahim-ling/Sylheti-Bangla-English-Russian-German-Parallel-Corpus-for-NLP
 failed09/bashkir-multilingual-phrasebooks
 farabi-lab/Multilingual_Locale_Fidelity
+Faruna01/Cross-lingual-Multi-Agent-Safety
 felixhajj/multilingual-news-runtime
 fevziegeyurtsevenler/multilingual-prompt-injection
+FinanceComplexQA
+FineTranslations
+FineWeb-2
+FinMMEval
+FinNLP 2026 Subtask 2
+FinNLP-2026 Shared Tasks
+FinNLP-Multilingual-Understanding/finnlp2026-subtask1-greek-ner
+FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa
+ForMaT
 fortik11/Multilingual_dataset
-fortik11/Multilingual_dataset 🔄 *已在 reported_names 中*
+fortik11/Multilingual_dataset  *已在 reported_names 中*
 fufu1976/multilingual-shopping-queries
+Fujitsu-FRE/MAPS (v1.0)
 fxmeng/UltraData-SFT-2605-32k-200k
-g1moon/XIH-Bench 🔥⭐ Top 10 候选
+g1moon/XIH-Bench  Top 10 候选
+GAIA-v2-LILT — Multilingual Agent Benchmark Beyond Translation
+GaoYao (v1.0)
+GaoYao Benchmark
+GDELT News Reconstructions (gdelt-news)
+GhanaNLP Multilingual Emotion
+GigaSpeechBench
+GitHub Multilingual Repositories Dataset
+GLM-5.1-Multilingual-STEM
+GlobalMedQA
 grushaaaaa/crosslingual-refusal-en-hi
 gsm8k-multilingual-filtered
+GSMB/aya-multilingual-refusal-prompts
 halo-guard-bench — 46 语言安全护栏基准
+HaloGuard 1.0
 hasankursun/multilingual-safety-classification-dataset
+HealMed
+Helmcode/stack-v3-devops
 heretic-org/Multilingual-Harmless-Harmful
 hf-audio/multilingual_evals
-hf-audio/open-asr-leaderboard-multilingual-datasets ⭐
-hjm1980/korea-places-multilingual — 韩国地名多语言数据
+hf-audio/open-asr-leaderboard-multilingual-datasets
+hjm1980/korea-places-multilingual
+Horizon-Labs/civil-comments-multilingual
+Horizon-Labs/go-emotions-multilingual
+Horizon-Labs/multilingual-rerank-distill
+Horizon-Labs/multilingual-zeroshot-synthetic
+HPLT
+HPLT 2.0 Cleaned
+HPLT 3.0
+HPLT 3.0 (HPLT/HPLT3.0)
+HPLT 3.0 — LREC-COLING 2026 论文发布
+HPLT OpenLID-v3
+HPLT/OpenLID-v3
+HuggingFaceCode/stack-v3-train
+HuggingFaceH4/Multilingual-Thinking
 hysi-lab/unwebtv-multilingual-audio-archive
+IdeaShift-X
+IFMTBench
+ikhlasulakmalh/sci-rho
+Indic DiarBench
+Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
+IndicGuard
+IndicMMLU-Pro
+IndicSafe
+inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b
+infini-news-corpus — 52 语言新闻预训练语料
 iNLP-Lab/GlobeAudio
 iNLP-Lab/GlobeAudio (v1.0)
 iNLP-Lab/multilingual-safety
-ikhlasulakmalh/sci-rho
-inference-optimization/dflash-code-multilingual-teacher-responses-qwen235b
-infini-news-corpus — 52 语言新闻预训练语料 🔥
+INSAIT RIT Benchmarks (MMLU/HellaSwag/ARC/Winogrande)
 instinct-org/multilingual-tts-voice-dataset
 instinct1912/multilingual-tts-selected-speech
-intronhealth/NigBench-MAMAI-Speech-QA 🌟 (补充发现)
+intronhealth/NigBench-MAMAI-Speech-QA  (补充发现)
 iqbaltaha3/indic-voices-indian-language-classification
 issamanisb/leyu-multilingual-audio-dataset
 jahangir67/multilingual-safety-benchmark
 jamesdborin/Nemotron-Multilingual-prompt-only
 jangedoo/ne-en-cross-lingual
 jescy525/aether-sft-v2-multilingual
+JinghIzKing/OCR-Synthetic-Multilingual-v1
+JosueG/french-adja-parallel-corpus
+Kaleidoscope
 kalenjin-parallel-corpus
 kapturecx/bolAIndia
-kasagadi — 数据内容重大扩展
+kasagadi
+Kashif786/Sindhi-Assistant-IFT-1500
+Kashif786/sindhi-multilingual-gold-corpus-raw
 kaustubhg73/multilingual-multitask-refusal
 ketanmore/LLaVA-Instruct-150K-13-African-Languages
-ketanmore/LLaVA-Pretrain-558k-10-African-Languages ⭐
+ketanmore/LLaVA-Pretrain-558k-10-African-Languages
+Kudod/retain_wiki_multilingual
+KumarSahil299885/SMS_Spam_Multilingual_Collection_Dataset
+L3Cube-IndicQuest v2
 l3cube-pune/IndicQuest-v2
-latam-gpt/LatamGPT-Corpus-1.0 🌟
+LangMark
+Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and Study
+LASA
+Last Translation Benchmark (LTBv1)
+latam-gpt/LatamGPT-Corpus-1.0
 latentvector/multilingual-speech-text-corpus
+Lavanya2206/multilingual-asr-dataset
+Legal Corpus Raw Batches
+LEMAS Dataset
+LeTG/multilingual-psyop-100k
+LeyuCompetition/Dagi-leyu-multilingual-speech-dataset
 lightonai/Dolci-Think-SFT-32B-Multilingual
 lightonai/embeddings-fine-tuning-multilingual-unfiltered
 lightonai/multilingual-embeddings-pre-training-curated
 lingamvamshikrishnareddy/ramanv-indic-multilingual
+LingT2I
+Lingu10: Grocery Fashion Retail Consumer Tech Low-Resource Dataset
+LingualX64
+LingualX64: Multilingual Translation Symmetry
+LinguaSafe
 live-linguist-easylanguage-sft — 28 语言简易语言 SFT 数据
-m-elio/madove-multilingual-test (Human + GPT)
+LiveCLKTBench
+LLaVA-Pretrain-558k-10-African-Languages
+LocalDoc/english-azerbaijani-parallel-corpus
+LongBlocks
+LSR Anchoring Phase2 — Multilingual Safety Benchmark & Steering
+LughaGen Multilingual African Corpus
+LuxEmo
+m-elio/madove-multilingual-test
 m-elio/madove-multilingual-train
-mC4 (Multilingual Colossal Clean Crawled Corpus)
-mCoT-MATH
-mSCORE — Multilingual Skill-Based Commonsense Reasoning
+M3Kang
+M4-RAG
+M4FC
 maanka2/MOSS-Audio-Tokenizer-Nano-50hrs-multilingual-speech-codes
 mabera/nigeria-multilingual-health-dataset
+MADE
 majentik/ultradata-math-calib
 majentik/ultradata-sft-calib
 malaysia-ai/Multilingual-TTS
 malaysia-ai/Multilingual-TTS-language
 maliced/multilingual_audio_alignments_prosody
+Manusagents/Multilingual-Medical-Corpus
+MAPS
+MARUCIE/babel-bench
+MAST 100K Corpus 2026
 mast-benchmark/multilingual-queries-2026
 mast-benchmark/multilingual-queries-2026 (2026 版)
 masterofaudio2077/filtered-multilingual-pii
 masterofaudio2077/filtered-multilingual-pii (v1.1.0)
+Matcha-TTS Multilingual Datasets
+Math-PT — Portuguese Math Reasoning Benchmark
+MathMist
+MathNet
+MatterWaveAI/gok-multilingual-v1.1.0-22k
+MauroPello/multilingual-reasoning-gym-sft
+Mawqif-XT
+MBTP
+MBTP: A Multilingual Social Bias Benchmark Incorporating Thinking Processes
+mC4
+mCoT-MATH
+MDPBench
+MENT
+METATR v1.0
+MGAL
+MGSM
+MHQA-ITU
 michsethowusu/melo-tts-ghana-multilingual
-mlfoundations/dcvlm-baseline-200b (DataComp-VLM Baseline)
-mlfoundations/dcvlm_pool_large (DataComp-VLM Large Pool)
+Minionese
+MIRACL
+MITRA
+Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets
+MixMinMatch Multilingual Pretraining Collection
+MixtureVitae
+ML-Bench&Guard — Policy-Grounded Multilingual Safety Benchmark
+ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World
+mlfoundations/dcvlm-baseline-200b
+mlfoundations/dcvlm_pool_large
+MLMM Evaluation
+MM-JudgeBench
+MMLU-ProX
+MMM - Multilingual MRE Mix Dataset
+MNG-4/anv_scripted_multilingual-shuffled
+Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus
+Mo-Abdalkader/Egyptian-Arabic-English-Parallel-Corpus  *已在 reported_names 中*
+MORE — Multilingual Document Parsing Benchmark
+MORE: A Multilingual Document Parsing Benchmark and Evaluation
+MORPHOGEN
+MouradGad/multilingual-code-switching-bench
+MR-CODESPIKE/agri-vet-multilingual-dataset
 mramazan/nvidia-nemotron-model-reasoning-dataset-turkish
+mSCORE — Multilingual Skill-Based Commonsense Reasoning
+MsIris2026/embtb-multilingual-eval
 mteb/MultilingualNanoRetrieval Suite (13 datasets)
-multi-open (African Languages Lab)
+MuBench (aialt/MuBench)
+MUDIDI
+multi-open
+MultIdiom_Dataset
+MultiHal
+Multilingual English-Nuer-Dinka-Swahili Corpus
+Multilingual Instructional Dialogues
+Multilingual Mutual Reinforcement Effect IE Dataset
+Multilingual Safety Classification Dataset
+Multilingual-Accent-Speech
+Multilingual-BFCL
 multilingual-gsm-symbolic
-multilingual-gsm-symbolic — 数据更新
+Multilingual-GSM-Symbolic (danish-foundation-models)
+Multilingual-Medical-Corpus
+Multilingual-Multimodal-NLP/AutoMemoryBench
+Multilingual-Reasoning-Gym-SFT
 multilingual-reasoning-v2-9.8k
 multilingual-retrieval-corpus-v1
 multilingual-safety-classification-dataset
 multilingual-security-blindspot-eval
+Multilingual-TTS (malaysia-ai)
 multilingual-tts/open-bible
 multilingual-vlm-conflict (7-dataset suite)
 multilingual-vlm-conflict Expanded Suite
-multilingual-vlm-conflict/combined ⭐ 重要更新
+multilingual-vlm-conflict/combined  重要更新
 multilingual-vlm-reasoning
-myMediWhisper — 缅甸语医疗语音语料
+MultiSynt/MT
+Multitask-Multilingual-Refusal
+MULTITuDE
+MulTypo - Multilingual Typo Robustness Evaluation
+MURI
+myMediWhisper
 mzoelfakar/Mini-GSM8K-Multilingual-Alignment
-nassimjp/Legal-Issues-Multilingual-Reasoning
+M³IT
+Nailyk14/prompt-safety-multilingual
 nassimjp/afghanistan-multilingual-reasoning
+nassimjp/Legal-Issues-Multilingual-Reasoning
 naver-ai/UGTPHON
+Nemotron 3 Super Datasets  强烈建议加入 Top 10
+Nemotron-CC-Math
+Nemotron-Personas (Multilingual) — Region-Specific Synthetic Personas
+Nemotron-Post-Training-Dataset-v2 (6M Multilingual Reasoning)
+Nemotron-Safety-Guard-Dataset-v3
+Nemotron-SFT-Multilingual-v2
+Nemotron-VLM-Dataset-v2
 neuralfoundry-coder/multilingual-translation-fast
-nhminh107/vibiomir-biomedical-corpus 🏥
+Nexdata-kr/500000-Images-Multilingual-OCR-Dataset-in-21-Languages
+Nexus-Analytics/multilingual-hate-detection-dataset
+nhminh107/vibiomir-biomedical-corpus
+NigBench-MAMAI-Speech-QA — 7 种尼日利亚语言语音 QA
+Nigerian Clinical QA Benchmark (medRxiv)
 nineninesix/multilingual-tts-benchmark
 nirmalendu01/amazon-reviews-2023-cf-pairs-multilingual
+NiuTrans/LMT-60-sft-data
+NjeriKahoro/kikuyu-english-multilingual-text
+NLPCC 2026 DA-MIVQA
+NoeFlandre/GeoReSeT-Corpus
 nur-dev/farabi-crosslingual-tool-argnorm
+NVIDIA Nemotron-RL-agent-workplace_assistant
+NVIDIA Nemotron-RL-Agentic-Function-Calling-Pivot-v1
+NVIDIA Nemotron-RL-coding-competitive_coding
+NVIDIA Nemotron-RL-instruction_following
+NVIDIA Nemotron-RL-knowledge-mcqa
+NVIDIA Nemotron-RL-Safety-v1
+NVIDIA Nemotron-RL-Ultra-Training-Blends
 nvidia/Granary-HiFi
 nvidia/Nemotron-CC-v2
-nvidia/Nemotron-CC-v2 🔥
-nvidia/Nemotron-PII-Japan
 nvidia/Nemotron-Personas-Finance-Japan
+nvidia/Nemotron-PII-Japan
 nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1
 nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1
 nvidia/Nemotron-RL-Agentic-Terminal-Pivot-v1
 nvidia/Nemotron-RL-Identity-Following-v1
 nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1
 nvidia/Nemotron-RL-Instruction-Following-Structured-Outputs-v2
+nvidia/Nemotron-RL-math-OpenMathReasoning
 nvidia/Nemotron-RL-ReasoningGym-v1
 nvidia/Nemotron-RL-Super-Training-Blends
-nvidia/Nemotron-RL-math-OpenMathReasoning
 nvidia/Nemotron-SFT-Agentic-v2 (v2)
 nvidia/Nemotron-SFT-Multilingual-v2
+NyayaBench v2
+Obotu/final_multilingual_sft
+Odia Web Corpus v3
+Okwu/african-language-parallel-corpus
+Okwu/african-language-parallel-corpus (v1.5)
+Omnilingual ASR Corpus
+openbmb/factnet_factsense
+OpenBMB/MA-ProofBench
 openbmb/Ultra-FineWeb
 openbmb/UltraData-Code
 openbmb/UltraData-Math
 openbmb/UltraData-Stack-v3-L2
-openbmb/factnet_factsense
+OpenEuroLLM Reasoning Traces Multilingual
 openeurollm/reasoning-traces-multilingual
-prabhjotschugh/Not-Truly-Multilingual-PuMVR ⭐
+OpenSeal CPT Data (SEA-PILE-v2)
+OSCAR
+PALO Multilingual Dataset
+Panga-Azazia/Malian-multilingual-SNAC-TTS-dataset
+PazaBench
+PERCEPT
+PersonaHub-Multilingue
+PleIAs Common Corpus
+Pluralis v0.1
+PoetryMTEB
+PoetryMTEB MultilingualPoetryGEWEmotionClassification
+PoetryMTEB MultilingualPoetryMeterClassification
+PoetryMTEB MultilingualPoetryThemeClassification
+PoetryMTEB Suite 扩展
+PoetryMTEB/MultilingualPoetryBitextMining
+PoetryMTEB/MultilingualPoetryGEWEmotionClassification
+PoetryMTEB/MultilingualPoetryMeterClassification
+PoetryMTEB/MultilingualPoetryThemeClassification
+PolyRefuse
+PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents
+PowerBench/PowerBench-Multilingual
+prabhjotschugh/Not-Truly-Multilingual-PuMVR
+PrakharGoonj/715-multilingual-indian-literary-acadmics-corpus
 prasannachinna2006/indian-agri-advice-multilingual
 projetogabi/csdi-multilingual
 propella-annotations
 psdn-ai/CROWS-multilingual
+Pustaka
 puttatidam/indic-crosslingual-tam-sts
 puttatidam/multilingual-sentiment-ind-classification
 puttatidam/multilingual-sentiment-tha-classification
@@ -590,41 +488,95 @@ puttatidam/sts24-crosslingual-mya-sts
 puttatidam/sts24-crosslingual-tha-sts
 puttatidam/stsbiosses-crosslingual-mya-sts
 puttatidam/stsbiosses-crosslingual-tha-sts
+RAGTruth Translated Hallucinations
 rakhine-nlp/rakhine-english-parallel-corpus
 rakhine-nlp/rakhine-myanmar-parallel-corpus
 ranbirchabungbam/meiteimayek-audio-parallel-corpus
 ranjithraj/indic-multilingual-educational-glossary
-ranjithraj/indic-multilingual-educational-glossary (已报告 — 更新确认)
+ReasonXL (Soofi-Think-SFT-10B-multilingual)
+REDACT
+RedPajama-V2
+RedVox: Multilingual Safety and Fairness Benchmark for Speech
+ReMMDBench
+ReopenAI/cantonese-chinese-parallel-corpus-audio
 risale-nur-multilingual
 risaleinur/risale-nur-multilingual
+Rishabh157/krw-unified-multilingual-ner
 rufatronics/african-languages-filtered
 rufatronics/african-languages-hplt-filtered
+Sacredceltic/multilingual-idiomatic-sentences
 safety-data (Safety-IRT) — 10 语言安全评估
 saidutta69/odia-eval-benchmark
+Sakhi
+Sakonii/Multilingual-Refusal-Extended
+SALT-31
 sarjukesumo/hadith-parallel-corpus
 sarjukesumo/quran-parallel-corpus
-schneiderkamplab/dfm13-multilingual (family consolidation)
+schneiderkamplab/dfm13-multilingual
 schneiderkamplab/dfm13-multilingual-*-lt
 schneiderkamplab/dfm13-multilingual-*-lv
+SEA-NLI
+SEA-SafeguardBench
+SEADialogues — Southeast Asian Culturally Grounded Dialogue Dataset
+SeaEval
+SEAHateCheck
 seharaman786/multilingual-model-blind-spots
+SemEval-2026 Task 7
+SemEval-2026 Task 9
+SHADES
 shangzx/Chinese-English-Parallel-Translation-Corpus
 shangzx/Chinese-English-Parallel-Translation-Corpus-Chinese-Source-Text-English-Translat
 shenglisten/multilingual_counterfactual_speech
+SignerX/SignVerse-2M  Top 10 候选
+SignNet-1M
+SikhLibrary
+Similoluwa/african-multilingual-tokenizer-challenge
 sinabis-group/sinabis-10k-synthetic-emails
+SLAAB-Finance-Multilingual-Instruction-Splits
+SLAAB-Medical-Multilingual-Instruction-Splits
+SlimPajama
 somali-pretraining-corpus
-speech-translation-and-summarization — 25 语言语音翻译与摘要 🔥
+Soohak — Research-level Math Benchmark
+SorryBench-202503-Multilingual
+SoundWaveET/leyu-ethiopian-multilingual-speech-corpus-2026
+Souro/agentic-tooluse-adapted-multilingual
+Souro/agentic-tooluse-synthetic-multilingual
+SPADE
+speech-translation-and-summarization — 25 语言语音翻译与摘要
+SpeechJBB
+Squezilia/Route4Secure
+SraVaani 1.0
 sripad17/multilingual-safety-probe-test
+StereoTales
 subhan87/Balochi-Multilingual-dataset
 suchirsalhan/goldfish-crosslingual-cka
+SultanR/ultradata-math-qa-ar
+SultanR/ultradata-math-textbook-exercise-ar
+SurakshaEval
+Susan2026/global-multilingual-cross-industry-corpus
+Swahili-Pretraining-Corpus
+SWE-bench Multilingual
+SWE-Bench ProMax
+SWE-bench/SWE-bench_Multilingual
 swebench-multilingual (junlin-modal)
+SwitchLingua
 tackhwa/multilingual_safety
 tackhwa/multilingual_safety + v2
 tackhwa/multilingual_safety_v2
+Tagengo
+Tahsin-Mayeesha/tofu-bn
+Tajnaam/multilingual-english-nuer-dinka-swahili-corpus
+Tasfiya025/Multilingual_Legal_Contract_Risk  陈旧
 tasksource/multilingual-sentiments
+TBOGamer22/RUBIC-58K
 tejasta/Kannada-English-Parallel-Corpus
+TerrorCoder/zimbabwe-public-service-dataset
 textdetox/multilingual_toxicity_dataset
+The African Languages Lab: A Collaborative Approach to Advancing Low-Resource Language AI
+The-CoLab/multilingual-textarena-suite
 therapy-support/llm-gender-bias-mental-health
-tinyrolls/RoleVerse ⭐
+TidyVoice: A Curated Multilingual Dataset for Speaker Verification
+tinyrolls/RoleVerse
 tojpaj/agriculture-multilingual-indic
 tojpaj/chart-qa-multilingual-indic
 tojpaj/hr-grievance-multilingual-indic
@@ -632,68 +584,60 @@ tojpaj/kisan-advisory-multilingual-indic
 tojpaj/marketnews-multilingual-indic
 tojpaj/personal-finance-multilingual-indic
 tojpaj/science-misinfo-multilingual-indic
+Tonic/multilingual-EMIR-reporting
 toolathon123/released-multilingual-stories
-toolathon123/released-multilingual-stories (已报告 — 更新确认)
+ToxiREX
+Translation Tangles
+TranslationTangles
 treasure4l/multilingual_instruction_tuning
+TriviaRoomQA
 tuchong/TuChong-SWE-bench-Multilingual
 tufaax/somali-multilingual-infopankki
-tufaax/somali-multilingual-infopankki ⭐
+Tulsiandhare/Multilingual_medical_symptom_triage
 ucrelnlp/Multilingual-USAS-Labelled-Silver-Wikipedia
+Ugiat/multilingual_librispeech_french_punctuated
+Ultra-FineWeb-L3
+UltraData-Math
 ulysse1/speculators-multilingual-en-fr-de-it-es
+UNICS
+UnityShotsBench
+Universal NER v2
+UPDESH
+Urdatorn/linder-walberg
+UrduBench — Urdu Reasoning Benchmark
 userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
+VelkroLM/african-languages-catalog
+VelkroLM/african-languages-corpus
+VelkroLM/african-languages-filtered
+VelkroLM/african-languages-speech
+VettyCher/dehumanisation_study
+Viet Medi Species 2026
 vietphamlaiyen/Multilingual_medical_symptom_triage
-vojewale/Cross-lingualIFEval ⭐
-weilin2468/multilingual_audio_alignments 🔥
+VillanovaAI/Multi-CommonCanvas-captioning
+VillanovaAI/Multi-CommonCanvas-QA
+VityaVitalich/multilingual-safety-data
+VoiceNet/multilingual-in-the-wild-thinking
+vojewale/Cross-lingualIFEval
+VoxENES 2026
+WAXAL
+WebFAQ 2.0
+WebFAQ 2.0 (v2.0)
+weilin2468/multilingual_audio_alignments
+WILA-popQA
+Wismut/nym-pii-multilingual-data
+WMT26 General MT Test Data
 wujoe132/ponys-ai-multilingual-companion-evaluation
+X-Fact
+XGLUE
+XL-SafetyBench
+XNLI
+XQ-MEval
 yadenil/Negarit_gazeta_amhari_english_parallel_corpus
 yagizgencer/emojinize-multilingual
+YDX07/YDX07_Multilingual_Corpus_2026
 years0/multilingual-code-switching-bench
-zouhar/last-translation-benchmark 🔥
-临近警戒线
-其他已报告数据集
-已报告再确认
-已报告数据集重复确认
+zouhar/last-translation-benchmark
+代码
 版本升级
 版本追踪关键变化
-💬 情感 & 评估
-💬 情感分析
-💰 金融/合规
-💻 代码
-📏 指令遵循评估
-📏 评估/偏见检测
-📏 评估基准
-📏 顶会基准数据集
-📐 数学推理 & RL 训练
-📝 平行语料
-📝 平行语料与低资源语言
-📝 平行语料与翻译
-📝 文本分类
-📝 翻译与平行语料
-📦 其他
-📦 数据质量
-📦 预训练语料
-🔊 语音
-🔊 语音/ASR
-🔊 语音与 ASR
-🔊 语音数据
-🛡️ 安全/PII 检测
-🛡️ 安全与对齐
-🛡️ 安全对齐
-🛡️ 安全数据集
-🛡️ 安全评估
-🤖 Agent/工具使用
-🤖 偏好数据 & RLHF
-🤖 对齐/偏好
-🤖 对齐与偏好
-🤖 强化学习训练数据
-🤖 微调/翻译与 SFT
-🤖 指令微调
-🤖 指令微调 / SFT
-🧠 多语言推理评估
-🧠 微调数据
-🧠 推理
-🧠 推理与数学
-🧠 自然语言推理
-🧠 评估基准
-🧠🖼️ 多模态评估

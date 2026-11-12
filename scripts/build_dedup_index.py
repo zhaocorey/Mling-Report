@@ -43,8 +43,12 @@ SKIP_HEADERS = {
     "pipeline 状态", "pipeline status",
 }
 
-# 以 emoji 开头的非数据集标题模式
-EMOJI_SKIP_PREFIXES = ("🌍", "📊", "📚", "🔧", "📄", "⭐", "🏆", "🚨", "💡", "📋")
+# 以 emoji 开头的非数据集标题模式（报告章节标题，非数据集名）
+EMOJI_SKIP_PREFIXES = ("🌍", "📊", "📚", "🔧", "📄", "⭐", "🏆", "🚨", "💡", "📋",
+                        "📏", "📝", "🛡️", "🔊", "📦", "🤖", "🧠", "💬", "💰", "📐")
+
+# 非数据集的元标题（报告中出现的导航/确认文本）
+META_TITLES = {"已报告再确认", "已报告数据集重复确认", "其他已报告数据集", "临近警戒线"}
 
 
 def normalize_name(name):
@@ -64,6 +68,12 @@ def is_dataset_header(name):
         return False
     # 跳过以 emoji 开头的非数据集标题（论文、统计等章节）
     if any(name.startswith(p) for p in EMOJI_SKIP_PREFIXES):
+        return False
+    # 跳过元标题（导航/确认文本）
+    if name.strip() in META_TITLES:
+        return False
+    # 跳过含「已报告」标记的条目（报告确认备注，非数据集名）
+    if "已报告" in name:
         return False
     return True
 
@@ -107,8 +117,24 @@ def extract_from_report(report_path):
             # 跳过包含描述性后缀的条目（版本更新说明、状态标注等）
             if re.search(r"(—\s*\d{4}-|（[^）]*更新|（[^）]*升级|（[^）]*扩展|版本更新|首次跟踪|状态升级)", name):
                 continue
+            # 清理尾部 emoji / 描述性标注，保留核心名称用于去重
+            clean_name = name
+            # 去所有 emoji 字符（Unicode emoji 范围）
+            clean_name = re.sub(r"[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0001F600-\U0001F64F\U0001F680-\U0001F6FF⭐🔥📚📄⚠️🟡🌟🌍🏥🛡️💰🔄🗑️✅❌🧠🖼️💬📏📝🔊📦🤖📐]", "", clean_name).strip()
+            # 去 "— 中文描述" 后缀（中文开头，后面任意）
+            clean_name = re.sub(r"\s*—\s*[\u4e00-\u9fff].*$", "", clean_name).strip()
+            # 去 "（中文说明）" 后缀
+            clean_name = re.sub(r"\s*（[^）]+）$", "", clean_name).strip()
+            # 去尾部纯英文描述性括号（至少含空格，排除版本号如 (v1)）
+            clean_name = re.sub(r"\s*\([A-Za-z][^)]*\s+[^)]*\)$", "", clean_name).strip()
+            # 去 "→ ..." 版本变更标注
+            clean_name = re.sub(r"\s*→\s*.*$", "", clean_name).strip()
+            # 去 "时效降级" 等中文尾缀
+            clean_name = re.sub(r"\s*时效(降级|关注|升级).*$", "", clean_name).strip()
+            if not clean_name:
+                continue
             url = urls[i] if i < len(urls) else ""
-            datasets.append({"name": name, "url": url})
+            datasets.append({"name": clean_name, "url": url})
 
     return {"report_date": report_date, "datasets": datasets}
 
@@ -193,10 +219,31 @@ def build_index(mode="full"):
             f.write(name + "\n")
 
     # 2. reported_names.jsonl
+    # Normalize reported names to match baseline format for proper dedup
+    # Strip org/ prefix if baseline uses short name, clean annotations
+    def normalize_for_output(name):
+        # Remove all emoji
+        name = re.sub(r"[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0001F600-\U0001F64F\U0001F680-\U0001F6FF⭐🔥📚📄⚠️🟡🌟🌍🏥🛡️💰🔄🗑️✅❌🧠🖼️💬📏📝🔊📦🤖📐]", "", name).strip()
+        # Remove "— 中文描述" suffix
+        name = re.sub(r"\s*—\s*[\u4e00-\u9fff].*$", "", name).strip()
+        # Remove "（中文说明）" suffix
+        name = re.sub(r"\s*（[^）]+）$", "", name).strip()
+        # Remove descriptive English parens (with space inside, not versions like (v1))
+        name = re.sub(r"\s*\([A-Za-z][^)]*\s+[^)]*\)$", "", name).strip()
+        # Remove "→ ..." version changes
+        name = re.sub(r"\s*→\s*.*$", "", name).strip()
+        # Remove trailing Chinese annotations
+        name = re.sub(r"\s*时效(降级|关注|升级).*$", "", name).strip()
+        # Remove trailing emoji-like markers
+        name = re.sub(r"\s*[⚠️🟡⭐🔥📄📚]+$", "", name).strip()
+        return name
+
     reported_names_list = sorted(
-        [rep["name"] for rep in reported.values()],
+        [normalize_for_output(rep["name"]) for rep in reported.values()],
         key=lambda x: x.lower()
     )
+    # Filter empty
+    reported_names_list = [n for n in reported_names_list if n]
     with open(REPORTED_NAMES, "w", encoding="utf-8") as f:
         for name in reported_names_list:
             f.write(name + "\n")
