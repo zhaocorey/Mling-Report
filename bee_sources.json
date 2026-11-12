@@ -14166,11 +14166,90 @@
       "timeliness_score": "高",
       "search_keywords": "multilingual audio corpus lambda",
       "source": "HuggingFace API (multilingual search)"
+    },
+    {
+      "name": "aya-multilingual-refusal-prompts",
+      "full_name": "GSMB/aya-multilingual-refusal-prompts",
+      "url": "https://huggingface.co/datasets/GSMB/aya-multilingual-refusal-prompts",
+      "description": "8-language (en, es, hi, ar, bn, ta, sw) safety/red-team refusal prompts based on JailbreakBench + AdvBench translations",
+      "languages": [
+        "en",
+        "es",
+        "hi",
+        "ar",
+        "bn",
+        "ta",
+        "sw"
+      ],
+      "size": "1K-10K",
+      "license": "unknown",
+      "discovered_date": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "release_version": null,
+      "timeliness_score": "high",
+      "category": "safety"
+    },
+    {
+      "name": "indicsutra-multilingual-lexicon",
+      "full_name": "0adminindicsutra/indicsutra-multilingual-lexicon",
+      "url": "https://huggingface.co/datasets/0adminindicsutra/indicsutra-multilingual-lexicon",
+      "description": "7-language (en, hi, sa, mr, bn, ta, te) Paninian multilingual lexicon with cross-lingual token alignment",
+      "languages": [
+        "en",
+        "hi",
+        "sa",
+        "mr",
+        "bn",
+        "ta",
+        "te"
+      ],
+      "size": "10K-100K",
+      "license": "unknown",
+      "discovered_date": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "release_version": null,
+      "timeliness_score": "high",
+      "category": "lexicon"
+    },
+    {
+      "name": "vibiomir-biomedical-corpus",
+      "full_name": "nhminh107/vibiomir-biomedical-corpus",
+      "url": "https://huggingface.co/datasets/nhminh107/vibiomir-biomedical-corpus",
+      "description": "3-language (vi, en, zh) biomedical corpus with 4.93M text chunks for RAG/information retrieval",
+      "languages": [
+        "vi",
+        "en",
+        "zh"
+      ],
+      "size": "4.93M chunks",
+      "license": "CC-BY-NC-4.0",
+      "discovered_date": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "release_version": null,
+      "timeliness_score": "high",
+      "category": "biomedical"
+    },
+    {
+      "name": "shilluk_to_english_parallel_corpus_biblical_text",
+      "full_name": "dayomtechnologies/shilluk_to_english_parallel_corpus_biblical_text",
+      "url": "https://huggingface.co/datasets/dayomtechnologies/shilluk_to_english_parallel_corpus_biblical_text",
+      "description": "Shilluk-English parallel corpus (South Sudan Nilotic language, ~175K speakers), biblical text",
+      "languages": [
+        "shilluk",
+        "en"
+      ],
+      "size": "10K-100K",
+      "license": "CC-BY-NC-ND-4.0",
+      "discovered_date": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "release_version": null,
+      "timeliness_score": "high",
+      "category": "parallel_corpus"
     }
   ],
   "total_datasets": 691,
   "last_merge": "2026-10-26",
-  "total_sources": 708,
-  "last_update_note": "Round 75: +17 new datasets (37 incremental, 9 dedup filtered, 28 new after dedup)",
-  "last_updated": "2026-10-26"
+  "total_sources": 712,
+  "last_update_note": "Round 78: added 4 new datasets (2026-11-02)",
+  "last_updated": "2026-11-02"
 }
