@@ -1,10 +1,11 @@
 {
-  "last_run": "2026-11-12",
+  "last_run": "2026-11-13",
   "report_file": "pipeline/bee_dataset_filtering_incremental.json",
   "papers_added": 0,
-  "tools_added": 0,
+  "tools_added": 1,
   "blogs_added": 0,
   "duplicates_skipped": 0,
   "baseline_date": "2026-11-11",
-  "search_exhaustiveness": "high - 8 channels, 9+ keyword variations, all returned zero new items"
+  "search_exhaustiveness": "medium-high - arXiv search, HuggingFace Daily Papers (22 papers), GitHub Topics + API, HuggingFace Blog. DuckDuckGo/arXiv API/Semantic Scholar blocked.",
+  "notes": "Bee subagent timed out; zong took over. 1 new tool (corpus-assay: Rust benchmark decontamination). arXiv Nov 12 papers not yet fully indexed at search time (01:11 UTC). Also noted bytedance/axion1_0 (72★, agent training with data filtering) and Shrikant922/training-data-bot (64★, fine-tuning data pipeline) but excluded as they are not primarily data curation methodology tools."
 }

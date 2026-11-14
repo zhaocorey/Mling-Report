@@ -27,10 +27,12 @@ AISE-TUDelft/multilingual-code-comments-fixed-8
 aixk/multilingual-words-9lang
 akuzdeuov/qwen3-tts-multilingual-emotional-speech
 Alexandria - Dialectal Arabic MT Dataset
+AlexHung29629/Nemotron-SFT-Agentic-Multilingual-segments
 AlphaMWE
 amalia-Nemotron-SFT-Multilingual-v1
 Ananya80/NyayaSetu-Legal-Dialogues-Multilingual
 AnmolGV/section10-divorce-corpus
+AnnaKrupina/Multilingual_Tax_logs
 AnthonyPa57/Witcher-multilingual-convos
 APARSIN
 arabic-russian-parallel-corpus
@@ -130,6 +132,8 @@ deepmage121/adaption-multilingual-instruction-tuning
 DenseOn
 DetectRL-X
 DetectRL-X - Multilingual LLM-Generated Text Detection
+dhairyapandya/cross-lingual-tamper-assets
+dhairyapandya/cross-lingual-tamper-resistance
 DialogPII
 DimABSA
 DimABSA — Multilingual Dimensional ABSA (SemEval-2026)
@@ -227,6 +231,7 @@ hysi-lab/unwebtv-multilingual-audio-archive
 IdeaShift-X
 IFMTBench
 ikhlasulakmalh/sci-rho
+Iman998/HexaBee-Multilingual-SFT
 Indic DiarBench
 Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation
 IndicGuard
@@ -473,6 +478,7 @@ PowerBench/PowerBench-Multilingual
 prabhjotschugh/Not-Truly-Multilingual-PuMVR
 PrakharGoonj/715-multilingual-indian-literary-acadmics-corpus
 prasannachinna2006/indian-agri-advice-multilingual
+PrinceAlhassanNasamu/kusaal-english-parallel-corpus
 projetogabi/csdi-multilingual
 propella-annotations
 psdn-ai/CROWS-multilingual
@@ -521,6 +527,7 @@ SEADialogues — Southeast Asian Culturally Grounded Dialogue Dataset
 SeaEval
 SEAHateCheck
 seharaman786/multilingual-model-blind-spots
+selmalav/Turkic-Latin-Script-Zero-Shot-Cross-Lingual-Transfer
 SemEval-2026 Task 7
 SemEval-2026 Task 9
 SHADES
@@ -607,6 +614,7 @@ Urdatorn/linder-walberg
 UrduBench — Urdu Reasoning Benchmark
 userhuggingface4321/multilingual-llm-evaluation
 vanila434/multilingual-elder-safety-msgs
+VardanSharma13/spectrum-sft-multilingual
 VelkroLM/african-languages-catalog
 VelkroLM/african-languages-corpus
 VelkroLM/african-languages-filtered

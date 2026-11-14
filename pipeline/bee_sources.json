@@ -4243,6 +4243,158 @@
       "timeliness_score": "中",
       "search_keywords": "neuralfoundry multilingual translation fast 7 languages",
       "source": "HuggingFace API (Round 79 carryover)"
+    },
+    {
+      "name": "VardanSharma13/spectrum-sft-multilingual",
+      "url": "https://huggingface.co/datasets/VardanSharma13/spectrum-sft-multilingual",
+      "languages": [
+        "multilingual (201 languages via NLLB-200)"
+      ],
+      "size": "1,877,912 train + 73,505 validation + 65,495 test rows",
+      "license": "Gated access",
+      "category": "SFT",
+      "description": "Spectrum Multilingual SFT — reproduction of OmniSONAR (Sec. 9). Multilingual supervised fine-tuning data with context in language X and question/choices/answer in English (X→En format). Silver config: 1,769,291 examples across 201 languages via NLLB-200-3.3B translation. Native config: 317,857 examples in 25 languages with native passages. Quality-filtered (95.9% retention). Tasks: QA, text-classification, summarization.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "SFT multilingual spectrum omniSONAR",
+      "source": "HuggingFace API (multilingual lastModified)"
+    },
+    {
+      "name": "Iman998/HexaBee-Multilingual-SFT",
+      "url": "https://huggingface.co/datasets/Iman998/HexaBee-Multilingual-SFT",
+      "languages": [
+        "fa",
+        "en",
+        "ar",
+        "zh",
+        "he",
+        "+1 more"
+      ],
+      "size": "30,153,404 SFT records (19,458,332 answering + 10,695,072 translations)",
+      "license": "Gated access",
+      "category": "SFT",
+      "description": "HexaBee Multilingual Answering & Translation — 6-language SFT with cross-language QA. Paper: arXiv:2610.16361 (HexaBee-4B: Six-Language Translation with Multilingual Answering and Bidirectional Supervision, 2026). 22 configurations, 5,759,806 cross-language QA records. Question language and answer language can differ. Model: Gemma 3 based.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-10-14",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "SFT multilingual HexaBee",
+      "source": "HuggingFace API (SFT multilingual lastModified)"
+    },
+    {
+      "name": "dhairyapandya/cross-lingual-tamper-resistance",
+      "url": "https://huggingface.co/datasets/dhairyapandya/cross-lingual-tamper-resistance",
+      "languages": [
+        "en",
+        "bn",
+        "hi"
+      ],
+      "size": "Research dataset with full paper and demo",
+      "license": "CC-BY (inferred from paper)",
+      "category": "安全评估",
+      "description": "Cross-lingual tamper resistance: testing whether English-trained fine-tuning defenses (Lisa, Vaccine, Booster, RepNoise) survive non-English attacks. Uses CohereLabs/tiny-aya-fire as base model, poisoned fine-tuning in Bengali, evaluation in both English and Bengali. Key finding: defenses that look effective in English fail to detect Bengali attacks. Includes companion assets dataset.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-13",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual tamper resistance safety",
+      "source": "HuggingFace API (cross-lingual lastModified)"
+    },
+    {
+      "name": "dhairyapandya/cross-lingual-tamper-assets",
+      "url": "https://huggingface.co/datasets/dhairyapandya/cross-lingual-tamper-assets",
+      "languages": [
+        "en",
+        "bn",
+        "hi"
+      ],
+      "size": "Companion assets (figures, evaluation data)",
+      "license": "CC-BY (inferred)",
+      "category": "安全评估",
+      "description": "Companion assets for the cross-lingual tamper resistance study. Contains evaluation results, banner images, and supporting data for the blue-teaming multilingual safety research.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-13",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "cross-lingual tamper resistance safety",
+      "source": "HuggingFace API (cross-lingual lastModified)"
+    },
+    {
+      "name": "selmalav/Turkic-Latin-Script-Zero-Shot-Cross-Lingual-Transfer",
+      "url": "https://huggingface.co/datasets/selmalav/Turkic-Latin-Script-Zero-Shot-Cross-Lingual-Transfer",
+      "languages": [
+        "tr",
+        "az",
+        "uz",
+        "tk",
+        "kaa"
+      ],
+      "size": "12,500 labeled text samples (10,000 train + 2,500 test)",
+      "license": "Gated access",
+      "category": "评估基准",
+      "description": "Zero-shot cross-lingual transfer dataset for 5 Turkic languages in Latin script (Turkish, Azerbaijani, Uzbek, Turkmen, Karakalpak). 5 balanced thematic categories: History, Geography, Culture & Arts, Biography, Science & Technology. 2,500 samples per language. Tests cross-lingual text classification transfer among closely related Turkic languages.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-13",
+      "release_version": "v1",
+      "timeliness_score": "高",
+      "search_keywords": "Turkic cross-lingual transfer zero-shot",
+      "source": "HuggingFace API (cross-lingual lastModified)"
+    },
+    {
+      "name": "PrinceAlhassanNasamu/kusaal-english-parallel-corpus",
+      "url": "https://huggingface.co/datasets/PrinceAlhassanNasamu/kusaal-english-parallel-corpus",
+      "languages": [
+        "kus",
+        "en"
+      ],
+      "size": "27,700+ rows (train split)",
+      "license": "Not specified",
+      "category": "平行语料",
+      "description": "Kusaal-English parallel corpus. Kusaal is a Gur language spoken in northern Ghana. Contains aligned sentence pairs from biblical texts (YouVersion KJV) across 10 domains. Important low-resource African language coverage.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-09",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "parallel corpus Kusaal English African",
+      "source": "HuggingFace API (parallel corpus lastModified)"
+    },
+    {
+      "name": "AnnaKrupina/Multilingual_Tax_logs",
+      "url": "https://huggingface.co/datasets/AnnaKrupina/Multilingual_Tax_logs",
+      "languages": [
+        "en",
+        "uk"
+      ],
+      "size": "240 runs × 5-agent swarm (ZebraLogic-style puzzles)",
+      "license": "Not specified",
+      "category": "对齐研究",
+      "description": "The Multilingual Tax: Language Effects on Swarm Behavior and Cheating Tendencies. Run logs from Swarm Alignment Hackathon (Apart Research, November 2026). 240 runs of a five-agent swarm (Gemma 4 26B) solving ZebraLogic puzzles in English and Ukrainian. Contains honeypots for detecting cheating behavior. Key finding: cheating rare in both languages, but Ukrainian swarms explored less.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-11-11",
+      "release_version": null,
+      "timeliness_score": "高",
+      "search_keywords": "multilingual swarm alignment Ukrainian",
+      "source": "HuggingFace API (multilingual lastModified)"
+    },
+    {
+      "name": "AlexHung29629/Nemotron-SFT-Agentic-Multilingual-segments",
+      "url": "https://huggingface.co/datasets/AlexHung29629/Nemotron-SFT-Agentic-Multilingual-segments",
+      "languages": [
+        "en",
+        "multilingual"
+      ],
+      "size": "54 downloads (exact row count gated)",
+      "license": "Not specified",
+      "category": "SFT",
+      "description": "Nemotron SFT Agentic Multilingual segments — multilingual agentic SFT data derived from NVIDIA Nemotron. Contains system prompts for tool-using agentic tasks with multilingual user queries. Designed for training models to use tools (calculator, weather, search, lookup, code-runner) across languages while maintaining English internal reasoning.",
+      "discovered_date": "2026-11-14",
+      "last_updated": "2026-09-08",
+      "release_version": null,
+      "timeliness_score": "中",
+      "search_keywords": "Nemotron SFT agentic multilingual",
+      "source": "HuggingFace API (SFT multilingual lastModified)"
     }
   ],
   "version_updates": [
@@ -4403,7 +4555,7 @@
       "note": "No HF dataset repo found yet; monitor for dataset release."
     }
   ],
-  "last_updated": "2026-11-12T09:41:19.057578",
-  "total_datasets": 191,
+  "last_updated": "2026-11-14",
+  "total_datasets": 199,
   "total_count": 191
 }

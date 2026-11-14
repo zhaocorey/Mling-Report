@@ -1,11 +1,17 @@
 {
-  "date": "2026-11-13",
-  "timestamp": "2026-11-13T06:40:00.000000",
-  "report_path": "sources_reports/2026-11-12.md",
-  "new_datasets": 0,
-  "total_datasets": 867,
-  "baseline_count": 867,
-  "reported_count": 643,
-  "status": "maintenance",
-  "note": "Index maintenance: merged pipeline/bee_sources.json (92 new entries from 11-12 run), backfilled 64 report-discovered datasets, fixed build_dedup_index.py normalization. No new sourcing run."
+  "date": "2026-11-14",
+  "report_path": "pipeline/bee_sources_incremental.json",
+  "incremental_new": 8,
+  "incremental_updates": 0,
+  "incremental_total": 8,
+  "note": "Round 82: 8 new datasets + 0 version updates. Window: Oct 25 - Nov 14 (20 days). Highlights: (1) VardanSharma13/spectrum-sft-multilingual — 201-language SFT dataset (1.8M+ rows) reproducing OmniSONAR with NLLB-200 translated contexts, largest new multilingual SFT this round; (2) Iman998/HexaBee-Multilingual-SFT — 30M+ records, 6-language QA+translation SFT with arXiv paper (2610.16361); (3-4) dhairyapandya/cross-lingual-tamper-resistance + assets — cross-lingual safety study showing English-trained defenses fail against Bengali attacks; (5) selmalav/Turkic-Latin-Script-Zero-Shot-Cross-Lingual-Transfer — 5 Turkic languages (tr/az/uz/tk/kaa) zero-shot classification, 12.5K samples; (6) PrinceAlhassanNasamu/kusaal-english-parallel-corpus — 27.7K rows Kusaal-English parallel (low-resource Ghanaian language); (7) AnnaKrupina/Multilingual_Tax_logs — en/uk swarm alignment hackathon logs (Apart Research Nov 2026); (8) AlexHung29629/Nemotron-SFT-Agentic-Multilingual-segments — multilingual agentic SFT from Nemotron. Search coverage: 19 queries across HuggingFace API (14 queries: multilingual, cross-lingual, parallel corpus, safety benchmark, SFT multilingual, reasoning math, low resource, evaluation benchmark, Nemotron nvidia, UltraData openbmb, CohereLabs Aya, HuggingFaceH4, multimodal multilingual, translation multilingual, African language, thinking reasoning traces, PolyMath MGSM, multilingual evaluation, multilingual safety, alignment dataset multilingual, cross-lingual transfer, web corpus, value alignment, code generation, preference RLHF, speech audio, language dataset 2026, multilingual benchmark), SearXNG (3 queries: multilingual dataset November 2026, UltraData SFT openbmb 2026, new multilingual dataset huggingface November 2026, CAMEO8, WebFAQ 2.0), DuckDuckGo (2 queries attempted, all blocked by bot detection). Baseline: 770 names.",
+  "round": 82,
+  "search_sources": [
+    "HuggingFace API (14 queries: multilingual lastModified, cross-lingual, parallel corpus, safety benchmark multilingual, SFT multilingual, reasoning math multilingual, low resource language, evaluation benchmark LLM, Nemotron nvidia multilingual, UltraData openbmb, CohereLabs Aya, HuggingFaceH4, multimodal multilingual, translation multilingual, African language, thinking reasoning traces, PolyMath MGSM math, multilingual evaluation, multilingual safety, alignment dataset multilingual, cross-lingual transfer, web corpus cleaned, value alignment benchmark, code generation multilingual, preference RLHF DPO, speech audio TTS, language dataset 2026, multilingual benchmark, multilingual dataset November 2026)",
+    "SearXNG (5 queries: multilingual dataset new release November 2026, UltraData SFT openbmb 2026, CAMEO8 multilingual cultural dialog dataset, WebFAQ 2.0 multilingual dataset 108 languages, new multilingual dataset huggingface November 2026)",
+    "DuckDuckGo web_search (2 queries attempted, all blocked by bot detection)",
+    "Web fetch for detail verification (7 dataset pages)"
+  ],
+  "search_queries_executed": 21,
+  "baseline_count": 770
 }
