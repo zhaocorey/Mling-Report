@@ -1,6 +1,7 @@
 blog	"Data-Centric Alignment of LLMs: Survey"
 blog	"There is no posttraining data commons"
 blog	AI Pretraining Data Curation on GPU Cloud (2026 Guide)
+blog	BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model
 blog	Data Filtering, Deduplication and Reweighting for LLM Pre-Training
 blog	Data for Agents
 blog	Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles
@@ -14,6 +15,7 @@ blog	LLM Data Pipeline: Dedup, Filter, Mix
 blog	LLM Pre-Training Data Curation: Quality Filtering Techniques
 blog	LLM Training Data in 2026: What AI Models Need
 blog	LLM Training Data Quality: Checks, Frameworks & Governance
+blog	LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B
 blog	On LLMs-driven Synthetic Data Generation, Curation, and Evaluation
 blog	Quality Is Not Singular: Auditing, Distilling, & Blending LLM-Judge Annotations for Pre-Training Data Curation
 blog	Reproducible Data Curation In The Multimodal Lakehouse
@@ -23,11 +25,13 @@ blog	Synthetic Data for LLM Training: Decision Guide 2026
 blog	Synthetic Data Generation Tools 2026
 blog	Synthetic Data in a Data-Intensive World: A Literature Review
 blog	The Data Flywheel: Scaling Evaluation via Data Curation for LLM-based Assistants
+blog	Token Pooling-Aware Training for Multi-Vector Embedding Models
 blog	Why Data Curation Became the Bottleneck Again
 paper	"High-Quality" Data for Early-Stage Instruction Tuning: An Empirical Study of Data Quality Metrics
 paper	20/20 Vision Language Models: Better VLMs through Data Curation Alone
 paper	A Bitter Lesson for Data Filtering
 paper	A Bitter Lesson for Data Filtering ⭐⭐⭐⭐⭐
+paper	A Comprehensive Framework for All Stages of Large-Model Training: From Data and Tokenization, through Pretraining, to Post-Training Alignment
 paper	A Survey of Text Deduplication: From Syntactic Matching to Semantic Understanding
 paper	A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data (LLM Data Auditor)
 paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents
@@ -35,6 +39,7 @@ paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning o
 paper	Active Learning with Low-Rank Structure for Data Selection
 paper	Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection
 paper	Advancement or Acceleration? How Data Curation Improves LLM Training
+paper	Agentic Data Engineering for LLMs: System Design and a Controlled Empirical Study
 paper	Agentic Instruction Data Selection: Let DataMaster Interpret Your Intent
 paper	AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection
 paper	Alignment Forecasting: Predicting Misalignment From Training Data
@@ -102,6 +107,7 @@ paper	Data Pruning by Information Maximization (InfoMax)
 paper	Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
 paper	Data Quality Rule Generation with LLMs (LeDQeR)
 paper	Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
+paper	Data Schedules and Learning Rate Schedules Should Be Designed Together
 paper	Data Science and Technology Towards AGI Part I: Tiered Data Management
 paper	Data Scout: Targeted Web Crawling for Domain-Specific Pretraining Corpora
 paper	Data Selection and Compression for Efficient Instruction Tuning
@@ -188,6 +194,7 @@ paper	How to Train Data-Efficient LLMs (AskLLM + Density Sampling)
 paper	HPLT 3.0: Very Large-Scale Multilingual Resources for LLM and MT
 paper	HuggingFace Daily Papers (July 22-23)
 paper	HuggingFace Daily Papers (July 24, 19篇)
+paper	Human or Synthetic? What a Fixed Budget Buys for Post-Training
 paper	ICLHerd: Herding-Based Data Selection for LLMs with In-Context Learning as a Proxy
 paper	IGDS: From Insight to Action: Interpretability-Guided Data Selection in Large Language Models
 paper	Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering
@@ -249,6 +256,7 @@ paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Mode
 paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning ⭐⭐⭐⭐
 paper	Predicting Training Re-evaluation Curves Enables Effective Data Curriculums (TREC)
 paper	Preference Data Selection for Mitigating the Alignment Tax in Large Language Models
+paper	Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models
 paper	PRISM: Preference-Aware Influence Function Based Data Selection Method for Efficient Fine-Tuning
 paper	propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale
 paper	Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation
@@ -466,8 +474,10 @@ tool	BLISS-Bilevel-Data-Selection
 tool	buffdata
 tool	Chamuel08/video-curator
 tool	CodeForge-Agent
+tool	corpus-assay
 tool	curation-discipline
 tool	CuratorKIT
+tool	Custom_LLM_DataGen_Template
 tool	Data-Juicer v1.6.0
 tool	data-juicer-multimodal-curation
 tool	data-mixing-agent
@@ -476,6 +486,7 @@ tool	data_attribution (Google Research)
 tool	data_strategy_survey
 tool	DataFlex (OpenDCAI)
 tool	DataMaster (NJU WebSoft)
+tool	dataset-foundry
 tool	DatasetForge
 tool	DataWarden
 tool	DeMix
@@ -494,7 +505,10 @@ tool	LLM Training Data Pipeline
 tool	LLM-Based Synthetic Data Generation (curated resource list)
 tool	LLM-Data-Engine
 tool	llm-data-lab
+tool	llm-dataset-curation (SuperJohn)
+tool	llm-finetuning-dataset-pipeline
 tool	LLM-Sanitizer-Pro
+tool	LLM_based_Synthetic_Data_Generation
 tool	Llm_Data_Forge
 tool	LMData — Distributed Orchestration for LLM Training Data Curation
 tool	LZE (Learning-Zone Energy)
@@ -509,6 +523,7 @@ tool	Open Distillation Datasets
 tool	Pharmacist
 tool	Piggy-Hero/Open-Agent-Datasets-piggyhero
 tool	Polyglot Data Filtering and Processing Pipeline
+tool	post-training-data-atlas
 tool	ptbr-cpt-data-ablation
 tool	ReScraper
 tool	ReScraper (CMU)
@@ -533,6 +548,3 @@ tool	xingyugong/llm-data-pipeline
 tool	xuyj233/data_strategy_survey
 tool	yashpulapalli-eng/Llm_Data_Forge
 tool	📌 安全对齐（Safety & Alignment）— 5 项
-paper	VidUEU-Agent
-tool	SemHash
-tool	corpus-assay
