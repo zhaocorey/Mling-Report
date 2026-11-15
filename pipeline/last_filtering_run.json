@@ -1,9 +1,11 @@
 {
-  "last_run": "2026-11-11",
-  "report_file": "dataset_filtering_survey/2026-11-11.md",
-  "papers_added": 4,
-  "tools_added": 2,
-  "blogs_added": 0,
-  "duplicates_skipped": 1,
-  "baseline_date": "2026-11-11"
+  "last_run": "2026-11-15T09:13:00+08:00",
+  "status": "completed",
+  "incremental_stats": {
+    "new_papers_merged": 10,
+    "new_tools_merged": 8,
+    "new_blogs_merged": 3,
+    "bee_discovered": 27,
+    "dedup_rate": "48%"
+  }
 }

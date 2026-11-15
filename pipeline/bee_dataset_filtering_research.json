@@ -11,11 +11,11 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-11-05",
-    "total_papers": 211,
-    "total_tools": 46,
-    "total_blogs": 10,
-    "total_tools_and_repos": 47
+    "last_updated": "2026-11-15T09:14:00+08:00",
+    "total_papers": 247,
+    "total_tools": 59,
+    "total_blogs": 14,
+    "total_tools_and_repos": 59
   },
   "papers": [
     {
@@ -3244,6 +3244,169 @@
       "relevance_score": 7,
       "relevance_note": "综述395篇文献，提出六维分析框架覆盖数据→预训练→后训练全链路，对理解数据筛选在整体训练中的位置有参考价值",
       "discovered_date": "2026-11-11"
+    },
+    {
+      "title": "Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models",
+      "url": "https://arxiv.org/abs/2611.xxxxx",
+      "authors": [
+        "Yik Siu Chan",
+        "Jing Huang",
+        "Yanai Elazar",
+        "Atticus Geiger"
+      ],
+      "year": "2026",
+      "description": "Investigates how pretraining data statistics shape the phases of learning entity comparison in language models. Studies how data composition and distribution affect LM learning dynamics.",
+      "source_channel": "arXiv",
+      "category": "data_analysis",
+      "relevance_score": 3
+    },
+    {
+      "title": "Human or Synthetic? What a Fixed Budget Buys for Post-Training",
+      "url": "https://arxiv.org/abs/2611.xxxxx",
+      "authors": [
+        "Shourik Banerjee",
+        "Ethan Mendes",
+        "Mohit Raghavendra",
+        "Wei Xu",
+        "Alan Ritter"
+      ],
+      "year": "2026",
+      "description": "Compares human vs synthetic data quality tradeoffs for LLM post-training under fixed budget constraints. Provides empirical guidance on when to invest in human annotations vs synthetic data generation.",
+      "source_channel": "arXiv",
+      "category": "data_quality",
+      "relevance_score": 3
+    },
+    {
+      "title": "Data Schedules and Learning Rate Schedules Should Be Designed Together",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Haodong Wen",
+        "Kairong Luo",
+        "Tingkai Yan",
+        "Wenguang Chen",
+        "Kaifeng Lyu"
+      ],
+      "year": "2026",
+      "description": "Demonstrates that data schedules (curriculum) and learning rate schedules in LLM mid-training are coupled and should be co-designed. Shows that naive combination of independent schedules leads to suboptimal performance.",
+      "source_channel": "arXiv",
+      "category": "curriculum_learning",
+      "relevance_score": 3
+    },
+    {
+      "title": "Agentic Data Engineering for LLMs: System Design and a Controlled Empirical Study",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Ruomeng Ding",
+        "Qianli Shen",
+        "Zhaoyang Han",
+        "Meixin Chen",
+        "Daoyuan Chen",
+        "Yaliang Li"
+      ],
+      "year": "2026",
+      "description": "Presents a system design for agentic data engineering where AI agents automate data curation, quality assessment, and pipeline orchestration for LLM training. Includes empirical evaluation of automated vs manual curation.",
+      "source_channel": "arXiv",
+      "category": "data_pipeline",
+      "relevance_score": 3
+    },
+    {
+      "title": "Cascade: GPU-Accelerated Out-of-Core Suffix Array Construction for LLM Corpora",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Jamshed Khan",
+        "Prashant Pandey"
+      ],
+      "year": "2026",
+      "description": "Introduces Cascade, a GPU-accelerated algorithm for constructing suffix arrays on LLM-scale corpora that exceed memory. Enables efficient deduplication, contamination detection, and substring search at trillion-token scale.",
+      "source_channel": "arXiv",
+      "category": "deduplication",
+      "relevance_score": 3
+    },
+    {
+      "title": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Cehao Yang",
+        "Xiaojun Wu",
+        "Xueyuan Lin",
+        "Chengjin Xu",
+        "Xuhui Jiang"
+      ],
+      "year": "2026",
+      "description": "Introduces DataFoundry, a framework for automatically evolving data preparation pipelines through recursive self-improvement. Uses evolutionary strategies to optimize filtering, cleaning, and transformation steps.",
+      "source_channel": "arXiv",
+      "category": "data_pipeline",
+      "relevance_score": 3
+    },
+    {
+      "title": "Curriculum Learning Teaches LLMs Long-Horizon Implicit Reasoning, Up To A Limit",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Jimson Huang",
+        "Maxwell Nickell",
+        "Ruowang Zhang",
+        "Abulhair Saparov"
+      ],
+      "year": "2026",
+      "description": "Studies the effectiveness and limitations of curriculum learning for teaching LLMs long-horizon implicit reasoning. Identifies performance cliffs and provides guidance on curriculum design for reasoning tasks.",
+      "source_channel": "arXiv",
+      "category": "curriculum_learning",
+      "relevance_score": 3
+    },
+    {
+      "title": "Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for Large Language Model Pretraining",
+      "url": "https://arxiv.org/abs/2508.xxxxx",
+      "authors": [
+        "Yicheng Mao",
+        "Hongru Du"
+      ],
+      "year": "2026",
+      "description": "Applies response surface methodology from statistics to optimize data mixing ratios for LLM pretraining. Provides principled experimental design for finding optimal domain proportions.",
+      "source_channel": "arXiv",
+      "category": "data_mixing",
+      "relevance_score": 3
+    },
+    {
+      "title": "DRIFT: Data Selection for LLM Instruction Tuning via On-Policy Attribution",
+      "url": "https://arxiv.org/abs/2506.xxxxx",
+      "authors": [
+        "Zefan Wang",
+        "Lincheng Li",
+        "Tianyu Yu",
+        "Yuan Yao"
+      ],
+      "year": "2026",
+      "description": "Proposes DRIFT, an on-policy data selection method for instruction tuning that uses attribution scores to identify the most valuable training examples. Achieves strong performance with a fraction of training data.",
+      "source_channel": "arXiv",
+      "category": "data_selection",
+      "relevance_score": 3
+    },
+    {
+      "title": "UltraData-Code: From Raw Repositories to Algorithmically Dense and Task-Oriented Code Data",
+      "url": "https://arxiv.org/abs/2510.xxxxx",
+      "authors": [
+        "Chengying Tu",
+        "Hengyu Zhao",
+        "Shuaikang Xue",
+        "Zhongming Qu",
+        "Jihao Zhou",
+        "Xinle Lin",
+        "Junshao Guo",
+        "Zixuan Fu",
+        "Qiang Ma",
+        "Jie Zhou",
+        "Chaojun Xiao",
+        "Hongfei Yan",
+        "Yudong Wang",
+        "Xu Han",
+        "Zhiyuan Liu",
+        "Maosong Sun"
+      ],
+      "year": "2026",
+      "description": "Presents UltraData-Code, a pipeline for curating high-quality code training data from raw repositories. Focuses on algorithmic density and task orientation through multi-stage filtering and quality assessment.",
+      "source_channel": "arXiv",
+      "category": "domain_specific",
+      "relevance_score": 3
     }
   ],
   "tools_and_repos": [
@@ -3724,6 +3887,70 @@
       "relevance_score": 7,
       "relevance_note": "FtF论文的配套代码，实现基于SAE特征的指令微调数据选择",
       "discovered_date": "2026-11-11"
+    },
+    {
+      "title": "LLM_based_Synthetic_Data_Generation",
+      "url": "https://github.com/ahmad-alismail/LLM_based_Synthetic_Data_Generation",
+      "description": "A curated and continuously updated collection of papers, tools, and datasets on LLM-based synthetic data generation. Serves as a meta-resource for the synthetic data ecosystem.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "llm-finetuning-dataset-pipeline",
+      "url": "https://github.com/daksht230-rgb/llm-finetuning-dataset-pipeline",
+      "description": "Production-grade LLM dataset curation and preference alignment pipeline for DPO/RLHF training. Includes data collection, filtering, quality scoring, and format conversion.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "llm-dataset-curation",
+      "url": "https://github.com/SuperJohn/llm-dataset-curation",
+      "description": "Clean LLM training data pipeline with MinHash near-deduplication, quality filters, PII redaction, and tokenization preprocessing.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "dataset-foundry",
+      "url": "https://github.com/ownasquare/dataset-foundry",
+      "description": "Local-first synthetic training-data generation framework with quality filtering, human review, and feedback loops for iterative data improvement.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "Polyglot_Data_Filtering_and_Processing_Pipeline",
+      "url": "https://github.com/Ahmad21Omar/Polyglot_Data_Filtering_and_Processing_Pipeline",
+      "description": "Reproducible stage-by-stage data-curation pipeline for multilingual LLM post-training. Covers language identification, quality filtering, deduplication, and domain balancing.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "post-training-data-atlas",
+      "url": "https://github.com/lukedhlee/post-training-data-atlas",
+      "description": "Open, filterable catalogue of SFT datasets and RL environments for LLM post-training. Provides structured metadata for dataset discovery and comparison.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "ai_evaluator",
+      "url": "https://github.com/Ben2005-hub/ai_evaluator",
+      "description": "Automated two-stage AI data evaluation pipeline designed to audit and refine training datasets. Uses model-based quality scoring and anomaly detection.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
+    },
+    {
+      "title": "Custom_LLM_DataGen_Template",
+      "url": "https://github.com/BlazeWild/Custom_LLM_DataGen_Template",
+      "description": "Modular pipeline for generating high-quality, domain-specific datasets for LLM training. Supports customizable generation strategies and quality filters.",
+      "source_channel": "GitHub",
+      "category": "tool",
+      "relevance_score": 2
     }
   ],
   "blog_posts_and_tutorials": [
@@ -3812,6 +4039,30 @@
       "relevance": "low",
       "summary": "Tool for structured field extraction from documents, relevant for data preprocessing pipelines.",
       "incremental_type": "strict_new"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "description": "Introduces LLMON, an LLM-native markup language designed for structured data representation. While not directly about data curation, it introduces new data formatting paradigms relevant to training data preparation.",
+      "source_channel": "HuggingFace Blog",
+      "category": "blog",
+      "relevance_score": 2
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "description": "Presents a sub-billion-parameter model trained with aggressive data curation to achieve on-device agentic capabilities. Demonstrates that small models can perform well with carefully curated training data.",
+      "source_channel": "HuggingFace Blog",
+      "category": "blog",
+      "relevance_score": 2
+    },
+    {
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "description": "Discusses token pooling strategies for embedding model training, including data preparation techniques specific to multi-vector representations.",
+      "source_channel": "HuggingFace Blog",
+      "category": "blog",
+      "relevance_score": 2
     }
   ],
   "taxonomy_summary": {
