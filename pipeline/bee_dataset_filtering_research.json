@@ -3407,6 +3407,165 @@
       "source_channel": "arXiv",
       "category": "domain_specific",
       "relevance_score": 3
+    },
+    {
+      "title": "Reasoning Quality Emerges Early: Data Curation for Reasoning Models",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2606.26797.pdf",
+      "abstract_snippet": "Shows that diverse and challenging reasoning examples can be identified using only the initial reasoning tokens. Difficult problems are reliably detected based on the loss of the first 100 reasoning tokens evaluated at a randomly perturbed checkpoint. Examples with similar loss patterns provably induce similar gradients.",
+      "key_methods": [
+        "early-token loss scoring",
+        "perturbed checkpoint evaluation",
+        "gradient similarity analysis"
+      ],
+      "relevance": "High — novel data curation method for reasoning SFT that is 91% more token-efficient than existing baselines, outperforms by up to 1.7%. Directly applicable to reasoning model training pipelines."
+    },
+    {
+      "title": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2607.17205.pdf",
+      "abstract_snippet": "Systematic empirical study of trajectory data filtering for LoRA fine-tuning of Qwen2.5-Coder-7B-Instruct on the SWE-trajectory dataset (67K trajectories). Proposes a two-axis quality scoring framework — Efficiency and Style — and evaluates through 16 controlled experiments. Reveals scale-dependent quality-quantity trade-off.",
+      "key_methods": [
+        "two-axis quality scoring (Efficiency + Style)",
+        "error-retry rate scoring",
+        "CE-loss proxy validation"
+      ],
+      "relevance": "High — provides actionable guidance on trajectory-level quality scoring for code agent SFT, with validated proxy metrics for when end-to-end evaluation is infeasible."
+    },
+    {
+      "title": "Decouple Searching from Training: Scaling Data Mixing via Model Merging (DeMix)",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2602.00747.pdf",
+      "abstract_snippet": "Proposes DeMix, a framework that leverages model merging to predict optimal data ratios. Trains component models on candidate datasets at scale and derives data mixture proxies via weighted model merging, decoupling search from training costs. Releases DeMix Corpora — a 22T-token dataset.",
+      "key_methods": [
+        "model merging as mixture proxy",
+        "decoupled search-training paradigm",
+        "weighted SLERP merging"
+      ],
+      "relevance": "High — novel paradigm for data mixing optimization that eliminates expensive proxy training. The 22T-token DeMix Corpora is a significant open resource."
+    },
+    {
+      "title": "Logics-STEM: Empowering LLM Reasoning via Failure-Driven Post-Training and Document Knowledge Enhancement",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2601.01562.pdf",
+      "abstract_snippet": "Introduces Logics-STEM-SFT-Dataset, a 10M-scale long chain-of-thought corpus for STEM reasoning. Features a 5-stage data curation engine: annotation, deduplication, decontamination, distillation, and stratified sampling. Achieves 4.68% average improvement over next-best model at 8B scale.",
+      "key_methods": [
+        "5-stage curation pipeline",
+        "failure-driven post-training",
+        "data-algorithm co-design",
+        "stratified sampling"
+      ],
+      "relevance": "High — comprehensive data curation pipeline for reasoning SFT at 10M scale with strong empirical results. The 5-stage pipeline is a reusable template."
+    },
+    {
+      "title": "First-Order In-Context Shapley: Scalable Data Auditing for LLM Alignment and Evaluation",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2607.22766.pdf",
+      "abstract_snippet": "Inference-only valuation pipeline computing first-order in-context Shapley values via semantic k-NN neighborhoods. Achieves 4.5x enrichment in confirmed errors on HelpSteer2, catches contradictions missed by zero-shot likelihood filters. Auditing HH-RLHF exposes label errors where aligned models disagree with human labels 73-83% of the time.",
+      "key_methods": [
+        "inference-only Shapley approximation",
+        "directed influence graph",
+        "pairwise log-likelihood shifts"
+      ],
+      "relevance": "High — practical data auditing method for preference datasets that requires no model retraining. Directly applicable to cleaning alignment data."
+    },
+    {
+      "title": "Optimized for AI: Curating the Icelandic Gigaword Corpus for Stable LLM Training",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://pdfs.semanticscholar.org/353d/f1ebe38935756e193835466b8238df6961b0.pdf",
+      "abstract_snippet": "New processing pipeline to optimize the Icelandic Gigaword Corpus (2.7B words) for AI development. Includes filtering for training stability, fuzzy deduplication to reduce data leakage risk, and a new JSONL distribution format bridging TEI-XML to machine-actionable data.",
+      "key_methods": [
+        "training-stability filtering",
+        "fuzzy deduplication",
+        "TEI-XML to JSONL conversion"
+      ],
+      "relevance": "Medium — domain-specific corpus curation pipeline with transferable techniques for low-resource language data preparation."
+    },
+    {
+      "title": "High Quality Malay Corpus via LLM-Aided Validation",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11498167",
+      "abstract_snippet": "LLM-aided validation framework introducing sentence-level evaluation as a final quality control stage for Malay corpora. Uses locally deployed Gemma-2 9B aligned with Malay Language Standard Framework (KSBM). Scores aggregated into six levels (TP1-TP6) for systematic filtering.",
+      "key_methods": [
+        "LLM-as-linguistic-evaluator",
+        "sentence-level quality scoring",
+        "KSBM-aligned metrics",
+        "local deployment"
+      ],
+      "relevance": "Medium — demonstrates LLM-based quality validation for low-resource language corpora, with privacy-preserving local deployment."
+    },
+    {
+      "title": "A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2602.14696.pdf",
+      "abstract_snippet": "Systematic analysis of targeted instruction selection, disentangling data representation and selection algorithms. Finds that only gradient-based representations consistently predict performance across datasets. Unifies several algorithms as forms of approximate distance minimization. Provides new generalization bounds.",
+      "key_methods": [
+        "gradient-based data representation",
+        "greedy round-robin selection",
+        "distance minimization framework"
+      ],
+      "relevance": "High — brings clarity to instruction selection landscape with controlled comparisons and theoretical grounding. Actionable guidance for practitioners."
+    },
+    {
+      "title": "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2602.07298.pdf",
+      "abstract_snippet": "Layered framework for generating high-quality synthetic data creating a curated pedagogical curriculum for LLMs in recommendation. Shows +130% recall@100 improvement over real-data training. First demonstration of robust power-law scaling for LLM continual pre-training on recommendation data.",
+      "key_methods": [
+        "layered synthetic data generation",
+        "pedagogical curriculum design",
+        "scaling law validation"
+      ],
+      "relevance": "Medium — demonstrates that principled data curation of synthetic data can establish scaling laws, with transferable insights on curriculum design."
+    },
+    {
+      "title": "RTLCurator: Label-Efficient Data Curation for RTL Generation",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2607.29283.pdf",
+      "abstract_snippet": "Behavior-aware data curation for RTL code generation. Learns a compatibility prior by contrasting specifications with failing implementations, then balances alignment, representation coverage, and structural richness. Keeping 80% of corpus via this method improves on full-corpus training while validating only 10%.",
+      "key_methods": [
+        "behavior-aware compatibility prior",
+        "simulation-based calibration",
+        "multi-objective subset selection"
+      ],
+      "relevance": "Medium — domain-specific data curation with transferable principles: balancing alignment, coverage, and richness rather than simple quality filtering."
+    },
+    {
+      "title": "compar:IA: The French Government's LLM Arena for French-Language Human Prompts and Preference Data",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2602.06669.pdf",
+      "abstract_snippet": "Open-source digital public service for collecting large-scale human preference data from French-speaking audiences. Has collected 600K+ prompts and 250K+ preference votes with 89% French data. Features blind pairwise comparison interface with privacy-preserving automated filtering.",
+      "key_methods": [
+        "blind pairwise comparison",
+        "automated quality filtering",
+        "multilingual preference collection"
+      ],
+      "relevance": "Medium — significant open multilingual preference dataset with documented quality filtering pipeline. Useful for multilingual alignment research."
+    },
+    {
+      "title": "Source-Adaptive Data Curation for Bilingual NVV-Aware ASR",
+      "authors": "Not extracted (from SearXNG)",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2609.09929.pdf",
+      "abstract_snippet": "Source-adaptive data curation strategy for bilingual Mandarin-English ASR that refines public NVV corpora through acoustic augmentation and multimodal LLM filtering, while mining spontaneous NVVs from in-the-wild media. Improves final score from 33.32 to 53.61.",
+      "key_methods": [
+        "source-adaptive curation",
+        "multimodal LLM filtering",
+        "acoustic augmentation",
+        "automated preprocessing"
+      ],
+      "relevance": "Medium — demonstrates multimodal LLM-based data filtering and augmentation pipeline for speech data, with transferable curation strategies."
     }
   ],
   "tools_and_repos": [

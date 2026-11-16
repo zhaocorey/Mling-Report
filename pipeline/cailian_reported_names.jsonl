@@ -32,6 +32,7 @@ paper	20/20 Vision Language Models: Better VLMs through Data Curation Alone
 paper	A Bitter Lesson for Data Filtering
 paper	A Bitter Lesson for Data Filtering ⭐⭐⭐⭐⭐
 paper	A Comprehensive Framework for All Stages of Large-Model Training: From Data and Tokenization, through Pretraining, to Post-Training Alignment
+paper	A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn't)
 paper	A Survey of Text Deduplication: From Syntactic Matching to Semantic Understanding
 paper	A Survey on Evaluating Quality and Trustworthiness in LLM-Generated Data (LLM Data Auditor)
 paper	A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents
@@ -79,6 +80,7 @@ paper	CircuitLens: Reasoning Circuits as Data Selection Signals for Reinforcemen
 paper	CLIVO: Differentiable Cluster-Based Instruction Mixing with Learned Validation Objectives
 paper	Co-Adaptive Multi-Task LoRA: Transfer-Aware, Label-Free Control of Domain Participation
 paper	Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training
+paper	compar:IA: The French Government's LLM Arena for French-Language Human Prompts and Preference Data
 paper	Coreset 选择
 paper	Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks
 paper	Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision
@@ -159,6 +161,7 @@ paper	Fidelity-Diversity Metrics for Data Selection
 paper	Filter-then-Weight: Online Data Selection and Reweighting for LLM Fine-Tuning
 paper	Fine PT-PT Web: A High-Quality 41 Billion Tokens Data Collection of the European Portuguese Web
 paper	FinerWeb-10BT: Refining Web Data with LLM-Based Line-Level Filtering
+paper	First-Order In-Context Shapley: Scalable Data Auditing for LLM Alignment and Evaluation
 paper	Fisher-Guided Submodular Data Selection for Continual Pre-Training of Large Language Models
 paper	FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation
 paper	Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction
@@ -186,6 +189,7 @@ paper	GradAlign: Gradient-Aligned Data Selection for LLM Reinforcement Learning
 paper	GRADFILTERING: Uncertainty-Aware Gradient Signal-to-Noise Data Selection
 paper	Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders
 paper	HARP: Efficient Data Selection for Finetuning Large Language Models
+paper	High Quality Malay Corpus via LLM-Aided Validation
 paper	Holistic Data Scheduler (HDS): Online Data Mixing via Multi-Objective Reinforcement Learning
 paper	Host-Aware Web Crawling for LLM Pretraining Data
 paper	How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining
@@ -224,6 +228,7 @@ paper	LESSER: Post-Training Data Selection with Output-Layer Gradients
 paper	LinMix: Data Mixing as Linear Domain Attribution
 paper	LLM Benchmark Datasets Should Be Contamination-Resistant
 paper	LLM-powered Coreset Selection for Time Series Incremental Learning
+paper	Logics-STEM: Empowering LLM Reasoning via Failure-Driven Post-Training and Document Knowledge Enhancement
 paper	MADS: Model-Aware Diverse Core Set Selection for Instruction Tuning
 paper	Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
 paper	Messages, Not Tokens: Grounded Coresets for Faithful VLM Compression
@@ -244,6 +249,7 @@ paper	On the Difficulty of Learning a Meta-network for Training Data Selection (
 paper	One Pass, Three Purchases: Deduplication's Efficiency, Generalisation and Privacy Arguments
 paper	Online Data Selection Is Implicit Alignment
 paper	OpenThoughts-Agent: Data Recipes for Agentic Models
+paper	Optimized for AI: Curating the Icelandic Gigaword Corpus for Stable LLM Training
 paper	Optimizing Training Data Diversity with DataSpinner
 paper	OptiSelect: How does the Optimizer Shape Data Curriculum?
 paper	OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration
@@ -257,6 +263,7 @@ paper	PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Mode
 paper	Predicting Training Re-evaluation Curves Enables Effective Data Curriculums (TREC)
 paper	Preference Data Selection for Mitigating the Alignment Tax in Large Language Models
 paper	Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models
+paper	Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation
 paper	PRISM: Preference-Aware Influence Function Based Data Selection Method for Efficient Fine-Tuning
 paper	propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale
 paper	Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation
@@ -283,6 +290,7 @@ paper	Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?
 paper	RL-Optimized Synthetic Data Generation for Targeted Language Model Training
 paper	RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility
 paper	Robust LLM Data Selection via Content-Invariant Gradient Attribution
+paper	RTLCurator: Label-Efficient Data Curation for RTL Generation
 paper	Scalable Entity-Centric Data Filtration for LLM Pretraining
 paper	Scalable, Transferable Meta-network for Data Selection Requires a Different Loss
 paper	Scaling Laws for Multimodal Data Mixtures
@@ -299,6 +307,7 @@ paper	SHIFT: Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Se
 paper	SIEVE: Streaming Inference for Efficient Verification and Evaluation
 paper	Simula: Reasoning-Driven Synthetic Data Generation and Evaluation
 paper	SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning
+paper	Source-Adaptive Data Curation for Bilingual NVV-Aware ASR
 paper	STAFF: Speculative Coreset Selection for Task-Specific Fine-tuning
 paper	Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data
 paper	Surprise Masking: Private Data Filtering with Model Likelihoods
