@@ -11,8 +11,8 @@
     ],
     "focus": "Dataset filtering/sampling/construction/retrieval techniques for ML/LLM training",
     "time_range": "Primarily 2023-2026, emphasis on 2024-2025",
-    "last_updated": "2026-11-15T09:14:00+08:00",
-    "total_papers": 247,
+    "last_updated": "2026-11-18T09:17:00+08:00",
+    "total_papers": 265,
     "total_tools": 59,
     "total_blogs": 14,
     "total_tools_and_repos": 59
@@ -3566,6 +3566,126 @@
         "automated preprocessing"
       ],
       "relevance": "Medium — demonstrates multimodal LLM-based data filtering and augmentation pipeline for speech data, with transferable curation strategies."
+    },
+    {
+      "title": "Safety-Preserving Medical LLM Fine-Tuning via Bilevel Data Selection",
+      "authors": [
+        "Ruoxi Shi",
+        "Sheng Yang",
+        "Zhengxing Su",
+        "Xiaoyang Hou",
+        "Yating Liu"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2611.20643",
+      "abstract": "We propose Scalable Bilevel Data Selection (S-BDS) for safety-preserving medical SFT. By controlling selection-weight concentration, S-BDS enables reliable sample ranking over large candidate pools and identifies training examples that improve medical capability while controlling patient-facing risks. Experiments across Llama and Qwen models show S-BDS achieves the highest safe rates, outperforming the strongest baselines by 4.64 and 3.00 percentage points respectively, while maintaining competitive medical capability.",
+      "key_methods": [
+        "bilevel optimization",
+        "selection-weight concentration control",
+        "clinician-validated safe data",
+        "safety-capability trade-off control"
+      ],
+      "relevance": "high"
+    },
+    {
+      "title": "Data Attribution Should Steer Pretraining",
+      "authors": [
+        "Glenn Matlin",
+        "Chandreyi Chakraborty",
+        "Mohammed Rehan Parwani",
+        "Saehee Eom",
+        "Anthony Wen-Ming Zang",
+        "Akhil Theerthala",
+        "Arjun Chatterjee",
+        "Tejas Khandwekar",
+        "Brandon Michaels",
+        "Alvin Deng",
+        "Mark Riedl"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Data+Attribution+Should+Steer+Pretraining",
+      "abstract": "Pretraining data curation decides what a model learns from, yet what makes a document worth learning from depends on what the model already knows. Influence-driven selectors already rank documents to improve one run; we argue that training-data attribution should steer pretraining by identifying testable data properties that become reusable curation criteria, evaluated on new data against cheaper proxy metrics. This creates a feedback loop from attribution to curation that can be reused across pretraining runs.",
+      "key_methods": [
+        "attribution-to-curation feedback loop",
+        "reusable curation criteria",
+        "proxy metric evaluation"
+      ],
+      "relevance": "high"
+    },
+    {
+      "title": "On Representational and Functional Alignment of Training Data Attribution Methods for Language Models",
+      "authors": [
+        "Loris Schoenegger",
+        "Benjamin Roth"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2611.19286",
+      "abstract": "We introduce a framework for directly comparing TDA methods along three dimensions: functional alignment (correlation between full attribution vectors), representational alignment (structural similarity of underlying representations), and cross-method predictability (agreement on local pairwise ranking decisions). We observe strong representational and moderate functional alignment within paradigms. Alignment across paradigms is low and task-dependent, yet stable across models. Similar downstream performance across paradigms can be attributed to agreement on relative importance of documents rather than full training data rankings.",
+      "key_methods": [
+        "functional alignment",
+        "representational alignment",
+        "cross-method predictability",
+        "cross-paradigm TDA comparison"
+      ],
+      "relevance": "high"
+    },
+    {
+      "title": "Efficient and Accurate Causal Validation of Training Data Attribution",
+      "authors": [
+        "Simon Vary",
+        "Alireza Mousavi-Hosseini",
+        "Roger Grosse"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2611.19451",
+      "abstract": "We reduce the computation needed to estimate the Linear Datamodeling Score (LDS) along three axes: the number of sampled training subsets, the number of retraining seeds per subset, and the number of models in the attribution ensemble. Each factor induces a form of bias in LDS estimation, and removing these sources of bias significantly reduces retrainings needed. On ResNet-9/CIFAR-10, finite-subset debiasing achieves 3.2% relative RMSE with as few as 4 subsets, and 32 subsets match the accuracy of ordinary Spearman using 96 subsets. Estimating training-noise variance reproduces the standard five-seed LDS at the same accuracy with 2-5x fewer retrainings.",
+      "key_methods": [
+        "finite-subset debiasing",
+        "training-noise variance estimation",
+        "multi-axis LDS optimization",
+        "bias removal for subset sampling"
+      ],
+      "relevance": "high"
+    },
+    {
+      "title": "Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution",
+      "authors": [
+        "Matthew Kowal",
+        "Goncalo Paulo",
+        "Louis Jaburi",
+        "Tom Tseng",
+        "Lev E McKinney",
+        "Stefan Heimersheim",
+        "Aaron David Tucker",
+        "Adam Gleave",
+        "Kellin Pelrine"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/search/?query=Concept+Influence+Kowal+2026",
+      "abstract": "As large language models are increasingly trained and fine-tuned, practitioners need methods to identify which training data drive specific behaviors, particularly unintended ones. Concept Influence leverages interpretable structures such as sparse autoencoders (SAEs) and linear probes to improve the scalability and accuracy of training data attribution. This v2 update extends the original February 2026 paper with improved methods and additional experiments.",
+      "key_methods": [
+        "sparse autoencoders (SAE)",
+        "linear probes",
+        "concept-level data attribution",
+        "interpretable influence estimation"
+      ],
+      "relevance": "high"
+    },
+    {
+      "title": "Ambiguous Examples Help, But Full Data Wins: Revisiting Dataset Cartography for Extractive Adversarial QA",
+      "authors": [
+        "Paul K. Mandal"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2611.19763",
+      "abstract": "We revisit dataset cartography in a stricter setting: open-ended extractive question answering, where models must predict answer spans rather than classify question-sentence pairs. For each encoder family, we compute clean-source SQuAD training dynamics and train on full, random, easy-ranked, ambiguous-ranked, and hard-ranked subsets. Ambiguous-ranked 33% subsets beat random 33% subsets on exact-match accuracy in all 14 model-evaluation cells, but full-data training beats ambiguous-ranked training in 12/14 cells, with mean gains of 3.40 EM and 4.10 F1. Clean-source cartography remains useful for reduced-data selection, but its OOD advantage does not carry over as a general replacement for full-data training.",
+      "key_methods": [
+        "dataset cartography",
+        "training dynamics analysis",
+        "ambiguous subset selection",
+        "adversarial QA evaluation"
+      ],
+      "relevance": "medium"
     }
   ],
   "tools_and_repos": [
